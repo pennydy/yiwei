@@ -1,0 +1,11 @@
+.DS_Store
+
+.Rproj.user
+.Rapp.history
+
+# data
+data/yiwei.xlsx
+
+# writing
+writings/*
+
