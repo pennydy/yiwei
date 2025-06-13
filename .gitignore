@@ -5,6 +5,8 @@
 
 # data
 data/yiwei.xlsx
+data/child/*
+data/other_speakers/*
 
 # writing
 writings/*

@@ -7,6 +7,7 @@ library(tidyverse)
 library(ggplot2)
 library(ggrepel)
 library(ggsignif)
+library(ggpattern)
 library(tidytext)
 library(RColorBrewer)
 library(stringr)
@@ -19,6 +20,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # 0. load the data ----
 # 16: repeated for correction; 23, 79, 63: incomplete; 129: question
+# 56?
 annotation.data <- read.csv("../../data/yiwei.csv", header=TRUE) %>% 
   filter(!(id %in% c("16", "23", "129", "79", "63"))) 
 
@@ -42,6 +44,21 @@ child_embed_clause <- data.frame(table(child_summary$embedded_type))
 colnames(child_embed_clause) <- c("clause_type", "count")
 child_embed_clause
 
+### matrix subject x clause type ----
+child_matrix_clause_subject <- child_summary %>% 
+  mutate(sentence_type = if_else(sentence_type == "interrogative", sentence_type , "declarative")) %>% 
+  group_by(subject, sentence_type) %>% 
+  summarize(count=n()) %>% 
+  ungroup()
+child_matrix_clause_subject
+
+### embed subject x clause type ----
+child_embed_clause_subject <- child_summary %>% 
+  group_by(embedded_subject, embedded_type) %>% 
+  summarize(count=n()) %>% 
+  ungroup()
+child_embed_clause_subject
+
 ### discourse status ----
 child_discourse <- data.frame(table(child_summary$in_context))
 colnames(child_discourse) <- c("discourse_type", "count")
@@ -53,8 +70,8 @@ child_discourse <- child_discourse %>%
 child_discourse
 
 child_discourse_summary <- child_discourse %>% 
-  mutate(discourse_type = if_else(grepl("against", discourse_type), "unclear", discourse_type)) %>% 
-  mutate(p_not_p = if_else(!(discourse_type %in% c("p", "unclear", "no")), "contrast", discourse_type)) %>% 
+  mutate(discourse_type = if_else(grepl("against", discourse_type), "inferable", discourse_type)) %>% 
+  mutate(p_not_p = if_else(!(discourse_type %in% c("p", "unclear", "no", "inferable")), "contrast", discourse_type)) %>% 
   group_by(p_not_p) %>% 
   summarize(count = sum(count)) %>% 
   ungroup()
@@ -85,6 +102,20 @@ adult_embed_clause <- data.frame(table(adult_summary$embedded_type))
 colnames(adult_embed_clause) <- c("clause_type", "count")
 adult_embed_clause
   
+### matrix subject x clause type ----
+adult_matrix_clause_subject <- adult_summary %>% 
+  mutate(sentence_type = if_else(sentence_type == "interrogative", sentence_type , "declarative")) %>% 
+  group_by(subject, sentence_type) %>% 
+  summarize(count=n()) %>% 
+  ungroup()
+adult_matrix_clause_subject
+
+### embed subject x clause type ----
+adult_embed_clause_subject <- adult_summary %>% 
+  group_by(embedded_subject, embedded_type) %>% 
+  summarize(count=n()) %>% 
+  ungroup()
+adult_embed_clause_subject
 
 ### discourse status ----
 adult_discourse <- data.frame(table(adult_summary$in_context))
@@ -97,9 +128,9 @@ adult_discourse <- adult_discourse %>%
 adult_discourse
 
 adult_discourse_summary <- adult_discourse %>% 
-  mutate(discourse_type = if_else(grepl("against", discourse_type), "unclear", discourse_type)) %>% 
+  mutate(discourse_type = if_else(grepl("against", discourse_type), "inferable", discourse_type)) %>% 
   mutate(discourse_type = if_else(grepl("p_alt", discourse_type), "p_alt", discourse_type)) %>% 
-  mutate(p_not_p = if_else(!(discourse_type %in% c("p", "unclear","no")), "contrast", discourse_type)) %>% 
+  mutate(p_not_p = if_else(!(discourse_type %in% c("p", "unclear","no", "inferable")), "contrast", discourse_type)) %>% 
   group_by(p_not_p) %>% 
   summarize(count = sum(count)) %>% 
   ungroup()
@@ -125,16 +156,24 @@ matrix_subject_plot<-ggplot(matrix_subject,
   geom_bar(position="fill",
            stat="identity")+
   geom_label(aes(label = count,
-                 group=factor(subject_type)), 
-             # fill="white",
+                 group=factor(subject_type)),
              position = position_fill(vjust = 0.5),
              show.legend = FALSE)+
   theme_bw()+
-  scale_fill_brewer(palette = "Set3",
-                    name="Subject Type") +
+  scale_fill_brewer(palette = "Set2",
+                    name="Subject Type",
+                    labels=c("Dropped", "First person", "Second person", "Other", "Unclear")) +
   scale_x_discrete(labels=c("input_subject" = "Children's input",
                             "output_subject" = "Children's output"))+
-  theme(axis.title.x = element_blank())+
+  theme(legend.position = "top",
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
   labs(y="Proportion")
 matrix_subject_plot
 ggsave(matrix_subject_plot, file="graphs/matrix_subject_plot.pdf", width=7, height=4)
@@ -154,18 +193,27 @@ embed_subject_plot<-ggplot(embed_subject,
                             aes(fill=subject_type, 
                                 y=count,
                                 x=input_output)) + 
-  geom_bar(position="fill",
+  geom_bar(position=position_fill(),
            stat="identity")+
   geom_label(aes(label = count,
                  group=factor(subject_type)), 
             position = position_fill(vjust = 0.5),
             show.legend = FALSE)+
   theme_bw()+
-  scale_fill_brewer(palette = "Set3",
-                    name="Subject Type") +
-  scale_x_discrete(labels=c("input_subject" = "Children's input",
-                            "output_subject" = "Children's output"))+
-  theme(axis.title.x = element_blank())+
+  scale_fill_brewer(palette = "Set2",
+                    name="Subject Type",
+                    labels = c("Dropped", "First person", "Second person", "Other")) +
+  scale_x_discrete(labels=c("input_subject" = "Child-ambient speech",
+                            "output_subject" = "Children's production"))+
+  theme(legend.position = "top",
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
   labs(y="Proportion")
 embed_subject_plot
 ggsave(embed_subject_plot, file="graphs/embed_subject_plot.pdf", width=7, height=4)
@@ -182,22 +230,36 @@ matrix_clause <- merge(child_matrix_clause, adult_matrix_clause,
                values_to = "count")
 
 matrix_clause_plot<-ggplot(matrix_clause, 
-                            aes(fill=clause_type, 
-                                y=count,
-                                x=input_output)) + 
-  geom_bar(position="fill",
-           stat="identity")+
+                            aes(y=count,
+                                x=input_output,
+                                pattern=clause_type)) + 
+  geom_col_pattern(position="fill",
+                   pattern_spacing = 0.02,
+                   pattern_frequency = 5,
+                   pattern_fill = "black",
+                   pattern_angle=45,
+                   pattern_alpha=0.4,
+                   alpha=0.3,
+                   linewidth=1)+
   geom_label(aes(label = count,
-                 group=factor(clause_type)), 
-             # fill="white",
+                 group=factor(clause_type)),
              position = position_fill(vjust = 0.5),
              show.legend = FALSE)+
   theme_bw()+
-  scale_fill_brewer(palette = "Set3",
-                    name="Clause Type") +
-  scale_x_discrete(labels=c("input_clause" = "Children's input",
-                            "output_clause" = "Children's output"))+
-  theme(axis.title.x = element_blank())+
+  scale_pattern_manual(values=c(declarative = 'stripe', 
+                                interrogative = 'none'),
+                       name = "Clause Type") +
+  scale_x_discrete(labels=c("input_clause" = "Child-ambient speech",
+                            "output_clause" = "Children's production"))+
+  theme(legend.position = "top",
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=12),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
   labs(y="Proportion")
 matrix_clause_plot
 ggsave(matrix_clause_plot, file="graphs/matrix_clause_plot.pdf", width=7, height=4)
@@ -206,7 +268,6 @@ ggsave(matrix_clause_plot, file="graphs/matrix_clause_plot.pdf", width=7, height
 embed_clause <- merge(child_embed_clause, adult_embed_clause, 
                        by=c("clause_type"),
                        all=TRUE) %>% 
-  # replace(., is.na(.), 0) %>% 
   rename(output_clause = "count.x", # child
          input_clause = "count.y") %>%  # adult
   pivot_longer(cols=c("output_clause", "input_clause"), 
@@ -214,24 +275,121 @@ embed_clause <- merge(child_embed_clause, adult_embed_clause,
                values_to = "count")
 
 embed_clause_plot<-ggplot(embed_clause, 
-                           aes(fill=clause_type, 
+                           aes(pattern=clause_type, 
                                y=count,
                                x=input_output)) + 
-  geom_bar(position="fill",
-           stat="identity")+
+  geom_col_pattern(position="fill",
+                   pattern_spacing = 0.02,
+                   pattern_frequency = 5,
+                   pattern_fill = "black",
+                   pattern_angle=45,
+                   pattern_alpha=0.4,
+                   alpha=0.3,
+                   linewidth=1)+
   geom_label(aes(label = count,
                  group=factor(clause_type)), 
              position = position_fill(vjust = 0.5),
              show.legend = FALSE)+
   theme_bw()+
-  scale_fill_brewer(palette = "Set3",
-                    name="Clause Type") +
-  scale_x_discrete(labels=c("input_clause" = "Children's input",
-                            "output_clause" = "Children's output"))+
-  theme(axis.title.x = element_blank())+
+  scale_pattern_manual(values=c(declarative = 'stripe',
+                                interrogative = 'none',
+                                unclear = 'weave'),
+                       name="Clause Type") +
+  scale_x_discrete(labels=c("input_clause" = "Child-ambient speech",
+                            "output_clause" = "Children's production"))+
+  theme(legend.position = "top",
+        axis.title.x = element_blank(),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=12),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
   labs(y="Proportion")
 embed_clause_plot
 ggsave(embed_clause_plot, file="graphs/embed_clause_plot.pdf", width=7, height=4)
+
+## matrix subject x clause type ----
+input_output_names <- list(
+  "input" = "Child-ambient speech",
+  "output" = "Children's production"
+)
+
+input_output_labeller <- function(variable, value){
+  return(input_output_names[value])
+}
+
+matrix_clause_subject <- merge(child_matrix_clause_subject, adult_matrix_clause_subject,
+                               by=c("subject", "sentence_type"),
+                        all=TRUE) %>% 
+  rename(output = "count.x", # child
+         input = "count.y") %>%  # adult
+  pivot_longer(cols=c("output", "input"), 
+               names_to = "input_output",
+               values_to = "count")
+matrix_clause_subject
+
+matrix_clause_subject_plot<-ggplot(matrix_clause_subject, 
+                          aes(fill=subject, 
+                              y=count,
+                              x=sentence_type)) + 
+  geom_bar(position=position_dodge2(preserve = "single"),
+           stat="identity")+
+  theme_bw()+
+  facet_grid(.~input_output, labeller=labeller(input_output=input_output_labeller))+
+  scale_fill_brewer(palette = "Set2",
+                    name="Matrix subject",
+                    labels = c("Dropped", "First person", "Second person", "Others", "Unclear")) +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  labs(x="Matrix clause type",
+       y="Counts")
+matrix_clause_subject_plot
+ggsave(matrix_clause_subject_plot, file="graphs/matrix_clause_subject_plot.pdf", width=7, height=4)
+
+## embed subject x clause type ----
+embed_clause_subject <- merge(child_embed_clause_subject, adult_embed_clause_subject,
+                               by=c("embedded_subject", "embedded_type"),
+                               all=TRUE) %>% 
+  rename(output = "count.x", # child
+         input = "count.y") %>%  # adult
+  pivot_longer(cols=c("output", "input"), 
+               names_to = "input_output",
+               values_to = "count")
+embed_clause_subject
+
+embed_clause_subject_plot<-ggplot(embed_clause_subject, 
+                                   aes(fill=embedded_subject, 
+                                       y=count,
+                                       x=embedded_type)) + 
+  geom_bar(position=position_dodge2(preserve = "single"),
+           stat="identity")+
+  theme_bw()+
+  facet_grid(.~input_output, labeller=labeller(input_output=input_output_labeller))+
+  scale_fill_brewer(palette = "Set2",
+                    name="Matrix subject",
+                    labels = c("Dropped", "First person", "Second person", "Others", "Unclear")) +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  labs(x="Embedded clause type",
+       y="Counts")
+embed_clause_subject_plot
+ggsave(embed_clause_subject_plot, file="graphs/embed_clause_subject_plot.pdf", width=7, height=4)
 
 ## discourse type ----
 discourse_summary <- merge(child_discourse_summary, adult_discourse_summary, 
@@ -257,9 +415,17 @@ discourse_plot<-ggplot(discourse_summary,
   theme_bw()+
   scale_fill_brewer(palette = "Set3",
                     name="Dicourse Status") +
-  scale_x_discrete(labels=c("input_subject" = "Children's input",
-                            "output_subject" = "Children's output"))+
-  theme(axis.title.x = element_blank())+
+  scale_x_discrete(labels=c("input_discourse_type" = "Child-ambient speech",
+                            "output_discourse_type" = "Children's production"))+
+  theme(axis.title.x = element_blank(),
+        legend.position = "top",
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
   labs(y="Proportion")
 discourse_plot
 ggsave(discourse_plot, file="graphs/discourse_plot.pdf", width=7, height=4)
