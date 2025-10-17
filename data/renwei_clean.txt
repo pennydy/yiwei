@@ -1,0 +1,473 @@
+----------------------------------------
+sent_id: 1
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/ChangPN/grade3/198.cha": line 266. Keyword: 认为 
+*CHI:	然后 后来 我 就 让 给 他 坐 . %snd:"198"_152759_154383
+*CHI:	然后 他 就 很 高兴, 坐 上去 . %snd:"198"_154383_156680
+*EXP:	嗯哼 . %snd:"198"_156680_157223
+*CHI:	然后 我 就 自己 再 去 搬 别的 椅子 来 坐 . %snd:"198"_157223_161151
+*EXP:	嗯哼 . %snd:"198"_161151_162615
+*CHI:	<然后>  [/] 然后 爸妈 就 认为 我 的 行为 很 好 . %snd:"198"_162615_169134
+*EXP:	嗯 . %snd:"198"_169134_169439
+*CHI:	就 奖励 我 . %snd:"198"_169439_170487
+*EXP:	真的 喔 . %snd:"198"_170487_171199
+*CHI:	嗯 . %snd:"198"_171199_171543
+*EXP:	嗯哼 . %snd:"198"_171543_172175
+----------------------------------------
+sent_id: 2
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/NSCtoys/4-6_2/a04_1.cha": line 408. Keyword: 认为 
+*MOT:	+" 那 我 现在 不 要 看 了 . %snd:"a04_1"_215056_216176
+*MOT:	+" 我 今天 要 早 一点 睡 . %snd:"a04_1"_216176_217264
+*CHI:	+" 好 . %snd:"a04_1"_217264_217968
+*MOT:	+" 那 我 需要 吃 药 吗 ? %snd:"a04_1"_217968_221392
+*CHI:	+" 要 . %snd:"a04_1"_221392_222361
+*MOT:	+" 姐姐 认为 是 要 吃 什么 药 啊 ? %snd:"a04_1"_222361_224689
+*CHI:	+" 吃 这 个 . %snd:"a04_1"_224689_225337
+*MOT:	+" 也 是 吃 一 颗 吗 ? %snd:"a04_1"_225337_228017
+*CHI:	+" 嗯 . %snd:"a04_1"_228017_228969
+*MOT:	+" 可是 我 手 这边 好像 有点 受伤 了 . %snd:"a04_1"_228969_231705
+*MOT:	+" 你 要 帮 我 擦 药 吗 ? %snd:"a04_1"_231705_233897
+----------------------------------------
+sent_id: 3
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/TCCM/yang/020900.cha": line 1070. Keyword: 认为 
+*MOT:	小 叮当 为什么 叫 小朋友 把 他 射 下来 ?
+*CHI:	因为 .
+*MOT:	因为 小 飞 侠 骂 他 呀 .
+*MOT:	他 好 生气 啊 .
+*MOT:	对不对 ?
+*MOT:	他 认为 是 那个 小 姊姊 害 他 的 啊 .
+*MOT:	所以 他 就 叫 小朋友 把 小 姊姊 射 下来 .
+*MOT:	是不是 ?
+*MOT:	你 要 讲 清楚 嘛 .
+*MOT:	要 讲 故事 就 要 讲 清楚 .
+*CHI:	然后 他 就 .
+----------------------------------------
+sent_id: 4
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/TCCM/chou/020100.cha": line 5480. Keyword: 认为 
+*EXA:	还有 叶子 .
+*EXA:	没 了 !
+*MOT:	哎 那 如果 你们 刚好 找到 的 那 个 小孩 都 不 讲话 .
+*MOT:	怎么 办 ?
+*EXA:	没有 啊 .
+*EXA:	通常 是 说 如果 家长 不 是 认为 他 不 会 讲话 .
+*EXA:	只是 说 通常 生人 的话 .
+*EXA:	那 可能 多 去 几 次 的话, 那 就 会 比较 好 .
+*MOT:	喔 .
+*MOT:	可是 像 那个 c_c@s:eng 他 弟弟 .
+*MOT:	我 那 个 弟弟 的 老大 喔 .
+----------------------------------------
+sent_id: 5
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/60/fb17.cha": line 1383. Keyword: 认为 
+*MOT:	&~嗯 不错 .
+*CHI:	这 个 鱼 漂亮 .
+*MOT:	这 个 鱼 很 漂亮 .
+*CHI:	为什么 ?
+*MOT:	那 我 觉得 这边 好像 还 差 个 小 鸟 什么 的 .
+*MOT:	你 认为 呢 ?
+*CHI:	我 认为 画 一 个 啄木鸟 好 .
+*MOT:	那 就 画 个 啄木鸟 吧 .
+*CHI:	咖啡色 的 .
+*CHI:	我 想 画 一 个 .
+*MOT:	那 好 吧 就 画 一 个 .
+----------------------------------------
+sent_id: 6
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/60/fb17.cha": line 1387. Keyword: 认为 
+*CHI:	这 个 鱼 漂亮 .
+*MOT:	这 个 鱼 很 漂亮 .
+*CHI:	为什么 ?
+*MOT:	那 我 觉得 这边 好像 还 差 个 小 鸟 什么 的 .
+*MOT:	你 认为 呢 ?
+*CHI:	我 认为 画 一 个 啄木鸟 好 .
+*MOT:	那 就 画 个 啄木鸟 吧 .
+*CHI:	咖啡色 的 .
+*CHI:	我 想 画 一 个 .
+*MOT:	那 好 吧 就 画 一 个 .
+*CHI:	小 鸟 头发 是 乱蓬蓬的 .
+----------------------------------------
+sent_id: 7
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/60/ma05.cha": line 1783. Keyword: 认为 
+*MOT:	&~啊 就 好像 我们 冬天 的 那 时候 要 盖 被子 .
+*MOT:	对 吧 ?
+*MOT:	能 保暖 .
+*MOT:	小 企鹅 飞快地 搬 了 一 只 冰 袋 盖 到 小 星星 的 身 上 , 才 满意地 走 了 .
+*MOT:	它们 不 知道 小 星星 需要 什么 对 吧 ?
+*MOT:	它们 把 它们 认为 小 星星 需要 的 东西 都 强 加 到 小 星星 的 身 上 .
+*MOT:	所以 小 星星 一直 是 哼哼唧唧 的 哭 .
+*MOT:	小 星星 穿 着 皮 袄 .
+*MOT:	顶 着 乌龟 壳 .
+*MOT:	盖 着 羽毛 被 .
+*MOT:	又 压 着 一 个 冰 袋 .
+----------------------------------------
+sent_id: 8
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/42/ma02.cha": line 23. Keyword: 认为 
+@Bg:	Blocks
+@Types:	cross, toyplay, TD
+*MOT:	打开 吧 .
+*MOT:	&~吆 这里 有 什么 东西 啊 ?
+*MOT:	你 看看 这 是 什么 东西 啊 ?
+*MOT:	你 认为 是 什么 东西 ?
+*MOT:	&~吆 这 可以 拼 成 各种各样的 图 .
+*MOT:	你 会不会 拼 ?
+*MOT:	我们 拼 一 个 „ 好不好 ?
+----------------------------------------
+sent_id: 9
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/42/ma05.cha": line 1477. Keyword: 认为 
+*MOT:	什么 东西 这么 软 ?
+*MOT:	太 软 了 .
+*MOT:	这 不 行 .
+*MOT:	小 乌龟 说 不 能 这么 软 .
+@Comment:	EndTurn
+*MOT:	它 认为 软 的 东西 容易 破 .
+*MOT:	是 吧 ?
+*MOT:	容易 被 人 按 扁 .
+*MOT:	它 就 把 它 身 上 的 壳 给 拿 过来 .
+*MOT:	给 小 星星 戴 上 .
+----------------------------------------
+sent_id: 10
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou3/000326.cha": line 1026. Keyword: 认为 
+*MOT:	来 了 一 只 什么 颜色 的 狐狸 啊 ?
+*CHI:	红 .
+*MOT:	哦 这 颜色 就是 红 .
+*MOT:	啊 知道 的 ?
+*CHI:	然后 又 来 了 个 什么 ?
+*MOT:	狐狸 认为 小 雪人 这样子 <不 多>  [/] 不 多, 才 只 有 一 个 鼻子 .
+*MOT:	你 看 它 给 小 雪人 又 加 了 个 眼睛 .
+*MOT:	你 说 哪 个 多 哪 个 少 啊 ?
+*MOT:	你 说 这 两 个 哪 个 多 哪 个 少 ?
+*CHI:	这 个 .
+*MOT:	这 个 啊 ?
+----------------------------------------
+sent_id: 11
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/ZhouAssessment/4-4.5/XIANlizixuan.cha": line 206. Keyword: 认为 
+*CHI:	胡萝卜 .
+*TEA:	banana@s:eng 你 知道 是 什么 吗 ?
+*CHI:	不 知道 .
+*CHI:	你 告诉 我 .
+*TEA:	是 香蕉 .
+*TEA:	我 认为 我 想 把 锅 就 放 在1 这儿 .
+*TEA:	这 个 锅 也 放 这 .
+*TEA:	这 个 锅 也 放 在1 这 个 下面 .
+*TEA:	嘿  [/] 嘿 ‡ 椅子 倒 了 .
+*TEA:	里面 还 有 个 谁 啊 ?
+*CHI:	猪 妈妈 .
+----------------------------------------
+sent_id: 12
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi13.cha": line 84. Keyword: 认为 
+*MOT:	你 看一看 .
+*MOT:	他 说 .
+*MOT:	妈妈 在 家 的时候 他们 会 躲 起来 .  [+ R]
+*CHI:	为什么 妈妈 在 家 的时候 它 会 躲 起来 ?
+*MOT:	因为 有 大人 在 它 不 敢 出来 呀 .
+*MOT:	这 个 宝宝 他 自己 认为 的 对 吧 ?  [+ F]
+*CHI:	他 在 做梦 .
+*MOT:	他 不 是 在 做梦 .
+*MOT:	他 自己 去 <想 着>  [/] 想 着 有 大 妖怪 .
+*MOT:	他 说 .
+*MOT:	可 当 我 一 个 人 在 家 的时候 屋子 里 就 变 得 好 安静 .  [+ R]
+----------------------------------------
+sent_id: 13
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi3.cha": line 376. Keyword: 认为 
+*MOT:	他 说 我 的 家 里 到处 藏 着 大 妖怪 .
+*MOT:	你 看看 这 个 小朋友 拿 着 风筝 他 去 准备 放 风筝 准备 „ 对不对 ?
+*CHI:	嗯 .
+*MOT:	然后 他 说 我们 家 里 然后 妈妈 在 家 的时候 .
+*MOT:	他 就 说 这些 大 妖怪 都 会 躲 起来 对 吧 .
+*MOT:	这 是 他 妈妈 在 家 的时候 他 就 认为 妖怪 就 不 会 出来 了 .
+*MOT:	然后 他 又 在 想 当 我 一 个 人 在 家 的时候 .
+*MOT:	屋子 变 得 好 安静 我 知道 哪些 大 妖怪 马上 会 跳 出来 有没有 ?
+*CHI:	看看 章鱼 和 这 个 怪 犀牛 .
+*MOT:	哦 这 是 章鱼 的 尾巴 和 怪 犀牛 是 吧 .
+*CHI:	嗯 .
+----------------------------------------
+sent_id: 14
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1141. Keyword: 认为 
+*MOT:	好 .
+*MOT:	小 明 .
+*CHI:	这 个 小 狗 叫 旺 财 .
+*MOT:	好 旺 财 .
+*MOT:	好 很 好 我 的 家 里 藏 着 个 大 妖怪 .  [+ R]
+*MOT:	小 明 认为 他 在 家 里 藏 了 个 大 妖怪 .
+*MOT:	你 看 她 家 里 很 漂亮 „ 是不是 ?
+*CHI:	恩 .
+*MOT:	小燕子 小 房子 .
+*MOT:	妈妈 在 家 的时候 他们 都 会 躲 起来 .  [+ R]
+*MOT:	这 是 谁 的 想法 呀 .
+----------------------------------------
+sent_id: 15
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1171. Keywords: 认为, 认为 
+*MOT:	这 是 谁 的 想法 呀 .
+*MOT:	妈妈 在 家 的时候 他们 都 会 躲 起来 .
+*MOT:	是 谁 的 想法 ?
+*CHI:	那 个 小明 的 .
+*MOT:	对 了 .
+*MOT:	小 明 认为 认为 妈妈 在 家 的时候 .
+*MOT:	他们 都 会 躲 起来 .
+*MOT:	指 的 是 谁 会 躲 起来 ?
+*CHI:	大 妖怪 .
+*MOT:	&~啊哟 对 了 .
+*MOT:	他 认为 是 大 妖怪 躲 起来 了 .
+----------------------------------------
+sent_id: 16
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1186. Keyword: 认为 
+*MOT:	小 明 认为 认为 妈妈 在 家 的时候 .
+*MOT:	他们 都 会 躲 起来 .
+*MOT:	指 的 是 谁 会 躲 起来 ?
+*CHI:	大 妖怪 .
+*MOT:	&~啊哟 对 了 .
+*MOT:	他 认为 是 大 妖怪 躲 起来 了 .
+*MOT:	可能 我 一 个 人 在 家 的时候 .  [+ R]
+*MOT:	屋子 里 就 变 得 好 安静 呀 .  [+ R]
+*MOT:	我 知道 那 个 大 妖怪 上 就 会 跳 出来 .  [+ R]
+*MOT:	马上 就 会 跳 出来 是不是 啊 .
+*MOT:	爸爸 说 什么 呢 .
+----------------------------------------
+sent_id: 17
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1210. Keyword: 认为 
+*MOT:	我 知道 那 个 大 妖怪 上 就 会 跳 出来 .  [+ R]
+*MOT:	马上 就 会 跳 出来 是不是 啊 .
+*MOT:	爸爸 说 什么 呢 .
+*MOT:	爸爸 说 世界 上 根本 没有 大 妖怪 .  [+ R]
+*MOT:	可 他 说 的 不 对 .  [+ R]
+*MOT:	他 认为 爸爸 的 说法 是 错误 的 .
+*MOT:	他 认为 世界 上 有 妖怪 „ 是不是 ?
+*MOT:	我 知道 地下室 里 就 有 大 妖怪 .  [+ R]
+*MOT:	可 我 从来 不 去 那里 .  [+ R]
+*MOT:	所以 他们 也 不 会 找 我 的 麻烦 .  [+ R]
+*MOT:	外面 的 垃圾桶 旁 也 有 大 妖怪 .  [+ R]
+----------------------------------------
+sent_id: 18
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1213. Keyword: 认为 
+*MOT:	马上 就 会 跳 出来 是不是 啊 .
+*MOT:	爸爸 说 什么 呢 .
+*MOT:	爸爸 说 世界 上 根本 没有 大 妖怪 .  [+ R]
+*MOT:	可 他 说 的 不 对 .  [+ R]
+*MOT:	他 认为 爸爸 的 说法 是 错误 的 .
+*MOT:	他 认为 世界 上 有 妖怪 „ 是不是 ?
+*MOT:	我 知道 地下室 里 就 有 大 妖怪 .  [+ R]
+*MOT:	可 我 从来 不 去 那里 .  [+ R]
+*MOT:	所以 他们 也 不 会 找 我 的 麻烦 .  [+ R]
+*MOT:	外面 的 垃圾桶 旁 也 有 大 妖怪 .  [+ R]
+*MOT:	我 就是 知道 .  [+ R]
+----------------------------------------
+sent_id: 19
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1237. Keyword: 认为 
+*MOT:	所以 他们 也 不 会 找 我 的 麻烦 .  [+ R]
+*MOT:	外面 的 垃圾桶 旁 也 有 大 妖怪 .  [+ R]
+*MOT:	我 就是 知道 .  [+ R]
+*MOT:	他 很 确信 的 说 .
+*MOT:	是不是 我 就是 知道 .
+*MOT:	那 他 认为 那 个 目前 为止 .
+*MOT:	他 认为 哪个 地方 有 大 妖怪 啊 .
+*CHI:	地下室 .
+*MOT:	嗯 还有 呢 .
+*CHI:	和 垃圾桶 旁边 .
+*MOT:	为什么 呢 你 看 他 看 ?
+----------------------------------------
+sent_id: 20
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1240. Keyword: 认为 
+*MOT:	外面 的 垃圾桶 旁 也 有 大 妖怪 .  [+ R]
+*MOT:	我 就是 知道 .  [+ R]
+*MOT:	他 很 确信 的 说 .
+*MOT:	是不是 我 就是 知道 .
+*MOT:	那 他 认为 那 个 目前 为止 .
+*MOT:	他 认为 哪个 地方 有 大 妖怪 啊 .
+*CHI:	地下室 .
+*MOT:	嗯 还有 呢 .
+*CHI:	和 垃圾桶 旁边 .
+*MOT:	为什么 呢 你 看 他 看 ?
+*MOT:	对 .
+----------------------------------------
+sent_id: 21
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1258. Keyword: 认为 
+*CHI:	地下室 .
+*MOT:	嗯 还有 呢 .
+*CHI:	和 垃圾桶 旁边 .
+*MOT:	为什么 呢 你 看 他 看 ?
+*MOT:	对 .
+*MOT:	他 认为 边 上 都 有 大 妖怪 .
+*MOT:	我们 再 看 下 一 页 .
+*MOT:	我 去 扔 垃圾 时 一定 要 爸爸 远远 的 保护 我 .  [+ R]
+*MOT:	不然 的话 我 也 已经 回不来 了 .  [+ R]
+*MOT:	他 是不是 特别 胆小 啊 .
+*MOT:	爸爸 的 样子 很 轻松 .  [+ R]
+----------------------------------------
+sent_id: 22
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1342. Keyword: 认为 
+*MOT:	可 只要 我 一 伸 头 .  [+ R]
+*MOT:	它 就 不见 了 .  [+ R]
+*MOT:	它 指 的 是 谁 呀 .
+*CHI:	大 妖怪 .
+*MOT:	对 .
+*MOT:	他 认为 是 大 妖怪 .
+*MOT:	我 的 房间 里 也 藏 着 大 怪兽 .  [+ R]
+*MOT:	我 去 拿 睡衣 一定 要 妈妈 陪 着 .  [+ R]
+*MOT:	他 在 什么 场合 需要 妈妈 可以 这样 ?
+*CHI:	去 拿 睡衣 睡裤 .
+*MOT:	那 嗯 要 爸爸 陪 着 的时候 是 什么 时候 呀 .
+----------------------------------------
+sent_id: 23
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1384. Keywords: 认为, 认为 
+*MOT:	因为 我 睡 在 双层 床 的 上 铺 .  [+ R]
+*MOT:	我 在 那儿 造 了 一 座 超级 坚固 的 城堡 .  [+ R]
+*MOT:	爸爸 说 大 妖怪 们 很 讨厌 上 铺 .  [+ R]
+*MOT:	因为 他们 害怕 梯子 .  [+ R]
+*MOT:	我 不 知道 这 回 是不是 让 爸爸 说 中 了 .  [+ R]
+*MOT:	<他 认为>  [//] 爸爸 认为 什么 呀 .
+*CHI:	大 妖怪 还 害怕 上面 .
+*MOT:	因为 他们 害怕 梯子 他们 害怕 上上 楼梯 „ 对不对 ?
+*MOT:	也 很 懒 .
+*MOT:	有 可能 是不是 他 不 想 爬 楼 .
+*MOT:	连 懒 得 都 爬 上 铺 去 „ 是不是 ?
+----------------------------------------
+sent_id: 24
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1405. Keyword: 认为 
+*MOT:	因为 他们 害怕 梯子 他们 害怕 上上 楼梯 „ 对不对 ?
+*MOT:	也 很 懒 .
+*MOT:	有 可能 是不是 他 不 想 爬 楼 .
+*MOT:	连 懒 得 都 爬 上 铺 去 „ 是不是 ?
+*MOT:	这 是 爸爸 说 的 .
+*MOT:	他 就 认为 爸爸 说 的 对的 „ 是不是 ?
+*MOT:	我 实在 是 让 这 帮 大 妖怪 折腾 够 了 .  [+ R]
+*MOT:	我 一定 要 反抗 .
+*MOT:	不 要 听 他们 的 大 怪兽 .
+*MOT:	正巧 我 看 到 了 空手道 培训 班 的 广告 .  [+ R]
+*MOT:	不 限 年龄 .  [+ R]
+----------------------------------------
+sent_id: 25
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5yml1.cha": line 400. Keyword: 认为 
+*MOT:	对 呀 .
+*MOT:	可是 我 一 个 人 在 家 的时候 屋子 里 就 变 得 好 安静 哦 .
+*MOT:	我 知道 那些 大 妖怪 马上 就 会 跳 出来 .
+*MOT:	是不是 .
+*CHI:	你 看 大 妖怪 .
+*MOT:	对 呀 你 有时候 会不会 这么 认为 .
+*CHI:	会 .
+*MOT:	对 呀 爸爸 说 世界 上 跟 本 没有 大 妖怪 .
+*MOT:	可 他 我 觉得 他 说 的 不 对 .
+*MOT:	你 是不是 这么 认为 呀 .
+*MOT:	你 一 个 人 在 家 害怕 哇 .
+----------------------------------------
+sent_id: 26
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5yml1.cha": line 412. Keyword: 认为 
+*CHI:	你 看 大 妖怪 .
+*MOT:	对 呀 你 有时候 会不会 这么 认为 .
+*CHI:	会 .
+*MOT:	对 呀 爸爸 说 世界 上 跟 本 没有 大 妖怪 .
+*MOT:	可 他 我 觉得 他 说 的 不 对 .
+*MOT:	你 是不是 这么 认为 呀 .
+*MOT:	你 一 个 人 在 家 害怕 哇 .
+*CHI:	嗯 .
+*MOT:	爸爸 妈妈 在 你 心里 就 踏实 了 „ 对不对 ?
+*MOT:	你 说 我 知道 地下室 里 就 有 大 妖怪 .
+*MOT:	可 我 从来 不 去 那里 .
+----------------------------------------
+sent_id: 27
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5yml1.cha": line 448. Keyword: 认为 
+*MOT:	外面 的 垃圾桶 旁 也 有 大 妖怪 .
+*MOT:	我 就是 知道 我 去 扔 垃圾 时 一定 要 爸爸 远远 的 保护 我 .
+*MOT:	不然 的话 我 也许 就 回不来 了 .
+*MOT:	爸爸 的 样子 很 轻松 可 我 却 非常 非常 的 担心 .
+*MOT:	你 看 你 洗澡 时候 浴室 某 个 角落 里 也 躲 着 一 个 大 妖怪 .
+*MOT:	你 会不会 这么 认为 呢 ?
+*CHI:	会 .
+*MOT:	又 是 没有 安全感 对 哇 .
+*MOT:	当 我 满 脸 都 是 香波 泡泡 时 我 就 知道 它 出来 了 .
+*MOT:	你 是 有 这 种 感觉 吗 ?
+*CHI:	嗯 .
+----------------------------------------
+sent_id: 28
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5yml4.cha": line 772. Keyword: 认为 
+*MOT:	是不是 啊 ?
+*CHI:	嗯 .
+*MOT:	然后 呢 我 知道 地下室 里 就 有 大 妖怪 .
+*MOT:	可 我 从来 不 去 那里 所以 他们 也 不 会 找 我 的 麻烦 .
+*MOT:	外面 的 垃圾桶 旁 也 有 大 妖怪 我 就是 知道 .
+*MOT:	他 就是 认为 垃圾桶 旁 有 大 妖怪 .
+*MOT:	我 去 扔 垃圾 时 一定 要 爸爸 远远 的 保护 我 .
+*MOT:	不然 的话 我 也许 就 回不来 了 .
+*MOT:	爸爸 的 样子 很 轻松 可 我 却 非常 非常 担心 .
+*MOT:	浴室 某 个 角落 里 也 躲 着 一 个 大 妖怪 .
+*MOT:	他 的 洗澡 的 浴室 里 他 觉得 也 躲 了 一 个 大 妖怪 .
+----------------------------------------
+sent_id: 29
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/4/r4yfl1.cha": line 1356. Keyword: 认为 
+*MOT:	我们 讲 故事 了 啊 .
+*CHI:	<这 个 是>  [/] 这 个 是 真的 吗 ?
+*MOT:	假 的 .
+*MOT:	我们 看 啊 .
+*MOT:	我们 看看 这 个 小朋友 你 看 .
+*MOT:	我们  [///] 他 认为 啊 我们 家 里 到处 都 是 大 妖怪 .
+*MOT:	到处 藏 着 什么 啊 ?
+*MOT:	大 妖怪 .
+*MOT:	看见 没有 ?
+*MOT:	妈妈 在 家 .
+*MOT:	他 妈妈 在 家 的时候 啊 它们 都 会 躲 起来 .  [+ R ]
+----------------------------------------
+sent_id: 30
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/4/r4yfl24.cha": line 312. Keyword: 认为 
+*MOT:	对 .
+*MOT:	重点 说 的 是 什么 呢 .
+*MOT:	就 是 说 这 个 小朋友 原来 是 一 个 非常 胆小 的 小朋友 .
+*MOT:	对不对 .
+*CHI:	嗯 .
+*MOT:	他 胆小 的时候 他 就 认为 他 的 家 里 到处 都 有 大 妖怪 .
+*MOT:	他 都 害怕 .
+*MOT:	对不对 .
+*CHI:	嗯 .
+*MOT:	有一天 他 学 完 跆拳道 之后 他 的 胆子 就 越来越 变 大 了 .
+*MOT:	你 知道 吗 .
+----------------------------------------
+sent_id: 31
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/4/r4yfl7.cha": line 866. Keyword: 认为 
+*MOT:	是 当 我 一 个 人 在 家 的时候 那 屋子 就 变 得 好 安静 了 .  [+ R]
+*MOT:	我 知道 那些 大 妖怪 马上 就 会 跳 出来 对 吧 .  [+ R]
+*CHI:	他 在 里面 它 在 哪里 啊 ?
+*MOT:	他 在 那 个 楼梯 旁边 .
+*MOT:	这 爸爸 说 这 世界 根本 没有 大 妖怪 可 他 说 的 不 对 .  [+ R]
+*MOT:	他 认为 爸爸 说 的 不 对 .
+*MOT:	我 知道 地下室 就 有 大 妖怪 可 我 从来 不 去 那里 .  [+ R]
+*MOT:	所以 他们 也 不 会 找 我 麻烦 是 吧 .
+*CHI:	嗯 .
+*MOT:	然后 外面 的 垃圾桶 有 大 妖怪 .  [+ R]
+*MOT:	然后 他 不 敢 一 个 人 去 扔 垃圾 .
+----------------------------------------
+sent_id: 32
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/6/r6ymi20.cha": line 661. Keyword: 认为 
+*MOT:	<大 吼>  [/] 大 吼 你 知道 大 吼 是 什么 意思 吗 ?
+*MOT:	声音 很 大 .
+*MOT:	我 终于 让 他们 见识 了 我 的 厉害 .  [+ R]
+*MOT:	他 现在 变 得 好 勇敢 哦 .
+*MOT:	他 虽然 很 勇敢 .
+*MOT:	但是 在 他 心理 认为 还是 有 大 妖怪 的 对 吧 .
+*CHI:	恩 .
+*MOT:	他 实际上 就是 勇敢 了 而已 .
+*MOT:	洗澡 的时候 我 隔 着 浴帘 练习 长拳 .  [+ R]
+*MOT:	我 真 希望 大 妖怪 们 站 得 近 些 才 好 呢 !  [+ R]
+*MOT:	他 想 打 大 妖怪 .
+----------------------------------------
+sent_id: 33
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/6/r6yml16.cha": line 729. Keyword: 认为 
+*MOT:	这 花 是 从 抽屉 里面 出来 的 吗 ?
+*CHI:	对 .
+*MOT:	这 桌子 是 什么 形状 的 呀 ?
+*CHI:	是 长方形 .
+*MOT:	是 梯形 .
+*CHI:	我 认为 是 长方形 .
+*MOT:	好 下面 .
+*MOT:	这么 多 花 呀 ?
+*MOT:	需要 什么 .  [+ R]
+*CHI:	需要 什么 .  [+ I]
+*CHI:	做 一 张 桌子 .
+----------------------------------------
+sent_id: 34
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/6/r6yml6.cha": line 288. Keyword: 认为 
+*MOT:	我 真 希望 大 妖怪 们 站 的 近 一些 才 好 .  [+ R]
+*MOT:	洗 完 澡 我 进 了 自己 房间 来 了 一 个 威 猛 的 空手道 姿势 .  [+ R]
+*MOT:	哎呀 大 妖怪 们 吓 得 不 敢 出来 了 .  [+ R]
+*MOT:	我 甚至 敢 在 下 铺 睡觉 了 .  [+ R]
+*MOT:	第二 天 我 去 了 地下室 .  [+ R]
+*MOT:	我 不 想 让 大 妖怪 们 认为 我 原谅 他们 了 .  [+ R]
+*MOT:	你 看 <好 多>  [/] 好 多 大 妖怪 „ 对不对 ?
+*CHI:	对 .
+*MOT:	我 照样 去 上 空手道 培训 班 因为 我 决心 要 一路 拿 到 黑 带 .  [+ R]
+*MOT:	长大 以后 说不定 我 会 专门 去 抓 大 妖怪 .  [+ R]
+*MOT:	所以 就算 我 家 里 到处 藏 着 大 妖怪 我 也 不 会 害怕 了 .  [+ R]
