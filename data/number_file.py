@@ -6,7 +6,7 @@ def main(input_path: str, output_path: str):
     text = Path(input_path).read_text(encoding="utf-8")
     lines = text.splitlines(keepends=True)
 
-    re_header = re.compile(r'^\*\*\* File .+?Keyword:\s*.*$', re.M)
+    re_header = re.compile(r'^\*\*\* File .+?(Keyword|Keywords):\s*.*$', re.M)
 
     out_lines = []
     block_id = 0
