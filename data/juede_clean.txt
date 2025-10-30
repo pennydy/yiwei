@@ -1360,7 +1360,6 @@ sent_id: 97
 *CHI:	配椅子.
 *TEA:	来,几把椅子?
 ----------------------------------------
-snet_id: 97
 sent_id: 98
 *** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/ZhouAssessment/4.5-5/FJluguo.cha": line 202. Keyword: 觉得 
 *CHI:	有镜子.
@@ -10874,6 +10873,7 @@ sent_id: 780
 *MOT:	这样子.
 *MOT:	这才对呢.
 ----------------------------------------
+THIS IS NOT A USE OF BELIEF VERB
 sent_id: 781
 *** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/60/fb16.cha": line 463. Keyword: 觉得 
 *MOT:	小乌龟说.

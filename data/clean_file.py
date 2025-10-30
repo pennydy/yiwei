@@ -2,7 +2,7 @@ import re
 import argparse
 
 end_sentence_pattern = re.compile(r'%snd:[^\s]*')
-
+spoiler = re.compile(r'^(From file <)|kwal|^  ALL speaker|^  ONLY speaker|^Wed|^Mon|^Tue|^Thu|^Fri|^Sat|^Sun|^\*\*\*\*\*\*\*')
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="clean files")
@@ -24,5 +24,5 @@ if __name__ == "__main__":
             line = re.sub(r'([在给])\d+', r'\1', line)
             line = re.sub(end_sentence_pattern, '', line)
             line = re.sub("sent_id: \d+\n", '', line)
-            if not line.startswith('From file <'):
+            if not spoiler.search(line):
                 f_out.write(line)
