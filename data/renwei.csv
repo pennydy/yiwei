@@ -1,0 +1,75 @@
+id,file_name,age,speaker,sentence,subject,embedded_subject,sentence_type,embedded_type,adverb,modal,embedded_modal,negation,aspect,embedded_aspect,tense,in_context,where_context,translation,contrast,where_contrast
+1,ChangPN/grade3/198,,child,"CHI: 然后我就自己再去搬别的椅子来坐.
+EXP: 嗯哼.
+CHI: <然后>[/]然后爸妈就认为我的行为很好.
+EXP: 嗯.",NP,NP,declarative,declarative,就,no,no,no,no,no,no,no,no,"child: then i got another chair to sit.
+experimenter: yeah.
+child: then..then (my) mom and dad think my behavior was very good.
+experimenter: yeah.",no,no
+2,NSCtoys/4-6_2/a04_1,,mother,"MOT: ""那我需要吃药吗?
+CHI: ""要.
+MOT: ""姐姐认为是要吃什么药啊?
+CHI: ""吃这个.",NP,dropped,wh_question,declarative,no,no,要,no,no,no,no,no,no,"mother: then do i need to take medicine?
+child: (you) need.
+mother: which medicine does sister think (i) need to take?
+child: take this one",no,no
+3,TCCM/yang/020900,,mother,"MOT: 他好生气啊.
+MOT: 对不对?
+MOT: 他认为是那个小姊姊害他的啊.
+MOT: 所以他就叫小朋友把小姊姊射下来.",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,no,no,"mother: he’s very angry.
+mother: right?
+mother: he thought that it was that little girl who tried to harm him.
+mother: so he let the child to shoot the girl down.",no,no
+4,TCCM/chou/020100,,investigator,"MOT: 哎那如果你们刚好找到的那个小孩都不讲话.
+MOT: 怎么办?
+EXA: 没有啊.
+EXA: 通常是说如果家长不是认为他不会讲话.
+EXA: 只是说通常生人的话.
+EXA: 那可能多去几次的话,那就会比较好.",NP,third_person,declarative,declarative,no,no,会,yes,no,no,no,no,no,"mother: then, if the kid you found never speaks.
+mother: what do you do?
+investigator: usually, if the parents don’t think he can’t speak
+investigator: (if) only to strangers
+investigator: then (if) visit a few times, then it would be better.",no,no
+5,Zhou2/60/fb17,,mother,"MOT: 那我觉得这边好像还差个小鸟什么的.
+MOT: 你认为呢?
+CHI: 我认为画一个啄木鸟好.
+MOT: 那就画个啄木鸟吧.",second_person,no,polar,none,no,no,no,no,no,no,no,no,no,"mother: then i think this side is missing a small bird or something.
+mother: what do you think?
+child: i think it’s good to draw a woodpecker/i think we should draw a woodpecker.
+mother: then draw a woodpecker.",觉得,no
+6,Zhou2/60/fb17,,child,"MOT: 那我觉得这边好像还差个小鸟什么的.
+MOT: 你认为呢?
+CHI: 我认为画一个啄木鸟好.
+MOT: 那就画个啄木鸟吧.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: then i think this side is missing a small bird or something.
+mother: what do you think?
+child: i think it’s good to draw a woodpecker/i think we should draw a woodpecker.
+mother: then draw a woodpecker.",认为,before
+7,Zhou2/60/ma05,,mother,"MOT: 它们不知道小星星需要什么对吧?
+MOT: 它们把它们认为小星星需要的东西都强加到小星星的身上.
+MOT: 所以小星星一直是哼哼唧唧的哭.",third_person,NP,declarative,declarative,no,no,no,no,no,no,no,p?,before,"mother: they don’t know what little star needs, right?
+mother: they impose all the things they thought little star needs onto little star.
+mother: so little star crying and whimpering all the time.",不知道,before
+8,Zhou2/42/ma02,,mother,"MOT: 打开吧.
+MOT: 吆这里有什么东西啊?
+MOT: 你看看这是什么东西啊?
+MOT: 你认为是什么东西?
+MOT: 吆这可以拼成各种各样的图.",second_person,dropped,wh_question,declarative,no,no,no,no,no,no,no,p?,before,"mother: open it.
+mother: wow what’s inside?
+mother: take a look, what is this?
+mother: what do you think this is?
+mother: wow this can be put together into all kinds of pictures.",no,no
+9,Zhou2/42/ma05,,mother,"MOT: 小乌龟说不能这么软.
+MOT: 它认为软的东西容易破.
+MOT: 是吧?",third_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: little tutle said (it) cannot be this soft.
+mother: it thinks soft things are easily broken.
+mother: right?",no,no
+10,Zhou3/000326,,mother,"MOT: 狐狸认为小雪人这样子<不多>[/]不多,才只有一个鼻子.
+MOT: 你看它给小雪人又加了个眼睛.
+MOT: 你说哪个多哪个少啊?",NP,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: fox thinks the little snowman like this is not enough (or this kind of snowman is unusual)–it only has one nose.
+mother: you see it (the fox) added eyes to the little snowman.
+mother: which one do you think/tell me which one has more and which one has less?",no,no
+11,ZhouAssessment/4-4.5/XIANlizixuan,,teacher,"TEA: 我认为我想把锅就放在这儿.
+TEA: 这个锅也放这.
+TEA: 这个锅也放在这个下面.",first_person,first_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"teacher: i feel like i think i want to just put the pot here.
+teacher: put this pot here too./leave this pot here as well.
+teacher: leave this pot underneather here as well.",想,after

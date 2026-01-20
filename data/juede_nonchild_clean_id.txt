@@ -11586,10 +11586,10 @@ sent_id: 1082
 ----------------------------------------
 sent_id: 1083
 *** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/TCCM/chou/020100.cha": line 2790. Keyword: 觉得 
-*MOT:	那上一次c_c的弟弟来.
+*MOT:	那上一次cc的弟弟来.
 *MOT:	他说"/.
 *MOT:	xxx.
-*MOT:	我再跟c_c说.
+*MOT:	我再跟cc说.
 *MOT:	可是他讲话很清楚啊!
 *MOT:	我一直觉得他讲的话很清楚.
 *MOT:	原来别人都听不懂.
@@ -12118,6 +12118,7 @@ sent_id: 1122
 ----------------------------------------
 sent_id: 1123
 *** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/NSCtoys/3-6/c09_1.cha": line 417. Keyword: 觉得 
+*MOT:	那想要给什么车<走>[/]走的呢?
 *MOT:	还是什么还是人走的呢?
 *MOT:	你摆得好仔细喔!
 *MOT:	那是桥吗?

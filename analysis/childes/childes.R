@@ -19,100 +19,157 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # head(d_chi)
 
 # 0. load the data ----
-# 16: repeated for correction; 23, 79, 63: incomplete; 129: question
+# 16: repeated for correction; 20, 23, 79, 63, 81: incomplete; 129: question
 # 56?
-annotation.data <- read.csv("../../data/yiwei.csv", header=TRUE) %>% 
-  filter(!(id %in% c("16", "23", "129", "79", "63"))) 
+yiwei <- read.csv("../../data/yiwei_new.csv", header=TRUE) %>% 
+  filter(!(id %in% c("16", "20", "23", "129", "79", "63", "81", "130", "99"))) 
+juede <- read.csv("../../data/juede.csv", header=TRUE) %>% 
+  filter(!id %in% c("6", "7", "10", "12", "23", "24", "36", "84","85","88","89","96","104","105","466","467","470","781","45","50") )
+zhidao <- read.csv("../../data/zhidao.csv", header=TRUE) %>% 
+  filter(!id %in% c("481", "482", "483") )
+
+annotation.data <- bind_rows(lst(yiwei, zhidao, juede), .id="verb")
 
 # 1. summary ----
 ## children's output ----
 child_summary <- annotation.data %>% 
-  filter(speaker == "child")
+  filter(speaker == "child") %>% 
+  mutate(subject_type = if_else(subject == "NP", "third_person", subject)) %>% 
+  mutate(embedded_subject_type = if_else(embedded_subject == "NP", "third_person", embedded_subject))
+
+annotation.data %>%
+  mutate(speaker_type = if_else(speaker == "child", "child", "adult")) %>% 
+  select(verb, speaker_type) %>%
+  group_by(speaker_type, verb) %>% 
+  summarize(count = n()) %>% 
+  ungroup()
+
 ### type of subject ----
-child_matrix_subject <- data.frame(table(child_summary$subject)) 
-colnames(child_matrix_subject) <- c("subject_type", "count")
-child_matrix_subject 
-child_embed_subject <- data.frame(table(child_summary$embedded_subject))
-colnames(child_embed_subject) <- c("subject_type", "count")
-child_embed_subject
+child_matrix_subject <- child_summary %>% 
+  select(verb, subject_type) %>% 
+  group_by(verb, subject_type) %>%
+  summarize(count = n()) %>% 
+  ungroup()
+
+child_embed_subject <- child_summary %>% 
+  select(verb, embedded_subject_type) %>% 
+  group_by(verb, embedded_subject_type) %>%
+  summarize(count = n()) %>% 
+  ungroup()
 
 ### type of clause ----
-child_matrix_clause <- data.frame(table(child_summary$sentence_type))
-colnames(child_matrix_clause) <- c("clause_type", "count")
-child_matrix_clause
-child_embed_clause <- data.frame(table(child_summary$embedded_type))
-colnames(child_embed_clause) <- c("clause_type", "count")
-child_embed_clause
+child_matrix_clause <- child_summary %>% 
+  select(verb, sentence_type) %>% 
+  group_by(verb, sentence_type) %>% 
+  summarize(count = n()) %>% 
+  ungroup()
+
+child_embed_clause <- child_summary %>% 
+  select(verb, embedded_type) %>% 
+  group_by(verb, embedded_type) %>% 
+  summarize(count = n()) %>% 
+  ungroup()
 
 ### matrix subject x clause type ----
 child_matrix_clause_subject <- child_summary %>% 
-  mutate(sentence_type = if_else(sentence_type == "interrogative", sentence_type , "declarative")) %>% 
-  group_by(subject, sentence_type) %>% 
+  group_by(verb,subject_type, sentence_type) %>% 
   summarize(count=n()) %>% 
   ungroup()
 child_matrix_clause_subject
 
 ### embed subject x clause type ----
 child_embed_clause_subject <- child_summary %>% 
-  group_by(embedded_subject, embedded_type) %>% 
+  group_by(verb, embedded_subject_type, embedded_type) %>% 
   summarize(count=n()) %>% 
   ungroup()
 child_embed_clause_subject
 
 ### discourse status ----
-child_discourse <- data.frame(table(child_summary$in_context))
-colnames(child_discourse) <- c("discourse_type", "count")
-child_discourse <- child_discourse %>% 
-  mutate(discourse_type = if_else(grepl("unclear", discourse_type, fixed=TRUE), "unclear", discourse_type)) %>% 
-  group_by(discourse_type) %>% 
-  summarize(count = sum(count)) %>% 
+child_discourse <- child_summary %>% 
+  mutate(discourse_type = if_else(grepl("unclear", in_context, fixed=TRUE), "unclear", in_context)) %>% 
+  select(verb, discourse_type) %>% 
+  group_by(verb, discourse_type) %>%
+  summarize(count = n()) %>% 
   ungroup()
 child_discourse
 
 child_discourse_summary <- child_discourse %>% 
   mutate(discourse_type = if_else(grepl("against", discourse_type), "inferable", discourse_type)) %>% 
   mutate(p_not_p = if_else(!(discourse_type %in% c("p", "unclear", "no", "inferable")), "contrast", discourse_type)) %>% 
-  group_by(p_not_p) %>% 
+  group_by(verb, p_not_p) %>% 
   summarize(count = sum(count)) %>% 
   ungroup()
 child_discourse_summary
 
 ## children's input ----
 adult_summary <- annotation.data %>% 
-  filter(speaker != "child")
+  filter(speaker != "child") %>% 
+  mutate(subject_type = if_else(subject == "NP", "third_person", subject)) %>% 
+  mutate(embedded_subject_type = if_else(embedded_subject == "NP", "third_person", embedded_subject))
+
 ### type of subject ----
-adult_matrix_subject <- data.frame(table(adult_summary$subject))
-colnames(adult_matrix_subject) <- c("subject_type", "count")
-adult_matrix_subject
-adult_embed_subject <- data.frame(table(adult_summary$embedded_subject))
-colnames(adult_embed_subject) <- c("subject_type", "count")
-adult_embed_subject
+adult_matrix_subject <- adult_summary %>% 
+  select(verb, subject_type) %>% 
+  group_by(verb, subject_type) %>%
+  summarize(count = n()) %>% 
+  ungroup()
+
+adult_embed_subject <- adult_summary %>% 
+  select(verb, embedded_subject_type) %>% 
+  group_by(verb, embedded_subject_type) %>%
+  summarize(count = n()) %>% 
+  ungroup()
 
 ### type of clause ----
-adult_matrix_clause <- data.frame(table(adult_summary$sentence_type))
-colnames(adult_matrix_clause) <- c("clause_type", "count")
-adult_matrix_clause
-adult_matrix_clause <- adult_matrix_clause %>% 
-  mutate(clause_type = if_else(clause_type == "interrogative", clause_type , "declarative")) %>% 
-  group_by(clause_type) %>% 
-  summarize(count = sum(count)) %>% 
+adult_matrix_clause <- adult_summary %>% 
+  select(verb, sentence_type) %>% 
+  group_by(verb, sentence_type) %>% 
+  summarize(count = n()) %>% 
   ungroup()
-adult_matrix_clause
-adult_embed_clause <- data.frame(table(adult_summary$embedded_type))
-colnames(adult_embed_clause) <- c("clause_type", "count")
-adult_embed_clause
+
+adult_embed_clause <- adult_summary %>% 
+  select(verb, embedded_type) %>% 
+  group_by(verb, embedded_type) %>% 
+  summarize(count = n()) %>% 
+  ungroup()
   
 ### matrix subject x clause type ----
 adult_matrix_clause_subject <- adult_summary %>% 
-  mutate(sentence_type = if_else(sentence_type == "interrogative", sentence_type , "declarative")) %>% 
-  group_by(subject, sentence_type) %>% 
+  mutate(sentence_type = if_else(sentence_type == "rhetorical", "declarative", sentence_type)) %>% 
+  group_by(verb, subject_type, sentence_type) %>% 
   summarize(count=n()) %>% 
   ungroup()
 adult_matrix_clause_subject
 
+adult_matrix_clause_subject_plot<-ggplot(adult_matrix_clause_subject, 
+                                         aes(fill=sentence_type, 
+                                       y=count,
+                                       x=subject_type)) + 
+  geom_bar(position=position_dodge2(preserve = "single"),
+           stat="identity")+
+  theme_bw()+
+  facet_grid(.~verb)+
+  # scale_fill_brewer(palette = "Set2",
+  #                   name="Matrix subject",
+  #                   labels = c("Dropped", "First person", "Second person", "Third_Person")) +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(angle = 45,hjust = 1, size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  labs(x="Matrix clause type",
+       y="Counts")
+adult_matrix_clause_subject_plot
+
+
 ### embed subject x clause type ----
 adult_embed_clause_subject <- adult_summary %>% 
-  group_by(embedded_subject, embedded_type) %>% 
+  mutate(sentence_type = if_else(sentence_type == "rhetorical", "declarative", sentence_type)) %>% 
+  group_by(embedded_subject_type, embedded_type) %>% 
   summarize(count=n()) %>% 
   ungroup()
 adult_embed_clause_subject
@@ -319,6 +376,7 @@ input_output_names <- list(
 input_output_labeller <- function(variable, value){
   return(input_output_names[value])
 }
+
 
 matrix_clause_subject <- merge(child_matrix_clause_subject, adult_matrix_clause_subject,
                                by=c("subject", "sentence_type"),

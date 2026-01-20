@@ -1,0 +1,675 @@
+id,file_name,age,speaker,sentence,subject,embedded_subject,sentence_type,embedded_type,adverb,modal,embedded_modal,negation,aspect,embedded_aspect,tense,in_context,where_context,translation,contrast,where_contrast,belief_at_stake
+1,ZhouDinner/middle/06,,aunt,"CHI: 为什么阿姨的蛋小.
+CHI: 我的蛋大? 
+MOT: 诶!
+AUN: 哦你也知道哒?",second_person,omitted,polar,none,也,no,no,no,no,no,no,no,no,"child: why is aunt’s egg small and mine big?
+mother: yeah
+aunt: oh you also know?",no,no,no
+2,ZhouDinner/middle/13,,grandma,"BRO: 我吃饱了.
+BRO: 我想吃蛋糕!
+GMO: 还有个角落没满呢,对不对啊?
+MOT: 蛋糕,要等天黑吃啊!
+GMO 等下要唱唱生日歌的哦!
+GMO: 知道吗?",dropped,omitted,polar,declarative,no,no,要,no,no,no,no,no,no,"brother: i’m full.
+brother: i want to have the cake!
+grandma: there’s still one corner that’s not full, right?
+mother: cake, (we) should wait until until it gets dark to eat (the cake)!
+grandma: We’re going to sing the birthday song later!
+grandma: do you know?",no,no,no
+3,ZhouDinner/middle/14,,father,"FAT: 今天你和哪个小朋友玩了?
+CHI 不告诉你.
+FAT: 我知道你和谁.
+CHI: 和谁啊?
+FAT: 孩名!
+CHI: 不.",first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"father: Which kid did you play with today?
+child: (i am) not going to tell you.
+father: i know you and who./i know who you are with
+child: with who?
+father: [name of a kid]
+child: no.",no,no,yes
+4,ZhouDinner/middle/14,,mother,"MOT: 宝宝,你去帮奶奶拿东西吧.
+MOT: 去吧.
+CHI: 拿什么东西啊?
+MOT: 奶奶要什么东西啊,奶奶?
+CHI: 妈妈,到底要什么东西啊?
+MOT: 我不知道奶奶要什么东西.
+MOT: 好了.",first_person,NP,declarative,declarative,no,no,no,yes,no,no,no,p?,before,"mother: Sweetie, go help Grandma carry the things.
+mother: go
+child: carry what things? / what to carry?
+mother: what does grandma want, grandma?
+child: mom, What exactly does (she) want?
+mother: i don’t know what grandma wants.
+mother: okay.",no,no,no
+5,ZhouDinner/middle/14,,child,"MOT: 宝宝啊,告诉妈妈今天都干什么了,在学校?
+CHI: 你想知道我们吃了什么啊?
+MOT: 想啊.
+MOT: 我特别想知道.",second_person,first_person,polar,wh_question,no,no,no,no,no,了,no,no,no,"mother: sweetie, tell mom what did (you) do, in school?
+child: do you want to know what we ate?
+mother: (i) want
+mother: i really want to know.",no,no,yes
+6,ZhouDinner/middle/14,,mother,"MOT: 宝宝啊,告诉妈妈今天都干什么了,在学校?
+CHI: 你想知道我们吃了什么啊?
+MOT: 想啊.
+MOT: 我特别想知道.",first_person,omitted,declarative,none,no,no,no,no,no,no,no,zhidao_p?,before,"mother: sweetie, tell mom what did (you) do, in school?
+child: do you want to know what we ate?
+mother: (i) want
+mother: i really want to know.",no,no,yes
+7,ZhouDinner/middle/14,,child,"MOT: 你今天在学校跟谁玩了啊?
+CHI: 你们都不知道.
+CHI: 我就说给你们听吧?
+MOT: 好,说给我们听.",second_person,omitted,declarative,none,都,no,no,yes,no,no,no,no,no,"mother: who did you play with at school today?
+child: you all don’t know.
+child: let me tell you guys?
+mother: yeah, tell us.",no,no,yes
+8,ZhouDinner/middle/15,,father,"FAT: 不知道你吃这个鸡蛋,吃的饱不饱?
+FAT: 还有这个窝窝头.
+FAT: 你是愿意吃这个还是愿意吃窝窝头啊!
+CHI: 这个!",dropped,second_person,declarative,declarative,no,no,no,yes,no,no,no,no,no,"father: (I) don’t know whether you will be full after eating this egg.
+father: and also this corn bun.
+father: would you like to eat this or would you liek to eat the corn bun?
+child: this!",no,no,no
+9,ZhouDinner/middle/16,,child,"MOT: 你要不要吃虾啊?
+CHI: 那好吧!
+MOT: 自己剥哈!
+MOT: 筷子放好!
+CHI: 我知道!
+CHI: 你帮我剥.",first_person,omitted,declarative,none,no,no,no,no,no,no,no,command,before,"mother: do you want to eat the shrimp?
+child: okay!
+mother: peel it yourself!
+mother: put the chopsticks properly!
+child: i know!
+child: you help me peel.",no,no,no
+10,ZhouDinner/middle/16,,child,"GFA: 菠菜吃一点!
+CHI: 我知道了啊!",first_person,omitted,declarative,none,no,no,no,no,no,了,no,command,before,"grandpa: have some spinach!
+child: i know!",no,no,no
+11,ZhouDinner/middle/16,,grandpa,"GFA: 吃快一点.
+GFA: 知道吗?
+GFA: 要吃快一点.",dropped,omitted,polar,none,no,no,no,no,no,no,no,command,before,"grandpa: eat faster.
+grandpa: (do you) know?
+grandpa: (you) need to eat faster.",no,no,no
+12,ZhouDinner/middle/20,,mother,"MOT: 不能老擦.
+MOT: 知道吗?
+CHI: 为什么啊?",dropped,omitted,polar,none,no,no,no,no,no,no,no,command,before,"mother: (you) cannot wipe it too often.
+mother: (you) know?
+child: why?",no,no,no
+13,ZhouDinner/middle/20,,grandma,"CHI: 刚才我听见爸爸说的.
+FAT: 嗯.
+GMO: 我还以为你知道了呢.
+GMO: 听见爸爸说的啊!
+CHI: 我早就知道了.
+MOT: 你早就知道了?
+GMO: 你早就知道了?
+CHI: 嗯.
+GMO: 你早怎么样知道的?
+CHI: 我们班同学告诉我的.
+GMO: 同学?
+GMO: 你们班同学都知道了?",second_person,omitted,declarative,none,no,no,no,no,no,了,no,no,no,"child: i just heard what dad said.
+father: yeah.
+grandma: i thought you already knew.
+grandma: heard what dad said.
+child: i knew it a while ago.
+mother: did you know a while ago?
+grandma: did you know a while ago?
+child: yeah.
+grandma: how did you know a while ago?
+child: my classmate told me.
+grandma: classmate?
+grandma: your classmate also knew?",听见,before,no
+14,ZhouDinner/middle/20,,child,"CHI: 刚才我听见爸爸说的.
+FAT: 嗯.
+GMO: 我还以为你知道了呢.
+GMO: 听见爸爸说的啊!
+CHI: 我早就知道了.
+MOT: 你早就知道了?
+GMO: 你早就知道了?
+CHI: 嗯.
+GMO: 你早怎么样知道的?
+CHI: 我们班同学告诉我的.
+GMO: 同学?
+GMO: 你们班同学都知道了?",first_person,omitted,declarative,none,"早, 就",no,no,no,no,了,no,no,no,"child: i just heard what dad said.
+father: yeah.
+grandma: i thought you already knew.
+grandma: heard what dad said.
+child: i knew it a while ago.
+mother: did you know a while ago?
+grandma: did you know a while ago?
+child: yeah.
+grandma: how did you know a while ago?
+child: my classmate told me.
+grandma: classmate?
+grandma: your classmate also knew?",no,no,no
+15,ZhouDinner/middle/20,,mother,"CHI: 刚才我听见爸爸说的.
+FAT: 嗯.
+GMO: 我还以为你知道了呢.
+GMO: 听见爸爸说的啊!
+CHI: 我早就知道了.
+MOT: 你早就知道了?
+GMO: 你早就知道了?
+CHI: 嗯.
+GMO: 你早怎么样知道的?
+CHI: 我们班同学告诉我的.
+GMO: 同学?
+GMO: 你们班同学都知道了?",second_person,omitted,polar,none,"早, 就",no,no,no,no,了,no,no,no,"child: i just heard what dad said.
+father: yeah.
+grandma: i thought you already knew.
+grandma: heard what dad said.
+child: i knew it a while ago.
+mother: did you know a while ago?
+grandma: did you know a while ago?
+child: yeah.
+grandma: how did you know a while ago?
+child: my classmate told me.
+grandma: classmate?
+grandma: your classmate also knew?",no,no,no
+16,ZhouDinner/middle/20,,grandma,"CHI: 刚才我听见爸爸说的.
+FAT: 嗯.
+GMO: 我还以为你知道了呢.
+GMO: 听见爸爸说的啊!
+CHI: 我早就知道了.
+MOT: 你早就知道了?
+GMO: 你早就知道了?
+CHI: 嗯.
+GMO: 你早怎么样知道的?
+CHI: 我们班同学告诉我的.
+GMO: 同学?
+GMO: 你们班同学都知道了?",second_person,omitted,polar,none,"早, 就",no,no,no,no,了,no,no,no,"child: i just heard what dad said.
+father: yeah.
+grandma: i thought you already knew.
+grandma: heard what dad said.
+child: i knew it a while ago.
+mother: did you know a while ago?
+grandma: did you know a while ago?
+child: yeah.
+grandma: how did you know a while ago?
+child: my classmate told me.
+grandma: classmate?
+grandma: your classmate also knew?",no,no,no
+17,ZhouDinner/middle/20,,grandma,"CHI: 刚才我听见爸爸说的.
+FAT: 嗯.
+GMO: 我还以为你知道了呢.
+GMO: 听见爸爸说的啊!
+CHI: 我早就知道了.
+MOT: 你早就知道了?
+GMO: 你早就知道了?
+CHI: 嗯.
+GMO: 你早怎么样知道的?
+CHI: 我们班同学告诉我的.
+GMO: 同学?
+GMO: 你们班同学都知道了?",second_person,omitted,how-wh_question,none,早,no,no,no,no,no,no,no,no,"child: i just heard what dad said.
+father: yeah.
+grandma: i thought you already knew.
+grandma: heard what dad said.
+child: i knew it a while ago.
+mother: did you know a while ago?
+grandma: did you know a while ago?
+child: yeah.
+grandma: how did you know a while ago?
+child: my classmate told me.
+grandma: classmate?
+grandma: your classmate also knew?",no,no,no
+18,ZhouDinner/middle/20,,grandma,"CHI: 刚才我听见爸爸说的.
+FAT: 嗯.
+GMO: 我还以为你知道了呢.
+GMO: 听见爸爸说的啊!
+CHI: 我早就知道了.
+MOT: 你早就知道了?
+GMO: 你早就知道了?
+CHI: 嗯.
+GMO: 你早怎么样知道的?
+CHI: 我们班同学告诉我的.
+GMO: 同学?
+GMO: 你们班同学都知道了?",NP,omitted,polar,none,都,no,no,no,no,了,no,no,no,"child: i just heard what dad said.
+father: yeah.
+grandma: i thought you already knew.
+grandma: heard what dad said.
+child: i knew it a while ago.
+mother: did you know a while ago?
+grandma: did you know a while ago?
+child: yeah.
+grandma: how did you know a while ago?
+child: my classmate told me.
+grandma: classmate?
+grandma: your classmate also knew?",no,no,no
+19,ZhouDinner/middle/20,,mother,"CHI: 我吃的好像是母的.
+MOT: 你咋知道?
+CHI: 我想吃公的.
+MOT: 你吃的是公的.
+MOT: 你以为呢?
+CHI: 我以为是母的.",second_person,omitted,how-wh_question,none,no,no,no,no,no,no,no,no,no,"child: i probably ate the female (crab).
+mother: how did you know?
+child: i want to eat the male (crab).
+mother: you ate the male one.
+mother: what did you (falsely) think?
+child: i (falsely) thought (it) was female.",no,no,no
+20,ZhouDinner/middle/28,,child,"MOT: 嗯宝宝,味道好吗?
+CHI: 我不知道.
+CHI: 我还没喝到.",first_person,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,"mom: sweetie, does it taste good?
+child: i don’t know.
+child: i haven’t tried it.",no,no,no
+21,ZhouDinner/middle/28,,child,"GMO: 这个叫什么?
+CHI: 不知道.
+MOT: 给宝宝吃.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,"grandma: what is this called?
+child: (i) don’t know.
+mother: let baby eat.",no,no,no
+22,ZhouDinner/middle/28,,child,"MOT: 你在干吗?
+MOT: 吃饭呀.
+CHI: 我知道啊.",first_person,omitted,declarative,none,no,no,no,no,no,no,no,command,before,"mother: what are you doing?
+mother: eat
+child: i know.",no,no,no
+23,ZhouDinner/middle/30,,grandma,"GMO: 孩名,你知道这是什么菜吗?
+GMO: 这是什么菜呀?
+GMO: 孩名,这是什么菜?
+CHI: 萝卜.",second_person,NP,polar,wh_question,no,no,no,no,no,no,no,direct_p?,after,"grandma: [kid’s name] do you know what this vegetable is?
+grandma: What vegetable is this?
+granmda: [kid’s name] what vegetable is this?
+child: radish.",no,no,no
+24,ZhouDinner/middle/30,,grandma,"GMO: 那你知道这些都是什么菜呀?
+CHI: 羊肉豆腐干.",second_person,NP,polar,wh_question,no,no,no,no,no,no,no,p_answer,after,"grandma: then do you know what these dishes are?
+child: lamb dried bean curd.",no,no,no
+25,ZhouDinner/middle/32,,mother,"CHI: 那爸爸玩游戏干吗?
+MOT: 谁知道他玩游戏干吗啊?
+MOT: 不知道!
+CHI: 怎么你们大人很喜欢玩游戏?
+MOT: 不是大人很喜欢玩游戏.
+MOT: 妈妈就不喜欢玩游戏.",NP,third_person,wh_question,declarative,no,no,no,no,no,no,no,p,before,"child: then why does dad play games?
+mother: who knows why he plays games.
+mother: (i) don’t know.
+child: why do you adults like playing games?
+mother: not adults like playing games.
+mother: mom doesn’t like playing games.",no,no,no
+26,ZhouDinner/middle/32,,mother,"CHI: 那爸爸玩游戏干吗?
+MOT: 谁知道他玩游戏干吗啊?
+MOT: 不知道!
+CHI: 怎么你们大人很喜欢玩游戏?
+MOT: 不是大人很喜欢玩游戏.
+MOT: 妈妈就不喜欢玩游戏.",dropped,omitted,declarative,declarative,no,no,no,yes,no,no,no,no,no,"child: then why does dad play games?
+mother: who knows why he plays games.
+mother: (i) don’t know.
+child: why do you adults like playing games?
+mother: not adults like playing games.
+mother: mom doesn’t like playing games.",知道,before,no
+27,ZhouDinner/middle/32,,mother,"MOT: 你怎么知道爸爸工资比我高?
+CHI: 当然啊,我看见爸爸很高.",second_person,NP,how-wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: How do you know Dad’s salary is higher than mine?
+child: of course, i saw dad(‘s salary) is high.",no,no,yes
+28,ZhouDinner/middle/32,,mother,"MOT: 你怎么知道妈妈小时候学画画的?
+CHI: 当然了啊.",second_person,NP,how-wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: How do you know Mom learned to paint when she was little?
+child: of course.",no,no,yes
+29,ZhouDinner/middle/32,,child,"CHI: 妈妈,你知道为什么老鹰抓动物吃?
+MOT: 他喜欢吃动物啊.",second_person,NP,polar,wh_question,no,no,no,no,no,no,no,p_answer,after,"child: Mom, do you know why eagles catch animals to eat?
+Mother: he/it likes to eat animals.",no,no,no
+30,ZhouDinner/middle/32,,child,"CHI: 啄木鸟怎么知道哪个树枝是有病的啊?
+MOT: 哎这就是啄木鸟聪明的地方啊.
+MOT: 他就是能看得出来有些树生虫子了.",NP,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"child: How does a woodpecker know which branch is diseased?
+mother: this is what makes the woodpecker so smart.
+mother: he/it can just tell that some trees have bugs in them.",no,no,no
+31,ZhouDinner/middle/32,,mother,"CHI: 他喜欢[/]喜欢吃鲨鱼?
+MOT: 鲨鱼啊?
+MOT: 不知道哎.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,"child: he likes/likes eating sharks?
+mother: shark?
+mother: (i) don’t know.",no,no,no
+32,ZhouDinner/middle/32,,mother,"MOT: 但是北极还有一种动物.
+MOT: 北极熊喜欢吃的.
+MOT: 你知道是什么吗?
+CHI: 不知道.
+MOT: 是海豹.",second_person,dropped,polar,wh_question,no,no,no,no,no,no,no,p_answer,after,"mother: but there is another kind of animal in the Arctic.
+mother: that polar bears like to eat.
+mother: do you know what that is?
+child: (i) don’t know.
+mother: it is the seal.",no,no,yes
+33,ZhouDinner/middle/32,,child,"MOT: 但是北极还有一种动物.
+MOT: 北极熊喜欢吃的.
+MOT: 你知道是什么吗?
+CHI: 不知道.
+MOT: 是海豹.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,"mother: but there is another kind of animal in the Arctic.
+mother: that polar bears like to eat.
+mother: do you know what that is?
+child: (i) don’t know.
+mother: it is the seal.",no,no,no
+34,ZhouDinner/middle/33,,mother,"MOT: 老师就想看看你,看看我们家孩名吃饭的时候是不是很乖.
+MOT: 知道吧?
+MOT: 看是不是吃的很多又乖,又不要人喂.
+MOT: 知道吗?
+MOT: 有的同学是不是要人喂的?
+MOT: 那你最乖.",dropped,omitted,hedge,none,no,no,no,no,no,no,no,no,no,"mother: the teacher just want to look at you, to see our [kid’s name] behave well when eating.
+mother: you know?
+mother: to see if (you) eat a lot, behave well, and don’t need anyone to feed (you).
+mother: you know?
+mother: some classmates need people to feed, right?
+mother: then you’re the best behaved.",no,no,no
+35,ZhouDinner/middle/33,,mother,"MOT: 老师就想看看你,看看我们家孩名吃饭的时候是不是很乖.
+MOT: 知道吧?
+MOT: 看是不是吃的很多又乖,又不要人喂.
+MOT: 知道吗?
+MOT: 有的同学是不是要人喂的?
+MOT: 那你最乖.",dropped,omitted,polar,none,no,no,no,no,no,no,no,no,no,"mother: the teacher just want to look at you, to see our [kid’s name] behave well when eating.
+mother: you know?
+mother: to see if (you) eat a lot, behave well, and don’t need anyone to feed (you).
+mother: you know?
+mother: some classmates need people to feed, right?
+mother: then you’re the best behaved.",no,no,no
+36,ZhouDinner/middle/33,,mother,"CHI: 我们老师xxx.
+MOT: 哈哈哈,是你们老师说的吗?
+CHI: 嗯.
+MOT: 我跟你讲.
+MOT: 今天你讲的话到时候,老师都看得到的哟,哈哈哈.
+MOT: 知道吗?
+MOT: 哪个老师说的啊?
+CHI: 我看出来的.",dropped,omitted,polar,none,no,no,no,no,no,no,no,no,no,"child: our teacher xxx.
+mother: haha, did you teacher say that?
+child: yeah.
+mother: let me tell you.
+mother: whatever you said today/are saying right now, the teacher can all see (it) haha
+mother: (do you) know?
+mother: which teacher said it?
+child: i saw it./i could tell.",no,no,no
+37,ZhouDinner/middle/34,,child,"MOT: 今天学校吃什么菜啊?
+CHI: 不知道.
+MOT: 不知道啊?
+CHI: 嗯.
+MOT: 那你没有吃啊?
+CHI: 我吃了.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,"mother: what (did you) eat at school today?
+child: (i) don’t know.
+mother: (you) don’t know?
+child: yeah.
+mother: then did you eat?
+child: i ate.",no,no,no
+38,ZhouDinner/middle/34,,mother,"MOT: 今天学校吃什么菜啊?
+CHI: 不知道.
+MOT: 不知道啊?
+CHI: 嗯.
+MOT: 那你没有吃啊?
+CHI: 我吃了.",dropped,omitted,polar,none,no,no,no,yes,no,no,no,not_know,before,"mother: what (did you) eat at school today?
+child: (i) don’t know.
+mother: (you) don’t know?
+child: yeah.
+mother: then did you eat?
+child: i ate.",no,no,no
+39,ZhouDinner/middle/35,,mother,"MOT: 你知道吗?
+MOT: 你爸爸小的时候就卖这个豆腐!
+CHI: 知道!
+MOT: 知道的啊?
+CHI: 你怎么知道?
+FAT: 以前你奶奶做豆腐做得很好吃.
+FAT: 比这都漂亮!
+CHI: 你怎么知道?
+MOT: 我听你爸爸说的啊.",second_person,omitted,polar,none,no,no,no,no,no,no,no,p_answer,after,"mother: do you know?
+mother: when your dad is young, he used to sell this tofu.
+child: (i) know!
+mother: you know?
+child: how did you know? (referring to mom)
+father: your grandma used to make very delicious tofu.
+father: much prettier than this!
+child: how did you know?
+mother: i heard from your dad.",no,no,no
+40,ZhouDinner/middle/35,,child,"MOT: 你知道吗?
+MOT: 你爸爸小的时候就卖这个豆腐!
+CHI: 知道!
+MOT: 知道的啊?
+CHI: 你怎么知道?
+FAT: 以前你奶奶做豆腐做得很好吃.
+FAT: 比这都漂亮!
+CHI: 你怎么知道?
+MOT: 我听你爸爸说的啊.",dropped,omitted,declarative,none,no,no,no,no,no,no,no,zhidao_p?,before,"mother: do you know?
+mother: when your dad is young, he used to sell this tofu.
+child: (i) know!
+mother: you know?
+child: how did you know? (referring to mom)
+father: your grandma used to make very delicious tofu.
+father: much prettier than this!
+child: how did you know?
+mother: i heard from your dad.",no,no,
+41,ZhouDinner/middle/35,,mother,"MOT: 你知道吗?
+MOT: 你爸爸小的时候就卖这个豆腐!
+CHI: 知道!
+MOT: 知道的啊?
+CHI: 你怎么知道?
+FAT: 以前你奶奶做豆腐做得很好吃.
+FAT: 比这都漂亮!
+CHI: 你怎么知道?
+MOT: 我听你爸爸说的啊.",dropped,omitted,declarative,none,no,no,no,no,no,no,no,no,no,"mother: do you know?
+mother: when your dad is young, he used to sell this tofu.
+child: (i) know!
+mother: you know?
+child: how did you know? (referring to mom)
+father: your grandma used to make very delicious tofu.
+father: much prettier than this!
+child: how did you know?
+mother: i heard from your dad.",no,no,
+42,ZhouDinner/middle/35,,child,"MOT: 你知道吗?
+MOT: 你爸爸小的时候就卖这个豆腐!
+CHI: 知道!
+MOT: 知道的啊?
+CHI: 你怎么知道?
+FAT: 以前你奶奶做豆腐做得很好吃.
+FAT: 比这都漂亮!
+CHI: 你怎么知道?
+MOT: 我听你爸爸说的啊.",second_person,omitted,how-wh_question,none,no,no,no,no,no,no,no,no,no,"mother: do you know?
+mother: when your dad is young, he used to sell this tofu.
+child: (i) know!
+mother: you know?
+child: how did you know? (referring to mom)
+father: your grandma used to make very delicious tofu.
+father: much prettier than this!
+child: how did you know?
+mother: i heard from your dad.",no,no,yes
+43,ZhouDinner/middle/35,,child,"MOT: 你知道吗?
+MOT: 你爸爸小的时候就卖这个豆腐!
+CHI: 知道!
+MOT: 知道的啊?
+CHI: 你怎么知道?
+FAT: 以前你奶奶做豆腐做得很好吃.
+FAT: 比这都漂亮!
+CHI: 你怎么知道?
+MOT: 我听你爸爸说的啊.",second_person,omitted,how-wh_question,none,no,no,no,no,no,no,no,p_answer,after,"mother: do you know?
+mother: when your dad is young, he used to sell this tofu.
+child: (i) know!
+mother: you know?
+child: how did you know? (referring to mom)
+father: your grandma used to make very delicious tofu.
+father: much prettier than this!
+child: how did you know?
+mother: i heard from your dad.",no,no,
+44,ZhouDinner/middle/41,,mother,"MOT: 嚼碎了再吃.
+MOT: 知道吗?
+CHI: 嗯.",dropped,omitted,polar,none,no,no,no,no,no,no,no,command,before,"mother: chew it thoroughly before swallowing.
+mother: do you know?
+child: yeah.",no,no,
+45,ZhouDinner/middle/43,,mother,"CHI: 再来一碗.
+MOT: 我就知道你肯定还要来一碗的,对吗?
+MOT: 还要吗?",first_person,second_person,rhetorical,declarative,就,no,no,no,no,no,no,p,before,"child: another one.
+mother: i knew you for sure would want another bowl, right?
+mother: (do you) still want more?",no,no,
+46,ZhouDinner/middle/47,,mother,"CHI: 虾,我不能吃.
+MOT: 好,我知道了.",first_person,omitted,declarative,none,no,no,no,no,了,no,no,no,no,"child: shrimp, i cannot eat.
+mother: okay, i know.",no,no,
+47,ZhouDinner/middle/47,,child,"AUT: 那个好吃,上海话怎么说?
+FAT: 好吃,上海话怎么说啊?
+CHI: 不知道.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,,no,no,
+48,ZhouDinner/middle/47,,aunt,"AUT: 这个馄饨味道老好啊.
+AUN: 知道吧?",dropped,omitted,hedge,none,no,no,no,no,no,no,no,no,no,,no,no,
+49,ZhouDinner/middle/47,,mother,"MOT: 你要说什么?
+CHI: 要说谢谢
+MOT: 要说清楚,知道吗?",dropped,omitted,polar,none,no,no,no,no,no,no,no,command,before,,no,no,
+50,ZhouDinner/middle/47,,mother,MOT: 我也不知道.,first_person,omitted,declarative,none,no,no,no,yes,no,no,no,no,no,,no,no,
+51,ZhouDinner/middle/4,,father,"FAT: 我们要把孩名所有的吃饭的流程都拍下来.
+FAT: 让每个人都知道孩名是很不乖的.",NP,NP,declarative,declarative,都,no,no,no,no,no,no,no,no,"father: we need to video record all the dining routine of [kid’s name]
+father: let everyone know that [kid’s name]  is very naughty.",no,no,
+52,ZhouDinner/middle/49,,grandma,"MOT: 碗,还没拿.
+GMO: 好,知道.",dropped,omitted,declarative,none,no,no,no,no,no,no,no,no,no,,no,no,
+53,ZhouDinner/middle/49,,child,"MOT: 你见过白雪公主吃蛋清吗?
+CHI: 我知道.",first_person,omitted,declarative,none,no,no,no,no,no,no,no,no,no,,见,before,
+54,ZhouDinner/middle/49,,mother,"MOT: 不知道有没有到半个小时?
+MOT: 你去看一眼.",dropped,dropped,declarative,wh_question,no,no,no,yes,no,no,no,no,no,"mother: (i) don’t know if it’s been half an hour.
+mother: you go and take a look.",no,no,
+55,ZhouDinner/middle/49,,mother,"MOT: 嫩的不得了. (talking about chinese cabbage)
+MOT: 我一割马上就断了.
+MOT: 说明很嫩.
+MOT: 你知道吧.",second_person,dropped,hedge,none,no,no,no,no,no,no,no,no,no,,no,no,
+467,ZhouAssessment/3-3.5/FJchenqingyang,,child,"TEA: 好,去什么地方做饭?
+CHI: 我不知道去哪里做饭.
+TEA: 你看一看什么地方可以做饭呢?",first_person,dropped,declarative,wh_question,no,no,no,yes,no,no,no,p?,before,"teacher: okay, where (will you) go to cook?
+child: i don’t know where to go to cook.
+teacher: you can look around, where can you cook?",no,no,yes
+468,ZhouAssessment/3-3.5/FJchenqingyang,,teacher,"TEA: 还有一个什么呀?
+TEA: 这个你肯定知道.
+CHI: 树.
+TEA: 这是树吗?
+CHI: 胡萝卜.
+TEA: 哇,你<猜对了>[//]答对了.
+TEA: 这是胡萝卜.",first_person,omitted,declarative,none,肯定,no,no,no,no,no,no,no,no,"teacher: What's the other one?
+teacher: this, you definitely know (this).
+child: tree.
+teacher: is this a tree?
+child: a carrot.
+teacher: wow, you <guessed it right>. You were right!
+teacher: this is a carrot.",no,no,no
+469,ZhouAssessment/3-3.5/FJchenqingyang,,child,"TEA: 洗碗在哪里洗啊?
+CHI: 这我也不知道.
+TEA: 洗碗需要什么呢?
+CHI: 不知道.
+TEA: 洗碗需不需要水呀?
+CHI: 要.",first_person,NP,declarative,none,也,no,no,yes,no,no,no,p?,before,"teacher: where to do the dishes?
+child: this, i also don’t know.
+teacher: what does doing the dishes require?
+child: (i) don’t know.
+teacher: does doing the dishes require water?
+child: yes.",no,no,
+470,ZhouAssessment/3-3.5/FJchenqingyang,,child,"TEA: 洗碗在哪里洗啊?
+CHI: 这我也不知道.
+TEA: 洗碗需要什么呢?
+CHI: 不知道.
+TEA: 洗碗需不需要水呀?
+CHI: 要.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,"teacher: where to do the dishes?
+child: this, i also don’t know.
+teacher: what does doing the dishes require?
+child: (i) don’t know.
+teacher: does doing the dishes require water?
+child: yes.",no,no,
+471,ZhouAssessment/3-3.5/FJhuangzhehan,,teacher,"TEA: 这是熊宝宝的什么你知道吗?
+TEA: 这是被子.",second_person,NP,polar,wh_question,no,no,no,no,no,no,no,no,no,"teacher: Do you know what this is for the little bear?
+teacher: this is a blanket.",no,no,
+472,ZhouAssessment/3-3.5/FJlinjingxuan,,child,"TEA: 这是谁?
+CHI: 我也不知道.
+TEA: 这是只小熊,他穿着衣服.",first_person,omitted,declarative,none,也,no,no,yes,no,no,no,p?,before,"teacher: who is this?
+child: i also don’t know.
+teacher: this is a bear. He wears clothes.",no,no,
+473,ZhouAssessment/3-3.5/FJlinjingxuan,,child,"TEA: 这个是什么?
+CHI: 我不知道.
+TEA: 你想一想这是什么?
+CHI: 这个.",first_person,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,"teacher: what is this?
+child: i don’t know
+teacher: think about it — what is this?
+child: this.",no,no,
+474,ZhouAssessment/3-3.5/FJlinjingxuan,,child,"TEA: 乔治说""/.
+TEA: ""妈妈这是什么菜啊,这么好吃,什么菜啊?
+CHI: 我也不知道.
+TEA: 妈妈说我也不知道啊!
+TEA: 妈妈煮饭这么好吃.",first_person,omitted,declarative,none,也,no,no,yes,no,no,no,p?,before,"teacher: george said,
+teacher: “mom, what dish is this? It’s so delicious. What dish (is this)?”
+child: i also don’t know.
+teacher: mom said i also don’t know.
+teacher: mom’s cooking is so delicious.",no,no,
+475,ZhouAssessment/3-3.5/FJlinjingxuan,,teacher,"TEA: 乔治说""/.
+TEA: ""妈妈这是什么菜啊,这么好吃,什么菜啊?
+CHI: 我也不知道.
+TEA: 妈妈说我也不知道啊!
+TEA: 妈妈煮饭这么好吃.",first_person,omitted,declarative,none,也,no,no,yes,no,no,no,,,"teacher: george said,
+teacher: “mom, what dish is this? It’s so delicious. What dish (is this)?”
+child: i also don’t know.
+teacher: mom said i also don’t know.
+teacher: mom’s cooking is so delicious.",no,no,
+476,ZhouAssessment/3-3.5/FJlinjingxuan,,child,"TEA: 这是什么呢?
+CHI: 我也不知道.
+TEA: 那这是什么呢?
+CHI: 这是菜.",first_person,omitted,declarative,none,也,no,no,yes,no,no,no,p?,before,,no,no,
+477,ZhouAssessment/3-3.5/FJlinshucheng,,teacher,"TEA: 红色,好,那这个是什么颜色?
+TEA: 不知道,我猜它是黑色,哼哼!",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,no,no,,猜,after,
+478,/ZhouAssessment/3-3.5/FJlinshucheng,,teacher,"TEA: <这是哪里小猫的哪里>[//]这是小猫的哪里呀?
+TEA: 啊,不知道呀,告诉我是什么?
+CHI: 头.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,,no,no,
+479,ZhouAssessment/3-3.5/FJlinshucheng,,child,"TEA: 好吧,<它的衣服是什么颜色什么颜色的衣服呀>[//]什么颜色的衣服?
+CHI: 不知道.
+TEA: 不知道?",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,,no,no,
+480,ZhouAssessment/3-3.5/FJlinshucheng,,teacher,"TEA: 好吧,<它的衣服是什么颜色什么颜色的衣服呀>[//]什么颜色的衣服?
+CHI: 不知道.
+TEA: 不知道?",dropped,omitted,rhetorical,none,no,no,no,yes,no,no,no,no,no,,不知道,before,
+481,ZhouAssessment/3-3.5/FJlinshucheng,,teacher,"TEA: <哇,这是什么菜呀>[//]啊,这是什么菜呀!
+CHI: 烤箱.
+TEA: 烤箱,唉,你知道烤箱啊!",second_person,NP,declarative,none,,,,,,,,,,,,,
+482,ZhouAssessment/3-3.5/FJlinshucheng,,teacher,"CHI: 还有什么菜?
+CHI: 西兰花.
+TEA: 哦,西兰花你都知道呀!",second_person,NP,declarative,none,,,,,,,,,,,,,
+483,ZhouAssessment/3-3.5/FJlinshucheng,,teacher,"TEA: 哇,这是什么菜哟?
+CHI: 小豆苗.
+TEA: 哦,小豆苗,你知道<小豆苗>[/]小豆苗.",second_person,NP,declarative,none,,,,,,,,,,,,,
+484,ZhouAssessment/3-3.5/FJlinziwu,,child,"TEA: 坐在桌子边上那是什么小动物呀?
+CHI: 不知道.
+TEA: 不知道呀,这是小猪.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,,no,no,
+485,ZhouAssessment/3-3.5/FJlinziwu,,teacher,"TEA: 坐在桌子边上那是什么小动物呀?
+CHI: 不知道.
+TEA: 不知道呀,这是小猪.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,not_know,before,,no,no,
+486,ZhouAssessment/3-3.5/FJlinziwu,,child,"TEA: 谁给他们做饭呀?
+CHI: 不知道.
+TEA: 你觉得谁可以给他们做饭.
+CHI: 谁来做饭?
+TEA: 对啊,谁来做饭是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 不知道呀,那你们家是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 也不知道你们家是奶奶做饭,是不是?
+CHI: 嗯.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,,觉得,after,
+487,ZhouAssessment/3-3.5/FJlinziwu,,child,"TEA: 谁给他们做饭呀?
+CHI: 不知道.
+TEA: 你觉得谁可以给他们做饭.
+CHI: 谁来做饭?
+TEA: 对啊,谁来做饭是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 不知道呀,那你们家是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 也不知道你们家是奶奶做饭,是不是?
+CHI: 嗯.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,,,,
+488,ZhouAssessment/3-3.5/FJlinziwu,,teacher,"TEA: 谁给他们做饭呀?
+CHI: 不知道.
+TEA: 你觉得谁可以给他们做饭.
+CHI: 谁来做饭?
+TEA: 对啊,谁来做饭是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 不知道呀,那你们家是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 也不知道你们家是奶奶做饭,是不是?
+CHI: 嗯.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,no,no,,不知道,before,
+489,ZhouAssessment/3-3.5/FJlinziwu,,child,"TEA: 谁给他们做饭呀?
+CHI: 不知道.
+TEA: 你觉得谁可以给他们做饭.
+CHI: 谁来做饭?
+TEA: 对啊,谁来做饭是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 不知道呀,那你们家是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 也不知道你们家是奶奶做饭,是不是?
+CHI: 嗯.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,,no,no,
+490,ZhouAssessment/3-3.5/FJlinziwu,,teacher,"TEA: 谁给他们做饭呀?
+CHI: 不知道.
+TEA: 你觉得谁可以给他们做饭.
+CHI: 谁来做饭?
+TEA: 对啊,谁来做饭是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 不知道呀,那你们家是爸爸做饭还是妈妈做饭?
+CHI: 不知道.
+TEA: 也不知道你们家是奶奶做饭,是不是?
+CHI: 嗯.",dropped,omitted,polar,declarative,也,no,no,yes,no,no,no,no,no,,no,no,
+491,ZhouAssessment/3-3.5/FJlinziwu,,child,"TEA: 对啊,他们没有妈妈怎么吃饭呢?
+TEA: 他们的妈妈呢?
+CHI: 不知道.",dropped,omitted,declarative,none,no,no,no,yes,no,no,no,p?,before,,no,no,
+769,Zhou2/60/fa06,,mother,"CHI: 鞠老师教我们的.
+MOT: 哦妈妈还不知道呢!
+CHI: 你[/]你那个时候你还不在的时候.",NP,omitted,declarative,none,还,no,no,yes,no,no,no,no,no,,no,no,
+770,Zhou2/60/fa06,,child,"CHI: 那你想把这个涂成红颜色的吗?
+MOT: <这个>[/]这个.
+CHI: 我知道.",first_person,omitted,declarative,none,no,no,no,no,no,no,no,no,no,,no,no,
+771,Zhou2/60/fa07,,mother,"MOT: 那是半圆.
+CHI 这个呢?
+MOT: 这个不知道.",dropped,NP,declarative,none,no,no,no,no,no,no,no,p?,before,,no,no,
+815,Zhou2/60/ma05,,mother,"MOT: 小企鹅飞快地搬了一只冰袋盖到小星星的身上,才满意地走了.
+MOT: 它们不知道小星星需要什么对吧?
+MOT: 它们把它们认为小星星需要的东西都强加到小星星的身上.",third_person,NP,polar,wh_question,no,no,no,yes,no,no,no,no,no,,认为,after,

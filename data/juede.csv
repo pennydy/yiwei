@@ -1,0 +1,700 @@
+id,file_name,age,speaker,sentence,subject,embedded_subject,sentence_type,embedded_type,adverb,modal,embedded_modal,negation,aspect,embedded_aspect,tense,in_context,where_context,translation,contrast,where_contrast,belief_at_stake
+1,ZhouDinner/middle/15,,father,"FAT: 你觉得今天的这几个菜哪个菜好吃一点呀?
+CHI: 黄瓜!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"father: among these dishes, which one do you think tastes better? 
+son: cucumber!",no,no,
+2,ZhouDinner/middle/20,,child,"CHI: 你吃的公的还是母的?
+GMO: 公的吧.
+CHI: 我觉得是母的,因为我看着你那个小.
+GMO: 我看着大啊.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"child: did you eat the male (crabs) or the female (crabs)?
+grandma: male (crabs) maybe.
+child: i think (you ate) female (crabs), because i see/think yours is/are small.
+grandma: i see/think (mine) is/are big.",no,no,
+3,ZhouDinner/middle/32,,child,"MOT: 所以我们要经常洗澡洗的身上香香的,对不对?
+CHI: 我觉得洗澡,身上湿湿的,都很舒服.
+MOT: 嗯呢.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,p_related,before,"mother: so we need to shower often to make ourselves smell nice, right?
+child: i think showing, when my body’s all wet, feels really nice.
+mother: yeah.",no,no,
+4,ZhouDinner/middle/32,,mother,"CHI: 他喜欢[/]喜欢吃鲨鱼?
+MOT: 鲨鱼啊?
+MOT: 不知道哎.
+MOT: 鲨鱼是不是太生猛了一点啊?
+MOT: 我觉得北极熊有可能追不上他.
+CHI: 北极熊是会成为鲨鱼的xxx.
+MOT: 但是北极还有一种动物.",first_person,NP,declarative,declarative,no,no,可能,no,no,no,no,no,no,"child: he (the polar bear?) likes to eat sharks?
+mother: sharks?
+mother: (i) don’t know.
+mother: isn’t the shar a bit too fierce/aggressive?
+mother: i think the polar bear might not be able to catch him (the shark).
+child: the polar bear might become the shark’s food(?)
+mother: there’s another type of animal in the north pole.",no,no,
+5,ZhouDinner/middle/35,,mother,"MOT: 你要不吃,就不吃了. （should be FAT)
+MOT: 我觉得那个皮还香呢,脆脆的!",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,,no,no,
+6,ZhouDinner/middle/41,,child,"GMO: 嗯哝吃的好伐?
+GMO: 慢慢吃.
+GMO: 奶奶给你调羹.
+CHI: 这调羹了.
+GMO: xxx.
+CHI: 我觉得好吃.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p?,before,,no,no,
+7,ZhouDinner/middle/47,,mother,"MOT: 反正我是挺喜欢吃的.
+MOT 我觉得香香的.
+MOT: 嗯还不错.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: at least i like eating it.
+mother: i think (it) smells good.
+mother: mhm not bad.",no,no,
+8,ZhouDinner/middle/47,,child,"CHI: 姑姑[/]姑姑!
+AUT 嗯.
+CHI: 你是觉得是我包的好吃还是你包的好吃啊?
+AUT: 当然是你包的好吃啊.",second_person,NP,polar,declarative,no,是,no,no,no,no,no,p_answer,after,"child: aunt! Aunt!
+aunt: yeah
+child: do you think the ones that i made tasted better or the ones you made tasted better?
+aunt: of course it the ones that you made tasted better.",no,no,
+9,ZhouDinner/middle/47,,father,"FAT: 觉得那个蛋饺怎么样?
+AUN: 蛮好的.",dropped,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"father: what do (you) think about the egg dumplings/
+aunt: pretty good.",no,no,
+10,ZhouDinner/middle/51,,mother,"FAT: 有点辣吧?
+MOT: 还好吧.
+MOT: 我觉得有点甜.
+CHI: 辣,哈哈哈.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,"before, after","father: (is it) a little spicy?
+mother: (it is) okay.
+mother: i think (it is) a little sweet.
+child: spicy, hahaha",no,no,
+11,ZhouDinner/middle/58,,mother,"GFA: 要么你先吃.
+MOT: 不要,你先吃.
+MOT: 还是你觉得你比我吃得快?",second_person,second_person,polar,declarative,no,no,no,no,no,no,no,no,no,"grandpa: or you eat first.
+mother: no, you eat first.
+mother: or do you think you eat faster than i do?",no,no,
+12,ZhouDinner/middle/58,,mother,MOT: 你有没有觉得你的饭已经冷掉啦?,second_person,NP,polar,declarative,no,no,no,no,no,no,已经,no,no,mother: do you feel like/think your food is already cold?,no,no,
+13,ZhouDinner/middle/59,,grandma,GMO:  我觉得这个桌子太小.,first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,grandma: i think this table is too small.,no,no,
+14,ZhouDinner/middle/65,,child,"CHI: 有个是大的.
+CHI: 爸爸,我觉得这个好大.
+FAT: 一样大的.
+FAT: 嗯这个大的",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,p,"before, after","child: there’s one that is big/there is a big one.
+child: dad, i think this is very big.
+father: (they are) the same size.
+father: yeah, this is big",no,no,
+15,ZhouDinner/middle/66,,mother,"MOT: <你觉得这个>[//]我觉得这个菠菜特别好吃.
+CHI: 不要啊.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: i think this spinach is very delicious.
+child: no (about the spinach)",no,no,
+16,ZhouDinner/middle/66,,mother,"MOT: 学校里边看牙齿啊?
+MOT: 你觉得你的牙齿蛀掉了吗?
+CHI: 蛀掉了.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: getting your teeth examined in school?
+mother: do you think your teeth have decayed/have cavities?
+child: decayed.",no,no,
+17,ZhouDinner/middle/66,,child,"CHI: 爸爸,你最喜欢吃的是什么?
+FAT: 青菜!
+CHI: 我觉得你最喜欢吃的是巧克力.
+MOT: 巧克力啊?",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"child: dad, what is your favorite food?
+father: vegetables!
+child: i think your favorite food is chocolate.
+mother: chocolate?",no,no,
+18,ZhouDinner/middle/66,,child,"CHI: 我觉得我是想要说的.
+CHI: 但是我不能说.",first_person,first_person,declarative,declarative,no,no,是,no,no,no,no,p_alt,after,"child: i think i do want to say (something).
+chidl: but i cannot say (something).",no,no,
+19,ZhouDinner/middle/66,,mother,"MOT: 快点吃!
+MOT: 你也要去那边玩一玩.
+MOT: 然后你也会觉得啊这个菜真好吃!
+CHI: 不要你玩!",second_person,NP,declarative,declarative,也,会,no,no,no,no,no,no,no,"mother: eat faster!
+mother: then you should go have some fun over there too.
+mother: then you’ll also think, wow, this food is really delicious!
+child: (i) don’t want you to play!",no,no,
+20,ZhouDinner/middle/70,,mother,"MOT: 你把菜倒是都吃完了.
+MOT: 但是妈妈觉得你菜和饭都要吃啊.
+MOT: 不能光吃菜的!",NP,second_person,declarative,declarative,no,no,no,no,no,no,no,p_related,"before, after","mother: you finished all the vegetables.
+mother: but mom thinks you should eat both the rice and vegtables.
+mother: (you) shouldn’t only eat vegetables.",no,no,
+21,ZhouDinner/middle/70,,child,"CHI: 我觉得xxx认识xxx.
+FAT: 认识什么了?
+CHI: 认识xxx.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: i think xxx knows xxx.
+father: knows what?
+child: knows xxx.",no,no,
+22,ZhouDinner/upper/02,,child,"CHI: 外婆,我觉得这个肯定很好吃.
+CHI: 可是我现在就想吃.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: grandma, i think this is definitely very delicious.
+child: but i want eat (it) now.",no,no,
+23,ZhouDinner/upper/02,,,,,,,,,,,,,,,,,,,,
+24,ZhouDinner/upper/02,,,,,,,,,,,,,,,,,,,,
+25,ZhouDinner/upper/02,,mother,"MOT: 你觉得味道怎么样?
+CHI: 好!
+MOT: 很好啊?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: what do you think about the flavor?
+child: good!
+mother: good?",no,no,
+26,ZhouDinner/upper/02,,mother,"MOT: 今天画画课,你觉得怎么样?
+MOT: 我就觉得你的那个<大象呀>[//]大象身上的毯子没画好!
+CHI: 有点乱.
+MOT: 对[/]对[/]对!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,no,no,"mother: today’s drawing class, what do you think?/ what do you think about today’s drawing class?
+mother: i just think your elephant// the blanket on the elephant wasn’t drawn well.
+child: a bit messy.
+mother: yeah yeah yeah.",no,no,
+27,ZhouDinner/upper/02,,mother,"MOT: 今天画画课,你觉得怎么样?
+MOT: 我就觉得你的那个<大象呀>[//]大象身上的毯子没画好!
+CHI: 有点乱.
+MOT: 对[/]对[/]对!",first_person,NP,declarative,declarative,就,no,no,no,no,没,no,no,no,"mother: today’s drawing class, what do you think?/ what do you think about today’s drawing class?
+mother: i just think your elephant// the blanket on the elephant wasn’t drawn well.
+child: a bit messy.
+mother: yeah yeah yeah.",no,no,
+28,ZhouDinner/upper/07,,father,"FAT: 那个鸡蛋给谁吃啊?
+FAT: 嗯?
+FAT: 你觉得这个鸡蛋给谁吃啊?
+CHI: 要不给你吃?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,direct_p?,before,"father: who was that egg for?
+father: yes?
+father: what do you think this egg is for?
+child? how about I give you it to eat? ",direct,before,
+29,ZhouDinner/upper/19,,mother,"MOT: 那我们明天回家自己学着做吧?
+CHI: 嗯.
+CHI: 我最喜欢要这个!
+MOT: 那你这个,喜不喜欢?
+CHI: 不.
+MOT: 那你觉得汉堡包应该xxx?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,no,no,"mother: then shall we go home tomorrow and try making it ourselves?
+child: yeah.
+child: i like this one the most–i want this one!
+mother: then do you like this one?
+child: no.
+mother: then what do you think the hamburgers should xxx?",no,no,
+30,ZhouDinner/upper/19,,mother,"MOT: 我就问你吗.
+MOT: 这个汉堡包,你觉得应该怎么做?
+MOT: 想一想!
+CHI: 应该放上一层皮,一层面包,再一层肉,再一层黄油,再一层肉串,还有肉!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: i just want to ask you.
+mother: this hamburger, how do you think it should be made?
+mother: think about it.
+child: (we) should put a layer of skin, then a layer of bread, then a layer of meat, then some butter, then a layer of meat skewers, and meat!",觉得,before,
+31,ZhouDinner/upper/19,,mother,"MOT: 那你觉得它为什么要把这些东西放在一起呢?
+CHI: 这样就更美味啊!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: then why do you think (we) should put these things together?
+child: this makes it more delicious!",no,no,
+32,ZhouDinner/upper/29,,child,"CHI: 妈妈,我觉得这个,我们学校也有.
+CHI: 像一个城堡.
+MOT: 哪个像城堡?",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: mom, i think this one, our school has this one too.
+child: (it is) like a castle.
+mother: which one is like a castle?",no,no,
+33,ZhouDinner/upper/44,,child,CHI: 我觉得它很有弹性的. [the kid was playing with some food],first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,child: i think it (the food) is springy (chewy)!,no,no,
+34,ZhouDinner/upper/44,,father,"FAT: 我觉得我们像外地人一样的.
+FAT: 这个视频都是说普通话.",first_person,first_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"father: i think we are like non-locals.
+father: (people in) this video/recording speak Mandarin.",no,no,no
+35,ZhouDinner/upper/45,,mother,"CHI: 妈妈,谁白?
+MOT: 你觉得谁白啦?
+CHI: 谁白?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,direct_p?,"before, after","child: mom, who (whose skin) is fair?
+mother: who do you think looks fair?
+child: who is fair?",direct,before,yes
+36,ZhouDinner/upper/60,,,,,,,,,,,,,,,,,,,,
+37,ZhouDinner/upper/62,,mother,"MOT: 其实我觉得鱼肉很好吃的.
+MOT: 你不要?",first_person,NP,declarative,declarative,其实,no,no,no,no,no,no,no,no,"mother: actually i think the fish is very delicious.
+mother: you don’t want?",no,no,
+38,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 你来帮我,好不好?
+CHI: 嗯.
+TEA: 台灯你觉得可以放哪?
+TEA: 站起来没关系.
+TEA: 可以走动没关系.
+TEA: 哦,你想放哪里?
+TEA: 放阳台,是不是?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,no,no,"teacher: can you help me?
+child: sure.
+teacher: the desk lamp, where do you think (we) can put (it)?
+teacher: it’s okay to stand up.
+teacher: it’s okay to walk around, don’t worry.
+teacher: oh, where do you want to put it?
+teacher: on the balcony, right?",想,after,
+39,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 好,这是什么呀?
+CHI 这个我不知道.
+TEA: 你觉得这是什么?
+CHI: 被子吗?
+TEA: 哦,那这个呢?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,"direct_p?, p_answer","before, after","teacher: okay, what is this?
+child: this, i don’t know.
+teacher: what do you think it is?
+child: a blanket?
+teacher: oh, what about this?",不知道,before,yes
+40,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 你觉得这个是房间还是更适合放浴缸呢?
+CHI: 浴缸.
+TEA: 为什么?",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: do you think this room is better as a bedroom or better for a bathtub? 
+child: bathtub.
+teacher: why?",no,no,
+41,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 那这里你觉得应该是什么?
+TEA: 猜猜看.
+CHI: 卫生间那应该放这边.",second_person,NP,wh_question,declarative,no,no,应该,no,no,no,no,no,no,"teacher: then what do you think should be here?
+teacher: take a guess.
+child: the bathroom should be on this side.",猜,after,yes
+42,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 那这里你觉得它是哪里?
+CHI: 房间.
+TEA: 房间,房间是卧室还是厨房呢?
+CHI: 厨房.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: then here, where do you think it is?
+child: the room.
+teacher: room, is the room the bedroom or the kitchen?
+child: the kitchen.",no,no,
+43,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 那窗帘放哪里?
+CHI: 不知道.
+TEA: 你觉得窗帘可以放哪里?
+CHI: 仓库旁边.",second_person,NP,wh_question,declarative,no,no,可以,no,no,no,no,"direct_p?, p_answer","before, after","teacher: then where (should we) put the curtain?
+child: i don’t know.
+teacher: where do you think (we can) put the curtain?
+child: next to the storage.",不知道,before,yes
+44,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 可以呀那你自己决定吧!
+TEA: 你觉得哪里更适合?
+CHI: 我觉得...
+TEA: 那我们放卧室,好不好?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,juede_answer,after,"teacher: sure! Then you can make the decision!
+teacher: where do you think is better?
+child: i think…
+teacher: then shall we put (it) in the bedroom?",no,no,yes
+45,ZhouAssessment/4.5-5/FJHan_Shuheng,,child,"TEA: 可以呀那你自己决定吧!
+TEA: 你觉得哪里更适合?
+CHI: 我觉得...
+TEA: 那我们放卧室,好不好?",incomplete,incomplete,incomplete,incomplete,no,no,incomplete,incomplete,no,incomplete,incomplete,incomplete,incomplete,"teacher: sure! Then you can make the decision!
+teacher: where do you think is better?
+child: i think…
+teacher: then shall we put (it) in the bedroom?",觉得,before,
+46,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 篮子可以用来做什么?
+CHI: 装东西.
+TEA: 装东西.
+TEA: 那你觉得可以放哪里装东西?
+TEA: 买菜要不要装,要不要?
+CHI: 要.",second_person,dropped,wh_question,declarative,no,no,可以,no,no,no,no,no,no,"teacher: what can a basket be used for? 
+child: to carry/store stuff.
+teacher: to carry stuff.
+teacher: then where do you think (we) can put (it) to carry/store things?
+teacher: does doing grocery require carrying? Do you need a bag to store/carry the vegetables? Do you?
+child: yes.",no,no,
+47,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 这里还有一个.
+TEA: 你觉得可以放哪里?
+CHI: 这个应该拔出来.
+TEA: 嗯,这个应该拔出来然后呢?",second_person,dropped,wh_question,declarative,no,no,可以,no,no,no,no,p_answer,after,"teacher: here is another one.
+teacher: where do you think (we can) put (it)?
+child: this should be pulled out.
+teacher: yeah, this should be pulled out. And then?",no,no,
+48,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 什么颜色的光?
+CHI: 嗯,红蓝.
+TEA: 对了,可以放哪个房间?
+TEA: 红蓝你觉得可以可以放哪里?
+TEA: 客厅有的时候开舞会的时候可以有这种颜色会不会好?
+CHI: 很好.
+TEA: 那可以放哪里?",second_person,NP,wh_question,declarative,no,no,可以,no,no,no,no,direct_p?,before,"teacher: which color of the light?/which color is the light?
+child: yeah, red blue.
+teacher: that’s right.  Which room can (we) put it?
+teacher: red blue, where do you think (we) can can put it?
+Teacher: when we sometimes hold dance parties in the living room, would it be nice to have this kind of color? 
+child: very good.
+teacher: then where can (we) put it?",direct,before,yes
+49,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 这是谁?
+CHI: 妈妈.
+TEA: 妈妈你觉得她在干吗?
+CHI: 我觉得我...",second_person,second_person,wh_question,declarative,no,no,no,no,no,在,no,juede_answer,after,"teacher: who is this?
+child: mom/mummy pig.
+teacher: mommoy pig, what do you think she’s doing?
+child: i think i…",no,no,
+50,ZhouAssessment/4.5-5/FJHan_Shuheng,,child,"TEA: 这是谁?
+CHI: 妈妈.
+TEA: 妈妈你觉得她在干吗?
+CHI: 我觉得我...",first_person,first_person,incomplete,incomplete,no,no,incomplete,incomplete,no,incomplete,incomplete,incomplete,incomplete,"teacher: who is this?
+child: mom/mummy pig.
+teacher: mom/mommy pig, what do you think she’s doing?
+child: i think i…",觉得,before for question,
+51,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 我们先把这些东西摆进去.
+TEA: 你觉得这个放哪里?
+CHI: 妈妈我我觉得她应该在可能小猪佩奇睡觉.
+TEA: 哦,好的,可以就让她睡觉.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,no,no,"teacher: let’s first put these things in.
+teacher: what do you think (we) should put this?
+child: mom/mummy pig, i i think she should be, maybe the peppa pig is sleeping.
+teacher: oh, okay, (we) can let her sleep.",no,no,
+52,ZhouAssessment/4.5-5/FJHan_Shuheng,,child,"TEA: 我们先把这些东西摆进去.
+TEA: 你觉得这个放哪里?
+CHI: 妈妈我我觉得她应该在可能小猪佩奇睡觉.
+TEA: 哦,好的,可以就让她睡觉.",first_person,third_person,declarative,declarative,no,no,应该，可能,no,no,no,no,no,no,"teacher: let’s first put these things in.
+teacher: what do you think (we) should put this?
+child: mom/mummy pig, i i think she should be, maybe the peppa pig is sleeping.
+teacher: oh, okay, (we) can let her sleep.",觉得,before for question,
+53,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 有一栋房子.
+TEA: 你觉得房子漂亮吗?
+TEA: 嘴巴说漂亮吗?
+TEA: 你觉得漂亮吗?
+CHI: 漂亮.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,no,no,"teacher: there’s a house.
+teacher: do you think the house is beautiful?
+teacher: does the mouth say beautiful? 
+teacher: do you think (it is) beautiful?
+child: beautiful.",no,no,
+54,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 有一栋房子.
+TEA: 你觉得房子漂亮吗?
+TEA: 嘴巴说漂亮吗?
+TEA: 你觉得漂亮吗?
+CHI: 漂亮.",second_person,dropped,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: there’s a house.
+teacher: do you think the house is beautiful?
+teacher: does the mouth say beautiful? 
+teacher: do you think (it is) beautiful?
+child: beautiful.",no,no,
+55,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 他会在哪里呢?
+TEA: 你来摆吧?
+TEA: 你觉得他现在应该是在做什么猪爸爸?
+TEA: 站起来?",first_person,third_person,wh_question,declarative,no,no,应该,no,no,no,no,no,no,"teacher: where will he be?
+teacher: do you want to set it up?
+teacher: what do you think he is doing, daddy pig?
+teacher: standing up?",no,no,
+56,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你把他摆过去.
+TEA: 你觉得猪爸爸会在哪里?
+TEA: 他是会在房间睡觉呢,还是会在客厅里面吃饭呢,还是会去干吗?",first_person,NP,wh_question,declarative,no,no,会,no,no,no,no,no,no,"teacher: you put him over there.
+teacher: where do you think daddy pig will be?
+teacher? Will he be sleeping in the room, or eating in the living room, or doing something?",no,no,
+57,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你觉得这是哪里?
+CHI: 睡觉的地方.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: where do you think this is?
+child: a place to sleep.",no,no,
+58,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 猪妈妈你觉得会在干吗?
+TEA: 这是什么意思?
+CHI: 饭厅.
+TEA: 妈妈在饭厅做什么?
+CHI: 嗯做菜.",second_person,NP,wh_question,declarative,no,no,会,no,no,no,no,p_answer,after,"teacher: mummy pig, what do you think (she) will be doing?
+teacher: what does this mean?
+child: the dining room.
+teacher: what is mom/mummy pig doing in the dining room?
+child: cooking.",no,no,
+59,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 乔治你觉得他在干吗?
+TEA: 你来你走过这里来看一看看得更清楚.
+TEA: 乔治你觉得他是在干吗?
+TEA: 这是在哪呢?
+TEA: 这个地方是哪的你觉得?
+CHI: 这上面的餐桌.",second_person,third_person,wh_question,declarative,no,no,no,no,no,在,no,no,no,"teacher: george, what do you think he is doing?
+teacher: you come and walk here to take a look, you’ll see it more clearly.
+teacher: george, what is he doing that you think / what do you think he is doing?
+teacher: where is this?
+teacher: what do you think this place is?
+child: the dining table above.",no,no,
+60,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 乔治你觉得他在干吗?
+TEA: 你来你走过这里来看一看看得更清楚.
+TEA: 乔治你觉得他是在干吗?
+TEA: 这是在哪呢?
+TEA: 这个地方是哪的你觉得?
+CHI: 这上面的餐桌.",second_person,third_person,wh_question,declarative,no,no,是,no,no,在,no,no,no,"teacher: george, what do you think he is doing?
+teacher: you come and walk here to take a look, you’ll see it more clearly.
+teacher: george, what is he doing that you think / what do you think he is doing?
+teacher: where is this?
+teacher: what do you think this place is?
+child: the dining table above.",no,no,
+61,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 乔治你觉得他在干吗?
+TEA: 你来你走过这里来看一看看得更清楚.
+TEA: 乔治你觉得他是在干吗?
+TEA: 这是在哪呢?
+TEA: 这个地方是哪的你觉得?
+CHI: 这上面的餐桌.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: george, what do you think he is doing?
+teacher: you come and walk here to take a look, you’ll see it more clearly.
+teacher: george, what is he doing that you think / what do you think he is doing?
+teacher: where is this?
+teacher: what do you think this place is?
+child: the dining table above.",no,no,
+62,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 那乔治的妹妹佩奇这会儿你觉得她是在干吗?
+CHI: 嗯?
+TEA: 哦,她在干吗呀?
+CHI: 弹钢琴.",second_person,third_person,wh_question,declarative,no,no,no,no,no,在,no,direct_p?,after,"teacher: then george’s sister peppa, what do you think she is doing right now?
+child: what?
+teacher: oh, what is she doing?
+child: playing the piano.",direct,after,
+63,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 她在弹钢琴. 
+TEA: 你觉得她今天会弹什么一首曲子呢?
+TEA: <她会弹一首什么歌呢>[/]她会弹一首什么歌曲呢?
+TEA: 小星星?
+TEA: 点头是代表的什么意思?
+CHI: 是.",second_person,third_person,wh_question,declarative,no,no,会,no,no,no,no,direct_p?,after,"teacher: she is playing the piano.
+teacher: which song do you think she will play today?
+teacher: which song she will play today?
+teacher: twinkle twinkle little star?
+teacher: what does nodding mean?
+child: yes.",direct,after,
+64,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 好,你觉得那他到他们家门口之后他会做什么事情?
+TEA: 去别人家做客会做什么事情?
+CHI: 会(.)还这样走就到了.",second_person,third_person,wh_question,declarative,no,no,会,no,no,no,no,direct_p?,after,"teacher: okay, what do you think then after he is infront of their door, what will he do?
+teacher: What do you do when you visit someone’s home?
+child: will (action) and also walk like this then we’ll get there.",direct,after,
+65,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 好,我们来敲敲门.
+TEA: 这个时候你觉得谁会回答?
+TEA: 里面的人听到了,他会怎么说.
+CHI: 里面有人.",second_person,third_person,wh_question,declarative,no,no,会,no,no,no,no,no,no,"teacher: okay, let’s knock on the door.
+teacher: Who do you think would answer at this moment?
+teacher: the person inside hear it, what will he/she say?
+child: there are people inside.",no,no,
+66,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你觉得猪妈妈会带他们去哪儿呢?
+TEA: 去客厅喝茶还是去饭厅吃吃早饭呢,去哪儿?
+CHI: 上面去",second_person,NP,wh_question,declarative,no,no,会,no,no,no,no,direct_p?,after,"teacher: where do you think mummy pig will take them?
+teacher: to the living room to drink tea, or to the dining room to eat breakfast? Where?
+child: to go up.",direct,after,
+67,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 好,那你觉得第二个上去的是谁?
+CHI: 妈妈.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: okay, then, who do you think is the second person to go up/upstairs?
+child: mom.",no,no,
+68,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: <我觉得>[//]<你觉得他们现在会发生什么事情>[//]你觉得他们会发生什么事情,你用语言来告诉我.
+CHI 啊,怎么回事?
+TEA: 嗯?
+TEA: 会发生什么事呢?",second_person,third_person,wh_question,declarative,no,no,no,no,no,no,no,direct_p?,after,"teacher: <i think>//<what do you think will happen to them now?> what do you think will happen to them now? Tell me in words.
+child: ah, what’s going on?
+teacher: yes?
+teacher: what will happen?",direct,after,
+69,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你觉得他们会发生什么事情呢,接下来?
+TEA: 作为主人的妈妈,她可能会说什么呢?
+CHI: 他不用吃了.",second_person,third_person,wh_question,declarative,no,no,no,no,no,no,no,direct_p?,after,"teacher: what do you think will happen to them next?
+teacher: as the mom of the owner, what will she say?
+child: he doesn’t need to eat.",direct,after,
+70,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 哎,你看,<弟弟的表情是怎么样的>[//]弟弟的表情是什么样子.
+CHI: 把舌头伸出来了出来.
+TEA: 把舌头伸出来了是因为觉得这个食物太好吃了吗?
+TEA: 嗯,那我们再来看看妹妹.",dropped,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"teacher: ah look, <what is the little brother’s expression?> what expression is the little brother making?
+child: he stuck out his tongue.
+teacher: is it because (he) thinks the food is so delicious that he stuck out his tongue?
+teacher: okay, then let’s look at the sister.",no,no,
+71,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你觉得妹妹会先吃哪一盘啊?
+CHI: 这一盘.",second_person,NP,wh_question,declarative,no,no,会,no,no,no,no,p_answer,after,"teacher: which dish do you think the sister will have first?
+child: this dish.",no,no,
+72,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 她可能会觉得怎么样?
+CHI: 很好吃.
+TEA: 这个蛋糕太好吃啦!",third_person,dropped,wh_question,declarative,no,可能，会,no,no,no,no,no,p_answer,after,"teacher: How might she feel?
+child: very delicious.
+teacher:  this cake is so delicious!",no,no,
+73,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 吃完了饭,吃完了点心,你觉得嗯,觉得作为乔治妈妈,还有乔治爸爸,还会邀请他们做什么?
+TEA: 这个时候,乔治爸爸,他<会不会也出来了>[/]会不会也出来了?
+CHI: 会.",second_person,NP,wh_question,declarative,no,no,会,no,no,no,no,direct_p?,after,"tacher: after finishing having the meal, finishing eating the dessert, what do you think, think as george’s mom and george’s dad, what will (they) invite them to do?
+teacher: at this point, george’s dad, will he come out?
+child: yes.",no,no,
+74,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 还有什么吗?
+CHI: 爸爸.
+TEA: 你觉得这个是他的爸爸是吗,噢那这个呢?
+CHI: 妈妈.
+TEA: 你怎么觉得这个是爸爸,哪里看出来呢?
+CHI: 因为他衣服是蓝色的啊.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p,before,"teacher: what else?
+child: dad.
+teacher: you think this is his dad, right? Oh, what about this one?
+child: mom.
+teacher: how/why do you think this is dad? Where can you tell?
+child: because his shirt is blue.",no,no,
+75,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 还有什么吗?
+CHI: 爸爸.
+TEA: 你觉得这个是他的爸爸是吗,噢那这个呢?
+CHI: 妈妈.
+TEA: 你怎么觉得这个是爸爸,哪里看出来呢?
+CHI: 因为他衣服是蓝色的啊.",second_person,NP,how-wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: what else?
+child: dad.
+teacher: you think this is his dad, right? Oh, what about this one?
+child: mom.
+teacher: how/why do you think this is dad? Where can you tell?
+child: because his shirt is blue.",no,no,yes
+76,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 爸爸带着眼镜,你觉得像爸爸.
+TEA: 爸爸妈妈哪里呢?",second_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"teacher: dad wears glasses, you think (it/he) looks like dad.
+teacher: where are mom and dad?",no,no,
+77,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 怎么看出来它是男生还是女生?
+CHI: 因为它衣服蓝色.
+CHI 然后她的衣服是粉红色.
+TEA: 噢,你觉得女生喜欢刷(穿？)粉色的肯定是女生,那这男生喜欢蓝色得,对不对?
+CHI: 嗯.",second_person,NP,rhetorical,declarative,no,no,no,no,no,no,no,"p, p_answer","before, after","teacher: how to tell he is a boy or a gir?
+child: because its cloth is blue.
+child: and then its/her cloth is pink.
+teacher: oh, you think girls like to wear pink, (it) must be a girl, and then boys like blue things, right?
+child: yeah.",no,no,
+78,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 好,我们看一看这什么?
+CHI: 沙发.
+TEA: 嗯,这个有点像茶几,是不是啊?
+TEA: 那你觉得放在哪一边呢?
+CHI: 搬那边去.",second_person,dropped,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: okay, let’s see, what is this?
+child: a sofa.
+teacher: yeah, this looks like a coffes table, right?
+teacher: which side do you think (we should) put it/it should be placed?
+child: move to that side.",no,no,
+79,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 噢,那你觉得这张椅子长长木头做的更适合放在哪里呢?
+CHI: 那些放在外面.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: oh, then where do you think is better (a better place) to put this chair made from long wood?
+child: those should be put outside.",no,no,
+80,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 那这个是什么呢?
+CHI: 外面灯.
+TEA: 嗯,你觉得这是外面灯.
+TEA: 那这是什么?
+CHI: 桌子[//]小桌子.",second_person,NP,declarative,declarative,no,no,no,no,no,no,no,p,before,"teacher: then what is this?
+child: outside light.
+teacher. Oh, you think this is outside light.
+teacher: then what is this?
+child: table. Small table.",no,no,
+81,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 那小桌子放哪?
+CHI: 嗯,这个不是桌子.
+TEA: 嗯,那你觉得这像桌子放哪里?
+TEA: 嗯,那这边也行.
+TEA 噢,你想看到这边.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: then where to/we should put the small table?
+chidl: emm, this is not a table.
+teacher: emm, then where do you think (we should) put this table-like thing?
+teacher: yeah, then this side is fine.
+teacher: oh, you want to be able to see this side.",no,no,
+82,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: 嘉乐,你看这里有栋房子,对不对?
+TEA: 这个房子你觉得能玩嘛?
+TEA: 这是什么?
+CHI: 勺子.",second_person,NP,polar,declarative,no,no,能,no,no,no,no,no,no,"teacher: Jiale [kid’s name], you see there’s a house, right?
+teacher: do you think (we) can play (in?) this house?
+teacher: what is this?
+child: a spoon.",no,no,
+83,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: <这是他们家的什么地方啊>[//]这是什么?
+CHI: 厨房的冰箱.
+TEA: 你觉得她们家厨房在哪?
+TEA: 我们帮她盖个厨房,好不好?
+CHI: 厨房肯定在这啦!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: <What part of their house is this?> what is this?
+child: the fridge of (in?) the kitchen.
+teacher: where do you think is their kitchen?
+teacher: let’s help her to build a kitchen, okay?
+child: the kitchen has to be here!",no,no,
+84,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: 哎,呦,好臭不闻,你闻得臭不臭?
+CHI: 我闻的不臭.
+TEA: 好吧,你觉得不臭就行了.
+CHI: 那你闻闻.
+TEA: 我也觉得不臭.",second_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p,before,"teacher: ah, so stinky don’t smell. Does it smell bad to you?
+child: it doesn’t smell bad to me.
+teacher: okay, as long as you think it’s not stinky.
+child: well you smell it.
+teacher: i also think it’s not stinky.",no,no,
+85,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: 哎,呦,好臭不闻,你闻得臭不臭?
+CHI: 我闻的不臭.
+TEA: 好吧,你觉得不臭就行了.
+CHI: 那你闻闻.
+TEA: 我也觉得不臭.",second_person,dropped,declarative,declarative,也,no,no,no,no,no,no,no,no,"teacher: ah, so stinky don’t smell. Does it smell bad to you?
+child: it doesn’t smell bad to me.
+teacher: okay, as long as you think it’s not stinky.
+child: well you smell it.
+teacher: i also think it’s not stinky.",no,no,
+86,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: 你觉得<他是医生的什么>[//]他是医生的药吗?
+CHI: 可能是吧!",second_person,third_person,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: <what do you think it is> do you think it is the doctor’s medicine?
+child: maybe (it) is!",no,no,
+87,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: 这个玩具好玩吗?
+CHI: 好玩.
+TEA: 我也觉得好好玩.",first_person,dropped,declarative,declarative,也,no,no,no,no,no,no,no,no,"teacher: is this toy fun to play with?
+child: (it is) fun to play with.
+teacher: i also think (it is) very fun to play with.",no,no,
+88,ZhouAssessment/4.5-5/FJlinmiaochen,,teacher,"CHI: 因为它们喜欢跟我一起玩.
+CHI: 我也喜欢跟他们[/]他们在一起.
+TEA: 跟他们在一起你觉得?
+CHI: 很好玩.
+TEA: 心里觉得?
+CHI: 嗯,很开心,很热情.",second_person,dropped,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"child: because they like to play with me.
+child: because i also like to be with them.
+teacher: with them you feel?
+child: very fun.
+teacher: feel in your heart?
+child: yeah, very happy, very enthusiastic.",no,no,
+89,ZhouAssessment/4.5-5/FJlinmiaochen,,teacher,"CHI: 因为它们喜欢跟我一起玩.
+CHI: 我也喜欢跟他们[/]他们在一起.
+TEA: 跟他们在一起你觉得?
+CHI: 很好玩.
+TEA: 心里觉得?
+CHI: 嗯,很开心,很热情.",dropped,dropped,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"child: because they like to play with me.
+child: because i also like to be with them.
+teacher: with them you feel?
+child: very fun.
+teacher: feel in your heart?
+child: yeah, very happy, very enthusiastic.",no,no,
+90,ZhouAssessment/4.5-5/FJlinsichen,,teacher,"TEA: 让他住到他的家去,你觉得他可以住到哪呢?
+CHI: 就住跟这个[:只]猫一起住.",second_person,third_person,wh_question,declarative,no,no,可以,no,no,no,no,p_answer,after,"teacher: let him stay at his place, where do you think he can stay?
+child: just stay, stay with this cat.",no,no,
+91,ZhouAssessment/4.5-5/FJlinsichen,,child,"TEA: 你看下可以放在哪?
+CHI: 我觉得可以放衣架.
+TEA: 行啊,你现在在拼什么?",first_person,dropped,declarative,declarative,no,no,可以,no,no,no,no,p?,before,"teacher: take a look and see where (it) can go?/where we can put it?
+child: I think we could put a clothes rack (there).
+teacher: okay, what are you assembling now?",no,no,no
+92,ZhouAssessment/4.5-5/FJlinsichen,,teacher,"TEA: 那你要找个东西给它稳定.
+CHI: 这样不是稳定了么?
+TEA: 这样你觉得猪爸爸上去会不会摔倒啊?
+CHI: 不会啊!",second_person,NP,polar,declarative,no,no,会,no,no,no,no,p_answer,after,"teacher: then you need to find something to make it stable.
+child: isn’t it stable like this?
+teacher: like this, do you think daddy pig will fall if he goes up like this?
+child: no!",no,no,
+93,ZhouAssessment/4.5-5/FJlinsichen,,child,"TEA: 放在哪比较合适.
+CHI: 我觉得放在这.
+TEA: 这是哪?
+TEA: 你觉得全部放在二楼吗,一楼会不会有一些植物呢?
+CHI: 一楼很厉害.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_answer,before,"teacher: Where would be more suitable to put it?
+child: i think (we should) put (it) here/it should be placed it.
+teacher: where is here?
+teacher: do you think (we should) put everything on the second floor, will there be some plants on the first floor?
+child: first floor is awesome.",no,no,
+94,ZhouAssessment/4.5-5/FJlinsichen,,teacher,"TEA: 放在哪比较合适.
+CHI: 我觉得放在这.
+TEA: 这是哪?
+TEA: 你觉得全部放在二楼吗,一楼会不会有一些植物呢?
+CHI: 一楼很厉害.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,no,no,"teacher: Where would be more suitable to put it?
+child: i think (we should) put (it) here/it should be placed it.
+teacher: where is here?
+teacher: do you think (we should) put everything on the second floor, will there be some plants on the first floor?
+child: first floor is awesome.",no,no,
+95,ZhouAssessment/4.5-5/FJlishuqi,,teacher,"TEA: 这两只小猫你觉得谁是女孩啊?
+CHI: 穿粉色衣服的是女孩.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: these two kittens, which one do you think is the girl?
+child: the one in pink clothes is the girl.",no,no,
+96,ZhouAssessment/4.5-5/FJlishuqi,,child,"CHI: 猫妈妈一边<煮着>[/]煮着苦瓜汤.
+CHI: 加了盐.
+CHI: 觉得味道很好吃.
+CHI: 然后呢把勺子放在一边去.",third_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: the mom cat is cooking the bitter melon soup
+child: adds salt.
+child: thinks the flavor is/it tastes really good.
+child: and then (she) puts the spoon to the side.",no,no,
+97,ZhouAssessment/4.5-5/FJluguo,,teacher,"TEA: 这样自己拿,这是什么?
+CHI: 也是桌子.
+TEA: 那你觉得哪个桌子更适合吃饭呢?
+CHI: 这个大点.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: this way, you (can) take it yourself. Waht is this?
+child: also a table.
+teacher: then which table do you think is more suitable for dining?
+child: this bigger one.",no,no,
+98,ZhouAssessment/4.5-5/FJluguo,,teacher,"TEA: 哦,你觉得这是化妆的椅子吗?
+TEA: 你看它和它这个[:把]椅子不一样是不是,一样不一样?
+CHI: 不一样.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,no,no,"teacher: oh, do you think this is the makeup chair?
+teacher: you see, this and this chair are not the same, right? Not the same right?
+child: not the same.",no,no,
+99,ZhouAssessment/4.5-5/FJluguo,,child,"TEA: 水杯哦,洗手间[/]洗手间[/]洗手间放哪里?
+CHI: 嗯嗯,我觉得洗手间可以放这边点.
+CHI: 一个房间一个洗手间.",first_person,NP,declarative,declarative,no,no,可以,no,no,no,no,p?,before,"teacher: water bottle. Bathroom/bathroom/where (should we) put the bathroom?
+child: yeah, i think the bathroom can be placed a little bit to this side.
+child: one bedroom, one bathroom (one bathroom in each room).",no,no,
+100,ZhouAssessment/4.5-5/FJluguo,,teacher,"TEA: 这个是什么?
+CHI: 勺子,厨房的.
+TEA: 厨房的勺子,你会不会觉得厨房有点大?
+CHI: 有点大,好了.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: what is this?
+child: a spoon, for the kitchen.
+teacher: the kitchen spoon. Do you think the kitchen is a bit big?
+child: a bit big, that's enough.",no,no,
+101,ZhouAssessment/4.5-5/FJwangjunzhe,,teacher,"TEA: 嗯,你觉得哪些蔬菜有营养呢?
+CHI: 青菜.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: yeah, which vegetables do you think is nutritious?
+child: green vegetables.",no,no,
+102,ZhouAssessment/4.5-5/FJwangjunzhe,,teacher,"TEA: 西红柿炒蛋啊,你觉得这道菜有营养吗?
+CHI: 有.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: Tomatoes and scrambled eggs, do you think this dish is nutritious?
+child: yes.",no,no,
+103,ZhouAssessment/4.5-5/FJxiaoyutong,,teacher,"TEA: 嗯,告诉我觉得他们会怎么煮?
+CHI: 他们会用炒菜煮.
+TEA: 嗯,用这个平底锅炒吗?",dropped,third_person,wh_question,declarative,no,no,会,no,no,no,no,p_answer,after,,no,no,
+104,ZhouAssessment/4.5-5/FJxiaoyutong,,teacher,"TEA: 肚子好饿,他们躺在床上觉得.
+CHI: 嗯.",,,,,,,,,,,,,,,,,
+105,ZhouAssessment/4.5-5/FJxiaoyutong,,teacher,"TEA: 乔治它觉得有点饿它可能会问妈妈什么?
+CHI: 妈妈饭煮好了没?",,,,,,,,,,,,,,,,,
+106,ZhouAssessment/4.5-5/FJxiaoyutong,,teacher,"TEA: 那你觉得妈妈怎么回答他?
+CHI: 然后乔治下来找妈妈.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,,no,no,
+107,ZhouAssessment/4.5-5/FJxujingyi,,teacher,"TEA: 我以前在阳台很爱玩捉迷藏,你觉得呢?
+CHI: 我觉得.
+TEA: 你觉得他们会玩这个游戏吗,会不会?
+CHI: 他们在这里房间玩一会.",second_person,omitted,polar,none,no,no,no,no,no,no,no,juede_answer,after,,no,no,
+108,ZhouAssessment/4.5-5/FJxujingyi,,child,"TEA: 我以前在阳台很爱玩捉迷藏,你觉得呢?
+CHI: 我觉得.
+TEA: 你觉得他们会玩这个游戏吗,会不会?
+CHI: 他们在这里房间玩一会.",first_person,omitted,declarative,none,no,no,no,no,no,no,no,direct_p,before,,no,no,
+109,ZhouAssessment/4.5-5/FJxujingyi,,teacher,"TEA: 我以前在阳台很爱玩捉迷藏,你觉得呢?
+CHI: 我觉得.
+TEA: 你觉得他们会玩这个游戏吗,会不会?
+CHI: 他们在这里房间玩一会.",second_person,third_person,polar,declarative,no,no,会,no,no,no,no,no,no,,no,no,
+466,ZhouAssessment/3-3.5/FJchenqingyang,,teacher,"TEA: 那妈妈现在要做饭.
+TEA: 要煮些什么东西给宝宝吃呢?
+TEA: 妈妈觉得好苦恼啊.
+TEA: 有怎么多的东西.
+TEA: 要做什么呢?",NP,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"teacher: then mom needs to cook now.
+teacher: what should (she) for the baby to eat?
+teacher: Mom feels so troubled.
+teacher: there are so many things.
+teacher: what do make?",no,no,
+467,ZhouAssessment/3-3.5/FJchenqingyang,,teacher,"TEA: 哇,爸爸妈妈种了菜之后满身是汗,他们觉得身上很不舒服,那可以带他们去哪里呢?
+CHI: 带他们去...
+TEA: 带他们去哪里?",third_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,,,,
+468,ZhouAssessment/3-3.5/FJchenyanxi,,teacher,"CHI: 这里这个是什么?
+TEA: 你觉得像什么?",second_person,dropped,wh_question,declarative,no,no,no,no,no,no,no,p?,before,,no,no,
+469,ZhouAssessment/3-3.5/FJhuangzhehan,,teacher,"TEA: 那今天我们要除了小熊在这里,你觉得还有谁可以邀请到面去呀?
+TEA: 或者你觉得这个家会不会太空了一些?
+CHI: 会.",second_person,NP,wh_question,declarative,no,no,可以,no,no,no,no,no,no,,no,no,
+470,ZhouAssessment/3-3.5/FJhuangzhehan,,teacher,"TEA: 那今天我们要除了小熊在这里,你觉得还有谁可以邀请到面去呀?
+TEA: 或者你觉得这个家会不会太空了一些?
+CHI: 会.",second_person,NP,,,no,no,会,no,no,no,no,p_answer,after,,,,
+779,Zhou2/60/fa07,,mother,"MOT: 然后呢?
+MOT: 你觉得自己搭的那个.
+MOT: 这个角,对不对呀?
+CHI: 对.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: and then?
+mother: you think that thing you make, the corner right/is it right?
+child: right.",no,no,
+780,Zhou2/60/fb16,,child,"MOT: 这一横应该横在这个地方.
+MOT: 不应该横在这里.
+CHI: 我就觉得横在这边.
+MOT: 你喜欢?",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"mother: This horizontal stroke should go here.
+mother: it shouldn’t go here.
+child: i just think the horizontal stroke goes here.
+mother: do you like?",no,no,yes
+781,Zhou2/60/fb16,,mother,"MOT: 小乌龟觉得奇怪.
+MOT: 摸摸小星星.",NP,dropped,declarative,none,no,no,no,no,no,no,no,no,no,"mother: the little turtle feels strange.
+mother: and touches the little star.",no,no,no

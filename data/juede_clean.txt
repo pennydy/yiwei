@@ -1444,6 +1444,7 @@ sent_id: 103
 *TEA:	帮他平移过来吧!
 *TEA:	好,炒菜之前我们先需要做什么?
 ----------------------------------------
+THIS IS NOT A USE OF BELIEF VERB
 sent_id: 104
 *** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/ZhouAssessment/4.5-5/FJxiaoyutong.cha": line 344. Keyword: 觉得 
 *CHI:	还没有.
@@ -1458,6 +1459,7 @@ sent_id: 104
 *TEA:	快了,噢,还要再等一会,耐心等待.
 *TEA:	煮好了吗?
 ----------------------------------------
+THIS IS NOT A USE OF BELIEF VERB
 sent_id: 105
 *** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/ZhouAssessment/4.5-5/FJxiaoyutong.cha": line 363. Keyword: 觉得 
 *TEA:	肚子好饿哦,能开饭了吗?
