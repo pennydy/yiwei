@@ -209,6 +209,13 @@
 
 
 <div class="slide" id="block1">
+    <div class="progress">
+    <span>Progress:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
   <br> 
   <br>
   <div class="stimulus-column">
@@ -245,12 +252,12 @@
       <div class="subj_info_title">附加问题</div>
       <p class="info">以下问题非必答，但是如果您选择回答，将会很大帮助我们的研究。</p>
       <p>您认为您是否阅读了实验说明，并按要求完成了实验?</p>
-      <label><input type="radio"  name="assess" value="是"/>No</label>
-      <label><input type="radio"  name="assess" value="否"/>Yes</label>
-      <label><input type="radio"  name="assess" value="我不清楚实验要求"/>I was confused</label>
+      <label><input type="radio"  name="assess" value="Yes"/>是</label>
+      <label><input type="radio"  name="assess" value="No"/>否</label>
+      <label><input type="radio"  name="assess" value="Confused"/>我不清楚实验要求</label>
 
-      <p>Gender:
-        <select id="性别">
+      <p>性别:
+        <select id="gender">
           <label><option value=""/></label>
           <label><option value="男"/>Male</label>
           <label><option value="女"/>Female</label>
@@ -289,13 +296,13 @@
     <p  class="big">感谢您参与本次实验！</p>
   </div>
 
-  <div class="progress">
+  <!-- <div class="progress">
     <span>Progress:</span>
     <div class="bar-wrapper">
       <div class="bar" width="0%">
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="slide" id="finished">
   <br>

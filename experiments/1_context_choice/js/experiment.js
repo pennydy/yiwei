@@ -282,14 +282,11 @@ function make_slides(f) {
         //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
         exp.subj_data = {
             language : $("#language").val(),
-            american : $('input[name="ame"]:checked').val(),
-            enjoyment : $("#enjoyment").val(),
-            asses : $('input[name="assess"]:checked').val(),
+            mandarin : $('input[name="ame"]:checked').val(),
+            assess : $('input[name="assess"]:checked').val(),
             age : $("#age").val(),
-            fairprice : $("#fairprice").val(),
             gender : $("#gender").val(),
             education : $("#education").val(),
-            problems : $("#problems").val(),
             comments : $("#comments").val(),
         };
         exp.go(); //use exp.go() if and only if there is no "present" data.
@@ -336,7 +333,7 @@ function init() {
         "condition": "yiwei_contrastive",
         "original_context": "孩子:\t他看的是动画片。\n老师:\t动画片啊！\n老师:\t什么动画片啊？\n孩子:\t这是一个灯。\n老师:\t哦,你想坐下来啊",
         "post_context": "孩子:\t这是一个灯。\n老师:\t嗯,这是一个灯啊！",
-        "target": "老师:\t我以为你不想坐了。",
+        "target": "老师:\t我____你不想坐了。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -479,7 +476,7 @@ function init() {
         "verb": "yiwei",
         "condition": "yiwei_unclear",
         "original_context": "妈妈:\t那么因为他们怕那些被赶走的坏人再来欺负他们。\n妈妈:\t所以就在门上面贴了这两个人的像。\n妈妈:\t贴着神荼跟郁垒的像。\n妈妈:\t贴在这边。\
-        \n妈妈: 那些坏人一看就不敢来了。",
+        \n妈妈:\t那些坏人一看就不敢来了。",
         "post_context": "妈妈:\t不敢来了。\n妈妈:\t所以后来这两人贴在门上。",
         "target": "妈妈:\t就____这两个巨人还在这里。",
         "option_yiwei": "以为",
@@ -904,7 +901,7 @@ function init() {
     //   exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                         //relies on structure and slides being defined
                         
-    exp.nQs = 1 + 1 + 4 + 1 + 50 + 2; // TO DO: Update this
+    exp.nQs = 1 + 1 + 4 + 1 + 50 + 2; 
     $(".nQs").html(exp.nQs);
 
     $('.slide').hide(); //hide everything
