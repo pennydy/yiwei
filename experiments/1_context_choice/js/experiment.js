@@ -334,10 +334,9 @@ function init() {
         "item": "2",
         "verb": "yiwei",
         "condition": "yiwei_contrastive",
-        "original_context": "妈妈:\t喔我懂了！\n孩子:\t盖上去。\n妈妈:\t所以你是说火车站是在里面有铁轨的意思，是不是？\
-        \n妈妈:\t就像那种台北火车站啊，对不对?\n孩子:\t对。",
-        "post_context": "孩子:\t这是那个红的站。\n妈妈:\t红色的站。",
-        "target": "妈妈:\t喔，妈妈____你说的是小车站。",
+        "original_context": "孩子:\t他看的是动画片。\n老师:\t动画片啊！\n老师:\t什么动画片啊？\n孩子:\t这是一个灯。\n老师:\t哦,你想坐下来啊",
+        "post_context": "孩子:\t这是一个灯。\n老师:\t嗯,这是一个灯啊！",
+        "target": "老师:\t我以为你不想坐了。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -407,7 +406,7 @@ function init() {
         "condition": "yiwei_contrastive",
         "original_context": "实验员:\t藏好！\n孩子:\t我要做了！\n实验员:\t你昨天睡这里吗？\n孩子:\t对啊。\n孩子:\t我昨天晚上就睡这啊！",
         "post_context": "孩子:\t我明天就可以睡了！\n实验员:\t等到收好就可以睡了嘛。",
-        "target_full": "实验员:\t我还____你会睡你的新房间嘞！",
+        "target": "实验员:\t我还____你会睡你的新房间嘞！",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -650,7 +649,7 @@ function init() {
         "condition": "juede_unclear",
         "original_context": "妈妈:\t你怎么这么厉害啊。\n妈妈:\t从哪里开的啊？\n妈妈:\t哦用力开。\n姐姐:\t打开。\n妈妈:\t是这样吗？",
         "post_context": "妈妈:\t你确定是用力开吗？(笑)\n妈妈:\t你喜欢玩什么？",
-        "target": "妈妈:\n我____你弄错了。",
+        "target": "妈妈:\t我____你弄错了。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -752,9 +751,9 @@ function init() {
         "item": "902",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t画什么？\n孩子:\t鱼。\n妈妈:\t嗯，自己画！\n孩子:\t妈妈，你给我画 。\n妈妈:\t你画。",
+        "original_context": "妈妈:\t画什么？\n孩子:\t鱼。\n妈妈:\t嗯，自己画！\n孩子:\t妈妈，你给我画。\n妈妈:\t你画。",
         "post_context": "妈妈:\t还画得挺好的。\n妈妈:\t现在怎么不会了？",
-        "target": "妈妈:\n你不是____画过鱼的吗？",
+        "target": "妈妈:\t你不是____画过鱼的吗？",
         "option_yiwei": "以前",
         "option_juede": "以后"
       },
@@ -905,7 +904,7 @@ function init() {
     //   exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                         //relies on structure and slides being defined
                         
-    exp.nQs = 1 + 1 + 4 + 1 + 50 + 1; // TO DO: Update this
+    exp.nQs = 1 + 1 + 4 + 1 + 50 + 2; // TO DO: Update this
     $(".nQs").html(exp.nQs);
 
     $('.slide').hide(); //hide everything
