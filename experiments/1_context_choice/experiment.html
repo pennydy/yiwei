@@ -1,0 +1,306 @@
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Language study</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="_shared/js/underscore-min.js"></script>
+    <!-- <script src="_shared/js/uniqueturker.js"></script> -->
+    <!-- for prolific -->
+    <script src="https://proliferate.alps.science/static/js/proliferate.js"></script>
+
+    <!-- cocolab experiment logic -->
+    <script src="_shared/js/exp-V2.js"></script>
+    <script src="_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="_shared/js/mmturkey.js "></script>
+    <script src="_shared/js/browserCheck.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <script src="_shared/js/utils.js"></script>
+    <!-- <script src="js/local-utils.js"></script> -->
+
+    <!--CSS-->
+    <link href="_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="_shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>    
+
+    <!-- experiment file -->
+    <script src="js/experiment.js"></script>
+    <!-- <script src="js/stimuli.js"></script> -->
+    
+    <script type="text/JavaScript">
+    
+    </script>
+    
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+    
+
+  <div class="slide" id="i0" > 
+    <br>
+      <!-- <img src="_shared/images/alpslogo.png" alt="Stanford ALPS Lab" style="width:400;"> -->
+  <p class="block-text" id="instruct-text">
+    <br>
+
+
+    <p class="block-text"> 感谢您参与本次实验，本次试验大约用时15分钟。
+      <br> 
+      <br>
+      
+      
+    </p>
+    
+    <p id="block-text"> 知情同意书 <small>
+      <br>
+      If you agree to be in this study, you may do any of the following: (a) read words or sentences
+      from a list; (b) name pictures, objects, and/or events; (c) listen to words or sounds and/or view
+      pictures. You may be asked to respond to stimuli (i.e., press a button, click a mouse) when
+      instructed. You may be asked to learn unfamiliar words or sounds for unfamiliar pictures, and
+      then you will locate the correct picture from a set of pictures as instructed. Each session will last
+      no more than 60 minutes, but typically takes much less time, as listed in the description of this
+      task on the Prolific website. 
+      <br> 
+
+      You will be compensated monetarily, as listed in the description of this task on the online
+      recruitment platform that you were directed from.
+      <br>
+
+      There may or may not be any direct benefit to you from these procedures. The investigator,
+      however, may learn more about how language processing works, and thereby be able to
+      contribute to medical, therapeutic, and technological issues related to language use. Your
+      alternative to participation is not to participate.
+      <br>
+      
+      By consenting, you acknowledge that this study has been satisfactorily explained to you. If you
+      have questions, you may reach Marc Garellek, Ph.D., at 858-534-2412 or mgarellek@ucsd.edu.
+      You may contact the UCSD Human Research Protections Program at (858) 657-5100 should you
+      have a question regarding your rights as a research subject or to report research-related problems.
+      <br>
+
+      Participation is entirely voluntary. You may withdraw or refuse to participate at any time without
+      penalty.
+      <br>
+      
+      Research records will be kept confidential by using an alphanumeric code, instead of your name,
+      to identify your data files. Your data will be kept on a password-protected computer.
+      <br>
+      </small>
+    </p>
+    
+    如果您同意参加，请点击下面的按钮开始实验。
+
+    <br>
+    <br>
+
+  <button id="start_button" type="button">开始实验</button>
+    <br>
+      
+
+</div>
+
+<div class="slide" id="reminder">
+  <br>
+  <br>
+  <p>实验说明</p>
+  <br>
+  <p>在本次实验中，您将阅读一些对话片段。这些对话发生在父母、研究员或其他成年人与3-6岁儿童之间。</p>
+  <p></p>在这些对话中，部分词语将被省略，并以"____"表示。对话下方会给出的两个选项。</p>
+  <p>请从给出的两个选项中，选择最有可能符合父母、研究员或其他成年人实际用法的选项。</p>
+  <button onclick="_s.button()">继续</button>
+</div>
+
+<div class="slide" id="practice_1">
+<br>
+<br> 
+<p>下面是一个示例。请您阅读对话片段里的所有句子，然后选择最有可能符合母亲实际说法的选项。</p>
+<br>
+  <!-- <p class="context"> </p> -->
+  <p class="target"> </p>
+  <!-- <p class="post_context"> </p> -->
+  <br>
+
+  <div>
+    <table class="radio_button">
+      <tr>
+        <td> <input type="radio" id="incorrect" name="practice" value="top"> </td>
+        <td> <label for="incorrect"><p class = "top_button">{{}}</p></label> </td>
+      </tr>
+      <tr>
+        <td> <input type="radio" id="correct" name="practice" value="bottom"> </td>
+        <td> <label for="correct"><p class = "bottom_button">{{}}</p></label> </td>
+      </tr>
+    </table>
+  </div>
+  <button onclick="_s.button()">继续</button>
+  <div class="forced_choice_err">Please respond before continuing.</div>
+</div>
+
+
+<div class="slide" id="post_practice_1">
+  <br>
+  <br>
+  <br>
+
+  <p> 大部分中文母语者会选择“<strong>被</strong>”（修补<strong>被</strong>大风破坏了的房屋）。</p>
+  <p> 如果您认为“被”是正确选项，请选择“被”。</p>
+  <button onclick="_s.button()">继续</button>
+</div>
+
+<div class="slide" id="practice_2">
+  <br>
+  <br> 
+    <p>下面是另一个示例。请您阅读对话片段里的所有句子，然后选择最有可能符合母亲实际说法的选项。</p>
+    <br> 
+      <!-- <p class="context"> </p> -->
+      <p class="target"> </p>
+      <!-- <p class="post_context"> </p> -->
+      <br>
+  
+      <div>
+        <table class="radio_button">
+          <tr>
+            <td> <input type="radio" id="foreground" name="practice" value="top"> </td>
+            <td> <label for="foreground"><p class = "top_button">{{}}</p></label> </td>
+          </tr>
+          <tr>
+            <td> <input type="radio" id="background" name="practice" value="bottom"> </td>
+            <td> <label for="background"><p class = "bottom_button">{{}}</p></label> </td>
+          </tr>
+        </table>
+      </div>
+      <button onclick="_s.button()">继续</button>
+      <div class="forced_choice_err">请完成作答后再继续。</div>
+  </div>
+
+
+<div class="slide" id="post_practice_2">
+  <br>
+  <br>
+  <br>
+
+  <p>大部分中文母语者会选择“<strong>把</strong>”（你<strong>把</strong>这个颜色涂在这里）。</p>
+  <p> 如果您认为“把”是正确选项，请选择“把”。</p>
+  <button onclick="_s.button()">继续</button>
+</div>
+
+
+<div class="slide" id="last_reminder">
+  <br>
+  <br>
+  <p>在实验开始之前，请您注意：</p>
+  <br>
+  <p>(1) 请在选择之前，仔细阅对话片段里的所有句子。</p>
+  <p>(2) 请您利用母语者的直觉，选择合适的词语填入空格。</p>
+  <p>当您准备好后，请按下按钮开始实验。</p>
+  <button onclick="_s.button()">点击开始实验</button>
+</div>
+
+
+<div class="slide" id="block1">
+  <br> 
+  <br>
+  <div class="stimulus-column">
+    <!-- <p class="context">{{}}</p>  -->
+    <p class="target">{{}}</p>
+    <!-- <p class="post_context">{{}}</p> -->
+  </div>
+  <br>
+  <br>
+	<!-- <p class="question">{{}}</p><br> -->
+
+    <!-- two buttons for forced choice -->
+    <div>
+      <table class="radio_button">
+        <tr>
+          <td> <input type="radio" id="yiwei" name="critical" value="top"> </td>
+          <td> <label for="yiwei"><p class = "top_button">{{}}</p></label> </td>
+        </tr>
+        <tr>
+          <td> <input type="radio" id="juede" name="critical" value="bottom"> </td>
+          <td> <label for="juede"><p class = "bottom_button">{{}}</p></label> </td>
+        </tr>
+      </table>
+    </div>
+    <button class="continue_button", id="continue_button", onclick="_s.button()">继续</button>
+
+  <p class="forced_choice_err">请完成作答后再继续。</p> 
+
+</div>
+
+
+  <div class="slide"  id="questionaire">
+    <div class="long_form">
+      <div class="subj_info_title">附加问题</div>
+      <p class="info">以下问题非必答，但是如果您选择回答，将会很大帮助我们的研究。</p>
+      <p>您认为您是否阅读了实验说明，并按要求完成了实验?</p>
+      <label><input type="radio"  name="assess" value="是"/>No</label>
+      <label><input type="radio"  name="assess" value="否"/>Yes</label>
+      <label><input type="radio"  name="assess" value="我不清楚实验要求"/>I was confused</label>
+
+      <p>Gender:
+        <select id="性别">
+          <label><option value=""/></label>
+          <label><option value="男"/>Male</label>
+          <label><option value="女"/>Female</label>
+          <label><option value="其他"/>Other</label>
+        </select>
+      </p>
+
+      <p>Age: <input type="text" id="age"/></p>
+
+      <p>教育经历:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>初中及以下</label>
+          <label><option value="1"/>高中</label>
+          <label><option value="2"/>本科</label>
+          <label><option value="3"/>本科以上</label>
+        </select>
+      </p>
+        
+      <p>母语: <input type="text" id="language"/></p>
+      <label>（您在12岁前，家中主要使用的语言）</label>
+
+      <p>如果中文是您的母语，请问您是否讲普通话（而非粤语等其他汉语方言）？</p>
+      <label><input type="radio"  name="ame" value="是"/>Yes</label>
+      <label><input type="radio"  name="ame" value="否"/>No</label>
+
+
+ <p>如您对本实验有任何意见或建议，请在这里告诉我们:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.submit()">Submit</button>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" >
+    <p  class="big">感谢您参与本次实验！</p>
+  </div>
+
+  <div class="progress">
+    <span>Progress:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="finished">
+  感谢您参加本实验！页面将会被自动跳转回到Prolific，请您稍候。
+  </div>
+
+
+</body>
+</html>
