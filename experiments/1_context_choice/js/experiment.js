@@ -321,9 +321,9 @@ function init() {
         "item": "1",
         "verb": "yiwei",
         "condition": "yiwei_contrastive",
-        "original_context": "妈妈:\t好像不行哦。\n妈妈:\t是不是少了一片？\n妈妈:\t啊 (笑)。\n妈妈:\t哦。\n妈妈:\t原来那个不是蛋啦。",
+        "original_context": "妈妈:\t好像不行哦。\n妈妈:\t是不是少了一片？\n妈妈:\t啊。(笑)\n妈妈:\t哦。\n妈妈:\t原来那个不是蛋啦。",
         "post_context": "妈妈:\t原来他是谁！\n妈妈:\t他是谁？",
-        "target": "妈妈:\t妈妈____它是荷包蛋.",
+        "target": "妈妈:\t妈妈____它是荷包蛋。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -497,7 +497,7 @@ function init() {
         "verb": "yiwei",
         "condition": "yiwei_unclear",
         "original_context": "妈妈:\t那怎么办？\n妈妈:\t它要怎样还击？\n妈妈:\t它最大。\n妈妈:\t是不是？\n妈妈:\t其他动物都很小很小啊。",
-        "post_context": "妈妈:\t那你是不是要表示一下友善。\n妈妈:\t说,“诶你看。”",
+        "post_context": "妈妈:\t那你是不是要表示一下友善。\n妈妈:\t说，“诶你看。”",
         "target": "妈妈:\t它们都____它会欺负它啊。",
         "option_yiwei": "以为",
         "option_juede": "觉得"

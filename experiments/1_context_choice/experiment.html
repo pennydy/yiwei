@@ -7,35 +7,35 @@
     <!--JS-->
 
     <!-- external general utilities -->
-    <script src="_shared/js/jquery-1.11.1.min.js "></script>
-    <script src="_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
-    <script src="_shared/js/underscore-min.js"></script>
+    <script src="./_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="./_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./_shared/js/underscore-min.js"></script>
     <!-- <script src="_shared/js/uniqueturker.js"></script> -->
     <!-- for prolific -->
     <script src="https://proliferate.alps.science/static/js/proliferate.js"></script>
 
     <!-- cocolab experiment logic -->
-    <script src="_shared/js/exp-V2.js"></script>
+    <script src="./_shared/js/exp-V2.js"></script>
     <script src="_shared/js/stream-V2.js"></script>
 
     <!-- cocolab general utilities -->
-    <script src="_shared/js/mmturkey.js "></script>
-    <script src="_shared/js/browserCheck.js"></script>
+    <script src="./_shared/js/mmturkey.js "></script>
+    <script src="./_shared/js/browserCheck.js"></script>
     <!-- if you want to draw cute creatures (depends on raphael): -->
     <!-- <script src="../_shared/js/ecosystem.js"></script> -->
 
     <!-- experiment specific helper functions -->
-    <script src="_shared/js/utils.js"></script>
+    <script src="./_shared/js/utils.js"></script>
     <!-- <script src="js/local-utils.js"></script> -->
 
     <!--CSS-->
-    <link href="_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-    <link href="_shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
-    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>    
+    <link href="./_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="./_shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/local-style.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/style.css" rel="stylesheet" type="text/css"/>    
 
     <!-- experiment file -->
-    <script src="js/experiment.js"></script>
+    <script src="./js/experiment.js"></script>
     <!-- <script src="js/stimuli.js"></script> -->
     
     <script type="text/JavaScript">
@@ -50,8 +50,7 @@
 
   <div class="slide" id="i0" > 
     <br>
-      <!-- <img src="_shared/images/alpslogo.png" alt="Stanford ALPS Lab" style="width:400;"> -->
-  <p class="block-text" id="instruct-text">
+    <p class="block-text" id="instruct-text">
     <br>
 
 
@@ -144,7 +143,7 @@
     </table>
   </div>
   <button onclick="_s.button()">继续</button>
-  <div class="forced_choice_err">Please respond before continuing.</div>
+  <div class="forced_choice_err">请完成作答后再继续。</div>
 </div>
 
 
@@ -250,6 +249,8 @@
   <div class="slide"  id="questionaire">
     <div class="long_form">
       <div class="subj_info_title">附加问题</div>
+      <br>
+      <br>
       <p class="info">以下问题非必答，但是如果您选择回答，将会很大帮助我们的研究。</p>
       <p>您认为您是否阅读了实验说明，并按要求完成了实验?</p>
       <label><input type="radio"  name="assess" value="Yes"/>是</label>
@@ -259,9 +260,9 @@
       <p>性别:
         <select id="gender">
           <label><option value=""/></label>
-          <label><option value="男"/>Male</label>
-          <label><option value="女"/>Female</label>
-          <label><option value="其他"/>Other</label>
+          <label><option value="Male"/>男</label>
+          <label><option value="Female"/>女</label>
+          <label><option value="Other"/>其他</label>
         </select>
       </p>
 
@@ -281,14 +282,14 @@
       <label>（您在12岁前，家中主要使用的语言）</label>
 
       <p>如果中文是您的母语，请问您是否讲普通话（而非粤语等其他汉语方言）？</p>
-      <label><input type="radio"  name="ame" value="是"/>Yes</label>
-      <label><input type="radio"  name="ame" value="否"/>No</label>
+      <label><input type="radio"  name="ame" value="Yes"/>是</label>
+      <label><input type="radio"  name="ame" value="No"/>否</label>
 
 
  <p>如您对本实验有任何意见或建议，请在这里告诉我们:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
-      <button onclick="_s.submit()">Submit</button>
+      <button onclick="_s.submit()">提交</button>
     </div>
   </div>
 
