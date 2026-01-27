@@ -258,7 +258,7 @@ function make_slides(f) {
                 exp.choice = "incorrect"
               }
             }
-            console.log(exp.choice)
+            // console.log(exp.choice)
             this.log_responses();
             _stream.apply(this); //use exp.go() if and only if there is no "present" data.
           }
@@ -291,6 +291,7 @@ function make_slides(f) {
             mandarin : $('input[name="ame"]:checked').val(),
             assess : $('input[name="assess"]:checked').val(),
             region : $("#region").val(),
+            dialect : $("#dialect").val(),
             age : $("#age").val(),
             gender : $("#gender").val(),
             education : $("#education").val(),
