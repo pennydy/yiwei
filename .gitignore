@@ -4,13 +4,16 @@
 .Rapp.history
 
 # data
-data/yiwei.xlsx
-data/yiwei.txt
-data/renwei.txt
-data/juede.txt
-data/zhidao.txt
-data/child/*
-data/other_speakers/*
+data/*.config
+
+# data
+data/childes/yiwei.xlsx
+data/childes/yiwei.txt
+data/childes/renwei.txt
+data/childes/juede.txt
+data/childes/zhidao.txt
+data/childes/child/*
+data/childes/other_speakers/*
 
 # writing
 writings/*

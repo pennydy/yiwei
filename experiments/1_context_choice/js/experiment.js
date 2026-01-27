@@ -247,10 +247,16 @@ function make_slides(f) {
             exp.selected_content = selected_content;
             
             // record whether yiwei or juede is selected
-            if (selected_content == this.stim.option_yiwei) {
+            if (selected_content == this.stim.option_yiwei && this.stim.condition != "filler") {
               exp.choice = "yiwei";
-            } else if (selected_content == this.stim.option_juede) {
+            } else if (selected_content == this.stim.option_juede && this.stim.condition != "filler") {
               exp.choice = "juede";
+            } else if (this.stim.condition == "filler") { // for filler items, the yiwei choice is the correct answer
+              if (selected_content == this.stim.option_yiwei) {
+                exp.choice = "correct";
+              } else {
+                exp.choice = "incorrect"
+              }
             }
             console.log(exp.choice)
             this.log_responses();
@@ -284,10 +290,12 @@ function make_slides(f) {
             language : $("#language").val(),
             mandarin : $('input[name="ame"]:checked').val(),
             assess : $('input[name="assess"]:checked').val(),
+            region : $("#region").val(),
             age : $("#age").val(),
             gender : $("#gender").val(),
             education : $("#education").val(),
             comments : $("#comments").val(),
+
         };
         exp.go(); //use exp.go() if and only if there is no "present" data.
         }
@@ -382,7 +390,7 @@ function init() {
         "verb": "yiwei",
         "condition": "yiwei_contrastive",
         "original_context": "大人:\t你不是女生吗？\n大人:\t你这个手这么搞的？\n孩子:\t画画的。\n大人:\t哦，画画的不是割破的？\n孩子:\t嗯。",
-        "post_context": "姐姐:\t啊,不要再乱打听。\n孩子:\t还有我耳朵好痛哦。",
+        "post_context": "姐姐:\t啊，不要再乱打听。\n孩子:\t还有我耳朵好痛哦。",
         "target": "大人:\t我____是割破的。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
@@ -750,7 +758,7 @@ function init() {
         "condition": "filler",
         "original_context": "妈妈:\t画什么？\n孩子:\t鱼。\n妈妈:\t嗯，自己画！\n孩子:\t妈妈，你给我画。\n妈妈:\t你画。",
         "post_context": "妈妈:\t还画得挺好的。\n妈妈:\t现在怎么不会了？",
-        "target": "妈妈:\t你不是____画过鱼的吗？",
+        "target": "妈妈:\t你不是____画过鱼吗？",
         "option_yiwei": "以前",
         "option_juede": "以后"
       },
@@ -836,12 +844,12 @@ function init() {
       }
     ]);
 
-    num_blocks = 5 // 5
-    num_per_block = 10 // 10
+    num_blocks = 5
+    num_per_block = 10
     total_blocks = []
     exp.stims_block = []
     for (var i=0; i<num_blocks; i++) {
-        // each block will have 1 critical item (x6 condition) and 4 filler items
+        // each block will have 2 critical item (x4 condition) and 2 filler items
         // num_per_block == block.length == 10
         var block = [yiwei.pop(), yiwei_unclear.pop(),juede.pop(), juede_unclear.pop(), filler.pop(),
           yiwei.pop(), yiwei_unclear.pop(), juede.pop(), juede_unclear.pop(), filler.pop()
@@ -864,14 +872,6 @@ function init() {
         exp.stims_block.push(jQuery.extend(true, {}, stim));
       }
     }
-
-    // alternatively, flat and then add them to exp.stims_block
-    // total_blocks = total_blocks.flat();
-
-    // for (var k=0; k<num_per_block * num_blocks; k++) {
-    //     var stim = total_blocks[k];
-    //     exp.stims_block.push(jQuery.extend(true, {}, stim));
-    // }
 
     console.log(exp.stims_block) 
 
@@ -901,7 +901,7 @@ function init() {
     //   exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                         //relies on structure and slides being defined
                         
-    exp.nQs = 1 + 1 + 4 + 1 + 50 + 2; 
+    exp.nQs = 1 + 1 + 4 + 1 + 50; 
     $(".nQs").html(exp.nQs);
 
     $('.slide').hide(); //hide everything

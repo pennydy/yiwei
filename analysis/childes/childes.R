@@ -21,11 +21,11 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # 0. load the data ----
 # 16: repeated for correction; 20, 23, 79, 63, 81: incomplete; 129: question
 # 56?
-yiwei <- read.csv("../../data/yiwei_new.csv", header=TRUE) %>% 
+yiwei <- read.csv("../../data/childes/yiwei_new.csv", header=TRUE) %>% 
   filter(!(id %in% c("16", "20", "23", "129", "79", "63", "81", "130", "99"))) 
-juede <- read.csv("../../data/juede.csv", header=TRUE) %>% 
+juede <- read.csv("../../data/childes/juede.csv", header=TRUE) %>% 
   filter(!id %in% c("6", "7", "10", "12", "23", "24", "36", "84","85","88","89","96","104","105","466","467","470","781","45","50") )
-zhidao <- read.csv("../../data/zhidao.csv", header=TRUE) %>% 
+zhidao <- read.csv("../../data/childes/zhidao.csv", header=TRUE) %>% 
   filter(!id %in% c("481", "482", "483") )
 
 annotation.data <- bind_rows(lst(yiwei, zhidao, juede), .id="verb")

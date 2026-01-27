@@ -112,7 +112,10 @@
 <div class="slide" id="reminder">
   <br>
   <br>
-  <p>实验说明</p>
+  <!-- <div class="subj_info_title">附加问题</div>
+      <br>
+      <br> -->
+  <p style="font-size: 24px;"><strong>实验说明</strong></p>
   <br>
   <p>在本次实验中，您将阅读一些对话片段。这些对话发生在父母、研究员或其他成年人与3-6岁儿童之间。</p>
   <p></p>在这些对话中，部分词语将被省略，并以"____"表示。对话下方会给出的两个选项。</p>
@@ -266,7 +269,19 @@
         </select>
       </p>
 
-      <p>Age: <input type="text" id="age"/></p>
+      <p>年龄: <input type="text" id="age"/></p>
+
+      <p>请问您在12岁前主要居住在:
+        <select id="region">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>中国大陆</label>
+          <label><option value="1"/>香港/澳门</label>
+          <label><option value="2"/>台湾</label>
+          <label><option value="3"/>新加坡/马来西亚</label>
+          <label><option value="4"/>美国/加拿大</label>
+          <label><option value="5"/>其他地区</label>
+        </select>
+      </p>
 
       <p>教育经历:
         <select id="education">
@@ -281,9 +296,11 @@
       <p>母语: <input type="text" id="language"/></p>
       <label>（您在12岁前，家中主要使用的语言）</label>
 
-      <p>如果中文是您的母语，请问您是否讲普通话（而非粤语等其他汉语方言）？</p>
+      <p>如果中文是您的母语，请问您是否讲普通话？</p>
       <label><input type="radio"  name="ame" value="Yes"/>是</label>
       <label><input type="radio"  name="ame" value="No"/>否</label>
+
+      <p>如果您还讲其他方言（例如：上海话，粤语等），请列出<input type="text" id="dialect"/></p>
 
 
  <p>如您对本实验有任何意见或建议，请在这里告诉我们:</p>
