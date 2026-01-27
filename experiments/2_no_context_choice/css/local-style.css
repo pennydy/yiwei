@@ -1,0 +1,46 @@
+.slider {
+  /* default is width 400 and margin 10 */
+	width: 400;
+	margin: 10px;
+}
+
+.slider_table {
+	margin: auto auto;
+}
+
+.radio_button {
+	margin: auto auto;
+}
+
+.highlight_numbers {
+	font-size: 28;
+	font-weight: bold;
+}
+
+.stimulus-column {
+  margin: 0 auto;      /* center the column */
+  max-width: 40em;     /* shared reference width */
+}
+
+.context {
+  white-space: pre-wrap;
+  text-align: left;
+
+
+  max-width: 40em;
+}
+
+.target {
+  white-space: pre-wrap;
+  text-align: left;
+
+  max-width: 40em;
+}
+
+.post_context {
+  white-space: pre-wrap;
+  text-align: left;
+
+
+  max-width: 40em;
+}
