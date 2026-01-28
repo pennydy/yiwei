@@ -420,7 +420,7 @@ function init() {
         "item": "10",
         "verb": "yiwei",
         "condition": "yiwei_contrastive",
-        "original_context": "实验员:\t这个。(手指着画)\n孩子:\t画的形状都很像哟。(手指着画)\n实验员:\t这是什么？(手指着画)\n孩子:\t这是鸟。\n实验员:\t这鸟。",
+        "original_context": "实验员:\t这个。(手指着画)\n孩子:\t画的形状都很像哟。(手指着画)\n实验员:\t这是什么？(手指着画)\n孩子:\t这是鸟。\n实验员:\t这是鸟？",
         "post_context": "实验员:\t啊。\n孩子:\t这我画的小鱼和水。",
         "target": "实验员:\t哦，我____是人呢。",
         "option_yiwei": "以为",

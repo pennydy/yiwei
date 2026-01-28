@@ -5,8 +5,9 @@
 
 # data
 data/*.config
+data/*.csv
 
-# data
+# childes data
 data/childes/yiwei.xlsx
 data/childes/yiwei.txt
 data/childes/renwei.txt
