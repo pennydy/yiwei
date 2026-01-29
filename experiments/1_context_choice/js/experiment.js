@@ -113,8 +113,8 @@ function make_slides(f) {
       present_handle : function(stim) {
           $(".forced_choice_err").hide();
           this.stim = stim;
-          var context = "妈妈:\t我们有小推车了！\n妈妈:\t你看那边有什么?\n孩子:\t蛋蛋。\n妈妈:\t蛋蛋哦！\n妈妈:\t你很喜欢蛋蛋诶。";
-          var target = "妈妈:\t那要不要把推车推____装蛋蛋？"
+          var context = "妈妈:\t我们有小车了！\n妈妈:\t你看那边有什么?\n孩子:\t蛋蛋。\n妈妈:\t蛋蛋哦！\n妈妈:\t你很喜欢蛋蛋诶。";
+          var target = "妈妈:\t那要不要把小车推____装蛋蛋？"
           var post_context = "妈妈:\t要不要装蛋？\n孩子:\t要！";
           var full_sent = context + "\n" + target + "\n" + post_context
           $(".target").html(full_sent);

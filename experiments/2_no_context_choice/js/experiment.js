@@ -71,6 +71,7 @@ function make_slides(f) {
             this.log_responses();
             _stream.apply(this);
           }
+          console.log(exp.choice);
         },
         log_responses : function() {
           // console.log("response: "+ exp.response)
@@ -138,6 +139,7 @@ function make_slides(f) {
               this.log_responses();
               _stream.apply(this);
             }
+            console.log(exp.choice);
         },
         log_responses : function() {
           // console.log("response: " + exp.response)
@@ -244,7 +246,7 @@ function make_slides(f) {
                 exp.choice = "incorrect"
               }
             }
-            // console.log(exp.choice)
+            console.log(exp.choice)
             this.log_responses();
             _stream.apply(this); //use exp.go() if and only if there is no "present" data.
           }
