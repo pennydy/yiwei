@@ -11,8 +11,8 @@ function make_slides(f) {
         }
     });
 
-    slides.instructions = slide({
-        name : "instructions",
+    slides.instruction = slide({
+        name : "instruction",
         button : function() {
             exp.startT = Date.now();
             exp.go(); //use exp.go() if and only if there is no "present" data.
@@ -35,12 +35,10 @@ function make_slides(f) {
         present : [{"a": 2}],
         start : function() {
             $(".forced_choice_err").hide(); // hide the error message   
-            $(".err_good").hide();
         },
         // this gets run only at the beginning of the block
         present_handle : function(stim) {
           $(".forced_choice_err").hide();
-          $(".err_good").hide();
           this.stim = stim;
           var target = "村民们出门修补____大风破坏了的房屋。"
           $(".target").html(target);
@@ -50,10 +48,10 @@ function make_slides(f) {
           exp.choice = undefined;
           exp.selected_content = undefined; 
           $('input[name="practice"]:checked').removeAttr("checked");
-          var top_button = "把";
-          $(".top_button").html(top_button);
-          var bottom_button = "被";
-          $(".bottom_button").html(bottom_button);
+          var left_button = "被";
+          $(".left_button").html(left_button);
+          var right_button = "把";
+          $(".right_button").html(right_button);
           // exp.incorrect_attempts = 0;
         },
         button : function() {
@@ -62,8 +60,8 @@ function make_slides(f) {
           if (exp.response == undefined) {
             $(".forced_choice_err").show();
           } else {
-            // we hard-coded that the bottom is the correct answer
-            if (exp.response == "bottom") {
+            // we hard-coded that the left is the correct answer
+            if (exp.response == "left") {
               exp.choice = "correct";
               exp.selected_content = "bei";
             } else {
@@ -105,12 +103,10 @@ function make_slides(f) {
         present : [{"a": 3}],
         start : function() {
             $(".forced_choice_err").hide(); // hide the error message   
-            $(".err_good").hide();
         },
         // this gets run only at the beginning of the block
         present_handle : function(stim) {
             $(".forced_choice_err").hide();
-            $(".err_good").hide();
             this.stim = stim;
             var target = "你____这个颜色涂在这里。"
             $(".target").html(target);
@@ -119,10 +115,10 @@ function make_slides(f) {
             exp.choice = undefined;
             exp.selected_content = undefined; 
             $('input[name="practice"]:checked').removeAttr("checked");
-            var top_button = "把";
-            $(".top_button").html(top_button);
-            var bottom_button = "被";
-            $(".bottom_button").html(bottom_button);
+            var left_button = "把";
+            $(".left_button").html(left_button);
+            var right_button = "被";
+            $(".right_button").html(right_button);
             // exp.incorrect_attempts = 0;
         },
         button : function() {
@@ -131,8 +127,8 @@ function make_slides(f) {
             if (exp.response == undefined) {
                 $(".forced_choice_err").show();
             } else {
-              // we hard-coded that the top is the correct answer
-              if (exp.response == "top") {
+              // we hard-coded that the left is the correct answer
+              if (exp.response == "left") {
                 exp.choice = "correct";
                 exp.selected_content = "ba";
               } else {
@@ -189,16 +185,16 @@ function make_slides(f) {
             var target = this.stim.target;
             $(".target").text(target);
             $('input[name=critical]').hide();
-            $(".top_button").hide();
-            $(".bottom_button").hide();
+            $(".left_button").hide();
+            $(".right_button").hide();
 
             $('input[name="critical"]:checked').removeAttr("checked"); // remove the previous response
             exp.response = undefined; // remove the previous selection
             exp.choice = undefined; // remove the recorded choice
             exp.selected_content = undefined; // remove the recorded choice
             
-            $(".top_button").show();
-            $(".bottom_button").show();
+            $(".left_button").show();
+            $(".right_button").show();
 
             $('input[name=critical]').show();
             $('input[name="critical"]:checked').removeAttr("checked"); // remove response again
@@ -209,10 +205,10 @@ function make_slides(f) {
             // the order of the buttons also need to be randomized
             var options = _.shuffle([this.stim.option_yiwei, this.stim.option_juede])
             // console.log("randomized order of choices: " + options)
-            exp.top_button = options[0];
-            $(".top_button").html(exp.top_button);
-            exp.bottom_button = options[1];
-            $(".bottom_button").html(exp.bottom_button);
+            exp.left_button = options[0];
+            $(".left_button").html(exp.left_button);
+            exp.right_button = options[1];
+            $(".right_button").html(exp.right_button);
             
             $(".continue_button").show(); // show the continue button
             $(".question").html(exp.question);
@@ -229,10 +225,10 @@ function make_slides(f) {
               $(".forced_choice_err").show();
           } else {
             // do the additional step of getting the result of choice only 
-            if (exp.response == "top") {
-              var selected_content = exp.top_button;
+            if (exp.response == "left") {
+              var selected_content = exp.left_button;
             } else {
-              var selected_content = exp.bottom_button;
+              var selected_content = exp.right_button;
             }
             exp.selected_content = selected_content;
             
@@ -778,7 +774,7 @@ function init() {
         screenUW: exp.width
     };
     //blocks of the experiment:
-    exp.structure=["i0", "reminder",
+    exp.structure=["i0", "instruction", "reminder",
     "practice_1", "post_practice_1",
     "practice_2", "post_practice_2",
     "last_reminder", "block1", 'questionaire', 'finished'];

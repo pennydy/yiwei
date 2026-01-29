@@ -11,8 +11,8 @@ function make_slides(f) {
         }
     });
 
-    slides.instructions = slide({
-        name : "instructions",
+    slides.instruction = slide({
+        name : "instruction",
         button : function() {
             exp.startT = Date.now();
             exp.go(); //use exp.go() if and only if there is no "present" data.
@@ -35,16 +35,14 @@ function make_slides(f) {
         present : [{"a": 2}],
         start : function() {
             $(".forced_choice_err").hide(); // hide the error message   
-            $(".err_good").hide();
         },
         // this gets run only at the beginning of the block
         present_handle : function(stim) {
           $(".forced_choice_err").hide();
-          $(".err_good").hide();
           this.stim = stim;
-          var context = "妈妈:\t妈妈给你讲个故事吧。\n孩子:\t好。\n妈妈:\t有一天夜里呢，刮了大风。\n妈妈:\t到天亮的时候，风才停下。\n妈妈:\t沼泽地的村民们纷纷从各自家里钻了出来。";
-          var target = "妈妈:\t修补____大风破坏了的房屋。"
-          var post_context = "妈妈:\t它们就修房子。\n妈妈\t蜘蛛阿尔丁昨天刚结的几个新网也破了几个大窟窿。";
+          var context = "妈妈:\t小球滚到那里去了耶。\n孩子:\t哪里？\n妈妈:\t沙发底下。\n妈妈:\t好远哦。\n孩子:\t那怎么办？";
+          var target = "妈妈:\t你可以帮妈妈把小球拿____吗？"
+          var post_context = "孩子:\t不好。\n孩子:\t不要。";
           var full_sent = context + "\n" + target + "\n" + post_context
           $(".target").html(full_sent);
 
@@ -53,10 +51,10 @@ function make_slides(f) {
           exp.choice = undefined;
           exp.selected_content = undefined; 
           $('input[name="practice"]:checked').removeAttr("checked");
-          var top_button = "把";
-          $(".top_button").html(top_button);
-          var bottom_button = "被";
-          $(".bottom_button").html(bottom_button);
+          var left_button = "过来";
+          $(".left_button").html(left_button);
+          var right_button = "过去";
+          $(".right_button").html(right_button);
           // exp.incorrect_attempts = 0;
         },
         button : function() {
@@ -65,18 +63,20 @@ function make_slides(f) {
           if (exp.response == undefined) {
             $(".forced_choice_err").show();
           } else {
-            // we hard-coded that the bottom is the correct answer
-            if (exp.response == "bottom") {
+            // we hard-coded that the left is the correct answer
+            if (exp.response == "left") {
               exp.choice = "correct";
-              exp.selected_content = "bei";
+              exp.selected_content = "lai";
             } else {
               exp.choice = "incorrect";
-              exp.selected_content = "ba";
+              exp.selected_content = "qu";
             }
             this.log_responses();
             _stream.apply(this);
           }
+          console.log(exp.choice);
         },
+       
         log_responses : function() {
           // console.log("response: "+ exp.response)
           exp.data_trials.push({
@@ -91,93 +91,91 @@ function make_slides(f) {
     
         }
       });
-
-      slides.post_practice_1 = slide({
-        name : "post_practice_1",
-        button : function() {
-          exp.go(); //use exp.go() if and only if there is no "present" data.
-        }
-      });
-
-      slides.practice_2 = slide({
-        name : "practice_2",
     
-        /* trial information for this block
-         (the variable 'stim' will change between each of these values,
-          and for each of these, present_handle will be run.) */
-        present : [{"a": 3}],
-        start : function() {
-            $(".forced_choice_err").hide(); // hide the error message   
-            $(".err_good").hide();
-        },
-        // this gets run only at the beginning of the block
-        present_handle : function(stim) {
-            $(".forced_choice_err").hide();
-            $(".err_good").hide();
-            this.stim = stim;
-            var context = "妈妈:\t你画太阳吧。\n孩子:\t你帮我画房子。\n妈妈:\t我帮你画房子啊。\n孩子:\t因为我不会画嘛。\n妈妈:\t不会画没关系。";
-            var target = "妈妈:\t你____这个颜色涂在这里。"
-            var post_context = "妈妈:\t这个是黑颜色。\n妈妈:\t这个电视机还少一样东西。";
-            var full_sent = context + "\n" + target + "\n" + post_context
-            $(".target").html(full_sent);
-            // exp.first_response_wrong = 0;
-            exp.response = undefined;
-            exp.choice = undefined;
-            exp.selected_content = undefined; 
-            $('input[name="practice"]:checked').removeAttr("checked");
-            var top_button = "把";
-            $(".top_button").html(top_button);
-            var bottom_button = "被";
-            $(".bottom_button").html(bottom_button);
-            // exp.incorrect_attempts = 0;
-        },
-        button : function() {
-            exp.response = $('input[name="practice"]:checked').val();
+    slides.post_practice_1 = slide({
+      name : "post_practice_1",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    });
+    
+    slides.practice_2 = slide({
+      name : "practice_2",
+  
+      /* trial information for this block
+        (the variable 'stim' will change between each of these values,
+        and for each of these, present_handle will be run.) */
+      present : [{"a": 3}],
+      start : function() {
+          $(".forced_choice_err").hide(); // hide the error message   
+      },
+      // this gets run only at the beginning of the block
+      present_handle : function(stim) {
+          $(".forced_choice_err").hide();
+          this.stim = stim;
+          var context = "妈妈:\t我们有小推车了！\n妈妈:\t你看那边有什么?\n孩子:\t蛋蛋。\n妈妈:\t蛋蛋哦！\n妈妈:\t你很喜欢蛋蛋诶。";
+          var target = "妈妈:\t那要不要把推车推____装蛋蛋？"
+          var post_context = "妈妈:\t要不要装蛋？\n孩子:\t要！";
+          var full_sent = context + "\n" + target + "\n" + post_context
+          $(".target").html(full_sent);
+          // exp.first_response_wrong = 0;
+          exp.response = undefined;
+          exp.choice = undefined;
+          exp.selected_content = undefined; 
+          $('input[name="practice"]:checked').removeAttr("checked");
+          var left_button = "过去";
+          $(".left_button").html(left_button);
+          var right_button = "过来";
+          $(".right_button").html(right_button);
+          // exp.incorrect_attempts = 0;
+      },
+      button : function() {
+          exp.response = $('input[name="practice"]:checked').val();
 
-            if (exp.response == undefined) {
-                $(".forced_choice_err").show();
+          if (exp.response == undefined) {
+              $(".forced_choice_err").show();
+          } else {
+            // we hard-coded that the left is the correct answer
+            if (exp.response == "left") {
+              exp.choice = "correct";
+              exp.selected_content = "qu";
             } else {
-              // we hard-coded that the top is the correct answer
-              if (exp.response == "top") {
-                exp.choice = "correct";
-                exp.selected_content = "ba";
-              } else {
-                exp.choice = "incorrect";
-                exp.selected_content = "bei";
-              }
-              this.log_responses();
-              _stream.apply(this);
+              exp.choice = "incorrect";
+              exp.selected_content = "lai";
             }
-        },
-        log_responses : function() {
-          // console.log("response: " + exp.response)
-          exp.data_trials.push({
-            "trial_num" : 0,
-            "item_id" : "203",
-            "block_id" : "practice",
-            "condition" : "practice_2",
-            "verb": "NA",
-            "response" : exp.choice,
-            "original_choice" : exp.selected_content
-          });
-        }
-      });
+            this.log_responses();
+            _stream.apply(this);
+          }
+          console.log(exp.choice)
+      },
+      log_responses : function() {
+        // console.log("response: " + exp.response)
+        exp.data_trials.push({
+          "trial_num" : 0,
+          "item_id" : "203",
+          "block_id" : "practice",
+          "condition" : "practice_2",
+          "verb": "NA",
+          "response" : exp.choice,
+          "original_choice" : exp.selected_content
+        });
+      }
+    });
 
-      slides.post_practice_2 = slide({
-        name : "post_practice_2",
-        button : function() {
-          exp.go(); //use exp.go() if and only if there is no "present" data.
-        }
-      });
-    
-      slides.last_reminder = slide({
-        name : "last_reminder",
-        button : function() {
-          exp.go(); //use exp.go() if and only if there is no "present" data.
-        }
-        
-      });
-
+    slides.post_practice_2 = slide({
+      name : "post_practice_2",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    });
+  
+    slides.last_reminder = slide({
+      name : "last_reminder",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+      
+    });
 
     slides.block1 = slide({
         name : "block1",
@@ -199,16 +197,16 @@ function make_slides(f) {
             var full_sent = context + "\n" + target + "\n" + post_context
             $(".target").text(full_sent);
             $('input[name=critical]').hide();
-            $(".top_button").hide();
-            $(".bottom_button").hide();
+            $(".left_button").hide();
+            $(".right_button").hide();
 
             $('input[name="critical"]:checked').removeAttr("checked"); // remove the previous response
             exp.response = undefined; // remove the previous selection
             exp.choice = undefined; // remove the recorded choice
             exp.selected_content = undefined; // remove the recorded choice
             
-            $(".top_button").show();
-            $(".bottom_button").show();
+            $(".left_button").show();
+            $(".right_button").show();
 
             $('input[name=critical]').show();
             $('input[name="critical"]:checked').removeAttr("checked"); // remove response again
@@ -219,10 +217,10 @@ function make_slides(f) {
             // the order of the buttons also need to be randomized
             var options = _.shuffle([this.stim.option_yiwei, this.stim.option_juede])
             // console.log("randomized order of choices: " + options)
-            exp.top_button = options[0];
-            $(".top_button").html(exp.top_button);
-            exp.bottom_button = options[1];
-            $(".bottom_button").html(exp.bottom_button);
+            exp.left_button = options[0];
+            $(".left_button").html(exp.left_button);
+            exp.right_button = options[1];
+            $(".right_button").html(exp.right_button);
             
             $(".continue_button").show(); // show the continue button
             $(".question").html(exp.question);
@@ -239,10 +237,10 @@ function make_slides(f) {
               $(".forced_choice_err").show();
           } else {
             // do the additional step of getting the result of choice only 
-            if (exp.response == "top") {
-              var selected_content = exp.top_button;
+            if (exp.response == "left") {
+              var selected_content = exp.left_button;
             } else {
-              var selected_content = exp.bottom_button;
+              var selected_content = exp.right_button;
             }
             exp.selected_content = selected_content;
             
@@ -258,7 +256,7 @@ function make_slides(f) {
                 exp.choice = "incorrect"
               }
             }
-            // console.log(exp.choice)
+            console.log(exp.choice)
             this.log_responses();
             _stream.apply(this); //use exp.go() if and only if there is no "present" data.
           }
@@ -797,7 +795,7 @@ function init() {
         "item": "906",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t阳台这边终于收拾干净了。\n爸爸:\t确实看着清爽多了。\n爸爸:\t不过总觉得少了点生气。\n爸爸:\t要不要我把那盆绿萝挪过来？\n妈妈:\t放在窗边？",
+        "original_context": "妈妈:\t阳台这边终于收拾干净了。\n爸爸:\t确实看着清爽多了。\n爸爸:\t不过看起来少了点生气。\n爸爸:\t要不要我把那盆绿萝挪过来？\n妈妈:\t放在窗边？",
         "post_context": "孩子:\t现在这里好漂亮。\n妈妈:\t嗯，就这样吧。",
         "target": "妈妈:\t确实，这样一摆真有点画龙____。",
         "option_yiwei": "点睛",
@@ -827,7 +825,7 @@ function init() {
         "item": "909",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "实验员:\t这张画已经很好看了。\n孩子:\t我还想再加点。\n实验员:\t加什么？\n孩子:\t一些亮片。\n实验员:\t可我觉得不加刚刚好。",
+        "original_context": "实验员:\t这张画已经很好看了。\n孩子:\t我还想再加点。\n实验员:\t加什么？\n孩子:\t一些亮片。\n实验员:\t可不加挺好的呀。",
         "post_context": "孩子:\t可是我喜欢。\n孩子:\t亮亮的。",
         "target": "实验员:\t加了反而有点____添足。",
         "option_yiwei": "画蛇",
@@ -889,8 +887,8 @@ function init() {
         screenUW: exp.width
     };
     //blocks of the experiment:
-    exp.structure=["i0", "reminder",
-    "practice_1", "post_practice_1",
+    exp.structure=["i0", "instruction", "reminder",
+    "practice_1", "post_practice_1", 
     "practice_2", "post_practice_2",
     "last_reminder", "block1", 'questionaire', 'finished'];
     // console.log(exp.structure);

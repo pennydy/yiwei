@@ -61,8 +61,18 @@
       
     </p>
     
-    <p id="block-text"> 知情同意书 <small>
+    <p id="block-text"> 知情同意书/Consent form <small>
       <br>
+      <br>
+      <strong>A cross-linguistic study of speech production and perception</strong>
+      <br>
+      <br>
+      Marc Garellek, Ph.D., is conducting a research study to find out more about how sounds are
+      produced and perceived. You have been asked to take part because you are a native speaker of a
+      language of interest, and because of your participation in an online platform such as Prolific or
+      Amazon Mechanical Turk platform. There will be approximately 1200 participants in this study.
+      <br>
+
       If you agree to be in this study, you may do any of the following: (a) read words or sentences
       from a list; (b) name pictures, objects, and/or events; (c) listen to words or sounds and/or view
       pictures. You may be asked to respond to stimuli (i.e., press a button, click a mouse) when
@@ -95,9 +105,13 @@
       Research records will be kept confidential by using an alphanumeric code, instead of your name,
       to identify your data files. Your data will be kept on a password-protected computer.
       <br>
+
+      You have received a copy of this consent document to keep.
+      
       </small>
     </p>
-    
+    If you agree to participate, click the botton below to start the experiment.
+    <br>
     如果您同意参加，请点击下面的按钮开始实验。
 
     <br>
@@ -105,28 +119,39 @@
 
   <button id="start_button" type="button">开始实验</button>
     <br>
+    <br>
+    <br>
+    <br>
       
 
+</div>
+
+<div class="slide" id="instruction">
+  <br>
+  <br>
+  <p style="font-size: 24px;"><strong>实验说明</strong></p>
+  <br>
+  <p>在本次实验中，您将阅读一些真实的对话片段。这些对话发生在父母、研究员或其他成年人与3-6岁儿童之间。</p>
+  <p>在这些对话中，部分词语将被省略，并以"____"表示。对话下方会提供两个选项。</p>
+  <p>请从这两个选项中，选择在该语境下更自然，更可能是父母（或对话中的其他成人）实际所说的一项。</p>
+  <button onclick="_s.button()">继续</button>
 </div>
 
 <div class="slide" id="reminder">
   <br>
   <br>
-  <!-- <div class="subj_info_title">附加问题</div>
-      <br>
-      <br> -->
-  <p style="font-size: 24px;"><strong>实验说明</strong></p>
+  <p>在实验开始之前，请您注意：</p>
   <br>
-  <p>在本次实验中，您将阅读一些对话片段。这些对话发生在父母、研究员或其他成年人与3-6岁儿童之间。</p>
-  <p>在这些对话中，部分词语将被省略，并以"____"表示。对话下方会给出的两个选项。</p>
-  <p>请从给出的两个选项中，选择最有可能符合父母、研究员或其他成年人实际用法的选项。</p>
+  <p>(1) 请在选择之前，仔细阅读对话片段里的所有句子。</p>
+  <p>(2) 请根据您的直觉，选择在这个语境下更自然，更可能是父母（或对话中的其他成人）实际所说的一项。</p>
+  <p>当您准备好后，请点击继续。</p>
   <button onclick="_s.button()">继续</button>
 </div>
 
 <div class="slide" id="practice_1">
 <br>
 <br> 
-<p>下面是一个示例。请您阅读对话片段里的所有句子，然后选择最有可能符合母亲实际说法的选项。</p>
+<p>下面是一个示例。请您阅读对话片段里的所有句子，然后选择在这个语境下更自然，更可能是父母（或对话中的其他成人）实际所说的一项。</p>
 <br>
   <!-- <p class="context"> </p> -->
   <p class="target"> </p>
@@ -136,12 +161,13 @@
   <div>
     <table class="radio_button">
       <tr>
-        <td> <input type="radio" id="incorrect" name="practice" value="top"> </td>
-        <td> <label for="incorrect"><p class = "top_button">{{}}</p></label> </td>
-      </tr>
-      <tr>
-        <td> <input type="radio" id="correct" name="practice" value="bottom"> </td>
-        <td> <label for="correct"><p class = "bottom_button">{{}}</p></label> </td>
+        <td> <input type="radio" id="qu" name="practice" value="left"> </td>
+        <td> <label for="qu"><p class = "left_button">{{}}</p></label> </td>
+
+        <td class="spacer"></td>
+
+        <td> <input type="radio" id="lai" name="practice" value="right"> </td>
+        <td> <label for="lai"><p class = "right_button">{{}}</p></label> </td>
       </tr>
     </table>
   </div>
@@ -150,20 +176,23 @@
 </div>
 
 
+
 <div class="slide" id="post_practice_1">
   <br>
   <br>
   <br>
 
-  <p> 大部分中文母语者会选择“<strong>被</strong>”（修补<strong>被</strong>大风破坏了的房屋）。</p>
-  <p> 如果您认为“被”是正确选项，请选择“被”。</p>
+  <p> 大部分中文母语者会选择“<strong>回来</strong>”。</p>
+  <p> 如果您选择了”回来“，您的判断与大多数中文母语者一致。</p>
+  <p> 如果您选择了“过去”，请您在选择之前，仔细阅读对话片段里的所有句子。</p>
   <button onclick="_s.button()">继续</button>
 </div>
+
 
 <div class="slide" id="practice_2">
   <br>
   <br> 
-    <p>下面是另一个示例。请您阅读对话片段里的所有句子，然后选择最有可能符合母亲实际说法的选项。</p>
+    <p>下面是另一个示例。请您阅读对话片段里的所有句子，然后选择在这个语境下更自然，更可能是父母（或对话中的其他成人）实际所说的一项。</p>
     <br> 
       <!-- <p class="context"> </p> -->
       <p class="target"> </p>
@@ -173,12 +202,13 @@
       <div>
         <table class="radio_button">
           <tr>
-            <td> <input type="radio" id="foreground" name="practice" value="top"> </td>
-            <td> <label for="foreground"><p class = "top_button">{{}}</p></label> </td>
-          </tr>
-          <tr>
-            <td> <input type="radio" id="background" name="practice" value="bottom"> </td>
-            <td> <label for="background"><p class = "bottom_button">{{}}</p></label> </td>
+            <td> <input type="radio" id="qu" name="practice" value="left"> </td>
+            <td> <label for="qu"><p class = "left_button">{{}}</p></label> </td>
+
+            <td class="spacer"></td>
+
+            <td> <input type="radio" id="lai" name="practice" value="right"> </td>
+            <td> <label for="lai"><p class = "right_button">{{}}</p></label> </td>
           </tr>
         </table>
       </div>
@@ -192,8 +222,9 @@
   <br>
   <br>
 
-  <p>大部分中文母语者会选择“<strong>把</strong>”（你<strong>把</strong>这个颜色涂在这里）。</p>
-  <p> 如果您认为“把”是正确选项，请选择“把”。</p>
+  <p>大部分中文母语者会选择“<strong>把</strong>”。</p>
+  <p> 如果您选择了”把“，您的判断与大多数中文母语者一致。</p>
+  <p> 如果您选择了“被”，请您在选择之前，仔细阅读对话片段里的所有句子。</p>
   <button onclick="_s.button()">继续</button>
 </div>
 
@@ -201,12 +232,12 @@
 <div class="slide" id="last_reminder">
   <br>
   <br>
-  <p>在实验开始之前，请您注意：</p>
+  <p>以上是全部的示例。在实验开始之前，再次提醒您：</p>
   <br>
   <p>(1) 请在选择之前，仔细阅读对话片段里的所有句子。</p>
-  <p>(2) 请您利用母语者的直觉，选择合适的词语填入空格。</p>
-  <p>当您准备好后，请按下按钮开始实验。</p>
-  <button onclick="_s.button()">点击开始实验</button>
+  <p>(2) 请您利用母语者的直觉，选择在这个语境下更自然，更可能是父母（或对话中的其他成人）实际所说的一项。</p>
+  <p>当您准备好后，请按点击下面的按钮开始实验。</p>
+  <button onclick="_s.button()">开始实验</button>
 </div>
 
 
@@ -231,12 +262,13 @@
     <div>
       <table class="radio_button">
         <tr>
-          <td> <input type="radio" id="yiwei" name="critical" value="top"> </td>
-          <td> <label for="yiwei"><p class = "top_button">{{}}</p></label> </td>
-        </tr>
-        <tr>
-          <td> <input type="radio" id="juede" name="critical" value="bottom"> </td>
-          <td> <label for="juede"><p class = "bottom_button">{{}}</p></label> </td>
+          <td> <input type="radio" id="yiwei" name="critical" value="left"> </td>
+          <td> <label for="yiwei"><p class = "left_button">{{}}</p></label> </td>
+
+          <td class="spacer"></td>
+
+          <td> <input type="radio" id="juede" name="critical" value="right"> </td>
+          <td> <label for="juede"><p class = "right_button">{{}}</p></label> </td>
         </tr>
       </table>
     </div>
