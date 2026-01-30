@@ -1,8 +1,9 @@
 import re
 import sys
 from pathlib import Path
+import argparse
 
-def main(input_path: str, output_path: str):
+def add_id(input_path: str, output_path: str):
     text = Path(input_path).read_text(encoding="utf-8")
     lines = text.splitlines(keepends=True)
 
@@ -21,7 +22,12 @@ def main(input_path: str, output_path: str):
     print(f"Numbered {block_id} blocks → {output_path}")
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python number_blocks.py <input.txt> <output.txt>")
-        sys.exit(1)
-    main(sys.argv[1], sys.argv[2])
+    parser = argparse.ArgumentParser(description="clean files")
+    parser.add_argument("--input", "-i", type=str, default="renwei_clean.txt")
+    parser.add_argument("--output", "-o", type=str, default="renwei_clean_format.txt")
+    args = parser.parse_args()
+
+    input_file = args.input
+    output_file = args.output
+
+    add_id(input_file, output_file)

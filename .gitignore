@@ -6,6 +6,8 @@
 # data
 data/*.config
 data/*.csv
+data/1_context_choice/*.csv
+data/2_no_context_choice/*.csv
 
 # childes data
 data/childes/yiwei.xlsx
