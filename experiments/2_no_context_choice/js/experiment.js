@@ -925,7 +925,7 @@ function init() {
     //   exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                         //relies on structure and slides being defined
                         
-    exp.nQs = 1 + 1 + 4 + 4 + 1 + 50; 
+    exp.nQs = 1 + 1 + 4 + 4 + 1 + 50 + 2; 
     $(".nQs").html(exp.nQs);
 
     $('.slide').hide(); //hide everything

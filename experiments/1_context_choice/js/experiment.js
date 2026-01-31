@@ -796,7 +796,7 @@ function init() {
         "item": "112",
         "verb": "juede",
         "condition": "juede_unclear",
-        "original_context": "妈妈:\t(山羊太太)右手拎了一个东西。\n妈妈:\t拎不动了。\n妈妈:\t他就帮山羊太太拎...拎这个水果篮子。\n妈妈:\t对不对啊？\n孩子:\t对啊。",
+        "original_context": "妈妈:\t山羊太太右手拎了一个东西。\n妈妈:\t拎不动了。\n妈妈:\t他就帮山羊太太拎...拎这个水果篮子。\n妈妈:\t对不对啊？\n孩子:\t对啊。",
         "post_context": "妈妈:\t他老是愿意帮助别人。\n妈妈:\t这一页画的是什么呀？",
         "target": "妈妈:\t我____我好喜欢小狐狸。",
         "option_yiwei": "以为",
@@ -1045,7 +1045,7 @@ function init() {
     //   exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                         //relies on structure and slides being defined
                         
-    exp.nQs = 1 + 1 + 4 + 4 + 1 + 50; 
+    exp.nQs = 1 + 1 + 4 + 4 + 1 + 50 + 2; 
     $(".nQs").html(exp.nQs);
 
     $('.slide').hide(); //hide everything
