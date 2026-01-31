@@ -519,7 +519,7 @@ function init() {
         "item": "9",
         "verb": "yiwei",
         "condition": "yiwei_contrastive",
-        "target": "我还____你会睡你的新房间嘞！",
+        "target": "我____是一样的。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -595,7 +595,7 @@ function init() {
         "item": "108",
         "verb": "yiwei",
         "condition": "yiwei_unclear",
-        "target": "它们都____它会欺负它啊。",
+        "target": "当你____是你的责任。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -611,7 +611,7 @@ function init() {
         "item": "110",
         "verb": "yiwei",
         "condition": "yiwei_unclear",
-        "target": "我____他知道要叫你把他弄。",
+        "target": "我____他知道要叫你帮他弄。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       }
@@ -715,7 +715,7 @@ function init() {
         "item": "112",
         "verb": "juede",
         "condition": "juede_unclear",
-        "target": "我____你弄错了。",
+        "target": "我____我好喜欢小狐狸。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -926,7 +926,7 @@ function init() {
     //   exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                         //relies on structure and slides being defined
                         
-    exp.nQs = 1 + 1 + 4 + 1 + 50; 
+    exp.nQs = 1 + 1 + 4 + 4 + 1 + 50; 
     $(".nQs").html(exp.nQs);
 
     $('.slide').hide(); //hide everything

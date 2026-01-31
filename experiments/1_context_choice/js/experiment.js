@@ -553,9 +553,9 @@ function init() {
         "item": "9",
         "verb": "yiwei",
         "condition": "yiwei_contrastive",
-        "original_context": "实验员:\t藏好！\n孩子:\t我要做了！\n实验员:\t你昨天睡这里吗？\n孩子:\t对啊。\n孩子:\t我昨天晚上就睡这啊！",
-        "post_context": "孩子:\t我明天就可以睡了！\n实验员:\t等到收好就可以睡了嘛。",
-        "target": "实验员:\t我还____你会睡你的新房间嘞！",
+        "original_context": "孩子:\t最后黑棋一般只要吃八十七个空，白棋一般吃六十几个空。\n实验员:\t为什么还不一样？\n孩子:\t因为这样才公平。\n孩子:\t因为白棋的棋子比黑棋的棋子少呀。\n实验员:\t哦这样啊。",
+        "post_context": "实验员:\t为什么要少一点？\n孩子:\t因为这个事儿我也不太知道呀。",
+        "target": "实验员:\t我以为是一样的。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -648,9 +648,9 @@ function init() {
         "item": "108",
         "verb": "yiwei",
         "condition": "yiwei_unclear",
-        "original_context": "妈妈:\t那怎么办？\n妈妈:\t它要怎样还击？\n妈妈:\t它最大。\n妈妈:\t是不是？\n妈妈:\t其他动物都很小很小啊。",
-        "post_context": "妈妈:\t那你是不是要表示一下友善。\n妈妈:\t说，“诶你看。”",
-        "target": "妈妈:\t它们都____它会欺负它啊。",
+        "original_context": "妈妈:\t哦这里还有一个。\n妈妈:\t我们读读这里,会更有感触。\n妈妈:\t一开始只是单位友人收养的流浪猫出走时的失落。\n妈妈:\t失落是潜在心底的一股浮流。\n妈妈:\t猫默默的走进你的一生。",
+        "post_context": "妈妈:\t它又出其不意的走出你的生命。\n妈妈:\t它的去向、是不是平安，一无所知。",
+        "target": "妈妈:\t当你____是你的责任，",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -670,7 +670,7 @@ function init() {
         "condition": "yiwei_unclear",
         "original_context": "妈妈:\t快点！\n妈妈:\t我说要干吗。\n妈妈:\t我们去后面看。\n实验员:\t只是去看。\n妈妈:\t他叫我去后面看，水好满。",
         "post_context": "实验员:\t清掉。\n妈妈:\t没有。",
-        "target": "实验员:\t我____他知道要叫你把他弄。",
+        "target": "实验员:\t我____他知道要叫你帮他弄。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       }
@@ -796,9 +796,9 @@ function init() {
         "item": "112",
         "verb": "juede",
         "condition": "juede_unclear",
-        "original_context": "妈妈:\t你怎么这么厉害啊。\n妈妈:\t从哪里开的啊？\n妈妈:\t哦用力开。\n姐姐:\t打开。\n妈妈:\t是这样吗？",
-        "post_context": "妈妈:\t你确定是用力开吗？(笑)\n妈妈:\t你喜欢玩什么？",
-        "target": "妈妈:\t我____你弄错了。",
+        "original_context": "妈妈:\t(山羊太太)右手拎了一个东西。\n妈妈:\t拎不动了。\n妈妈:\t他就帮山羊太太拎...拎这个水果篮子。\n妈妈:\t对不对啊？\n孩子:\t对啊。",
+        "post_context": "妈妈:\t他老是愿意帮助别人。\n妈妈:\t这一页画的是什么呀？",
+        "target": "妈妈:\t我____我好喜欢小狐狸。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -1045,7 +1045,7 @@ function init() {
     //   exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                         //relies on structure and slides being defined
                         
-    exp.nQs = 1 + 1 + 4 + 1 + 50; 
+    exp.nQs = 1 + 1 + 4 + 4 + 1 + 50; 
     $(".nQs").html(exp.nQs);
 
     $('.slide').hide(); //hide everything
