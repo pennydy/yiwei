@@ -16,13 +16,13 @@ cbPalette <- c("#E69F00", "#009E73")
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source("helpers.R")
 
-# 0. schematic ----
+# 0. schematic plots ----
 hypothetical.data <- data.frame(
   verb = c("juede", "juede", "yiwei", "yiwei"),
   discourse_type = c("clear", "unclear", "clear", "unclear"),
-  # accuracy = c(0.85, 0.5, 0.85, 0.2)
+  accuracy = c(0.85, 0.5, 0.85, 0.2) # predicted results
   # accuracy = c(0.85, 0.83, 0.85, 0.83)
-  accuracy = c(0.85, 0.83, 0.23, 0.21)
+  # accuracy = c(0.85, 0.83, 0.23, 0.21)
 ) %>% 
   mutate(verb=fct_relevel(as.factor(verb), "yiwei", "juede"))
 

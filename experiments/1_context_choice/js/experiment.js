@@ -40,9 +40,9 @@ function make_slides(f) {
         present_handle : function(stim) {
           $(".forced_choice_err").hide();
           this.stim = stim;
-          var context = "妈妈:\t小球滚到那里去了耶。\n孩子:\t哪里？\n妈妈:\t沙发底下。\n妈妈:\t好远哦。\n孩子:\t那怎么办？";
-          var target = "妈妈:\t你可以帮妈妈把小球拿____吗？"
-          var post_context = "孩子:\t不好。\n孩子:\t不要。";
+          var context = "妈妈:\t有一天夜里呢。\n妈妈:\t刮了大风。\n妈妈:\t到天亮的时候。\n妈妈:\t风才停下。\n妈妈:\t沼泽地的村民们纷纷从各自家里钻了出来。";
+          var target = "妈妈:\t修补被大风____了的房屋？"
+          var post_context = "妈妈:\t它们就修房子。\n妈妈:\t蜘蛛阿尔丁昨天刚结的几个新网也破了几个大窟窿。";
           var full_sent = context + "\n" + target + "\n" + post_context
           $(".target").html(full_sent);
 
@@ -51,9 +51,9 @@ function make_slides(f) {
           exp.choice = undefined;
           exp.selected_content = undefined; 
           $('input[name="practice"]:checked').removeAttr("checked");
-          var left_button = "过来";
+          var left_button = "破坏";
           $(".left_button").html(left_button);
-          var right_button = "过去";
+          var right_button = "损坏";
           $(".right_button").html(right_button);
           // exp.incorrect_attempts = 0;
         },
@@ -65,11 +65,11 @@ function make_slides(f) {
           } else {
             // we hard-coded that the left is the correct answer
             if (exp.response == "left") {
-              exp.choice = "correct";
-              exp.selected_content = "lai";
+              exp.choice = "ambiguous";
+              exp.selected_content = "pohuai";
             } else {
-              exp.choice = "incorrect";
-              exp.selected_content = "qu";
+              exp.choice = "ambiguous";
+              exp.selected_content = "sunhuai";
             }
             this.log_responses();
             _stream.apply(this);
@@ -81,7 +81,7 @@ function make_slides(f) {
           // console.log("response: "+ exp.response)
           exp.data_trials.push({
             "trial_num" : 0,
-            "item_id" : "202",
+            "item_id" : "301",
             "block_id" : "practice",
             "condition" : "practice_1",
             "verb": "NA",
@@ -101,6 +101,150 @@ function make_slides(f) {
     
     slides.practice_2 = slide({
       name : "practice_2",
+      /* trial information for this block
+        (the variable 'stim' will change between each of these values,
+        and for each of these, present_handle will be run.) */
+      present : [{"a": 2}],
+      start : function() {
+          $(".forced_choice_err").hide(); // hide the error message   
+      },
+      // this gets run only at the beginning of the block
+      present_handle : function(stim) {
+        $(".forced_choice_err").hide();
+        this.stim = stim;
+        var context = "妈妈:\t小球滚到那里去了耶。\n孩子:\t哪里？\n妈妈:\t沙发底下。\n妈妈:\t好远哦。\n孩子:\t那怎么办？";
+        var target = "妈妈:\t你可以帮妈妈把小球拿____吗？"
+        var post_context = "孩子:\t不好。\n孩子:\t不要。";
+        var full_sent = context + "\n" + target + "\n" + post_context
+        $(".target").html(full_sent);
+
+        // exp.first_response_wrong = 0;
+        exp.response = undefined;
+        exp.choice = undefined;
+        exp.selected_content = undefined; 
+        $('input[name="practice"]:checked').removeAttr("checked");
+        var left_button = "过来";
+        $(".left_button").html(left_button);
+        var right_button = "过去";
+        $(".right_button").html(right_button);
+        // exp.incorrect_attempts = 0;
+      },
+      button : function() {
+        exp.response = $('input[name="practice"]:checked').val()
+
+        if (exp.response == undefined) {
+          $(".forced_choice_err").show();
+        } else {
+          // we hard-coded that the left is the correct answer
+          if (exp.response == "left") {
+            exp.choice = "correct";
+            exp.selected_content = "lai";
+          } else {
+            exp.choice = "incorrect";
+            exp.selected_content = "qu";
+          }
+          this.log_responses();
+          _stream.apply(this);
+        }
+        // console.log(exp.choice);
+      },
+      
+      log_responses : function() {
+        // console.log("response: "+ exp.response)
+        exp.data_trials.push({
+          "trial_num" : 0,
+          "item_id" : "302",
+          "block_id" : "practice",
+          "condition" : "practice_2",
+          "verb": "NA",
+          "response" : exp.choice,
+          "original_choice" : exp.selected_content
+        });
+  
+      }
+    });
+    
+    slides.post_practice_2 = slide({
+      name : "post_practice_2",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    });
+
+    slides.practice_3 = slide({
+      name : "practice_3",
+      /* trial information for this block
+        (the variable 'stim' will change between each of these values,
+        and for each of these, present_handle will be run.) */
+      present : [{"a": 2}],
+      start : function() {
+          $(".forced_choice_err").hide(); // hide the error message   
+      },
+      // this gets run only at the beginning of the block
+      present_handle : function(stim) {
+        $(".forced_choice_err").hide();
+        this.stim = stim;
+        var context = "妈妈:\t你画太阳吧。\n孩子:\t你帮我画房子。\n妈妈:\t我帮你画房子啊。\n孩子:\t因为我不会画嘛。\n妈妈:\t不会画没关系。";
+        var target = "妈妈:\t你可以____这个颜色涂在这里。"
+        var post_context = "孩子:\t不好。\n孩子:\t不要。";
+        var full_sent = context + "\n" + target + "\n" + post_context
+        $(".target").html(full_sent);
+
+        // exp.first_response_wrong = 0;
+        exp.response = undefined;
+        exp.choice = undefined;
+        exp.selected_content = undefined; 
+        $('input[name="practice"]:checked').removeAttr("checked");
+        var left_button = "把";
+        $(".left_button").html(left_button);
+        var right_button = "将";
+        $(".right_button").html(right_button);
+        // exp.incorrect_attempts = 0;
+      },
+      button : function() {
+        exp.response = $('input[name="practice"]:checked').val()
+
+        if (exp.response == undefined) {
+          $(".forced_choice_err").show();
+        } else {
+          // we hard-coded that the left is the correct answer
+          if (exp.response == "left") {
+            exp.choice = "ambiguous";
+            exp.selected_content = "ba";
+          } else {
+            exp.choice = "ambiguous";
+            exp.selected_content = "jiang";
+          }
+          this.log_responses();
+          _stream.apply(this);
+        }
+        // console.log(exp.choice);
+      },
+      
+      log_responses : function() {
+        // console.log("response: "+ exp.response)
+        exp.data_trials.push({
+          "trial_num" : 0,
+          "item_id" : "303",
+          "block_id" : "practice",
+          "condition" : "practice_3",
+          "verb": "NA",
+          "response" : exp.choice,
+          "original_choice" : exp.selected_content
+        });
+  
+        }
+      });
+    
+    slides.post_practice_3 = slide({
+      name : "post_practice_3",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    });
+  
+    slides.practice_4 = slide({
+      name : "practice_4",
   
       /* trial information for this block
         (the variable 'stim' will change between each of these values,
@@ -113,7 +257,7 @@ function make_slides(f) {
       present_handle : function(stim) {
           $(".forced_choice_err").hide();
           this.stim = stim;
-          var context = "妈妈:\t我们有小车了！\n妈妈:\t你看那边有什么?\n孩子:\t蛋蛋。\n妈妈:\t蛋蛋哦！\n妈妈:\t你很喜欢蛋蛋诶。";
+          var context = "妈妈:\t我们有小推车了！\n妈妈:\t你看那边有什么?\n孩子:\t蛋蛋。\n妈妈:\t蛋蛋哦！\n妈妈:\t你很喜欢蛋蛋诶。";
           var target = "妈妈:\t那要不要把小车推____装蛋蛋？"
           var post_context = "妈妈:\t要不要装蛋？\n孩子:\t要！";
           var full_sent = context + "\n" + target + "\n" + post_context
@@ -123,9 +267,9 @@ function make_slides(f) {
           exp.choice = undefined;
           exp.selected_content = undefined; 
           $('input[name="practice"]:checked').removeAttr("checked");
-          var left_button = "过去";
+          var left_button = "过来";
           $(".left_button").html(left_button);
-          var right_button = "过来";
+          var right_button = "过去";
           $(".right_button").html(right_button);
           // exp.incorrect_attempts = 0;
       },
@@ -136,7 +280,7 @@ function make_slides(f) {
               $(".forced_choice_err").show();
           } else {
             // we hard-coded that the left is the correct answer
-            if (exp.response == "left") {
+            if (exp.response == "right") {
               exp.choice = "correct";
               exp.selected_content = "qu";
             } else {
@@ -152,9 +296,9 @@ function make_slides(f) {
         // console.log("response: " + exp.response)
         exp.data_trials.push({
           "trial_num" : 0,
-          "item_id" : "203",
+          "item_id" : "304",
           "block_id" : "practice",
-          "condition" : "practice_2",
+          "condition" : "practice_4",
           "verb": "NA",
           "response" : exp.choice,
           "original_choice" : exp.selected_content
@@ -162,13 +306,14 @@ function make_slides(f) {
       }
     });
 
-    slides.post_practice_2 = slide({
-      name : "post_practice_2",
+    slides.post_practice_4 = slide({
+      name : "post_practice_4",
       button : function() {
         exp.go(); //use exp.go() if and only if there is no "present" data.
       }
     });
-  
+
+
     slides.last_reminder = slide({
       name : "last_reminder",
       button : function() {
@@ -472,9 +617,9 @@ function init() {
         "item": "105",
         "verb": "yiwei",
         "condition": "yiwei_unclear",
-        "original_context": "孩子:\t小猫也很想去外面玩。\n妈妈:\t你看，这个主人贴了一个寻猫启事。\n妈妈:\t我给你念念啊，\n妈妈:\t寻猫启事，好不好？\n孩子:\t好。",
+        "original_context": "孩子:\t小猫也很想去外面玩。\n妈妈:\t你看，这个主人贴了一个寻猫启事。\n妈妈:\t我给你念念啊，寻猫启事，好不好？\n孩子:\t好。\n妈妈:\t你消失了。",
         "post_context": "妈妈:\t你一定是躲在某个角落偷偷的笑我。\n妈妈:\t这已经是第五天，你躲得太久了。",
-        "target": "妈妈:\t你消失了。我____只是一如往常的躲猫猫游戏。",
+        "target": "妈妈:\t我____只是一如往常的躲猫猫游戏。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -661,9 +806,9 @@ function init() {
         "item": "113",
         "verb": "juede",
         "condition": "juede_unclear",
-        "original_context": "妈妈:\t为什么这是一个阿姨？\n孩子:\t因为她叫阿姨。\n妈妈:\t那好吧，这是一个阿姨。\n妈妈:\t这个阿姨戴着一个头盔对吧？\n妈妈:\t骑着摩托车斜挎着一个包。",
-        "post_context": "妈妈:\t她可能是送信呀送报纸对吧？\n妈妈:\t然后你看这阿姨笑眯眯地蹲下来，看到了一个什么？",
-        "target": "妈妈:\t我____她可能是一个邮递员阿姨。",
+        "original_context": "妈妈:\t那怎么处理这粒种子呢？\n妈妈:\t蜘蛛问老蚯蚓。\n妈妈:\t老蚯蚓若有所思。\n妈妈:\t“把他种起来，\n妈妈:\t说不定还能结出什么美味的果子来呢！”",
+        "post_context": "妈妈:\t然后就把这粒种子种到地里去。\n妈妈:\t蟋蟀还在种子的窝边用绿叶搭起一个帐篷。",
+        "target": "妈妈:\t大家____这个主意不错。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -888,8 +1033,8 @@ function init() {
     };
     //blocks of the experiment:
     exp.structure=["i0", "instruction", "reminder",
-    "practice_1", "post_practice_1", 
-    "practice_2", "post_practice_2",
+    "practice_1", "post_practice_1", "practice_2", "post_practice_2",
+    "practice_3", "post_practice_3", "practice_4", "post_practice_4",
     "last_reminder", "block1", 'questionaire', 'finished'];
     // console.log(exp.structure);
 

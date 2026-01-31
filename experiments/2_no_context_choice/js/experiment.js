@@ -28,9 +28,77 @@ function make_slides(f) {
       });
 
     slides.practice_1 = slide({
-        name : "practice_1",
+      name : "practice_1",
+      /* trial information for this block
+        (the variable 'stim' will change between each of these values,
+        and for each of these, present_handle will be run.) */
+      present : [{"a": 2}],
+      start : function() {
+          $(".forced_choice_err").hide(); // hide the error message   
+      },
+      // this gets run only at the beginning of the block
+      present_handle : function(stim) {
+        $(".forced_choice_err").hide();
+        this.stim = stim;
+        var target = "那你可以帮妈妈把小球拿____吗？"
+        $(".target").html(target);
+
+        // exp.first_response_wrong = 0;
+        exp.response = undefined;
+        exp.choice = undefined;
+        exp.selected_content = undefined; 
+        $('input[name="practice"]:checked').removeAttr("checked");
+        var left_button = "回去";
+        $(".left_button").html(left_button);
+        var right_button = "回来";
+        $(".right_button").html(right_button);
+        // exp.incorrect_attempts = 0;
+      },
+      button : function() {
+        exp.response = $('input[name="practice"]:checked').val()
+
+        if (exp.response == undefined) {
+          $(".forced_choice_err").show();
+        } else {
+          // we hard-coded that the left is the correct answer
+          if (exp.response == "left") {
+            exp.choice = "ambiguous";
+            exp.selected_content = "qu";
+          } else {
+            exp.choice = "ambiguous";
+            exp.selected_content = "lai";
+          }
+          this.log_responses();
+          _stream.apply(this);
+        }
+        // console.log(exp.choice);
+      },
+      log_responses : function() {
+        // console.log("response: "+ exp.response)
+        exp.data_trials.push({
+          "trial_num" : 0,
+          "item_id" : "301",
+          "block_id" : "practice",
+          "condition" : "practice_1",
+          "verb": "NA",
+          "response" : exp.choice,
+          "original_choice" : exp.selected_content
+        });
+  
+      }
+    });
+
+    slides.post_practice_1 = slide({
+      name : "post_practice_1",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    });
+
+    slides.practice_2 = slide({
+        name : "practice_2",
         /* trial information for this block
-         (the variable 'stim' will change between each of these values,
+          (the variable 'stim' will change between each of these values,
           and for each of these, present_handle will be run.) */
         present : [{"a": 2}],
         start : function() {
@@ -77,98 +145,167 @@ function make_slides(f) {
           // console.log("response: "+ exp.response)
           exp.data_trials.push({
             "trial_num" : 0,
-            "item_id" : "202",
-            "block_id" : "practice",
-            "condition" : "practice_1",
-            "verb": "NA",
-            "response" : exp.choice,
-            "original_choice" : exp.selected_content
-          });
-    
-        }
-      });
-
-      slides.post_practice_1 = slide({
-        name : "post_practice_1",
-        button : function() {
-          exp.go(); //use exp.go() if and only if there is no "present" data.
-        }
-      });
-
-      slides.practice_2 = slide({
-        name : "practice_2",
-    
-        /* trial information for this block
-         (the variable 'stim' will change between each of these values,
-          and for each of these, present_handle will be run.) */
-        present : [{"a": 3}],
-        start : function() {
-            $(".forced_choice_err").hide(); // hide the error message   
-        },
-        // this gets run only at the beginning of the block
-        present_handle : function(stim) {
-            $(".forced_choice_err").hide();
-            this.stim = stim;
-            var target = "你____这个颜色涂在这里。"
-            $(".target").html(target);
-            // exp.first_response_wrong = 0;
-            exp.response = undefined;
-            exp.choice = undefined;
-            exp.selected_content = undefined; 
-            $('input[name="practice"]:checked').removeAttr("checked");
-            var left_button = "把";
-            $(".left_button").html(left_button);
-            var right_button = "被";
-            $(".right_button").html(right_button);
-            // exp.incorrect_attempts = 0;
-        },
-        button : function() {
-            exp.response = $('input[name="practice"]:checked').val();
-
-            if (exp.response == undefined) {
-                $(".forced_choice_err").show();
-            } else {
-              // we hard-coded that the left is the correct answer
-              if (exp.response == "left") {
-                exp.choice = "correct";
-                exp.selected_content = "ba";
-              } else {
-                exp.choice = "incorrect";
-                exp.selected_content = "bei";
-              }
-              this.log_responses();
-              _stream.apply(this);
-            }
-            // console.log(exp.choice);
-        },
-        log_responses : function() {
-          // console.log("response: " + exp.response)
-          exp.data_trials.push({
-            "trial_num" : 0,
-            "item_id" : "203",
+            "item_id" : "302",
             "block_id" : "practice",
             "condition" : "practice_2",
             "verb": "NA",
             "response" : exp.choice,
             "original_choice" : exp.selected_content
           });
+    
         }
       });
 
-      slides.post_practice_2 = slide({
-        name : "post_practice_2",
-        button : function() {
-          exp.go(); //use exp.go() if and only if there is no "present" data.
+    slides.post_practice_2 = slide({
+      name : "post_practice_2",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    });
+
+
+    slides.practice_3 = slide({
+      name : "practice_3",
+      /* trial information for this block
+        (the variable 'stim' will change between each of these values,
+        and for each of these, present_handle will be run.) */
+      present : [{"a": 2}],
+      start : function() {
+          $(".forced_choice_err").hide(); // hide the error message   
+      },
+      // this gets run only at the beginning of the block
+      present_handle : function(stim) {
+        $(".forced_choice_err").hide();
+        this.stim = stim;
+        var target = "那要不要把推车推____装鸡蛋？"
+        $(".target").html(target);
+
+        // exp.first_response_wrong = 0;
+        exp.response = undefined;
+        exp.choice = undefined;
+        exp.selected_content = undefined; 
+        $('input[name="practice"]:checked').removeAttr("checked");
+        var left_button = "过来";
+        $(".left_button").html(left_button);
+        var right_button = "过去";
+        $(".right_button").html(right_button);
+        // exp.incorrect_attempts = 0;
+      },
+      button : function() {
+        exp.response = $('input[name="practice"]:checked').val()
+
+        if (exp.response == undefined) {
+          $(".forced_choice_err").show();
+        } else {
+          // we hard-coded that the left is the correct answer
+          if (exp.response == "left") {
+            exp.choice = "ambiguous";
+            exp.selected_content = "lai";
+          } else {
+            exp.choice = "ambiguous";
+            exp.selected_content = "qu";
+          }
+          this.log_responses();
+          _stream.apply(this);
         }
-      });
-    
-      slides.last_reminder = slide({
-        name : "last_reminder",
-        button : function() {
-          exp.go(); //use exp.go() if and only if there is no "present" data.
-        }
-        
-      });
+        // console.log(exp.choice);
+      },
+      log_responses : function() {
+        // console.log("response: "+ exp.response)
+        exp.data_trials.push({
+          "trial_num" : 0,
+          "item_id" : "303",
+          "block_id" : "practice",
+          "condition" : "practice_3",
+          "verb": "NA",
+          "response" : exp.choice,
+          "original_choice" : exp.selected_content
+        });
+  
+      }
+    });
+
+    slides.post_practice_3 = slide({
+      name : "post_practice_3",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    });
+
+    slides.practice_4 = slide({
+      name : "practice_4",
+  
+      /* trial information for this block
+        (the variable 'stim' will change between each of these values,
+        and for each of these, present_handle will be run.) */
+      present : [{"a": 3}],
+      start : function() {
+          $(".forced_choice_err").hide(); // hide the error message   
+      },
+      // this gets run only at the beginning of the block
+      present_handle : function(stim) {
+          $(".forced_choice_err").hide();
+          this.stim = stim;
+          var target = "你____这个颜色涂在这里。"
+          $(".target").html(target);
+          // exp.first_response_wrong = 0;
+          exp.response = undefined;
+          exp.choice = undefined;
+          exp.selected_content = undefined; 
+          $('input[name="practice"]:checked').removeAttr("checked");
+          var left_button = "把";
+          $(".left_button").html(left_button);
+          var right_button = "被";
+          $(".right_button").html(right_button);
+          // exp.incorrect_attempts = 0;
+      },
+      button : function() {
+          exp.response = $('input[name="practice"]:checked').val();
+
+          if (exp.response == undefined) {
+              $(".forced_choice_err").show();
+          } else {
+            // we hard-coded that the left is the correct answer
+            if (exp.response == "left") {
+              exp.choice = "correct";
+              exp.selected_content = "ba";
+            } else {
+              exp.choice = "incorrect";
+              exp.selected_content = "bei";
+            }
+            this.log_responses();
+            _stream.apply(this);
+          }
+          // console.log(exp.choice);
+      },
+      log_responses : function() {
+        // console.log("response: " + exp.response)
+        exp.data_trials.push({
+          "trial_num" : 0,
+          "item_id" : "304",
+          "block_id" : "practice",
+          "condition" : "practice_4",
+          "verb": "NA",
+          "response" : exp.choice,
+          "original_choice" : exp.selected_content
+        });
+      }
+    });
+
+    slides.post_practice_4 = slide({
+      name : "post_practice_4",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    });
+  
+    slides.last_reminder = slide({
+      name : "last_reminder",
+      button : function() {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+      
+    });
 
 
     slides.block1 = slide({
@@ -434,7 +571,7 @@ function init() {
         "item": "105",
         "verb": "yiwei",
         "condition": "yiwei_unclear",
-        "target": "你消失了。我____只是一如往常的躲猫猫游戏。",
+        "target": "我____只是一如往常的躲猫猫游戏。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -586,7 +723,7 @@ function init() {
         "item": "113",
         "verb": "juede",
         "condition": "juede_unclear",
-        "target": "我____她可能是一个邮递员阿姨。",
+        "target": "\t大家____这个主意不错。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -777,8 +914,8 @@ function init() {
     };
     //blocks of the experiment:
     exp.structure=["i0", "instruction", "reminder",
-    "practice_1", "post_practice_1",
-    "practice_2", "post_practice_2",
+    "practice_1", "post_practice_1", "practice_2", "post_practice_2",
+    "practice_3", "post_practice_3", "practice_4", "post_practice_4",
     "last_reminder", "block1", 'questionaire', 'finished'];
     // console.log(exp.structure);
 
