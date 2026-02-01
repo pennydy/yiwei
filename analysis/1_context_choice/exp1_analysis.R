@@ -196,13 +196,13 @@ ggplot(data=context_item_accuracy %>%
 # sum coding
 context_clean_data$verb <- as.factor(context_clean_data$verb)
 contrasts(context_clean_data$verb) <- contr.sum(2)
-levels(context_clean_data$verb)
+contrasts(context_clean_data$verb)
 context_clean_data$discourse_type <- as.factor(context_clean_data$discourse_type)
 # context_clean_data$discourse_type <- relevel(context_clean_data$discourse_type, ref="clear")
 contrasts(context_clean_data$discourse_type) <- contr.sum(2)
-levels(context_clean_data$discourse_type)
+contrasts(context_clean_data$discourse_type)
 
-context_model <- glmer(response_num ~ verb * discourse_type + (1|item_id) + (1+verb+discourse_type|workerid),
+context_model <- glmer(response_num ~ verb * discourse_type + (1|item_id) + (1+verb*discourse_type|workerid),
                        data=context_clean_data,
                        family=binomial,
                        control = glmerControl(
@@ -217,6 +217,7 @@ pairs(emmeans(context_model, ~verb|discourse_type))
 pairs(emmeans(context_model, ~discourse_type|verb))
 
 
+
 simple_context_model <- glmer(response_num ~ verb * discourse_type + (1+verb+discourse_type|workerid),
                        data=context_clean_data,
                        family=binomial,
@@ -225,4 +226,4 @@ simple_context_model <- glmer(response_num ~ verb * discourse_type + (1+verb+dis
                          optCtrl = list(maxfun = 2e5)
                        ))
 summary(simple_context_model)
-BIC(context_model, simple_context_model)
+AIC(context_model, simple_context_model)

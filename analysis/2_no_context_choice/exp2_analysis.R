@@ -92,8 +92,7 @@ no_context_item_accuracy <- no_context_clean_data %>%
          YMax = accuracy+CIHigh)
 
 # 2. Plot ----
-no_context_plot <- ggplot(data=no_context_summary %>% 
-         mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+no_context_plot <- ggplot(data=no_context_summary,
        aes(x=verb,
            y=accuracy,
            fill=verb,
@@ -226,7 +225,7 @@ no_context_model <- glmer(response_num ~ verb * discourse_type + (1|item_id) + (
 summary(no_context_model)
 
 # 4. Combined with Exp1 ----
-# 4.1 data ----
+## 4.1 data ----
 context.data <- read.csv("../../data/1_context_choice/1_context_choice_main-trials.csv", header=TRUE) %>% 
   filter(!workerid %in% c("319", "323", "360", "312", "321", "301", "298")) # exclusion based on language
 
@@ -283,7 +282,7 @@ all_item_accuracy <- all_data %>%
          YMax = accuracy+CIHigh,
          context = fct_relevel(context, "presence", "absence"))
 
-# 4.2 plot ----
+## 4.2 plot ----
 context_type <- list("presence"="Context Presence",
                      "absence"="Context Absence")
 context_labeller <- function(variable,value){
@@ -330,14 +329,14 @@ ggsave(all_plot_violin, file="graphs/all_no_context-violin.pdf", width=8, height
 ## 4.3 analysis ----
 all_data$verb <- as.factor(all_data$verb)
 contrasts(all_data$verb) <- contr.sum(2)
-levels(all_data$verb)
+contrasts(all_data$verb)
 all_data$discourse_type <- as.factor(all_data$discourse_type)
 contrasts(all_data$discourse_type) <- contr.sum(2)
-levels(all_data$discourse_type)
+contrasts(all_data$discourse_type)
 all_data$context <- as.factor(all_data$context)
 all_data$context <- relevel(all_data$context, ref="absence")
 contrasts(all_data$context) <- contr.sum(2)
-levels(all_data$context)
+contrasts(all_data$context)
 
 all_model <- glmer(response_num ~ verb * discourse_type * context + (1 + context|item_id) + (1+verb+discourse_type+context|workerid),
                           data=all_data,
@@ -347,3 +346,6 @@ all_model <- glmer(response_num ~ verb * discourse_type * context + (1 + context
                      optCtrl = list(maxfun = 2e5)
                    ))
 summary(all_model)
+
+emmeans(all_model, ~ verb, type = "response")
+pairs(emmeans(all_model, ~context|discourse_type))
