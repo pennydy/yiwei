@@ -6,9 +6,9 @@
 # data
 data/*.config
 data/*.exps
-data/*.csv
-data/1_context_choice/*.csv
-data/2_no_context_choice/*.csv
+data/pilots/*.csv
+data/1_context_choice/*-sandbox-trials.csv
+data/2_no_context_choice/*-sandbox-trials.csv
 
 # childes data
 data/childes/yiwei.xlsx

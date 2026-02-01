@@ -555,7 +555,7 @@ function init() {
         "condition": "yiwei_contrastive",
         "original_context": "孩子:\t最后黑棋一般只要吃八十七个空，白棋一般吃六十几个空。\n实验员:\t为什么还不一样？\n孩子:\t因为这样才公平。\n孩子:\t因为白棋的棋子比黑棋的棋子少呀。\n实验员:\t哦这样啊。",
         "post_context": "实验员:\t为什么要少一点？\n孩子:\t因为这个事儿我也不太知道呀。",
-        "target": "实验员:\t我以为是一样的。",
+        "target": "实验员:\t我___是一样的。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
