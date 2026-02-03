@@ -198,7 +198,6 @@ context_clean_data$verb <- as.factor(context_clean_data$verb)
 contrasts(context_clean_data$verb) <- contr.sum(2)
 contrasts(context_clean_data$verb)
 context_clean_data$discourse_type <- as.factor(context_clean_data$discourse_type)
-# context_clean_data$discourse_type <- relevel(context_clean_data$discourse_type, ref="clear")
 contrasts(context_clean_data$discourse_type) <- contr.sum(2)
 contrasts(context_clean_data$discourse_type)
 
@@ -210,12 +209,12 @@ context_model <- glmer(response_num ~ verb * discourse_type + (1|item_id) + (1+v
                          optCtrl = list(maxfun = 2e5)
                          ))
 summary(context_model)
+VarCorr(context_model)
 
 emmeans(context_model, ~verb*discourse_type, type="response")
 plot(emmeans(context_model, ~verb*discourse_type, type="response"))
 pairs(emmeans(context_model, ~verb|discourse_type))
 pairs(emmeans(context_model, ~discourse_type|verb))
-
 
 
 simple_context_model <- glmer(response_num ~ verb * discourse_type + (1+verb+discourse_type|workerid),

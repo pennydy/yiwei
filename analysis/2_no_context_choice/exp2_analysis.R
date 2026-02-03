@@ -44,7 +44,7 @@ ggplot(data=hypothetical.data,
 no_context.data <- read.csv("../../data/2_no_context_choice/2_no_context_choice_main-trials.csv", header=TRUE) %>% 
   filter(!workerid %in% c("379", "371", "383", "357", "287", "369")) # exclusion based on incomplete etc.
 
-# exclusion based on filler items # 6 participants
+# exclusion based on filler items # 3 participants
 no_context_filler_data <- subset(no_context.data, condition=="filler")
 no_context_filler_summary <- no_context_filler_data %>% 
   group_by(workerid) %>% 
@@ -62,7 +62,7 @@ no_context_clean_data <- no_context.data %>%
                                    condition == "filler" ~ response),
          response_num = if_else(response_corr == "correct", 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
-  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unclear"))
+  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unsupported"))
 
 no_context_summary <- no_context_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 
@@ -143,7 +143,7 @@ no_context_plot_violin <- ggplot(data=no_context_item_accuracy %>%
   scale_fill_manual(values=cbPalette, guide = NULL) +
   ylim(0,1)+
   scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
-  scale_shape_manual(values=c("supported"=22, "unclear"=24), name="Discourse type") +
+  scale_shape_manual(values=c("supported"=22, "unsupported"=24), name="Discourse type") +
   theme(legend.position = "top",
         axis.title.x = element_text(size = 14),
         axis.text.x = element_text(size = 12),
@@ -214,15 +214,29 @@ ggplot(data=no_context_item_accuracy %>%
 # sum coding
 no_context_clean_data$verb <- as.factor(no_context_clean_data$verb)
 contrasts(no_context_clean_data$verb) <- contr.sum(2)
-levels(no_context_clean_data$verb)
+contrasts(no_context_clean_data$verb)
 no_context_clean_data$discourse_type <- as.factor(no_context_clean_data$discourse_type)
 contrasts(no_context_clean_data$discourse_type) <- contr.sum(2)
-levels(no_context_clean_data$discourse_type)
+contrasts(no_context_clean_data$discourse_type)
 
 no_context_model <- glmer(response_num ~ verb * discourse_type + (1|item_id) + (1+verb*discourse_type|workerid),
       data=no_context_clean_data,
-      family=binomial)
+      family=binomial,
+      control = glmerControl(
+        optimizer = "bobyqa",
+        optCtrl = list(maxfun = 2e5)
+      ))
 summary(no_context_model)
+VarCorr(no_context_model)
+
+simple_no_context_model <- glmer(response_num ~ verb * discourse_type + (1+verb*discourse_type|workerid),
+                                 data=no_context_clean_data,
+                                 family=binomial,
+                                 control = glmerControl(
+                                   optimizer = "bobyqa",
+                                   optCtrl = list(maxfun = 2e5)
+                                 ))
+summary(simple_no_context_model)
 
 # 4. Combined with Exp1 ----
 ## 4.1 data ----
@@ -247,7 +261,7 @@ context_clean_data <- context.data %>%
                                    condition == "filler" ~ response),
          response_num = if_else(response_corr == "correct", 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
-  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unclear"))
+  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unsupported"))
 all_data <- bind_rows(lst(context_clean_data, no_context_clean_data), .id="context") %>% 
   mutate(context = if_else(context == "context_clean_data", "presence", "absence"),
          context = fct_relevel(context, "presence", "absence")) 
@@ -310,21 +324,21 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
   ylim(0,1) +
   facet_grid(.~context,labeller=context_labeller) +
   scale_fill_manual(values=cbPalette, guide = NULL) +
-  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
-  scale_shape_manual(values=c("supported"=22, "unclear"=24), name="Discourse type") +
+  scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +
+  scale_shape_manual(values=c("supported"=22, "unsupported"=24), name="Discourse type") +
   theme(legend.position = "top",
-        axis.title.x = element_text(size = 14),
-        axis.text.x = element_text(size = 12),
-        axis.title.y = element_text(size = 14),
-        axis.text.y = element_text(size = 12),
-        legend.text = element_text(size=12),
-        legend.title = element_text(size=14),
-        strip.text.x = element_text(size = 12)) +
+        axis.title.x = element_text(size = 12),
+        axis.text.x = element_text(size = 10),
+        axis.title.y = element_text(size = 12),
+        axis.text.y = element_text(size = 10),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        strip.text.x = element_text(size = 10)) +
   guides(alpha = guide_legend(override.aes = list(fill = "grey40")))+
   labs(x="Verb",
        y="Accuracy")
 all_plot_violin
-ggsave(all_plot_violin, file="graphs/all_no_context-violin.pdf", width=8, height=4)
+ggsave(all_plot_violin, file="graphs/all_no_context-violin_1.pdf", width=8, height=4)
 
 ## 4.3 analysis ----
 all_data$verb <- as.factor(all_data$verb)
@@ -346,6 +360,16 @@ all_model <- glmer(response_num ~ verb * discourse_type * context + (1 + context
                      optCtrl = list(maxfun = 2e5)
                    ))
 summary(all_model)
+VarCorr(all_model)
 
 emmeans(all_model, ~ verb, type = "response")
 pairs(emmeans(all_model, ~context|discourse_type))
+
+simple_all_model <- glmer(response_num ~ verb * discourse_type * context + (1+verb+discourse_type+context|workerid),
+                   data=all_data,
+                   family=binomial,
+                   control = glmerControl(
+                     optimizer = "bobyqa",
+                     optCtrl = list(maxfun = 2e5)
+                   ))
+summary(simple_all_model)
