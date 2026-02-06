@@ -349,7 +349,6 @@ function make_slides(f) {
             $(".right_button").html(exp.right_button);
             
             $(".continue_button").show(); // show the continue button
-            $(".question").html(exp.question);
 
             console.log(this.stim); 
   

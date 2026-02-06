@@ -1,0 +1,1033 @@
+item,sent_id,verb,discourse_cue,sentence,p,context,cue_sentence,inverted_sentence,subject,embedded_subject,translation,corpus
+1,8,以为,not_p,"母亲: 好像不行哦。
+母亲: 是不是少了一片？
+母亲: 啊。(笑)
+母亲: 哦。
+母亲: 原来那个不是蛋啦。
+母亲: 妈妈以为它是荷包蛋。
+母亲: 原来他是谁！
+母亲: 他是谁？",它是荷包蛋.,"母亲: 好像不行哦。
+母亲: 是不是少了一片？
+母亲: 啊。(笑)
+母亲: 哦。
+母亲: 原来那个不是蛋啦。
+TARGET SENTENCE
+母亲: 原来他是谁！
+母亲: 他是谁？",母亲: 原来那个不是蛋啦.,"母亲: 好像不行哦.
+母亲: 是不是少了一片?
+母亲: 啊 (笑).
+母亲: 哦.
+母亲: 原来那个是蛋啦.
+母亲: 妈妈XXXX它是荷包蛋.
+母亲: 原来他是谁!
+母亲: 他是谁?",NP,third_person,"mother: It looks like it’s not possible.
+mother: is it missing a piece?
+mother: ah!
+mother: oh.
+mother: that is not an egg.
+mother: mom incorrectly thought he was a fried egg.
+mother: who is she actually?
+mother: who is she?",NSCtoys/2/d19_3
+2,127,以为,not_p,"孩子: 他看的是动画片。
+老师: 动画片啊！
+老师: 什么动画片啊？
+孩子: 这是一个灯。
+老师: 哦,你想坐下来啊！
+老师: 我以为你不想坐了。
+孩子: 这是一个灯。
+老师: 嗯,这是一个灯啊！",你不想坐了.,"孩子: 他看的是动画片。
+老师: 动画片啊！
+老师: 什么动画片啊？
+孩子: 这是一个灯。
+老师: 哦,你想坐下来啊！
+TARGET SENTENCE
+孩子: 这是一个灯。
+老师: 嗯,这是一个灯啊！","老师: 哦,你想坐下来啊!","孩子: 他看的是动画片.
+老师: 动画片啊!
+老师: 什么动画片啊?
+孩子: 这是一个灯.
+老师: 哦,你不想坐下来啊!
+老师: 我觉得你不想坐了.
+孩子: 这是一个灯.
+老师: 嗯,这是一个灯啊!",first_person,second_person,"child: He is watching a cartoon.
+teacher: cartoon!
+teacher: which cartoon is it?
+child: this is a lamp.
+teacher: oh, you want to sit down!
+teacher: i incorrectly thought you didn’t want to sit down.
+child: this is a lamp.
+teacher: yeah, this is a lamp.",ZhouAssessment/3.5-4/NJliuqinxuan
+3,19,以为,p_alt,"实验员: 哦。
+母亲: 哦。 (笑)
+实验员: 哦他在找这个啊。
+母亲: 嘿。
+实验员: 原来是这小玩具车。
+实验员: 我以为是要那个大车子。
+母亲: 奇怪哼。
+实验员: 这小孩子喜欢。",(你)是要那个大车子.,"实验员: 哦。
+母亲: 哦。 (笑)
+实验员: 哦他在找这个啊。
+母亲: 嘿。
+实验员: 原来是这小玩具车。
+TARGET SENTENCE
+母亲: 奇怪哼。
+实验员: 这小孩子喜欢。",实验员: 原来是这小玩具车.,"实验员: 哦.
+母亲: 哦 (笑).
+实验员: 哦他在找这个啊.
+母亲: 嘿.
+实验员: 原来是那个大车子.
+实验员: 我觉得是要那个大车子.
+母亲: 奇怪哼.
+实验员: 这小孩子喜欢.",first_person,dropped,"experimenter: Oh!
+mother: Oh (laugh).
+experimenter: oh he’s looking for this.
+mother: hey
+experimenter: So it turns out it’s this little toy car.
+experimenter: i incorrectly thought (the kid?) is looking for the bigger car.
+mother: strange
+experimenter: this little kid likes (it).",TCCM/yang/10600
+4,39,以为,not_p,"孩子: 咦，他才不是小哥哥。
+母亲: 啊，那不是小哥哥。
+母亲: 我讲错了。
+母亲: 你看你一直摸我这里。
+母亲: 我就忘记。
+母亲: 我以为他是小哥哥。
+母亲: 所以你要专心啊。
+母亲: 不然我都会忘记啊。",他是小哥哥.,"孩子: 咦，他才不是小哥哥。
+母亲: 啊，那不是小哥哥。
+母亲: 我讲错了。
+母亲: 你看你一直摸我这里。
+母亲: 我就忘记。
+TARGET SENTENCE
+母亲: 所以你要专心啊。
+母亲: 不然我都会忘记啊。","孩子: 咦,他才不是小哥哥.
+母亲: 啊,那不是小哥哥.
+母亲: 我讲错了.","孩子: 咦,他是小哥哥.
+母亲: 啊,那是小哥哥.
+母亲: 我讲过了.
+母亲: 你看你一直摸我这里.
+母亲: 我就忘记.
+母亲: 我觉得他是小哥哥.
+母亲: 所以你要专心啊.
+母亲: 不然我都会忘记啊.",first_person,third_person,"child: eh? he’s not the little older brother.
+mother: ah, that’s not the little older brother.
+mother: i misspoke.
+mother: look, you keep touching me here.
+mother: so i forgot.
+mother: i incorrectly thought he was the little brother.
+mother: So you need to stay focused.
+mother: Or else I’ll end up forgetting.",Chang2/BookReading/13
+5,40,以为,not_p,"孩子: 等一下有...
+孩子: yeah.
+孩子: 打开来。
+母亲: 你不是女生喔？
+孩子: 我是弟弟。
+母亲: 我以为你是女生耶。
+母亲: 这样拿就好了。
+孩子: 我要先拿绳子。",你是女生.,"孩子: 等一下有...
+孩子: yeah.
+孩子: 打开来。
+母亲: 你不是女生喔？
+孩子: 我是弟弟。
+TARGET SENTENCE
+母亲: 这样拿就好了。
+孩子: 我要先拿绳子。","母亲: 你不是女生喔?
+孩子: 我是弟弟.","孩子: 等一下有...
+孩子: yeah.
+孩子: 打开来.
+母亲: 你是女生喔?
+孩子: 我是.
+母亲: 我觉得你是女生耶.
+母亲: 这样拿就好了.
+孩子: 我要先拿绳子.",first_person,second_person,"child: wait there are …
+child: yeah.
+child: open it!
+mother: you are not a girl?
+child: i’m little brother.
+mother: i incorrectly thought you were a girl.
+mother: holding it like this is fine.
+child: I should get the rope first.",ChangPlay/4/5
+6,68,以为,p_alt,"大人: 这个真的是做的很棒。
+大人: 这个是谁做的？
+孩子: 姨夫做的。
+大人: 哦！
+大人: 是姨夫做的啊？
+大人: 我以为是婆婆做的。
+大人: 这么漂亮的一个汽车。
+大人: 糟糕。",(这)是婆婆做的.,"大人: 这个真的是做的很棒。
+大人: 这个是谁做的？
+孩子: 姨夫做的。
+大人: 哦！
+大人: 是姨夫做的啊？
+TARGET SENTENCE
+大人: 这么漂亮的一个汽车。
+大人: 糟糕。","孩子: 姨夫做的.
+大人: 哦!
+大人: 是姨夫做的啊?","大人: 这个真的是做的很棒.
+大人: 这个是谁做的?
+孩子: 婆婆做的.
+大人: 哦!
+大人: 是婆婆做的啊?
+大人: 我觉得是婆婆做的.
+大人: 这么漂亮的一个汽车.
+大人: 糟糕.",first_person,dropped,"adult: This is really well done.
+adult: Who made this? 
+child: (This was) made by uncle. 
+adult: Oh! 
+adult: It was uncle who made it? 
+adult: I incorrectly thought it was made by grandma.
+adult: Such a beautiful car.
+adult: Oh no!",Erbaugh/Peng/14
+7,71,以为,not_p,"大人: 你不是女生吗？
+大人: 你这个手这么搞的？
+孩子: 画画的。
+大人: 哦，画画的不是割破的？
+孩子: 嗯。
+大人: 我以为是割破的。
+姐姐: 啊，不要再乱打听。
+孩子: 还有我耳朵好痛哦。",(手)是割破的.,"大人: 你不是女生吗？
+大人: 你这个手这么搞的？
+孩子: 画画的。
+大人: 哦，画画的不是割破的？
+孩子: 嗯。
+TARGET SENTENCE
+姐姐: 啊，不要再乱打听。
+孩子: 还有我耳朵好痛哦。","大人: 你这个手这么搞的?
+孩子: 画画的.
+大人: 哦,画画的不是割破的?
+孩子: 恩.","大人: 你不是女生吗?
+大人: 你这个手这么搞的?
+孩子: 割破的.
+大人: 哦,是割破的不是画画的?
+孩子: 恩.
+大人: 我觉得是割破的.
+姐姐: 啊,不要再乱打听.
+孩子: 还有我耳朵好痛哦.",first_person,dropped,"adult: Aren’t you a girl?
+adult: What’s wrong with your hand?
+child: (it is) drawn.
+adult: Oh (it is) drawn, not cut? 
+child: Yeah. 
+adult: I incorrectly thought (it was) cut.
+sister: Ah, don’t ask around anymore.
+child: Also, my ear hurts.",Erbaugh/Peng/19
+8,88,以为,not_p,"母亲: 哎。
+母亲: 你要下去吃五香乖乖的话你就存不下钱来。
+母亲: 你就没办法买很多很多的东西！
+孩子: 什么啊？
+母亲: 这有橘黄色。
+母亲: 我以为没有橘黄色。
+孩子: 找橘黄色干嘛啊？
+母亲: 我要画颜色啊。",没有橘黄色.,"母亲: 哎。
+母亲: 你要下去吃五香乖乖的话你就存不下钱来。
+母亲: 你就没办法买很多很多的东西！
+孩子: 什么啊？
+母亲: 这有橘黄色。
+TARGET SENTENCE
+孩子: 找橘黄色干嘛啊？
+母亲: 我要画颜色啊。",母亲: 这有橘黄色.,"母亲: 哎.
+母亲: 你要下去吃五香乖乖的话你就存不下钱来.
+母亲: 你就没办法买很多很多的东西!
+孩子: 什么啊?
+母亲: 这没有橘黄色.
+母亲: 我觉得没有橘黄色.
+孩子: 找橘黄色干嘛啊?
+母亲: 我要画颜色啊.",first_person,dropped,"mother: ah.
+mother: if you go and eat Wu xiang guai guai (food), you cannot save money.
+mother: so you cannot buy a lot of stuff.
+child: what?
+mother: there is the orange color. 
+mother: i incorrectly thought (there is) no orange color.
+child: why are you looking for the orange color?
+mother: i need to color it.",Erbaugh/Kang/19
+4_NEW,282,以为,not_p,"孩子: 最后黑棋一般只要吃八十七个空，白棋一般吃六十几个空。
+实验员: 为什么还不一样？
+孩子: 因为这样才公平。
+孩子: 因为白棋的棋子比黑棋的棋子少呀。
+实验员: 哦这样啊。
+实验员: 我以为是一样的。
+实验员: 为什么要少一点？
+孩子: 因为这个事儿我也不太知道呀。",是一样的.,"孩子: 最后黑棋一般只要吃八十七个空, 白棋一般吃六十几个空.
+实验员: 为什么还不一样?
+孩子: 因为这样才公平.
+孩子: 因为白棋的棋子比黑棋的棋子少呀.
+实验员: 哦这样啊.
+TARGET SENTENCE
+实验员: 为什么要少一点?
+孩子: 因为这个事儿我也不太知道呀.",实验员: 我以为是一样的。,"实验员: 为什么还不一样？
+孩子: 因为这样才公平。
+孩子: 因为白棋的棋子比黑棋的棋子少呀。",first_person,dropped,"child: In the end, the Black usually secures around eighty-seven points, The White generally gets around sixty points.
+investigator: Why are they not the same?
+child: Because it is only fair this way.
+child: Because White has fewer stones on the board than Black.
+investigator: Oh, I see.
+investigator: I incorrectly thought (they) were the same.
+investigator: Why does (the White) have fewer?
+child: Because this I also don’t know.",BJCMC/0506_DD
+10,282,以为,p_alt,"实验员: 这个。(手指着画)
+孩子: 画的形状都很像哟。 (手指着画)
+实验员: 这是什么？ (手指着画)
+孩子: 这是鸟。
+实验员: 这是鸟？
+实验员: 哦，我以为是人呢。
+实验员: 啊。
+孩子: 这我画的小鱼和水。",(这)是人.,"实验员: 这个。(手指着画)
+孩子: 画的形状都很像哟。 (手指着画)
+实验员: 这是什么？ (手指着画)
+孩子: 这是鸟。
+实验员: 这是鸟？
+TARGET SENTENCE
+实验员: 啊。
+孩子: 这我画的小鱼和水。","CHI: 这是鸟.
+INV: 这是鸟？","实验员: 这个。(手指着画)
+孩子: 画的形状都很像哟. (手指着画)
+实验员: 这是什么? (手指着画)
+孩子: 这不是鸟.
+实验员: 这是人.
+实验员: 哦,我觉得是人呢.
+实验员: 啊.
+孩子: 这我画的小鱼和水.",first_person,dropped,"investigator: This one. (pointing to the painting)
+child: The shapes you drew all look very similar. (pointing to the painting)
+investigator: What is this? (pointing to the painting)
+child: This is a bird.
+investigator: This bird.
+investigator: Oh, I thought it was a person.
+investigator: Ah.
+child: This is the little fish and water I drew.",BJCMC/0609_YE
+11,2623,觉得,p,"父亲: 妈妈照一张。
+父亲: 妈妈忘了戴帽子。
+母亲: 诶妈妈戴哪一顶比较可爱？
+母亲: 这顶吼？
+父亲: 对呀。
+母亲: 觉得这顶比较可爱。
+父亲: 妈妈要蹲着啦。
+母亲: 好。",这顶比较可爱.,"父亲: 妈妈照一张。
+父亲: 妈妈忘了戴帽子。
+母亲: 诶妈妈戴哪一顶比较可爱？
+母亲: 这顶吼？
+父亲: 对呀。
+TARGET SENTENCE
+父亲: 妈妈要蹲着啦。
+母亲: 好。","母亲: 诶妈妈戴哪一顶比较可爱?
+母亲: 这顶吼?
+父亲: 对呀.","父亲: 妈妈照一张.
+父亲: 妈妈忘了戴帽子.
+母亲: 诶妈妈戴哪一顶比较可爱?
+母亲: 这顶吼?
+父亲: 不好.
+母亲: 以为这顶比较可爱.
+父亲: 妈妈要蹲着啦.
+母亲: 好.",dropped,demonstrative + NP,"father: Mom, take a photo.
+father: Mom forgot to wear a hat.
+mother: Which one looks cuter on mom?
+mother: this one?
+father: yeah.
+mother: (you) think this one is cuter.
+father: mom is going to squat down.
+mother: okay",ChangPlay/4/003
+12,630,觉得,p,"老师: 你看他的这个家是什么样的？
+孩子: 这家很好。
+老师: 很漂亮，是不是？
+孩子: 我挺喜欢这个家的。
+老师: 我也很喜欢。
+老师: 我觉得这个房子很漂亮。
+老师: 你们家是什么样的？
+孩子: 我们家不漂亮。",这个房子很漂亮.,"老师: 你看他的这个家是什么样的？
+孩子: 这家很好。
+老师: 很漂亮，是不是？
+孩子: 我挺喜欢这个家的。
+老师: 我也很喜欢。
+TARGET SENTENCE
+老师: 你们家是什么样的？
+孩子: 我们家不漂亮。","孩子: 这家很好.
+老师: 很漂亮,是不是?","老师: 你看他的这个家是什么样的?
+孩子: 这家不好.
+老师: 不是很漂亮,是不是?
+孩子: 我挺不喜欢这个家的.
+老师: 我也不喜欢.
+老师: 我觉得这个房子很漂亮.
+老师: 你们家是什么样的?
+孩子: 我们家不漂亮.",first_person,demonstrative  + NP,"teacher: Look, what is his home like?
+child: This home is nice.
+teacher: Very pretty, isn’t it?
+child: I really like this home.
+teacher: I like it too.
+teacher: I think this house is pretty.
+teacher: What is your home like?
+child: Our home is not pretty.",ZhouAssessment/3.5-4/XIANqiaojiarui
+13,620,觉得,p,"老师: 你猜猜看可能是什么？
+孩子: 洗澡用的。
+老师: 洗澡用的什么？
+老师: 淋蓬头啊？
+孩子: 对啊！
+老师: 哦，你觉得是洗澡用的淋蓬头。
+老师: 那应该放在什么地方呢？
+孩子: 放在洗澡的地方。",(这)是洗澡用的淋蓬头,"老师: 你猜猜看可能是什么？
+孩子: 洗澡用的。
+老师: 洗澡用的什么？
+老师: 淋蓬头啊？
+孩子: 对啊！
+TARGET SENTENCE
+老师: 那应该放在什么地方呢？
+孩子: 放在洗澡的地方。","老师: 洗澡用的什么?
+老师: 淋蓬头啊?
+孩子: 对啊!","老师: 你猜猜看可能是什么?
+孩子: 洗澡用的.
+老师: 洗澡用的什么?
+老师: 淋蓬头啊?
+孩子: 对啊!
+老师: 哦,你以为是洗澡用的淋蓬头.
+老师: 那应该放在什么地方呢?
+孩子: 放在洗澡的地方.",second_person,dropped,"teacher: Take a guess what it might be.
+child: For showering.
+teacher: What exactly is it for showering?
+teacher: The shower head?
+child: Yeah!
+teacher: Oh, you think (it) is the shower head for showering.
+teacher: Then where should (we) put (it)?
+child: (We should) put (it) where we shower.",ZhouAssessment/3.5-4/NJwangfangshimeng
+14,1261,觉得,p,"母亲: 那这个咧。
+母亲: 这个在中间。
+母亲: 你对对看它要怎么拼。
+孩子: 妈妈，这个我不会拼。
+母亲: 你可以把它放在这里。
+母亲: 我觉得是在这里。
+母亲: 你要把它放进去看看吗？
+母亲: 对了吗？",(它)是在这里.,"母亲: 那这个咧。
+母亲: 这个在中间。
+母亲: 你对对看它要怎么拼。
+孩子: 妈妈，这个我不会拼。
+母亲: 你可以把它放在这里。
+TARGET SENTENCE
+母亲: 你要把它放进去看看吗？
+母亲: 对了吗？",母亲: 你可以把它放在这里.,"母亲: 那这个咧.
+母亲: 这个在中间.
+母亲: 你对对看它要怎么拼.
+孩子: 妈妈,这个我不会拼.
+母亲: 你不可以把它放在这里.
+母亲: 我以为是在这里.
+母亲: 你要把它放进去看看吗?
+母亲: 对了吗?",first_person,dropped,"mother: Then what about this one?
+mother: This one is in the middle.
+mother: You should check and (or try to?) figure out how to put it together.
+child: Mom, I can’t/don’t know how to put it together.
+mother: You can put it here.
+mother: I think (it) is here.
+mother: Do you want to try to put it there to see?
+mother: Is it right?",NSCtoys/2/d16_3
+15,2741,觉得,p,"大人: 哦，你蛮喜欢吃苹果的。
+孩子: 是呀哈哈。
+大人: 好我们看看下一页是什么。
+孩子: 呵呵足球。
+孩子: 哈哈好圆呐。
+大人: 哦，你觉得这是足球好圆呀。
+孩子: 我家有的哈哈。
+大人: 那你平时用它来做什么？",这是足球好圆呀.,"大人: 哦，你蛮喜欢吃苹果的。
+孩子: 是呀哈哈。
+大人: 好我们看看下一页是什么。
+孩子: 呵呵足球。
+孩子: 哈哈好圆呐。
+TARGET SENTENCE
+孩子: 我家有的哈哈。
+大人: 那你平时用它来做什么？","孩子: 呵呵足球.
+孩子: 哈哈好圆呐.","大人: 哦你蛮喜欢吃苹果的.
+孩子: 是呀哈哈.
+大人: 好我们看看下一页是什么.
+孩子: 呵呵足球.
+孩子: 哈哈不太圆呐.
+大人: 哦你以为这是足球好圆呀.
+孩子: 我家有的哈哈.
+大人: 那你平时用它来做什么?",second_person,demonstrative,"adult: Oh, you really like to eat apples.
+child: Yeah, haha
+adult: Okay, let’s see what’s on the next page.
+child: Hehe, a soccer ball!
+child: Haha, very round!
+adult: Oh, you think this is such a round soccer ball!
+child: I have it at home.
+adult: So what do you usually use it for?",AcadLang/lower/023
+16,1145,觉得,p,"母亲: 对啊！
+母亲: 可是这个盒子不是这个的吧！
+母亲: 是这样吗？
+孩子: 压不下去啊！
+孩子: 为什么刚刚那里就可以这里就不行？
+母亲: 我觉得盒子好像不是这一个。
+母亲: 妈妈试一下喔！
+母亲: 先...先这样子。",盒子好像不是这一个.,"母亲: 对啊！
+母亲: 可是这个盒子不是这个的吧！
+母亲: 是这样吗？
+孩子: 压不下去啊！
+孩子: 为什么刚刚那里就可以这里就不行？
+TARGET SENTENCE
+母亲: 妈妈试一下喔！
+母亲: 先...先这样子。","母亲: 可是这个盒子不是这个的吧!
+母亲: 是这样吗?
+孩子: 压不下去啊!
+孩子: 为什么刚刚那里就可以这里就不行?","母亲: 对啊!
+母亲: 可是这个盒子是这个的吧!
+母亲: 是这样吗?
+孩子: 压不下去啊!
+孩子: 为什么刚刚那里就可以这里就不行?
+母亲: 我以为盒子好像不是这一个.
+母亲: 妈妈试一下喔!
+母亲: 先...先这样子.",first_person,NP,"mother: Right!
+mother: But this box is not this one! (this box is not for this one)
+mother: Is it like this?
+child: Can’t push it down!
+child: Why does it work there but not here?
+mother: I think the box is not this one. (this box is not for this one)
+mother: Let mom try it!
+mother: Do it like this first.",NSCtoys/5/b03_3
+17,1107,觉得,p,"母亲: 是蚊子吗？
+孩子: 不是。
+母亲: 那是什么？
+孩子: 瓢虫。
+母亲: 是瓢虫喔。
+母亲: 你觉得是瓢虫喔。
+母亲: 蜘蛛没有回答。
+母亲: 他正忙着织网呢。",是瓢虫.,"母亲: 是蚊子吗？
+孩子: 不是。
+母亲: 那是什么？
+孩子: 瓢虫。
+母亲: 是瓢虫喔。
+TARGET SENTENCE
+母亲: 蜘蛛没有回答。
+母亲: 他正忙着织网呢。","孩子: 瓢虫.
+母亲: 是瓢虫喔.","母亲: 是蚊子吗?
+孩子: 不是.
+母亲: 那是什么?
+孩子: 瓢虫.
+母亲: 不是瓢虫喔.
+母亲: 你以为是瓢虫喔.
+母亲: 蜘蛛没有回答.
+母亲: 他正忙着织网呢.",second_person,dropped,"mother: Is it a mosquito?
+child: No.
+mother: Then what is it?
+child: A ladybug.
+mother: Oh, it is a ladybug.
+child: You think it is a ladybug.
+mother: The spider didn’t respond.
+mother: He’s busy spinning the web.",TCCM-reading/b02_205
+18,1738,觉得,p,"孩子: 就这个字啊。
+母亲: 对。
+母亲: 地下室也有大妖怪。
+母亲: 你看。
+母亲: 地下室也有大妖怪。
+母亲: 他觉得地下室里也有大妖怪。
+母亲: 外面的垃圾桶也有大妖怪。
+母亲: 他都不敢去丢垃圾。",地下室里也有大妖怪.,"孩子: 就这个字啊。
+母亲: 对。
+母亲: 地下室也有大妖怪。
+母亲: 你看。
+母亲: 地下室也有大妖怪。
+TARGET SENTENCE
+母亲: 外面的垃圾桶也有大妖怪。
+母亲: 他都不敢去丢垃圾。","母亲: 地下室也有大妖怪.
+母亲: 你看.
+母亲: 地下室也有大妖怪.","孩子: 就这个字啊.
+母亲: 对.
+母亲: 地下室没有大妖怪.
+母亲: 你看.
+母亲: 地下室没有大妖怪.
+母亲: 他以为地下室里也有大妖怪.
+母亲: 外面的垃圾桶也有大妖怪.
+母亲: 他都不敢去丢垃圾.",third_person,NP,"child: This character.
+mother: Yeah.
+mother: There are monsters in the basement.
+mother: Look.
+mother: There are monsters in the basement.
+mother: He thinks there are monsters in the basement.
+mother: There are monsters in the trash can outside.
+mother: He is too scared to take out the trash.",LiReading/5/r5ymi12
+19,2640,觉得,p,"孩子: 唉呦两眼。
+母亲: 那不是眼睛啦。
+孩子: 很像啦。
+母亲: 好，很像，对啦。
+母亲: 很像。
+母亲: 刚刚我看的也觉得很像。
+孩子: 三眼怪。
+母亲: 嗯。",很像.,"孩子: 唉呦两眼。
+母亲: 那不是眼睛啦。
+孩子: 很像啦。
+母亲: 好，很像，对啦。
+母亲: 很像。
+TARGET SENTENCE
+孩子: 三眼怪。
+母亲: 嗯。","孩子: 很像啦.
+母亲: 好,很像,对啦.
+母亲 很像.","孩子: 唉呦两眼.
+母亲: 那不是眼睛啦.
+孩子: 不像.
+母亲: 好, 不像,对啦.
+母亲 不像.
+母亲: 刚刚我看的也以为很像.
+孩子: 三眼怪.
+母亲: 嗯.",dropped,dropped,"child: Oh, two eyes.
+mother: That is not an eye.
+child: (It) looks similar.
+mother: Yeah, (it) looks similar, right.
+mother: very similar.
+mother: I looked just now and also thought it was similar.
+child: A three-eyed monster.
+mother: Yeah.",ChangPlay/5/015
+20,763,觉得,p,"孩子: 还有可以舀水的。
+老师: 这么多呀！
+老师: 太好玩了。
+老师: 我们来看一看这么漂亮的房子是谁的呀？
+孩子: 小狐狸的家。
+老师: 你觉得是小狐狸的家，我们看看。
+孩子: 小狐狸，小狐狸爸爸，小狐狸妈妈，小狐狸宝宝。
+老师: 小动物的家有几口人呢？",是小狐狸的家.,"孩子: 还有可以舀水的。
+老师: 这么多呀！
+老师: 太好玩了。
+老师: 我们来看一看这么漂亮的房子是谁的呀？
+孩子: 小狐狸的家。
+TARGET SENTENCE
+孩子: 小狐狸，小狐狸爸爸，小狐狸妈妈，小狐狸宝宝。
+老师: 小动物的家有几口人呢？","老师: 我们来看一看这么漂亮的房子是谁的呀?
+孩子: 小狐狸的家.",,second_person,dropped,"child: There’s also one you can use to scoop water.
+teacher: That’s a lot!
+teacher: So fun.
+teacher: Let’s see, whose pretty house is this?
+teacher: The little fox’s home.
+teacher: You think it’s the little fox’s home, let’s see.
+child: The little fox, little fox’s dad, little fox’s mom, and little fox’s baby.
+mother: How many people are there in the little animal’s home?",ZhouAssessment/4-4.5/ZBsangchenke
+101,33,以为,unclear,"实验员: 放回去！
+实验员: 你刚刚从这里面弄掉出来的。
+实验员: 再把他放进去！
+孩子: 不要！
+实验员: 要。
+实验员: 不然爸爸以为是我们弄坏掉的！
+孩子: 爸爸哪有回来！
+实验员: 等一下就回来了！",是我们弄坏掉的.,"实验员: 放回去！
+实验员: 你刚刚从这里面弄掉出来的。
+实验员: 再把他放进去！
+孩子: 不要！
+实验员: 要。
+TARGET SENTENCE
+孩子: 爸爸哪有回来！
+实验员: 等一下就回来了！",,,NP,dropped,"investigator: put it back!
+investigator: This is where you just knocked off from inside.
+investigator: put it back in again.
+child: no!
+investigator: yes! (you should)
+investigator: or else dad will think we broke it. 
+child: dad dihasn’t come back! 
+investigator: (he) will be back soon!",TCCM/chw/31100
+102,93,以为,unclear,"母亲: 这是一个好玩...好玩的东西。 
+母亲: 你告诉蒋阿姨为什么要怕你牙呢？
+孩子: 不知道。
+母亲: 我知道。
+母亲: 我讲了。
+母亲: 他以为那是一个大怪物。
+母亲: 他说这怪物的嘴巴这么大。
+母亲: 这么厉害。",那是一个大怪物.,"母亲: 这是一个好玩...好玩的东西。 
+母亲: 你告诉蒋阿姨为什么要怕你牙呢？
+孩子: 不知道。
+母亲: 我知道。
+母亲: 我讲了。
+TARGET SENTENCE
+母亲: 他说这怪物的嘴巴这么大。
+母亲: 这么厉害。",,,third_person,demonstrative,"mother: This is a funny thing.
+mother: Tell Aunty Jiang, why (is it) afraid of your teeth?
+child: (I) don’t know.
+mother: I know.
+mother: I’ll tell.
+mother: He incorrectly thought that was a big monster. 
+mother: He said this monster had a big mouth. 
+mother: That's so awesome.",Erbaugh/Kang/21
+103,70,以为,unclear,"孩子: 流血了。
+大人: 对。
+孩子: 没有了。
+姐姐: 没有了啦。
+姐姐: 哇，这好漂亮诶。
+姐姐: 啊，我刚还以为只有这一边呢。
+大人: 这是什么？
+姐姐: 这边我来分吧。",只有这一边.,"孩子: 流血了。
+大人: 对。
+孩子: 没有了。
+姐姐: 没有了啦。
+姐姐: 哇，这好漂亮诶。
+TARGET SENTENCE
+大人: 这是什么？
+姐姐: 这边我来分吧。",,,first_person,dropped,"child: It’s bleeding.
+adult: Yeah.
+child: There is no more.
+sister: This is no more.
+sister: Wow, this is so pretty.
+sister: Ah, just now I still incorrectly thought there was only this side.
+adult: What is this?
+sister: Let me divide this side.",Erbaugh/Peng/16
+104,31,以为,unclear,"孩子: 对呀！
+大人: 然后这是谁？
+孩子: 这是母鸡。
+大人: 嗯。
+大人: 母鸡看到小妹妹走过去啊。
+大人: 以为小妹妹要抓小鸡哦！
+大人: 就好生气喔！
+大人: 对着妹妹怎么样？",小妹妹要抓小鸡.,"孩子: 对呀！
+大人: 然后这是谁？
+孩子: 这是母鸡。
+大人: 嗯。
+大人: 母鸡看到小妹妹走过去啊。
+TARGET SENTENCE
+大人: 就好生气喔！
+大人: 对着妹妹怎么样？",,,dropped,NP,"child: Right!
+adult: Then who is this?
+child: This is the hen.
+adult: Yeah.
+adult: The hen saw that the little sister walked over.
+adult: (The hen) thought the little sister was going to take the chicks.
+adult: And was very angry.
+adult: What did the hen do to the little sister?",TCCM/cheng/31000
+105,197,以为,unclear,"孩子: 小猫也很想去外面玩。
+母亲: 你看，这个主人贴了一个寻猫启事。
+母亲: 我给你念念啊，寻猫启事，好不好？
+孩子: 好。
+母亲: 你消失了。
+母亲: 我以为只是一如往常的躲猫猫游戏。
+母亲: 你一定是躲在某个角落偷偷的笑我。
+母亲: 这已经是第五天， 你躲得太久了。",只是一如往常的躲猫猫游戏.,"孩子: 小猫也很想去外面玩。
+母亲: 你看，这个主人贴了一个寻猫启事。
+母亲: 我给你念念啊，寻猫启事，好不好？
+孩子: 好。
+母亲: 你消失了。
+母亲: TARGET SENTENCE
+母亲: 你一定是躲在某个角落偷偷的笑我。
+母亲: 这已经是第五天， 你躲得太久了。",,,first_person,dropped,"child: The kitten also wanted to play outside.
+mother: Look, this owner put up a missing cat poster.
+mother: Let me read to you.
+mother: The missing cat poster, okay?
+child: Okay.
+mother: You disappeared. I incorrectly thought (it) was just our usual hide-and-seek game.
+mother: You must be hiding in some corner, secretly laughing at me.
+mother: This is the fifth day. You’ve been hiding for so long.",LiReading/6/r6yfl9
+106,89,以为,unclear,"母亲: 那么因为他们怕那些被赶走的坏人再来欺负他们。
+母亲: 所以就在门上面贴了这两个人的像。
+母亲: 贴着神荼跟郁垒的像。
+母亲: 贴在这边。
+母亲: 那些坏人一看就不敢来了。
+母亲: 就以为这两个巨人还在这里。
+母亲: 不敢来了。
+母亲: 所以后来这两人贴在门上。",这两个巨人还在这里.,"母亲: 那么因为他们怕那些被赶走的坏人再来欺负他们。
+母亲: 所以就在门上面贴了这两个人的像。
+母亲: 贴着神荼跟郁垒的像。
+母亲: 贴在这边。
+母亲: 那些坏人一看就不敢来了。
+TARGET SENTENCE
+母亲: 不敢来了。
+母亲: 所以后来这两人贴在门上。",,,dropped,demonstrative + NP,"mother: so then, because they were worried that the bad people who were chased away would come back and bully them. 
+mother: so (they) put the portraits of these two people. 
+mother: put up shentu and yulei's portraits.
+mother: put (them) up on this side. 
+mother: once those bad people saw (the portraits), they wouldn't dare to come back. 
+mother: (they would) incorrectly think the two giants were still here. 
+mother: (the bad people) didn't dare to come back. 
+mother: so these two people were put up on the door. ",Erbaugh/Kang/20
+107,90,以为,unclear,"实验员: 理头发又不会痛！
+实验员: 不会痛。
+实验员: 对不对？
+母亲: 你头发好长哎。
+母亲: 你看。
+母亲: 出去人家都以为你是小女生。
+母亲: 人家都要问男的女的？
+孩子: 我不要理头发。",你是小女生.,"实验员: 理头发又不会痛！
+实验员: 不会痛。
+实验员: 对不对？
+母亲: 你头发好长哎。
+母亲: 你看。
+TARGET SENTENCE
+母亲: 人家都要问男的女的？
+孩子: 我不要理头发。",,,NP,second_person,"investigator: getting a haircut won’t hurt!
+investigator: not going to hurt.
+investigator: right?
+mother: your hair is so long. 
+mother: you see. 
+mother: (when you) go out, other people will think you're a girl.
+mother: other people will all ask, (are you) male or female?
+child: i don’t want to get a haircut.",TCCM/chou/20200
+106_NEW,215,以为,unclear,"妈妈: 哦这里还有一个。
+妈妈: 我们读读这里,会更有感触。
+妈妈: 一开始只是单位友人收养的流浪猫出走时的失落。
+妈妈: 失落是潜在心底的一股浮流。
+妈妈: 猫默默的走进你的一生。
+妈妈: 当你以为是你的责任。
+妈妈: 它又出其不意的走出你的生命。
+妈妈: 它的去向、是不是平安，一无所知。",是你的责任.,"妈妈: 哦这里还有一个。
+妈妈: 我们读读这里,会更有感触。
+妈妈: 一开始只是单位友人收养的流浪猫出走时的失落。
+妈妈: 失落是潜在心底的一股浮流。
+妈妈: 猫默默的走进你的一生。
+TARGET SENTENCE
+妈妈: 它又出其不意的走出你的生命。
+妈妈: 它的去向、是不是平安，一无所知。",,,second_person,dropped,"mother: Oh, there’s another one.
+mother: Let’s read here, it’ll resonate more.
+mother: At first, it’s just sadness when the stray cat that was adopted by a colleague ran away.
+mother: Sadness is a hidden current running deep inside.
+mother: The cat quietly entered your life.
+mother: When you (incorrectly) thought it was your responsibility
+mother: It unexpectedly walked out of your life.
+mother: You don't know anything about where it went, whether it was safe.",LiReading/6/r6yml21
+109,80,以为,unclear,"大人: 嗯。
+孩子: 妈妈...妈妈。
+母亲: 啊。
+母亲: 你又把线弄成这个样子。
+大人: 我在装这个。
+母亲: 她以为我走了。
+母亲: 呵呵。
+母亲: 好了。",我走了.,"大人: 嗯。
+孩子: 妈妈...妈妈。
+母亲: 啊。
+母亲: 你又把线弄成这个样子。
+大人: 我在装这个。
+TARGET SENTENCE
+母亲: 呵呵。
+母亲: 好了。",,,third_person,first_person,"adult: Yeah.
+child: mom mom. 
+mother: ah 
+mother: You messed up the cables again. 
+adult: I'm putting this.
+mother: She incorrectly thought I left.
+mother: Hehe.
+mother: Okay.",Erbaugh/Zhong/7
+110,37,以为,unclear,"母亲: 快点！
+母亲: 我说要干吗。
+母亲: 我们去后面看。
+实验员: 只是去看。
+母亲: 他叫我去后面看，水好满。
+实验员: 我以为他知道要叫你把他弄。
+实验员: 清掉。
+母亲: 没有。",他知道要叫你把它弄,"母亲: 快点！
+母亲: 我说要干吗。
+母亲: 我们去后面看。
+实验员: 只是去看。
+母亲: 他叫我去后面看，水好满。
+TARGET SENTENCE
+实验员: 清掉。
+母亲: 没有。",,,first_person,third_person,"mother: Hurry up!
+mother: I said: What’s up?
+mother: Let’s go to the back and check.
+investigator: Just to check.
+mother: he asked me to go to the back to see that the water was full.
+investigator: I incorrectly thought he knew that he needed to ask you do it. 
+investigator: to clean up.
+mother: No. ",TCCM/wu/20500
+111,1264,觉得,unclear,"母亲: 你看这个是不是像一个鸡蛋？
+母亲: 要怎么拼呢？
+孩子: 这样拼！
+母亲: 这样拼。
+母亲: 对啊。
+母亲: 我也觉得这个拼图有一点点难。
+母亲: 好。
+母亲: 啊我知道了。",这个拼图有一点点难.,"母亲: 你看这个是不是像一个鸡蛋？
+母亲: 要怎么拼呢？
+孩子: 这样拼！
+母亲: 这样拼。
+母亲: 对啊。
+TARGET SENTENCE
+母亲: 好。
+母亲: 啊我知道了。",,,demonstrative_NP,demonstrative + NP,"mother: Look, doesn't it look like an egg?
+mother: How to put it together?
+child: Put it together like this!
+mother: Put it together like this.
+mother: Right.
+mother: I also think this puzzle is a little hard.
+mother: Okay.
+mother: Ah, I know.",NSCtoys/2/d19_3
+112_NEW,946,觉得,unclear,"妈妈: (山羊太太)右手拎了一个东西。
+妈妈: 拎不动了。
+妈妈: 他就帮山羊太太拎...拎这个水果篮子。
+妈妈: 对不对啊？
+孩子: 对啊。
+妈妈: 我觉得我好喜欢小狐狸。
+妈妈: 他老是愿意帮助别人。
+妈妈: 这一页画的是什么呀？",我好喜欢小狐狸.,"妈妈: (山羊太太)右手拎了一个东西。
+妈妈: 拎不动了。
+妈妈: 他就帮山羊太太拎...拎这个水果篮子。
+妈妈: 对不对啊？
+孩子: 对啊。
+TARGET SENTENCE
+妈妈: 他老是愿意帮助别人。
+妈妈: 这一页画的是什么呀？",,,first_person,first_person,"mother: Mrs. Goat was carrying something in his right hand.
+mother: Too heavy to carry.
+mother: So he helped Mrs. Goat carry the fruit basket.
+mother: right?
+child: Right.
+mother: I think I really like the little fox.
+mother: He’s always willing to help people.
+mother: What’s drawn on this page?",Tong/030409
+113_NEW,802,觉得,unclear,"妈妈: 那怎么处理这粒种子呢？
+妈妈: 蜘蛛问老蚯蚓。
+妈妈: 老蚯蚓若有所思。
+妈妈: “把他种起来，
+妈妈: 说不定还能结出什么美味的果子来呢！”
+妈妈: 大家觉得这个主意不错。
+妈妈: 然后就把这粒种子种到地里去。
+妈妈: 蟋蟀还在种子的窝边用绿叶搭起一个帐篷。",这个主意不错.,"妈妈: 那怎么处理这粒种子呢？
+妈妈: 蜘蛛问老蚯蚓。
+妈妈: 老蚯蚓若有所思。
+妈妈: “把他种起来，
+妈妈: 说不定还能结出什么美味的果子来呢！”
+TARGET SENTENCE
+妈妈: 然后就把这粒种子种到地里去。
+妈妈: 蟋蟀还在种子的窝边用绿叶搭起一个帐篷。",,,NP,demonstrative + NP,"mother: So what should we do with this seed?
+mother: The spider asked the old earthworm.
+mother: (We should) plant it.
+mother: The older earthworm looked deep in thought:
+mother: Maybe (it) could even bear some delicious fruit.”
+mother: Everyone thought it was a good idea.
+mother: then (they) planted this seed in the ground.
+mother: The cricket also used the green leaves to build a tent beside the seed's nest.",LiReading/5/r5ymi4
+114,1281,觉得,unclear,"母亲: 等一下就知道了。
+母亲: 欸， 你要不要...你看！
+母亲: 我盖得很高。
+母亲: 你要不要再帮我？
+孩子: 你看！
+母亲: 可是我觉得你的被风吹一下就倒了。
+孩子: 不会。
+母亲: 真的吗？",你的被风吹一下就倒了.,"母亲: 等一下就知道了。
+母亲: 欸， 你要不要...你看！
+母亲: 我盖得很高。
+母亲: 你要不要再帮我？
+孩子: 你看！
+TARGET SENTENCE
+孩子: 不会。
+母亲: 真的吗？",,,first_person,NP,"mother: You’ll know in a second.
+mother: Eh, do you want to… Look!
+mother: I built it really tall.
+mother: Do you want to help me again?
+child: Look!
+mother: But i think yours would fall over if the wind blew a little.
+child: No.
+mother: Really?",NSCtoys/4/a10_2
+115,744,觉得,unclear,"孩子: 佩奇就不梳了吧！
+老师: 那你给乔治梳一下。
+孩子: 好了，这个梳子放哪里我不知道。
+老师: 你自己想把它放在哪里？
+孩子: 你给我说说嘛！
+老师: 我觉得它可以放在这里面。
+老师: 然后你在这里面找一找。
+孩子: 这个里面有楼梯。",它可以放在这里面.,"孩子: 佩奇就不梳了吧！
+老师: 那你给乔治梳一下。
+孩子: 好了，这个梳子放哪里我不知道。
+老师: 你自己想把它放在哪里？
+孩子: 你给我说说嘛！
+TARGET SENTENCE
+老师: 然后你在这里面找一找。
+孩子: 这个里面有楼梯。",,,first_person,third_person,"child: Don’t need to brush Pepa.
+teacher: Then give George a brush.
+child: Okay, I don’t know where to put this comb.
+teacher: You decide–where do you want to put it?
+child: You tell me!
+teacher: I think it can be stored in here.
+teacher: And then look around in here.
+child: There’s a staircase.",ZhouAssessment/4-4.5/XIANxiexinyi
+116,2507,觉得,unclear,"母亲: 哇这些大树漂亮吗？
+孩子: 有果树和柳树。
+母亲: 这有点像我们那次去新加坡看到的树。
+孩子: 这种椰树。
+母亲: 对对对对对。
+母亲: 这种我觉得我也认不出来。
+孩子: 想要大树需要种子。
+母亲: 哇这么多啊。",我也认不出来这种.,"母亲: 哇这些大树漂亮吗？
+孩子: 有果树和柳树。
+母亲: 这有点像我们那次去新加坡看到的树。
+孩子: 这种椰树。
+母亲: 对对对对对。
+TARGET SENTENCE
+孩子: 想要大树需要种子。
+母亲: 哇这么多啊。",,,first_person,first_person,"mother: Wow, are these trees pretty?
+child: There are fruit trees and willow trees.
+mother: This is like the tree we saw in Singapore.
+child: This kind of coconut tree.
+mother: Right, right, right, right.
+mother: This, I think I wouldn’t recognize this kind either.
+child: (If you) want big tree, (you) need seeds.
+mother: Wow, that’s a lot!",LiReading/6/r6yml22
+117,680,觉得,unclear,"孩子: 哪有小盘子呐？
+老师: 没有小盘子快想想办法吧！
+孩子: 嗯，我知道了。
+老师: 嗯。
+孩子: 我看看这里边有没有。
+老师: 你觉得在抽屉里啊！
+孩子: 把它放在这个...
+老师: 哦，用这个来当盘子啊？",在抽屉里.,"孩子: 哪有小盘子呐？
+老师: 没有小盘子快想想办法吧！
+孩子: 嗯，我知道了。
+老师: 嗯。
+孩子: 我看看这里边有没有。
+TARGET SENTENCE
+孩子: 把它放在这个...
+老师: 哦，用这个来当盘子啊？",,,second_person,dropped,"child: Where are the small plates?
+teacher: There are no small plates. Think of something.
+child: Yeah, I know.
+teacher: Yeah.
+child: Let me see if there’s anything here.
+teacher: You think (they) are in the drawer!
+child: Put it here.
+teacher: Oh, use it as a plate?",ZhouAssessment/3.5-4/ZBhuyihan
+118,4,觉得,unclear,"母亲: 它喜欢抓海里的鱼吃呗。
+孩子: 它喜欢...喜欢吃鲨鱼？
+母亲: 鲨鱼啊？
+母亲: 不知道哎。
+母亲: 鲨鱼是不是太生猛了一点啊？
+母亲: 我觉得北极熊有可能追不上它。
+孩子: 北极熊是会成为鲨鱼的晚餐。
+母亲: 但是北极还有一种动物。",北极熊有可能追不上它.,"母亲: 它喜欢抓海里的鱼吃呗。
+孩子: 它喜欢...喜欢吃鲨鱼？
+母亲: 鲨鱼啊？
+母亲: 不知道哎。
+母亲: 鲨鱼是不是太生猛了一点啊？
+TARGET SENTENCE
+孩子: 北极熊是会成为鲨鱼的晚餐。
+母亲: 但是北极还有一种动物。",,,first_person,NP,"mother: He likes to catch fish in the ocean to eat.
+child: He likes…likes to eat sharks?
+mother: Sharks?
+mother: (I) don’t know.
+mother: Isn’t the shar a bit too fierce/aggressive?
+mother: I think the polar bear might not be able to catch him (the shark).
+child: The polar bear might become the shark’s dinner.
+mother: There’s another type of animal in the North Pole.",ZhouDinner/middle/32
+119,1912,觉得,unclear,"孩子: 没...没有水啊。
+母亲: 马上就看完了。
+母亲: 我们过来看一下。
+孩子: 我还想多喝一点水。
+母亲: 好。
+母亲: 妈妈觉得这个猫咪它好幸福啊。
+母亲: 你看。
+母亲: 它和主人在一起。",这个猫咪它好幸福.,"孩子: 没...没有水啊。
+母亲: 马上就看完了。
+母亲: 我们过来看一下。
+孩子: 我还想多喝一点水。
+母亲: 好。
+TARGET SENTENCE
+母亲: 你看。
+母亲: 它和主人在一起。",,,NP,demonstrative + NP,"child: There’s no…no…water.
+mother: (We’re) almost done reading ot.
+mother: Let’s come over and take a look.
+child: I want to drink a little bit more water.
+mother: Okay.
+mother: Mom thinks this kitten is so happy.
+mother: Look
+mother: It is with its owner.",LiReading/4/r4yfi13
+120,1925,觉得,unclear,"母亲: 他总是在想有没有怪兽，对吧？
+孩子: 嗯。
+母亲: 他把泡沫弄在头发上。
+孩子: 过一会儿他就去看看。
+母亲: 哦。
+母亲: 他总是觉得怪兽在旁边，对吧？
+孩子: 对。
+母亲: 洗完澡他回房间呢。",怪兽在旁边.,"母亲: 他总是在想有没有怪兽，对吧？
+孩子: 嗯。
+母亲: 他把泡沫弄在头发上。
+孩子: 过一会儿他就去看看。
+母亲: 哦。
+TARGET SENTENCE
+孩子: 对。
+母亲: 洗完澡他回房间呢。",,,third_person,NP,"mother: He’s always thinking whether there are monsters, right?
+child: Yeah.
+mother: He puts the foam on his hair.
+child: He’ll go take a look in a bit.
+mother: Oh.
+mother: He always thinks the monsters are around, right?
+child: Right.
+mother: After showering, he goes back to the room.",LiReading/4/r4yfi2

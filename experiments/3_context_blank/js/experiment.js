@@ -46,56 +46,34 @@ function make_slides(f) {
         var full_sent = context + "\n" + target + "\n" + post_context
         $(".target").html(full_sent);
 
-        // exp.first_response_wrong = 0;
         exp.response = undefined;
-        exp.choice = undefined;
-        exp.selected_content = undefined; 
-        $('input[name="practice"]:checked').removeAttr("checked");
-        var left_button = "过来";
-        $(".left_button").html(left_button);
-        var right_button = "过去";
-        $(".right_button").html(right_button);
-        // exp.incorrect_attempts = 0;
+        $('#practice_1_input').val(''); // clear the previous response
       },
-      button : function() {
-        exp.response = $('input[name="practice"]:checked').val()
 
-        if (exp.response == undefined) {
+      button : function() {
+        exp.response = $('#practice_1_input').val();
+        console.log("response", exp.response);
+
+        if (exp.response == undefined || exp.response == "" || exp.response.trim() == "") {
           $(".forced_choice_err").show();
         } else {
-          // we hard-coded that the left is the correct answer
-          if (exp.response == "left") {
-            exp.choice = "correct";
-            exp.selected_content = "lai";
-          } else {
-            exp.choice = "incorrect";
-            exp.selected_content = "qu";
-          }
           this.log_responses();
           _stream.apply(this);
         }
-        // console.log(exp.choice);
+        // console.log(exp.response);
       },
       
       log_responses : function() {
-        // console.log("response: "+ exp.response)
+        console.log("logged response: "+ exp.response);
         exp.data_trials.push({
           "trial_num" : 0,
           "item_id" : "301",
           "block_id" : "practice",
           "condition" : "practice_1",
           "verb": "NA",
-          "response" : exp.choice,
-          "original_choice" : exp.selected_content
+          "response" : exp.response,
         });
   
-      }
-    });
-    
-    slides.post_practice_1 = slide({
-      name : "post_practice_1",
-      button : function() {
-        exp.go(); //use exp.go() if and only if there is no "present" data.
       }
     });
 
@@ -118,58 +96,36 @@ function make_slides(f) {
           var full_sent = context + "\n" + target + "\n" + post_context
           $(".target").html(full_sent);
 
-          // exp.first_response_wrong = 0;
           exp.response = undefined;
-          exp.choice = undefined;
-          exp.selected_content = undefined; 
-          $('input[name="practice"]:checked').removeAttr("checked");
-          var left_button = "破坏";
-          $(".left_button").html(left_button);
-          var right_button = "损坏";
-          $(".right_button").html(right_button);
-          // exp.incorrect_attempts = 0;
+          $('#practice_2_input').val(''); // clear the previous response
         },
         button : function() {
-          exp.response = $('input[name="practice"]:checked').val()
+          exp.response = $('#practice_2_input').val();
+          console.log("response", exp.response);
 
-          if (exp.response == undefined) {
+          if (exp.response == undefined || exp.response == "" || exp.response.trim() == "") {
             $(".forced_choice_err").show();
           } else {
-            // we hard-coded that the left is the correct answer
-            if (exp.response == "left") {
-              exp.choice = "ambiguous";
-              exp.selected_content = "pohuai";
-            } else {
-              exp.choice = "ambiguous";
-              exp.selected_content = "sunhuai";
-            }
             this.log_responses();
             _stream.apply(this);
           }
-          // console.log(exp.choice);
+          // console.log(exp.response);
         },
        
         log_responses : function() {
-          // console.log("response: "+ exp.response)
+          console.log("logged response: "+ exp.response);
           exp.data_trials.push({
             "trial_num" : 0,
             "item_id" : "302",
             "block_id" : "practice",
             "condition" : "practice_2",
             "verb": "NA",
-            "response" : exp.choice,
-            "original_choice" : exp.selected_content
+            "response" : exp.response,
           });
     
         }
       });
-    
-    slides.post_practice_2 = slide({
-      name : "post_practice_2",
-      button : function() {
-        exp.go(); //use exp.go() if and only if there is no "present" data.
-      }
-    });
+
 
     slides.practice_3 = slide({
       name : "practice_3",
@@ -190,58 +146,35 @@ function make_slides(f) {
         var full_sent = context + "\n" + target + "\n" + post_context
         $(".target").html(full_sent);
 
-        // exp.first_response_wrong = 0;
         exp.response = undefined;
-        exp.choice = undefined;
-        exp.selected_content = undefined; 
-        $('input[name="practice"]:checked').removeAttr("checked");
-        var left_button = "把";
-        $(".left_button").html(left_button);
-        var right_button = "将";
-        $(".right_button").html(right_button);
-        // exp.incorrect_attempts = 0;
+        $('#practice_3_input').val(''); // clear the previous response
       },
       button : function() {
-        exp.response = $('input[name="practice"]:checked').val()
+        exp.response = $('#practice_3_input').val();
+        console.log("response", exp.response);
 
-        if (exp.response == undefined) {
+        if (exp.response == undefined || exp.response == "" || exp.response.trim() == "") {
           $(".forced_choice_err").show();
         } else {
-          // we hard-coded that the left is the correct answer
-          if (exp.response == "left") {
-            exp.choice = "ambiguous";
-            exp.selected_content = "ba";
-          } else {
-            exp.choice = "ambiguous";
-            exp.selected_content = "jiang";
-          }
           this.log_responses();
           _stream.apply(this);
         }
-        // console.log(exp.choice);
+        // console.log(exp.response);
       },
       
       log_responses : function() {
-        // console.log("response: "+ exp.response)
+        console.log("logged response: "+ exp.response);
         exp.data_trials.push({
           "trial_num" : 0,
           "item_id" : "303",
           "block_id" : "practice",
           "condition" : "practice_3",
           "verb": "NA",
-          "response" : exp.choice,
-          "original_choice" : exp.selected_content
+          "response" : exp.response,
         });
   
         }
       });
-    
-    slides.post_practice_3 = slide({
-      name : "post_practice_3",
-      button : function() {
-        exp.go(); //use exp.go() if and only if there is no "present" data.
-      }
-    });
   
     slides.practice_4 = slide({
       name : "practice_4",
@@ -262,57 +195,34 @@ function make_slides(f) {
           var post_context = "妈妈:\t要不要装蛋？\n孩子:\t要！";
           var full_sent = context + "\n" + target + "\n" + post_context
           $(".target").html(full_sent);
-          // exp.first_response_wrong = 0;
+
           exp.response = undefined;
-          exp.choice = undefined;
-          exp.selected_content = undefined; 
-          $('input[name="practice"]:checked').removeAttr("checked");
-          var left_button = "过来";
-          $(".left_button").html(left_button);
-          var right_button = "过去";
-          $(".right_button").html(right_button);
-          // exp.incorrect_attempts = 0;
+          $('#practice_4_input').val(''); // clear the previous response
       },
       button : function() {
-          exp.response = $('input[name="practice"]:checked').val();
+          exp.response = $('#practice_4_input').val();
+          console.log("response", exp.response);
 
-          if (exp.response == undefined) {
+          if (exp.response == undefined || exp.response == "" || exp.response.trim() == "") {
               $(".forced_choice_err").show();
           } else {
-            // we hard-coded that the left is the correct answer
-            if (exp.response == "right") {
-              exp.choice = "correct";
-              exp.selected_content = "qu";
-            } else {
-              exp.choice = "incorrect";
-              exp.selected_content = "lai";
-            }
             this.log_responses();
             _stream.apply(this);
           }
-          // console.log(exp.choice)
+          // console.log(exp.response);
       },
       log_responses : function() {
-        // console.log("response: " + exp.response)
+        console.log("logged response: " + exp.response)
         exp.data_trials.push({
           "trial_num" : 0,
           "item_id" : "304",
           "block_id" : "practice",
           "condition" : "practice_4",
           "verb": "NA",
-          "response" : exp.choice,
-          "original_choice" : exp.selected_content
+          "response" : exp.response,
         });
       }
     });
-
-    slides.post_practice_4 = slide({
-      name : "post_practice_4",
-      button : function() {
-        exp.go(); //use exp.go() if and only if there is no "present" data.
-      }
-    });
-
 
     slides.last_reminder = slide({
       name : "last_reminder",
@@ -341,32 +251,10 @@ function make_slides(f) {
             var post_context = this.stim.post_context;
             var full_sent = context + "\n" + target + "\n" + post_context
             $(".target").text(full_sent);
-            $('input[name=critical]').hide();
-            $(".left_button").hide();
-            $(".right_button").hide();
-
-            $('input[name="critical"]:checked').removeAttr("checked"); // remove the previous response
+           
+            $('#response_input').val(''); // clear the previous response
             exp.response = undefined; // remove the previous selection
-            exp.choice = undefined; // remove the recorded choice
-            exp.selected_content = undefined; // remove the recorded choice
-            
-            $(".left_button").show();
-            $(".right_button").show();
 
-            $('input[name=critical]').show();
-            $('input[name="critical"]:checked').removeAttr("checked"); // remove response again
-            exp.response = undefined;
-            exp.choice = undefined;
-            exp.selected_content = undefined;
-  
-            // the order of the buttons also need to be randomized
-            var options = _.shuffle([this.stim.option_yiwei, this.stim.option_juede])
-            // console.log("randomized order of choices: " + options)
-            exp.left_button = options[0];
-            $(".left_button").html(exp.left_button);
-            exp.right_button = options[1];
-            $(".right_button").html(exp.right_button);
-            
             $(".continue_button").show(); // show the continue button
 
             console.log(this.stim); 
@@ -374,51 +262,31 @@ function make_slides(f) {
         },
         
         button : function() {
+          exp.response = $('#response_input').val();
+          console.log("response", exp.response);
 
-          exp.response = $('input[name="critical"]:checked').val();
-
-          if (exp.response == undefined) {
+          if (exp.response == undefined || exp.response == "" || exp.response.trim() == "") {
               $(".forced_choice_err").show();
           } else {
-            // do the additional step of getting the result of choice only 
-            if (exp.response == "left") {
-              var selected_content = exp.left_button;
-            } else {
-              var selected_content = exp.right_button;
-            }
-            exp.selected_content = selected_content;
-            
-            // record whether yiwei or juede is selected
-            if (selected_content == this.stim.option_yiwei && this.stim.condition != "filler") {
-              exp.choice = "yiwei";
-            } else if (selected_content == this.stim.option_juede && this.stim.condition != "filler") {
-              exp.choice = "juede";
-            } else if (this.stim.condition == "filler") { // for filler items, the yiwei choice is the correct answer
-              if (selected_content == this.stim.option_yiwei) {
-                exp.choice = "correct";
-              } else {
-                exp.choice = "incorrect"
-              }
-            }
-            // console.log(exp.choice)
             this.log_responses();
             _stream.apply(this); //use exp.go() if and only if there is no "present" data.
           }
+          // console.log(exp.response);
         },
 
 
         log_responses : function() {
-            exp.data_trials.push({
-                "trial_num" : order,
-                "item_id" : this.stim.item,
-                "block_id" : this.stim.block_id,
-                "condition" : this.stim.condition,
-                "verb": this.stim.verb,
-                "response" : exp.choice,
-                "original_choice" : exp.selected_content,
-                "rt" : Date.now() - this.stim.trial_start
-            });
-            order += 1;
+          console.log("logged response: " + exp.response)
+          exp.data_trials.push({
+              "trial_num" : order,
+              "item_id" : this.stim.item,
+              "block_id" : this.stim.block_id,
+              "condition" : this.stim.condition,
+              "verb": this.stim.verb,
+              "response" : exp.response,
+              "rt" : Date.now() - this.stim.trial_start
+          });
+          order += 1;
         }
 
     }); 
@@ -1032,8 +900,8 @@ function init() {
     };
     //blocks of the experiment:
     exp.structure=["i0", "instruction", "reminder",
-    "practice_1", "post_practice_1", "practice_2", "post_practice_2",
-    "practice_3", "post_practice_3", "practice_4", "post_practice_4",
+    "practice_1", "practice_2", 
+    "practice_3", "practice_4",
     "last_reminder", "block1", 'questionaire', 'finished'];
     // console.log(exp.structure);
 
