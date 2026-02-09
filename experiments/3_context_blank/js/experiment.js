@@ -90,7 +90,7 @@ function make_slides(f) {
         present_handle : function(stim) {
           $(".forced_choice_err").hide();
           this.stim = stim;
-          var context = "妈妈:\t有一天夜里呢。\n妈妈:\t刮了大风。\n妈妈:\t到天亮的时候。\n妈妈:\t风才停下。\n妈妈:\t沼泽地的村民们纷纷从各自家里钻了出来。";
+          var context = "\n妈妈:\t妈妈给你讲个故事。\n孩子:\t好。\n妈妈:\t有一天夜里呢，刮了大风。\n妈妈:\t到天亮的时候，风才停下。\n妈妈:\t沼泽地的村民们纷纷从各自家里钻了出来。";
           var target = "妈妈:\t修补被大风____了的房屋？"
           var post_context = "妈妈:\t它们就修房子。\n妈妈:\t蜘蛛阿尔丁昨天刚结的几个新网也破了几个大窟窿。";
           var full_sent = context + "\n" + target + "\n" + post_context
@@ -370,7 +370,7 @@ function init() {
         "item": "4",
         "verb": "yiwei",
         "condition": "yiwei_contrastive",
-        "original_context": "孩子:\t咦，他才不是小哥哥。\n妈妈:\t啊，那不是小哥哥。\n妈妈:\t我讲错了。\n妈妈:\t你看，你一直摸我这里。\n母亲\t我就忘记。",
+        "original_context": "孩子:\t咦，他才不是小哥哥。\n妈妈:\t啊，那不是小哥哥。\n妈妈:\t我讲错了。\n妈妈:\t你看，你一直摸我这里。\n妈妈:\t我就忘记。",
         "post_context": "妈妈:\t所以你要专心啊。\n妈妈:\t不然我都会忘记啊。",
         "target": "妈妈:\t我____他是小哥哥。",
         "option_yiwei": "以为",
@@ -537,7 +537,7 @@ function init() {
         "condition": "yiwei_unclear",
         "original_context": "妈妈:\t快点！\n妈妈:\t我说要干吗。\n妈妈:\t我们去后面看。\n实验员:\t只是去看。\n妈妈:\t他叫我去后面看，水好满。",
         "post_context": "实验员:\t清掉。\n妈妈:\t没有。",
-        "target": "实验员:\t我____他知道要叫你帮他弄。",
+        "target": "实验员:\t我____他知道要叫你帮他弄...",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       }
