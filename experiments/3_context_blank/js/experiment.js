@@ -757,41 +757,41 @@ function init() {
         "item": "901",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t这是拼成一个什么形状啊？\n孩子:\t圆形。\n妈妈:\t对了。\n妈妈:\t这个实际上就是两个半圆形拼在一起，对吧？\n孩子:\t对。",
-        "post_context": "妈妈:\t这个叫六边形。\n孩子:\t六边形。",
-        "target": "妈妈:\t另外这个我们____没有看到过。",
-        "option_yiwei": "以前",
-        "option_juede": "以后"
+        "original_context": "妈妈:\t你画了什么呀？\n孩子:\t小猫！\n妈妈:\t刚开始画得挺好的呀，还涂了颜色。\n妈妈:\t怎么后面就只画了一个圈？\n孩子:\t我不想画了。",
+        "post_context": "孩子:\t我画累了。\n妈妈:\t那我们休息一下，不要就这么放弃，好不好？",
+        "target": "妈妈:\t那你这不是____蛇尾嘛。",
+        "option_yiwei": "虎头",
+        "option_juede": "猫头"
       },
       {
         "item": "902",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t画什么？\n孩子:\t鱼。\n妈妈:\t嗯，自己画！\n孩子:\t妈妈，你给我画。\n妈妈:\t你画。",
-        "post_context": "妈妈:\t还画得挺好的。\n妈妈:\t现在怎么不会了？",
-        "target": "妈妈:\t你不是____画过鱼吗？",
-        "option_yiwei": "以前",
-        "option_juede": "以后"
+        "original_context": "妈妈:\t你刚刚是不是去拿饼干了？\n孩子:\t没有。\n妈妈:\t那你嘴上怎么全是饼干渣？\n孩子:\t（捂住嘴）我没有吃。\n妈妈:\t你捂住嘴不让我看，就当妈妈不知道了？",
+        "post_context": "孩子:\t那我现在不能吃了吗？\n妈妈:\t可以，但先说实话。",
+        "target": "妈妈:\t这不是有点掩耳____吗。",
+        "option_yiwei": "盗铃",
+        "option_juede": "偷鼓"
       },
       {
         "item": "903",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t摆摆好，放整齐。\n孩子:\t这两个是一样的。\n妈妈:\t噢，一样的。\n妈妈:\t那盒子里装的是什么？\n妈妈:\t这是什么？",
-        "post_context": "孩子:\t这个 。\n妈妈:\t真好玩。",
-        "target": "妈妈:\t玩过了____要收起来。",
-        "option_yiwei": "以后",
-        "option_juede": "以前"
+        "original_context": "孩子:\t我不收玩具了。\n妈妈:\t怎么啦？\n孩子:\t我等它自己回盒子。\n妈妈:\t玩具会自己走回去吗？\n孩子:\t不会，可是我在等。",
+        "post_context": "孩子:\t那要怎么办？\n妈妈:\t我们一起收，很快就好了。",
+        "target": "妈妈:\t光等着不动，守株____吗？",
+        "option_yiwei": "待兔",
+        "option_juede": "待免"
       },
       {
         "item": "904",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t你想搭什么？\n孩子:\t想搭一座小桥！\n妈妈:\t想搭小桥。\n妈妈:\t搭这个也好。\n妈妈:\t那你来搭吧！",
-        "post_context": "妈妈:\t就像建大楼一样。\n妈妈:\t下面建得很牢固上面才能搭高。",
-        "target": "妈妈:\t底下要搭稳了，____才能把上面搭高。",
-        "option_yiwei": "以后",
-        "option_juede": "以前"
+        "original_context": "孩子:\t我给花多浇点水，它就会长得快。\n妈妈:\t水已经够了。\n孩子:\t那我再倒一点。\n妈妈:\t倒太多会烂根的。\n孩子:\t我想让它快点长大。",
+        "post_context": "孩子:\t那怎么办？\n妈妈:\t每天一点点就好。",
+        "target": "妈妈:\t这样硬来，其实是拔苗____。",
+        "option_yiwei": "助长",
+        "option_juede": "帮忙"
       },
       {
         "item": "905",
@@ -912,7 +912,7 @@ function init() {
     //   exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                         //relies on structure and slides being defined
                         
-    exp.nQs = 1 + 1 + 4 + 4 + 1 + 50 + 2; 
+    exp.nQs = 1 + 1 + 4 + 1 + 50 + 2; 
     $(".nQs").html(exp.nQs);
 
     $('.slide').hide(); //hide everything
