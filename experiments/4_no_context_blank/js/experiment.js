@@ -492,7 +492,7 @@ function init() {
         "item": "11",
         "verb": "juede",
         "condition": "juede_contrastive",
-        "target": "(你)____这顶比较可爱。",
+        "target": "(你)____这顶(帽子)比较可爱。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
