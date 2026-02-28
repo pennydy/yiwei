@@ -13,7 +13,7 @@ library(RColorBrewer)
 library(stringr)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
+sentencePalette <- c("#BEBADA", "#80B1D3") 
 # access childes 
 # d_chi <- get_transcripts(collection = "Chinese")
 # head(d_chi)
@@ -22,9 +22,12 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # 16: repeated for correction; 20, 23, 79, 63, 81: incomplete; 129: question
 # 56?
 yiwei <- read.csv("../../data/childes/yiwei_new.csv", header=TRUE) %>% 
-  filter(!(id %in% c("16", "20", "23", "129", "79", "63", "81", "130", "99"))) 
-juede <- read.csv("../../data/childes/juede.csv", header=TRUE) %>% 
-  filter(!id %in% c("6", "7", "10", "12", "23", "24", "36", "84","85","88","89","96","104","105","466","467","470","781","45","50") )
+  filter(!(id %in% c("16", "20", "23", "129", "63", "79", "81", "99", "131","284", "292","300"))) 
+
+juede <- read.csv("../../data/childes/juede_new.csv", header=TRUE) %>% 
+  filter(!id %in% c( "23", "24", "36", "45","50", "84","85","88","96","104","105","107","108", "466","467", "779", "781","791", "793", "794","795","800", "801", "805", "806","807","808","811","818","823","824","829","840","844","845","846","849","850","853","854","855","856","858","2627") )
+
+
 zhidao <- read.csv("../../data/childes/zhidao.csv", header=TRUE) %>% 
   filter(!id %in% c("481", "482", "483") )
 
@@ -135,7 +138,9 @@ adult_embed_clause <- adult_summary %>%
   
 ### matrix subject x clause type ----
 adult_matrix_clause_subject <- adult_summary %>% 
-  mutate(sentence_type = if_else(sentence_type == "rhetorical", "declarative", sentence_type)) %>% 
+  mutate(sentence_type = if_else(sentence_type=="rhetorical", "polar", sentence_type)) %>%
+  mutate(sentence_type = if_else(sentence_type %in% c("polar", "how-wh_question","tag_question", "wh_question"), "interrogative", sentence_type)) %>%  # just two levels for now
+  mutate(subject_type = if_else(subject_type == "third_person", "others", subject_type)) %>% 
   group_by(verb, subject_type, sentence_type) %>% 
   summarize(count=n()) %>% 
   ungroup()
@@ -147,11 +152,56 @@ adult_matrix_clause_subject_plot<-ggplot(adult_matrix_clause_subject,
                                        x=subject_type)) + 
   geom_bar(position=position_dodge2(preserve = "single"),
            stat="identity")+
+  # geom_bar(position="fill",
+  #          stat="identity")+
+  # geom_label(aes(label = count,
+  #                group=factor(sentence_type)),
+  #            position = position_fill(vjust = 0.5),
+  #            show.legend = FALSE)+
   theme_bw()+
   facet_grid(.~verb)+
-  # scale_fill_brewer(palette = "Set2",
-  #                   name="Matrix subject",
-  #                   labels = c("Dropped", "First person", "Second person", "Third_Person")) +
+  # scale_fill_brewer(palette = "Set3",
+  #                   name="Matrix clause type") +
+  scale_fill_manual(values=sentencePalette,
+                    name="Matrix clause type") +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 10),
+        # axis.text.x = element_text(angle = 45,hjust = 1, size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  scale_x_discrete(labels = c("1st person", "2nd person", "others", "dropped")) +
+  labs(x="Matrix subject type",
+       y="Counts")
+adult_matrix_clause_subject_plot
+ggsave(adult_matrix_clause_subject_plot, file="graphs/matrix_type-subject_plot.pdf", width=8, height=3)
+
+
+### embed subject x clause type ----
+adult_embed_clause_subject <- adult_summary %>% 
+  # mutate(sentence_type = if_else(sentence_type == "rhetorical", "polar", sentence_type)) %>% 
+  mutate(embedded_subject_type = if_else(str_detect(embedded_subject_type, "demonstrative"),"third_person" , embedded_subject_type)) %>%
+  group_by(verb, embedded_subject_type, embedded_type) %>% 
+  summarize(count=n()) %>% 
+  ungroup()
+adult_embed_clause_subject
+
+
+adult_embed_clause_subject_plot<-ggplot(adult_embed_clause_subject %>% 
+                                           filter(verb!="zhidao"), 
+                                         aes(fill=embedded_type, 
+                                             y=count,
+                                             x=embedded_subject_type)) + 
+  geom_bar(position=position_dodge2(preserve = "single"),
+           stat="identity")+
+  theme_bw()+
+  facet_grid(.~verb)+
+  scale_fill_brewer(palette = "Set3",
+                    name="Embedded clause type") +
   theme(legend.position = "top",
         axis.title.x = element_text(size = 14),
         axis.text.x = element_text(angle = 45,hjust = 1, size = 12),
@@ -161,38 +211,109 @@ adult_matrix_clause_subject_plot<-ggplot(adult_matrix_clause_subject,
         legend.text = element_text(size=10),
         legend.title = element_text(size=12),
         axis.title.y = element_text(size = 14))+
-  labs(x="Matrix clause type",
+  labs(x="Embedded subject type",
        y="Counts")
-adult_matrix_clause_subject_plot
+adult_embed_clause_subject_plot
 
 
-### embed subject x clause type ----
-adult_embed_clause_subject <- adult_summary %>% 
-  mutate(sentence_type = if_else(sentence_type == "rhetorical", "declarative", sentence_type)) %>% 
-  group_by(embedded_subject_type, embedded_type) %>% 
+### matrix and embedded subjects vs. matrix clause type ----
+adult_all_subject_matrix_clause_type <- adult_summary %>% 
+  filter(verb!="zhidao") %>% 
+  mutate(embedded_subject_type = if_else(str_detect(embedded_subject_type, "demonstrative"), "third_person" , embedded_subject_type),
+         subject_combine = paste(subject_type,embedded_subject_type,sep="-")) %>% 
+  # count(verb, subject_type, embedded_subject_type, sentence_type) %>%
+  # group_by(verb, subject_type, embedded_subject_type) %>% 
+  group_by(verb,subject_combine,sentence_type) %>% 
+  # summarize(proportion=n/sum(n)) %>% 
   summarize(count=n()) %>% 
   ungroup()
-adult_embed_clause_subject
+adult_all_subject_matrix_clause_type
+
+# adult_all_subject_matrix_clause_type <- adult_all_subject_matrix_clause_type %>% 
+#   pivot_longer(cols=c(subject_type, embedded_subject_type),
+#                 names_to = "subject_role",
+#                 values_to = "subject_type_value") %>% 
+#   mutate(subject_role = recode(subject_role,
+#                                subject_type = "matrix",
+#                                embedded_subject_type = "embedded"))
+
+ggplot(adult_all_subject_matrix_clause_type, 
+       aes(x=subject_combine,
+           y=count,
+         fill=sentence_type)) + 
+  # geom_bar(stat="identity",position="stack")+
+  geom_bar(stat = "identity",
+           position = position_dodge2(width = 0.8, preserve = "single")) +
+  theme_bw()+
+  facet_grid(.~verb)+
+  scale_fill_brewer(palette = "Set3",
+                    name="Sentence type") +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(angle = 45,hjust = 1, size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  labs(x="Subject type",
+       y="Counts")
 
 ### discourse status ----
-adult_discourse <- data.frame(table(adult_summary$in_context))
-colnames(adult_discourse) <- c("discourse_type", "count")
+adult_discourse <- as.data.frame(
+  table(adult_summary$sentence_type,
+        adult_summary$in_context,
+        adult_summary$verb))
+colnames(adult_discourse) <- c("sentence_type","discourse_type","verb","count")
 adult_discourse <- adult_discourse %>% 
-  mutate(discourse_type = if_else(grepl("unclear", discourse_type, fixed=TRUE), "unclear", discourse_type)) %>% 
-  group_by(discourse_type) %>% 
-  summarize(count = sum(count)) %>% 
-  ungroup()
-adult_discourse
+  filter(verb!="zhidao") %>% 
+  filter(count != 0) %>% 
+  mutate(sentence_type = if_else(sentence_type %in% c("polar", "wh_question", "how-wh_question", "rhetorical", "tag_question"), "interrogative", sentence_type)) %>% # two levels for now
+  mutate(discourse_type = if_else(grepl("against", discourse_type, fixed=TRUE), "not_p", discourse_type)) %>% 
+  mutate(discourse_type = if_else(discourse_type %in% c("not_p", "p_alt", "disagreement", "pretend_play", "contrast_p", "uncertainty"), "contrast", discourse_type)) %>%
+  mutate(discourse_type = if_else(grepl("answer",discourse_type,fixed=TRUE), "p", discourse_type))
 
 adult_discourse_summary <- adult_discourse %>% 
-  mutate(discourse_type = if_else(grepl("against", discourse_type), "inferable", discourse_type)) %>% 
-  mutate(discourse_type = if_else(grepl("p_alt", discourse_type), "p_alt", discourse_type)) %>% 
-  mutate(p_not_p = if_else(!(discourse_type %in% c("p", "unclear","no", "inferable")), "contrast", discourse_type)) %>% 
-  group_by(p_not_p) %>% 
+  group_by(verb, sentence_type, discourse_type) %>% 
   summarize(count = sum(count)) %>% 
   ungroup()
 adult_discourse_summary
 
+adult_discourse_summary <- adult_discourse_summary %>% 
+  mutate(verb = fct_relevel(verb,"yiwei", "juede"),
+         discourse_type=case_when(discourse_type=="no" ~ "unsupported",
+                                  discourse_type=="repeating" ~ "others",
+                                  TRUE ~ discourse_type)) %>% 
+  mutate(discourse_type = fct_relevel(discourse_type, "contrast",
+                                      "p", "unsupported", "p?", "others"))
+  
+
+adult_matrix_clause_discourse_plot <- ggplot(adult_discourse_summary, 
+       aes(fill=sentence_type, 
+           y=count,
+           x=discourse_type)) + 
+  geom_bar(position=position_dodge2(preserve = "single"),
+           stat="identity")+
+  theme_bw()+
+  facet_grid(.~verb)+
+  # scale_fill_brewer(palette = "Set3",
+  #                   name="Matrix clause type") +
+  scale_fill_manual(values=sentencePalette,
+                    name="Matrix clause type") +
+  theme(legend.position = c(0.4, 0.70),
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=10),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=10),
+        axis.title.y = element_text(size = 14))+
+  labs(x="Matrix discourse type",
+       y="Counts")
+adult_matrix_clause_discourse_plot
+ggsave(adult_matrix_clause_discourse_plot, file="graphs/matrix_type-discourse_plot.pdf", width=7, height=3)
 
 # 2. plot ----
 ## subject type ----
@@ -233,7 +354,7 @@ matrix_subject_plot<-ggplot(matrix_subject,
         axis.title.y = element_text(size = 14))+
   labs(y="Proportion")
 matrix_subject_plot
-ggsave(matrix_subject_plot, file="graphs/matrix_subject_plot.pdf", width=7, height=4)
+
 
 
 embed_subject <- merge(child_embed_subject, adult_embed_subject, 

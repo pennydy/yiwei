@@ -7,6 +7,7 @@ library(ggsignif)
 library(tidytext)
 library(RColorBrewer)
 library(stringr)
+library(forcats)
 
 theme_set(theme_bw())
 # color-blind-friendly palette
@@ -17,14 +18,61 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source("helpers.R")
 
 # 0. schematic plots ----
-hypothetical.data <- data.frame(
-  verb = c("juede", "juede", "yiwei", "yiwei"),
-  discourse_type = c("clear", "unclear", "clear", "unclear"),
-  accuracy = c(0.85, 0.5, 0.85, 0.2) # predicted results
-  # accuracy = c(0.85, 0.83, 0.85, 0.83)
-  # accuracy = c(0.85, 0.83, 0.23, 0.21)
-) %>% 
-  mutate(verb=fct_relevel(as.factor(verb), "yiwei", "juede"))
+n  <- 40
+sd <- 0.1
+hypothetical.data <- expand_grid(
+  verb = c("yiwei", "juede"),
+  discourse_type = c("supported", "unsupported"),
+  context = c("Context Presence", "Context Absence"),
+  id = 1:n
+) %>%
+  mutate(
+    mean_accuracy = case_when(
+      verb == "yiwei" & discourse_type == "supported" & context == "Context Presence"  ~ 0.85,
+      verb == "yiwei" & discourse_type == "unsupported" & context == "Context Presence" ~ 0.35,
+      verb == "juede" & discourse_type == "supported" & context == "Context Presence"  ~ 0.85,
+      verb == "juede" & discourse_type == "unsupported" & context == "Context Presence"~ 0.60,
+      verb == "yiwei" & discourse_type == "supported" & context == "Context Absence"  ~ 0.35,
+      verb == "yiwei" & discourse_type == "unsupported" & context == "Context Absence" ~ 0.35,
+      verb == "juede" & discourse_type == "supported" & context == "Context Absence"  ~ 0.85,
+      verb == "juede" & discourse_type == "unsupported" & context == "Context Absence" ~ 0.60,
+    ),
+    accuracy = rnorm(n(), mean_accuracy, sd),
+    accuracy = pmin(pmax(accuracy, 0), 1),  # keep between 0 and 1
+    verb = fct_relevel(as.factor(verb), "yiwei", "juede"),
+    context = fct_relevel(as.factor(context), "Context Presence", "Context Absence")
+  )
+
+hypothetical.plot <- ggplot(data=hypothetical.data %>% 
+         mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+       aes(x=verb,
+           y=accuracy,
+           fill=verb,
+           alpha=discourse_type)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_boxplot(width=0.3,
+               position=position_dodge(width=.8),
+               color="white") +
+  theme_bw() +
+  facet_grid(.~context) + 
+  scale_fill_manual(values=cbPalette, guide = NULL) +
+  scale_color_manual(values=cbPalette, guide = NULL) +
+  ylim(0,1)+
+  scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +
+  theme(legend.position = c(0.88, 0.15),
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12)) +
+  guides(alpha = guide_legend(override.aes = list(fill = "grey40")))+
+  labs(x="Verb",
+       y="Accuracy")
+hypothetical.plot
+ggsave(hypothetical.plot, file="graphs/hypothetical_plot_blank.pdf", width=7, height=4)
 
 ggplot(data=hypothetical.data,
        aes(x=verb,

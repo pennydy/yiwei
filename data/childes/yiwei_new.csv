@@ -1,61 +1,608 @@
 id,file_name,age,speaker,sentence,subject,embedded_subject,sentence_type,embedded_type,adverb,modal,embedded_modal,negation,aspect,embedded_aspect,tense,in_context,where_context,translation,contrast,where_contrast
 1,Chang1/4,5;11,child,"EXP: 你有没有看过?
-CHI: 雪[^c].
+CHI: 雪.
 EXP: 对雪.
-CHI: ^所以我台湾以为都有雪[=我以为台湾都有雪][^c]后来没有[=后来才知道没有][^c].
-EXP: 没有对.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,after,"exp: have you seen (snow)? child: snow. exp: yes, snow. child: so i thought taiwan thought always have snow (in the wrong word oder) then no (then realized there is no snow). exp: right, there is no snow.",知道,after
-2,Chang1/9,5;07,child,CHI: 牠 就 以为 说  [^c] 弟弟 是 说 那 个  [^c] +...,third_person,dropped,declarative,declarative,就,no,no,no,no,no,no,unclear,unclear,child: then... called water dragon... water dragon will fight the war again. then (the water dragon) suddenly discovered a elephant. then he (the dragon?) thought said ... brother said that ... then he (the dragon) kicked kicked kicked. he ahh,no,no
-3,LiZhou/4/1,4;03,child,CHI: 我 以为 你 xxx 房子 .,first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,child: okay. <child's name> i thought you xxx house. is the house here broken down?,no,no
-4,NSCtoys/4/a29_1,4;01,mother,"MOT:	我 以为 你 要 做 楼梯 耶 .",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,unclear,unclear,mom: then what is this? child: this is ... mom: i thought you would make a staircase. child: yeah. because...because that is (this?it?),no,no
-5,NSCtoys/4/a36_3,4;03,mother,MOT:        <我 以为 是>  [//] 我 以为 他 是 tiger,first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,after,child: (it's) a cat. mom: a cat? yeah. i thought...i thought it is a tiger. but it's a cat. a big cat.,no,no
-6,NSCtoys/4/a37_2,4;03,mother,MOT: 你 自 以为 你 现在 是 当 医生 打 屁股 „ 是不是 ?,second_person,second_person,rhetorical,declarative,no,no,no,no,no,no,no,not_p,unclear,"mom: push like this! spank the butt (give shots in the butt, in the context of a pretend play). you thought you're the doctor and spank the butt (give shots in the butt), aren't you?",当,after
-7,NSCtoys/5-6_1/g09_1,4;02,mother,MOT:  我 以为 很 厉害 . ,first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_not_p?,before,"mom: do you think this is not very impressive? can you do this? i thought it's impressive, child: everyone can",觉得,before
-8,NSCtoys/2/d19_3,2;05,mother,"MOT:	妈妈 以为 他 是 荷包蛋 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"that is not an egg, mom thought he was a fried-egg",no,no
-9,NSCtoys/4-6_2/a12_3,4;11,mother,"MOT:	妈妈 本来 还 以为 牠 是 狗 .",third_person,third_person,declarative,declarative,"本来, 还",no,no,no,no,no,本来,not_p,both,"mom: he is not a dog, mom thought he was a dog,. child: he's a cat",no,no
-10,NSCtoys/4-6_1/f05_1,4;07,mother,"MOT:	我 以为 他 可以 排 成 正方形 .",first_person,third_person,declarative,declarative,no,no,可以,no,no,no,no,not_p,before,mom: this can't form into a square. i thought it could form into a square. child: it can. mom: it turns out it can't. child: it can! mom: can it?,no,no
-11,NSCtoys/3/e22_2,3;04,mother,"MOT:	喔 妈妈 以为 你 说 的 是 小 车站 .",third_person,second_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"mom: like the taipei train station, right? child: yes. mom: oh, mom thought what you said was the small bus station. child: this is the red station.",no,no
-12,NSCtoys/5-6_2/b20_1,5;07,mother,"MOT:	我 以为 可以 休息 一下",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,not_p,after,"mom: can (i) still play the violin? child: yes. mom: i thought (i) could take a break. (i) can't take a break. then, should i come back?",no,no
-13,NSCtoys/5/b20_2,5;01,mother,MOT: 欸 我 以为 你 要 告诉 我 这 是 什么,first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,against what happened,before,mom: what is this? i thought you're going to tell me what this is. child: a castle. mom: a castle.,no,no
-14,NSCtoys/5/b06_2,5;00,child,"CHI:	人家 以为 这 是 他 家 里 就 +...",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,against what happened,before,"child: so (we) need to cover (it)/(it) needs to be covered. mom: oh, so (it) needs to be covered. what if it is not? child: other people would think this is their place so... mom: so? child: so (they) will be on the track ... and then... being hit",no,no
-15,NSCtoys/5/b07_3,5;02,child,"CHI:	我 以为 这 是 长颈鹿 .",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"mom: then put it here. then we always thought something is strange. (that's) alrgiht, initially we (have?) four curved ... child: i, i, i... i thought this was a giraffe. mom: (laughed)",no,no
-16,NSCtoys/5/b07_3,5;02,child,CHI: _ __ <_ _ ___>,first_person,third_person,declarative,ellipsis/repeated,no,no,no,no,no,no,no,no,no,"mom: then put it here. then we always thought something is strange. (that's) alrgiht, initially we (have?) four curved ... child: i, i, i... i thought this was a giraffe. mom: (laughed) child: i thought it was a giraffe.",no,no
-17,NSCtoys/5/b17_1,5;03,mother,"MOT:	我 以为 是 他们 那个 .",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,unclear,unclear,child: so i don't need this xxx. mom: this is a decoration. child: yeah. mom: i thought (it) was theirs. didn't you have a class that is vaulting,no,no
-18,NSCtoys/5/b17_2,5;03,mother,"MOT:	+"" 我 以为 不 用 打针 了 .",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,not_p,both,child: (you) need to get an injection first. mom: i though (i) don't need an injection. (i) need to get... child: get an injection,no,no
-19,TCCM/yang/10600,1;06,investigator,"EXA:	我 以为 是 要 那 个 大 车子 .",first_person,dropped,declarative,declarative,no,no,是，要,no,no,no,no,p_alt,before,ext: it turns out that (it) is this small toy car. i thought (you) need the bigger car. mom: strange,no,no
-20,TCCM/yang/11000,1;10,investigator,"EXA:	他 以为 是 .",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,unclear,unclear,child: xxx where is he? ext: (he's) gone. he thought yes mom: mom has (it?),no,no
-21,TCCM/yang/20600,2;06,investigator,"EXA:	打打 以为 它 就 开  ",dropped,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,child: it's not open. ext: what? child: this red one is not open. ext: hit it (you?) thought it would open,no,no
-22,TCCM/xu/20300,2;03,investigator,"INV:	我 还 以为 你 不 知道 ",first_person,second_person,declarative,declarative,还,no,no,no,no,no,no,not_p,before,"inv: yes, you know. i thought you didn't know!",no,no
-23,TCCM/wang/20700,2;07,child,"CHI:	以为 +...",unclear,unclear,unclear,ellipsis,no,no,no,no,no,no,no,unclear,unclear,mom: you also bully the dog! child: i xxx. thought ... ah,no,no
-24,TCCM/wang/21100,2;11,mother,"MOT:	我 还 以为 你 打 到 了 耶 .",first_person,second_person,declarative,declarative,还,no,no,no,no,了,no,not_p,before,mom: did (you) really hit it? oh my god. no. that's not a mosquito. that's something hard. i thought you hit it. you thought you hit it too. right?,no,no
-25,TCCM/wang/21100,2;11,mother,"MOT:	你 也 以为 你 打 到 了 .",second_person,second_person,declarative,declarative,也,no,no,no,no,了,no,not_p,before,mom: did (you) really hit it? oh my god. no. that's not a mosquito. that's something hard. i thought you hit it. you thought you hit it too. right?,no,no
-26,TCCM/wuys/30300,3;03,mother,"MOT:	我 以为 你 要 贴 嘴巴 .",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,not_p,before,mom: this. is not for sticking the mouth? i thought you want to stick the mouth,no,no
-27,TCCM/chou/20100,2;01,mother,MOT:        我  [/] 我 本来 一直 以为 他 讲话 很 清楚 .,first_person,third_person,declarative,declarative,"本来, 一直",no,no,no,no,no,"本来, 一直",not_p,after,mom: i originally always thought he spoke very clearly... i always thought (juede) what he spoke was clear. it turns out other people cannot understand.,no,no
-28,TCCM/chou/20100,2;01,investigator,EXA:        我 还 以为 故意 的 !,first_person,dropped,declarative,declarative,还,no,no,no,no,no,no,unclear (p_alt?),unclear (both),exa: oh this is what he inserted? i thought (this was) deliberate. mom: he originally inserted those altoghether around here.,no,no
-29,TCCM/chou/20200,2;02,mother,MOT:        出去 人家 都 以为 你 是 小 女生 .,third_person,second_person,declarative,declarative,都,no,no,no,no,no,no,against the fact,no,"mom: your hair is long. you see. (when you) go out, other people will think you're a girl.",no,no
-30,TCCM/chou/20400,2;04,investigator,EXA:        人家 以为 你 怎么 啦 .,third_person,second_person,declarative,interrogative,no,no,no,no,no,no,no,no,no,exa: your mouth is black. other people will think there's something wrong with you. (just by eating candies you look like this),no,no
-31,TCCM/cheng/31000,3;01,adult,"ADU:	0pro 以为 小 妹妹 要 抓 小 鸡 哦 !",dropped,third_person,declarative,declarative,no,no,要,no,no,no,no,no,no,adu: the hen saw the little sister walked over. (the hen?) thought the little sister was going to take the chicks.,no,no
-32,TCCM/cheng/31100,3;10,child,CHI:        他 以为 这 里面 有 什么 ?,third_person,third_person,wh_question,declarative,no,no,no,no,no,no,no,no,after,chi: what did he think was inside? adu: tiger! chi: there is no (tiger)! ,no,no
-33,TCCM/chw/31100,3;11,investigator,INV:        不然 爸爸 以为 是 我们 弄 坏 掉 的 !,third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,against what happened,before,inv: put it back. (the thing that) you just made it fell off. put it back in. child: no! inv: yes! or else dad will think we broke it. child: dad didn't come back! inv: (he) will be back soon!,no,no
-34,TCCM/chw/40200,4;02,investigator,"INV:	我 以为 你 好 喜欢 呢 .",first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,no,no,inv: i thought you really liked it.,no,no
-35,TCCM/chw/40200,4;02,investigator,"INV:	我 还 以为 你 会 睡 你 的 新 房 间 嘞 !",first_person,second_person,declarative,declarative,还,no,会,no,no,no,no,p_alt,before,inv: did you sleep here yesterday? child: yes. i slept here last night! inv: i thought you would sleep in your new room. kid: i can sleep (there) tomorrow,no,no
-36,TCCM/wu/20500,2;05,adult,"ADU:	以为 要 来 带 他 .",dropped,dropped,declarative,declarative,no,no,要,no,no,no,no,against what happened,before,"adu: (the child?) heard his mom's voice, thought (she) was taking him. tsa: (he will?) ride on his own. ",no,no
-37,TCCM/wu/20500,2;05,investigator,"TSA:	我 以为 他 知道 要 叫 你 把 他 弄 .",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,mom: he asked me to go to the back and see that the water is full. tsa: i thought he knew that he needed to ask you do. clean up. mom: no. he said the ditch is full. he asked me to check.,no,no
-38,Chang2/BookReading/10,3;07,mother,"MOT:	他 以为 小 baby@s:eng 都 乖乖地 躺 在 床 上 ",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"mom: little babies swims. little babies eat. mom doesn't know, right? child: yeah. mom: she thought all little babies all obidiently (?) sleep on the bed",不知道,before
-39,Chang2/BookReading/13,3;06,mother,"MOT:	我 以为 他 是 小 哥哥  [^c]",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"child: well, he is not (?) brother. mom: ah, that's not brother. i said it wrong. you see, you keep touching me here, i forgot. i thought he is brother. so you need to pay attention.",no,no
-40,ChangPlay/4/5,4;08,mother,"MOT:	我 以为 你 是 女生 耶 .",first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,mom: you are not a girl?/are you not a girl? child: i'm the younger brother. mom: i thought you were a girl.,no,no
-41,ChangPlay/4/15,4;06,mother,"MOT:	我 还 以为 你 去 撞 到 柜子 了 .",first_person,second_person,declarative,declarative,还,no,no,no,no,了,no,not_p,both,child: this is not me. mom: not you? child: you misheard it. mom: what i misheard (what did i mishear?) mom: he also made the bang sound. i thought you went and hit the cabinet. child: not me. mom: it's brother. borther went and hit (the cabinet).,no,no
-42,ChangPlay/5/3,6;00,mother,"MOT:	他们 都 以为 它 会 欺负 它 啊 .",third_person,third_person,declarative,declarative,都,no,会,no,no,no,no,no,no,mom: it is the biggest. right? other animals are small. they thought it is going to bully them. then shouldn't you act kind?,no,no
-43,ChangPlay/5/15,5;07,mother,MOT:        你 以为 你 是 <大象>  [//] 那个 什么 飞 象 „ 是不是 ?,second_person,second_person,polar,declarative,no,no,no,no,no,no,no,against the fact,no,"mom: horses are born horses. child: no. i want... mom: you thought you were (elephant) that flying elephant (dumbo?), right?",no,no
-44,ChangPN/grade2/171,8;01,child,"CHI:	<我 还 以为>  [<] 你 说 我 要 看 医生 .",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,p_alt,both,exp: do you remember when you visited the doctor? please tell me. you went to the doctor one time. child: i thought you said i need to see the doctor. exp: no,no,no
-45,ChangPN/grade2/173,8;01,child,"CHI:	结果 妈妈 就是 以为 是 弟弟 .",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p,after,child: why did you blow bubbles in the room? exp: enn child: it turns out mom thought (it) was little borther. and it turns out it actually is. exp: yeah. ah what happened then?,no,no
-46,ChangPN/grade2/176,7;09,child,"CHI:	<然后>  [/] 然后 那个 (.) 因为 我 以为 他 在 瞪 我 .",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"exp: (you?) scolded by grandma. what happened then? child: then, then because i thought he was staring at me. exp: oh and then. child: and then...",no,no
+CHI: 所以我台湾以为都有雪，后来没有. (所以我以为台湾都有雪，后来才知道没有)
+EXP: 没有对.
+CHI: 只有我想到美国有雪.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,after,"experimenter: have you seen (snow)?
+child: snow.
+experiment: yes, snow.
+child: so i taiwan incorrectly thought there’s always snow, then not. (wrong word order, intended: so i incorrectly thought taiwan has snow/there’s always snow in taiwan, then (i) knew there is not.)
+experiment: there’s not, right.
+child: only i thought the US has snow/there’s snow in the US.",知道,after
+2,Chang1/9,5;07,child,"CHI: 然后，叫<水龙>，水龙，再去打仗.
+CHI: 然后，突然发现了，一个大象.
+CHI: 牠就以为说...弟弟是说那个...
+CHI: 然后牠[=dragon]就踢踢踢.
+CHI: 牠[=elephant]就.
+CHI: 啊啊啊!",third_person,dropped,declarative,declarative,就,no,no,no,no,no,no,unclear,unclear,"child: then... called water dragon... water dragon will fight the war again.
+child: then, (he?) suddenly discovered an elephant.
+child: he (the dragon?) then incorrectly thought, little brother said that …
+child: then he (the dragon) kicked kicked kicked. 
+child: he (the elephant) then 
+child: ahh!",no,no
+3,LiZhou/4/1,4;03,child,"CHI: 哎好哎.
+CHI: <孩名.>
+CHI: 我以为你xxx房子.
+CHI: 这里的房子是不是坏掉了呀?",first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"child: okay. 
+child: <child's name>
+child: i thought you xxx house. 
+child: is the house here broken down?",no,no
+4,NSCtoys/4/a29_1,4;01,mother,"MOT: 给狗狗或猫咪吃的,是吗?
+CHI: 对.
+MOT: 喔(.)了解.
+MOT: 那这是什么?
+CHI: 这是...
+MOT: 我以为你要做楼梯耶.
+CHI: 对啊.
+CHI: <因为>[/]因为那个就是.
+CHI: 给你如果(.)不方便的话.
+CHI: 这边就可以放鞋子.
+MOT: 喔(.)放鞋子的地方喔!",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,p_alt,after,"mother: Is this for dogs or cats to eat?
+child: Right.
+mother: Oh, I see.
+mother: then what is this?
+child: this is ... 
+mother: i incorrectly thought you were going to make a staircase. 
+child: yeah. 
+child: because...because that is 
+child: for you. If it’s not convenient (if you’re not convenient)
+child: this side can be used for storing shoes (you can put shoes on this side)
+mother: oh, a place to put/store shoes!",no,no
+5,NSCtoys/4/a36_3,4;03,mother,"MOT: tiger的身体在哪里?
+CHI: 猫啦.
+MOT: 猫喔?
+MOT: 对.
+MOT: <我以为是>，我以为他是tiger.
+MOT: 结果是猫.
+MOT: 大猫.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,both,"mother: where is the body of the tiger?
+child: (it's) a cat. 
+mother: a cat? 
+mother: right. 
+mother: i incorrectly thought...i incorrectly thought it was a tiger. 
+mother: it turned out to be a cat. 
+mother: a big cat.",no,no
+6,NSCtoys/4/a37_2,4;03,mother,"MOT: 这样推!
+MOT: 打屁股!
+MOT: 你自以为你现在是当医生打屁股,是不是?
+CHI: 0.
+MOT: 很痛吗?
+CHI: 0.
+MOT: 很痛喔?",second_person,second_person,tag_question,declarative,no,no,no,no,no,no,no,pretend_play,inferred,"mother: push like this! 
+mother: give shots/injections in the butt (in the context of pretend play). 
+mother: you incorrectly thought you were the doctor and gave injections in the butt, aren't you?
+child: [inaudible]
+mother: does it hurt?
+child: [inaudible]
+mother: it hurts right?",当,after
+7,NSCtoys/5-6_1/g09_1,4;02,mother,"MOT: 你觉得没有很厉害吗?
+MOT: 你可以这样子吗?
+CHI: 当然可以啊.
+MOT: 我以为很厉害.
+CHI: 谁都可以.
+CHI: 我可以这样子.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"mother: do you think this is not very impressive? 
+mother: can you do this? 
+child: of course i can.
+mother: i incorrectly thought (it's) very impressive.
+child: everyone can
+child: i can be like this.",觉得,before
+8,NSCtoys/2/d19_3,2;05,mother,"MOT: <好像>[/]好像不行齁.
+MOT: 是不是少了一片?
+MOT: 啊&=laughs.
+MOT: 哦.
+MOT: 原来那个不是蛋啦.
+MOT: 妈妈以为他是荷包蛋.
+MOT: 原来他是谁!
+MOT: 他是谁?
+MOT: 他是鸭妈妈耶.
+CHI: 鸭妈妈.",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"mother: It looks like it’s not possible.
+mother: is it missing a piece?
+mother: ah!
+mother: oh.
+mother: that is not an egg.
+mother: mom incorrectly thought he was a fried egg.
+mother: who is she actually?
+mother: who is she?
+mother: she is mama duck.
+child: mama duck.",no,no
+9,NSCtoys/4-6_2/a12_3,4;11,mother,"MOT: 试试看啊.
+CHI: 哦!
+CHI: 嘿&=laughs!
+MOT: 哇!
+MOT: 哇!
+MOT: 结果牠不是狗耶.
+MOT: 妈妈本来还以为牠是狗.
+CHI: 牠是猫.
+MOT: 牠是猫.",third_person,third_person,declarative,declarative,"本来, 还",no,no,no,no,no,本来,not_p,both,"mother: Let’s try.
+child: Oh!
+child: Hehe (laugh)
+mother: Wow!
+mother: It is not a dog.
+mother: Mom incorrectly thought it was a dog.
+child: It’s a cat.
+mother: It’s a cat.",no,no
+10,NSCtoys/4-6_1/f05_1,4;07,mother,"MOT: <孩名>知道这是什么形状吗?
+MOT: 这个.
+CHI: 三角形.
+MOT: 欸他这个不能排成正方形欸.
+MOT: 我以为他可以排成正方形.
+CHI: 可以.
+MOT: 结果他不行.
+CHI: 可以!
+MOT: 可以吗?
+CHI: 可以.",first_person,third_person,declarative,declarative,no,no,可以,no,no,no,no,not_p,before,"mother: <child’s name> do you know what this shape is?
+mother: this.
+child: triangle.
+mother: this can't form into a square. 
+mother: i incorrectly thought it could form into a square. 
+child: it can. 
+mother: it turns out it can't. 
+child: it can! 
+mother: can it?
+child: it can.",no,no
+11,NSCtoys/3/e22_2,3;04,mother,"MOT: 你有你的设计,是不是.
+CHI: 这是大站啊.
+MOT: 是大站喔.
+CHI: 对啊.
+MOT: 喔.
+CHI: 所以需要这个.
+MOT: 喔我懂了!
+CHI: 盖上去.
+MOT: 所以你是说火车站是在里面有铁轨的意思,是不是?
+MOT: 就像那种台北火车站啊,对不对?
+CHI: 对.
+MOT: 喔妈妈以为你说的是小车站.
+CHI: 这是那个红的站.
+MOT: 红色的站.
+CHI: 对.",third_person,second_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"mother: you have your own design, right?
+child: this is a big stop.
+mother: oh, (it) is a big stop.
+child: yeah.
+mother: oh.
+child: so (it) needs this.
+mother: oh, I understand.
+child: to put on top.
+mother: so the train station you meant the ones with trucks in them, right?
+mother: like the taipei train station, right?
+child: yes. 
+mother: oh, mom incorrectly thought you meant the small bus station. 
+child: this is the red station.
+mother: the red station.
+child: yes.",,
+12,NSCtoys/5-6_2/b20_1,5;07,mother,"CHI: 应该可以.
+MOT: 喔那还可以弹钢琴吗?
+CHI: 可以,只是不要弹太大力.
+MOT: 那还可以练小提琴吗?
+CHI: 可以啊.
+MOT: 我以为可以休息一下&=laughs.
+MOT: 不可以休息,okay.
+MOT: 那还要再回来看吗?
+CHI: 嗯如果还是很痛的话,再回来看医生.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,not_p,after,"child: Maybe you can.
+mother: Oh, then can I still play the piano?
+child: Yes, as long as it’s not with a lot of force.
+mother: Can I still practice playing the violin? 
+child: Yes. 
+mother: I incorrectly thought (I) could take a break.  (laughs)
+mother: (i) can't take a break. 
+mother: Then, should I come back to visit?
+child: Yeah, if it is very painful, then (you should) come back and see the doctor again.",,
+13,NSCtoys/5/b20_2,5;01,mother,"CHI: <完成了>!
+MOT: ^<是什么>!
+MOT: 欸我以为你要告诉我这是什么&=laughs.
+CHI: 城堡啊&=laughs.
+MOT: 城堡喔.",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,no,no,"child: <completed>
+mother: what is this?
+mother: i incorrectly thought you were going to tell me what this is. 
+child: a castle. 
+mother: a castle.",,
+14,NSCtoys/5/b06_2,5;00,child,"MOT: 所以呢?
+CHI: 所以要挡住.
+MOT: 喔要挡住.
+MOT: 不然会怎样?
+CHI: 人家以为这是他家里就...
+MOT: 就怎样?
+CHI: 就有可能会在轨道...
+CHI: 他<然后>[/]然后就那个被撞到.",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,against what happened,unclear,"mother: so?
+child: so (we) need to cover (it)/(it) needs to be covered. 
+mother: oh, so (it) needs to be covered. 
+mother: what if it is not?/what will happen if it is not?
+child: other people would incorrectly think this is their place so... 
+mother: so what?
+child: so (they) will be on the track …
+child: and then... then.. being hit.",,
+15,NSCtoys/5/b07_3,5;02,child,"MOT: 我们拼好了.
+MOT: 然后把它(.)放来这.
+MOT: 然后我们一直觉得哪里怪怪的.
+MOT: 还好,我们一开始四个弯弯的/.
+CHI: 我[/]<我[/]我>[>]...
+MOT: <已经摆对>[<].
+CHI: 我以为这是长颈鹿.
+MOT: &=laughs.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,against what happened,unclear,"mother: we finished putting it together.
+mother: then put it here. 
+mother: we always thought something was strange. 
+mother: fortunately, initially we (have?) four curved ... 
+child: i, i, i…
+mother: <finally did it correctly>
+child:  i incorrectly thought this was a giraffe. 
+mom: (laughed)",,
+16,NSCtoys/5/b07_3,5;02,child,CHI:	我 以为 <这 是 长颈鹿>,first_person,third_person,declarative,ellipsis/repeated,no,no,no,no,no,no,no,no,no,"mom: then put it here. then we always thought something is strange. (that's) alrgiht, initially we (have?) four curved ... child: i, i, i... i thought this was a giraffe. mom: (laughed) child: i thought it was a giraffe.",,
+17,NSCtoys/5/b17_1,5;03,mother,"CHI: 嗯所以我不要这个xxx.
+MOT: 这是装饰喔.
+CHI: 对啊.
+MOT: 我以为是他们那个.
+MOT: 你不是之前有一次上课是跳马? (跳吗？)
+CHI: 对啊.
+MOT: 喔.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,no,no,"child: so i don't need this xxx. 
+mother: this is a decoration. 
+child: yeah.
+mother: i thought (it) was their…
+mother: didn't you have a class where you did vaulting (or jumping?)
+child: yeah.
+mother: oh.",,
+18,NSCtoys/5/b17_2,5;03,mother,"MOT: 唉唷这跟我家药膏很像耶.
+CHI: &=laughs.
+MOT: 我记得/.
+CHI: 那(.)可能要先打针喔.
+MOT: 我以为不用打针了.
+MOT: 那要<打>[/]打...
+CHI: 打针.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,not_p,both,"mother: oh wow, this looks just like the ointment we have at home.
+child: (laugh)
+mother: i remember…
+child: (you) maybe need to get an injection first. 
+mother: i incorrectly thought (i) didn’t need an injection.
+mother: then, (i) need to get... 
+child: get an injection.",,
+19,TCCM/yang/10600,1;06,investigator,"EXA: 哦.
+MOT: 哦[=!laugh].
+EXA: 哦他在找这个啊.
+MOT: 嘿.
+EXA: 原来是这小玩具车.
+EXA: 我以为是要那个大车子.
+MOT: 奇怪哼.
+EXA: 这小孩子喜欢.",first_person,dropped,declarative,declarative,no,no,是，要,no,no,no,no,p_alt,before,"experimenter: Oh!
+mother: Oh (laugh).
+experimenter: oh he’s looking for this.
+mother: hey
+experimenter: So it turns out it’s this little toy car.
+experimenter: i incorrectly thought (the kid?) is looking for the bigger car.
+mother: strange
+experimenter: this little kid likes (it).",,
+20,TCCM/yang/11000,1;10,investigator,EXA:	他 以为 是 .,third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,unclear,unclear,child: xxx where is he? ext: (he's) gone. he thought yes mom: mom has (it?),,
+21,TCCM/yang/20600,2;06,investigator,"EXA: 那你为什么打它?
+CHI: 它不开.
+EXA: 哈?
+CHI: 这个红色不开.
+EXA: 打打以为它就开[=!笑].",dropped,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"experimenter: then why did you hit it?
+child: it does/ did not open. 
+experimenter: what?
+child: this red one  won’t open. 
+experimenter: (you?) thought hitting it would make it open (laugh)",,
+22,TCCM/xu/20300,2;03,investigator,"INV: 你是美少女啊?
+CHI: 是美嘉嘉,美.
+CHI: 小天使.
+INV: 对,你知道啦.
+INV: 我还以为你不知道!
+INV: 这是什么?
+CHI: 小天使在这里.",first_person,second_person,declarative,declarative,还,no,no,no,no,no,no,not_p,before,"investigator: are you the pretty girl?
+child: is pretty jiajia, pretty.
+child: little angel.
+investigator: yes, you knew!
+investigator: i thought you didn’t know.
+investigator: what is this?
+child: little angel is here.",,
+23,TCCM/wang/20700,2;07,child,CHI:	以为 +...,unclear,unclear,unclear,ellipsis,no,no,no,no,no,no,no,unclear,unclear,mom: you also bully the dog! child: i xxx. thought ... ah,,
+24,TCCM/wang/21100,2;11,mother,"MOT: 真的打到了啊?
+MOT: 我的天呐.
+MOT: 不是啦.
+MOT: 那不是蚊子.
+MOT: 那是一个硬硬的东西.
+MOT: 我还以为你打到了耶.
+MOT: 你也以为你打到了.
+MOT: 是不是?",first_person,second_person,declarative,declarative,还,no,no,no,no,了,no,not_p,before,"mother: did (you) really hit it?
+mother: oh my god. 
+mother: no. 
+mother: that's not a mosquito. 
+mother: that's something hard. 
+mother: i incorrectly thought you hit it. 
+mother: you also incorrectly thought you hit it too. right?",,
+25,TCCM/wang/21100,2;11,mother,"MOT: 真的打到了啊?
+MOT: 我的天呐.
+MOT: 不是啦.
+MOT: 那不是蚊子.
+MOT: 那是一个硬硬的东西.
+MOT: 我还以为你打到了耶.
+MOT: 你也以为你打到了.
+MOT: 是不是?",second_person,second_person,tag_question,declarative,也,no,no,no,no,了,no,not_p,before,"mother: did (you) really hit it?
+mother: oh my god. 
+mother: no. 
+mother: that's not a mosquito. 
+mother: that's something hard. 
+mother: i incorrectly thought you hit it. 
+mother: you also incorrectly thought you hit it too. right?",,
+26,TCCM/wuys/30300,3;03,mother,"CHI: 好.
+EXA: 好.
+CHI: 这个.
+MOT: 不是要贴嘴巴的哦?
+MOT: 我以为你要贴嘴巴.
+MOT: 我就给你贴 &~Smei.",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,not_p,before,"child: okay.
+experimenter: okay.
+child: this.
+mother: this isn’t supposed to stick on your mouth, right?
+mother: i incorrectly thought you wanted to stick the mouth.
+mother: i just want to stick you…",,
+27,TCCM/chou/20100,2;01,mother,"MOT: 像我因为跟他常接触.
+MOT: 所以他讲什么.
+MOT: 我比较知道.
+MOT: 那周cc他是必需有差不多知道他在做什么的时候,他才听得清楚他在讲什么.
+MOT: 那如果讲电话//.
+MOT: 我[/]我本来一直以为他讲话很清楚.
+MOT: 那上一次cc的弟弟来.
+MOT: 他说""/.
+MOT: xxx.
+MOT: 我再跟c_c说:
+MOT: “可是他讲话很清楚啊!
+MOT: 我一直觉得他讲的话很清楚.
+MOT: 原来别人都听不懂.
+MOT: 只有我听懂得!”
+MOT: 然后CC说 
+MOT: “对啊 !
+MOT: 讲电话的时候.
+MOT: 我都不晓得他在讲什么.”",first_person,third_person,declarative,declarative,"本来, 一直",no,no,no,no,no,"本来, 一直",not_p,after,"mother: like me, because i interact with him often
+mother: so whatever he says,
+mother: i know (i know whatever he says)
+mother: that week, cc (another person’s name), he’s like he has to roughly know what he’s (the person they are talking about)  doing, only then can he (cc) clearly hear what he’s saying. 
+mother: then, if talking on the phone
+mother: i originally always incorrectly thought he spoke very clearly
+mother: last time when cc’s brother was here
+mother: he said:
+mother: xxx
+mother: then i said to cc:
+mother: “but he speaks very clearly!
+mother: i always thought he speaks very clearly. 
+mother: it turns out other people cannot understand.
+mother: only i can understand.”
+mother: and then cc said:
+mother: “yeah!
+mother: when on the phone,
+mother: i don’t know what he’s talking about.”",,
+28,TCCM/chou/20100,2;01,investigator,"MOT: 几朵花?
+EXA: 喔!
+EXA: 原来这个是他插的喔?
+EXA: 我还以为故意的!
+MOT: 他[/]他本来那些通通插在这里围一圈.
+MOT: 其实本来是在那个白色的花盆里.
+MOT: 然后他把它一个一个拿下来插了.
+MOT: 围了一圈.",first_person,dropped,declarative,declarative,还,no,no,no,no,no,no,no,no,"mother: how many flowres?
+investigator: oh!
+inverstigator: oh, so this was put in/inserted by him?
+inverstigator: i thought it was deliberate/on purpose!
+mother: he…he (it?) originally they were all inserted here in a circle
+mother: actually, they were all originally in that white planter.
+mother: and then, he took them down one by one and inserted them.
+mother: formed a circle.",,
+29,TCCM/chou/20200,2;02,mother,"EXA: 理头发又不会痛!
+EXA: 不会痛.
+EXA: 对不对?
+MOT: 你头发好长哎.
+MOT: 你看.
+MOT: 出去人家都以为你是小女生.
+MOT: 人家都要问男的女的?
+CHI: 我不要理头发.",third_person,second_person,declarative,declarative,都,no,no,no,no,no,no,no,no,"investigator: getting a haircut won’t hurt!
+investigator: not going to hurt!
+investigator: right?
+mother: your hair is so long. 
+mother: you see. 
+mother: (when you) go out, other people will think you're a girl.
+mother: other people will all ask, (if you are a) boy or girl?
+child: i don’t want to get a haircut.",,
+30,TCCM/chou/20400,2;04,investigator,"EXA: 来擦嘴巴!
+EXA: 不然你看.
+EXA: 你的嘴巴都黑的.
+EXA: 人家以为你怎么啦.
+EXA: han@o?
+EXA: 吃糖果会吃到这样!",third_person,second_person,declarative,interrogative,no,no,no,no,no,no,no,no,no,"investigator: come and wipe your mouth!
+investigator: or else you see
+investigator: your mouth is all black.
+investigator: other people incorrectly thought (will think) what is wrong with you
+investigator: <?>
+investigator: eating candy can make you like this! (just by eating candies you look like this)",,
+31,TCCM/cheng/31000,3;01,adult,"CHI: 对呀!
+ADU: 然后这是谁?
+CHI: 这是母鸡.
+ADU: 嗯.
+ADU: 母鸡看到小妹妹走过去啊.
+ADU: 以为小妹妹要抓小鸡哦!
+ADU: 就好生气喔!
+ADU: 对着妹妹怎么样?",dropped,NP,declarative,declarative,no,no,要,no,no,no,no,no,no,"child: Right!
+adult: Then who is this?
+child: This is the hen.
+adult: Yeah.
+adult: The hen saw that the little sister walked over.
+adult: (The hen) thought the little sister was going to take the chicks.
+adult: And was very angry.
+adult: What did the hen do to the little sister?",,
+32,TCCM/cheng/31100,3;10,child,CHI:        他 以为 这 里面 有 什么 ?,third_person,third_person,declarative,interrogative,no,no,no,no,no,no,no,no,after,chi: what did he think was inside? adu: tiger! chi: there is no (tiger)! ,,
+33,TCCM/chw/31100,3;11,investigator,"INV: 放回去!
+INV: 你刚刚从这里面弄掉出来的.
+INV: 再把他放进去!
+CHI: 不要!
+INV: 要.
+INV: 不然爸爸以为是我们弄坏掉的!
+CHI: 爸爸哪有回来!
+INV: 等一下就回来了!",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,no,no,"investigator: put it back!
+investigator: This is where you just knocked off from inside.
+investigator: put it back in again.
+child: no!
+investigator: yes! (you should)
+investigator: or else dad will think we broke it. 
+child: dad dihasn’t come back! 
+investigator: (he) will be back soon!",,
+34,TCCM/chw/40200,4;02,investigator,"INV: 我以为你好喜欢呢.
+INV: 哈?
+INV: 你今天有没有做什么事啊?
+CHI: 没有事啦!",first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"investigator: i thought you really liked it.
+investigator: what?
+investigator: did you do anything today?
+child: (i) did not have anything!",,
+35,TCCM/chw/40200,4;02,investigator,"INV: 藏好!
+CHI: 我要做了!
+INV: 你昨天睡这里吗?
+孩子: 对啊.
+孩子: 我昨天晚上就睡这啊!
+研究员: 我还以为你会睡你的新房间嘞!
+孩子: 我明天就可以睡了!
+研究员: 等到收好就可以睡了嘛.",first_person,second_person,declarative,declarative,还,no,会,no,no,no,no,p_alt,before,"investigator: Hide it well.
+child: I will make it!
+investigator: Did you sleep here yesterday? 
+child: yes. 
+child: i slept here last night! 
+investigator: i incorrectly thought you would sleep in your new room. 
+child: i can sleep (there) tomorrow!
+investigator: when it’s done cleaning up, (you) can sleep (there).",,
+36,TCCM/wu/20500,2;05,adult,"TSA: 哎哟还有刹车耶.
+ADU: 哎哟.
+ADU: 好棒哦!
+ADU: 不想回去呀.
+ADU: 听到他妈妈的声音.
+ADU: 以为要来带他.
+TSA: 自己骑.
+TSA: 你要不要载我?
+CHI: 不要.
+ADU: 我自己会开.",dropped,dropped,declarative,declarative,no,no,要,no,no,no,no,no,no,"investigator: oh (the motorcycle) has a brake.
+adult: oh.
+adult: that’s awesome!
+adult: (the child?) didn’t want to go back.
+adult: heard his mom's voice, 
+adult: incorrectly thought (his mom) was taking him. 
+investigator: (he will?) ride on his own. 
+investigator: do you want to give me a ride?
+child: no.
+adult: i can drive myself.",no,no
+37,TCCM/wu/20500,2;05,investigator,"MOT: 快点!
+MOT: 我说要干吗.
+MOT: 我们去后面看.
+TSA: 只是去看.
+MOT: 他叫我去后面看水好满.
+TSA: 我以为他知道要叫你把他弄.
+TSA: 清掉.
+MOT: 没有.
+MOT: 他说水沟满满.
+MOT: 他叫我去看.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: Hurry up!
+mother: I said: What’s up?
+mother: Let’s go to the back and check.
+investigator: Just to check.
+mother: he asked me to go to the back to see that the water was full.
+investigator: I incorrectly thought he knew that he needed to ask you do it. 
+investigator: to clean up.
+mother: No. 
+mother: he said the ditch is full. 
+mother: he asked me to check.",no,no
+38,Chang2/BookReading/10,3;07,mother,"MOT: 刚刚小baby跳舞啊.
+MOT: 小baby游泳啊.
+MOT: 小baby吃东西啊.
+MOT: 妈妈都不知道,对不对?
+CHI: 对.
+MOT: 他以为小baby都乖乖地躺在床上.
+MOT: 然后妈妈说什么?
+CHI: 卡儿,你好乖哦.",third_person,NP,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"mother: just now, the little bably danced.
+mother: the little baby swam.
+mother: the little baby ate something. 
+mother: the mom doesn't know, right? 
+child: yeah. 
+mother: she incorrectly thought the little baby was lying peacefully on the bed.
+mother: what did mom say?
+mother: carl, you’re so sweet.",不知道,before
+39,Chang2/BookReading/13,3;06,mother,"CHI: 咦,他才不是小哥哥.
+MOT: 啊,那不是小哥哥.
+MOT: 我讲错了.
+MOT: 你看你一直摸我这里.
+MOT: 我就忘记.
+MOT: 我以为他是小哥哥.
+MOT: 所以你要专心啊.
+MOT: 不然我都会忘记啊.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"child: eh? he’s not the little older brother.
+mother: ah, that’s not the little older brother.
+mother: i misspoke.
+mother: look, you keep touching me here.
+mother: so i forgot.
+mother: i incorrectly thought he was the little brother.
+mother: So you need to stay focused.
+mother: Or else I’ll end up forgetting.",no,no
+40,ChangPlay/4/5,4;08,mother,"CHI: 等一下有...
+CHI: yeah.
+CHI: 打开来.
+MOT: 你不是女生喔?
+CHI: 我是弟弟.
+MOT: 我以为你是女生耶.
+MOT: 这样拿就好了.
+CHI: 我要先拿绳子.",first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"child: wait there are …
+child: yeah.
+child: open it!
+mother: you are not a girl?
+child: i’m little brother.
+mother: i incorrectly thought you were a girl.
+mother: holding it like this is fine.
+child: I should get the rope first.",no,no
+41,ChangPlay/4/15,4;06,mother,"CHI: 这不是我.
+MOT: 不是你吗?
+CHI: 你听错了.
+MOT: 什么我听错了.
+MOT: 他还碰一声.
+MOT: 我还以为你去撞到柜子了.
+CHI: 不是我.
+MOT: 是哥哥.",first_person,second_person,declarative,declarative,还,no,no,no,no,了,no,not_p,both,"child: this was not me. 
+mother: not you? 
+child: you misheard it. 
+mother: what did i mishear? (what? I misheard.)
+mother: he (it?) also made the bang sound. 
+mother: i incorrectly thought you went and hit the cabinet. 
+child: not me. 
+mom: it was brother.",no,no
+42,ChangPlay/5/3,6;00,mother,"MOT: 那怎么办?
+MOT: 它要怎样还击?
+MOT: 它最大.
+MOT: 是不是?
+MOT: 其他动物都很小很小啊.
+MOT: 它们都以为它会欺负它啊.
+MOT: 那你是不是要表示一下友善.
+MOT: 说,
+MOT: “诶你看.
+MOT: <我对>[//]我跟你们那么好.
+MOT: 你不要欺负我.
+MOT: 对不对?”",third_person,third_person,declarative,declarative,都,no,会,no,no,no,no,no,no,"mother: Then what to do?
+mother: How is it going to fight back?
+mother: It is the biggest. 
+mother: Right? 
+mother: The other animals are small. 
+mother: They incorrectly thought it was going to bully them. 
+mother: Then shouldn't you at least be a bit friendly?
+mother: Say,
+mother: “You see,
+mother: I treat…I’m good to you all
+mother: Don’t bully me.
+mother: Right?",no,no
+43,ChangPlay/5/15,5;07,mother,"MOT: 又把它藏在里面干嘛?
+CHI: 给它生啊.
+MOT: 马生出来就是马,不是蛋啦.
+CHI: 不要啦.
+CHI: 我要...
+MOT: 你以为你是<大象>[//]那个什么飞象,是不是?
+MOT: 用那个信天翁鸟然后把它送下来喔?",second_person,second_person,polar,declarative,no,no,no,no,no,no,no,pretend_play,no,"mother: why did you hide it inside again?
+child: to give birth to it.
+mother: horses are born horses, not eggs. 
+child: no. 
+child: i want... 
+mother: you thought you were (elephant) that dumbo, right?
+mother: using the albatross and then sending it down?",no,no
+44,ChangPN/grade2/171,8;01,child,CHI:	<我 还 以为>  [<] 你 说 我 要 看 医生 .,first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,p_alt,both,exp: do you remember when you visited the doctor? please tell me. you went to the doctor one time. child: i thought you said i need to see the doctor. exp: no,no,no
+45,ChangPN/grade2/173,8;01,child,CHI:	结果 妈妈 就是 以为 是 弟弟 .,third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p,after,child: why did you blow bubbles in the room? exp: enn child: it turns out mom thought (it) was little borther. and it turns out it actually is. exp: yeah. ah what happened then?,no,no
+46,ChangPN/grade2/176,7;09,child,CHI:	<然后>  [/] 然后 那个 (.) 因为 我 以为 他 在 瞪 我 .,first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"exp: (you?) scolded by grandma. what happened then? child: then, then because i thought he was staring at me. exp: oh and then. child: and then...",no,no
 47,ChangPN/grade2/190,7;08,child,CHI:        就 起床 了 以为 是 什么 东西 咧 .,dropped,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,both,"child: every time (i) ran towards that side. then accidentally tripped by datd's foot. and jumped on him. and (he) was startled. and then (he) woke up and thought it was something. exp: ah then what happened? child: then i told dad is brother! and brother went down to hide. and then dad said: ""but no one is here""",no,no
 48,ChangPN/grade2/194,7;07,child,"CHI: <然后>  [/] 然后 我 要 跑 去 上 厕所 的时候, 结果 我 以为 有 一 个 黑黑的 东西 是 蟑螂 .",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,after,"child: then no sometimes i am sleeping. then then when i need to go out and use the bathroom, it turns out i thought the black thing there was a spider. exp: and then? child: then i ran to and told my mom. exo: yeah. child: then mom just said there was no spider.",no,no
-49,ChangPN/grade4/227,10;05,child,"CHI:	然后 以为 牠 不 会 咬 人 .",dropped,third_person,declarative,declarative,no,no,不会,no,no,no,no,not_p,after,"child: dad took me to the teple. exp: yeah.  child: (we/i) saw a big black dog. exp: yeah. child: then (i) thought he didn't bite people. exp: yeah. child: when i was trying to pet him, then he was about to bite me.",no,no
-50,ChangPN/grade4/228,10;05,child,"CHI:	然后 我 以为 牠 还是 活的 ",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"child: then once there was a cockroach. it was dead for a long time,then (it) was just lying on the floor. then i thought it was still alive. so (i) used dad's shoes to press it.",no,no
-51,ChangPN/grade4/230,10;04,child,"CHI:	然后 结果 哥哥 <他>  [/] 他 以为 xxx 要 吓 我 .",third_person,third_person,declarative,declarative,no,no,要,no,no,no,no,not_p,after,child: then brother he thought xxx was going to scare me. but i wasn't scared. because the way that he scared me was strange,no,no
-52,ChangPN/grade1/151,7;04,child,"CHI:	<后来 我>  [/] 后来 我 以为 好 了 还 可以 吃 冰 .",first_person,dropped,declarative,declarative,no,no,可以,no,no,no,no,unclear (against what happened?),unclear (after),"child: then i thought i could eat ice (cream) after i'm recovered. then i started eating again, then i had asthma again. exp: really asthma again? child: yeah",no,no
-53,ChangPN/age6/102,6;02,child,"CHI:	然后 <我 以>  [//] 我 就 以为 他 不 要 啊 .",first_person,third_person,declarative,declarative,就,no,no,no,no,no,no,against what happened,after,"child: then brother said (he) doesn't want. then i thought he didn't want. then i took his bubble blower away. then brother took it back. exp: yeah. child: then i said ""you said (you) don't want (it)""",no,no
+49,ChangPN/grade4/227,10;05,child,CHI:	然后 以为 牠 不 会 咬 人 .,dropped,third_person,declarative,declarative,no,no,不会,no,no,no,no,not_p,after,"child: dad took me to the teple. exp: yeah.  child: (we/i) saw a big black dog. exp: yeah. child: then (i) thought he didn't bite people. exp: yeah. child: when i was trying to pet him, then he was about to bite me.",no,no
+50,ChangPN/grade4/228,10;05,child,CHI:	然后 我 以为 牠 还是 活的 ,first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"child: then once there was a cockroach. it was dead for a long time,then (it) was just lying on the floor. then i thought it was still alive. so (i) used dad's shoes to press it.",no,no
+51,ChangPN/grade4/230,10;04,child,CHI:	然后 结果 哥哥 <他>  [/] 他 以为 xxx 要 吓 我 .,third_person,third_person,declarative,declarative,no,no,要,no,no,no,no,not_p,after,child: then brother he thought xxx was going to scare me. but i wasn't scared. because the way that he scared me was strange,no,no
+52,ChangPN/grade1/151,7;04,child,CHI:	<后来 我>  [/] 后来 我 以为 好 了 还 可以 吃 冰 .,first_person,dropped,declarative,declarative,no,no,可以,no,no,no,no,unclear (against what happened?),unclear (after),"child: then i thought i could eat ice (cream) after i'm recovered. then i started eating again, then i had asthma again. exp: really asthma again? child: yeah",no,no
+53,ChangPN/age6/102,6;02,child,CHI:	然后 <我 以>  [//] 我 就 以为 他 不 要 啊 .,first_person,third_person,declarative,declarative,就,no,no,no,no,no,no,against what happened,after,"child: then brother said (he) doesn't want. then i thought he didn't want. then i took his bubble blower away. then brother took it back. exp: yeah. child: then i said ""you said (you) don't want (it)""",no,no
 54,ChangPN/age6/116,6;04,child,CHI:        我 以为 那 是 什么 东西 .,first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,child: when something sister saw a catapillar on me. i didn't even know. i thought it was something. exp: oh and then? child: as a result. siste rsaw it. then she was scared.,不知道,before
 55,ChangPN/grade3/201,9;01,child,"CHI:	<然后>  [<] 呢 <我 就>  [//] <我>  [/] 我 手 放 在 这 桌 上 的时候, 以为 旁边 有 人 .",dropped,third_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,after,"child: then i i when i put my hands on the table, (i) thought there was someone next to (me). then it turned out be a bowl that contains milk.",no,no
 56,ChangPN/grade3/206,8;11,child,"CHI:	然后 <一直 开>  [/] 一直 开 . 
@@ -67,86 +614,1205 @@ CHI:	就 觉得 很 奇怪 . ",first_person,dropped,declarative,declarative,no,n
 57,ChangPN/grade3/208,8;10,child,"*CHI:	我 以为 这 个 病 .
 *CHI:	为什么 每天 呢 +...
 *CHI:	+, 到 中午 就 很 想 睡觉 .",first_person,third_person,declarative,wh_question,no,no,no,no,no,no,no,no,no,"child:i thought this disease, why (i) want to sleep everyday around noon time. want to sleep around noon time.",no,no
-58,ChangPN/grade3/211,9;04,child,"CHI:	就是 本来 妈妈 以为 是 那个 玫瑰疹 啊 .",third_person,dropped,declarative,declarative,本来,no,是,no,no,no,本来,p_alt,after,"child: so originally mom thought it was Roseola infantum. then when (we/she) visited the doctor, the doctor said (it) was hives.",no,no
+58,ChangPN/grade3/211,9;04,child,CHI:	就是 本来 妈妈 以为 是 那个 玫瑰疹 啊 .,third_person,dropped,declarative,declarative,本来,no,是,no,no,no,本来,p_alt,after,"child: so originally mom thought it was Roseola infantum. then when (we/she) visited the doctor, the doctor said (it) was hives.",no,no
 59,ChangPN/grade3/211,9;04,child,"CHI:	+, 然后 本来 是 妈妈 以为 我 不 能 去 了 .",third_person,first_person,declarative,declarative,本来,no,不能,no,no,no,本来,against what happened,after,"child: then originally mom thought i couldn't go. but mom didn't know. after getting up, (i/it) was fine.",不知道,after
-60,ChangPN/age4/82,4;09,child,"CHI:	<他 呢>  [//] 他 以为 那里 <一>  [/] 一 个 人 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear (no),"child:  he. he thought there (was) a person. then (he) walked, walked on the street. exp: yeah. child: he, he just said ""whose butt hit me?"" exp: yeah. and then? child: then <they> <brother said> sister said: let's go. what are you doing? he said: ""someone hit my head."" she said: ""it's okay. let's just go.""",no,no
-61,ChangPN/age4/89,4;06,child,"CHI:	我 还 以为 是 蛇 .",first_person,dropped,declarative,declarative,还,no,是,no,no,no,no,p_alt,before,"child: dad said ""(it) is a lizard. exp: oh (it) is a lizard. child: i thought (it) was a snake. exp: (you?) thought it was a snake.",no,no
-62,ChangPN/age4/89,4;06,investigator,"EXP:	还 以为 是 蛇 .",dropped,dropped,declarative,declarative,还,no,是,no,no,no,no,p_alt,before,"child: dad said ""(it) is a lizard. exp: oh (it) is a lizard. child: i thought (it) was a snake. exp: (you?) thought it was a snake.",以为,before
-63,ChangPN/age4/89,4;06,child,"CHI:	<我 不 知道 哥哥>  [//] <然后 我 以为>  [//] 然后 我 走 过去 又 踏一踏 .",first_person,unclear,declarative,unclear,no,no,no,no,no,no,no,unclear,unclear,"child: and the (she?) kept stepping, stepping, stepping. i don't know brother, then i thought. then i went over and stepped and stepped",no,no
-64,ChangPN/age5/63,5;04,child,"CHI:	那 一 次 <以为>  [//] 我 以为 有 一 只 蟑螂 跑 来 这 边 .",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p,after,"exp: okay. tell me, do you remember what happened when your mom was startled? child: that time. thought. i thought there was a cockroach running towards here. exp: your houce, isn't it? child: yeah. exp: there is a cockroach. child: yeah.",no,no
+60,ChangPN/age4/82,4;09,child,CHI:	<他 呢>  [//] 他 以为 那里 <一>  [/] 一 个 人 .,third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear (no),"child:  he. he thought there (was) a person. then (he) walked, walked on the street. exp: yeah. child: he, he just said ""whose butt hit me?"" exp: yeah. and then? child: then <they> <brother said> sister said: let's go. what are you doing? he said: ""someone hit my head."" she said: ""it's okay. let's just go.""",no,no
+61,ChangPN/age4/89,4;06,child,"CHI: 爸爸就说:
+CHI: ""是蜥蜴.
+EXP: 喔是蜥蜴.
+EXP: 然后呢?
+CHI: 我还以为是蛇.
+EXP: 还以为是蛇.
+EXP: 然后呢?
+EXP: 就没啰?",first_person,dropped,declarative,declarative,还,no,是,no,no,no,no,p_alt,before,"child: dad said 
+child: ""(it) is a lizard. 
+experimenter: oh (it) is a lizard. 
+experimenter: and then?
+child: i incorrectly thought (it) was a snake. 
+exp: (you) incorrectly thought it was a snake.
+experimenter: and then?
+experimenter: that’s it?",no,no
+62,ChangPN/age4/89,4;06,investigator,"CHI: 爸爸就说:
+CHI: ""是蜥蜴.
+EXP: 喔是蜥蜴.
+EXP: 然后呢?
+CHI: 我还以为是蛇.
+EXP: 还以为是蛇.
+EXP: 然后呢?
+EXP: 就没啰?",dropped,dropped,declarative,declarative,还,no,是,no,no,no,no,repeating,before,"child: dad said 
+child: ""(it) is a lizard. 
+experimenter: oh (it) is a lizard. 
+experimenter: and then?
+child: i incorrectly thought (it) was a snake. 
+exp: (you) incorrectly thought it was a snake.
+experimenter: and then?
+experimenter: that’s it?",以为,before
+63,ChangPN/age4/89,4;06,child,CHI:	<我 不 知道 哥哥>  [//] <然后 我 以为>  [//] 然后 我 走 过去 又 踏一踏 .,first_person,unclear,declarative,unclear,no,no,no,no,no,no,no,unclear,unclear,"child: and the (she?) kept stepping, stepping, stepping. i don't know brother, then i thought. then i went over and stepped and stepped",no,no
+64,ChangPN/age5/63,5;04,child,CHI:	那 一 次 <以为>  [//] 我 以为 有 一 只 蟑螂 跑 来 这 边 .,first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p,after,"exp: okay. tell me, do you remember what happened when your mom was startled? child: that time. thought. i thought there was a cockroach running towards here. exp: your houce, isn't it? child: yeah. exp: there is a cockroach. child: yeah.",no,no
 65,ChangPN/age5/65,5;02,child,CHI:        我 以为 那 个 是 坏人 .,first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"exp: can you tell me, do you remember what happened when you were startled? child: yeah mom was walking over from there. i thought that was a bad person. exp: oh. and then? child: Done/nothing more.",no,no
 66,ChangPN/age5/94,5;09,child,"CHI: 然后 <妈>  [/] 妈妈 以为 牠 要 咬 她 的 脚, 结果 是 闻 她 的 脚  [=! laughs]",third_person,third_person,declarative,declarative,no,no,要,no,no,no,no,p_alt,after,"child: then mom thought it was going to bite her feet., then it turned out (it) was smelling her feet.",no,no
 67,ChangPN/age5/97,5;08,child,"CHI:        然后 <他 就 你>  [//] <你 要 拿 的 那个>  [//] 他 以为 是 他 自己 先 拿 到 的, 所以 是 他 的 .",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,after,"child: then he you // you need to take that // he thought that it was him who got it first, so it is his. exp: yeah. child: then i did first // it's me who got it first ",no,no
-68,Erbaugh/Peng/14,2;05,adult,"ADU1:	我 以为 是 婆婆 做 的 .",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,before,adult: who made this? child: uncle made (it). adult: oh! it was uncle who made it? i thought it was made by grandma.,no,no
-69,Erbaugh/Peng/14,2;05,adult,"ADU1:	我 以为 他 在 xxx . ",first_person,third_person,declarative,declarative,no,no,no,no,在,no,no,no,no,child: this is a fan. sis: look at this person. adult: i thought he was xxx. hehe. what is that? child: a box.,no,no
-70,Erbaugh/Peng/16,2;06,sister,"SIS:	啊 ‡ 我 刚 还 以为 只有 这 一边 呢 .",first_person,dropped,declarative,declarative,刚，还,no,no,no,no,no,刚,against what happened at the scene,no,child: ah i just/before thought there was only one side.,no,no
-71,Erbaugh/Peng/19,2;08,adult,"ADU:	我 以为 是 割 破 的 .",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,before,adult: oh (it is) drawn not sliced? child: yeah. adult: i thought (it was) sliced.,no,no
-72,Erbaugh/Peng/20,2;08,adult,"ADU:	我 还 以为 一 个 是 姐姐 的 .",first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,p_alt,before,adult: oh both of them are yours? child: yeah. adult: i thought one was sister's.,no,no
-73,Erbaugh/Peng/22,2;10,adult,"ADU:	我 以为 是 那个 .",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,adult: what is this. child: is this a windmill. adult: is this broken? is there supposed to be a head on top? mom: no. adult: is it supposed to be like this? mom: decoration. decoration. adult: i thought it was that. african. african people with two hoop earrings.,no,no
-74,Erbaugh/Peng/22,2;10,adult,"ADU:	我 以为 是 真的 .",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,before,adult: (are you) making a fake one? child: yeah. adult: i thought (it) is real.,no,no
-75,Erbaugh/Peng/22,2;10,adult,"ADU:	我 以为 你 要 开 电视 呢 .",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,not_p,before,adult: you don't (want to?) turn the tv off? child: turn the tv off. adult: i thought you wanted to turn the tv on.,no,no
-76,Erbaugh/Peng/22,2;10,adult,"ADU:	我 以为 你 不 要 了 嘛 . ",first_person,second_person,declarative,declarative,no,no,不要,no,no,no,no,not_p,after,child: don't turn the lights off. adult: you still want to see? i thought you didn't want to. child: (i) want!,no,no
+68,Erbaugh/Peng/14,2;05,adult,"ADU1: 这个真的是做的很棒.
+ADU1: 这个是谁做的?
+CHI: 姨夫做的.
+ADU1: 哦!
+ADU1: 是姨夫做的啊?
+ADU1: 我以为是婆婆做的.
+ADU1: 这么漂亮的一个汽车.
+ADU1: 糟糕.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,before,"adult: This is really well done.
+adult: Who made this? 
+child: (This was) made by uncle. 
+adult: Oh! 
+adult: It was uncle who made it? 
+adult: I incorrectly thought it was made by grandma.
+adult: Such a beautiful car.
+adult: Oh no!",no,no
+69,Erbaugh/Peng/14,2;05,child,"ADU1: 这个是谁盖得大象.
+CHI: 婆婆.
+ADU1: 婆婆呀.
+CHI: 这是扇子.
+AUD1: 哦扇子啊
+SIS: 诶孩名你看这个人哦!
+(some farting-like noise)
+CHI: 我以为他在放屁.
+ADU1: 嘿嘿.
+CHI: 盒子在哪里呀？
+ADU1: 什么东西?",first_person,third_person,declarative,declarative,no,no,no,no,在,no,no,no,no,"adult: who built this elephant?
+child: grandma
+adult: oh grandma.
+child: this is a hand fan.
+adult: oh a hand fan.
+sister: hey, <kid’s name> look at this person!
+(some farting-like noise)
+child: i incorrectly thought he was farting.
+adult: hehe
+child: where is the box?
+adult: what?",no,no
+70,Erbaugh/Peng/16,2;06,sister,"CHI: 流血了.
+ADU 对.
+CHI: 没有了.
+SIS: 没有了啦.
+SIS: 哇,这好漂亮诶.
+SIS: 啊,我刚还以为只有这一边呢.
+ADU: 这是什么?
+SIS: 这边我来分吧.
+SIS: 这边的是在陆地上这边的是在海里的.",first_person,dropped,declarative,declarative,刚，还,no,no,no,no,no,刚,no,no,"child: It’s bleeding.
+adult: Yeah.
+child: There is no more.
+sister: This is no more.
+sister: Wow, this is so pretty.
+sister: Ah, just now I still incorrectly thought there was only this side.
+adult: What is this?
+sister: Let me divide this side.
+sister: This side is on land, this side is in the ocean.",no,no
+71,Erbaugh/Peng/19,2;08,adult,"ADU: 你不是女生吗?
+ADU: 你这个手这么搞的?
+CHI: 画画的.
+ADU: 哦,画画的不是割破的?
+CHI: 恩.
+ADU: 我以为是割破的.
+SIS: 啊,不要再乱打听(?).
+CHI: 还有我耳朵好痛哦.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,before,"adult: Aren’t you a girl?
+adult: What’s wrong with your hand?
+child: (it is) drawn.
+adult: Oh (it is) drawn, not cut? 
+child: Yeah. 
+adult: I incorrectly thought (it was) cut.
+sister: Ah, don’t ask around anymore.
+child: Also, my ear hurts.",no,no
+72,Erbaugh/Peng/20,2;08,adult,"ADU: 那个是谁的啊?
+CHI: 这是我的这个是我的.
+ADU: 两个都是你的啊?
+CHI: 对啊.
+CHI: 我去帮你放在玻璃板底下,好不好?
+ADU1: 对,那个鞋子大了他不穿.
+ADU: 哦.
+ADU1: 她不穿的话要给她买个小一点的.
+ADU: 哦,两个都是你的啊?
+CHI: 恩.
+ADU: 我还以为一个是姐姐的.
+CHI: 这个也是红这个也是红.",first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,p_alt,before,"adult: whose is that?
+child: this is mine, this is mine.
+adult: the two are both yours?
+child: yeah.
+child: i’ll put it under the glass for you, okay?
+adult1: yeah, if the shoes are too big, she won’t wear them.
+adult: oh.
+adult: if she’s not wearing, buy her a smaller one.
+adult: oh both of them are yours? 
+child: yeah.
+adult: i incorrectly thought one was sister's.
+child: this one is red, this one is also red.",no,no
+73,Erbaugh/Peng/22,2;10,adult,"ADU: 这是不是坏掉了?
+ADU: 上面应该有一个头吗?
+MOT: 没有,就是这样.
+ADU: 就是应该这样子啊?
+MOT: 装饰品装饰品啊.
+ADU: 我以为是那个.
+MOT: 非洲.
+ADU: 非洲黑人然后两个大耳环.
+MOT: 没看到有头.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,no,no,"adult: is this broken?
+adult: is there supposed to be a head on top? 
+mother: no, it is like this. 
+adult: is it supposed to be like this? 
+mom: decoration. decoration. 
+adult: i incorrectly thought it was that. 
+mother: african. 
+adult: black people from africa with two big hoop earrings.
+mother: (i) don’t see a head.",no,no
+74,Erbaugh/Peng/22,2;10,adult,"CHI: 我会吃冰淇淋.
+CHI: 我会做冰淇淋.
+CHI: 要冰淇淋.
+ADU: 做假的啊?
+CHI: 嗯.
+ADU: 我以为是真的.
+ADU: 呵呵呵.
+CHI: 假的可以吃下去",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,both,"child: I can eat ice cream. (I know how to eat ice cream).
+child: i can make ice cream. (i know how to make ice cream).
+child: want ice cream.
+adult: (are you) making a fake one? 
+child: yeah. 
+adult: incorerctly i thought (it) was real.
+adult: hehehe
+child: you can eat the fake one.",no,no
+75,Erbaugh/Peng/22,2;10,adult,"ADU: 你那么喜欢关电视啊?
+CHI: 对.
+ADU: 你不是开电视又关电视呢吗. (inaudible)
+CHI: 关电视!
+ADU: 我以为你要开电视呢.
+CHI: 嗯哎噗.",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,not_p,before,"adult: you like turning off the tv that much?
+child: yeah
+adult: didn’t you turn on and off the tv.
+child: turn off the tv. 
+adult: i incorrectly thought you wanted to turn the tv on.
+child: mmmm, eh",no,no
+76,Erbaugh/Peng/22,2;10,adult,"CHI: 还有小虫子.
+ADU: 嗯.
+CHI: 带这个.
+CHI: 不要关灯嘛.
+ADU: 你还要看哪?
+CHI: 嗯
+ADU: 好好好, 我以为你不要了嘛.
+CHI: 要啊.
+ADU: 那是什么东西?",first_person,second_person,declarative,declarative,no,no,不要,no,no,no,no,not_p,both,"child: also little bugs.
+adult: yeah.
+child: bring this one.
+child: don’t turn the lights off.
+adult: you still want to watch?
+child: yeah
+adult: okay okay okay, i incorrectly thought you didn't want to.
+child: (i) want!
+adult: what is that?",no,no
 77,Erbaugh/Zhong/1,2;07,child,"CHI1:	xxx 以为 陆 妈妈 , 陆 伯伯 <带 你>  [/] 带 你 回来 .",unclear,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"child: still a small knife. xxx thought aunt lu, uncle lu, bring you back. he still hasn't come up for a while. he thought he xxx. he still hasn't opended the door xxx.",no,no
-78,Erbaugh/Zhong/1,2;07,child,"CHI1:	他 以为 他 xxx .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"child: still a small knife. xxx thought aunt lu, uncle lu, bring you back. he still hasn't come up for a while. he thought he xxx. he still hasn't opended the door xxx.",no,no
-79,Erbaugh/Zhong/3,2;07,adult,"ADU:	我  [/] 我 以为 +...",first_person,unclear,declarative,unclear,no,no,no,no,no,no,no,unclear,unclear,father: it is niuniu. adult: ah. i thought ... father: hahaha,no,no
-80,Erbaugh/Zhong/7,2;07,mother,"MOT:	她 以为 我 走 了 .",third_person,first_person,declarative,declarative,no,no,no,no,no,no,no,against what happened at the scene,no,child: mom mom. mom: ah you made the strings look like this again. adult: i'm putting this. mom: she thought i left.,no,no
-81,Erbaugh/Laohu/3,2;00,adult,"ADU:	哦 ‡ 我 以为 是 .",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,adult: what is this wrinkled thing? i dont know. child: a blue pencil. adult: oh i thought (it) is...,no,no
-82,Erbaugh/Kang/9,3;02,child,"CHI:	我 以为 你 把 巧克力 丢 掉 了 .",first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,child: did mom store the chocolate away? mom: yeah. child: i thought you threw it away. mom: why? you like eating it. why would i throw it away. i know you like it.,no,no
-83,Erbaugh/Kang/13,3;04,mother,"MOT:	我 以为 是 一 个 小 包包 呢 .",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,mom: who are these two? child: it's xiaoxin. mom: ithought it is a small bag (?),no,no
-84,Erbaugh/Kang/13,3;04,mother,"MOT:	他 说 他 以为 这 是 小 鸡 吃 米 的 时候 嚼 不 动 嘞 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"child: he said he thought this was when chicks are eating rice, (it?) cannot be chewed.",no,no
-85,Erbaugh/Kang/13,3;04,mother,"MOT:	他 说 他 以为 是 小 鸡 吃 米 搞 的 .",third_person,third_person,declarative,declarative,no,no,是,no,no,no,no,unclear,unclear,child: he said he thought it was because the chicks are eating rice,no,no
-86,Erbaugh/Kang/15,3;05,mother,"MOT:	哦 我 以为 是 蛋炒饭 呢 .",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,mom: oh you want t o put these into the cup. ah oh these are beans. child: yes. mom: oh i thought (it) was fried rice.,no,no
-87,Erbaugh/Kang/15,3;05,adult,"ADU1:	他 看 不见 了 他 就 以为 不 危险 了 鸵鸟 不 太 聪明 对 不 对 .",third_person,dropped,polar,declarative,就,no,no,no,no,no,no,not_p,after,"adult: he couldn't see. he thought (it was) not dangerous. the ostrich is not really smart, right? child: right. adult: just like that (sobbing noise. wuwuwu) help. then (it is) not dangerous. in fact, the danger is still there, right?",no,no
-88,Erbaugh/Kang/19,3;07,mother,"MOT:	我 以为 没有 橘黄 色 .",first_person,dropped,declarative,declarative,no,no,no,no,no,没有,no,not_p,before,mother: there is the orange color. i thought (there is) no orange color.,no,no
-89,Erbaugh/Kang/20,3;08,mother,"MOT:	就 以为 这 两 个 巨人 还 在 这里 .",dropped,third_person,declarative,declarative,就,no,no,no,no,no,no,no,no,"(context: telling the story of two giants fought bad people and chased them away) mom: then because they were worried that the bad people that were chased away would come back and bully them. so (they) put the protraits of these two people. put up shentu and yulei's protraits. put (them) up on this side. once those bad people saw (the protraits), they wouldn't dare to come back. so (they) thought the two giants were still here. (the bad people) didn't dare to come back. so (the protrait) of these two people were put up on the door. this thing. and then these two people became the door gods.",no,no
-90,Erbaugh/Kang/20,3;08,mother,"MOT:	我 以为 我 看到 一 个 朋友 .",first_person,first_person,declarative,declarative,no,no,no,no,no,no,no,p,after,mom: i thought i saw a friend. child: you had a friend on the road. mom: yeah. this might actually be my friend. so please drive slowly. i look carefully if it is her.,no,no
-91,Erbaugh/Kang/21,3;08,child,"CHI:	河马 以为 一 个 钢琴 .",third_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,child: the hippo saw there was a kite. the hippo thought it (was) a piano. he thought it was a tooth. and didn't dare to touch it.,no,no
-92,Erbaugh/Kang/21,3;08,child,"CHI:	他 以为 是 一 个 牙 .",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,child: the hippo saw there was a kite. the hippo thought it (was) a piano. he thought it was a tooth. and didn't dare to touch it.,no,no
-93,Erbaugh/Kang/21,3;08,mother,"MOT:	他 以为 那 是 一 个 大 怪物 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,mom: he thought that was a big monster. he said this monster had a big mouth. that's so awesome. must be scary.,no,no
-94,Erbaugh/Kang/21,3;08,child,"CHI:	你 以为 那 是 一 个 拼图 .",second_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,after,child: you thought that is a jigsaw. jigsaw. but (it) turns out to be a piece of those paper.,no,no
-95,Erbaugh/Kang/22,3;08,mother,MOT:        我 以为 你 知道 的 是 抽签 的 呢 ?,first_person,second_person,polar,declarative,no,no,no,no,no,no,no,alt_p,after,mom: it is not the kind of thing you worship in a temple ... mom: i thought you know it was the lottery-based one. child: what does lottery mean?,no,no
-96,Erbaugh/Kang/23,3;09,mother,"MOT:	我 以为 叫 xxx .",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,mom: why is he called xxx. i thought (he) is called xxx.,no,no
-97,Tong/20719,2;07,mother,"MOT:	你 以为 打针 不 疼 啊 .",second_person,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"mother: (you) can't put your hands into your mouth. there are a lot of germs in the hostpital. then (if) you chew on your hand, you'll be sick just like grandma. (you'll) be in bad and have iv. (it) hurts. you thought having injections won't hurt. nurse is going injected it in. father: don't scare him.",no,no
-98,Tong/30306,3;03,child,"CHI:	我 以为 那 个 鞋 扔  [/] <扔 到>  [/] 扔 到 垃圾 桶 里 去 了 呢 „ 我 以为 .",first_person,third_person,declarative,declarative,no,no,no,no,no,了,no,p_alt,before,child: why is the little frog shoes still here? mom: oh the little frog shoes when tongtong was young. (i) don't know if they still fit . child: i i forgot that pair of shoes. i thought that pair of shoes (was) thrown into the trash can. i thought. it seems like ... mom: these shoes... probably are still wearable. but (you) have new shoes now. that grandma bought you a new pair of shoes,no,no
+78,Erbaugh/Zhong/1,2;07,child,CHI1:	他 以为 他 xxx .,third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"child: still a small knife. xxx thought aunt lu, uncle lu, bring you back. he still hasn't come up for a while. he thought he xxx. he still hasn't opended the door xxx.",no,no
+79,Erbaugh/Zhong/3,2;07,adult,ADU:	我  [/] 我 以为 +...,first_person,unclear,declarative,unclear,no,no,no,no,no,no,no,unclear,unclear,father: it is niuniu. adult: ah. i thought ... father: hahaha,no,no
+80,Erbaugh/Zhong/7,2;07,mother,"ADU: 嗯.
+CHI: 妈妈[/]妈妈.
+MOT: 啊.
+MOT: 你又把线弄成这个样子.
+ADU: 我在装这.
+MOT: 她以为我走了.
+MOT: 呵呵.
+MOT: 好了.",third_person,first_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"adult: Yeah.
+child: mom mom. 
+mother: ah 
+mother: You messed up the cables again. 
+adult: I'm putting this.
+mother: She incorrectly thought I left.
+mother: Hehe.
+mother: Okay.",no,no
+81,Erbaugh/Laohu/3,2;00,adult,ADU:        哦 ‡ 我 以为 是 (inaudible).,first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,adult: what is this wrinkled thing? i dont know. child: a blue pencil. adult: oh i thought (it) is...,no,no
+82,Erbaugh/Kang/9,3;02,child,CHI:	我 以为 你 把 巧克力 丢 掉 了 .,first_person,second_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,child: did mom store the chocolate away? mom: yeah. child: i thought you threw it away. mom: why? you like eating it. why would i throw it away. i know you like it.,no,no
+83,Erbaugh/Kang/13,3;04,mother,"MOT: 有的时候带有的时候不带.
+MOT: 呵呵.
+MOT: 这两个是谁啊?
+CHI: 是小新.
+MOT: 我以为是一个小包包呢.
+CHI: <呵呵>[/]呵呵.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,"mother: sometimes (she) carry (it), sometimes she doesn’t 
+mother: hehe.
+mother: who are these two?
+child: it's xiaoxin. 
+mother: i incorrectly thought it was a small bag (?)
+child: hehe",no,no
+84,Erbaugh/Kang/13,3;04,mother,"MOT: 你说这个亮晶晶的好看吧?
+CHI: 呵呵呵呵跳舞!
+MOT: 恩?
+CHI: 哦吼吼吼.
+MOT: 他说他以为这是小鸡吃米的时候嚼不动嘞.
+MOT: 他说他以为是小鸡吃米搞的.
+CHI: 都不嚼吗?",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: you said this sparkling is pretty, right?
+child: hehehehe dance!
+mother: what?
+child: oh hohoho.
+mother: he said he thought this was when chicks are eating rice, (it?) cannot be chewed.
+mother: he said he thought it was because the chicks are eating rice.
+child: didn’t chew at all?",no,no
+85,Erbaugh/Kang/13,3;04,mother,"MOT: 你说这个亮晶晶的好看吧?
+CHI: 呵呵呵呵跳舞!
+MOT: 恩?
+CHI: 哦吼吼吼.
+MOT: 他说他以为这是小鸡吃米的时候嚼不动嘞.
+MOT: 他说他以为是小鸡吃米搞的.
+CHI: 都不嚼吗?",third_person,third_person,declarative,declarative,no,no,是,no,no,no,no,no,no,"mother: you said this sparkling is pretty, right?
+child: hehehehe dance!
+mother: what?
+child: oh hohoho.
+mother: he said he thought this was when chicks are eating rice, (it?) cannot be chewed.
+mother: he said he thought it was because the chicks are eating rice.
+child: didn’t chew at all?",no,no
+86,Erbaugh/Kang/15,3;05,mother,"MOT: 小豆豆会掉会滚开.
+CHI: 这样放xxx.
+MOT: 哦,你要把这些都放到杯子里头啊, 哦, 这些都是豆子啊.
+CHI: 对.
+MOT: 哦我以为是蛋炒饭呢.
+CHI: 那个把把插在上面的小豆豆拔下来.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,"mother: the little bean will fall, move away.
+child: put it this way.
+mother: oh you want to put these into the cup. oh, these are beans. 
+child: yes. 
+mother: oh i incorrectly thought (it) was fried rice.
+child: that..pull out the little bean that is inserted on top.",no,no
+87,Erbaugh/Kang/15,3;05,adult,"ADU1: 你知道它害怕时它怎么办嘛?
+CHI: 跑.
+ADU1: 他跑然后跑完以后呢.
+ADU1: 他就把地上挖一个洞然后把头放进洞里头.
+CHI: 干嘛啊?
+ADU1: 他看不见了他就以为不危险了鸵鸟不太聪明对不对.
+CHI: 对.
+ADU1: 就像这样子呜呜呜救命就不危险了,其实危险还在对不对.",third_person,dropped,polar,declarative,就,no,no,no,no,no,no,not_p,after,"adult: you know what it will do when it gets scared?
+child: run.
+adult: it runs, and then what happens after running?
+adult: it digs a hole in the ground and puts its head into the hole.
+child: why?
+adult: he couldn't see. He then incorrectly thought (it was) not dangerous. the ostrich is not really smart, right?
+child: right. 
+adult: just like that woo woo woo, help. then (it is) not dangerous. in fact, the danger is still there, right?",no,no
+88,Erbaugh/Kang/19,3;07,mother,"MOT: 哎.
+MOT: 你要下去吃五香乖乖的话你就存不下钱来.
+MOT: 你就没办法买很多很多的东西!
+CHI: 什么啊?
+MOT: 这有橘黄色.
+MOT: 我以为没有橘黄色.
+CHI: 找橘黄色干嘛啊?
+MOT: 我要画颜色啊.",first_person,dropped,declarative,declarative,no,no,no,no,no,没有,no,not_p,before,"mother: ah,
+mother: if you go and eat Wu xiang guai guai (food), you cannot save money.
+mother: so you cannot buy a lot of stuff.
+child: what?
+mother: there is the orange color. 
+mother: i incorrectly thought (there is) no orange color.
+child: why are you looking for the orange color?
+mother: i need to color it.",no,no
+89,Erbaugh/Kang/20,3;08,mother,"MOT: 那么因为他们怕那些被赶走的坏人再来欺负他们.
+MOT: 所以就在门上面贴了这两个人的像.
+MOT: 贴着神荼跟郁垒的像.
+MOT: 贴在这边.
+MOT: 那些坏人一看就不敢来了.
+MOT: 就以为这两个巨人还在这里.
+MOT: 不敢来了.
+MOT: 所以后来这两人贴在门上.
+MOT: 这个东西.
+MOT: 这两个人就变成门神.",dropped,third_person,declarative,declarative,就,no,no,no,no,no,no,no,no,"(context: telling the story of two giants who fought bad people and chased them away) 
+mother: so then, because they were worried that the bad people who were chased away would come back and bully them. 
+mother: so (they) put the portraits of these two people. 
+mother: put up shentu and yulei's portraits.
+mother: put (them) up on this side. 
+mother: once those bad people saw (the portraits), they wouldn't dare to come back. 
+mother: (they would) incorrectly think the two giants were still here. 
+mother: (the bad people) didn't dare to come back. 
+mother: so these two people were put up on the door. 
+mother: this thing. 
+mother: and then these two people became the door gods.",no,no
+90,Erbaugh/Kang/20,3;08,mother,"MOT: 没什么.
+CHI: 在哎一个什么?
+MOT: 没什么.
+MOT: 我以为我看到一个朋友.
+CHI: 你路上有一个朋友.
+MOT: 嗯.
+MOT: 这个好像真的是我的朋友.
+MOT: 所以的话请你开慢一点.
+MOT: 我仔细看看是不是她?",first_person,first_person,declarative,declarative,no,no,no,no,no,no,no,uncertainty,after,"mother: nothing.
+child: why are you saying “ah?”
+mother: nothing
+mother: i (incorrectly) thought i saw a friend. 
+child: you had a friend on the road. 
+mother: yeah. 
+mother: this might actually be my friend.
+mother: so please drive slowly. 
+mother: i will look carefully if it is her.",no,no
+91,Erbaugh/Kang/21,3;08,child,CHI:	河马 以为 一 个 钢琴 .,third_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,child: the hippo saw there was a kite. the hippo thought it (was) a piano. he thought it was a tooth. and didn't dare to touch it.,no,no
+92,Erbaugh/Kang/21,3;08,child,CHI:	他 以为 是 一 个 牙 .,third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,child: the hippo saw there was a kite. the hippo thought it (was) a piano. he thought it was a tooth. and didn't dare to touch it.,no,no
+93,Erbaugh/Kang/21,3;08,mother,"MOT: 河马为什么怕牙呢?
+CHI: 故事啊.
+MOT: 这是一个好玩的东西 .
+MOT: 这是一个<好玩>[/]好玩的东西. 
+MOT: 你告诉蒋阿姨为什么要怕你牙呢?
+CHI: 不知道.
+MOT: 我知道.
+MOT: 我讲了.
+MOT: 他以为那是一个大怪物.
+MOT: 他说这怪物的嘴巴这么大.
+MOT: 这么厉害.
+MOT: 一定很可怕.",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: Why is the hippo afraid of teeth?
+child: A story.
+mother: This is a funny thing.
+mother: This is a funny thing.
+mother: Tell Aunty Jiang, why (is it) afraid of your teeth?
+child: (I) don’t know.
+mother: I know.
+mother: I’ll tell.
+mother: He incorrectly thought that was a big monster. 
+mother: He said this monster had a big mouth. 
+mother: That's so awesome. 
+mother: Must be scary.",no,no
+94,Erbaugh/Kang/21,3;08,child,CHI:	你 以为 那 是 一 个 拼图 .,second_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p_alt,after,child: you thought that is a jigsaw. jigsaw. but (it) turns out to be a piece of those paper.,no,no
+95,Erbaugh/Kang/22,3;08,mother,"MOT: 啊,抽签啊.假装这里有签.
+CHI: 抽签干嘛?
+MOT: 拜神以后要抽签啊.
+MOT: 忘了吗? 
+MOT: 你有一天不是这样玩的吗?
+CHI: 那个是算命的.
+MOT: 哦,是算命的啊. 
+MOT: 不是庙里面拜拜的.
+CHI: 对.
+ADU: 哦,是算命.
+ADU: 你看谁算命了.
+CHI: 很好.
+MOT: 我以为你知道的是抽签的呢?
+CHI: 什么叫抽签呐?
+MOT: 抽签啊就是你在庙里拜拜,对不对.
+MOT: 你给神磕完头.
+MOT: 庙里有一个筒子.
+MOT: 就像这样.
+MOT: 比这个大一点.
+MOT: 那个筒里也放了很多签子.
+MOT: <一根>[/]一根的.
+MOT: 这样<哗啦>哗啦晃.
+MOT: 就拿出一根来. 
+MOT: 那签上有字.",first_person,second_person,polar,declarative,no,no,no,no,no,no,no,p_alt,after,"mother: Ah, let’s draw fortune sticks. Just pretend there are sticks. 
+child: Why draw fortune sticks?
+mother: After praying to the gods, you draw fortune sticks.
+mother: Did you forget?
+mother: Did you play it like this one day?
+child: It was for fortune-telling.
+mother: Oh, it was for fortune-telling.
+mother: Not for praying in a temple.
+child: Yeah.
+adult: Oh, it’s fortune-telling.
+adult: See, how did fortune-telling?
+child: Very good.
+mother: I incorrectly thought you knew it was drawing fortune sticks.
+child: What does drawing fortune sticks mean?
+mother: Drawing fortune sticks is like after you pray in the temple, right?
+mother: After you finish kowtowing ot the gods.
+mother: There is a fortune stick tube/container.
+mother: Just like this.
+mother: A little bit bigger than this.
+mother: There are a lot of sticks in the tube.
+mother: One by one.
+mother: (You) shake it like this – rattle rattle.
+mother: Then take one stick out.
+mother: There are words on the stick.",no,no
+96,Erbaugh/Kang/23,3;09,mother,"MOT: 中午出太阳.
+MOT: 我想着你很热.
+MOT: 我也不知道要咋们办(怎么办)?
+MOT: 他咋叫骈顾. (not sure about the characters)
+MOT: 我以为叫骈顾唐.
+CHI: 是什么?",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"mother: the sun was out at noon.
+mother: it hought you would be warm.
+mother: i also didn’t know what to do.
+mother: why is he called Piangu?
+mother: i though (he is) called Piangu tang.
+child: what is it?",no,no
+97,Tong/20719,2;07,mother,"FAT: 医院里不能把手放在嘴里.
+MOT: 医院里面好多病菌哦.
+MOT: 到时候吃了手就生病了像外婆一样.
+MOT: 躺在床上要打吊针.
+MOT: 疼啊.
+MOT: 你以为打针不疼啊.
+MOT: 滋(making the injection sound/模拟打针的声音).
+MOT: 护士阿姨给你戳进去.
+MOT: 滋(making the injection sound)
+FAT: 别吓唬他.",second_person,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"father: Don’t put your hands into your mouth in the hospital.
+mother: There are lots of germs in the hospital.
+mother: Then if you such on your hands (put your hands in your mouth), you’ll get sick, like grandma.
+mother: You’ll lie in bed and have to get an IV.
+mother: It will hurt.
+mother: You incorrectly thought having an IV wouldn’t hurt.
+mother: (making the noise of an injection)
+mother: The nurse pokes it in.
+mother: (making the noise of an injection)
+father: Don’t scare him.",no,no
+98,Tong/30306,3;03,child,CHI:	我 以为 那 个 鞋 扔  [/] <扔 到>  [/] 扔 到 垃圾 桶 里 去 了 呢 „ 我 以为 .,first_person,third_person,declarative,declarative,no,no,no,no,no,了,no,p_alt,before,child: why is the little frog shoes still here? mom: oh the little frog shoes when tongtong was young. (i) don't know if they still fit . child: i i forgot that pair of shoes. i thought that pair of shoes (was) thrown into the trash can. i thought. it seems like ... mom: these shoes... probably are still wearable. but (you) have new shoes now. that grandma bought you a new pair of shoes,no,no
 99,Tong/30306,,child,"CHI: 你以为我有两...
 CHI: 你[/]你以为我有两个名字啊?",,,,,,,,,,,,,,,,
 100,Tong/30306,3;03,child,"CHI: 你以为我有两...
 CHI: 你[/]你以为我有两个名字啊?",second_person,first_person,polar,declarative,no,no,no,no,no,no,no,p_alt,both,child: did you forget i have three names? mom: yeah. child: ah? you thought i had two... did you think i had two names? child: i...originally i have ... i only... originally i only have three names. mom: oh,no,no
-101,Xinjiang/ENNI/201209/dez306,5;06,child,"CHI:	然后 就 把  [/] 把 他 <拿 水>  [/] 拿 飞机 拿 着  [/] 以为 拿 不 上 了 .",dropped,dropped,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,child: you guys play. i want to take the plane in the water and bring it up. you guys play. then (i? you?) will and then he said then bring the water. bring the plane. (he? i?) thought (he? i?) couldn't bring it up. then he cried.,no,no
+101,Xinjiang/ENNI/201209/dez306,5;06,child,CHI:	然后 就 把  [/] 把 他 <拿 水>  [/] 拿 飞机 拿 着  [/] 以为 拿 不 上 了 .,dropped,dropped,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,child: you guys play. i want to take the plane in the water and bring it up. you guys play. then (i? you?) will and then he said then bring the water. bring the plane. (he? i?) thought (he? i?) couldn't bring it up. then he cried.,no,no
 102,Xinjiang/ENNI/201303/jgd101,,child,"CHI: 大象和马看到那[/]那个以为是大象和马.
 CHI: 以为又是一个兔子.",third_person,dropped,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,child: then that horse saw. then (the horse) swam to grab that ball. then (it) brought (the ball) to the elephant. then the elephant liked that horse a lot. then the horse was very tired. the elephant and the horse saw that and thought it was the elephant and the horse. (they) thought it was a rabbit again.,no,no
 103,Xinjiang/ENNI/201303/jgd101,7;00,child,"CHI: 大象和马看到那[/]那个以为是大象和马.
 CHI: 以为又是一个兔子.",dropped,dropped,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,child: then that horse saw. then (the horse) swam to grab that ball. then (it) brought (the ball) to the elephant. then the elephant liked that horse a lot. then the horse was very tired. the elephant and the horse saw that and thought it was the elephant and the horse. (they) thought it was a rabbit again.,no,no
-104,Xinjiang/ENNI/201303/sdfyxb10,5;00,child,"CHI:	他 说 然后 以为 是 他 扔 的 .",dropped,dropped,declarative,declarative,no,no,是,no,no,no,no,unclear,unclear,child: then he threw away. and then (he?) was very angry. why did you throw it away? he said then (he?) thought it was him who threw it away.,no,no
+104,Xinjiang/ENNI/201303/sdfyxb10,5;00,child,CHI:	他 说 然后 以为 是 他 扔 的 .,dropped,dropped,declarative,declarative,no,no,是,no,no,no,no,unclear,unclear,child: then he threw away. and then (he?) was very angry. why did you throw it away? he said then (he?) thought it was him who threw it away.,no,no
 105,Xinjiang/ENNI/201303/tkxx109,5;00,child,CHI:        它 以为 鸡蛋 不 是 鸡蛋 了 „ 妈妈 .,third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: it thought the egg is not an egg, mom. it started playing with my egg again.",no,no
-106,Xinjiang/ENNI/201204/jgdd203,5;05,child,"CHI:	大象 宝宝 看 着 它 以为 他 的 父亲 错 了 .",third_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: <baby elephant> dad elephant showed him that this sign cannot run. baby elephnat looked at it and thought his dad was wrong. One day, the elephant... the thrid day, the elephant and the giraffe were playing together, playing a toy airplane.",no,no
-107,Xinjiang/ENNI/201204/jgdd203,5;05,child,"CHI:	长颈鹿 以为 它 是 错 的 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,child: the elephant's dad picked up the ball and said its hands couldn't reach (it). the giraffe thought it was wrong.,no,no
+106,Xinjiang/ENNI/201204/jgdd203,5;05,child,CHI:	大象 宝宝 看 着 它 以为 他 的 父亲 错 了 .,third_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: <baby elephant> dad elephant showed him that this sign cannot run. baby elephnat looked at it and thought his dad was wrong. One day, the elephant... the thrid day, the elephant and the giraffe were playing together, playing a toy airplane.",no,no
+107,Xinjiang/ENNI/201204/jgdd203,5;05,child,CHI:	长颈鹿 以为 它 是 错 的 .,third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,child: the elephant's dad picked up the ball and said its hands couldn't reach (it). the giraffe thought it was wrong.,no,no
 108,Xinjiang/ENNI/201204/sdfyxb04,4;00,child,CHI:        还 以为 它 不 高兴 呢 .,dropped,third_person,declarative,declarative,no,no,no,no,no,no,no,not_p,both,child: it saw (it?) and was very happy. (?) thought it was not happy. it needs to be happy. i'm also not happy,no,no
-109,Xinjiang/AcadLang/201204/dez305,4;00,child,"CHI:	它 不 知道 以为 这 个 是 什么 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: okay. apple. this is an apple. it doesn't know (it?) thought it was what. thought i know what it is. should be the sheep doesn't know banana, doesn't know worm, doesn't know apple. ",不知道,before
-110,Xinjiang/AcadLang/201204/dez305,4;00,child,"CHI:	以为 我 知道 它 是 什么 ",dropped,first_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"child: okay. apple. this is an apple. it doesn't know (it?) thought it was what. thought i know what it is. should be the sheep doesn't know banana, doesn't know worm, doesn't know apple. ",no,no
-111,Zhou1/cs20b,1;09,mother,"MOT:	小 红 眼睛 一 听 以为 是 妈妈 回来 了 他 就 准备 去 开 门 他 也 跑 过 去 要 开 门 .",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,"mom: whose sound is it? child: it is the sound of the wolf. mom: oh. it's the sound of the big wolf. xiaohong (the little red riding hood?) heard it, and thought it was mom coming back.  he was about to open the door. he also ran over there to open the door.",no,no
-112,Zhou1/cs32b,2;08,mother,"MOT:	你 以为 你 收 不 完 .",second_person,second_person,declarative,declarative,no,no,no,no,no,no,no,not_p,after,"mom: you thought you couldn't finish putting (things) away, but it turns out (you?) could finish putting (them) away.",no,no
-113,Zhou2/48/fa05,4;00,mother,"MOT:	狗熊 以为 它 不 舒服 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,mom: mr. bear thought this little guy might be a little uncomfortable. then (he) took his jacket off and let little star put it on. you see. fun. little bear you see. the bera thought it was not comfortable.,想,before
-114,Zhou2/48/fa05,4;00,mother,MOT:        我 还 以为 这 本 书 被 哪 个 小 朋友 划 的 呢 .,first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,no,no,mom: this is thin iron wire? i thought this book was sliced(? painted?) by some kid. oh he used the tiny think iron wire to tie him up so the turtle shell won't fall off.,no,no
-115,Zhou2/48/fa05,4;00,mother,"MOT:	原 以为 他 冷 了 .",dropped,third_person,declarative,declarative,原,no,no,no,no,no,原,not_p,both,mom: this blanket became warm. warmer and warmer. (someone?) thought he was cold. then he switched it on and the blanket became warmer.,no,no
-116,Zhou2/72/mb12,6;00,mother,"MOT:	爸爸, 妈妈 回来 一 听 到 以为 这 三 只 老鼠 睡觉 了 呢 又 是 一 声 咚 啊 .",third_person,third_person,declarative,declarative,no,no,no,no,no,了,no,p_alt (against what happened?),after,"mom: dad and mom came back and thought these three mice were asleep. then the dong noise. look, the bowls are borken, the stuff are borken, right?",no,no
-117,Zhou2/72/mb15,6;00,child,"CHI:	我 还 以为 这 里面 全 是 玩具 呢 .",first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,not_p,after,child: i thought it was full of toys. aunt! cam: things for drawing are not toys? child: drawing is not toys. i want those that are like toys.,no,no
-118,Zhou2/60/fa06,5;00,mother,"MOT:	我 一直 以为 你 画 的 是 太阳 啊 .",first_person,second_person,declarative,declarative,一直,no,no,no,no,no,no,p_alt,before,mom: did you draw mom? you sun? also what color (is it?)? i always thought what you paint was the sun. child: yeah,no,no
-119,Zhou2/60/ma03,5;00,mother,"MOT:	她 以为 小 星星 病 了 .",third_person,third_person,declarative,declarative,no,no,no,no,no,了,no,p_not_p?,after,"mom: mom goose wondered if the little creature was sick. he touched little star. (saying in the tone of the mom goose:) ah, this is this hard, so hard. why is this hard? child: because / because turtle shell. mom: yeah. (the little star) put it on its head, right? mom goose quickly grabbed a feather quilt and covered little star. (she) was afraid that little star might get cold. she thought little star was sick. mom goose left. ",想,before
-120,Zhou2/60/ma03,5;00,mother,"MOT:	他 以为 小 星星 热 的 不 行 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"mom: little penguin hurriedly fetched an ice pack and placed it on Little Star. only then did he walk away, feeling content.",no,no
-121,Zhou2/54/fa07,4;06,mother,"MOT:	他 以为 他 很 热 .",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"mom: see, he (little penguine) also has an ice bag. he thought it was hot. then little start wears the jacket, with the turtle shee, covered with featuer, and then covered by an icebag.",no,no
-122,Zhou2/54/mb15,4;10,mother,"*MOT:        我 还 以为 这 是 两 个 辫子 呢 .
-*CHI:        本来 就 是 两 个 辫子 嘛 .",first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,p,after,child: i haven't finished painting yet. mom: i thought these were two braids. child: they are two braids.,no,no
-123,Zhou2/42/ma05,3;06,mother,"MOT:	它 以为 小 星星 会 冷 .",third_person,third_person,declarative,declarative,no,no,会,no,no,no,no,no,no,mom: add a big blanket. oh dear. it thought little star is going to be cold. right? put a blanket on it.,no,no
-124,Zhou3/702,3;09,fathor,"FAT:	王后 以为 白雪公主 真的 死 了 .",third_person,third_person,declarative,declarative,no,no,会,no,no,了,no,against what happened,after,father: the queen thought snow white was dead.  child:snow white ended up finding a small house. there were seven dwarves inside.,no,no
-125,ZhouAssessment/4-4.5/FJtangchenyouke,4;02,teacher,"TEA:	我 刚才 还 以为 它 是 一 张 地毯 呢 .",first_person,third_person,declarative,declarative,刚才,no,no,no,no,no,刚才,p_alt,both,"child: this is a blanket. teacher: this is a blanket. okay. where do you think we should put the blanket? just now, i thought it was a carpet. i originally was thinking about it. if it was a carpet, (we) can put it on the floor and invite them to have meals. but now if this is a blanket, we shouldn't let them sit on the floor. what should we do?",no,no
-126,ZhouAssessment/4-4.5/ZBcuijunzhe,4;02,child,"CHI:	我 以为 这 个 红色 的 没2 了 呢 !",first_person,third_person,declarative,declarative,no,no,no,no,no,"没, 了",no,p_alt,both,"child: let me count how many red (color things). one, two, three, four, four. teacher: how many red things? child: five. five. i thought there is no this red (thing). teacher: five red things. child: i didn't see this thing clearly.",no,no
-127,ZhouAssessment/3.5-4/NJliuqinxuan,3;10,teacher,"TEA:	我 以为 你 不 想 坐 了 .",first_person,second_person,declarative,declarative,no,no,no,no,no,了,no,not_p,before,teacher: oh you wanted to sit down! i thought didn't want to sit down.,no,no
-128,ZhouAssessment/4.5-5/XIANsongjunxi,4;11,child,"CHI:	我 还 以为 是 转转 椅 呢 !",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,"teacher: there is a faucet here. this is a lamp. let's see which room is dark, and (we) put the lamp there. child: i thought this is a swivel chair.",no,no
-129,ZhouDinner/middle/14,4;09,child,"CHI:	你 以为 我 没有 手 啊",second_person,first_person,declarative,declarative,no,no,no,no,no,no,no,against the fact,no,mom: why did you feed her? it's not that she can't eat on her own. child: you thought i didn't have hands? mom: give her some fish. as long as there's no bone. father: okay! let's eat the fish. eat slwoly.,no,no
-130,ZhouDinner/middle/20,4;01,grandma,"GMO:	我 还 以为 你 知道 了 呢 .",first_person,second_person,declarative,declarative,还,no,no,no,no,了,no,p,after,child: i just heard what dad said. father: yeah. grandma: i thought you knew. (you) heard it from dad! child: i knew it a while ago. mom: you knew it a while ago? grandma: you knew it a while ago?,no,no
-131,ZhouDinner/middle/20,4;01,mother,"MOT:	你 以为 呢 ?",second_person,none,polar,none,no,no,no,no,no,no,no,no,no,"child: i probably had the female (crab). mom: how did you know? child: i want to have the male (crab). mom: you had the male (crab). what did you think? child: i thought i had the female (crab). father: you see, the male (crabs) have bigger claws. very impressive. you see, the female (crab)'s crawls are not very big. this is a female (crab).",no,no
-132,ZhouDinner/middle/20,4;01,child,"CHI:	我 以为 是 母 的 .",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,both,"child: i probably had the female (crab). mom: how did you know? child: i want to have the male (crab). mom: you had the male (crab). what did you think? child: i thought i had the female (crab). father: you see, the male (crabs) have bigger claws. very impressive. you see, the female (crab)'s crawls are not very big. this is a female (crab).",no,no
-133,ZhouDinner/middle/28,NA,mother,"MOT:	我 以为 不 吃 呢 !",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"mom: i told mom (grandma in this case), mom didn't say anything. i thought (she) didn't want to eat. this. have the hot pot.",no,no
-134,ZhouDinner/middle/58,4;06,mother,"MOT:	你 以为 你 是 小 狗狗 啊 !",second_person,second_person,declarative,declarative,no,no,no,no,no,no,no,no,fact,grandma: grandma give you more meat. child: that's too little gravy. child: no. why did you pour that much? you thought you were a little puppy? child: xxx.,no,no
-135,ZhouDinner/middle/66,4;10,mother,"MOT:	你 不 要 以为 吃 点 饭 就 <嘻嘻 哈哈>  [/] 嘻嘻 哈哈 的 这样子 哈 !",second_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"mom: i (want to be? will be?) angry! you don't think it's meal time and you can go around giggling like this, haha!",no,no
+109,Xinjiang/AcadLang/201204/dez305,4;00,child,CHI:	它 不 知道 以为 这 个 是 什么 .,third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: okay. apple. this is an apple. it doesn't know (it?) thought it was what. thought i know what it is. should be the sheep doesn't know banana, doesn't know worm, doesn't know apple. ",不知道,before
+110,Xinjiang/AcadLang/201204/dez305,4;00,child,CHI:	以为 我 知道 它 是 什么 ,dropped,first_person,declarative,declarative,no,no,no,no,no,no,no,unclear,unclear,"child: okay. apple. this is an apple. it doesn't know (it?) thought it was what. thought i know what it is. should be the sheep doesn't know banana, doesn't know worm, doesn't know apple. ",no,no
+111,Zhou1/cs20b,1;09,mother,"CHI: 是大灰狼的声音.
+MOT: 是谁的声音啊?
+CHI: 是大灰狼的声音.
+MOT: 噢.
+MOT: 是大灰狼的声音.
+MOT: 小红眼睛一听以为是妈妈回来了,他就准备去开门.他也跑过去要开门.
+MOT: 大灰狼.
+MOT: 你看.",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,both,"child: It was the wolf’s voice.
+mother: Whose voice was it?
+child: It was the wolf’s voice.
+mother: Oh.
+mother: It’s the wolf’s voice.
+mother: Little red eyes heard and incorrectly thought it was mom coming back. He was just about to go open the door. He also ran over to open the door.
+mother: The wolf.
+mother: Look.",no,no
+112,Zhou1/cs32b,2;08,mother,"MOT: 放起来.
+MOT: 扔进去.
+MOT: 好吗?
+MOT: 看谁扔得快.
+MOT: 轻一点.
+MOT: 你以为你收不完.
+MOT: 其实收得完.
+MOT: 对吧?",second_person,second_person,declarative,declarative,no,no,no,no,no,no,no,not_p,after,"mother: Put it away.
+mother: Throw it in.
+mother: Okay?
+mother: Let’s see who can throw faster.
+mother: Be gentle.
+mother: You incorrectly thought you couldn’t finish packing.
+mother: But (you) actually can finish packing.
+mother: Right?",no,no
+113,Zhou2/48/fa05,4;00,mother,"MOT: 狗熊先生想这小家伙可能有点不舒服啊.
+MOT: 就把自己的皮袄脱下来给小星星穿上.
+MOT: 你看.
+MOT: 好玩啊.
+MOT: 小熊你看.
+MOT: 狗熊以为它不舒服.
+MOT: 是不是你冷啊?
+MOT: 你没衣服穿啊才哭啊?",NP,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: Mr. Bear thought this little guy maybe is a little unwell.
+mother: So he took his jacket off and put it on the Little star.
+mother: Look.
+mother: SO fun.
+mother: Little bear, look.
+mother: The bear incorrectly thought it was unwell.
+mother: Are you cold?
+mother: Are you crying because you don’t have clothes to wear?",想,before
+114,Zhou2/48/fa05,4;00,mother,"MOT: 对了.
+MOT: 他把他的乌龟壳拿了下来.
+MOT: 给小星星顶在脖子上.
+MOT: 还用细线捆的紧紧实实的.
+MOT: 这是细铁丝啊?
+MOT: 我还以为这本书被哪个小朋友划的呢.
+MOT: 噢他是用小细的铁丝一捆一捆把他捆起来的不让乌龟壳掉下来.
+MOT: 然后离开了.",first_person,third_person,declarative,wh_question,还,no,no,no,no,no,no,no,no,"mother: Right.
+mother: He took off his turtle shell.
+mother: And put on top of the neck of the Little star.
+mother: And secured it with a thin iron wire.
+mother: This is a thin iron wire?
+mother: I incorrectly thought this book was sliced by some kid. 
+mother: Oh, he used the tiny, thin iron wire to tie him up so the turtle shell won't fall off.
+mother: And then left.",no,no
+115,Zhou2/48/fa05,4;00,mother,"MOT: 通上电后会动,是吧?
+MOT 不是.
+MOT: 他一通上电.
+MOT: 这个被子变得暖和.
+MOT: <越来越暖和>[/]越来越暖和.
+MOT: 原以为他冷了.
+MOT: 然后给他通上电的被子就暖和.
+MOT: 然后白鹅妈妈又怎么?",dropped,third_person,declarative,declarative,原,no,no,no,no,no,原,not_p,both,"mother: It moves when powered on, right?
+mother: No.
+mother: Once he powers it on,
+mother: This blanket becomes warmer.
+mother: Warmer and warmer.
+mother: Originally, incorrectly thought he was cold.
+mother: Then, after giving him the powered-on blanket, it is warmer.
+mother: Then, what about (what happened to?) Mama Goose?",no,no
+116,Zhou2/72/mb12,6;00,mother,"MOT: 动物医院.
+MOT: 爸爸一走,另外三只老鼠可是不听妈妈的话.
+MOT: 喏又开始皮@d起来了.
+MOT: 蹦啊蹦的往下跳.
+MOT: 咦什么声音在响啊?
+MOT: 爸爸妈妈回来一听到,以为这三只老鼠睡觉了呢.又是一声咚啊.
+MOT: 你看碗也摔破了.
+MOT: 东西也摔破了.",dropped,third_person,declarative,declarative,no,no,no,no,no,了,no,p_alt,before,"mother: The vet.
+mother: As soon as the dad left, the other mice didn’t listen to the mom.
+mother: Here, (they) started to get mischievous again.
+mother: Bouncing up and down as they jumped down.
+mother: What is that sound?
+mother: Dad, mom came back and heard, and incorrectly thought these three mice were sleeping, then it was another thud.
+mother: Look, the bowls were broken.
+mother: things were broken.",no,no
+117,Zhou2/72/mb15,6;00,child,CHI:	我 还 以为 这 里面 全 是 玩具 呢 .,first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,not_p,after,child: i thought it was full of toys. aunt! cam: things for drawing are not toys? child: drawing is not toys. i want those that are like toys.,no,no
+118,Zhou2/60/fa06,5;00,mother,"MOT: 你画的妈妈啊?
+MOT: 你太阳?
+MOT: 还是什么颜色?
+MOT: 还是太阳?
+MOT: 我一直以为你画的是太阳啊.
+CHI: 对.
+CHI: 等一下.
+CHI: <我>[/]我等一下.
+CHI: 换其他的颜色.",first_person,second_person,declarative,declarative,一直,no,no,no,no,no,no,p_alt,before,"mother: Did you draw mom?
+mother: You sun? (?)
+mother: Or what color is it?
+mother: Or is it the sun?
+mother: I always incorrectly thought what you drew was the sun.
+child: Yeah.
+child: Wait a minute.
+child: Me… I’ll in a bit.
+child: change to another color.",no,no
+119,Zhou2/60/ma03,5;00,mother,"CHI: 因为[/]因为乌龟壳.
+MOT: 好嘞.
+MOT: 顶在它头上,还对呀?
+MOT: 白鹅妈妈赶紧抱着一床羽毛被给小星星盖上.
+MOT: 怕小星星受凉.
+MOT: 她以为小星星病了.
+MOT: 白鹅妈妈走了.
+MOT: 小星星怎么样?
+MOT: 又怎么了?
+CHI: 哭.
+MOT: 还是哼哼唧唧的哭.",third_person,third_person,declarative,declarative,no,no,no,no,no,了,no,no,no,"child: Because…because of the turtle shell.
+mother: Okay.
+mother: put (it) on its head, right? 
+mother: Mama Goose quickly got a feather quilt and covered Little Star with it.
+mother: (She) was worried that Little Star might get cold.
+mother: She incorrectly thought Little Star was sick.
+mother: Mama Goose left.
+mother: How was Little Star?
+mother: What happened again?
+child: Cry.
+mother: Still whimpering (crying in a whiny way).",想,before
+120,Zhou2/60/ma03,5;00,mother,"MOT: 哎呀,这是什么,太热了吧.
+MOT: 小企鹅飞快地搬来一个冰袋放在小星星身上.
+MOT: 这才满意地走了.
+MOT: 他以为小星星热的不行.
+MOT: 小星星穿着皮袄,顶着乌龟壳,盖着羽毛被,拉着冰袋哼哼唧唧的哭的更厉害了.
+CHI: 嗯.",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p,before,"mother: Little Penguin quickly moved an ice bag and put it on Little Star.
+mother: And then left satisfactorily. 
+mother: He thought Little Star was extremely hot.
+mother: Little Star, wearing a fur coat, carrying a turtle shell, covered in a feather quilt, and dragging the ice bag, whimpered even harder.
+child: Yeah.",no,no
+121,Zhou2/54/fa07,4;06,mother,"MOT: 这是什么?
+MOT: 这么热.
+MOT: 太热了!
+MOT: 小企鹅就飞快地搬来了一只冰袋盖在小星星身上.
+MOT: 这才满意地走了.
+MOT: 你看.
+MOT: 他有冰袋.
+MOT: 他以为他很热.
+MOT: 然后小星星就穿着皮袄.
+MOT: 顶着乌龟壳盖着羽毛被又压着一只冰袋.",third_person,third_person,declarative,declarative,no,no,no,no,no,no,no,p,before,"mother: What is this?
+mother: It’s so hot.
+mother: Too hot!
+mother: The little penguin quickly brought an ice pack and placed it on the little star.
+mother: And then left in satisfaction.
+mother: Look.
+mother: He has an ice pack.
+mother: He incorrectly thought he was very warm.
+mother: And then the little star was wearing a fur coat,
+mother: With a turtle shee on its head, a feather quilt over it, and an ice pack pressed on top.",no,no
+122,Zhou2/54/mb15,4;10,mother,"MOT: 他耳朵长得不行喽.
+MOT: 这就画鼻子.
+MOT: 嘴巴,眼睛,不画啊?
+CHI: 等一会儿.
+CHI: 我还没画完呢.
+MOT: 我还以为这是两个辫子呢.
+CHI: 本来就是两个辫子嘛.
+MOT: 哦.",first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,disagreement,after,"mother: His ears don’t look good.
+mother: Now, draw the nose.
+mother: (You’re) not drawing the mouth and eyes?
+child: Wait a minute.
+Chidl: I haven’t finished drawing.
+mother: I also incorrectly these were two braids.
+child: It’s supposed to be two braids.
+mother: Oh. ",no,no
+123,Zhou2/42/ma05,3;06,mother,"MOT: 白鹅妈妈一摸.
+MOT: 这美丽的东西是什么呢? (这么冷的东西？)
+MOT: 给它添了一个大棉被.
+MOT: 哎哟.
+MOT: 它以为小星星会冷. 
+MOT: 是吧?
+MOT: 给它盖了一个毛被子.",third_person,third_person,declarative,declarative,no,no,会,no,no,no,no,p,before,"mother: Mama Goose touched (it).
+mother: What is the pretty (cold) thing?
+mother: And then added a big quilt for it.
+mother: Oh my.
+mother: She incorrectly thought Little Star was going to be cold.
+mother: Right?
+mother: And then covered it with a furry blanket.",no,no
+124,Zhou3/702,3;09,fathor,"CHI: 猎人是个好心的人,把白雪公主放了.
+FAT: 他在树林里找了个小野猪献给王后.
+FAT: 王后以为白雪公主真的死了.
+CHI: 白雪公主最后找了个小房子.
+CHI: 在里面住了七个小矮人.",third_person,third_person,declarative,declarative,no,no,会,no,no,了,no,not_p,after,"child: The hunter is a kind man, and (he) let Snow White go.
+father: He found a little wild boar and dedicated it to the Queen.
+father: The Queen incorrectly thought Snow White was dead.
+child: Snow White eventually found a little house.
+child: There were Seven Dwarfs living there.",no,no
+125,ZhouAssessment/4-4.5/FJtangchenyouke,4;02,teacher,"CHI: 这是棉被啊!
+TEA: 这是棉被啊,嗯,那好吧!
+TEA: 那你觉得棉被放哪里?
+TEA: 我刚才还以为它是一张地毯呢.
+TEA: 我本来想动脑筋想一想.
+TEA: 要是它是一张地毯的话,还可以铺在地板上,请她们吃饭.
+TEA: 可是现在如果它是一床被子的话,就不要请她们坐在地板上了,那该怎么办?",first_person,third_person,declarative,declarative,"刚才, 还",no,no,no,no,no,刚才,p_alt,both,"child: this is a blanket. 
+teacher: this is a blanket. Ah, well, okay. 
+teacher: where do you think we should put the blanket?
+teacher: i incorrectly thought it was a carpet just now.
+teacher: originally I was going to put some thought into it. 
+teacher: if it were a carpet, (we) could have put it on the floor and invited them to have meals. 
+teacher: but now if this is a blanket, we shouldn't let them sit on the floor. what should we do?",no,no
+126,ZhouAssessment/4-4.5/ZBcuijunzhe,4;02,child,CHI:	我 以为 这 个 红色 的 没2 了 呢 !,first_person,third_person,declarative,declarative,no,no,no,no,no,"没, 了",no,p_alt,both,"child: let me count how many red (color things). one, two, three, four, four. teacher: how many red things? child: five. five. i thought there is no this red (thing). teacher: five red things. child: i didn't see this thing clearly.",no,no
+127,ZhouAssessment/3.5-4/NJliuqinxuan,3;10,teacher,"CHI: 他看的是动画片.
+TEA: 动画片啊!
+TEA: 什么动画片啊?
+CHI: 这是一个[:盏]灯.
+TEA: 哦,你想坐下来啊!
+TEA: 我以为你不想坐了.
+CHI: 这是一个[:盏]灯.
+TEA: 嗯,这是一个[:盏]灯啊!",first_person,second_person,declarative,declarative,no,no,no,no,no,了,no,not_p,before,"child: He is watching a cartoon.
+teacher: cartoon!
+teacher: which cartoon is it?
+child: this is a lamp.
+teacher: oh, you want to sit down!
+teacher: i incorrectly thought you didn’t want to sit down.
+child: this is a lamp.
+teacher: yeah, this is a lamp.",no,no
+128,ZhouAssessment/4.5-5/XIANsongjunxi,4;11,child,CHI:	我 还 以为 是 转转 椅 呢 !,first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,"teacher: there is a faucet here. this is a lamp. let's see which room is dark, and (we) put the lamp there. child: i thought this is a swivel chair.",no,no
+129,ZhouDinner/middle/14,4;09,child,CHI:	你 以为 我 没有 手 啊,second_person,first_person,declarative,declarative,no,no,no,no,no,no,no,against the fact,no,mom: why did you feed her? it's not that she can't eat on her own. child: you thought i didn't have hands? mom: give her some fish. as long as there's no bone. father: okay! let's eat the fish. eat slwoly.,no,no
+130,ZhouDinner/middle/20,4;01,grandma,"CHI: 母的小.
+CHI: 公的大.
+GMO: 为什么啊?
+CHI: 刚才我听见爸爸说的.
+FAT: 嗯.
+GMO: 我还以为你知道了呢.
+GMO: 听见爸爸说的啊!
+CHI: 我早就知道了.
+MOT: 你早就知道了?
+GMO: 你早就知道了?
+CHI: 嗯.",first_person,second_person,declarative,declarative,还,no,no,no,no,了,no,not_p,both,"child: The female is smaller.
+child: The male is larger.
+grandma: Why?
+child: I just heard that’s what dad said.
+father: Yeah.
+grandma: I thought you knew. 
+grandma: (You) heard it from dad! 
+child: I knew it a while ago. 
+mom: You knew it a while ago?
+grandma: You knew it a while ago?
+child: Yeah.",no,no
+131,ZhouDinner/middle/20,4;01,mother,"CHI: 我吃的好像是母的.
+MOT: 你咋知道?
+CHI: 我想吃公的.
+MOT: 你吃的是公的.
+MOT: 你以为呢?
+CHI: 我以为是母的.
+CHI: 你看公的钳子大.",second_person,none,polar,none,no,no,no,no,no,no,no,no,no,"child: The one I ate might be female.
+mother: How did you know?
+child: I want to have the male (crab).
+mother: What you ate was amel.
+mother: What did you think?
+child: I incorrectly thought it was female.
+child: Look, the male has larger claws.",no,no
+132,ZhouDinner/middle/20,4;01,child,CHI:	我 以为 是 母 的 .,first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,both,"child: i probably had the female (crab). mom: how did you know? child: i want to have the male (crab). mom: you had the male (crab). what did you think? child: i thought i had the female (crab). father: you see, the male (crabs) have bigger claws. very impressive. you see, the female (crab)'s crawls are not very big. this is a female (crab).",no,no
+133,ZhouDinner/middle/28,NA,mother,"GMO: 放在旁边.
+FAT: 先吃掉.
+FAT: 要烂掉了.
+MOT: 我跟妈妈说.
+MOT: 妈妈没吭声.
+MOT: 我以为不吃呢!
+MOT: 这个吃火锅哦.
+MOT: <她说>[//]还是不要说了.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,not_p,unclear,"grandma: Put it to the side.
+father: Eat (it) first.
+father: It is going to be mushy.
+mother: I spoke to mom.
+mother: Mom didn’t say anything.
+mother: I incorrectly thought (she) wouldn't eat.
+mother: This, have a hotpot.
+Mother: She said…better not to say.",no,no
+134,ZhouDinner/middle/58,4;06,mother,"GMO: 快点吃呀.
+MOT: 给老师看你在家里吃的是不是快的!
+GMO: 奶奶给你夹点肉!
+CHI: 肉汁太少了.
+MOT: 不行,你倒那么多干吗?
+MOT: 你以为你是小狗狗啊!
+CHI: xxx.
+GMO: 宝宝,肉肉也吃.",second_person,second_person,declarative,declarative,no,no,no,no,no,no,no,against the fact,inferred,"grandma: Eat faster.
+mother: Show your teacher whether you eat fast at home.
+grandma: Grandma will get you some meat.
+child: There isn’t enough gravy.
+mother: No, why did you pour so much?
+mother: You incorrectly thought you were a little puppy!
+child: xxx.
+grandma: Baby, also eat meat.",no,no
+135,ZhouDinner/middle/66,4;10,mother,"MOT: 你看看你吃的什么样子!
+CHI: 妈妈吃!
+MOT: 我跟你说.
+MOT: 我要生气的!
+MOT: 你不要以为吃点饭就<嘻嘻哈哈>[/]嘻嘻哈哈的这样子哈!
+CHI: 妈妈,谁放屁了?
+MOT: 我不想笑!
+MOT: 等到我发火了.
+MOT: 你就要不开心了!",second_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: Look at how you’re eating!
+child: Mom eat!
+mother: Let me tell you.
+mother: I’m going to be angry!
+mother: Don’t think that just because you’ve had a few bites you can start giggling and fooling around.
+child: Mom, who farted?
+mother: I don’t want to laugh.
+mother: When I am angry,
+mother: You wan’t be happy.",no,no
+279,BJCMC/0300_YX,,investigator,"CHI: 哪儿有三?
+INV: 哎呦这儿(pointing)
+CHI: 嗯.
+INV: 嘿(笑).
+INV: 我还以为是黑色的三(pointing).
+INV: 绿色的.
+INV: 诶,这一面是黑色的(flips:number).",first_person,dropped,declarative,declarative,还,no,no,no,no,no,no,p_alt,after,"child: Where is the three?
+investigator: Oh my, here (pointing).
+child: Yeah.
+investigator: Hehe (laugh).
+investigator: I incorrectly thought (it) was a black three.
+investigator: (It is) green.
+investigator: Oh, this side is black (flipped the number).",no,no
+280,BJCMC/0500_TT,,investigator,"INV: 书上有没有讲为什么.
+CHI: 嗯,它熟了掉xxx.
+INV: 噢,那它为什么掉下来呢?
+CHI: 嗯,熟了.  (this seems to be from another conversation and got cut off)
+INV: 以为不多.
+INV: 实际上还很大,是不是?
+INV: 你看地图上的海,那么大&=points:map.
+INV: 那个&=points:map.
+INV: 在那个地图,是吧!",dropped,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"investigator: Did the book say why?
+child: Yeah, it is ripe and dropped xxx.
+investigator: Oh, then why did it drop?
+child: Yeah, ripe.
+investigator: Thought not much.
+investigator: Actually it is also very big, right?
+investigator: Look at the sea on the map, it is very huge (pointing at the map).
+investigator: That (pointing at the map).
+investigator: On that map, right?",no,no
+281,BJCMC/0500_TT,,investigator,"INV: 你看看.
+INV: 你觉得哪个是夏天?
+CHI: 嗯,这个 (pointing at the book).
+INV: 为什么?
+CHI: 嗯,因为呢我看这儿 (pointing at the picture) 有个春.
+INV: 噢,我还以为你是看这个(pointing at the picture) 图片呢.
+INV: 这个 (pointing at the picture) 图片是什么意思啊?
+CHI: 嗯.
+INV: 你看看从图片里面能不能看出来这是夏天?
+CHI: 能.",first_person,second_person,declarative,declarative,还,no,是,no,no,no,no,p_alt,before,"investigator: look.
+investigator: Which one do you think is summer?
+child: Hmm, this one (pointing at the book).
+investigator: Why?
+child: Hmm, because I look at this one (pointing at the picture), there’s spring.
+investigator: Oh, I thought you looked at this (pointing at the picture) picture.
+investigator: What does this (pointing at the picture) picture mean?
+child: Yeah.
+investigator: Look at the picture, can you tell this is summer?
+child: I can.",no,no
+282,BJCMC/0506_DD,,investigator,"CHI: 最后黑棋一般只要吃八十七个空.
+CHI: 白棋一般吃六十几个空.
+INV: 为什么还不一样?
+CHI: 因为这样才公平.
+CHI: 因为白棋的棋子比黑棋的棋子少呀.
+INV: 哦这样啊.
+INV: 我以为是一样的.
+INV: 为什么要少一点?
+CHI: 因为这个事儿我也不太知道呀.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,not_p,before,"child: In the end, the Black usually secures around eighty-seven points.
+child: The White generally gets around sixty points.
+investigator: Why are they not the same?
+child: Because it is only fair this way.
+child: Because White has fewer stones on the board than Black.
+investigator: Oh, I see.
+investigator: I incorrectly thought (they) were the same.
+investigator: Why does (the White) have fewer?
+child: Because this I also don’t know.",no,no
+283,BJCMC/0509_SQ,,investigator,"CHI: 实[/]实际上这种形状的名字叫散[//]闪电四.
+INV: 闪电四还有闪电几?
+INV: 有没有闪电五?
+CHI: 只有闪电四.
+INV: 哦只有闪电四.
+INV: 我还以为是有什么闪电五闪电六.
+INV: 那.
+CHI: 还有扭羊头.",first_person,dropped,declarative,declarative,还,no,是,no,no,no,no,not_p,before,"child: Actully, this name of this shape is called lit… Lightning Four.
+investigator: Lightning four, are there other Lightnings?
+investigator: Is there Lightning Five?
+child: There is only Lightning Four.
+investigator: Oh, there is only Lightning Four.
+investigator: I incorrectly thought there were Lightning Five, Lightning Six.
+investigator: Then.
+child: There is also Twisting Sheep Head.",,
+284,BJCMC/0509_SQ,,investigator,INV: 啊我以为他...这不是他的头发吗?,first_person,third_person,declarative,none,no,no,,,,,,,,,,
+285,BJCMC/0509_YY,,child,"INV: 这个是什么画呀?
+CHI: <这是[/]这是我[/]我爱画[/]画,然后爸爸就给我<画了一个>[//]报了一个画[/]画班&=holds:painting.
+INV: 嗯.
+CHI: 然后这些[/]这些,这[/]这个兔子.
+INV: 嗯.
+CHI: 呃[/]&-呃,就是把那些呀,西红柿什么都吃了扔了,然后都浪费了.
+CHI: 然后我以为它[/]它还开心.
+CHI: &=ges:hide.
+CHI: 因为它全都躲过了这些炸弹.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,,,,,
+286,BJCMC/0509_YY,,investigator,"INV: 诶,这个是?
+INV: 这个是什么的?
+CHI: 嗯,我妈的,脏衣篓.
+INV: 噢,我以为你们养有什么小动物呢.
+CHI: 啊?
+INV: 我以为有小动物.
+CHI: 你看没有[?]衣服什么的. (你看有衣服什么的)
+INV: 啊.
+INV: 你喜欢小动物吗?
+CHI: 啊,喜欢啊,我[/]我想要小兔子啊.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"investigator: Ah, this is?
+investigator:  What is this?
+child: Hmm, this is my mom’s, laundry hamper.
+investigator: Oh, I incorrectly thought you had some small animals.
+child: What?
+investigator: I incorrectly thought (there was) small animals.
+child: You see there are clothes and stuff.
+investigator: Ah.
+investigator: Do you like small animals?
+child: Ah, (I) like. I want…I want a little bunny.",no,no
+287,BJCMC/0509_YY,,investigator,"INV: 诶,这个是?
+INV: 这个是什么的?
+CHI: 嗯,我妈的,脏衣篓.
+INV: 噢,我以为你们养有什么小动物呢.
+CHI: 啊?
+INV: 我以为有小动物.
+CHI: 你看没有[?]衣服什么的. (你看有衣服什么的)
+INV: 啊.
+INV: 你喜欢小动物吗?
+CHI: 啊,喜欢啊,我[/]我想要小兔子啊.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"investigator: Ah, this is?
+investigator:  What is this?
+child: Hmm, this is my mom’s, laundry hamper.
+investigator: Oh, I incorrectly thought you had some small animals.
+child: What?
+investigator: I incorrectly thought (there was) small animals.
+child: You see there are clothes and stuff.
+investigator: Ah.
+investigator: Do you like small animals?
+child: Ah, (I) like. I want…I want a little bunny.",no,no
+288,BJCMC/0600_MD,,investigator,"CHI: 这个是老师们发的&=shows:keychain.
+CHI: 我是在www学校上.
+INV: 噢,www学校还有幼儿园呢.
+CHI: 嗯.
+INV: <<我以为>[/]我以为只有小学中学.
+INV: xxx.
+CHI: 这个原本是那个妈妈的.
+CHI: 然后xxx,这些全都是妈妈给我的&=points:keychain.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"child: This is what our teacher gave us (pointing at the keychain).
+child: I went to xxx school.
+investigator: Oh, xxx school has a kindergarten.
+child: Mhm.
+investigator: I incorrectly thought…I incorrectly thought (it) only had elementary school and middle school.
+investigator: xxx.
+child: This was originally that mom’s.
+child: And then xxx. These are all what mom gave me (pointing at the keychain).",no,no
+289,BJCMC/0600_MM,,investigator,"INV: 啊都建完了(turning the book)?
+CHI: 嗯.
+INV: 怎么这么快呀?
+INV: (笑).
+INV: 我来看一看.
+INV: 天呐它们怎么这么快?
+INV: 我还以为要建几天呢.
+INV: 真建完了.
+INV: 那以后建房子要把它们三个请过去了.
+INV: 一天就建完了.",first_person,dropped,declarative,declarative,还,no,要,no,no,no,no,not_p,before,"investigator: Ah, (they) all finished building (turning the book)?
+child: Yeah.
+investigator: Why is it so fast?
+investigator: (laugh).
+investigator: Let me see.
+investigator: Wow, Why is it this fast?
+investigator: I incorrectly thought (it) was going to take a few days to build.
+investigator: (It) actually finished building.
+investigator: Then later whenever (we) need to build houses, (we) should invite them.
+investigator: It takes one day to finish building.",no,no
+290,BJCMC/0600_MM,,investigator,"CHI: 猪妈妈变成雪人儿了.
+CHI: 看到它尾巴了.
+INV: 哦这个是猪妈妈 (pointing at the book).
+CHI: 看到它尾巴了.
+INV: 哦<看到了>[/]看到了.
+INV: 我还以为是它们三个搭的雪人呢.
+INV: 这个是猪妈妈 (笑).
+CHI: 雪都xxx.",first_person,dropped,declarative,declarative,还,no,是,no,no,no,no,p_alt,both,"child: Mama Pig turned into a snowman.
+child: (I) saw its tail.
+investigator: Oh, this is Mama Pig (pointing at the book).
+child: (I) saw its tail.
+investigator: Oh, (I) saw it… saw it.
+investigator: I incorrectly thought (it) was the snowman that the three of them built.
+investigator: This is Mama Pig (laugh).
+child: The snow xxx.",no,no
+291,BJCMC/0600_YY,,investigator,"INV: 这个是个什么 (showing the handcraft)?
+CHI: 这...这...一转这个就会叮叮当当叮叮当当地会有音乐.
+INV: 音乐啊?
+CHI: 对.
+INV: 它是那种可以...可以转的吗?
+INV: 我以为是生日蛋糕呢看着.
+CHI: 这是生...这是蛋糕. (emphasis on 这)
+INV: 这是蛋糕,对吗?
+CHI: 对.
+CHI: 然后这个是能发出声音的 (contacting the handcraft).
+INV: 噢.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,after,"investigator: What is this (showing the handcraft)?
+child: This…this…As soon as you spin this, it goes ding-ding-dang-dang and starts playing music.
+investigator: Music?
+child: Yeah.
+investigator: Is this the kind that can…can spin?
+investigator: I incorrectly thought (it) was a birthday cake. It looks like (a birthday cake).
+child: THIS… this is the cake.
+investigator: This is cake, right?
+child: Yeah.
+child: And this is the one that can make sound (contacting the handcraft).
+investigator: Oh.",no,no
+292,BJCMC/0603_XX,,investigator,"CHI: 我在那看一辆摩托.
+INV: 啊.
+INV: 呃什么摩托?
+CHI: 就这个呢.
+INV: 哪个?
+CHI: 就这个&=walks:toy.
+INV: 噢.
+CHI: 这个和我爸爸一起拼的.
+INV: 我以为你说...
+INV: 啊.
+CHI: 这个容易掉所以这...这个就掉下来了.
+INV: 噢.
+INV: 我以为你说的是那个真的那个摩托.
+CHI: 我就我就...你看我哥哥有个那个车&=points:toy.
+CHI: 什么?
+INV: 噢.",first_person,second_person,declarative,none,no,no,no,no,no,no,no,no,no,"child: I was there looking at a motorcycle.
+investigator: Ah.
+investigator: Eh, what motorcycle?
+child: this one.
+investigator: Which one?
+child: This one (walking to the toy).
+investigator: Oh.
+child: (I) assembed this with my dad.
+investigator: I incorrectly thought you said…
+investigator: Ah.
+child: This comes off easily, so this…this fell off.
+investigator: Oh.
+investigator: I incorrectly thought you said (it) was the real motorcycle.
+child: I just I just… Look my brother has that car (pointing at the toy)
+child: What?
+investigator: Oh.",no,no
+293,BJCMC/0603_XX,,investigator,"CHI: 我在那看一辆摩托.
+INV: 啊.
+INV: 呃什么摩托?
+CHI: 就这个呢.
+INV: 哪个?
+CHI: 就这个&=walks:toy.
+INV: 噢.
+CHI: 这个和我爸爸一起拼的.
+INV: 我以为你说...
+INV: 啊.
+CHI: 这个容易掉所以这...这个就掉下来了.
+INV: 噢.
+INV: 我以为你说的是那个真的那个摩托.
+CHI: 我就我就...你看我哥哥有个那个车&=points:toy.
+CHI: 什么?
+INV: 噢.",first_person,second_person,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,"child: I was there looking at a motorcycle.
+investigator: Ah.
+investigator: Eh, what motorcycle?
+child: this one.
+investigator: Which one?
+child: This one (walking to the toy).
+investigator: Oh.
+child: (I) assembed this with my dad.
+investigator: I incorrectly thought you said…
+investigator: Ah.
+child: This comes off easily, so this…this fell off.
+investigator: Oh.
+investigator: I incorrectly thought you said (it) was the real motorcycle.
+child: I just I just… Look my brother has that car (pointing at the toy)
+child: What?
+investigator: Oh.",no,no
+294,BJCMC/0603_XX,,investigator,"INV: 为什么要用这个红的&=points:block?
+CHI: 不信,你看.
+CHI: 你看. 
+CHI: 这样不就高了吗?
+INV: 嗯.
+CHI: 这样那就少了.
+INV: 噢[/]&-噢[/]&-噢.
+INV: 我还以为颜色也有要求.
+CHI: 颜色没有.
+INV: 嗯.",first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,not_p,after,"investigator: Why do you need this red (pointing to the block).
+child: (You) don’t believe, look.
+child: Look.
+child: Isn’t it tall this way?
+investigator: Yeah.
+child: This way it’s less.
+investigator: Oh, oh, oh.
+investigator: I incorrectly thought there were requirements about the color.
+child: Color, no.
+investigator: Yeah.",,
+295,BJCMC/0606_AA,,investigator,"CHI: 今天下午.
+INV: 哦.
+INV: 那姐姐现在在哪儿?
+CHI: 姐姐现在还在...应该还在家里&=points.
+INV: 哦哦.
+INV: 还在家里.
+INV: 哦我以为后面她就出去了.
+CHI: 嗯可能你们进屋的时候她还在屋里.
+CHI: 她在屋里.
+INV: 在屋里做数学题呢.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,了,p_alt,both,"child: This afternoon.
+investigator: Oh.
+investigator: Then where is (your) older sister now?
+child: Sister now is still … should still be at home (pointing).
+investigator: Oh.
+investigator: Still at home.
+investigator: Oh, I incorrectly thought later he went out.
+child: Yeah, maybe when you entered, she was still in the room.
+child: She is in the room.
+investigator: (She is) in the room, doing math problems.",no,no
+296,BJCMC/0606_AA,,child,"CHI: 所以呢那本书啊最开始写的是这些.
+INV: 啊.
+CHI: xxx以为是那个.
+CHI: 但是呢福尔摩斯<比他>[//]他刚看完那一页.
+CHI: 福尔摩斯他刚看完xxx这些扣一百扣一千扣一万.
+CHI: 福尔摩斯就已经判定修理工是犯人了&=points.",unclear,dropped,declarative,declarative,no,no,是,no,no,no,no,no,no,,,
+297,BJCMC/0606_LL,,investigator,"INV: 这是谁写的呀?
+INV: 哦在这儿呢.
+INV: 哦,我...我...我还以为是那种很大一个 (making gestures).
+INV: 就跟我...我拿的那个...那套书一样.
+INV: 那个可能跟这个挺像的.
+INV: 可能你也会喜欢看.
+INV: 嗯,那,最近你还看有什么别的书吗?
+INV: 或者说我们可以说一下这个周末.",first_person,dropped,declarative,declarative,还,no,是,no,no,no,no,no,no,"investigator: Who wrote this?
+investigator: Oh, it is here.
+investigator: Oh, I…I…I incorrectly thought it was like the big one (making gestures).
+investigator: Just like that…that series of books I…I took.
+investigator: That looks probably similar to this one.
+investigator: Maybe you will also like reading it.
+investigator: Hmm, then, what other books did you read recently?
+investigator: Or we can talk about this weekend.",no,no
+298,BJCMC/0606_YY,,child,"CHI: 这就是他们蛀牙虫的家.
+CHI: 你看.
+CHI: 说他吃进一块奶酪,还有...
+CHI: 不对,他[/]他吃进一块巧克力.
+CHI: 然后他们也[/]也很xxx.
+CHI: 然后他以为是一块糖果&=points:book.
+CHI: 但结果是面包.
+CHI: 然后他晕了.
+CHI: 嗯,这就是他[//]底下一排牙齿的家&=points:book.
+CHI: 就长这样.",third_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,after,,no,no
+299,BJCMC/0609_BB,,investigator,"CHI: 就是(.)开开这个门&=points:painting.
+INV: 啊.
+CHI: 然后...然后,把一些玩具当点心.
+CHI: 然后...
+INV: 哦,我还以为卖真的点心.
+CHI: 然后, 就是,一般都是在,爸爸、妈妈不工作的时候开始营业.
+INV: 啊.
+CHI: 对.
+INV: 这个因...因为只有两个顾客是吧?
+CHI: 不是,是因为怕打扰他们.",first_person,dropped,declarative,declarative,还,no,是,no,no,no,no,p_alt,before,"child: It was… open this door (pointing at the painting).
+investigator: Ah.
+child: Then…then using some toys as snacks.
+child: Then…
+investigator: Oh, I incorrectly thought (you) sold real snacks.
+child: Then, usually (it) is open when mom and dad are not working.
+investigator: Ah.
+child: Yeah.
+investigator: This is be…because there are only two costumors, right?
+child: No, it is because (I) don’t want to disturb them.",no,no
+300,BJCMC/0609_BB,,investigator,"CHI: 对,我粘的就是xxx纸.
+INV: 你这戴的是什么东西?
+INV: xxx (pointing at the child’s clothes).
+CHI: 防蚊贴 (touching clothes).
+INV: 哦...哦,防蚊贴,哦.
+INV: 我还以为...
+INV: 啊,背...背上也有一个.
+INV: 我还以为是什么拿到的奖励.
+INV: 那,呃,你呃,那你们开学有一个月了吧.
+CHI: 嗯.
+INV: 差不多了.",first_person,unclear,declarative,dropped,还,no,no,no,no,no,no,no,no,"child: Yeah, what I sticked is xxx paper.
+investigator: What are you wearing here?
+investigator: This xxx (pointing at the child’s clothes).
+child: The mosquito repellent patch (touching clothes).
+investigator: Oh, oh the mosquito repellent patch oh.
+investigator: I incorrectly thought …
+investigator: Ah, there is another one on the ba...back.
+investigator: I incorrectly thought (it) was some kind of reward.
+investigator: Then, eh, you, eh, the school started for a month right?
+child: Yeah.
+investigator: Almost.",no,no
+301,BJCMC/0609_BB,,investigator,"CHI: 对,我粘的就是xxx纸.
+INV: 你这戴的是什么东西?
+INV: xxx (pointing at the child’s clothes).
+CHI: 防蚊贴 (touching clothes).
+INV: 哦...哦,防蚊贴,哦.
+INV: 我还以为...
+INV: 啊,背...背上也有一个.
+INV: 我还以为是什么拿到的奖励.
+INV: 那,呃,你呃,那你们开学有一个月了吧.
+CHI: 嗯.
+INV: 差不多了.",first_person,dropped,declarative,declarative,还,no,是,no,no,no,no,p_alt,before,"child: Yeah, what I sticked is xxx paper.
+investigator: What are you wearing here?
+investigator: This xxx (pointing at the child’s clothes).
+child: The mosquito repellent patch (touching clothes).
+investigator: Oh, oh the mosquito repellent patch oh.
+investigator: I incorrectly thought …
+investigator: Ah, there is another one on the ba...back.
+investigator: I incorrectly thought (it) was some kind of reward.
+investigator: Then, eh, you, eh, the school started for a month right?
+child: Yeah.
+investigator: Almost.",no,no
+302,BJCMC/0609_YE,,investigator,"INV: 哦,人掉了.
+CHI: 人.
+MOT: 那个胶可能不太牢.
+INV: 它怎么是个紫色的耳朵 (pointing at the painting)?
+CHI: 紫色的头发.
+INV: (笑).
+INV: 我还以为它是兔子呢.
+MOT: 你得...你得告诉姐姐,这是我画画的特点.
+INV: 嗯.
+MOT 一画人就要画个大长辫子.
+INV: 嗯.
+INV: 是因为你也喜欢扎两个辫吗?",first_person,third_person,declarative,declarative,还,no,no,no,no,no,no,p_alt,before,"investigator: Oh, the person fell.
+child: Person.
+mother: That glue might not be very strong.
+investigator: Why does it have purple ears (pointing at the painting)?
+child: Purple hair.
+investigator: (laugh).
+investigator: I incorrectly thought it was a rabbit.
+mother: You should…you should tell sister (the investigator), this is my drawing style.
+investigator: Yeah.
+mother: Whenever (you) draw, you will draw two long braids.
+investigator: Yeah.
+investigator: Is it because you also like having two braids?",no,no
+303,BJCMC/0609_YE,,investigator,"CHI: 画的形状都很像哟 (手指着画).
+INV: 这是什么? (手指着画).
+CHI: 这是鸟.
+INV: 这鸟.
+INV: 哦,我以为是人呢.
+INV: 啊.
+CHI: 这我画的小鱼和水.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,p_alt,before,"child: The shapes you drew all look very similar. (pointing to the painting)
+investigator: What is this? (pointing to the painting)
+child: This is a bird.
+investigator: This bird.
+investigator: Oh, I thought it was a person.
+investigator: Ah.
+child: This is the little fish and water I drew.",no,no
+304,BJCMC/0609_YE,,investigator,"INV: 呃.
+CHI: 咋啦?
+INV: 这个好像掉了.
+INV: 小珠子.
+INV: 太漂亮了.
+INV: 我还以为是买的.
+INV: 但是是自己做的.
+INV: 哎,还有这个(pointing at the toy).
+CHI: 嗯.
+INV: 这是谁?
+CHI: (said simultanesouly) xxx戒指.
+CHI: 叶罗丽 (holding the toy).",first_person,dropped,declarative,declarative,还,no,是,no,no,no,no,p_alt,after,"investigator: Eh.
+child: What’s wrong?
+investigator: This probably fell off.
+investigator: The small beads.
+investigator: So pretty.
+investigator: I incorrectly thought (it) was purchased.
+investigator: But (it) was actually made by you.
+investigator: Ah, also this one (pointing at the toy).
+child: Yeah.
+investigator: Who is this?
+child: xxx ring.
+child: Ye loli (holding the toy).",no,no
