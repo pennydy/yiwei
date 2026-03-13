@@ -1,6 +1,6 @@
 ----------------------------------------
 sent_id: 1
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0027.cha": line 57. Keyword: 以为 
+*** File "/callHome/0027.cha": line 57. Keyword: 以为 
 *A:	象他们学生都是这样的啊,都没钱的啊,都&=laugh有钱都是去打工去.
 *B:	哎.
 *B:	哎.
@@ -14,7 +14,7 @@ sent_id: 1
 *A:	对.
 ----------------------------------------
 sent_id: 2
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0110.cha": line 166. Keyword: 以为 
+*** File "/callHome/0110.cha": line 166. Keyword: 以为 
 *B:	这个老板是什么公司的?
 *A:	哦.
 *A:	你是我我们我们在这里说那个supervisor@s就是说,我们我们的指导老师都说老板.
@@ -28,7 +28,7 @@ sent_id: 2
 *B:	哦.
 ----------------------------------------
 sent_id: 3
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0111.cha": line 46. Keyword: 以为 
+*** File "/callHome/0111.cha": line 46. Keyword: 以为 
 *A:	然后对呀,然后我,我表哥和表弟喔,一直说,怎么跟,跟你联系,也联系不上.
 *B:	我呀,我,我望过,因为你表哥家,你姨妈家不有电话吗?
 *B:	我打过电话总是没人.
@@ -43,7 +43,7 @@ sent_id: 3
 *A:	嗯.
 ----------------------------------------
 sent_id: 4
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0674.cha": line 94. Keyword: 以为 
+*** File "/callHome/0674.cha": line 94. Keyword: 以为 
 *B:	好.
 *A:	,实在我是.
 *B:	不是啊,我说你对白是不是有意思啊?
@@ -57,7 +57,7 @@ sent_id: 4
 *A:	是看两遍啊,我你不让我.
 ----------------------------------------
 sent_id: 5
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0695.cha": line 99. Keyword: 以为 
+*** File "/callHome/0695.cha": line 99. Keyword: 以为 
 *B:	哎,现暑假呀,暑假呀.
 *A:	哦,哦,暑假,暑假,我没想到这点.
 *A:	我还.
@@ -71,7 +71,7 @@ sent_id: 5
 *A:	哦,现在沈,,沈杰蛮好嘛,我看.
 ----------------------------------------
 sent_id: 6
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0711.cha": line 8. Keyword: 以为 
+*** File "/callHome/0711.cha": line 8. Keyword: 以为 
 @Participants:	ASubject,BSubject,B1Subject
 @ID:	zho|zho|A|||||Subject|||
 @ID:	zho|zho|B|||||Subject|||
@@ -85,7 +85,7 @@ sent_id: 6
 *B:	啊这次时间比较长一点.
 ----------------------------------------
 sent_id: 7
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0717.cha": line 155. Keyword: 以为 
+*** File "/callHome/0717.cha": line 155. Keyword: 以为 
 *A:	我们这啊?
 *B2:	啊.
 *A:	嗯晚上十点二十.
@@ -99,7 +99,7 @@ sent_id: 7
 *B2:	嗯.
 ----------------------------------------
 sent_id: 8
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0717.cha": line 244. Keyword: 以为 
+*** File "/callHome/0717.cha": line 244. Keyword: 以为 
 *B2:	那个一个月一百多,二百块钱,说实话,连儿子都养不活.
 *A:	现在还一百二百块钱啊?
 *B2:	啊.
@@ -113,7 +113,7 @@ sent_id: 8
 *B2:	她那个是证券报那个当然发财的xxx.
 ----------------------------------------
 sent_id: 9
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0719.cha": line 108. Keyword: 以为 
+*** File "/callHome/0719.cha": line 108. Keyword: 以为 
 *A:	我想再打,啊?
 *A:	哎,对,晚上再吧,搞搞了半夜三更的,肚子饿的呱呱叫.
 *B:	哎哟,在路上什么,呒要.
@@ -127,7 +127,7 @@ sent_id: 9
 *A:	对啊,我们可以通十五,十五分钟哎.
 ----------------------------------------
 sent_id: 10
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0742.cha": line 157. Keyword: 以为 
+*** File "/callHome/0742.cha": line 157. Keyword: 以为 
 *A:	最近,最近有没有跟李荷献姐打电话啊?
 *B:	嗯,前两天,打一个.
 *B:	大概她正要去打工之前,打来的,因为我们家电话不坏了一阵吗?
@@ -141,7 +141,7 @@ sent_id: 10
 *B:	打电话来了,然后那个我们没说两句话,她-她知道没事儿了.
 ----------------------------------------
 sent_id: 11
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0761.cha": line 348. Keyword: 以为 
+*** File "/callHome/0761.cha": line 348. Keyword: 以为 
 *B:	是不是?
 *A:	对,他爸好象又住院了,不行了哈,我觉得是.
 *B:	啊?
@@ -155,7 +155,7 @@ sent_id: 11
 *B:	哦.
 ----------------------------------------
 sent_id: 12
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0771.cha": line 112. Keyword: 以为 
+*** File "/callHome/0771.cha": line 112. Keyword: 以为 
 *A1:	哦.
 *B:	所以我就不习惯了.
 *A1:	哦.
@@ -169,7 +169,7 @@ sent_id: 12
 *B:	我在北京坐牢啊,我现在我身体挺好的,我天天去公园活动哎.
 ----------------------------------------
 sent_id: 13
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0779.cha": line 126. Keyword: 以为 
+*** File "/callHome/0779.cha": line 126. Keyword: 以为 
 *B:	&=laugh.
 *A:	哎,那你姨妈没跟你们住在一起了?
 *B:	没有啊.
@@ -183,7 +183,7 @@ sent_id: 13
 *B:	待这啊.
 ----------------------------------------
 sent_id: 14
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0779.cha": line 175. Keyword: 以为 
+*** File "/callHome/0779.cha": line 175. Keyword: 以为 
 *B:	她那个回来呀,想在那个北京那摩托罗拉那个,就是摩拉公司的办事处啊,找.
 *A:	哦,是吗.
 *A:	嗯哼.
@@ -197,7 +197,7 @@ sent_id: 14
 *A:	哦,是吧.
 ----------------------------------------
 sent_id: 15
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0790.cha": line 69. Keyword: 以为 
+*** File "/callHome/0790.cha": line 69. Keyword: 以为 
 *B:	嗯,他说他是美国驾驶,我说我也是以前.
 *B:	他说你是小孩子驾照&=laugh.
 *B:	我就说,这个人怎么眼光这么好啊.
@@ -212,7 +212,7 @@ sent_id: 15
 *A:	对啊.
 ----------------------------------------
 sent_id: 16
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0840.cha": line 125. Keyword: 以为 
+*** File "/callHome/0840.cha": line 125. Keyword: 以为 
 *A:	是啊,okay@s那你还有一个就是说呢,还有一还有一个就是说怎么提醒小石要特别注意的就是
 	什么 呢 .
 *A:	又美国人,美国人这边他特别讲究这个,你要有这种confidence@s.
@@ -227,7 +227,7 @@ sent_id: 16
 *B:	喔.
 ----------------------------------------
 sent_id: 17
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0844.cha": line 279. Keyword: 以为 
+*** File "/callHome/0844.cha": line 279. Keyword: 以为 
 *B:	我说你给我拿个信封,我写一下,我也没看是哪.
 *A:	哎你觉得你有没有,你没有跟他说拿我以前的信封吗?
 *B:	他也没看着拿.
@@ -243,7 +243,7 @@ sent_id: 17
 *A:	你想想,差这么远儿.
 ----------------------------------------
 sent_id: 18
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0846.cha": line 11. Keyword: 以为 
+*** File "/callHome/0846.cha": line 11. Keyword: 以为 
 @Media:	0846,audio
 *B:	很糟糕啊,他不想在这里待呀.
 *A:	哦.
@@ -257,7 +257,7 @@ sent_id: 18
 *A:	哦,原来这么回事儿啊.
 ----------------------------------------
 sent_id: 19
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0859.cha": line 109. Keyword: 以为 
+*** File "/callHome/0859.cha": line 109. Keyword: 以为 
 *B:	不过我估计八号就立秋了.
 *A:	呃.
 *B:	过两天就凉快了.
@@ -271,7 +271,7 @@ sent_id: 19
 *A:	哦.
 ----------------------------------------
 sent_id: 20
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0861.cha": line 162. Keyword: 以为 
+*** File "/callHome/0861.cha": line 162. Keyword: 以为 
 *B:	嗯.
 *B:	是嘛?
 *B:	哦.
@@ -285,7 +285,7 @@ sent_id: 20
 *A:	对,对,主要是要听懂.
 ----------------------------------------
 sent_id: 21
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 112. Keyword: 以为 
+*** File "/callHome/0913.cha": line 112. Keyword: 以为 
 *B:	你看那个电话里的语气呀?
 *B:	你是不是今天晚上还要花六百美元啊?
 *B:	啊?
@@ -299,7 +299,7 @@ sent_id: 21
 *B:	有分机我还不敢讲嘞.
 ----------------------------------------
 sent_id: 22
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 143. Keyword: 以为 
+*** File "/callHome/0913.cha": line 143. Keyword: 以为 
 *B:	还有一个怎么样.
 *B:	看了看呐,两个人吗,歪歪倒倒.
 *B:	就不敢躺下来.
@@ -315,7 +315,7 @@ sent_id: 22
 *B:	你看在国内吃得什么倒头苦.
 ----------------------------------------
 sent_id: 23
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 177. Keyword: 以为 
+*** File "/callHome/0913.cha": line 177. Keyword: 以为 
 *B:	你教育嘞.
 *B:	我看啊,你爸爸一天到晚就烦神.
 *B:	到头来你是第二个张杰梁.
@@ -329,7 +329,7 @@ sent_id: 23
 *B:	今后一定葬在他手上.
 ----------------------------------------
 sent_id: 24
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 222. Keyword: 以为 
+*** File "/callHome/0913.cha": line 222. Keyword: 以为 
 *B1:	呃.
 *B1:	好的,好的,好的,你讲,你讲.
 *A:	因为妈跟我讲这个事情,你们这边很困难,什么的,现在你烦神啊,一天到晚急得要死啊.
@@ -343,7 +343,7 @@ sent_id: 24
 *A:	我自己有数了.
 ----------------------------------------
 sent_id: 25
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 316. Keyword: 以为 
+*** File "/callHome/0913.cha": line 316. Keyword: 以为 
 *B1:	跟爸爸妈妈不能讲领情啊.
 *A:	我知的.
 *B1:	这种错是xxx错的.
@@ -357,7 +357,7 @@ sent_id: 25
 *A:	呃知道了,我这个这个你们好象讲了这个,特别是妈刚才讲的话.
 ----------------------------------------
 sent_id: 26
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 361. Keyword: 以为 
+*** File "/callHome/0913.cha": line 361. Keyword: 以为 
 *A:	我跟你讲.
 *A:	你不晓得我们两现在忙到什么程度.
 *B1:	再忙.
@@ -371,7 +371,7 @@ sent_id: 26
 *A:	呃.
 ----------------------------------------
 sent_id: 27
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0916.cha": line 73. Keyword: 以为 
+*** File "/callHome/0916.cha": line 73. Keyword: 以为 
 *B:	呃,对啊听见了,那还挺好的吗,可以可以随便打,&=laugh.
 *A:	十五分钟,对,呃不过,不过哎它跟我说是你听不见.
 *B:	十五分钟哈,那不错不错.
@@ -385,7 +385,7 @@ sent_id: 27
 *B:	呃,我现在在搞那个在用那L_S_Two@s你用过L_S_Two@s没有?
 ----------------------------------------
 sent_id: 28
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0952.cha": line 48. Keyword: 以为 
+*** File "/callHome/0952.cha": line 48. Keyword: 以为 
 *A:	没有啊,去.
 *A:	&=laugh.
 *B:	&=laugh没发功啊?
@@ -399,7 +399,7 @@ sent_id: 28
 *A:	哎,你现在在干吗?
 ----------------------------------------
 sent_id: 29
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0963.cha": line 203. Keyword: 以为 
+*** File "/callHome/0963.cha": line 203. Keyword: 以为 
 *A:	哎哟,我们刚才七点钟打电话来,打了你们不在,我们都着急死了.
 *A1:	呃.
 *B:	七点钟我们就走了呀.
@@ -413,7 +413,7 @@ sent_id: 29
 *B:	哎.
 ----------------------------------------
 sent_id: 30
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1006.cha": line 349. Keyword: 以为 
+*** File "/callHome/1006.cha": line 349. Keyword: 以为 
 *B1:	呃天天打麻将.
 *B1:	呃他会跳舞.
 *A:	这边也有来了带麻-,啊.
@@ -428,7 +428,7 @@ sent_id: 30
 	.
 ----------------------------------------
 sent_id: 31
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1014.cha": line 188. Keyword: 以为 
+*** File "/callHome/1014.cha": line 188. Keyword: 以为 
 *B:	我也没觉得你当真啊,这句话.
 *A:	你那个让我越想越生气,操.
 *B:	&=noise你生气我还生气呐,你.
@@ -443,7 +443,7 @@ sent_id: 31
 *A:	嗯?
 ----------------------------------------
 sent_id: 32
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1280.cha": line 9. Keyword: 以为 
+*** File "/callHome/1280.cha": line 9. Keyword: 以为 
 @ID:	zho|zho|A|||||Subject|||
 @ID:	zho|zho|A1|||||Subject|||
 @ID:	zho|zho|B|||||Subject|||
@@ -459,7 +459,7 @@ sent_id: 32
 *A:	所以这个也.
 ----------------------------------------
 sent_id: 33
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1280.cha": line 15. Keyword: 以为 
+*** File "/callHome/1280.cha": line 15. Keyword: 以为 
 *A:	就这样把他那个尿也不好么,他这个如果综合起来,饮食特别重要.
 *A:	我看他那个上面那个这边有一个医生,他发了一篇文章哈,他现在很有名那里
 	&=noise:mouth 他就说有人过去好...好像很多病啊,都是遗传什么的。好-医学以为. 
@@ -475,7 +475,7 @@ sent_id: 33
 *A:	对对对,多吃素菜.
 ----------------------------------------
 sent_id: 34
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1430.cha": line 216. Keyword: 以为 
+*** File "/callHome/1430.cha": line 216. Keyword: 以为 
 *A:	那样的话,那样还得我想,可能到时爸就告诉你,就寄到什么地方,你知道吧.
 *B:	嗯嗯嗯.
 *B:	呃,反正得等爸搬家以后咯.
@@ -489,7 +489,7 @@ sent_id: 34
 *A:	是啊?
 ----------------------------------------
 sent_id: 35
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1477.cha": line 246. Keyword: 以为 
+*** File "/callHome/1477.cha": line 246. Keyword: 以为 
 *B:	就加一块钱多一个.
 *B:	那是什么呢?
 *A:	哦,哦,是什么?
@@ -503,7 +503,7 @@ sent_id: 35
 *B:	加一块钱买一个.
 ----------------------------------------
 sent_id: 36
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1477.cha": line 315. Keyword: 以为 
+*** File "/callHome/1477.cha": line 315. Keyword: 以为 
 *A:	然后他拿你的名字,将来就是说,给你,他给你寄广告用.
 *B:	哦.
 *A:	这样的,我说,我说,怎么会,嗵,给我寄个东西啊.
@@ -517,7 +517,7 @@ sent_id: 36
 *A:	最后了,对.
 ----------------------------------------
 sent_id: 37
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/2200.cha": line 141. Keyword: 以为 
+*** File "/callHome/2200.cha": line 141. Keyword: 以为 
 *B:	明白我的意思吗?
 *A:	嗯,明白了,不过你下回是不是注意点儿啊?
 *B:	呃,注意点,我不有意的.
@@ -531,7 +531,7 @@ sent_id: 37
 *B:	那没-那也没办法呀.
 ----------------------------------------
 sent_id: 38
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/4083.cha": line 57. Keyword: 以为 
+*** File "/callHome/4083.cha": line 57. Keyword: 以为 
 *A:	怎么打?
 *B:	&=laugh.
 *A:	啊哈.
@@ -545,7 +545,7 @@ sent_id: 38
 *A:	那么,你回家,现在你一般睡,睡地板?
 ----------------------------------------
 sent_id: 39
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/4208.cha": line 135. Keyword: 以为 
+*** File "/callHome/4208.cha": line 135. Keyword: 以为 
 *A:	能骑车吗?
 *B1:	骑.
 *B1:	骑车可以了,早就可以骑车了.

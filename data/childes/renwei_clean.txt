@@ -1,6 +1,6 @@
 ----------------------------------------
 sent_id: 1
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/ChangPN/grade3/198.cha": line 266. Keyword: 认为 
+*** File "/ChangPN/grade3/198.cha": line 266. Keyword: 认为 
 *CHI:	然后后来我就让给他坐.
 *CHI:	然后他就很高兴,坐上去.
 *EXP:	嗯哼.
@@ -14,7 +14,7 @@ sent_id: 1
 *EXP:	嗯哼.
 ----------------------------------------
 sent_id: 2
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/NSCtoys/4-6_2/a04_1.cha": line 408. Keyword: 认为 
+*** File "/NSCtoys/4-6_2/a04_1.cha": line 408. Keyword: 认为 
 *MOT:	"那我现在不要看了.
 *MOT:	"我今天要早一点睡.
 *CHI:	"好.
@@ -28,7 +28,7 @@ sent_id: 2
 *MOT:	"你要帮我擦药吗?
 ----------------------------------------
 sent_id: 3
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/TCCM/yang/020900.cha": line 1070. Keyword: 认为 
+*** File "/TCCM/yang/020900.cha": line 1070. Keyword: 认为 
 *MOT:	小叮当为什么叫小朋友把他射下来?
 *CHI:	因为.
 *MOT:	因为小飞侠骂他呀.
@@ -42,7 +42,7 @@ sent_id: 3
 *CHI:	然后他就.
 ----------------------------------------
 sent_id: 4
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/TCCM/chou/020100.cha": line 5480. Keyword: 认为 
+*** File "/TCCM/chou/020100.cha": line 5480. Keyword: 认为 
 *EXA:	还有叶子.
 *EXA:	没了!
 *MOT:	哎那如果你们刚好找到的那个小孩都不讲话.
@@ -56,7 +56,7 @@ sent_id: 4
 *MOT:	我那个弟弟的老大喔.
 ----------------------------------------
 sent_id: 5
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/60/fb17.cha": line 1383. Keyword: 认为 
+*** File "/Zhou2/60/fb17.cha": line 1383. Keyword: 认为 
 *MOT:	嗯不错.
 *CHI:	这个鱼漂亮.
 *MOT:	这个鱼很漂亮.
@@ -70,7 +70,7 @@ sent_id: 5
 *MOT:	那好吧就画一个.
 ----------------------------------------
 sent_id: 6
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/60/fb17.cha": line 1387. Keyword: 认为 
+*** File "/Zhou2/60/fb17.cha": line 1387. Keyword: 认为 
 *CHI:	这个鱼漂亮.
 *MOT:	这个鱼很漂亮.
 *CHI:	为什么?
@@ -84,7 +84,7 @@ sent_id: 6
 *CHI:	小鸟头发是乱蓬蓬的.
 ----------------------------------------
 sent_id: 7
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/60/ma05.cha": line 1783. Keyword: 认为 
+*** File "/Zhou2/60/ma05.cha": line 1783. Keyword: 认为 
 *MOT:	啊就好像我们冬天的那时候要盖被子.
 *MOT:	对吧?
 *MOT:	能保暖.
@@ -98,7 +98,7 @@ sent_id: 7
 *MOT:	又压着一个冰袋.
 ----------------------------------------
 sent_id: 8
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/42/ma02.cha": line 23. Keyword: 认为 
+*** File "/Zhou2/42/ma02.cha": line 23. Keyword: 认为 
 @Bg:	Blocks
 @Types:	cross,toyplay,TD
 *MOT:	打开吧.
@@ -110,7 +110,7 @@ sent_id: 8
 *MOT:	我们拼一个,好不好?
 ----------------------------------------
 sent_id: 9
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou2/42/ma05.cha": line 1477. Keyword: 认为 
+*** File "/Zhou2/42/ma05.cha": line 1477. Keyword: 认为 
 *MOT:	什么东西这么软?
 *MOT:	太软了.
 *MOT:	这不行.
@@ -123,7 +123,7 @@ sent_id: 9
 *MOT:	给小星星戴上.
 ----------------------------------------
 sent_id: 10
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/Zhou3/000326.cha": line 1026. Keyword: 认为 
+*** File "/Zhou3/000326.cha": line 1026. Keyword: 认为 
 *MOT:	来了一只什么颜色的狐狸啊?
 *CHI:	红.
 *MOT:	哦这颜色就是红.
@@ -137,7 +137,7 @@ sent_id: 10
 *MOT:	这个啊?
 ----------------------------------------
 sent_id: 11
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/ZhouAssessment/4-4.5/XIANlizixuan.cha": line 206. Keyword: 认为 
+*** File "/ZhouAssessment/4-4.5/XIANlizixuan.cha": line 206. Keyword: 认为 
 *CHI:	胡萝卜.
 *TEA:	banana你知道是什么吗?
 *CHI:	不知道.
@@ -151,7 +151,7 @@ sent_id: 11
 *CHI:	猪妈妈.
 ----------------------------------------
 sent_id: 12
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi13.cha": line 84. Keyword: 认为 
+*** File "/LiReading/5/r5ymi13.cha": line 84. Keyword: 认为 
 *MOT:	你看一看.
 *MOT:	他说.
 *MOT:	妈妈在家的时候他们会躲起来.
@@ -165,7 +165,7 @@ sent_id: 12
 *MOT:	可当我一个人在家的时候屋子里就变得好安静.
 ----------------------------------------
 sent_id: 13
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi3.cha": line 376. Keyword: 认为 
+*** File "/LiReading/5/r5ymi3.cha": line 376. Keyword: 认为 
 *MOT:	他说我的家里到处藏着大妖怪.
 *MOT:	你看看这个小朋友拿着风筝他去准备放风筝准备,对不对?
 *CHI:	嗯.
@@ -179,7 +179,7 @@ sent_id: 13
 *CHI:	嗯.
 ----------------------------------------
 sent_id: 14
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1141. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1141. Keyword: 认为 
 *MOT:	好.
 *MOT:	小明.
 *CHI:	这个小狗叫旺财.
@@ -193,7 +193,7 @@ sent_id: 14
 *MOT:	这是谁的想法呀.
 ----------------------------------------
 sent_id: 15
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1171. Keywords: 认为, 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1171. Keywords: 认为, 认为 
 *MOT:	这是谁的想法呀.
 *MOT:	妈妈在家的时候他们都会躲起来.
 *MOT:	是谁的想法?
@@ -207,7 +207,7 @@ sent_id: 15
 *MOT:	他认为是大妖怪躲起来了.
 ----------------------------------------
 sent_id: 16
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1186. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1186. Keyword: 认为 
 *MOT:	小明认为认为妈妈在家的时候.
 *MOT:	他们都会躲起来.
 *MOT:	指的是谁会躲起来?
@@ -221,7 +221,7 @@ sent_id: 16
 *MOT:	爸爸说什么呢.
 ----------------------------------------
 sent_id: 17
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1210. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1210. Keyword: 认为 
 *MOT:	我知道那个大妖怪上就会跳出来.
 *MOT:	马上就会跳出来是不是啊.
 *MOT:	爸爸说什么呢.
@@ -235,7 +235,7 @@ sent_id: 17
 *MOT:	外面的垃圾桶旁也有大妖怪.
 ----------------------------------------
 sent_id: 18
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1213. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1213. Keyword: 认为 
 *MOT:	马上就会跳出来是不是啊.
 *MOT:	爸爸说什么呢.
 *MOT:	爸爸说世界上根本没有大妖怪.
@@ -249,7 +249,7 @@ sent_id: 18
 *MOT:	我就是知道.
 ----------------------------------------
 sent_id: 19
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1237. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1237. Keyword: 认为 
 *MOT:	所以他们也不会找我的麻烦.
 *MOT:	外面的垃圾桶旁也有大妖怪.
 *MOT:	我就是知道.
@@ -263,7 +263,7 @@ sent_id: 19
 *MOT:	为什么呢你看他看?
 ----------------------------------------
 sent_id: 20
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1240. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1240. Keyword: 认为 
 *MOT:	外面的垃圾桶旁也有大妖怪.
 *MOT:	我就是知道.
 *MOT:	他很确信的说.
@@ -277,7 +277,7 @@ sent_id: 20
 *MOT:	对.
 ----------------------------------------
 sent_id: 21
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1258. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1258. Keyword: 认为 
 *CHI:	地下室.
 *MOT:	嗯还有呢.
 *CHI:	和垃圾桶旁边.
@@ -291,7 +291,7 @@ sent_id: 21
 *MOT:	爸爸的样子很轻松.
 ----------------------------------------
 sent_id: 22
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1342. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1342. Keyword: 认为 
 *MOT:	可只要我一伸头.
 *MOT:	它就不见了.
 *MOT:	它指的是谁呀.
@@ -305,7 +305,7 @@ sent_id: 22
 *MOT:	那嗯要爸爸陪着的时候是什么时候呀.
 ----------------------------------------
 sent_id: 23
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1384. Keywords: 认为, 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1384. Keywords: 认为, 认为 
 *MOT:	因为我睡在双层床的上铺.
 *MOT:	我在那儿造了一座超级坚固的城堡.
 *MOT:	爸爸说大妖怪们很讨厌上铺.
@@ -319,7 +319,7 @@ sent_id: 23
 *MOT:	连懒得都爬上铺去,是不是?
 ----------------------------------------
 sent_id: 24
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5ymi7.cha": line 1405. Keyword: 认为 
+*** File "/LiReading/5/r5ymi7.cha": line 1405. Keyword: 认为 
 *MOT:	因为他们害怕梯子他们害怕上上楼梯,对不对?
 *MOT:	也很懒.
 *MOT:	有可能是不是他不想爬楼.
@@ -333,7 +333,7 @@ sent_id: 24
 *MOT:	不限年龄.
 ----------------------------------------
 sent_id: 25
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5yml1.cha": line 400. Keyword: 认为 
+*** File "/LiReading/5/r5yml1.cha": line 400. Keyword: 认为 
 *MOT:	对呀.
 *MOT:	可是我一个人在家的时候屋子里就变得好安静哦.
 *MOT:	我知道那些大妖怪马上就会跳出来.
@@ -347,7 +347,7 @@ sent_id: 25
 *MOT:	你一个人在家害怕哇.
 ----------------------------------------
 sent_id: 26
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5yml1.cha": line 412. Keyword: 认为 
+*** File "/LiReading/5/r5yml1.cha": line 412. Keyword: 认为 
 *CHI:	你看大妖怪.
 *MOT:	对呀你有时候会不会这么认为.
 *CHI:	会.
@@ -361,7 +361,7 @@ sent_id: 26
 *MOT:	可我从来不去那里.
 ----------------------------------------
 sent_id: 27
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5yml1.cha": line 448. Keyword: 认为 
+*** File "/LiReading/5/r5yml1.cha": line 448. Keyword: 认为 
 *MOT:	外面的垃圾桶旁也有大妖怪.
 *MOT:	我就是知道我去扔垃圾时一定要爸爸远远的保护我.
 *MOT:	不然的话我也许就回不来了.
@@ -375,7 +375,7 @@ sent_id: 27
 *CHI:	嗯.
 ----------------------------------------
 sent_id: 28
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/5/r5yml4.cha": line 772. Keyword: 认为 
+*** File "/LiReading/5/r5yml4.cha": line 772. Keyword: 认为 
 *MOT:	是不是啊?
 *CHI:	嗯.
 *MOT:	然后呢我知道地下室里就有大妖怪.
@@ -389,7 +389,7 @@ sent_id: 28
 *MOT:	他的洗澡的浴室里他觉得也躲了一个大妖怪.
 ----------------------------------------
 sent_id: 29
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/4/r4yfl1.cha": line 1356. Keyword: 认为 
+*** File "/LiReading/4/r4yfl1.cha": line 1356. Keyword: 认为 
 *MOT:	我们讲故事了啊.
 *CHI:	<这个是>[/]这个是真的吗?
 *MOT:	假的.
@@ -403,7 +403,7 @@ sent_id: 29
 *MOT:	他妈妈在家的时候啊它们都会躲起来.
 ----------------------------------------
 sent_id: 30
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/4/r4yfl24.cha": line 312. Keyword: 认为 
+*** File "/LiReading/4/r4yfl24.cha": line 312. Keyword: 认为 
 *MOT:	对.
 *MOT:	重点说的是什么呢.
 *MOT:	就是说这个小朋友原来是一个非常胆小的小朋友.
@@ -417,7 +417,7 @@ sent_id: 30
 *MOT:	你知道吗.
 ----------------------------------------
 sent_id: 31
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/4/r4yfl7.cha": line 866. Keyword: 认为 
+*** File "/LiReading/4/r4yfl7.cha": line 866. Keyword: 认为 
 *MOT:	是当我一个人在家的时候那屋子就变得好安静了.
 *MOT:	我知道那些大妖怪马上就会跳出来对吧.
 *CHI:	他在里面它在哪里啊?
@@ -431,7 +431,7 @@ sent_id: 31
 *MOT:	然后他不敢一个人去扔垃圾.
 ----------------------------------------
 sent_id: 32
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/6/r6ymi20.cha": line 661. Keyword: 认为 
+*** File "/LiReading/6/r6ymi20.cha": line 661. Keyword: 认为 
 *MOT:	<大吼>[/]大吼你知道大吼是什么意思吗?
 *MOT:	声音很大.
 *MOT:	我终于让他们见识了我的厉害.
@@ -445,7 +445,7 @@ sent_id: 32
 *MOT:	他想打大妖怪.
 ----------------------------------------
 sent_id: 33
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/6/r6yml16.cha": line 729. Keyword: 认为 
+*** File "/LiReading/6/r6yml16.cha": line 729. Keyword: 认为 
 *MOT:	这花是从抽屉里面出来的吗?
 *CHI:	对.
 *MOT:	这桌子是什么形状的呀?
@@ -459,7 +459,7 @@ sent_id: 33
 *CHI:	做一张桌子.
 ----------------------------------------
 sent_id: 34
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/LiReading/6/r6yml6.cha": line 288. Keyword: 认为 
+*** File "/LiReading/6/r6yml6.cha": line 288. Keyword: 认为 
 *MOT:	我真希望大妖怪们站的近一些才好.
 *MOT:	洗完澡我进了自己房间来了一个威猛的空手道姿势.
 *MOT:	哎呀大妖怪们吓得不敢出来了.

@@ -38,6 +38,9 @@ if __name__ == "__main__":
     with open(args.input, "r") as f:
         current_id = None
         for line in f:
+            # skip the existing sent_id lines in file B
+            if line.startswith("sent_id:"):
+                continue
             # Detect *** File line
             header = FILE_HEADR.match(line)
             if header:

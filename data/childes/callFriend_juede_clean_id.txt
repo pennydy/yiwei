@@ -1,6 +1,6 @@
 ----------------------------------------
 sent_id: 1
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0928.cha": line 23. Keyword: 觉得 
+*** File "/callFriend/0928.cha": line 23. Keyword: 觉得 
 *PAR0:	故我觉得太苦了.
 *PAR0:	而且再说我没兴.
 *PAR0:	趣.
@@ -14,7 +14,7 @@ sent_id: 1
 *PAR0:	就是教书什么的再说.
 ----------------------------------------
 sent_id: 2
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0928.cha": line 33. Keyword: 觉得 
+*** File "/callFriend/0928.cha": line 33. Keyword: 觉得 
 *PAR0:	就是教书什么的再说.
 *PAR0:	那他那是一次就是说根本不感.
 *PAR0:	兴.
@@ -28,7 +28,7 @@ sent_id: 2
 *PAR0:	你[/]你哪一种理论能把这经济真正感都是下不是你这你现在还没接.
 ----------------------------------------
 sent_id: 3
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0928.cha": line 36. Keyword: 觉得 
+*** File "/callFriend/0928.cha": line 36. Keyword: 觉得 
 *PAR0:	趣.
 *PAR0:	他是就是全是瞎扯啊.
 *PAR0:	我也觉得现在经济学就是整个一壶扯.
@@ -42,7 +42,7 @@ sent_id: 3
 *PAR0:	老动不动就积.
 ----------------------------------------
 sent_id: 4
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0928.cha": line 57. Keyword: 觉得 
+*** File "/callFriend/0928.cha": line 57. Keyword: 觉得 
 *PAR0:	我[/]我[/]我还是对[/]对商业什么的也比较感.
 *PAR0:	兴.
 *PAR0:	趣.
@@ -56,7 +56,7 @@ sent_id: 4
 *PAR0:	反正我觉得那几个人还不.
 ----------------------------------------
 sent_id: 5
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0928.cha": line 61. Keyword: 觉得 
+*** File "/callFriend/0928.cha": line 61. Keyword: 觉得 
 *PAR0:	面.
 *PAR0:	你觉得你在pw干的还<挺好的>[/]挺好的是吗.
 *PAR0:	我们后来走的时候都挺依[/]依不舍的给我开party.
@@ -70,7 +70,7 @@ sent_id: 5
 *PAR0:	他们老板挣挺多的.
 ----------------------------------------
 sent_id: 6
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0964.cha": line 142. Keyword: 觉得 
+*** File "/callFriend/0964.cha": line 142. Keyword: 觉得 
 *PAR0:	不过我问了问他说很热爱钢琴一.
 *PAR0:	样.
 *PAR0:	他这个练起来他还是因为练还是很苦的.
@@ -84,7 +84,7 @@ sent_id: 6
 *PAR0:	但是我们俩懂得你可以搞很多有气味的.
 ----------------------------------------
 sent_id: 7
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0964.cha": line 325. Keyword: 觉得 
+*** File "/callFriend/0964.cha": line 325. Keyword: 觉得 
 *PAR0:	这边就是得学这边.
 *PAR0:	我想我跟姓林说吧.
 *PAR0:	姓林总是一直是反对我.
@@ -98,7 +98,7 @@ sent_id: 7
 *PAR0:	对因为你想看好好找[/]找玩[/]玩.
 ----------------------------------------
 sent_id: 8
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0964.cha": line 351. Keyword: 觉得 
+*** File "/callFriend/0964.cha": line 351. Keyword: 觉得 
 *PAR0:	验.
 *PAR0:	那个人说那个经验就跟过.
 *PAR0:	去.
@@ -112,7 +112,7 @@ sent_id: 8
 *PAR0:	其实鬼知道什么也没说就过了.
 ----------------------------------------
 sent_id: 9
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 40. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 40. Keyword: 觉得 
 *PAR0:	也许要过一段他才会有材料寄过.
 *PAR0:	去.
 *PAR0:	他把材料记到我这来是吧.
@@ -126,7 +126,7 @@ sent_id: 9
 *PAR0:	但是就是应该离这边很近嘛.
 ----------------------------------------
 sent_id: 10
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 46. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 46. Keyword: 觉得 
 *PAR0:	王妍对再看看寄给她.
 *PAR0:	因为我不知道她国内的地址是什么.
 *PAR0:	所以你可以看看.
@@ -140,7 +140,7 @@ sent_id: 10
 *PAR0:	嗯那个阅赌第一次呢就差两分.
 ----------------------------------------
 sent_id: 11
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 58. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 58. Keyword: 觉得 
 *PAR0:	作文什么语法全都通.
 *PAR0:	过.
 *PAR0:	就是这个阅读差两分.
@@ -154,7 +154,7 @@ sent_id: 11
 *PAR0:	差一分.
 ----------------------------------------
 sent_id: 12
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 78. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 78. Keyword: 觉得 
 *PAR0:	那么就是今年秋.
 *PAR0:	季.
 *PAR0:	就不能入学了.
@@ -168,7 +168,7 @@ sent_id: 12
 *PAR0:	所以现在就是他现在呢就在一个中国餐馆打.
 ----------------------------------------
 sent_id: 13
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 86. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 86. Keyword: 觉得 
 *PAR0:	因为我想回去过春节是吧.
 *PAR0:	但现在反正他也还想跟我回去说他那个姐[/]姐什么就说考上考不上都回来吧.
 *PAR0:	所以现在就是他现在呢就在一个中国餐馆打.
@@ -182,7 +182,7 @@ sent_id: 13
 *PAR0:	就是说你即使是录取了那你语言问题解决不了你也不好办.
 ----------------------------------------
 sent_id: 14
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 100. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 100. Keyword: 觉得 
 *PAR0:	有些也准备开学了什么的也不放她是吧.
 *PAR0:	就反正不希望她.
 *PAR0:	她就说人家对她挺好的完了现在人家挺困难的.
@@ -196,7 +196,7 @@ sent_id: 14
 *PAR0:	因为跟顾客说的那几句话都是有限的.
 ----------------------------------------
 sent_id: 15
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 135. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 135. Keyword: 觉得 
 *PAR0:	对想看看吧.
 *PAR0:	还不一定主要挺忙的.
 *PAR0:	没有机会那你妈[/]妈呢.
@@ -210,7 +210,7 @@ sent_id: 15
 *PAR0:	对一般的就是这样探子女的相对起来容易点是吧.
 ----------------------------------------
 sent_id: 16
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 144. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 144. Keyword: 觉得 
 *PAR0:	对我估计签证不会很难就出来探个亲.
 *PAR0:	对一般的就是这样探子女的相对起来容易点是吧.
 *PAR0:	那时候我去签我不原来也想签诊探亲就去签了.
@@ -224,7 +224,7 @@ sent_id: 16
 *PAR0:	那个联系加拿大了吗.
 ----------------------------------------
 sent_id: 17
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/0966.cha": line 239. Keyword: 觉得 
+*** File "/callFriend/0966.cha": line 239. Keyword: 觉得 
 *PAR0:	听我爸的意思.
 *PAR0:	是吧我也不知道他的意思.
 *PAR0:	看看吧.
@@ -238,7 +238,7 @@ sent_id: 17
 *PAR0:	也不一定出来.
 ----------------------------------------
 sent_id: 18
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1017.cha": line 30. Keyword: 觉得 
+*** File "/callFriend/1017.cha": line 30. Keyword: 觉得 
 *PAR0:	然后那天住在dc住一个晚上玩两天这样.
 *PAR0:	子.
 *PAR0:	然后那个张旺是想我们要是早一点出发吧.
@@ -252,7 +252,7 @@ sent_id: 18
 *PAR0:	dc城里parking很不好弄的.
 ----------------------------------------
 sent_id: 19
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1017.cha": line 46. Keyword: 觉得 
+*** File "/callFriend/1017.cha": line 46. Keyword: 觉得 
 *PAR0:	然后坐metro进.
 *PAR0:	去.
 *PAR0:	那好我们也行啊.
@@ -266,7 +266,7 @@ sent_id: 19
 *PAR0:	你觉得dc看到你们是多久来的.
 ----------------------------------------
 sent_id: 20
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1017.cha": line 51. Keyword: 觉得 
+*** File "/callFriend/1017.cha": line 51. Keyword: 觉得 
 *PAR0:	然后坐地铺对但是你觉得麻烦你能找到地方什么的吗.
 *PAR0:	不知道啊那你们准备什么时候.
 *PAR0:	晚上几点钟到这呢.
@@ -280,7 +280,7 @@ sent_id: 20
 *PAR0:	那我们就从这到你们那是七个半小[/]小.
 ----------------------------------------
 sent_id: 21
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1017.cha": line 206. Keyword: 觉得 
+*** File "/callFriend/1017.cha": line 206. Keyword: 觉得 
 *PAR0:	安全还是安全的.
 *PAR0:	对那就好.
 *PAR0:	我觉得我们找应该没有问题.
@@ -294,7 +294,7 @@ sent_id: 21
 *PAR0:	嗯好[/]好我相信啊还没把那个free的用完呢.
 ----------------------------------------
 sent_id: 22
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1017.cha": line 225. Keyword: 觉得 
+*** File "/callFriend/1017.cha": line 225. Keyword: 觉得 
 *PAR0:	嗯你们特别累吧.
 *PAR0:	我觉得你们这一圈嗯还.
 *PAR0:	好就是累.
@@ -308,7 +308,7 @@ sent_id: 22
 *PAR0:	面.
 ----------------------------------------
 sent_id: 23
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1017.cha": line 228. Keyword: 觉得 
+*** File "/callFriend/1017.cha": line 228. Keyword: 觉得 
 *PAR0:	累.
 *PAR0:	然后我们在boston就多待了一天嘛.
 *PAR0:	当时也是觉得说不要太赶.
@@ -322,7 +322,7 @@ sent_id: 23
 *PAR0:	昨天蛮轻松的.
 ----------------------------------------
 sent_id: 24
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1034.cha": line 74. Keyword: 觉得 
+*** File "/callFriend/1034.cha": line 74. Keyword: 觉得 
 *PAR0:	我都不想<熬的>[/]熬的都烦得慌了.
 *PAR0:	可是又没办法好像.
 *PAR0:	也没退路了.
@@ -336,7 +336,7 @@ sent_id: 24
 *PAR0:	你再咬一年多的牙可能也就下来了实际上是谁知道不知道了.
 ----------------------------------------
 sent_id: 25
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1034.cha": line 89. Keyword: 觉得 
+*** File "/callFriend/1034.cha": line 89. Keyword: 觉得 
 *PAR0:	有啥进展吗.
 *PAR0:	没有任何进.
 *PAR0:	展.
@@ -350,7 +350,7 @@ sent_id: 25
 *PAR0:	现在好点了啊.
 ----------------------------------------
 sent_id: 26
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1034.cha": line 219. Keyword: 觉得 
+*** File "/callFriend/1034.cha": line 219. Keyword: 觉得 
 *PAR0:	就大家就在那蒐问题嘛.
 *PAR0:	他们俩风气是不一.
 *PAR0:	样也挺enjoy的.
@@ -364,7 +364,7 @@ sent_id: 26
 *PAR0:	去内交见我的时候.
 ----------------------------------------
 sent_id: 27
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1034.cha": line 246. Keyword: 觉得 
+*** File "/callFriend/1034.cha": line 246. Keyword: 觉得 
 *PAR0:	临走的时候才见了一顾.
 *PAR0:	我们两个请了一.
 *PAR0:	段.
@@ -378,7 +378,7 @@ sent_id: 27
 *PAR0:	理.
 ----------------------------------------
 sent_id: 28
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1034.cha": line 333. Keyword: 觉得 
+*** File "/callFriend/1034.cha": line 333. Keyword: 觉得 
 *PAR0:	我东西少你们呢.
 *PAR0:	我看你老还老喷家.
 *PAR0:	我现在好了现在没怎么办.
@@ -392,7 +392,7 @@ sent_id: 28
 *PAR0:	你想<三年>[/]三年了.
 ----------------------------------------
 sent_id: 29
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1191.cha": line 154. Keyword: 觉得 
+*** File "/callFriend/1191.cha": line 154. Keyword: 觉得 
 *PAR0:	中国联合两个大.
 *PAR0:	使.
 *PAR0:	馆.
@@ -406,7 +406,7 @@ sent_id: 29
 *PAR0:	一斤猪肉十块钱.
 ----------------------------------------
 sent_id: 30
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1191.cha": line 164. Keyword: 觉得 
+*** File "/callFriend/1191.cha": line 164. Keyword: 觉得 
 *PAR0:	一斤猪肉十块钱.
 *PAR0:	那可怕真的不过他们工资也都上去了但是呢还是那你说像你爸爸和我爸爸他们那样的工资怎么能上去他们那帮人.
 *PAR0:	他逗我爸爸一直写信说现在国家就养他们这帮人.
@@ -420,7 +420,7 @@ sent_id: 30
 *PAR0:	他现在挡得比我还多是吗.
 ----------------------------------------
 sent_id: 31
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1253.cha": line 235. Keyword: 觉得 
+*** File "/callFriend/1253.cha": line 235. Keyword: 觉得 
 *PAR0:	她说那个她跟我说她说你没在这打过工.
 *PAR0:	她在这打工不好打.
 *PAR0:	真是那她说你那一分钱都是[/]都是喜汉换来的.
@@ -434,7 +434,7 @@ sent_id: 31
 *PAR0:	然后后来呢我我就跟他们说明天就工作了.
 ----------------------------------------
 sent_id: 32
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1253.cha": line 367. Keywords: 觉得, 觉得 
+*** File "/callFriend/1253.cha": line 367. Keywords: 觉得, 觉得 
 *PAR0:	那小孩稍微有点什么.
 *PAR0:	上风感冒都成我们的责任了.
 *PAR0:	真的你可能还没有孩子.
@@ -447,7 +447,7 @@ sent_id: 32
 *PAR0:	疫.
 ----------------------------------------
 sent_id: 33
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/1253.cha": line 368. Keyword: 觉得 
+*** File "/callFriend/1253.cha": line 368. Keyword: 觉得 
 *PAR0:	上风感冒都成我们的责任了.
 *PAR0:	真的你可能还没有孩子.
 *PAR0:	所以没感.
@@ -460,7 +460,7 @@ sent_id: 33
 @End
 ----------------------------------------
 sent_id: 34
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4227.cha": line 521. Keyword: 觉得 
+*** File "/callFriend/4227.cha": line 521. Keyword: 觉得 
 *PAR0:	所以她后来想一想还是决定去他说因为他这个工资是四万多.
 *PAR0:	他如果那个bonus他说有五千到一万五.
 *PAR0:	那可以分到的就是说但是要看你工作实质的就起码五千.
@@ -474,7 +474,7 @@ sent_id: 34
 *PAR0:	业.
 ----------------------------------------
 sent_id: 35
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4227.cha": line 533. Keyword: 觉得 
+*** File "/callFriend/4227.cha": line 533. Keyword: 觉得 
 *PAR0:	就他因为学电脑就是好一点.
 *PAR0:	早过来他就和我讲他说这个好就属于两个什么东.
 *PAR0:	西.
@@ -488,7 +488,7 @@ sent_id: 35
 *PAR0:	脑.
 ----------------------------------------
 sent_id: 36
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4249.cha": line 123. Keyword: 觉得 
+*** File "/callFriend/4249.cha": line 123. Keyword: 觉得 
 *PAR0:	嗯她还.
 *PAR0:	好她把她儿子送幼儿园去啊.
 *PAR0:	为什么呢她说她儿子太孤独了.
@@ -502,7 +502,7 @@ sent_id: 36
 *PAR0:	凡.
 ----------------------------------------
 sent_id: 37
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4249.cha": line 134. Keyword: 觉得 
+*** File "/callFriend/4249.cha": line 134. Keyword: 觉得 
 *PAR0:	然后每天就是免贴都出去嘛.
 *PAR0:	小孩又玩的嘛.
 *PAR0:	但没人玩.
@@ -516,7 +516,7 @@ sent_id: 37
 *PAR0:	叫他送到那个地方.
 ----------------------------------------
 sent_id: 38
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4249.cha": line 228. Keyword: 觉得 
+*** File "/callFriend/4249.cha": line 228. Keyword: 觉得 
 *PAR0:	尤其是你们以后买house.
 *PAR0:	因为你们工作了.
 *PAR0:	不像我们学校趁着门小孩在一块玩.
@@ -530,7 +530,7 @@ sent_id: 38
 *PAR0:	所以我想哎呀知道了以后慢慢再想哪那么容易.
 ----------------------------------------
 sent_id: 39
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4249.cha": line 431. Keyword: 觉得 
+*** File "/callFriend/4249.cha": line 431. Keyword: 觉得 
 *PAR0:	哎呀我跟你讲你想现在已经我那.
 *PAR0:	时候是什么时候.
 *PAR0:	那次最后一阶级十二分吧.
@@ -544,7 +544,7 @@ sent_id: 39
 *PAR0:	对那倒是我想上.
 ----------------------------------------
 sent_id: 40
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4249.cha": line 472. Keyword: 觉得 
+*** File "/callFriend/4249.cha": line 472. Keyword: 觉得 
 *PAR0:	我一直在想一直在考一直想.
 *PAR0:	我已经想到了现在.
 *PAR0:	我已经了一年了.
@@ -558,7 +558,7 @@ sent_id: 40
 *PAR0:	我就想给娟打个话.
 ----------------------------------------
 sent_id: 41
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 44. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 44. Keyword: 觉得 
 *PAR0:	十月份还是年底更晚.
 *PAR0:	我不知道呢.
 *PAR0:	现在那个我妈要我弟的那个东.
@@ -572,7 +572,7 @@ sent_id: 41
 *PAR0:	因为我弄更方.
 ----------------------------------------
 sent_id: 42
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 204. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 204. Keyword: 觉得 
 *PAR0:	我就不怎么逮.
 *PAR0:	我还逼得挺紧的呢.
 *PAR0:	<你现在>[/]你现在pregnant他[/]他倒也知道.
@@ -586,7 +586,7 @@ sent_id: 42
 *PAR0:	现在新加坡是属于六个大城市之一呢.
 ----------------------------------------
 sent_id: 43
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 210. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 210. Keyword: 觉得 
 *PAR0:	你该休息的.
 *PAR0:	从他那儿可能挺好.
 *PAR0:	今天听那个广播就是非常有那种travelanddie那种广.
@@ -600,7 +600,7 @@ sent_id: 43
 *PAR0:	他说一共就几个人在那里已经变成是六个大城市之一了.
 ----------------------------------------
 sent_id: 44
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 224. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 224. Keyword: 觉得 
 *PAR0:	现在都变成四十几万五十几萬了.
 *PAR0:	那就是挺好的啊.
 *PAR0:	当时应该多买击房.
@@ -614,7 +614,7 @@ sent_id: 44
 *PAR0:	就是一般就是因为住在的就是像住的那个乡下一.
 ----------------------------------------
 sent_id: 45
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 247. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 247. Keyword: 觉得 
 *PAR0:	达.
 *PAR0:	就在很小的区域内有.
 *PAR0:	如果要去la的话过马路都不会过了.
@@ -628,7 +628,7 @@ sent_id: 45
 *PAR0:	我想想我觉得你干的地方特小.
 ----------------------------------------
 sent_id: 46
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 249. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 249. Keyword: 觉得 
 *PAR0:	如果要去la的话过马路都不会过了.
 *PAR0:	看着那车停在那.
 *PAR0:	儿.
@@ -642,7 +642,7 @@ sent_id: 46
 *PAR0:	但是可能挺小的一个地方.
 ----------------------------------------
 sent_id: 47
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 256. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 256. Keyword: 觉得 
 *PAR0:	一.
 *PAR0:	我想想我觉得你干的地方特小.
 *PAR0:	可能就是挺舒服的.
@@ -656,7 +656,7 @@ sent_id: 47
 *PAR0:	prise.
 ----------------------------------------
 sent_id: 48
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 258. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 258. Keyword: 觉得 
 *PAR0:	可能就是挺舒服的.
 *PAR0:	但是可能挺小的一个地方.
 *PAR0:	因为我想都是海边呗.
@@ -670,7 +670,7 @@ sent_id: 48
 *PAR0:	可能恒俊说是眼口多ok我不知道但是.
 ----------------------------------------
 sent_id: 49
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 442. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 442. Keyword: 觉得 
 *PAR0:	你看如玉呼[/]呼[/]呼生了两孩子什么东西都干的挺好.
 *PAR0:	她去年的时候如玉干的特别好.
 *PAR0:	好像她还得了一个奖.
@@ -684,7 +684,7 @@ sent_id: 49
 *PAR0:	就是他有特能感.
 ----------------------------------------
 sent_id: 50
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 450. Keywords: 觉得, 觉得 
+*** File "/callFriend/4270.cha": line 450. Keywords: 觉得, 觉得 
 *PAR0:	对你看看不管怎么说你看看挺好的吧.
 *PAR0:	然后你看看这什么她都不耽误你知道吗.
 *PAR0:	就是他有特能感.
@@ -698,7 +698,7 @@ sent_id: 50
 *PAR0:	然后好像王静华也在搞得挺那什么的.
 ----------------------------------------
 sent_id: 51
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 462. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 462. Keyword: 觉得 
 *PAR0:	mutualfund什么的.
 *PAR0:	还准备什么.
 *PAR0:	馈的工作什么的.
@@ -712,7 +712,7 @@ sent_id: 51
 *PAR0:	对因为最后他们就都挺好.
 ----------------------------------------
 sent_id: 52
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4270.cha": line 477. Keyword: 觉得 
+*** File "/callFriend/4270.cha": line 477. Keyword: 觉得 
 *PAR0:	我想应早有问题.
 *PAR0:	后来很快生了第二个孩子.
 *PAR0:	但我觉得这应该是没有problem.
@@ -726,7 +726,7 @@ sent_id: 52
 *PAR0:	不会有.
 ----------------------------------------
 sent_id: 53
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 75. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 75. Keyword: 觉得 
 *PAR0:	我哪有戒这么小的.
 *PAR0:	我不知道反正是五个戏.
 *PAR0:	我只听到张永利跟他姐[/]姐打电.
@@ -740,7 +740,7 @@ sent_id: 53
 *PAR0:	力.
 ----------------------------------------
 sent_id: 54
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 219. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 219. Keyword: 觉得 
 *PAR0:	因为我去他在做月子嘛.
 *PAR0:	笑死了.
 *PAR0:	还有什么新.
@@ -754,7 +754,7 @@ sent_id: 54
 *PAR0:	就是刘佩红结婚了嘛.
 ----------------------------------------
 sent_id: 55
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 222. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 222. Keyword: 觉得 
 *PAR0:	闻.
 *PAR0:	这个还很好听.
 *PAR0:	我就觉得他好笑你知道吗.
@@ -768,7 +768,7 @@ sent_id: 55
 *PAR0:	业无水毕专导成参员.
 ----------------------------------------
 sent_id: 56
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 462. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 462. Keyword: 觉得 
 *PAR0:	你如果要图工作轻松的话.
 *PAR0:	那当然是去政府部.
 *PAR0:	门.
@@ -782,7 +782,7 @@ sent_id: 56
 *PAR0:	兴.
 ----------------------------------------
 sent_id: 57
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 510. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 510. Keyword: 觉得 
 *PAR0:	两千多去点学.
 *PAR0:	费.
 *PAR0:	然后说怎么你们去的学校都配那么低呢.
@@ -796,7 +796,7 @@ sent_id: 57
 *PAR0:	事.
 ----------------------------------------
 sent_id: 58
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 514. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 514. Keyword: 觉得 
 *PAR0:	standard的怎么会加这么[/]这么低呢.
 *PAR0:	然后说谁[/]谁[/]谁我就觉得国内那帮人特别坏.
 *PAR0:	就乱吹一响.
@@ -810,7 +810,7 @@ sent_id: 58
 *PAR0:	而且爷[/]爷家的工作找的不太理.
 ----------------------------------------
 sent_id: 59
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 516. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 516. Keyword: 觉得 
 *PAR0:	就乱吹一响.
 *PAR0:	就是说很多[/]很多都瞎吹.
 *PAR0:	等于是你说老实话.
@@ -824,7 +824,7 @@ sent_id: 59
 *PAR0:	他是觉得不是很理.
 ----------------------------------------
 sent_id: 60
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 517. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 517. Keyword: 觉得 
 *PAR0:	就是说很多[/]很多都瞎吹.
 *PAR0:	等于是你说老实话.
 *PAR0:	反正人家还觉得你没本.
@@ -838,7 +838,7 @@ sent_id: 60
 *PAR0:	想.
 ----------------------------------------
 sent_id: 61
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 521. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 521. Keyword: 觉得 
 *PAR0:	就是[/]就是觉得很多她的这么肚子这么七鸡巴[/]巴[/]巴哈哈[/]哈哈[/]哈哈[/]哈哈哈哈哈哈哈[/]哈哈[/]哈哈但你没本是越见有本事买开哈哈[/]哈哈[/]哈哈<她不是说>[/]她不是说你不行她说你们几个都不行还是越见有奔走.
 *PAR0:	哈哈[/]哈哈[/]哈哈你觉得你来就找到他说的.
 *PAR0:	他说我说爷[/]爷家也找了一年到两年.
@@ -852,7 +852,7 @@ sent_id: 61
 *PAR0:	我觉得他那个找如果就是说你要找我跟你说你phd本来就很难找.
 ----------------------------------------
 sent_id: 62
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 612. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 612. Keyword: 觉得 
 *PAR0:	或者是你在那个学校不是说特别好.
 *PAR0:	但是还是不.
 *PAR0:	错.
@@ -866,7 +866,7 @@ sent_id: 62
 *PAR0:	找过他老子就找过poster.
 ----------------------------------------
 sent_id: 63
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 656. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 656. Keyword: 觉得 
 *PAR0:	但是我觉得他们做论文要求都特别低.
 *PAR0:	他们论文的要求也比较低.
 *PAR0:	对我觉得好像比如说要是在华大的或者在princess中.
@@ -880,7 +880,7 @@ sent_id: 63
 *PAR0:	有些老板吧.
 ----------------------------------------
 sent_id: 64
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4281.cha": line 716. Keyword: 觉得 
+*** File "/callFriend/4281.cha": line 716. Keyword: 觉得 
 *PAR0:	我只是心里这么讲.
 *PAR0:	我居然要是跟美国教授的工作量比起.
 *PAR0:	来.
@@ -894,7 +894,7 @@ sent_id: 64
 *PAR0:	还要教钱少.
 ----------------------------------------
 sent_id: 65
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4336.cha": line 28. Keyword: 觉得 
+*** File "/callFriend/4336.cha": line 28. Keyword: 觉得 
 *PAR0:	什么catalog啊.
 *PAR0:	叫他们导来.
 *PAR0:	我可以看嘛.
@@ -908,7 +908,7 @@ sent_id: 65
 *PAR0:	然后你觉得有兴.
 ----------------------------------------
 sent_id: 66
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4336.cha": line 33. Keyword: 觉得 
+*** File "/callFriend/4336.cha": line 33. Keyword: 觉得 
 *PAR0:	觉得好像还可以或怎么样.
 *PAR0:	就打过去就问了问一问情况就问了.
 *PAR0:	但是他现在说不清楚很多东西啦.
@@ -922,7 +922,7 @@ sent_id: 66
 *PAR0:	那我就现在想看看到底什么学.
 ----------------------------------------
 sent_id: 67
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4336.cha": line 111. Keyword: 觉得 
+*** File "/callFriend/4336.cha": line 111. Keyword: 觉得 
 *PAR0:	因為我跟她說不會做.
 *PAR0:	其實我是做過.
 *PAR0:	但是他們這一套東西跟我們這裡不一樣.
@@ -936,7 +936,7 @@ sent_id: 67
 *PAR0:	因为他是半个月发一次工资嘛.
 ----------------------------------------
 sent_id: 68
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4336.cha": line 226. Keyword: 觉得 
+*** File "/callFriend/4336.cha": line 226. Keyword: 觉得 
 *PAR0:	他不是要考托福吗.
 *PAR0:	他不是托福的.
 *PAR0:	他托福成绩要吗.
@@ -950,7 +950,7 @@ sent_id: 68
 *PAR0:	也没什么.
 ----------------------------------------
 sent_id: 69
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4336.cha": line 500. Keyword: 觉得 
+*** File "/callFriend/4336.cha": line 500. Keyword: 觉得 
 *PAR0:	以後就不要做吸取教.
 *PAR0:	訓.
 *PAR0:	反正我也本來不我也不应该藏进.
@@ -964,7 +964,7 @@ sent_id: 69
 *PAR0:	跟他讲就是替讲的.
 ----------------------------------------
 sent_id: 70
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4336.cha": line 650. Keyword: 觉得 
+*** File "/callFriend/4336.cha": line 650. Keyword: 觉得 
 *PAR0:	对.
 *PAR0:	就是不讲话而已.
 *PAR0:	那天那么莎[/]莎就说.
@@ -978,7 +978,7 @@ sent_id: 70
 *PAR0:	老板娘又先到餐馆.
 ----------------------------------------
 sent_id: 71
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 133. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 133. Keyword: 觉得 
 *PAR0:	因为他们两个.
 *PAR0:	对但是实际说他也不可能完全让我配.
 *PAR0:	三分之一估计可能是介于三分之二到二分之一之间的.
@@ -992,7 +992,7 @@ sent_id: 71
 *PAR0:	可以坐车.
 ----------------------------------------
 sent_id: 72
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 158. Keywords: 觉得, 觉得 
+*** File "/callFriend/4389.cha": line 158. Keywords: 觉得, 觉得 
 *PAR0:	我觉得无精那个还[/]还成我觉得还行是吗.
 *PAR0:	对还成那也行.
 *PAR0:	反正他跟我说石精怎么说石精的意.
@@ -1006,7 +1006,7 @@ sent_id: 72
 *PAR0:	没[/]没看过呢.
 ----------------------------------------
 sent_id: 73
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 218. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 218. Keyword: 觉得 
 *PAR0:	所以暂时还不会我肯定钱够我找.
 *PAR0:	买车钱绝对够.
 *PAR0:	你还是留着点找个银.
@@ -1020,7 +1020,7 @@ sent_id: 73
 *PAR0:	看你们的lease是不是一签就必须要签到八月底.
 ----------------------------------------
 sent_id: 74
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 220. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 220. Keyword: 觉得 
 *PAR0:	你还是留着点找个银.
 *PAR0:	行.
 *PAR0:	然后以备集区.
@@ -1034,7 +1034,7 @@ sent_id: 74
 *PAR0:	我跟你说最好还别签到这时候为什么.
 ----------------------------------------
 sent_id: 75
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 255. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 255. Keyword: 觉得 
 *PAR0:	奥运会那会儿那肯定是那也行.
 *PAR0:	那可以就说签的稍微晚一点.
 *PAR0:	一般的例子都是签到八月底的都是这么签.
@@ -1048,7 +1048,7 @@ sent_id: 75
 *PAR0:	你觉得方吗.
 ----------------------------------------
 sent_id: 76
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 260. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 260. Keyword: 觉得 
 *PAR0:	行你看看如果合适的话你也可以住在我只好就是怕你觉得不合.
 *PAR0:	适.
 *PAR0:	我觉得怎么不合适啊.
@@ -1062,7 +1062,7 @@ sent_id: 76
 *PAR0:	这不用就是说.
 ----------------------------------------
 sent_id: 77
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 288. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 288. Keyword: 觉得 
 *PAR0:	他们管不着.
 *PAR0:	咱们当然就是说大家要讲.
 *PAR0:	一讲.
@@ -1076,7 +1076,7 @@ sent_id: 77
 *PAR0:	然后咱们再出去转[/]转挺快的就过去了没有太多的那种.
 ----------------------------------------
 sent_id: 78
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 289. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 289. Keyword: 觉得 
 *PAR0:	咱们当然就是说大家要讲.
 *PAR0:	一讲.
 *PAR0:	反正你[/]你下雨的过程倒也没有什么特别不方.
@@ -1090,7 +1090,7 @@ sent_id: 78
 *PAR0:	那行[/]行不用担.
 ----------------------------------------
 sent_id: 79
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 299. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 299. Keyword: 觉得 
 *PAR0:	那行[/]行不用担.
 *PAR0:	心.
 *PAR0:	你看看他怎么样.
@@ -1104,7 +1104,7 @@ sent_id: 79
 *PAR0:	那一周怎么办啊.
 ----------------------------------------
 sent_id: 80
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 485. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 485. Keyword: 觉得 
 *PAR0:	地产脏了也容易有各种各样的东西也是是吗.
 *PAR0:	怎么样今天现在还累吗.
 *PAR0:	天[/]天还行不怎么累了.
@@ -1118,7 +1118,7 @@ sent_id: 80
 *PAR0:	来.
 ----------------------------------------
 sent_id: 81
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 487. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 487. Keyword: 觉得 
 *PAR0:	天[/]天还行不怎么累了.
 *PAR0:	时差早了怎么样.
 *PAR0:	时差早的.
@@ -1132,7 +1132,7 @@ sent_id: 81
 *PAR0:	我刚才给我房东打电.
 ----------------------------------------
 sent_id: 82
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 524. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 524. Keyword: 觉得 
 *PAR0:	也许你今天有这些选.
 *PAR0:	择.
 *PAR0:	明天也许有更好的选.
@@ -1146,7 +1146,7 @@ sent_id: 82
 *PAR0:	来.
 ----------------------------------------
 sent_id: 83
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 530. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 530. Keyword: 觉得 
 *PAR0:	峰.
 *PAR0:	怎么知道那么多partner们哪都没有的.
 *PAR0:	就.
@@ -1160,7 +1160,7 @@ sent_id: 83
 *PAR0:	感.
 ----------------------------------------
 sent_id: 84
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4389.cha": line 534. Keyword: 觉得 
+*** File "/callFriend/4389.cha": line 534. Keyword: 觉得 
 *PAR0:	来.
 *PAR0:	回来就觉得是真低谷啊.
 *PAR0:	然后他爸说我跟他打话找你到了高峯大概过两天.
@@ -1174,7 +1174,7 @@ sent_id: 84
 *PAR0:	有空再多看看书.
 ----------------------------------------
 sent_id: 85
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4426.cha": line 103. Keyword: 觉得 
+*** File "/callFriend/4426.cha": line 103. Keyword: 觉得 
 *PAR0:	她们没有完成还要变工作变完成自己的学业多累啊.
 *PAR0:	你心疼她啊.
 *PAR0:	我心疼他呢.
@@ -1188,7 +1188,7 @@ sent_id: 85
 *PAR0:	我现在申请我爸爸我妈过.
 ----------------------------------------
 sent_id: 86
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 29. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 29. Keyword: 觉得 
 *PAR0:	就还那样.
 *PAR0:	你今天考完了考的怎么样.
 *PAR0:	考的不好真的吗.
@@ -1202,7 +1202,7 @@ sent_id: 86
 *PAR0:	觉.
 ----------------------------------------
 sent_id: 87
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 31. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 31. Keyword: 觉得 
 *PAR0:	考的不好真的吗.
 *PAR0:	我听那个肖建英说挺难的.
 *PAR0:	你真的建音你真是肖建一啊.
@@ -1216,7 +1216,7 @@ sent_id: 87
 *PAR0:	而且原来很多因为原来就那种就是比方第三套那种题都十个问题一共是五十五分.
 ----------------------------------------
 sent_id: 88
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 49. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 49. Keyword: 觉得 
 *PAR0:	可是它有十道题嘛.
 *PAR0:	而且它每个就是说每个文章都很长.
 *PAR0:	这样.
@@ -1230,7 +1230,7 @@ sent_id: 88
 *PAR0:	我感觉好那句子就是很长句.
 ----------------------------------------
 sent_id: 89
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 64. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 64. Keyword: 觉得 
 *PAR0:	那样子的就是说重句很多然后你就得画来画去的那样的.
 *PAR0:	然后你得想半天.
 *PAR0:	就是说因为中国人看美国的东西还是挺到嘴的那种感.
@@ -1244,7 +1244,7 @@ sent_id: 89
 *PAR0:	然后那样的东西是有几道啊.
 ----------------------------------------
 sent_id: 90
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 75. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 75. Keyword: 觉得 
 *PAR0:	二十道吧.
 *PAR0:	是二十一道二十道可能是那样的.
 *PAR0:	然后其他呢就是那种长的那种剩下的听力部分.
@@ -1258,7 +1258,7 @@ sent_id: 90
 *PAR0:	我觉得不过大家都那个分头低的话也不影响我觉得[/]我觉得不见.
 ----------------------------------------
 sent_id: 91
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 91. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 91. Keyword: 觉得 
 *PAR0:	糊.
 *PAR0:	涂.
 *PAR0:	我觉得我答了一半的时候都不太想打了.
@@ -1272,7 +1272,7 @@ sent_id: 91
 *PAR0:	今天因为明天我们想去多伦多你知道吧.
 ----------------------------------------
 sent_id: 92
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 99. Keywords: 觉得, 觉得 
+*** File "/callFriend/4447.cha": line 99. Keywords: 觉得, 觉得 
 *PAR0:	因为我们找对他说你可能有事还怎么.
 *PAR0:	对我着急走.
 *PAR0:	今天因为明天我们想去多伦多你知道吧.
@@ -1286,7 +1286,7 @@ sent_id: 92
 *PAR0:	当然也是但是还凑好.
 ----------------------------------------
 sent_id: 93
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 100. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 100. Keyword: 觉得 
 *PAR0:	对我着急走.
 *PAR0:	今天因为明天我们想去多伦多你知道吧.
 *PAR0:	然后我今天着急走就赶紧我们想去twph取个地图什么的.
@@ -1300,7 +1300,7 @@ sent_id: 93
 *PAR0:	原来确实要难.
 ----------------------------------------
 sent_id: 94
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 155. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 155. Keyword: 觉得 
 *PAR0:	所以说这还是水.
 *PAR0:	平.
 *PAR0:	我回来就捧先生说.
@@ -1314,7 +1314,7 @@ sent_id: 94
 *PAR0:	真想回国了.
 ----------------------------------------
 sent_id: 95
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 156. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 156. Keyword: 觉得 
 *PAR0:	平.
 *PAR0:	我回来就捧先生说.
 *PAR0:	我说这还是水平的问题嘛.
@@ -1328,7 +1328,7 @@ sent_id: 95
 *PAR0:	哎呀别这样说.
 ----------------------------------------
 sent_id: 96
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 158. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 158. Keyword: 觉得 
 *PAR0:	我说这还是水平的问题嘛.
 *PAR0:	这也不是说.
 *PAR0:	哎不你阅语好哎不你真的一考试就觉得真不行我今天回来特挫火.
@@ -1342,7 +1342,7 @@ sent_id: 96
 *PAR0:	真是肯定可以.
 ----------------------------------------
 sent_id: 97
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 165. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 165. Keyword: 觉得 
 *PAR0:	真想回国了.
 *PAR0:	哎呀别这样说.
 *PAR0:	笑.
@@ -1356,7 +1356,7 @@ sent_id: 97
 *PAR0:	就是说你就是说肯定这个题难了.
 ----------------------------------------
 sent_id: 98
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 167. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 167. Keyword: 觉得 
 *PAR0:	笑.
 *PAR0:	真是肯定可以.
 *PAR0:	你别着急没事了.
@@ -1370,7 +1370,7 @@ sent_id: 98
 *PAR0:	低所以说呢.
 ----------------------------------------
 sent_id: 99
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 206. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 206. Keyword: 觉得 
 *PAR0:	当[/]当时[/]时就就是急了.
 *PAR0:	你知道吧真急了.
 *PAR0:	这篇文章停在那了啊.
@@ -1384,7 +1384,7 @@ sent_id: 99
 *PAR0:	我那时候看了第二篇文.
 ----------------------------------------
 sent_id: 100
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 390. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 390. Keyword: 觉得 
 *PAR0:	好像<没有那个>[/]没有那个皇城叫皇城buffalo还是哪.
 *PAR0:	我也不知道嗯你说的那个跟巴夫勒是一样的那个是吧.
 *PAR0:	嗯对他那个地方是在唐人街吗.
@@ -1398,7 +1398,7 @@ sent_id: 100
 *PAR0:	后来那个就是我先生他有朋友住的.
 ----------------------------------------
 sent_id: 101
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 444. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 444. Keyword: 觉得 
 *PAR0:	对我要过去一趟就是了.
 *PAR0:	那你现在身体怎么样啊.
 *PAR0:	身体还好是吗.
@@ -1412,7 +1412,7 @@ sent_id: 101
 *PAR0:	不过我现在这个工.
 ----------------------------------------
 sent_id: 102
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4447.cha": line 536. Keyword: 觉得 
+*** File "/callFriend/4447.cha": line 536. Keyword: 觉得 
 *PAR0:	我不是班.
 *PAR0:	其实有才一个月嘛.
 *PAR0:	班过来一个月.
@@ -1426,7 +1426,7 @@ sent_id: 102
 *PAR0:	到时候可以去那边玩也特想回去.
 ----------------------------------------
 sent_id: 103
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4559.cha": line 450. Keyword: 觉得 
+*** File "/callFriend/4559.cha": line 450. Keyword: 觉得 
 *PAR0:	还有什么呀.
 *PAR0:	反正都是别人给我call配的行.
 *PAR0:	哥们你们吃完饭了.
@@ -1440,7 +1440,7 @@ sent_id: 103
 *PAR0:	好是吧.
 ----------------------------------------
 sent_id: 104
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 78. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 78. Keyword: 觉得 
 *PAR0:	我都吓一大跳啊.
 *PAR0:	都不上大都是高中毕业嘛.
 *PAR0:	现在中国是不是行很流.
@@ -1454,7 +1454,7 @@ sent_id: 104
 *PAR0:	我们学生那比较好以后就会稀少了的.
 ----------------------------------------
 sent_id: 105
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 80. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 80. Keyword: 觉得 
 *PAR0:	现在中国是不是行很流.
 *PAR0:	行.
 *PAR0:	因为大学还很难考是不是.
@@ -1468,7 +1468,7 @@ sent_id: 105
 *PAR0:	钱.
 ----------------------------------------
 sent_id: 106
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 100. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 100. Keyword: 觉得 
 *PAR0:	资.
 *PAR0:	那些人有时候公司发现你工资都是假的.
 *PAR0:	不可能吧.
@@ -1482,7 +1482,7 @@ sent_id: 106
 *PAR0:	下次跟我爸讲一下.
 ----------------------------------------
 sent_id: 107
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 195. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 195. Keyword: 觉得 
 *PAR0:	所以我觉得无.
 *PAR0:	所.
 *PAR0:	谓.
@@ -1496,7 +1496,7 @@ sent_id: 107
 *PAR0:	不就接了个电话吗.
 ----------------------------------------
 sent_id: 108
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 279. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 279. Keyword: 觉得 
 *PAR0:	他的意思就是说你要说iwantaglassofwater.
 *PAR0:	canyougetmeaglassoforder.
 *PAR0:	please.
@@ -1510,7 +1510,7 @@ sent_id: 108
 *PAR0:	其实我觉得那以后我刚才就说哈喽拜扖我就是后来我就说我什么都加他就他又生气了.
 ----------------------------------------
 sent_id: 109
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 293. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 293. Keyword: 觉得 
 *PAR0:	真是很难it'sachallenge.
 *PAR0:	你知道我说有点好像精.
 *PAR0:	神精.
@@ -1524,7 +1524,7 @@ sent_id: 109
 *PAR0:	我只是说比.
 ----------------------------------------
 sent_id: 110
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 295. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 295. Keyword: 觉得 
 *PAR0:	神精.
 *PAR0:	神.
 *PAR0:	我精神有点不知道我也不清楚怎么describe.
@@ -1538,7 +1538,7 @@ sent_id: 110
 *PAR0:	youknowcasual.
 ----------------------------------------
 sent_id: 111
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 312. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 312. Keyword: 觉得 
 *PAR0:	如果你说ohcouldyougivemeaglassofwater.
 *PAR0:	please.
 *PAR0:	这样就没有关.
@@ -1552,7 +1552,7 @@ sent_id: 111
 *PAR0:	人.
 ----------------------------------------
 sent_id: 112
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 331. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 331. Keyword: 觉得 
 *PAR0:	分.
 *PAR0:	不过这种很难跟他处.
 *PAR0:	因为他有时候很怪的.
@@ -1566,7 +1566,7 @@ sent_id: 112
 *PAR0:	子.
 ----------------------------------------
 sent_id: 113
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 367. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 367. Keyword: 觉得 
 *PAR0:	她从来都不夸自己.
 *PAR0:	但是我妈说她这样都故意装的就怎么样.
 *PAR0:	故意嫌自己不好所以她才傲最傲了.
@@ -1580,7 +1580,7 @@ sent_id: 113
 *PAR0:	我就不说话了right你又不能不说.
 ----------------------------------------
 sent_id: 114
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4689.cha": line 428. Keyword: 觉得 
+*** File "/callFriend/4689.cha": line 428. Keyword: 觉得 
 *PAR0:	我跟他在一起很累的.
 *PAR0:	但怎么讲我不霸.
 *PAR0:	气.
@@ -1594,7 +1594,7 @@ sent_id: 114
 *PAR0:	子.
 ----------------------------------------
 sent_id: 115
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4970.cha": line 107. Keyword: 觉得 
+*** File "/callFriend/4970.cha": line 107. Keyword: 觉得 
 *PAR0:	比如dos什么.
 *PAR0:	那些windows什么.
 *PAR0:	这些pc上做.
@@ -1608,7 +1608,7 @@ sent_id: 115
 *PAR0:	那就是养饲养有富裕了是不是啊是吧.
 ----------------------------------------
 sent_id: 116
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4970.cha": line 109. Keyword: 觉得 
+*** File "/callFriend/4970.cha": line 109. Keyword: 觉得 
 *PAR0:	这些pc上做.
 *PAR0:	他不可能跟着你非要做一个什么出来做出来以后据说投了现在都二三十个亿了吧对这是一二百多二[/]二[/]二十多个逼领了那东西说今年去年[/]年底宣布就是放.
 *PAR0:	弃.
@@ -1622,7 +1622,7 @@ sent_id: 116
 *PAR0:	孙杰现在是跟人家主.
 ----------------------------------------
 sent_id: 117
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4970.cha": line 257. Keyword: 觉得 
+*** File "/callFriend/4970.cha": line 257. Keyword: 觉得 
 *PAR0:	托家大夫找我去做教授吧.
 *PAR0:	我教授也不会讲.
 *PAR0:	话.
@@ -1636,7 +1636,7 @@ sent_id: 117
 *PAR0:	这就有自知之.
 ----------------------------------------
 sent_id: 118
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4970.cha": line 309. Keyword: 觉得 
+*** File "/callFriend/4970.cha": line 309. Keyword: 觉得 
 *PAR0:	腾.
 *PAR0:	就是说美国人能折.
 *PAR0:	脱.
@@ -1650,7 +1650,7 @@ sent_id: 118
 *PAR0:	连介绍人都没有了.
 ----------------------------------------
 sent_id: 119
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4970.cha": line 341. Keyword: 觉得 
+*** File "/callFriend/4970.cha": line 341. Keyword: 觉得 
 *PAR0:	那些地方都在那里地方都挺好的行啊你不在意原来不去你要起码人家原来去要你那公司打个电话问他.
 *PAR0:	要不要哎反正慢慢看吧.
 *PAR0:	反正毕业以后慢慢找.
@@ -1664,7 +1664,7 @@ sent_id: 119
 *PAR0:	想你跟上那个细.
 ----------------------------------------
 sent_id: 120
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4970.cha": line 366. Keyword: 觉得 
+*** File "/callFriend/4970.cha": line 366. Keyword: 觉得 
 *PAR0:	圆溜[/]溜的是圆琉[/]琉的.
 *PAR0:	反正就是从我们搬过来以.
 *PAR0:	后.
@@ -1678,7 +1678,7 @@ sent_id: 120
 *PAR0:	对快生了好像是这样是因为这几天罗生他们那边也是在开招待会.
 ----------------------------------------
 sent_id: 121
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4970.cha": line 374. Keyword: 觉得 
+*** File "/callFriend/4970.cha": line 374. Keyword: 觉得 
 *PAR0:	哎呀挺糟的.
 *PAR0:	肚子特别疯的紧[/]紧的.
 *PAR0:	对快生了好像是这样是因为这几天罗生他们那边也是在开招待会.
@@ -1692,7 +1692,7 @@ sent_id: 121
 *PAR0:	静.
 ----------------------------------------
 sent_id: 122
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4970.cha": line 402. Keyword: 觉得 
+*** File "/callFriend/4970.cha": line 402. Keyword: 觉得 
 *PAR0:	然后到后半学期忙.
 *PAR0:	其实好像是.
 *PAR0:	而且你已经学了几门课了.
@@ -1706,7 +1706,7 @@ sent_id: 122
 *PAR0:	反正总有点事干.
 ----------------------------------------
 sent_id: 123
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4972.cha": line 40. Keyword: 觉得 
+*** File "/callFriend/4972.cha": line 40. Keyword: 觉得 
 *PAR0:	会儿你等一会儿那个什么.
 *PAR0:	你现在当一个housekeeper.
 *PAR0:	housekeeper是美国人家没有就是在一个大旅馆那边.
@@ -1720,7 +1720,7 @@ sent_id: 123
 *PAR0:	哎现在稍微好一些了.
 ----------------------------------------
 sent_id: 124
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4972.cha": line 59. Keyword: 觉得 
+*** File "/callFriend/4972.cha": line 59. Keyword: 觉得 
 *PAR0:	嗯哦你跟他一起来了对因为那还他牵他挺容易牵的特容易牵.
 *PAR0:	哇当天就签过第二天就取.
 *PAR0:	那怎么那么好.
@@ -1734,7 +1734,7 @@ sent_id: 124
 *PAR0:	然后我被寄签了隔几天你还可以再来补齐手.
 ----------------------------------------
 sent_id: 125
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4972.cha": line 291. Keywords: 觉得, 觉得 
+*** File "/callFriend/4972.cha": line 291. Keywords: 觉得, 觉得 
 *PAR0:	对他一直就吃family.
 *PAR0:	对我今天我这就犯糊.
 *PAR0:	涂.
@@ -1748,7 +1748,7 @@ sent_id: 125
 *PAR0:	在美国就那么点破东西.
 ----------------------------------------
 sent_id: 126
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/4972.cha": line 299. Keyword: 觉得 
+*** File "/callFriend/4972.cha": line 299. Keyword: 觉得 
 *PAR0:	对这儿就单季节一下.
 *PAR0:	来东西特别多.
 *PAR0:	在美国就那么点破东西.
@@ -1762,7 +1762,7 @@ sent_id: 126
 *PAR0:	还四个月就出生了一月二一月份<一月底>[/]一月底啊我怎么还想的是我还想着会<早一点>[/]早一点呢.
 ----------------------------------------
 sent_id: 127
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 77. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 77. Keyword: 觉得 
 *PAR0:	就说你越反的越不吃吧.
 *PAR0:	就好像一种循.
 *PAR0:	环.
@@ -1776,7 +1776,7 @@ sent_id: 127
 *PAR0:	我一开始就是那样.
 ----------------------------------------
 sent_id: 128
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 90. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 90. Keyword: 觉得 
 *PAR0:	觉.
 *PAR0:	一饿起来那个难受的滋味就是恶心啊.
 *PAR0:	就是特别难.
@@ -1790,7 +1790,7 @@ sent_id: 128
 *PAR0:	而且特爱喝冰凉的东.
 ----------------------------------------
 sent_id: 129
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 99. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 99. Keyword: 觉得 
 *PAR0:	就冲那个冰.
 *PAR0:	而且特爱喝冰凉的东.
 *PAR0:	西.
@@ -1804,7 +1804,7 @@ sent_id: 129
 *PAR0:	当时南[/]南有反应吗.
 ----------------------------------------
 sent_id: 130
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 167. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 167. Keyword: 觉得 
 *PAR0:	而且我想的似乎也多了一些.
 *PAR0:	但是当我面对孩子的时候我就情不自禁的要多想[/]想我怎么才能对得起孩子.
 *PAR0:	对得起自己.
@@ -1818,7 +1818,7 @@ sent_id: 130
 *PAR0:	什么.
 ----------------------------------------
 sent_id: 131
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 185. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 185. Keyword: 觉得 
 *PAR0:	这么就好像什么都不尽人.
 *PAR0:	意.
 *PAR0:	我觉得国内能有什么不尽的.
@@ -1832,7 +1832,7 @@ sent_id: 131
 *PAR0:	能有什么不尽的.
 ----------------------------------------
 sent_id: 132
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 186. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 186. Keyword: 觉得 
 *PAR0:	意.
 *PAR0:	我觉得国内能有什么不尽的.
 *PAR0:	像咱们这些苦巴[/]巴的.
@@ -1846,7 +1846,7 @@ sent_id: 132
 *PAR0:	不过我觉得他就是国内有个人的男.
 ----------------------------------------
 sent_id: 133
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 200. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 200. Keyword: 觉得 
 *PAR0:	那庙盆还得天[/]天就那么大.
 *PAR0:	你像那些屋子.
 *PAR0:	你不能说[/]说一家四口都挤在一个屋子里了吧.
@@ -1860,7 +1860,7 @@ sent_id: 133
 *PAR0:	她自己不能看[/]看呀.
 ----------------------------------------
 sent_id: 134
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 201. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 201. Keyword: 觉得 
 *PAR0:	你像那些屋子.
 *PAR0:	你不能说[/]说一家四口都挤在一个屋子里了吧.
 *PAR0:	反正这么一个很窄的空间你肯定生活也不是很方.
@@ -1874,7 +1874,7 @@ sent_id: 134
 *PAR0:	干嘛.
 ----------------------------------------
 sent_id: 135
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 222. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 222. Keyword: 觉得 
 *PAR0:	这都是有孩子以后以会有问题.
 *PAR0:	所以我觉得她现在可能是挺烦的.
 *PAR0:	尤其是没有孩子之前有孩子一下子就了好多事情.
@@ -1888,7 +1888,7 @@ sent_id: 135
 *PAR0:	可是有时候你也呢.
 ----------------------------------------
 sent_id: 136
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 228. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 228. Keyword: 觉得 
 *PAR0:	嗯我那个可能比他们还好一点.
 *PAR0:	外面还多一[/]一间啊.
 *PAR0:	对你家咋子大呀.
@@ -1902,7 +1902,7 @@ sent_id: 136
 *PAR0:	我现在给他办了.
 ----------------------------------------
 sent_id: 137
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 229. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 229. Keyword: 觉得 
 *PAR0:	外面还多一[/]一间啊.
 *PAR0:	对你家咋子大呀.
 *PAR0:	稍微大一点.
@@ -1916,7 +1916,7 @@ sent_id: 137
 *PAR0:	昨天我跟我妈打了一个电.
 ----------------------------------------
 sent_id: 138
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 301. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 301. Keyword: 觉得 
 *PAR0:	还住我妈那呢.
 *PAR0:	那还上班还近点.
 *PAR0:	要不然还更远了吧反正近吧也近不到哪.
@@ -1930,7 +1930,7 @@ sent_id: 138
 *PAR0:	能吞吗.
 ----------------------------------------
 sent_id: 139
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 304. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 304. Keyword: 觉得 
 *PAR0:	儿.
 *PAR0:	每天也是我也得四十多分钟才能骑到了怎么会呢.
 *PAR0:	觉得从方庄乱的.
@@ -1944,7 +1944,7 @@ sent_id: 139
 *PAR0:	上哪儿了又.
 ----------------------------------------
 sent_id: 140
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 481. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 481. Keyword: 觉得 
 *PAR0:	样.
 *PAR0:	就是新式黄瓜茄子都不一[/]一样啊.
 *PAR0:	都不一特别是黄瓜不一.
@@ -1958,7 +1958,7 @@ sent_id: 140
 *PAR0:	国茄子特大.
 ----------------------------------------
 sent_id: 141
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 535. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 535. Keyword: 觉得 
 *PAR0:	是广东那种白色酱豆.
 *PAR0:	腐.
 *PAR0:	北京的酱豆糊.
@@ -1972,7 +1972,7 @@ sent_id: 141
 *PAR0:	他那个不知道是怎么是苦的.
 ----------------------------------------
 sent_id: 142
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 558. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 558. Keyword: 觉得 
 *PAR0:	然后他<放到那个>[/]放到那个什么放到那店里.
 *PAR0:	他也不知道什么时候才能卖出去.
 *PAR0:	也不像超市场销路那么好.
@@ -1986,7 +1986,7 @@ sent_id: 142
 *PAR0:	来了一个多月的.
 ----------------------------------------
 sent_id: 143
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 573. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 573. Keyword: 觉得 
 *PAR0:	最近食欲好了点.
 *PAR0:	另外我从我干活的一家借来了那个喜闻会那本小.
 *PAR0:	说.
@@ -2000,7 +2000,7 @@ sent_id: 143
 *PAR0:	我觉得电视肯定没有小.
 ----------------------------------------
 sent_id: 144
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 633. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 633. Keyword: 觉得 
 *PAR0:	对就写得很细腻挺有意思的.
 *PAR0:	对那是我看的第一本英文小说就平常啊.
 *PAR0:	你记得在国内他们都说什么.
@@ -2014,7 +2014,7 @@ sent_id: 144
 *PAR0:	说.
 ----------------------------------------
 sent_id: 145
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 643. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 643. Keyword: 觉得 
 *PAR0:	说.
 *PAR0:	可是一看吧.
 *PAR0:	是看不懂就是他对外国写那种英.
@@ -2028,7 +2028,7 @@ sent_id: 145
 *PAR0:	这种畅销的生字也不多情节也很简.
 ----------------------------------------
 sent_id: 146
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 654. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 654. Keyword: 觉得 
 *PAR0:	单.
 *PAR0:	可能好点.
 *PAR0:	所以那个呢看了一眼我就全生的了这本书吧.
@@ -2042,7 +2042,7 @@ sent_id: 146
 *PAR0:	所以我觉得看了很津[/]津有味的.
 ----------------------------------------
 sent_id: 147
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 658. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 658. Keyword: 觉得 
 *PAR0:	可是想一想它讲的好多中国人的那种风俗吧.
 *PAR0:	你觉得特切有时候你看一堆好多你就能知道你都知道好多国内的风.
 *PAR0:	俗.
@@ -2056,7 +2056,7 @@ sent_id: 147
 *PAR0:	什么水火啊.
 ----------------------------------------
 sent_id: 148
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 696. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 696. Keyword: 觉得 
 *PAR0:	样.
 *PAR0:	子.
 *PAR0:	还忙呢.
@@ -2070,7 +2070,7 @@ sent_id: 148
 *PAR0:	还另外还得请别人.
 ----------------------------------------
 sent_id: 149
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 697. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 697. Keyword: 觉得 
 *PAR0:	子.
 *PAR0:	还忙呢.
 *PAR0:	忙就是做个实验啊.
@@ -2084,7 +2084,7 @@ sent_id: 149
 *PAR0:	还得请个小老板给他们指.
 ----------------------------------------
 sent_id: 150
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5010.cha": line 704. Keyword: 觉得 
+*** File "/callFriend/5010.cha": line 704. Keyword: 觉得 
 *PAR0:	板.
 *PAR0:	对他的做的东西就不太懂.
 *PAR0:	还另外还得请别人.
@@ -2098,7 +2098,7 @@ sent_id: 150
 *PAR0:	原来其实自己琢磨点弄点加点新的东西加点心药.
 ----------------------------------------
 sent_id: 151
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 258. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 258. Keyword: 觉得 
 *PAR0:	授.
 *PAR0:	我想应该没问题.
 *PAR0:	正因为他在我室内住过两天的.
@@ -2112,7 +2112,7 @@ sent_id: 151
 *PAR0:	位.
 ----------------------------------------
 sent_id: 152
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 277. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 277. Keyword: 觉得 
 *PAR0:	哎呀不care.
 *PAR0:	对啊那工作好一点了.
 *PAR0:	而且[/]而且关键是你pgd没等单.
@@ -2126,7 +2126,7 @@ sent_id: 152
 *PAR0:	法.
 ----------------------------------------
 sent_id: 153
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 278. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 278. Keyword: 觉得 
 *PAR0:	对啊那工作好一点了.
 *PAR0:	而且[/]而且关键是你pgd没等单.
 *PAR0:	如果真想做科学家那就算了.
@@ -2140,7 +2140,7 @@ sent_id: 153
 *PAR0:	关键尤其是你如果是一路顺着过.
 ----------------------------------------
 sent_id: 154
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 286. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 286. Keyword: 觉得 
 *PAR0:	是挺累的没办.
 *PAR0:	法.
 *PAR0:	关键尤其是你如果是一路顺着过.
@@ -2154,7 +2154,7 @@ sent_id: 154
 *PAR0:	那牙医能不能保吗.
 ----------------------------------------
 sent_id: 155
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 288. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 288. Keyword: 觉得 
 *PAR0:	关键尤其是你如果是一路顺着过.
 *PAR0:	我也是这么想.
 *PAR0:	但是[/]但是也叶许剑不不是舍得让我毙眼.
@@ -2168,7 +2168,7 @@ sent_id: 155
 *PAR0:	那只好去补啊.
 ----------------------------------------
 sent_id: 156
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 361. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 361. Keyword: 觉得 
 *PAR0:	其实没关系啦.
 *PAR0:	好多就是对那个条件不一.
 *PAR0:	样的.
@@ -2182,7 +2182,7 @@ sent_id: 156
 *PAR0:	结果只要自己convert就行.
 ----------------------------------------
 sent_id: 157
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 415. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 415. Keyword: 觉得 
 *PAR0:	那你没办.
 *PAR0:	法.
 *PAR0:	对都得自己联.
@@ -2196,7 +2196,7 @@ sent_id: 157
 *PAR0:	嘛对还有一件事.
 ----------------------------------------
 sent_id: 158
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 446. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 446. Keyword: 觉得 
 *PAR0:	这信当时是他寄到我旧地址上的.
 *PAR0:	那管他咋了.
 *PAR0:	我觉得他也没有抱多大希望.
@@ -2210,7 +2210,7 @@ sent_id: 158
 *PAR0:	这个没有用他要什么高效净珠什么的.
 ----------------------------------------
 sent_id: 159
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5195.cha": line 679. Keyword: 觉得 
+*** File "/callFriend/5195.cha": line 679. Keyword: 觉得 
 *PAR0:	他不是离婚了吗.
 *PAR0:	然后还信了那个什么奇怪的教.
 *PAR0:	训.
@@ -2221,7 +2221,7 @@ sent_id: 159
 *PAR0:	我说我都理解不了我说何必花那个时间去.
 ----------------------------------------
 sent_id: 160
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 107. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 107. Keyword: 觉得 
 *PAR0:	因为要看我这个进度怎么样.
 *PAR0:	我要进度做得太慢了的话明年就回不去.
 *PAR0:	要做得快的话.
@@ -2235,7 +2235,7 @@ sent_id: 160
 *PAR0:	再加上那种文化差异吧.
 ----------------------------------------
 sent_id: 161
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 147. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 147. Keyword: 觉得 
 *PAR0:	究.
 *PAR0:	生.
 *PAR0:	是啊不过我们老板也是每年只招一个他们今年本来绝对不招的就是他的老公克里斯要招没办法可以.
@@ -2249,7 +2249,7 @@ sent_id: 161
 *PAR0:	他觉得他对clinical特别感兴趣的.
 ----------------------------------------
 sent_id: 162
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 150. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 150. Keyword: 觉得 
 *PAR0:	压他再来了你知道那个清明所谢东吗.
 *PAR0:	他想[/]想申请这儿.
 *PAR0:	我真的觉得心.
@@ -2263,7 +2263,7 @@ sent_id: 162
 *PAR0:	搞得我很莫.
 ----------------------------------------
 sent_id: 163
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 152. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 152. Keyword: 觉得 
 *PAR0:	我真的觉得心.
 *PAR0:	悬.
 *PAR0:	我说他特别想读freda的.
@@ -2277,7 +2277,7 @@ sent_id: 163
 *PAR0:	妙.
 ----------------------------------------
 sent_id: 164
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 403. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 403. Keyword: 觉得 
 *PAR0:	我最后给自己下个定义是自作多心.
 *PAR0:	纯粹的自作多行.
 *PAR0:	那么对你现在的生活你周围的人知道这些事吗.
@@ -2291,7 +2291,7 @@ sent_id: 164
 *PAR0:	可能是我觉得怎么说呢.
 ----------------------------------------
 sent_id: 165
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 409. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 409. Keyword: 觉得 
 *PAR0:	就好像一种被进了一种圈.
 *PAR0:	子.
 *PAR0:	而且明知道不是圈.
@@ -2305,7 +2305,7 @@ sent_id: 165
 *PAR0:	我我觉得我以前经历过的比这个严重多了.
 ----------------------------------------
 sent_id: 166
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 413. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 413. Keyword: 觉得 
 *PAR0:	可能是我觉得怎么说呢.
 *PAR0:	其实我我觉得你觉得什么你还在想吗.
 *PAR0:	不我觉得不是这个原因.
@@ -2319,7 +2319,7 @@ sent_id: 166
 *PAR0:	特别今天早上我还没有[/]没有回.
 ----------------------------------------
 sent_id: 167
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 643. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 643. Keyword: 觉得 
 *PAR0:	有的时候是这样.
 *PAR0:	我觉得我到这边来其实也感觉不太好.
 *PAR0:	是吗.
@@ -2333,7 +2333,7 @@ sent_id: 167
 *PAR0:	子.
 ----------------------------------------
 sent_id: 168
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5347.cha": line 645. Keyword: 觉得 
+*** File "/callFriend/5347.cha": line 645. Keyword: 觉得 
 *PAR0:	是吗.
 *PAR0:	主要是我觉得我的语言不是提高的特别快.
 *PAR0:	你语言体质很好的你担心什么.
@@ -2347,7 +2347,7 @@ sent_id: 168
 *PAR0:	试比方教会这些就基督教的小团.
 ----------------------------------------
 sent_id: 169
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5520.cha": line 668. Keyword: 觉得 
+*** File "/callFriend/5520.cha": line 668. Keyword: 觉得 
 *PAR0:	那你的意思就是说一个quarter能拿八多块錢了.
 *PAR0:	那个就是夏天的时候.
 *PAR0:	放假的时候.
@@ -2361,7 +2361,7 @@ sent_id: 169
 *PAR0:	好像是吧.
 ----------------------------------------
 sent_id: 170
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5520.cha": line 687. Keyword: 觉得 
+*** File "/callFriend/5520.cha": line 687. Keyword: 觉得 
 *PAR0:	他们很多人现在因为外的公司配的更好了他们很多人summer就是说这边跟老板说.
 *PAR0:	还是要算parttime.
 *PAR0:	然后他去外头去公司里头挣.
@@ -2375,7 +2375,7 @@ sent_id: 170
 *PAR0:	活.
 ----------------------------------------
 sent_id: 171
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5520.cha": line 697. Keyword: 觉得 
+*** File "/callFriend/5520.cha": line 697. Keyword: 觉得 
 *PAR0:	活.
 *PAR0:	让我想清楚了.
 *PAR0:	一个是不许读完master就走他们这边很多人都读了master出去.
@@ -2389,7 +2389,7 @@ sent_id: 171
 *PAR0:	他说一定不许从头到尾时间就说[/]说清楚了.
 ----------------------------------------
 sent_id: 172
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5520.cha": line 745. Keyword: 觉得 
+*** File "/callFriend/5520.cha": line 745. Keyword: 觉得 
 *PAR0:	反正做device的还是要火.
 *PAR0:	而且这几年半导体尤其火.
 *PAR0:	反正就是等到咱们毕业的时候咱[/]咱也不知道先做着.
@@ -2399,7 +2399,7 @@ sent_id: 172
 *PAR0:	你也知道我知道知道他[/]他在这读了一个master就又回到要去找工作去了啊.
 ----------------------------------------
 sent_id: 173
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5530.cha": line 77. Keyword: 觉得 
+*** File "/callFriend/5530.cha": line 77. Keyword: 觉得 
 *PAR0:	到这儿来还上了ESL上了两个学期.
 *PAR0:	英.
 *PAR0:	语对一个学期没上正式课.
@@ -2413,7 +2413,7 @@ sent_id: 173
 *PAR0:	往.
 ----------------------------------------
 sent_id: 174
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5530.cha": line 112. Keyword: 觉得 
+*** File "/callFriend/5530.cha": line 112. Keyword: 觉得 
 *PAR0:	只有一个比我大的什么叫老.
 *PAR0:	二.
 *PAR0:	就是说年龄来讲.
@@ -2427,7 +2427,7 @@ sent_id: 174
 *PAR0:	我知道缺这个因为我现在也有我以前的英语老师.
 ----------------------------------------
 sent_id: 175
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5530.cha": line 210. Keyword: 觉得 
+*** File "/callFriend/5530.cha": line 210. Keyword: 觉得 
 *PAR0:	因为国内打来太贵了.
 *PAR0:	国内打太贵这样的.
 *PAR0:	那么就跟爸妈[/]妈我想一个呢.
@@ -2441,7 +2441,7 @@ sent_id: 175
 *PAR0:	小就很亲.
 ----------------------------------------
 sent_id: 176
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5530.cha": line 259. Keyword: 觉得 
+*** File "/callFriend/5530.cha": line 259. Keyword: 觉得 
 *PAR0:	不是一个台阶.
 *PAR0:	全是四五根式的.
 *PAR0:	我觉得也是是有很大一段距.
@@ -2455,7 +2455,7 @@ sent_id: 176
 *PAR0:	季.
 ----------------------------------------
 sent_id: 177
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5530.cha": line 384. Keyword: 觉得 
+*** File "/callFriend/5530.cha": line 384. Keyword: 觉得 
 *PAR0:	小可现在还瘦吗.
 *PAR0:	还挺好.
 *PAR0:	看.
@@ -2469,7 +2469,7 @@ sent_id: 177
 *PAR0:	对孩子挺严厉的.
 ----------------------------------------
 sent_id: 178
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5530.cha": line 430. Keyword: 觉得 
+*** File "/callFriend/5530.cha": line 430. Keyword: 觉得 
 *PAR0:	所以英语也没有补.
 *PAR0:	习.
 *PAR0:	也没有搞到这儿来挺吃力的.
@@ -2483,7 +2483,7 @@ sent_id: 178
 *PAR0:	我今天学了明天忘了.
 ----------------------------------------
 sent_id: 179
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5530.cha": line 453. Keyword: 觉得 
+*** File "/callFriend/5530.cha": line 453. Keyword: 觉得 
 *PAR0:	我真的到这儿来.
 *PAR0:	他们这个学校都知道我很用功嘛.
 *PAR0:	很快就出名了.
@@ -2497,7 +2497,7 @@ sent_id: 179
 *PAR0:	我感觉你看mci那儿大部分是北京来的.
 ----------------------------------------
 sent_id: 180
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5542.cha": line 103. Keyword: 觉得 
+*** File "/callFriend/5542.cha": line 103. Keyword: 觉得 
 *PAR0:	什么叫老了.
 *PAR0:	全都看后头望跟十几年前呢.
 *PAR0:	完完全全不一样了.
@@ -2511,7 +2511,7 @@ sent_id: 180
 *PAR0:	道.
 ----------------------------------------
 sent_id: 181
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5542.cha": line 333. Keyword: 觉得 
+*** File "/callFriend/5542.cha": line 333. Keyword: 觉得 
 *PAR0:	又看三四篇文.
 *PAR0:	赃那个都[/]都不成问题.
 *PAR0:	三四张问题都我一三四一晚上三四篌文还都是不成问题的.
@@ -2525,7 +2525,7 @@ sent_id: 181
 *PAR0:	再看一章.
 ----------------------------------------
 sent_id: 182
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5542.cha": line 342. Keyword: 觉得 
+*** File "/callFriend/5542.cha": line 342. Keyword: 觉得 
 *PAR0:	你先把题目看一遍.
 *PAR0:	再看一章.
 *PAR0:	看到你那个要点就回.
@@ -2539,7 +2539,7 @@ sent_id: 182
 *PAR0:	一般的阅读没问题啊.
 ----------------------------------------
 sent_id: 183
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5560.cha": line 79. Keyword: 觉得 
+*** File "/callFriend/5560.cha": line 79. Keyword: 觉得 
 *PAR0:	我想我正在联系那个也是联系brother哥我想再转到那去读食.
 *PAR0:	品.
 *PAR0:	我想听[/]听您适中的跟他聊[/]聊行跟他聊了好咧问他情况.
@@ -2553,7 +2553,7 @@ sent_id: 183
 *PAR0:	戏.
 ----------------------------------------
 sent_id: 184
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5560.cha": line 120. Keyword: 觉得 
+*** File "/callFriend/5560.cha": line 120. Keyword: 觉得 
 *PAR0:	我现在想先转过.
 *PAR0:	去.
 *PAR0:	然后再转到哪.
@@ -2567,7 +2567,7 @@ sent_id: 184
 *PAR0:	这样子的.
 ----------------------------------------
 sent_id: 185
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5560.cha": line 307. Keyword: 觉得 
+*** File "/callFriend/5560.cha": line 307. Keyword: 觉得 
 *PAR0:	学位要撇提低.
 *PAR0:	人家看个名牌学校对.
 *PAR0:	不对.
@@ -2581,7 +2581,7 @@ sent_id: 185
 *PAR0:	奈.
 ----------------------------------------
 sent_id: 186
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5636.cha": line 70. Keyword: 觉得 
+*** File "/callFriend/5636.cha": line 70. Keyword: 觉得 
 *PAR0:	从这开车出去大概半个二十多分钟吧.
 *PAR0:	就能到湖边.
 *PAR0:	你有车了吗.
@@ -2595,7 +2595,7 @@ sent_id: 186
 *PAR0:	这个都是自己的.
 ----------------------------------------
 sent_id: 187
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5636.cha": line 504. Keyword: 觉得 
+*** File "/callFriend/5636.cha": line 504. Keyword: 觉得 
 *PAR0:	反正没有张晓东他们家.
 *PAR0:	张晓東他们家我的感觉去呀.
 *PAR0:	张晓冬啊我去那年春节去的.
@@ -2609,7 +2609,7 @@ sent_id: 187
 *PAR0:	他说不一定非.
 ----------------------------------------
 sent_id: 188
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5636.cha": line 505. Keyword: 觉得 
+*** File "/callFriend/5636.cha": line 505. Keyword: 觉得 
 *PAR0:	张晓東他们家我的感觉去呀.
 *PAR0:	张晓冬啊我去那年春节去的.
 *PAR0:	反正张晓中他们家我的感覺是一进他们家那个客厅四周全是门.
@@ -2623,7 +2623,7 @@ sent_id: 188
 *PAR0:	考他们音乐学院.
 ----------------------------------------
 sent_id: 189
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5653.cha": line 371. Keyword: 觉得 
+*** File "/callFriend/5653.cha": line 371. Keyword: 觉得 
 *PAR0:	大部分人也都是土人.
 *PAR0:	但但是还是[/]还是大[/]大学[/]学里也牛.
 *PAR0:	就是牛逼[/]逼人.
@@ -2637,7 +2637,7 @@ sent_id: 189
 *PAR0:	所以你到单位以后基本上再牛逼的公司也都是土很多而且很多活.
 ----------------------------------------
 sent_id: 190
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5673.cha": line 22. Keyword: 觉得 
+*** File "/callFriend/5673.cha": line 22. Keyword: 觉得 
 *PAR0:	我那个是十美金吗.
 *PAR0:	你都是十美.
 *PAR0:	金.
@@ -2651,7 +2651,7 @@ sent_id: 190
 *PAR0:	我跟你说这一政策很怪它的理由是什么.
 ----------------------------------------
 sent_id: 191
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5673.cha": line 273. Keyword: 觉得 
+*** File "/callFriend/5673.cha": line 273. Keyword: 觉得 
 *PAR0:	样的.
 *PAR0:	我以为是mc.
 *PAR0:	i效果不好我还听吴杰造谣.
@@ -2665,7 +2665,7 @@ sent_id: 191
 *PAR0:	我打at_and_t全都是晄的.
 ----------------------------------------
 sent_id: 192
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5673.cha": line 313. Keyword: 觉得 
+*** File "/callFriend/5673.cha": line 313. Keyword: 觉得 
 *PAR0:	那是abcd是多少不好排他距离特紧.
 *PAR0:	就整个最高分和最低分的距禿只有十三分.
 *PAR0:	还是十四分.
@@ -2679,7 +2679,7 @@ sent_id: 192
 *PAR0:	我今天刚交上去是吗.
 ----------------------------------------
 sent_id: 193
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5673.cha": line 598. Keyword: 觉得 
+*** File "/callFriend/5673.cha": line 598. Keyword: 觉得 
 *PAR0:	那你最好了我们的实验室人他现在发现老美也不是好东西一样告状我刚放个图.
 *PAR0:	立马就把电话打.
 *PAR0:	飞.
@@ -2693,7 +2693,7 @@ sent_id: 193
 *PAR0:	补了后呢.
 ----------------------------------------
 sent_id: 194
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5673.cha": line 655. Keyword: 觉得 
+*** File "/callFriend/5673.cha": line 655. Keyword: 觉得 
 *PAR0:	当时我跟他打电话的时候他立刻就通知到萬.
 *PAR0:	丹.
 *PAR0:	但是胡小红确实一直没有找着.
@@ -2707,7 +2707,7 @@ sent_id: 194
 *PAR0:	可以带他办这个事的.
 ----------------------------------------
 sent_id: 195
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5690.cha": line 37. Keyword: 觉得 
+*** File "/callFriend/5690.cha": line 37. Keyword: 觉得 
 *PAR0:	不是我们发现他那车是rebuilt的.
 *PAR0:	就是说他可能以前出accident.
 *PAR0:	然后就重新修了.
@@ -2721,7 +2721,7 @@ sent_id: 195
 *PAR0:	然后四十八他又要跟你讲[/]讲买车经.
 ----------------------------------------
 sent_id: 196
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5690.cha": line 123. Keyword: 觉得 
+*** File "/callFriend/5690.cha": line 123. Keyword: 觉得 
 *PAR0:	在那才四十多块.
 *PAR0:	在我们这就是样品卖一半价也得五十多.
 *PAR0:	这一般都得百多的.
@@ -2735,7 +2735,7 @@ sent_id: 196
 *PAR0:	对他们但是最好瞅日本人.
 ----------------------------------------
 sent_id: 197
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5715.cha": line 160. Keyword: 觉得 
+*** File "/callFriend/5715.cha": line 160. Keyword: 觉得 
 *PAR0:	的.
 *PAR0:	你妈走了以后你感觉怎么样<还行>[/]还行.
 *PAR0:	因为我想一定是又闷了.
@@ -2749,7 +2749,7 @@ sent_id: 197
 *PAR0:	智力开发你儿子呀.
 ----------------------------------------
 sent_id: 198
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5715.cha": line 190. Keyword: 觉得 
+*** File "/callFriend/5715.cha": line 190. Keyword: 觉得 
 *PAR0:	那不行那我一听我觉得这样就差太远了.
 *PAR0:	另外一个就是说你要教他那个用脑子算.
 *PAR0:	对啊等他减五十六他还得要用那个算.
@@ -2763,7 +2763,7 @@ sent_id: 198
 *PAR0:	你说他怎么办.
 ----------------------------------------
 sent_id: 199
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5715.cha": line 203. Keyword: 觉得 
+*** File "/callFriend/5715.cha": line 203. Keyword: 觉得 
 *PAR0:	我教他中门中多字要先上学之前认识他大概几百一千.
 *PAR0:	这个非常重要你否则大了他不肯学了.
 *PAR0:	我觉得他现在<他就>[/]他就够呛.
@@ -2777,7 +2777,7 @@ sent_id: 199
 *PAR0:	对知道是一开始没法看.
 ----------------------------------------
 sent_id: 200
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5715.cha": line 363. Keyword: 觉得 
+*** File "/callFriend/5715.cha": line 363. Keyword: 觉得 
 *PAR0:	他为了出国来这一招的话我觉得挺损的.
 *PAR0:	我就不跟你说.
 *PAR0:	你别到时候跟他说啊.
@@ -2791,7 +2791,7 @@ sent_id: 200
 *PAR0:	<应该>[/]应该有<那可行>[/]那可行.
 ----------------------------------------
 sent_id: 201
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5715.cha": line 380. Keyword: 觉得 
+*** File "/callFriend/5715.cha": line 380. Keyword: 觉得 
 *PAR0:	现.
 *PAR0:	我不知道我有什么办.
 *PAR0:	法.
@@ -2805,7 +2805,7 @@ sent_id: 201
 *PAR0:	老人我有時候覺得你傻[/]傻的在這方面是嗎.
 ----------------------------------------
 sent_id: 202
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5715.cha": line 382. Keyword: 觉得 
+*** File "/callFriend/5715.cha": line 382. Keyword: 觉得 
 *PAR0:	法.
 *PAR0:	呀我在这.
 *PAR0:	你有那种感觉吗.
@@ -2819,7 +2819,7 @@ sent_id: 202
 *PAR0:	還挺好這玩意沒辦法呀.
 ----------------------------------------
 sent_id: 203
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5715.cha": line 416. Keyword: 觉得 
+*** File "/callFriend/5715.cha": line 416. Keyword: 觉得 
 *PAR0:	化.
 *PAR0:	然后就如果你要不等他了呢.
 *PAR0:	不是如果你要不得等他了.
@@ -2833,7 +2833,7 @@ sent_id: 203
 *PAR0:	然后全都失败了.
 ----------------------------------------
 sent_id: 204
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5715.cha": line 428. Keyword: 觉得 
+*** File "/callFriend/5715.cha": line 428. Keyword: 觉得 
 *PAR0:	哎呦我觉得你好傻.
 *PAR0:	你说是不是吗.
 *PAR0:	有这么严重啊.
@@ -2847,7 +2847,7 @@ sent_id: 204
 *PAR0:	他没有结婚了.
 ----------------------------------------
 sent_id: 205
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5716.cha": line 83. Keyword: 觉得 
+*** File "/callFriend/5716.cha": line 83. Keyword: 觉得 
 *PAR0:	你十五号可以走是吧.
 *PAR0:	还是十四号晚上可以走.
 *PAR0:	我不知道他十五号.
@@ -2861,7 +2861,7 @@ sent_id: 205
 *PAR0:	没关系那不着.
 ----------------------------------------
 sent_id: 206
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5716.cha": line 96. Keyword: 觉得 
+*** File "/callFriend/5716.cha": line 96. Keyword: 觉得 
 *PAR0:	十三号是星.
 *PAR0:	月.
 *PAR0:	我看到一月份去了十五号是周五是吗.
@@ -2875,7 +2875,7 @@ sent_id: 206
 *PAR0:	反正她有车.
 ----------------------------------------
 sent_id: 207
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5716.cha": line 148. Keyword: 觉得 
+*** File "/callFriend/5716.cha": line 148. Keyword: 觉得 
 *PAR0:	宜.
 *PAR0:	那简直便宜的.
 *PAR0:	没制了就.
@@ -2889,7 +2889,7 @@ sent_id: 207
 *PAR0:	为什么.
 ----------------------------------------
 sent_id: 208
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5716.cha": line 283. Keyword: 觉得 
+*** File "/callFriend/5716.cha": line 283. Keyword: 觉得 
 *PAR0:	那何必呢.
 *PAR0:	那何必哪.
 *PAR0:	我那儿还有线还有什么鸡翅膀什么的哎.
@@ -2903,7 +2903,7 @@ sent_id: 208
 *PAR0:	你吃的那不好那也可能不也是我那东西是挺多的.
 ----------------------------------------
 sent_id: 209
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5716.cha": line 284. Keyword: 觉得 
+*** File "/callFriend/5716.cha": line 284. Keyword: 觉得 
 *PAR0:	那何必哪.
 *PAR0:	我那儿还有线还有什么鸡翅膀什么的哎.
 *PAR0:	你那些东西快吃了吧怎么了放的太久了.
@@ -2917,7 +2917,7 @@ sent_id: 209
 *PAR0:	赶紧吃了.
 ----------------------------------------
 sent_id: 210
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5716.cha": line 285. Keyword: 觉得 
+*** File "/callFriend/5716.cha": line 285. Keyword: 觉得 
 *PAR0:	我那儿还有线还有什么鸡翅膀什么的哎.
 *PAR0:	你那些东西快吃了吧怎么了放的太久了.
 *PAR0:	你们那儿怎么了没太久啊.
@@ -2931,7 +2931,7 @@ sent_id: 210
 *PAR0:	嗯多吃了呀.
 ----------------------------------------
 sent_id: 211
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5716.cha": line 410. Keyword: 觉得 
+*** File "/callFriend/5716.cha": line 410. Keyword: 觉得 
 *PAR0:	儿.
 *PAR0:	酸味不就放醋就完了吗.
 *PAR0:	是啊我就是这我这买的那个就那盆的酱酸溜[/]溜的啥.
@@ -2945,7 +2945,7 @@ sent_id: 211
 *PAR0:	我觉得就是这种.
 ----------------------------------------
 sent_id: 212
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5731.cha": line 58. Keywords: 觉得, 觉得, 觉得 
+*** File "/callFriend/5731.cha": line 58. Keywords: 觉得, 觉得, 觉得 
 *PAR0:	姐[/]姐感觉大多了.
 *PAR0:	大多了肯定懂事多了没有.
 *PAR0:	你看那个刚生下来的小.
@@ -2959,7 +2959,7 @@ sent_id: 212
 *PAR0:	他就可以帮你takecare.
 ----------------------------------------
 sent_id: 213
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5731.cha": line 397. Keyword: 觉得 
+*** File "/callFriend/5731.cha": line 397. Keyword: 觉得 
 *PAR0:	对[/]对[/]对[/]对哦这个还不懂这个这还是个古代的地.
 *PAR0:	儿.
 *PAR0:	那我们可以没有他这个有好几年就是有五年的十年的七年的所以你自己看就是说大概你的plane是多少了比如.
@@ -2973,7 +2973,7 @@ sent_id: 213
 *PAR0:	还有一个就是叫做他叫做arm.
 ----------------------------------------
 sent_id: 214
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 58. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 58. Keyword: 觉得 
 *PAR0:	所以又还是这样.
 *PAR0:	所以我最倒霉了.
 *PAR0:	我看重复就没见过谁跟我这么累的.
@@ -2987,7 +2987,7 @@ sent_id: 214
 *PAR0:	赶紫学完有这个问题.
 ----------------------------------------
 sent_id: 215
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 80. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 80. Keyword: 觉得 
 *PAR0:	这个东西不好说了.
 *PAR0:	那我就不知道因为如果你要是特别想出来特别快的就工作.
 *PAR0:	学习成绩会很重要.
@@ -3001,7 +3001,7 @@ sent_id: 215
 *PAR0:	你考虑班怎么样.
 ----------------------------------------
 sent_id: 216
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 167. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 167. Keyword: 觉得 
 *PAR0:	因为我是做不出来.
 *PAR0:	我本来就是外门的.
 *PAR0:	我怎么能做.
@@ -3015,7 +3015,7 @@ sent_id: 216
 *PAR0:	样.
 ----------------------------------------
 sent_id: 217
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 215. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 215. Keyword: 觉得 
 *PAR0:	一周三读配.
 *PAR0:	本当.
 *PAR0:	然后每次还要写一个然后我一开始选了我加.
@@ -3029,7 +3029,7 @@ sent_id: 217
 *PAR0:	我们这儿现在好像有PhD可能刚有要有的话呢.
 ----------------------------------------
 sent_id: 218
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 293. Keywords: 觉得, 觉得 
+*** File "/callFriend/5750.cha": line 293. Keywords: 觉得, 觉得 
 *PAR0:	然后好像做完了做.
 *PAR0:	完了这东西你不编程序我觉得就好像感觉现在就是有点空一.
 *PAR0:	样.
@@ -3043,7 +3043,7 @@ sent_id: 218
 *PAR0:	要是学不到什么东西就把时间搬进去.
 ----------------------------------------
 sent_id: 219
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 299. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 299. Keyword: 觉得 
 *PAR0:	不是就说你能感觉出来吗.
 *PAR0:	就说有的老师你不同的课不同的老师讲的教法.
 *PAR0:	我觉得这个还不.
@@ -3057,7 +3057,7 @@ sent_id: 219
 *PAR0:	然后让他们编一个我原来都想的是两个小时送[/]送他们就说过关吧.
 ----------------------------------------
 sent_id: 220
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 300. Keywords: 觉得, 觉得 
+*** File "/callFriend/5750.cha": line 300. Keywords: 觉得, 觉得 
 *PAR0:	就说有的老师你不同的课不同的老师讲的教法.
 *PAR0:	我觉得这个还不.
 *PAR0:	错.
@@ -3071,7 +3071,7 @@ sent_id: 220
 *PAR0:	就让他们缠一个去找素数就输一个数n把所有小于等于n的素数打出来.
 ----------------------------------------
 sent_id: 221
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 310. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 310. Keyword: 觉得 
 *PAR0:	就让他们缠一个去找素数就输一个数n把所有小于等于n的素数打出来.
 *PAR0:	结果好像大部分都找不出都不会缠是吗.
 *PAR0:	那就是说是学生的那个我就说你们老师啊什么的.
@@ -3085,7 +3085,7 @@ sent_id: 221
 *PAR0:	反正就那种就特烦.
 ----------------------------------------
 sent_id: 222
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 312. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 312. Keyword: 觉得 
 *PAR0:	那就是说是学生的那个我就说你们老师啊什么的.
 *PAR0:	对[/]对[/]对[/]对你要说fastdate的话应该你说都是背景都还可以.
 *PAR0:	都是好学校出来了是吗.
@@ -3099,7 +3099,7 @@ sent_id: 222
 *PAR0:	然后下学下去.
 ----------------------------------------
 sent_id: 223
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 314. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 314. Keyword: 觉得 
 *PAR0:	都是好学校出来了是吗.
 *PAR0:	反正哎呀反正不知道我就觉得哎真是我也没上过.
 *PAR0:	我就说我也没上過.
@@ -3113,7 +3113,7 @@ sent_id: 223
 *PAR0:	然后我那天训练中间碰到我.
 ----------------------------------------
 sent_id: 224
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 356. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 356. Keyword: 觉得 
 *PAR0:	instructor多累啊.
 *PAR0:	我想那样不是有好处吗.
 *PAR0:	什么.
@@ -3127,7 +3127,7 @@ sent_id: 224
 *PAR0:	就觉得自己中文到汉语吧也越来越差了.
 ----------------------------------------
 sent_id: 225
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 360. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 360. Keyword: 觉得 
 *PAR0:	取不是你的内容能力提高了吗.
 *PAR0:	你就觉得你能多说[/]说英文什么之类的.
 *PAR0:	对呀不我觉得我现在一看到也说不了两句.
@@ -3141,7 +3141,7 @@ sent_id: 225
 *PAR0:	然后你看你平时在楼里头吧.
 ----------------------------------------
 sent_id: 226
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 361. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 361. Keyword: 觉得 
 *PAR0:	你就觉得你能多说[/]说英文什么之类的.
 *PAR0:	对呀不我觉得我现在一看到也说不了两句.
 *PAR0:	英文是这样你尤其是就是说.
@@ -3155,7 +3155,7 @@ sent_id: 226
 *PAR0:	能躲就学生来问.
 ----------------------------------------
 sent_id: 227
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 367. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 367. Keyword: 觉得 
 *PAR0:	然后对学习也忘字.
 *PAR0:	然后这个都写不下去.
 *PAR0:	然后呢英文呢.
@@ -3169,7 +3169,7 @@ sent_id: 227
 *PAR0:	因为中国济级特别少.
 ----------------------------------------
 sent_id: 228
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 490. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 490. Keyword: 觉得 
 *PAR0:	儿.
 *PAR0:	如果你要再转学的话.
 *PAR0:	如果你还真想还想升好学校的话.
@@ -3183,7 +3183,7 @@ sent_id: 228
 *PAR0:	我不知道就是说你们这种行业里经的验重不重要.
 ----------------------------------------
 sent_id: 229
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 598. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 598. Keyword: 觉得 
 *PAR0:	对[/]对都有[/]都有哇那[/]那太便宜了是吗.
 *PAR0:	太便宽了三百块钱二百rm.
 *PAR0:	那太便秀了.
@@ -3197,7 +3197,7 @@ sent_id: 229
 *PAR0:	宜.
 ----------------------------------------
 sent_id: 230
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 725. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 725. Keyword: 觉得 
 *PAR0:	然后去一趟就完.
 *PAR0:	对[/]对[/]对比如说<那种>[/]那种对这边也没有特别大的那种商店有没有特[/]特别大的.
 *PAR0:	这种猫[/]猫.
@@ -3211,7 +3211,7 @@ sent_id: 230
 *PAR0:	但是我根本没法比没有比.
 ----------------------------------------
 sent_id: 231
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 728. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 728. Keyword: 觉得 
 *PAR0:	对没有好像没有啊.
 *PAR0:	好像还没有有没有特大那种电器商店什么的.
 *PAR0:	就是没有我就觉得我买电视只能跑到那种电气.
@@ -3225,7 +3225,7 @@ sent_id: 231
 *PAR0:	因为我没有车.
 ----------------------------------------
 sent_id: 232
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5750.cha": line 743. Keyword: 觉得 
+*** File "/callFriend/5750.cha": line 743. Keyword: 觉得 
 *PAR0:	那比如说你们像那种对我就说[/]说了就说.
 *PAR0:	现在那种大门你可以过.
 *PAR0:	来.
@@ -3239,7 +3239,7 @@ sent_id: 232
 *PAR0:	对就是有些东西.
 ----------------------------------------
 sent_id: 233
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 37. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 37. Keyword: 觉得 
 *PAR0:	但是我也不知道就是说我觉得就是说好像是比机房的要大.
 *PAR0:	但是呢因为在机房呢.
 *PAR0:	因为它是在那个学校吧.
@@ -3253,7 +3253,7 @@ sent_id: 233
 *PAR0:	这样gateway呢.
 ----------------------------------------
 sent_id: 234
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 99. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 99. Keyword: 觉得 
 *PAR0:	那你说意思tow那比较好容易扩充了.
 *PAR0:	它是这样.
 *PAR0:	对tow的话我买gateway的时候它说我如果就说它登的广告的价钱是那种desktop的这种.
@@ -3267,7 +3267,7 @@ sent_id: 234
 *PAR0:	我告诉你不是gateway刚降.
 ----------------------------------------
 sent_id: 235
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 100. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 100. Keyword: 觉得 
 *PAR0:	它是这样.
 *PAR0:	对tow的话我买gateway的时候它说我如果就说它登的广告的价钱是那种desktop的这种.
 *PAR0:	但是我要买towcase的话要加五十块钱.
@@ -3281,7 +3281,7 @@ sent_id: 235
 *PAR0:	对因为是啊它现在肯定计算机都是在降.
 ----------------------------------------
 sent_id: 236
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 309. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 309. Keyword: 觉得 
 *PAR0:	他最近买g三十七吗.
 *PAR0:	买了呀他本来不有吗.
 *PAR0:	他怎么又买了.
@@ -3295,7 +3295,7 @@ sent_id: 236
 *PAR0:	好就是不累眼.
 ----------------------------------------
 sent_id: 237
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 313. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 313. Keyword: 觉得 
 *PAR0:	啊他买了一个那个<一百>[/]一百十.
 *PAR0:	觉得咱们自己家里你说用的了那么多图吗或者工.
 *PAR0:	程.
@@ -3309,7 +3309,7 @@ sent_id: 237
 *PAR0:	现在三百了.
 ----------------------------------------
 sent_id: 238
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 359. Keywords: 觉得, 觉得 
+*** File "/callFriend/5773.cha": line 359. Keywords: 觉得, 觉得 
 *PAR0:	有很多现在软件都是onlinehelp.
 *PAR0:	你根本就不是说没有手册的买来软件onlinehelp的话.
 *PAR0:	你看的话如果你屏幕大的话.
@@ -3323,7 +3323,7 @@ sent_id: 238
 *PAR0:	现在对他会告诉你跟风言有事吗.
 ----------------------------------------
 sent_id: 239
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 382. Keywords: 觉得, 觉得 
+*** File "/callFriend/5773.cha": line 382. Keywords: 觉得, 觉得 
 *PAR0:	就是你买的那个是tape的吧.
 *PAR0:	嗯什么叫对.
 *PAR0:	对是tape啊tape就是你们是一个tapesingletape还是doubletape的呀.
@@ -3337,7 +3337,7 @@ sent_id: 239
 *PAR0:	随着我爸我买了一个就是我就买了fullydigital的.
 ----------------------------------------
 sent_id: 240
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 385. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 385. Keyword: 觉得 
 *PAR0:	一个的[/]的.
 *PAR0:	你一个的啊.
 *PAR0:	觉得你觉得怎么样就用着还行吗.
@@ -3351,7 +3351,7 @@ sent_id: 240
 *PAR0:	他才有<四分钟>[/]四分钟的.
 ----------------------------------------
 sent_id: 241
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 457. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 457. Keyword: 觉得 
 *PAR0:	对然后他就那么说.
 *PAR0:	但是我就买了不.
 *PAR0:	错.
@@ -3365,7 +3365,7 @@ sent_id: 241
 *PAR0:	那不知道那你要不然你就换一个tape我也不太禁.
 ----------------------------------------
 sent_id: 242
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 463. Keywords: 觉得, 觉得 
+*** File "/callFriend/5773.cha": line 463. Keywords: 觉得, 觉得 
 *PAR0:	而且它自动插段特别什么.
 *PAR0:	如果它不插段就四分钟也行.
 *PAR0:	一天你说才能有几个人给你留message.
@@ -3379,7 +3379,7 @@ sent_id: 242
 *PAR0:	话.
 ----------------------------------------
 sent_id: 243
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 465. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 465. Keyword: 觉得 
 *PAR0:	一天你说才能有几个人给你留message.
 *PAR0:	那看完还是我还得换一个去.
 *PAR0:	那不知道那你要不然你就换一个tape我也不太禁.
@@ -3393,7 +3393,7 @@ sent_id: 243
 *PAR0:	不要跟别人传.
 ----------------------------------------
 sent_id: 244
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5773.cha": line 503. Keyword: 觉得 
+*** File "/callFriend/5773.cha": line 503. Keyword: 觉得 
 *PAR0:	所以说我告诉你[/]你注意点就行了我还以为你不知道我告诉你.
 *PAR0:	尤其吃饭的时候现在是洗手.
 *PAR0:	对别的就不用了.
@@ -3407,7 +3407,7 @@ sent_id: 244
 *PAR0:	反正如果它断了就断了啊.
 ----------------------------------------
 sent_id: 245
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 16. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 16. Keyword: 觉得 
 *PAR0:	家.
 *PAR0:	你没给我打电.
 *PAR0:	话.
@@ -3421,7 +3421,7 @@ sent_id: 245
 *PAR0:	然后像我们saxgaming.
 ----------------------------------------
 sent_id: 246
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 60. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 60. Keyword: 觉得 
 *PAR0:	因为他这样要飞七个小.
 *PAR0:	时.
 *PAR0:	就像我十二点钟那么飞回.
@@ -3435,7 +3435,7 @@ sent_id: 246
 *PAR0:	些.
 ----------------------------------------
 sent_id: 247
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 166. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 166. Keyword: 觉得 
 *PAR0:	有时也不一定跟我说.
 *PAR0:	对所以我也不知道不过我觉得按理因为这个人可以说将来是跟我工作最密切的.
 *PAR0:	他们要决定我一个人.
@@ -3449,7 +3449,7 @@ sent_id: 247
 *PAR0:	是不喜欢你也不一定有多大印.
 ----------------------------------------
 sent_id: 248
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 186. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 186. Keyword: 觉得 
 *PAR0:	怪这也没雇有可能.
 *PAR0:	因为我觉得要不然他们怎么也应该会跟我打一声招.
 *PAR0:	呼.
@@ -3463,7 +3463,7 @@ sent_id: 248
 *PAR0:	我知道你那时候说五点钟还说五点不晚.
 ----------------------------------------
 sent_id: 249
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 220. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 220. Keyword: 觉得 
 *PAR0:	有你不能告诉他们.
 *PAR0:	告诉他们[/]他们该有意见了.
 *PAR0:	他们在芝加哥也知道.
@@ -3477,7 +3477,7 @@ sent_id: 249
 *PAR0:	不定.
 ----------------------------------------
 sent_id: 250
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 221. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 221. Keyword: 觉得 
 *PAR0:	告诉他们[/]他们该有意见了.
 *PAR0:	他们在芝加哥也知道.
 *PAR0:	他们知道整个form在芝亚.
@@ -3491,7 +3491,7 @@ sent_id: 250
 *PAR0:	不过其实这倒也是真的我可能还可以应.
 ----------------------------------------
 sent_id: 251
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 230. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 230. Keyword: 觉得 
 *PAR0:	不定.
 *PAR0:	不过其实这倒也是真的我可能还可以应.
 *PAR0:	服.
@@ -3505,7 +3505,7 @@ sent_id: 251
 *PAR0:	都说明在一晚上.
 ----------------------------------------
 sent_id: 252
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 345. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 345. Keyword: 觉得 
 *PAR0:	但他到冬天没有收入主要是靠房租收.
 *PAR0:	入.
 *PAR0:	所以他现在好像就他就不会说我这个房子其实我觉得我愧疚说他好像这个房子也怪可.
@@ -3519,7 +3519,7 @@ sent_id: 252
 *PAR0:	来心里感觉还受这点倒是可以这样的.
 ----------------------------------------
 sent_id: 253
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 363. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 363. Keyword: 觉得 
 *PAR0:	我觉得那个人责任性很大.
 *PAR0:	而且那个人就怪他这么省那么一时的钱.
 *PAR0:	说实话完全是这.
@@ -3533,7 +3533,7 @@ sent_id: 253
 *PAR0:	我们那次车撞了那个人没还钱.
 ----------------------------------------
 sent_id: 254
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 390. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 390. Keyword: 觉得 
 *PAR0:	从我住在克里森我就不喜欢这个人.
 *PAR0:	而且男的以前特别喜欢这个男的.
 *PAR0:	因为这个男的以前总吹他马.
@@ -3547,7 +3547,7 @@ sent_id: 254
 *PAR0:	到现在一直没有承认错.
 ----------------------------------------
 sent_id: 255
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 401. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 401. Keyword: 觉得 
 *PAR0:	误.
 *PAR0:	一直不承计他的错.
 *PAR0:	我都不知道为什么还不承诡他的错.
@@ -3561,7 +3561,7 @@ sent_id: 255
 *PAR0:	对不过我就觉得这[/]这点其实比较好玩的一件事情我看了一下子就房子就真的一.
 ----------------------------------------
 sent_id: 256
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 403. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 403. Keyword: 觉得 
 *PAR0:	我都不知道为什么还不承诡他的错.
 *PAR0:	不知道会是谁的错.
 *PAR0:	可能是那些不提供冰箱的员工应该提供的.
@@ -3575,7 +3575,7 @@ sent_id: 256
 *PAR0:	我也是我知道你那想.
 ----------------------------------------
 sent_id: 257
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 406. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 406. Keyword: 觉得 
 *PAR0:	对说并不是他就觉得这个人够闷.
 *PAR0:	不过那个房主倒是抠门.
 *PAR0:	而且我觉得得对的是但那一点经济他可能觉得房主可能是挺那什么.
@@ -3589,7 +3589,7 @@ sent_id: 257
 *PAR0:	我们还在一直急着说.
 ----------------------------------------
 sent_id: 258
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 495. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 495. Keyword: 觉得 
 *PAR0:	较他自己又不愿意做什么.
 *PAR0:	然后又再找她说.
 *PAR0:	我已经跟这个女的一直通电.
@@ -3603,7 +3603,7 @@ sent_id: 258
 *PAR0:	说不定就慌了多又惦记自作聪明当聪.
 ----------------------------------------
 sent_id: 259
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 569. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 569. Keyword: 觉得 
 *PAR0:	对[/]对我们原来在最刚开始的时候也是去那什么也是去教堂去玩.
 *PAR0:	但是因为他中国他也是中国人.
 *PAR0:	教堂也是他就是鼓励大家就是说他开始学那会招你去参加内会.
@@ -3617,7 +3617,7 @@ sent_id: 259
 *PAR0:	反正来之后他就吃过一次饭.
 ----------------------------------------
 sent_id: 260
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5779.cha": line 585. Keyword: 觉得 
+*** File "/callFriend/5779.cha": line 585. Keyword: 觉得 
 *PAR0:	那主子帮助我了.
 *PAR0:	那一部分那个东.
 *PAR0:	西.
@@ -3631,7 +3631,7 @@ sent_id: 260
 *PAR0:	我们刚开始去日韩都是台湾人.
 ----------------------------------------
 sent_id: 261
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5784.cha": line 301. Keyword: 觉得 
+*** File "/callFriend/5784.cha": line 301. Keyword: 觉得 
 *PAR0:	室.
 *PAR0:	贝尘不是被解散了吗.
 *PAR0:	从他们那过.
@@ -3645,7 +3645,7 @@ sent_id: 261
 *PAR0:	然后大家说了一块.
 ----------------------------------------
 sent_id: 262
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5784.cha": line 339. Keyword: 觉得 
+*** File "/callFriend/5784.cha": line 339. Keyword: 觉得 
 *PAR0:	就是说其实只有一个系可以就是chemistry还可以.
 *PAR0:	明大化学系很臭的.
 *PAR0:	他真臭明大化研究很臭.
@@ -3659,7 +3659,7 @@ sent_id: 262
 *PAR0:	而且你们系应该没问题吧.
 ----------------------------------------
 sent_id: 263
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5784.cha": line 437. Keywords: 觉得, 觉得 
+*** File "/callFriend/5784.cha": line 437. Keywords: 觉得, 觉得 
 *PAR0:	我们这边理论性啊.
 *PAR0:	我们这边啊我们这看你怎么弄的.
 *PAR0:	我们这边大部分材料是为化工服务的化工材.
@@ -3673,7 +3673,7 @@ sent_id: 263
 *PAR0:	它就用有机物溶解的胶把那些什么.
 ----------------------------------------
 sent_id: 264
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5800.cha": line 24. Keyword: 觉得 
+*** File "/callFriend/5800.cha": line 24. Keyword: 觉得 
 *PAR0:	如果对你就不用挂了之后我就发过去就行了好吧气死我了.
 *PAR0:	嗯都花了六毛钱.
 *PAR0:	是啊都是一.
@@ -3687,7 +3687,7 @@ sent_id: 264
 *PAR0:	你吃了多少大半袋.
 ----------------------------------------
 sent_id: 265
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5800.cha": line 358. Keyword: 觉得 
+*** File "/callFriend/5800.cha": line 358. Keyword: 觉得 
 *PAR0:	应该多吃肾.
 *PAR0:	还要就着馋痘.
 *PAR0:	然后那是liver看过那个沉默的羔羊里不是那个人说他把那个人的肝淘出来.
@@ -3701,7 +3701,7 @@ sent_id: 265
 *PAR0:	嗯我觉得她自己有点就说她自己行为失.
 ----------------------------------------
 sent_id: 266
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5800.cha": line 361. Keyword: 觉得 
+*** File "/callFriend/5800.cha": line 361. Keyword: 觉得 
 *PAR0:	又是惨到吃特foster的那个被.
 *PAR0:	告.
 *PAR0:	嗯觉得特别可.
@@ -3715,7 +3715,7 @@ sent_id: 266
 *PAR0:	她的头发像punk一.
 ----------------------------------------
 sent_id: 267
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5800.cha": line 363. Keyword: 觉得 
+*** File "/callFriend/5800.cha": line 363. Keyword: 觉得 
 *PAR0:	嗯觉得特别可.
 *PAR0:	怕.
 *PAR0:	嗯砍了一下就砍不下去.
@@ -3729,7 +3729,7 @@ sent_id: 267
 *PAR0:	她连着两年是吧.
 ----------------------------------------
 sent_id: 268
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5800.cha": line 388. Keyword: 觉得 
+*** File "/callFriend/5800.cha": line 388. Keyword: 觉得 
 *PAR0:	还是这个guy就不应该叫guy.
 *PAR0:	你听说过吗.
 *PAR0:	回去问[/]问你们的michael有他的辅音是发k还是发h的还是g的音.
@@ -3743,7 +3743,7 @@ sent_id: 268
 *PAR0:	我要自己看自己的书要把我的德语复习一.
 ----------------------------------------
 sent_id: 269
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5800.cha": line 405. Keyword: 觉得 
+*** File "/callFriend/5800.cha": line 405. Keyword: 觉得 
 *PAR0:	现在是不是成小兔顶了.
 *PAR0:	你不知道我们公司真是那个michael[/]michael的头发特别稀发也少了没有.
 *PAR0:	科文就说.
@@ -3757,7 +3757,7 @@ sent_id: 269
 *PAR0:	西.
 ----------------------------------------
 sent_id: 270
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5806.cha": line 132. Keyword: 觉得 
+*** File "/callFriend/5806.cha": line 132. Keyword: 觉得 
 *PAR0:	不是开铃铛的车呗.
 *PAR0:	原来就说他开铛[/]铛车铛钢那哪儿啊.
 *PAR0:	那他还是开他新车.
@@ -3771,7 +3771,7 @@ sent_id: 270
 *PAR0:	要不要穿上.
 ----------------------------------------
 sent_id: 271
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5806.cha": line 216. Keyword: 觉得 
+*** File "/callFriend/5806.cha": line 216. Keyword: 觉得 
 *PAR0:	那这真的就剩你们两家了.
 *PAR0:	对啊就我们这两家贴杆了.
 *PAR0:	李红怎么样[/]怎么样.
@@ -3785,7 +3785,7 @@ sent_id: 271
 *PAR0:	打.
 ----------------------------------------
 sent_id: 272
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5806.cha": line 266. Keyword: 觉得 
+*** File "/callFriend/5806.cha": line 266. Keyword: 觉得 
 *PAR0:	林三刚他一听.
 *PAR0:	哎呦我妈提过不知道多少次了就要听这人讲.
 *PAR0:	我说.
@@ -3799,7 +3799,7 @@ sent_id: 272
 *PAR0:	人家知不知道的不知道所以我也不知道他们今天主动上去没上去就是说.
 ----------------------------------------
 sent_id: 273
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5806.cha": line 272. Keyword: 觉得 
+*** File "/callFriend/5806.cha": line 272. Keyword: 觉得 
 *PAR0:	他说那人特著.
 *PAR0:	名.
 *PAR0:	可能够呛说我妈是在还是自己.
@@ -3813,7 +3813,7 @@ sent_id: 273
 *PAR0:	没饿死你们家好吃的东西太多了.
 ----------------------------------------
 sent_id: 274
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5806.cha": line 323. Keyword: 觉得 
+*** File "/callFriend/5806.cha": line 323. Keyword: 觉得 
 *PAR0:	陆平康也是好像反对想让他回来什么的我就搞不清.
 *PAR0:	反而正也可能挺折腾的.
 *PAR0:	他们那个搞不清我所以我这次没见到就是专门过两个疫苗过来说要回来啊什么之类的.
@@ -3827,7 +3827,7 @@ sent_id: 274
 *PAR0:	<光说>[/]光说不动就等于没动行.
 ----------------------------------------
 sent_id: 275
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5806.cha": line 400. Keyword: 觉得 
+*** File "/callFriend/5806.cha": line 400. Keyword: 觉得 
 *PAR0:	可能现在调养的比较好.
 *PAR0:	但是还是皱纹多皱.
 *PAR0:	纲还是没结婚没怀孕没怀婴就让你们给造谣闹了.
@@ -3841,7 +3841,7 @@ sent_id: 275
 *PAR0:	肤.
 ----------------------------------------
 sent_id: 276
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5812.cha": line 115. Keyword: 觉得 
+*** File "/callFriend/5812.cha": line 115. Keyword: 觉得 
 *PAR0:	不知道为什么晚上总是想别人说他是不是缺钙.
 *PAR0:	因为他长得特快.
 *PAR0:	对我跟你讲可能是缺钢.
@@ -3855,7 +3855,7 @@ sent_id: 276
 *PAR0:	要么就是什么我惯的.
 ----------------------------------------
 sent_id: 277
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5812.cha": line 311. Keyword: 觉得 
+*** File "/callFriend/5812.cha": line 311. Keyword: 觉得 
 *PAR0:	你们最近在看房子了吧对啊最近在看一看呢.
 *PAR0:	有没有看好了没有看好看不容易.
 *PAR0:	咱们也不懂对.
@@ -3869,7 +3869,7 @@ sent_id: 277
 *PAR0:	对啊然后你像周[/]周要毕业了.
 ----------------------------------------
 sent_id: 278
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5812.cha": line 319. Keyword: 觉得 
+*** File "/callFriend/5812.cha": line 319. Keyword: 觉得 
 *PAR0:	对[/]对他怎么样在五万八啊.
 *PAR0:	哦那可以嘛.
 *PAR0:	对啊然后你像周[/]周要毕业了.
@@ -3883,7 +3883,7 @@ sent_id: 278
 *PAR0:	子.
 ----------------------------------------
 sent_id: 279
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5812.cha": line 532. Keyword: 觉得 
+*** File "/callFriend/5812.cha": line 532. Keyword: 觉得 
 *PAR0:	我们刚才还不是这样子对.
 *PAR0:	不对.
 *PAR0:	你们的[/]的房[/]房子不错先暖[/]暖和[/]和我们当时住的地方多冷啊.
@@ -3897,7 +3897,7 @@ sent_id: 279
 *PAR0:	样.
 ----------------------------------------
 sent_id: 280
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5821.cha": line 107. Keywords: 觉得, 觉得 
+*** File "/callFriend/5821.cha": line 107. Keywords: 觉得, 觉得 
 *PAR0:	那那个宗新春呢都是他那么高的.
 *PAR0:	你就这样吧.
 *PAR0:	都是他那么大.
@@ -3911,7 +3911,7 @@ sent_id: 280
 *PAR0:	后.
 ----------------------------------------
 sent_id: 281
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5821.cha": line 114. Keyword: 觉得 
+*** File "/callFriend/5821.cha": line 114. Keyword: 觉得 
 *PAR0:	就是啊我们宿车俩一米六三的.
 *PAR0:	所以就不行但是每个人都得高是吗.
 *PAR0:	哎对高一排队比如你去买快餐你前.
@@ -3925,7 +3925,7 @@ sent_id: 281
 *PAR0:	度.
 ----------------------------------------
 sent_id: 282
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5821.cha": line 115. Keyword: 觉得 
+*** File "/callFriend/5821.cha": line 115. Keyword: 觉得 
 *PAR0:	所以就不行但是每个人都得高是吗.
 *PAR0:	哎对高一排队比如你去买快餐你前.
 *PAR0:	后.
@@ -3939,7 +3939,7 @@ sent_id: 282
 *PAR0:	假如你天[/]天在篮球墩里待着跟他们混在一起.
 ----------------------------------------
 sent_id: 283
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5821.cha": line 121. Keyword: 觉得 
+*** File "/callFriend/5821.cha": line 121. Keyword: 觉得 
 *PAR0:	继续是<米八>[/]米八的高度了.
 *PAR0:	你像我哥他那个高度我全都很清楚.
 *PAR0:	对因为你习惯于哪个高.
@@ -3953,7 +3953,7 @@ sent_id: 283
 *PAR0:	就是我告诉你前两天那下雪是阳光洒满的时候在那底下飘雪.
 ----------------------------------------
 sent_id: 284
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5821.cha": line 122. Keyword: 觉得 
+*** File "/callFriend/5821.cha": line 122. Keyword: 觉得 
 *PAR0:	你像我哥他那个高度我全都很清楚.
 *PAR0:	对因为你习惯于哪个高.
 *PAR0:	度.
@@ -3967,7 +3967,7 @@ sent_id: 284
 *PAR0:	花.
 ----------------------------------------
 sent_id: 285
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5821.cha": line 564. Keyword: 觉得 
+*** File "/callFriend/5821.cha": line 564. Keyword: 觉得 
 *PAR0:	他跟我说转到我们学校来吧.
 *PAR0:	他是什么学.
 *PAR0:	校.
@@ -3981,7 +3981,7 @@ sent_id: 285
 *PAR0:	校.
 ----------------------------------------
 sent_id: 286
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5824.cha": line 323. Keyword: 觉得 
+*** File "/callFriend/5824.cha": line 323. Keyword: 觉得 
 *PAR0:	组.
 *PAR0:	好像又[/]又[/]又[/]又slowdown下来了老给你打电.
 *PAR0:	话.
@@ -3995,7 +3995,7 @@ sent_id: 286
 *PAR0:	西.
 ----------------------------------------
 sent_id: 287
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5824.cha": line 386. Keyword: 觉得 
+*** File "/callFriend/5824.cha": line 386. Keyword: 觉得 
 *PAR0:	有没有计.
 *PAR0:	划这个christmas.
 *PAR0:	什么到这边来玩.
@@ -4009,7 +4009,7 @@ sent_id: 287
 *PAR0:	他还在最后.
 ----------------------------------------
 sent_id: 288
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5824.cha": line 402. Keywords: 觉得, 觉得 
+*** File "/callFriend/5824.cha": line 402. Keywords: 觉得, 觉得 
 *PAR0:	样.
 *PAR0:	因为你玩嘛就是每天都不就是每天出去东看看西看看.
 *PAR0:	然后你可以起来很晚.
@@ -4023,7 +4023,7 @@ sent_id: 288
 *PAR0:	所以说觉得如果是有机会的话能去那住一两天.
 ----------------------------------------
 sent_id: 289
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5824.cha": line 407. Keyword: 觉得 
+*** File "/callFriend/5824.cha": line 407. Keyword: 觉得 
 *PAR0:	那但住十几年了也就觉得太就是所以换一个地方就换一个地盘就觉得很新.
 *PAR0:	鲜.
 *PAR0:	就是欧洲毕竟跟美国还是不一.
@@ -4037,7 +4037,7 @@ sent_id: 289
 *PAR0:	彩.
 ----------------------------------------
 sent_id: 290
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5824.cha": line 428. Keyword: 觉得 
+*** File "/callFriend/5824.cha": line 428. Keyword: 觉得 
 *PAR0:	不是说你不是说随.
 *PAR0:	便.
 *PAR0:	你想要这美国真是出去世界上任何国.
@@ -4051,7 +4051,7 @@ sent_id: 290
 *PAR0:	那你就到处只能是到处去玩[/]玩仅此而已了.
 ----------------------------------------
 sent_id: 291
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5904.cha": line 152. Keyword: 觉得 
+*** File "/callFriend/5904.cha": line 152. Keyword: 觉得 
 *PAR0:	乐器阵也有.
 *PAR0:	他现在上课有一门课就是音乐课了.
 *PAR0:	他有必修课.
@@ -4065,7 +4065,7 @@ sent_id: 291
 *PAR0:	那[/]那没有什么坏.
 ----------------------------------------
 sent_id: 292
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5904.cha": line 539. Keyword: 觉得 
+*** File "/callFriend/5904.cha": line 539. Keyword: 觉得 
 *PAR0:	的.
 *PAR0:	我比以前强一点.
 *PAR0:	所以我说那赶快靠近点.
@@ -4079,7 +4079,7 @@ sent_id: 292
 *PAR0:	然后我就参加了一个舞蹈班.
 ----------------------------------------
 sent_id: 293
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5905.cha": line 509. Keywords: 觉得, 觉得 
+*** File "/callFriend/5905.cha": line 509. Keywords: 觉得, 觉得 
 *PAR0:	我有一段知道他电话来了他要是没搬吧.
 *PAR0:	对有机还是有点出路的.
 *PAR0:	哇不过现在也不行了.
@@ -4093,7 +4093,7 @@ sent_id: 293
 *PAR0:	现在.
 ----------------------------------------
 sent_id: 294
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5906.cha": line 192. Keyword: 觉得 
+*** File "/callFriend/5906.cha": line 192. Keyword: 觉得 
 *PAR0:	你看很多学在校并没有工作.
 *PAR0:	我跟老板谈他说的你们简直就弄错了.
 *PAR0:	你看我老板好多都是master就当工资七八万.
@@ -4107,7 +4107,7 @@ sent_id: 294
 *PAR0:	因为你的英语打出来你打的不通.
 ----------------------------------------
 sent_id: 295
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5906.cha": line 195. Keyword: 觉得 
+*** File "/callFriend/5906.cha": line 195. Keyword: 觉得 
 *PAR0:	但我们同学phd拿了也就也非.
 *PAR0:	他们也就两万多呀.
 *PAR0:	所以最后我就觉得不对所以我觉得英语好重要.
@@ -4121,7 +4121,7 @@ sent_id: 295
 *PAR0:	所以我就说你啊你去学英.
 ----------------------------------------
 sent_id: 296
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5906.cha": line 279. Keyword: 觉得 
+*** File "/callFriend/5906.cha": line 279. Keyword: 觉得 
 *PAR0:	好你有身份的话我在我们公司帮你找工作都没问题.
 *PAR0:	但是你必须先修英语给电.
 *PAR0:	脑.
@@ -4135,7 +4135,7 @@ sent_id: 296
 *PAR0:	来.
 ----------------------------------------
 sent_id: 297
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5906.cha": line 340. Keyword: 觉得 
+*** File "/callFriend/5906.cha": line 340. Keyword: 觉得 
 *PAR0:	但是就是要做.
 *PAR0:	不但是给中文做是挺难的.
 *PAR0:	我跟你说我这段时间就是在给鬼队用那个email用电脑打[/]打自.
@@ -4149,7 +4149,7 @@ sent_id: 297
 *PAR0:	还没耳朶.
 ----------------------------------------
 sent_id: 298
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5906.cha": line 592. Keyword: 觉得 
+*** File "/callFriend/5906.cha": line 592. Keyword: 觉得 
 *PAR0:	我觉得美国很多留学生过得很差的.
 *PAR0:	过得很长.
 *PAR0:	而且很多时候有一点这种神[/]神叨[/]叨的那种感觉有点什么呢.
@@ -4163,7 +4163,7 @@ sent_id: 298
 *PAR0:	习.
 ----------------------------------------
 sent_id: 299
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5906.cha": line 622. Keyword: 觉得 
+*** File "/callFriend/5906.cha": line 622. Keyword: 觉得 
 *PAR0:	科学家其实干的破.
 *PAR0:	事嘛随[/]随便[/]便干的.
 *PAR0:	但是老板就给提的提上去的挺重要的.
@@ -4177,7 +4177,7 @@ sent_id: 299
 *PAR0:	语.
 ----------------------------------------
 sent_id: 300
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5906.cha": line 656. Keyword: 觉得 
+*** File "/callFriend/5906.cha": line 656. Keyword: 觉得 
 *PAR0:	其实我跟你说这边很多成功率啊.
 *PAR0:	没谁问人家当那个a型车就卖车呢.
 *PAR0:	回去卖房子呢.
@@ -4191,7 +4191,7 @@ sent_id: 300
 *PAR0:	样.
 ----------------------------------------
 sent_id: 301
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 53. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 53. Keyword: 觉得 
 *PAR0:	然后createwriting也没有写我们想要hypercard.
 *PAR0:	那么早我以可能可以拖到二十九号.
 *PAR0:	还有八号.
@@ -4205,7 +4205,7 @@ sent_id: 301
 *PAR0:	我都在混.
 ----------------------------------------
 sent_id: 302
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 115. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 115. Keyword: 觉得 
 *PAR0:	對啊滿特別的經.
 *PAR0:	驗.
 *PAR0:	對啊這是很特別的嗜.
@@ -4219,7 +4219,7 @@ sent_id: 302
 *PAR0:	我觉得他长得有点像鹦.
 ----------------------------------------
 sent_id: 303
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 128. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 128. Keyword: 觉得 
 *PAR0:	我觉得有点像婴.
 *PAR0:	鹉这样蛮可.
 *PAR0:	麽.
@@ -4233,7 +4233,7 @@ sent_id: 303
 *PAR0:	然后体现是我有认识一个大陆的.
 ----------------------------------------
 sent_id: 304
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 187. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 187. Keyword: 觉得 
 *PAR0:	没有.
 *PAR0:	可是问题是那个老师啊他对你会有印.
 *PAR0:	象.
@@ -4247,7 +4247,7 @@ sent_id: 304
 *PAR0:	那我觉得每天去学校这样子保持生活的均.
 ----------------------------------------
 sent_id: 305
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 190. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 190. Keyword: 觉得 
 *PAR0:	对啊我有没有去他都知道啊.
 *PAR0:	那其实他没有要求我那么严格说我一定要每堂课都去.
 *PAR0:	可是我就觉得我要认真一点.
@@ -4261,7 +4261,7 @@ sent_id: 305
 *PAR0:	那每天这样去.
 ----------------------------------------
 sent_id: 306
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 196. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 196. Keyword: 觉得 
 *PAR0:	因为我现在没事做.
 *PAR0:	那我觉得每天去学校这样子保持生活的均.
 *PAR0:	衡.
@@ -4275,7 +4275,7 @@ sent_id: 306
 *PAR0:	一天两个小.
 ----------------------------------------
 sent_id: 307
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 252. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 252. Keyword: 觉得 
 *PAR0:	然后所以我就是在那边.
 *PAR0:	这样子很快的就是打一下勾啊.
 *PAR0:	不是打一下勿做一下选择题啊.
@@ -4289,7 +4289,7 @@ sent_id: 307
 *PAR0:	你有跟我提过.
 ----------------------------------------
 sent_id: 308
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 318. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 318. Keyword: 觉得 
 *PAR0:	這樣等於花第二個學期在寫了對不對.
 *PAR0:	對還第三個了.
 *PAR0:	然後他說<他的report>[/]他的report寫完他才能申請那個phd的program嘛.
@@ -4303,7 +4303,7 @@ sent_id: 308
 *PAR0:	可是我觉得在这边待久会变sl.
 ----------------------------------------
 sent_id: 309
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 322. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 322. Keyword: 觉得 
 *PAR0:	他是男生.
 *PAR0:	他不急我不[/]我不觉得耶.
 *PAR0:	有时候男生那种更重要.
@@ -4317,7 +4317,7 @@ sent_id: 309
 *PAR0:	可是他[/]他连schedule都寄给我了.
 ----------------------------------------
 sent_id: 310
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 399. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 399. Keyword: 觉得 
 *PAR0:	很多人沒有聯.
 *PAR0:	絡.
 *PAR0:	對早點寫比較好.
@@ -4331,7 +4331,7 @@ sent_id: 310
 *PAR0:	絡.
 ----------------------------------------
 sent_id: 311
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 400. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 400. Keyword: 觉得 
 *PAR0:	絡.
 *PAR0:	對早點寫比較好.
 *PAR0:	不會说到时候一次写太多品质都比较差.
@@ -4345,7 +4345,7 @@ sent_id: 311
 *PAR0:	像去年發生車禍,招待我家庭,還有我的wisconsinhostfamily.
 ----------------------------------------
 sent_id: 312
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 409. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 409. Keyword: 觉得 
 *PAR0:	絡.
 *PAR0:	像去年發生車禍,招待我家庭,還有我的wisconsinhostfamily.
 *PAR0:	我覺得我應該要好好的去.
@@ -4359,7 +4359,7 @@ sent_id: 312
 *PAR0:	较因为你想到可以马上去做写信的话.
 ----------------------------------------
 sent_id: 313
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 424. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 424. Keyword: 觉得 
 *PAR0:	真的所以后来就没有再写了.
 *PAR0:	对我不晓得她好像寄给我的都.
 *PAR0:	还好他每次都是乱码.
@@ -4373,7 +4373,7 @@ sent_id: 313
 *PAR0:	<他跟>[/]他跟derek也一直在联络他的消.
 ----------------------------------------
 sent_id: 314
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 518. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 518. Keyword: 觉得 
 *PAR0:	对啊然后后来就滴[/]滴的掉那个还我觉得很严.
 *PAR0:	重.
 *PAR0:	我还谈到那个tsa还是什么的.
@@ -4387,7 +4387,7 @@ sent_id: 314
 *PAR0:	你没有收到幸.
 ----------------------------------------
 sent_id: 315
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 619. Keywords: 觉得, 觉得 
+*** File "/callFriend/5916.cha": line 619. Keywords: 觉得, 觉得 
 *PAR0:	其实我觉得这个事情没有定论你都是跟着你感觉走.
 *PAR0:	你在不同阶段的想法不一.
 *PAR0:	样.
@@ -4401,7 +4401,7 @@ sent_id: 315
 *PAR0:	看我回去工作[/]工作顺不顺.
 ----------------------------------------
 sent_id: 316
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 693. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 693. Keyword: 觉得 
 *PAR0:	然后我都要出去都出去做点不同的事情.
 *PAR0:	也可以回台湾啊.
 *PAR0:	也可以去旅.
@@ -4415,7 +4415,7 @@ sent_id: 316
 *PAR0:	搞不好你遇到人你就在这里落地生根了.
 ----------------------------------------
 sent_id: 317
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 697. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 697. Keyword: 觉得 
 *PAR0:	然后也可以去在这边做intern看看.
 *PAR0:	所以这样我就因为这样想我就觉得说好吧那我就可以继续念当学生还是蛮快乐的.
 *PAR0:	我还是很喜欢当学.
@@ -4429,7 +4429,7 @@ sent_id: 317
 *PAR0:	比较有用的.
 ----------------------------------------
 sent_id: 318
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 706. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 706. Keyword: 觉得 
 *PAR0:	至少多修一些学分多修些.
 *PAR0:	比较有用的.
 *PAR0:	那我又没有那个degree的话我还是可以在这边找工作.
@@ -4443,7 +4443,7 @@ sent_id: 318
 *PAR0:	我就要跟找工作.
 ----------------------------------------
 sent_id: 319
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5916.cha": line 750. Keyword: 觉得 
+*** File "/callFriend/5916.cha": line 750. Keyword: 觉得 
 *PAR0:	那问题是说你要怎样解释给他们听.
 *PAR0:	让他们听得懂.
 *PAR0:	就是教学法要再学一下.
@@ -4457,7 +4457,7 @@ sent_id: 319
 *PAR0:	我中英已经比较有一点.
 ----------------------------------------
 sent_id: 320
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 223. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 223. Keyword: 觉得 
 *PAR0:	他想不出来呀.
 *PAR0:	他自己我也不大放心.
 *PAR0:	你那会儿应该把他就搁在芝加哥念书就好了他不要他不愿.
@@ -4471,7 +4471,7 @@ sent_id: 320
 *PAR0:	然后到我乱到他房间还要乱到我房间对.
 ----------------------------------------
 sent_id: 321
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 233. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 233. Keyword: 觉得 
 *PAR0:	然后到我乱到他房间还要乱到我房间对.
 *PAR0:	不对.
 *PAR0:	他在我这儿耍放松一做完看书吃什么喝什么.
@@ -4485,7 +4485,7 @@ sent_id: 321
 *PAR0:	受.
 ----------------------------------------
 sent_id: 322
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 237. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 237. Keyword: 觉得 
 *PAR0:	乱到她屋还要买我屋.
 *PAR0:	现在他自己他觉得他的roommate特能贪.
 *PAR0:	他要keep那个bathroom干净什么的.
@@ -4499,7 +4499,7 @@ sent_id: 322
 *PAR0:	你要是说我原来也体会了我说是的他只有他自己这样了才知道对[/]对他不负责任的只会摊出来好了对.
 ----------------------------------------
 sent_id: 323
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 369. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 369. Keyword: 觉得 
 *PAR0:	他打个电話也没事.
 *PAR0:	也反正就是打个电的话给我吧.
 *PAR0:	问[/]问我怎么好不好.
@@ -4513,7 +4513,7 @@ sent_id: 323
 *PAR0:	那我也从来不想问他什么事情.
 ----------------------------------------
 sent_id: 324
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 415. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 415. Keyword: 觉得 
 *PAR0:	你们几个人在一起有多点朋友比较好一点.
 *PAR0:	康妡就跟她说我现在就很需要我.
 *PAR0:	这个老师叫安.
@@ -4527,7 +4527,7 @@ sent_id: 324
 *PAR0:	量.
 ----------------------------------------
 sent_id: 325
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 419. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 419. Keyword: 觉得 
 *PAR0:	拉.
 *PAR0:	她我们俩人住在一起我就觉得挺好.
 *PAR0:	两个人就是个伴一起上教堂什么的.
@@ -4541,7 +4541,7 @@ sent_id: 325
 *PAR0:	他们俩就是[/]就是个roommat.
 ----------------------------------------
 sent_id: 326
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 422. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 422. Keyword: 觉得 
 *PAR0:	他们都有个人有个人的活.
 *PAR0:	动.
 *PAR0:	但是住在一起就觉得有的时候可以商.
@@ -4555,7 +4555,7 @@ sent_id: 326
 *PAR0:	一个另外是一个退休的护.
 ----------------------------------------
 sent_id: 327
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 451. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 451. Keyword: 觉得 
 *PAR0:	外国人的习惯也不是光以他自己完全以他自己.
 *PAR0:	哎呀我跟你讲啊.
 *PAR0:	那个耶比庆不是上海人吗.
@@ -4569,7 +4569,7 @@ sent_id: 327
 *PAR0:	她今天跟我讲她的丈夫的事.
 ----------------------------------------
 sent_id: 328
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 466. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 466. Keyword: 觉得 
 *PAR0:	她怕丈夫给她什么.
 *PAR0:	她老怕她谁知道她丈夫怎么不对了.
 *PAR0:	他们俩怎么回.
@@ -4583,7 +4583,7 @@ sent_id: 328
 *PAR0:	但是我们苦中有乐呀.
 ----------------------------------------
 sent_id: 329
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 470. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 470. Keyword: 觉得 
 *PAR0:	我也不知道她也很苦啊.
 *PAR0:	我觉得她老觉得她.
 *PAR0:	挺苦的.
@@ -4597,7 +4597,7 @@ sent_id: 329
 *PAR0:	他常跟我说他酷极了.
 ----------------------------------------
 sent_id: 330
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 472. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 472. Keyword: 觉得 
 *PAR0:	挺苦的.
 *PAR0:	她在这工作的也苦什么都苦是吧.
 *PAR0:	我觉得呀做研究的人啊不能够去衡量不能够吃.
@@ -4611,7 +4611,7 @@ sent_id: 330
 *PAR0:	他老说他在这特别不容易啊.
 ----------------------------------------
 sent_id: 331
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 488. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 488. Keyword: 觉得 
 *PAR0:	又不稲了.
 *PAR0:	又出问题了.
 *PAR0:	他了.
@@ -4625,7 +4625,7 @@ sent_id: 331
 *PAR0:	那个邮局那号码告诉他.
 ----------------------------------------
 sent_id: 332
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 522. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 522. Keyword: 觉得 
 *PAR0:	我们可以什么都互相谢对.
 *PAR0:	不对什么都可以互相谈什么都可以相互考.
 *PAR0:	虑.
@@ -4639,7 +4639,7 @@ sent_id: 332
 *PAR0:	现在他心脏病.
 ----------------------------------------
 sent_id: 333
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 544. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 544. Keyword: 觉得 
 *PAR0:	认路的能力特别难.
 *PAR0:	我说在哪岛啊.
 *PAR0:	在那个上就是南边的一个岛叫那个什么.
@@ -4653,7 +4653,7 @@ sent_id: 333
 *PAR0:	洽.
 ----------------------------------------
 sent_id: 334
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 548. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 548. Keyword: 觉得 
 *PAR0:	去呢他老给我打电话让我去.
 *PAR0:	我就觉得这些人都是很真诚的.
 *PAR0:	他们不是说什么.
@@ -4667,7 +4667,7 @@ sent_id: 334
 *PAR0:	但是有些人不可能深.
 ----------------------------------------
 sent_id: 335
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 582. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 582. Keyword: 觉得 
 *PAR0:	那个老板是这样的.
 *PAR0:	我告诉我老.
 *PAR0:	板.
@@ -4681,7 +4681,7 @@ sent_id: 335
 *PAR0:	他就拿我当技术人员说的没劲做的事情.
 ----------------------------------------
 sent_id: 336
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5930.cha": line 611. Keyword: 觉得 
+*** File "/callFriend/5930.cha": line 611. Keyword: 觉得 
 *PAR0:	但是我也不[/]不生气并不等于快乐对.
 *PAR0:	不对.
 *PAR0:	做的这件事情也不是很开心的去做.
@@ -4695,7 +4695,7 @@ sent_id: 336
 *PAR0:	但是我要真的.
 ----------------------------------------
 sent_id: 337
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 52. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 52. Keyword: 觉得 
 *PAR0:	事.
 *PAR0:	说是一块啊.
 *PAR0:	对啊那个你怎么样还好啊.
@@ -4709,7 +4709,7 @@ sent_id: 337
 *PAR0:	对升走有的人一月份就走了我跟他讲我说不行我这个地方生孩子.
 ----------------------------------------
 sent_id: 338
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 53. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 53. Keyword: 觉得 
 *PAR0:	说是一块啊.
 *PAR0:	对啊那个你怎么样还好啊.
 *PAR0:	大概还有一个五个星期吧.
@@ -4723,7 +4723,7 @@ sent_id: 338
 *PAR0:	他说二月份最晚一批大概就是三月一号以前反正就是二月底以前都搬完嘛.
 ----------------------------------------
 sent_id: 339
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 66. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 66. Keyword: 觉得 
 *PAR0:	对搬大概八百号人吧.
 *PAR0:	为什么要这样啊.
 *PAR0:	那不在那单纯建一个分公.
@@ -4737,7 +4737,7 @@ sent_id: 339
 *PAR0:	他就把它并一.
 ----------------------------------------
 sent_id: 340
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 106. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 106. Keyword: 觉得 
 *PAR0:	他叫家里的每个family去看.
 *PAR0:	一看.
 *PAR0:	喜欢不喜欢你三爱愿意不愿意去啊.
@@ -4751,7 +4751,7 @@ sent_id: 340
 *PAR0:	我觉得它size比houston小一点.
 ----------------------------------------
 sent_id: 341
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 108. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 108. Keyword: 觉得 
 *PAR0:	喜欢不喜欢你三爱愿意不愿意去啊.
 *PAR0:	我们大概是我大概是一个多月以前两个月了.
 *PAR0:	将近去了一下.
@@ -4765,7 +4765,7 @@ sent_id: 341
 *PAR0:	它现在发展比较厉.
 ----------------------------------------
 sent_id: 342
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 148. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 148. Keyword: 觉得 
 *PAR0:	我上次没听你说过什么的.
 *PAR0:	那你们现在还好吗.
 *PAR0:	<挺好的>[/]挺好的那边冷了吧对那个感恩之前就下大雪了是吧.
@@ -4779,7 +4779,7 @@ sent_id: 342
 *PAR0:	他本说星期六到我们这儿来玩[/]玩.
 ----------------------------------------
 sent_id: 343
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 196. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 196. Keyword: 觉得 
 *PAR0:	嗯他说有的东西比我卖的贵多了.
 *PAR0:	他说是吧.
 *PAR0:	嗯他说我卖得东西有些东西比沃玛还便.
@@ -4793,7 +4793,7 @@ sent_id: 343
 *PAR0:	样.
 ----------------------------------------
 sent_id: 344
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 256. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 256. Keyword: 觉得 
 *PAR0:	还没怎么回.
 *PAR0:	复.
 *PAR0:	对为什么人家说生完孩子要什么半年啊.
@@ -4807,7 +4807,7 @@ sent_id: 344
 *PAR0:	西.
 ----------------------------------------
 sent_id: 345
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 257. Keywords: 觉得, 觉得 
+*** File "/callFriend/5949.cha": line 257. Keywords: 觉得, 觉得 
 *PAR0:	复.
 *PAR0:	对为什么人家说生完孩子要什么半年啊.
 *PAR0:	一年以后再怀孕啊.
@@ -4821,7 +4821,7 @@ sent_id: 345
 *PAR0:	我只知道个.
 ----------------------------------------
 sent_id: 346
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 271. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 271. Keyword: 觉得 
 *PAR0:	事.
 *PAR0:	陈振杰还高兴吗.
 *PAR0:	还行吧.
@@ -4835,7 +4835,7 @@ sent_id: 346
 *PAR0:	事.
 ----------------------------------------
 sent_id: 347
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 272. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 272. Keyword: 觉得 
 *PAR0:	陈振杰还高兴吗.
 *PAR0:	还行吧.
 *PAR0:	一开始不是太高.
@@ -4849,7 +4849,7 @@ sent_id: 347
 *PAR0:	着急也没用.
 ----------------------------------------
 sent_id: 348
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 321. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 321. Keyword: 觉得 
 *PAR0:	我不知道要有曲线了.
 *PAR0:	对呀屁肠现在好翘啊.
 *PAR0:	可是差不多在美国可能孩子都会早一点.
@@ -4863,7 +4863,7 @@ sent_id: 348
 *PAR0:	她关的门以后他一直做床sample在安塞尔她买回.
 ----------------------------------------
 sent_id: 349
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 350. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 350. Keyword: 觉得 
 *PAR0:	我不知道税多少八二十五的税.
 *PAR0:	好多人都在这边买是吗.
 *PAR0:	对买完以后叫ibm给搬过.
@@ -4877,7 +4877,7 @@ sent_id: 349
 *PAR0:	来.
 ----------------------------------------
 sent_id: 350
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 425. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 425. Keyword: 觉得 
 *PAR0:	程.
 *PAR0:	师.
 *PAR0:	然后高级工程师就这样.
@@ -4891,7 +4891,7 @@ sent_id: 350
 *PAR0:	我们一开始也觉得哎呦说好像是当官啊什么的他说都不是了.
 ----------------------------------------
 sent_id: 351
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 430. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 430. Keyword: 觉得 
 *PAR0:	但是在这种公司里我们原来也觉得他在他的公司里一共大概就最低层好像不知道叫什么.
 *PAR0:	然后下面一个叫第三.
 *PAR0:	第三阶就是叫做vp了.
@@ -4905,7 +4905,7 @@ sent_id: 351
 *PAR0:	我们这一代好像omis还挺多的.
 ----------------------------------------
 sent_id: 352
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 482. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 482. Keyword: 觉得 
 *PAR0:	对生了孩子长得胖了.
 *PAR0:	对然后老包还说胡丹好像现在还有蛮弄累的一个人在那.
 *PAR0:	胡丹真是下来的.
@@ -4919,7 +4919,7 @@ sent_id: 352
 *PAR0:	那你总不能说见了一个人就[/]就跟[/]跟他好吧那人家要是phd人家还得考虑你呢.
 ----------------------------------------
 sent_id: 353
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5949.cha": line 484. Keyword: 觉得 
+*** File "/callFriend/5949.cha": line 484. Keyword: 觉得 
 *PAR0:	胡丹真是下来的.
 *PAR0:	对呀搞了那么长时间还在那下脚[/]脚不好真是自己不知道自己在什么地位在这个社会里.
 *PAR0:	头.
@@ -4933,7 +4933,7 @@ sent_id: 353
 *PAR0:	反正对吧.
 ----------------------------------------
 sent_id: 354
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5973.cha": line 75. Keyword: 觉得 
+*** File "/callFriend/5973.cha": line 75. Keyword: 觉得 
 *PAR0:	因为那个老师说呢.
 *PAR0:	她本来把她的那个奖励分[/]分成比如说十六周.
 *PAR0:	他估计上课要十六周分成十六份.
@@ -4947,7 +4947,7 @@ sent_id: 354
 *PAR0:	因为一般中国人过thanksgiving就比较无聊一点.
 ----------------------------------------
 sent_id: 355
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5973.cha": line 155. Keyword: 觉得 
+*** File "/callFriend/5973.cha": line 155. Keyword: 觉得 
 *PAR0:	他们这里不是[/]不是honorcode要监考的.
 *PAR0:	哦你还当ta是不是.
 *PAR0:	对[/]对啊然后我还要给他们改考卷.
@@ -4961,7 +4961,7 @@ sent_id: 355
 *PAR0:	我们大概出题.
 ----------------------------------------
 sent_id: 356
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5973.cha": line 231. Keyword: 觉得 
+*** File "/callFriend/5973.cha": line 231. Keyword: 觉得 
 *PAR0:	不一定让人家背后吗.
 *PAR0:	不是她一定有掉在后面的啊.
 *PAR0:	我不知道她在后面看形势不.
@@ -4975,7 +4975,7 @@ sent_id: 356
 *PAR0:	他是一门probability的课.
 ----------------------------------------
 sent_id: 357
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5973.cha": line 270. Keyword: 觉得 
+*** File "/callFriend/5973.cha": line 270. Keyword: 觉得 
 *PAR0:	对然后还有一样就是多付很多东.
 *PAR0:	西.
 *PAR0:	这是适用于所有拿f一的学生吗.
@@ -4989,7 +4989,7 @@ sent_id: 357
 *PAR0:	他说这样美国要关起门来.
 ----------------------------------------
 sent_id: 358
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5973.cha": line 289. Keyword: 觉得 
+*** File "/callFriend/5973.cha": line 289. Keyword: 觉得 
 *PAR0:	不对.
 *PAR0:	那他能在美国到工作.
 *PAR0:	比方说美国需要他.
@@ -5003,7 +5003,7 @@ sent_id: 358
 *PAR0:	那管他呢.
 ----------------------------------------
 sent_id: 359
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5973.cha": line 441. Keyword: 觉得 
+*** File "/callFriend/5973.cha": line 441. Keyword: 觉得 
 *PAR0:	我比较艰.
 *PAR0:	难.
 *PAR0:	可是这样会开车之.
@@ -5017,7 +5017,7 @@ sent_id: 359
 *PAR0:	但是他不是同不是学.
 ----------------------------------------
 sent_id: 360
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5975.cha": line 251. Keyword: 觉得 
+*** File "/callFriend/5975.cha": line 251. Keyword: 觉得 
 *PAR0:	就跟他boyfriend那些事.
 *PAR0:	真的啊嗯他哪个我觉得这孩子有点太过分了.
 *PAR0:	是啊我觉得一开始我觉得也没啥事呢.
@@ -5031,7 +5031,7 @@ sent_id: 360
 *PAR0:	我说你主要还是学.
 ----------------------------------------
 sent_id: 361
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5975.cha": line 302. Keyword: 觉得 
+*** File "/callFriend/5975.cha": line 302. Keyword: 觉得 
 *PAR0:	这个那个现在也不说了.
 *PAR0:	光说这个了.
 *PAR0:	说这一会儿那个英文什么怎么回.
@@ -5045,7 +5045,7 @@ sent_id: 361
 *PAR0:	因为我妈不是说给他算了.
 ----------------------------------------
 sent_id: 362
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5975.cha": line 450. Keyword: 觉得 
+*** File "/callFriend/5975.cha": line 450. Keyword: 觉得 
 *PAR0:	所.
 *PAR0:	那也是挺好玩的.
 *PAR0:	我觉得是哈.
@@ -5059,7 +5059,7 @@ sent_id: 362
 *PAR0:	恼.
 ----------------------------------------
 sent_id: 363
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5975.cha": line 602. Keyword: 觉得 
+*** File "/callFriend/5975.cha": line 602. Keyword: 觉得 
 *PAR0:	别说吃的.
 *PAR0:	换话题一说吃了就简.
 *PAR0:	直忍受不住的痛.
@@ -5073,7 +5073,7 @@ sent_id: 363
 *PAR0:	再差两三分.
 ----------------------------------------
 sent_id: 364
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5982.cha": line 131. Keyword: 觉得 
+*** File "/callFriend/5982.cha": line 131. Keyword: 觉得 
 *PAR0:	真是讲实话.
 *PAR0:	如果我这学的好哎.
 *PAR0:	你每门诲都学的很好我们是弄个b就行了对但是假如这么讲.
@@ -5087,7 +5087,7 @@ sent_id: 364
 *PAR0:	time.
 ----------------------------------------
 sent_id: 365
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5982.cha": line 145. Keyword: 觉得 
+*** File "/callFriend/5982.cha": line 145. Keyword: 觉得 
 *PAR0:	拉.
 *PAR0:	斯.
 *PAR0:	回来一趟吗.
@@ -5101,7 +5101,7 @@ sent_id: 365
 *PAR0:	对啊在这个地方好像就是待了好像在小趟里面待傻都不知道对真是待傻不过.
 ----------------------------------------
 sent_id: 366
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5982.cha": line 181. Keyword: 觉得 
+*** File "/callFriend/5982.cha": line 181. Keyword: 觉得 
 *PAR0:	荣.
 *PAR0:	人[/]人都说二十一世纪中国的前景真是美好会多富.
 *PAR0:	裕.
@@ -5115,7 +5115,7 @@ sent_id: 366
 *PAR0:	我觉得总不会倒.
 ----------------------------------------
 sent_id: 367
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5982.cha": line 295. Keyword: 觉得 
+*** File "/callFriend/5982.cha": line 295. Keyword: 觉得 
 *PAR0:	它<十八九啊>[/]十八九啊.
 *PAR0:	好便宙啊.
 *PAR0:	我买不起啊.
@@ -5129,7 +5129,7 @@ sent_id: 367
 *PAR0:	你们保险多少了保.
 ----------------------------------------
 sent_id: 368
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callFriend/5982.cha": line 378. Keyword: 觉得 
+*** File "/callFriend/5982.cha": line 378. Keyword: 觉得 
 *PAR0:	言.
 *PAR0:	还有一个老.
 *PAR0:	头.

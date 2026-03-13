@@ -146,6 +146,11 @@ adult_matrix_clause_subject <- adult_summary %>%
   ungroup()
 adult_matrix_clause_subject
 
+adult_matrix_clause_subject <- adult_matrix_clause_subject %>% 
+  filter(verb!="zhidao") %>% 
+  mutate(subject_type = fct_relevel(subject_type, "first_person", "second_person", "others","dropped"),
+         verb = fct_relevel(verb, "yiwei", "juede")) 
+
 adult_matrix_clause_subject_plot<-ggplot(adult_matrix_clause_subject, 
                                          aes(fill=sentence_type, 
                                        y=count,
@@ -164,7 +169,7 @@ adult_matrix_clause_subject_plot<-ggplot(adult_matrix_clause_subject,
   #                   name="Matrix clause type") +
   scale_fill_manual(values=sentencePalette,
                     name="Matrix clause type") +
-  theme(legend.position = "top",
+  theme(legend.position = c(0.35,0.75),
         axis.title.x = element_text(size = 14),
         axis.text.x = element_text(size = 10),
         # axis.text.x = element_text(angle = 45,hjust = 1, size = 12),
@@ -178,7 +183,7 @@ adult_matrix_clause_subject_plot<-ggplot(adult_matrix_clause_subject,
   labs(x="Matrix subject type",
        y="Counts")
 adult_matrix_clause_subject_plot
-ggsave(adult_matrix_clause_subject_plot, file="graphs/matrix_type-subject_plot.pdf", width=8, height=3)
+ggsave(adult_matrix_clause_subject_plot, file="graphs/matrix_type-subject_plot.pdf", width=7, height=3)
 
 
 ### embed subject x clause type ----
@@ -301,7 +306,7 @@ adult_matrix_clause_discourse_plot <- ggplot(adult_discourse_summary,
   #                   name="Matrix clause type") +
   scale_fill_manual(values=sentencePalette,
                     name="Matrix clause type") +
-  theme(legend.position = c(0.4, 0.70),
+  theme(legend.position = c(0.35, 0.75),
         axis.title.x = element_text(size = 14),
         axis.text.x = element_text(size = 10),
         axis.text.y = element_text(size = 12),

@@ -1,6 +1,6 @@
 ----------------------------------------
 sent_id: 1
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0806.cha": line 168. Keyword: 认为 
+*** File "/callHome/0806.cha": line 168. Keyword: 认为 
 *A:	老是把好多个事情捅来捅去,捅来捅去,爸你知道吧?
 *A:	陈琴把你写给我的信呢,就是寄给小王的信呢.
 *B1:	哎.
@@ -14,7 +14,7 @@ sent_id: 1
 *A:	就好象小小小王是种衣服一样的.
 ----------------------------------------
 sent_id: 2
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0806.cha": line 170. Keyword: 认为 
+*** File "/callHome/0806.cha": line 170. Keyword: 认为 
 *B1:	哎.
 *A:	他他又给了王明清看,又给他爸爸妈妈看.
 *A:	懂哇.
@@ -28,7 +28,7 @@ sent_id: 2
 *A:	哦他他们觉觉得好象心里好象非常不痛快,但是我我的意思就要跟陈琴讲不要再.
 ----------------------------------------
 sent_id: 3
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0860.cha": line 348. Keyword: 认为 
+*** File "/callHome/0860.cha": line 348. Keyword: 认为 
 *A:	对,呃,xxx&=distortion.
 *B:	啊?
 *B:	我发觉☺科大☺的孩子啊.
@@ -42,7 +42,7 @@ sent_id: 3
 *B:	哎,你你这个,这个就是,也希望他,我就担心他的中文怎么办呢?
 ----------------------------------------
 sent_id: 4
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0900.cha": line 220. Keyword: 认为 
+*** File "/callHome/0900.cha": line 220. Keyword: 认为 
 *A:	胃,胃倒没有疼过.
 *A:	就拉过两次稀,后来好了.
 *B:	哦,那你那注意啊.
@@ -56,7 +56,7 @@ sent_id: 4
 *B:	年年没有这种情况.
 ----------------------------------------
 sent_id: 5
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 147. Keywords: 认为, 认为 
+*** File "/callHome/0913.cha": line 147. Keywords: 认为, 认为 
 *B:	躺下来还起得来呀?
 *B:	起不来怎么办啊?
 *B:	你不要以为好象怪容易啊.
@@ -71,7 +71,7 @@ sent_id: 5
 *B:	叫我怎么办.
 ----------------------------------------
 sent_id: 6
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 154. Keyword: 认为 
+*** File "/callHome/0913.cha": line 154. Keyword: 认为 
 *B:	呃,她吃她的苦了就算.
 *B:	你看在国内吃得什么倒头苦.
 *A:	那你叫我们怎么办呐?
@@ -85,7 +85,7 @@ sent_id: 6
 *B:	为什么当初会提出那么多苛刻的条件.
 ----------------------------------------
 sent_id: 7
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/0913.cha": line 319. Keyword: 认为 
+*** File "/callHome/0913.cha": line 319. Keyword: 认为 
 *A:	妈刚才妈不是讲吗?
 *B1:	哎.
 *A:	妈就刚才讲了好象你不要以为我们过舒服日子咯.
@@ -99,7 +99,7 @@ sent_id: 7
 *B1:	现在呐,你不要跟那个了,你慢慢听听听了分析了.
 ----------------------------------------
 sent_id: 8
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1014.cha": line 172. Keyword: 认为 
+*** File "/callHome/1014.cha": line 172. Keyword: 认为 
 *B:	你谈恋爱连信都&=noise.
 *A:	我信你的话,你自己说的,你你你新决定了,你找了.
 *B:	&=laugh我没有说什么,那你有完没完啊?
@@ -115,7 +115,7 @@ sent_id: 8
 *B:	不,一再跟你说我那是开玩笑呐,你要是这样的话.
 ----------------------------------------
 sent_id: 9
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1393.cha": line 167. Keyword: 认为 
+*** File "/callHome/1393.cha": line 167. Keyword: 认为 
 *B1:	哦.
 *A:	这一般就坐,就就坐,坐到伯明翰.
 *A:	而且从我们这开车到伯明翰机场,一般就一个来小时就够了,最多不超过两个小时.
@@ -131,7 +131,7 @@ sent_id: 9
 *B:	对那也对,这一个多小时嗯.
 ----------------------------------------
 sent_id: 10
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1396.cha": line 259. Keyword: 认为 
+*** File "/callHome/1396.cha": line 259. Keyword: 认为 
 *A:	哦.
 *B:	他现在拿到绿卡了吗?
 *A:	呃,拿到了,拿到了,已经正式那个卡寄来了.
@@ -145,7 +145,7 @@ sent_id: 10
 *A:	对,他是,他是.
 ----------------------------------------
 sent_id: 11
-*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/callHome/1671.cha": line 343. Keyword: 认为 
+*** File "/callHome/1671.cha": line 343. Keyword: 认为 
 *A:	嗯嗯,嗯.
 *B:	那是吧.
 *B:	那就算了哎呀.

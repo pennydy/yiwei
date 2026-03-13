@@ -142,7 +142,6 @@ context_item_accuracy <- context_clean_data %>%
   mutate(YMin = accuracy-CILow,
          YMax = accuracy+CIHigh)
   
-
 # 2. Plot ----
 context_plot <- ggplot(data=context_summary %>% 
          mutate(verb = fct_relevel(verb, "yiwei", "juede"),
@@ -264,6 +263,10 @@ plot(emmeans(context_model, ~verb*discourse_type, type="response"))
 pairs(emmeans(context_model, ~verb|discourse_type))
 pairs(emmeans(context_model, ~discourse_type|verb))
 
+fixed_context_model <- glm(response_num ~ verb * discourse_type,
+                           data=context_clean_data,
+                           family=binomial)
+summary(fixed_context_model)
 
 simple_context_model <- glmer(response_num ~ verb * discourse_type + (1+verb+discourse_type|workerid),
                        data=context_clean_data,

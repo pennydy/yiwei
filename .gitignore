@@ -17,8 +17,12 @@ data/childes/yiwei.txt
 data/childes/renwei.txt
 data/childes/juede.txt
 data/childes/zhidao.txt
+data/childes/*.csv
 data/childes/child/*
 data/childes/other_speakers/*
+
+# analysis
+analysis/power_analysis.R
 
 # writing
 writings/*

@@ -1,6 +1,6 @@
 ----------------------------------------
 sent_id: 1
-*** File "/Users/penny/Downloads/Chang1/04.cha": line 69. Keyword: 以为 
+*** File "/Chang1/04.cha": line 69. Keyword: 以为 
 *EXP:	上面还有什么?
 *CHI:	(..)嗯[^c]...
 *EXP:	你有没有看过?
@@ -14,7 +14,7 @@ sent_id: 1
 *CHI:	我就[^c]/.
 ----------------------------------------
 sent_id: 2
-*** File "/Users/penny/Downloads/Chang1/09.cha": line 1261. Keyword: 以为 
+*** File "/Chang1/09.cha": line 1261. Keyword: 以为 
 *CHI:	然后牠就xxx<去>[/]<去>[/]去打仗了[^c].
 *CHI:	然后牠就割牠鼻子[^c].
 *CHI:	0[=!soundeffects][^c].
@@ -28,7 +28,7 @@ sent_id: 2
 *CHI:	牠就<闹胡涂>[?]了[^c].
 ----------------------------------------
 sent_id: 3
-*** File "/Users/penny/Downloads/LiZhou/4/01.cha": line 244. Keyword: 以为 
+*** File "/LiZhou/4/01.cha": line 244. Keyword: 以为 
 *CHI:	房子坏啦.
 *CHI:	今天好像坏了.
 @New Episode
@@ -40,7 +40,7 @@ sent_id: 3
 *CHI:	刀是哪一半?
 ----------------------------------------
 sent_id: 4
-*** File "/Users/penny/Downloads/NSCtoys/4/a29_1.cha": line 262. Keyword: 以为 
+*** File "/NSCtoys/4/a29_1.cha": line 262. Keyword: 以为 
 *MOT:	给狗狗或猫咪吃的,是吗?
 *CHI:	^对.
 *MOT:	喔(.)了解.
@@ -54,7 +54,7 @@ sent_id: 4
 *MOT:	喔(.)放鞋子的地方喔!
 ----------------------------------------
 sent_id: 5
-*** File "/Users/penny/Downloads/NSCtoys/4/a36_3.cha": line 298. Keywords: 以为, 以为 
+*** File "/NSCtoys/4/a36_3.cha": line 298. Keywords: 以为, 以为 
 *MOT:	哇.
 *MOT:	tiger的身体在哪里?
 *CHI:	猫啦.
@@ -68,7 +68,7 @@ sent_id: 5
 *MOT:	猫的头.
 ----------------------------------------
 sent_id: 6
-*** File "/Users/penny/Downloads/NSCtoys/4/a37_2.cha": line 127. Keyword: 以为 
+*** File "/NSCtoys/4/a37_2.cha": line 127. Keyword: 以为 
 *MOT:	打手.
 *MOT:	哦.
 *CHI:	chuchuchu@o.
@@ -82,7 +82,7 @@ sent_id: 6
 *MOT:	来.
 ----------------------------------------
 sent_id: 7
-*** File "/Users/penny/Downloads/NSCtoys/5-6_1/g09_1.cha": line 254. Keyword: 以为 
+*** File "/NSCtoys/5-6_1/g09_1.cha": line 254. Keyword: 以为 
 *CHI:	就是那个<去走走>[//]我们不是有去走路那个吊桥?
 *MOT:	你看我的.
 *MOT:	你觉得没有很厉害吗?
@@ -96,7 +96,7 @@ sent_id: 7
 *MOT:	你不是盖吊桥?
 ----------------------------------------
 sent_id: 8
-*** File "/Users/penny/Downloads/NSCtoys/2/d19_3.cha": line 329. Keyword: 以为 
+*** File "/NSCtoys/2/d19_3.cha": line 329. Keyword: 以为 
 *MOT:	<好像>[/]好像不行齁.
 *MOT:	是不是少了一片?
 *MOT:	啊&=laughs.
@@ -110,7 +110,7 @@ sent_id: 8
 *MOT:	嗯小鸭的妈妈耶.
 ----------------------------------------
 sent_id: 9
-*** File "/Users/penny/Downloads/NSCtoys/4-6_2/a12_3.cha": line 168. Keyword: 以为 
+*** File "/NSCtoys/4-6_2/a12_3.cha": line 168. Keyword: 以为 
 *MOT:	,试试看啊.
 *CHI:	哦!
 *CHI:	嘿&=laughs!
@@ -124,7 +124,7 @@ sent_id: 9
 *MOT:	哇这只狗也快要拼出来了.
 ----------------------------------------
 sent_id: 10
-*** File "/Users/penny/Downloads/NSCtoys/4-6_1/f05_1.cha": line 719. Keyword: 以为 
+*** File "/NSCtoys/4-6_1/f05_1.cha": line 719. Keyword: 以为 
 *CHI:	没关系.
 *MOT:	孩名知道这是什么形状吗?
 *MOT:	这个.
@@ -138,7 +138,7 @@ sent_id: 10
 *CHI:	可以.
 ----------------------------------------
 sent_id: 11
-*** File "/Users/penny/Downloads/NSCtoys/3/e22_2.cha": line 442. Keyword: 以为 
+*** File "/NSCtoys/3/e22_2.cha": line 442. Keyword: 以为 
 *MOT:	你有你的设计,是不是.
 *CHI:	这是大站啊.
 *MOT:	是大站喔.
@@ -160,7 +160,7 @@ sent_id: 11
 *MOT:	上面是什么?
 ----------------------------------------
 sent_id: 12
-*** File "/Users/penny/Downloads/NSCtoys/5-6_2/b20_1.cha": line 503. Keyword: 以为 
+*** File "/NSCtoys/5-6_2/b20_1.cha": line 503. Keyword: 以为 
 *CHI:	应该可以.
 *MOT:	喔那还可以弹钢琴吗?
 *CHI:	可以,只是不要弹太大力.
@@ -174,7 +174,7 @@ sent_id: 12
 *CHI:	<嗯需要>[//]嗯不用.
 ----------------------------------------
 sent_id: 13
-*** File "/Users/penny/Downloads/NSCtoys/5/b02_2.cha": line 111. Keyword: 以为 
+*** File "/NSCtoys/5/b02_2.cha": line 111. Keyword: 以为 
 *MOT:	这是什么?
 *CHI:	我都还没做好耶.
 *MOT:	喔.
@@ -188,7 +188,7 @@ sent_id: 13
 *CHI:	三座把它合在一起.
 ----------------------------------------
 sent_id: 14
-*** File "/Users/penny/Downloads/NSCtoys/5/b06_2.cha": line 597. Keyword: 以为 
+*** File "/NSCtoys/5/b06_2.cha": line 597. Keyword: 以为 
 *CHI:	所以...
 *MOT:	所以呢?
 *CHI:	,所以要挡住.
@@ -202,7 +202,7 @@ sent_id: 14
 *CHI:	所以要挡住.
 ----------------------------------------
 sent_id: 15
-*** File "/Users/penny/Downloads/NSCtoys/5/b07_3.cha": line 748. Keyword: 以为 
+*** File "/NSCtoys/5/b07_3.cha": line 748. Keyword: 以为 
 *MOT:	我们拼好了.
 *MOT:	然后把它(.)放来这.
 *MOT:	然后我们一直觉得哪里怪怪的.
@@ -216,7 +216,7 @@ sent_id: 15
 *MOT:	好,拆掉了.
 ----------------------------------------
 sent_id: 16
-*** File "/Users/penny/Downloads/NSCtoys/5/b07_3.cha": line 752. Keyword: 以为 
+*** File "/NSCtoys/5/b07_3.cha": line 752. Keyword: 以为 
 *MOT:	还好,我们一开始四个弯弯的/.
 *CHI:	我[/]<我[/]我>[>]...
 *MOT:	,<已经摆对>[<].
@@ -228,7 +228,7 @@ sent_id: 16
 @Eg:	Puzzle
 ----------------------------------------
 sent_id: 17
-*** File "/Users/penny/Downloads/NSCtoys/5/b17_1.cha": line 502. Keyword: 以为 
+*** File "/NSCtoys/5/b17_1.cha": line 502. Keyword: 以为 
 *CHI:	xxx这是装饰.
 *MOT:	喔这是装饰.
 *CHI:	嗯所以我不要这个xxx.
@@ -242,7 +242,7 @@ sent_id: 17
 *MOT:	喔路灯&=laughs.
 ----------------------------------------
 sent_id: 18
-*** File "/Users/penny/Downloads/NSCtoys/5/b17_2.cha": line 480. Keyword: 以为 
+*** File "/NSCtoys/5/b17_2.cha": line 480. Keyword: 以为 
 *MOT:	^"不是吗?
 *MOT:	"唉唷这跟我家药膏很像耶.
 *CHI:	&=laughs.
@@ -256,7 +256,7 @@ sent_id: 18
 *MOT:	"蛤!
 ----------------------------------------
 sent_id: 19
-*** File "/Users/penny/Downloads/TCCM/yang/010600.cha": line 1821. Keyword: 以为 
+*** File "/TCCM/yang/010600.cha": line 1821. Keyword: 以为 
 *EXA:	哦.
 *MOT:	哦[=!laugh].
 *EXA:	哦他在找这个啊.
@@ -270,7 +270,7 @@ sent_id: 19
 *CHI:	yyy.
 ----------------------------------------
 sent_id: 20
-*** File "/Users/penny/Downloads/TCCM/yang/011000.cha": line 768. Keyword: 以为 
+*** File "/TCCM/yang/011000.cha": line 768. Keyword: 以为 
 *EXA:	你把妈妈拿去丢在桶子里面.
 *EXA:	快.
 *CHI:	xxx.
@@ -284,7 +284,7 @@ sent_id: 20
 *EXA:	这个yyy啊.
 ----------------------------------------
 sent_id: 21
-*** File "/Users/penny/Downloads/TCCM/yang/020600.cha": line 944. Keyword: 以为 
+*** File "/TCCM/yang/020600.cha": line 944. Keyword: 以为 
 *EXA:	嘿打不开.
 *EXA:	那你为什么打它?
 *CHI:	它不开.
@@ -298,7 +298,7 @@ sent_id: 21
 *EXA:	你一直打它.
 ----------------------------------------
 sent_id: 22
-*** File "/Users/penny/Downloads/TCCM/xu/020300.cha": line 19. Keyword: 以为 
+*** File "/TCCM/xu/020300.cha": line 19. Keyword: 以为 
 @Types:	long,toyplay,TD
 *INV:	你是美少女啊?
 *CHI:	是美嘉嘉,美.
@@ -312,7 +312,7 @@ sent_id: 22
 *CHI:	我帮你开开喔!
 ----------------------------------------
 sent_id: 23
-*** File "/Users/penny/Downloads/TCCM/wang/020700.cha": line 1555. Keyword: 以为 
+*** File "/TCCM/wang/020700.cha": line 1555. Keyword: 以为 
 *MOT:	因为你叫的太大声.
 *CHI:	这个狗狗!
 *MOT:	对呀.
@@ -326,7 +326,7 @@ sent_id: 23
 *CHI:	这给你.
 ----------------------------------------
 sent_id: 24
-*** File "/Users/penny/Downloads/TCCM/wang/021100.cha": line 938. Keyword: 以为 
+*** File "/TCCM/wang/021100.cha": line 938. Keyword: 以为 
 *MOT:	真的打到了啊?
 *MOT:	我的天呐.
 *MOT:	不是啦.
@@ -340,7 +340,7 @@ sent_id: 24
 *MOT:	好.
 ----------------------------------------
 sent_id: 25
-*** File "/Users/penny/Downloads/TCCM/wang/021100.cha": line 941. Keyword: 以为 
+*** File "/TCCM/wang/021100.cha": line 941. Keyword: 以为 
 *MOT:	我的天呐.
 *MOT:	不是啦.
 *MOT:	那不是蚊子.
@@ -354,7 +354,7 @@ sent_id: 25
 *MOT:	来!
 ----------------------------------------
 sent_id: 26
-*** File "/Users/penny/Downloads/TCCM/wuys/030300.cha": line 72. Keyword: 以为 
+*** File "/TCCM/wuys/030300.cha": line 72. Keyword: 以为 
 *EXA:	他会溜出来.
 *CHI:	好.
 *EXA:	好.
@@ -368,7 +368,7 @@ sent_id: 26
 *EXA:	0[=!笑].
 ----------------------------------------
 sent_id: 27
-*** File "/Users/penny/Downloads/TCCM/chou/020100.cha": line 2773. Keyword: 以为 
+*** File "/TCCM/chou/020100.cha": line 2773. Keyword: 以为 
 *MOT:	像我因为跟他常接触.
 *MOT:	所以他讲什么.
 *MOT:	我比较知道.
@@ -389,7 +389,7 @@ sent_id: 27
 *MOT:	我都不晓得他在讲什么.”
 ----------------------------------------
 sent_id: 28
-*** File "/Users/penny/Downloads/TCCM/chou/020100.cha": line 5329. Keyword: 以为 
+*** File "/TCCM/chou/020100.cha": line 5329. Keyword: 以为 
 *MOT:	有几朵花,乖乖?
 *MOT:	han@o?
 *MOT:	几朵花?
@@ -403,7 +403,7 @@ sent_id: 28
 *MOT:	那前天,我妈妈就把它插在那个篮子里.
 ----------------------------------------
 sent_id: 29
-*** File "/Users/penny/Downloads/TCCM/chou/020200.cha": line 4159. Keyword: 以为 
+*** File "/TCCM/chou/020200.cha": line 4159. Keyword: 以为 
 *EXA:	理头发又不会痛!
 *EXA:	不会痛.
 *EXA:	对不对?
@@ -417,7 +417,7 @@ sent_id: 29
 *MOT:	喔.
 ----------------------------------------
 sent_id: 30
-*** File "/Users/penny/Downloads/TCCM/chou/020400.cha": line 2777. Keyword: 以为 
+*** File "/TCCM/chou/020400.cha": line 2777. Keyword: 以为 
 *EXA:	真是的!
 *EXA:	你看.
 *EXA:	来擦嘴巴!
@@ -431,7 +431,7 @@ sent_id: 30
 *MOT:	乖乖,你会自己拿纸擦.
 ----------------------------------------
 sent_id: 31
-*** File "/Users/penny/Downloads/TCCM/cheng/031000.cha": line 302. Keyword: 以为 
+*** File "/TCCM/cheng/031000.cha": line 302. Keyword: 以为 
 *CHI:	对呀!
 *ADU:	然后这是谁?
 *CHI:	这是母鸡.
@@ -445,7 +445,7 @@ sent_id: 31
 *CHI:	喔!
 ----------------------------------------
 sent_id: 32
-*** File "/Users/penny/Downloads/TCCM/cheng/031100.cha": line 1130. Keyword: 以为 
+*** File "/TCCM/cheng/031100.cha": line 1130. Keyword: 以为 
 *CHI:	老...
 *CHI:	有小老虎.
 *CHI:	有中大老虎.
@@ -459,7 +459,7 @@ sent_id: 32
 *ADU:	车子里.
 ----------------------------------------
 sent_id: 33
-*** File "/Users/penny/Downloads/TCCM/chw/031100.cha": line 1389. Keyword: 以为 
+*** File "/TCCM/chw/031100.cha": line 1389. Keyword: 以为 
 *INV:	放回去!
 *INV:	你刚刚从这里面弄掉出来的.
 *INV:	再把他放进去!
@@ -473,7 +473,7 @@ sent_id: 33
 *INV:	好累呀.
 ----------------------------------------
 sent_id: 34
-*** File "/Users/penny/Downloads/TCCM/chw/040200.cha": line 8. Keyword: 以为 
+*** File "/TCCM/chw/040200.cha": line 8. Keyword: 以为 
 @Participants:	INVInvestigator,CHITarget_Child
 @ID:	zho|TCCM|INV|||||Investigator|||
 @ID:	zho|TCCM|CHI|4;02.||||Target_Child|||
@@ -486,7 +486,7 @@ sent_id: 34
 *INV:	今天没事啊?
 ----------------------------------------
 sent_id: 35
-*** File "/Users/penny/Downloads/TCCM/chw/040200.cha": line 1260. Keyword: 以为 
+*** File "/TCCM/chw/040200.cha": line 1260. Keyword: 以为 
 *INV:	藏好!
 *CHI:	我要做了!
 *INV:	你昨天睡这里吗?
@@ -500,7 +500,7 @@ sent_id: 35
 *CHI:	可以的时候那就可以了!
 ----------------------------------------
 sent_id: 36
-*** File "/Users/penny/Downloads/TCCM/wu/020500.cha": line 2339. Keyword: 以为 
+*** File "/TCCM/wu/020500.cha": line 2339. Keyword: 以为 
 *TSA:	哎哟还有刹车耶.
 *ADU:	哎哟.
 *ADU:	好棒哦!
@@ -514,7 +514,7 @@ sent_id: 36
 *TSA:	对.
 ----------------------------------------
 sent_id: 37
-*** File "/Users/penny/Downloads/TCCM/wu/020500.cha": line 3149. Keyword: 以为 
+*** File "/TCCM/wu/020500.cha": line 3149. Keyword: 以为 
 *MOT:	快点!
 *MOT:	我说要干吗.
 *MOT:	我们去后面看.
@@ -528,7 +528,7 @@ sent_id: 37
 *MOT:	耶.
 ----------------------------------------
 sent_id: 38
-*** File "/Users/penny/Downloads/Chang2/BookReading/10.cha": line 784. Keyword: 以为 
+*** File "/Chang2/BookReading/10.cha": line 784. Keyword: 以为 
 *MOT:	刚刚小baby跳舞啊.
 *MOT:	小baby游泳啊.
 *MOT:	小baby吃东西啊.
@@ -542,7 +542,7 @@ sent_id: 38
 *MOT:	嗯[^c].
 ----------------------------------------
 sent_id: 39
-*** File "/Users/penny/Downloads/Chang2/BookReading/13.cha": line 597. Keyword: 以为 
+*** File "/Chang2/BookReading/13.cha": line 597. Keyword: 以为 
 *CHI:	咦,他才不是小哥哥[^c].
 *MOT:	啊,那不是小哥哥[^c].
 *MOT:	我讲错了[^c].
@@ -556,7 +556,7 @@ sent_id: 39
 *MOT:	你要不要告诉他们啊[^c]?
 ----------------------------------------
 sent_id: 40
-*** File "/Users/penny/Downloads/ChangPlay/4/005.cha": line 546. Keyword: 以为 
+*** File "/ChangPlay/4/005.cha": line 546. Keyword: 以为 
 *CHI:	等一下有...
 *CHI:	yeah.
 *CHI:	打开来.
@@ -570,7 +570,7 @@ sent_id: 40
 *MOT:	要串什么?
 ----------------------------------------
 sent_id: 41
-*** File "/Users/penny/Downloads/ChangPlay/4/015.cha": line 471. Keyword: 以为 
+*** File "/ChangPlay/4/015.cha": line 471. Keyword: 以为 
 *CHI:	这不是我.
 *MOT:	不是你吗?
 *CHI:	你听错了.
@@ -584,7 +584,7 @@ sent_id: 41
 *MOT:	他在玩什么?
 ----------------------------------------
 sent_id: 42
-*** File "/Users/penny/Downloads/ChangPlay/5/003.cha": line 1605. Keyword: 以为 
+*** File "/ChangPlay/5/003.cha": line 1605. Keyword: 以为 
 *MOT:	那怎么办?
 *MOT:	它要怎样还击?
 *MOT:	它最大.
@@ -598,7 +598,7 @@ sent_id: 42
 *MOT:	"你不要欺负我.
 ----------------------------------------
 sent_id: 43
-*** File "/Users/penny/Downloads/ChangPlay/5/015.cha": line 480. Keyword: 以为 
+*** File "/ChangPlay/5/015.cha": line 480. Keyword: 以为 
 *MOT:	又把它藏在里面干嘛?
 *CHI:	给它生啊.
 *MOT:	马生出来就是马,不是蛋啦.
@@ -612,7 +612,7 @@ sent_id: 43
 *MOT:	只有鸟生出来是蛋.
 ----------------------------------------
 sent_id: 44
-*** File "/Users/penny/Downloads/ChangPN/grade2/171.cha": line 38. Keyword: 以为 
+*** File "/ChangPN/grade2/171.cha": line 38. Keyword: 以为 
 *EXP:	好.
 *EXP:	那我想要知道.
 *EXP:	你记不记得你去看医生的事情.
@@ -626,7 +626,7 @@ sent_id: 44
 *CHI:	<记得>[<].
 ----------------------------------------
 sent_id: 45
-*** File "/Users/penny/Downloads/ChangPN/grade2/173.cha": line 585. Keyword: 以为 
+*** File "/ChangPN/grade2/173.cha": line 585. Keyword: 以为 
 *EXP:	然后呢?
 *CHI:	然后(.)然后我就生气<跑到>[/]跑到房间.
 *CHI:	<因为那时候>[/]因为<那时候我听到妈妈说>[/]嗯那时候我听到妈妈他说"/.
@@ -640,7 +640,7 @@ sent_id: 45
 *CHI:	生气嘛.
 ----------------------------------------
 sent_id: 46
-*** File "/Users/penny/Downloads/ChangPN/grade2/176.cha": line 413. Keyword: 以为 
+*** File "/ChangPN/grade2/176.cha": line 413. Keyword: 以为 
 *EXP:	来.
 *CHI:	嗯.
 *EXP:	好.
@@ -654,7 +654,7 @@ sent_id: 46
 *EXP:	想想看呀.
 ----------------------------------------
 sent_id: 47
-*** File "/Users/penny/Downloads/ChangPN/grade2/190.cha": line 276. Keyword: 以为 
+*** File "/ChangPN/grade2/190.cha": line 276. Keyword: 以为 
 *EXP:	嗯.
 *CHI:	每次都跑到那边过去.
 *CHI:	就不小心这次啊被爸爸脚绊到.
@@ -668,7 +668,7 @@ sent_id: 47
 *CHI:	"欸没人啊.
 ----------------------------------------
 sent_id: 48
-*** File "/Users/penny/Downloads/ChangPN/grade2/194.cha": line 185. Keyword: 以为 
+*** File "/ChangPN/grade2/194.cha": line 185. Keyword: 以为 
 *EXP:	你可不可以告诉我们.
 *EXP:	你记得你有一次被吓到的时候是怎么样?
 *EXP:	发生了什么事情?
@@ -682,7 +682,7 @@ sent_id: 48
 *CHI:	"根本就没蟑螂嘛.
 ----------------------------------------
 sent_id: 49
-*** File "/Users/penny/Downloads/ChangPN/grade4/227.cha": line 142. Keyword: 以为 
+*** File "/ChangPN/grade4/227.cha": line 142. Keyword: 以为 
 *EXP:	嗯.
 *CHI:	爸爸带我去庙里面.
 *EXP:	嗯.
@@ -696,7 +696,7 @@ sent_id: 49
 *EXP:	<嗯>[/]<嗯>[/]嗯.
 ----------------------------------------
 sent_id: 50
-*** File "/Users/penny/Downloads/ChangPN/grade4/228.cha": line 175. Keyword: 以为 
+*** File "/ChangPN/grade4/228.cha": line 175. Keyword: 以为 
 *EXP:	还有呢?
 *EXP:	把蟑螂踩死了.
 *EXP:	然后呢?
@@ -710,7 +710,7 @@ sent_id: 50
 *CHI:	说"/.
 ----------------------------------------
 sent_id: 51
-*** File "/Users/penny/Downloads/ChangPN/grade4/230.cha": line 361. Keyword: 以为 
+*** File "/ChangPN/grade4/230.cha": line 361. Keyword: 以为 
 *EXP:	他就怎样?
 *CHI:	他在跟我玩.
 *EXP:	喔他是在跟你玩.
@@ -724,7 +724,7 @@ sent_id: 51
 *CHI:	但是我没被吓到.
 ----------------------------------------
 sent_id: 52
-*** File "/Users/penny/Downloads/ChangPN/grade1/151.cha": line 121. Keyword: 以为 
+*** File "/ChangPN/grade1/151.cha": line 121. Keyword: 以为 
 *EXP:	妈妈就给你吃中药.
 *EXP:	嗯.
 *CHI:	后来我那个<好>[/]<好了>[/]好了.
@@ -738,7 +738,7 @@ sent_id: 52
 *EXP:	然后呢?
 ----------------------------------------
 sent_id: 53
-*** File "/Users/penny/Downloads/ChangPN/age6/102.cha": line 351. Keyword: 以为 
+*** File "/ChangPN/age6/102.cha": line 351. Keyword: 以为 
 *CHI:	"你们骑脚踏车.
 *CHI:	要不要带泡泡下去玩.
 *EXP:	嗯哼.
@@ -752,7 +752,7 @@ sent_id: 53
 *CHI:	"你自己说不要的耶.
 ----------------------------------------
 sent_id: 54
-*** File "/Users/penny/Downloads/ChangPN/age6/116.cha": line 405. Keyword: 以为 
+*** File "/ChangPN/age6/116.cha": line 405. Keyword: 以为 
 *CHI:	我上次在洗澡的时候[=!laughs].
 *EXP:	嘿.
 *CHI:	然后洗然后碰到<一个>[/]一个.
@@ -766,7 +766,7 @@ sent_id: 54
 *CHI:	然后<结果>[/]结果我妈妈<他就>[/]他就把一个卫生纸拿起来.
 ----------------------------------------
 sent_id: 55
-*** File "/Users/penny/Downloads/ChangPN/grade3/201.cha": line 220. Keyword: 以为 
+*** File "/ChangPN/grade3/201.cha": line 220. Keyword: 以为 
 *CHI:	喔.
 *EXP:	嘿.
 *CHI:	就是<老>[//]我在幼稚园的时候,老师说"/.
@@ -780,7 +780,7 @@ sent_id: 55
 *EXP:	<嗯>[/]<嗯>[/]<嗯>[/]嗯.
 ----------------------------------------
 sent_id: 56
-*** File "/Users/penny/Downloads/ChangPN/grade3/206.cha": line 535. Keyword: 以为 
+*** File "/ChangPN/grade3/206.cha": line 535. Keyword: 以为 
 *CHI:	从台北市开到那个垦丁.
 *EXP:	嗯哼.
 *CHI:	从半夜五点妈妈就叫我起来去那个垦丁.
@@ -794,7 +794,7 @@ sent_id: 56
 *EXP:	然后呢?
 ----------------------------------------
 sent_id: 57
-*** File "/Users/penny/Downloads/ChangPN/grade3/208.cha": line 164. Keyword: 以为 
+*** File "/ChangPN/grade3/208.cha": line 164. Keyword: 以为 
 *EXP:	嗯.
 *CHI:	"然后又想睡觉.
 *CHI:	所以我就跟医生讲.
@@ -808,7 +808,7 @@ sent_id: 57
 *CHI:	,然后又想睡,又不想睡.
 ----------------------------------------
 sent_id: 58
-*** File "/Users/penny/Downloads/ChangPN/grade3/211.cha": line 62. Keyword: 以为 
+*** File "/ChangPN/grade3/211.cha": line 62. Keyword: 以为 
 *EXP:	有一次你去看医生的时候发生了什么事?
 *CHI:	嗯(.)嗯(.)有一次就是(.)那是什么(.)荨麻疹!
 *EXP:	荨麻疹.
@@ -822,7 +822,7 @@ sent_id: 58
 *CHI:	然后在那边到大概(.)两点多才回家.
 ----------------------------------------
 sent_id: 59
-*** File "/Users/penny/Downloads/ChangPN/grade3/211.cha": line 110. Keyword: 以为 
+*** File "/ChangPN/grade3/211.cha": line 110. Keyword: 以为 
 *CHI:	隔天又有那个...
 *CHI:	,隔天又有猫头鹰图书馆...
 *CHI:	,<有舞>[//]有那个<圣>[//]那个(.)嗯(.)万圣节的舞会.
@@ -835,7 +835,7 @@ sent_id: 59
 *EXP:	好.
 ----------------------------------------
 sent_id: 60
-*** File "/Users/penny/Downloads/ChangPN/age4/082.cha": line 199. Keyword: 以为 
+*** File "/ChangPN/age4/082.cha": line 199. Keyword: 以为 
 *EXP:	哥哥有没有被吓到过?
 *EXP:	<孩名>[>]/.
 *CHI:	<有>[<].
@@ -849,7 +849,7 @@ sent_id: 60
 *EXP:	嗯.
 ----------------------------------------
 sent_id: 61
-*** File "/Users/penny/Downloads/ChangPN/age4/089.cha": line 417. Keyword: 以为 
+*** File "/ChangPN/age4/089.cha": line 417. Keyword: 以为 
 *CHI:	"那是什么东西?
 *CHI:	爸爸就说"/.
 *CHI:	"是蜥蜴.
@@ -862,7 +862,7 @@ sent_id: 61
 *EXP:	好.
 ----------------------------------------
 sent_id: 62
-*** File "/Users/penny/Downloads/ChangPN/age4/089.cha": line 421. Keyword: 以为 
+*** File "/ChangPN/age4/089.cha": line 421. Keyword: 以为 
 *CHI:	爸爸就说:
 *CHI:	"是蜥蜴.
 *EXP:	喔是蜥蜴.
@@ -875,7 +875,7 @@ sent_id: 62
 *EXP:	那孩名,你有哥哥,对不对?
 ----------------------------------------
 sent_id: 63
-*** File "/Users/penny/Downloads/ChangPN/age4/089.cha": line 556. Keyword: 以为 
+*** File "/ChangPN/age4/089.cha": line 556. Keyword: 以为 
 *CHI:	就用脚这样子踏[/]踏[/]踏<向>[/]向水那边踏[/]踏[/]踏一直踏都踏不掉.
 *EXP:	0[=!laughs].
 *EXP:	然后呢?
@@ -889,7 +889,7 @@ sent_id: 63
 *CHI:	我们要叫他停方格.
 ----------------------------------------
 sent_id: 64
-*** File "/Users/penny/Downloads/ChangPN/age5/063.cha": line 235. Keywords: 以为, 以为 
+*** File "/ChangPN/age5/063.cha": line 235. Keywords: 以为, 以为 
 *EXP:	你没有被吓到过喔?
 *CHI:	我没有.
 *EXP:	你的妈妈有没有被吓到过?
@@ -903,7 +903,7 @@ sent_id: 64
 *EXP:	嗯<然后呢>[>]?
 ----------------------------------------
 sent_id: 65
-*** File "/Users/penny/Downloads/ChangPN/age5/065.cha": line 109. Keyword: 以为 
+*** File "/ChangPN/age5/065.cha": line 109. Keyword: 以为 
 *EXP:	那你有被吓到过,对不对?
 *CHI:	嗯.
 *EXP:	那你可不可以告诉牛奶姐姐.
@@ -916,7 +916,7 @@ sent_id: 65
 *EXP:	哦好,再来喔.
 ----------------------------------------
 sent_id: 66
-*** File "/Users/penny/Downloads/ChangPN/age5/094.cha": line 244. Keyword: 以为 
+*** File "/ChangPN/age5/094.cha": line 244. Keyword: 以为 
 *EXP:	好,所以诶(.)那你被吓到是怎么样?
 *CHI:	是因为我怕牠会咬我妈妈的脚.
 *EXP:	喔牠咬你妈妈的脚喔?
@@ -930,7 +930,7 @@ sent_id: 66
 *EXP:	就这样?
 ----------------------------------------
 sent_id: 67
-*** File "/Users/penny/Downloads/ChangPN/age5/097.cha": line 314. Keyword: 以为 
+*** File "/ChangPN/age5/097.cha": line 314. Keyword: 以为 
 *EXP:	所以他就跟我抢.
 *EXP:	然后我们就吵架.
 *EXP:	那你跟你妹妹吵架是怎么样?
@@ -944,7 +944,7 @@ sent_id: 67
 *CHI:	妹妹就把我的这只手抓得很惨.
 ----------------------------------------
 sent_id: 68
-*** File "/Users/penny/Downloads/Erbaugh/Peng/14.cha": line 28. Keyword: 以为 
+*** File "/Erbaugh/Peng/14.cha": line 28. Keyword: 以为 
 *ADU1:	这个真的是做的很棒.
 *ADU1:	这个是谁做的?
 *CHI:	姨夫做的.
@@ -958,7 +958,7 @@ sent_id: 68
 *CHI:	这个汽车xxx.
 ----------------------------------------
 sent_id: 69
-*** File "/Users/penny/Downloads/Erbaugh/Peng/14.cha": line 1146. Keyword: 以为 
+*** File "/Erbaugh/Peng/14.cha": line 1146. Keyword: 以为 
 *CHI:	画一个花.
 *ADU1:	这个是谁盖得大象.
 *CHI:	婆婆.
@@ -976,7 +976,7 @@ sent_id: 69
 *ADU:	那里有一个做好的很大.
 ----------------------------------------
 sent_id: 70
-*** File "/Users/penny/Downloads/Erbaugh/Peng/16.cha": line 3654. Keyword: 以为 
+*** File "/Erbaugh/Peng/16.cha": line 3654. Keyword: 以为 
 *CHI:	流血了.
 *ADU:	对.
 *CHI:	没有了.
@@ -990,7 +990,7 @@ sent_id: 70
 *SIS:	哇好漂亮啊.
 ----------------------------------------
 sent_id: 71
-*** File "/Users/penny/Downloads/Erbaugh/Peng/19.cha": line 643. Keyword: 以为 
+*** File "/Erbaugh/Peng/19.cha": line 643. Keyword: 以为 
 *ADU:	你不是女生吗?
 *ADU:	你这个手这么搞的?
 *CHI:	画画的.
@@ -1004,7 +1004,7 @@ sent_id: 71
 *ADU:	没有什么.
 ----------------------------------------
 sent_id: 72
-*** File "/Users/penny/Downloads/Erbaugh/Peng/20.cha": line 1481. Keyword: 以为 
+*** File "/Erbaugh/Peng/20.cha": line 1481. Keyword: 以为 
 *ADU:	那个是谁的啊?
 *CHI:	这是我的这个是我的.
 *ADU:	两个都是你的啊?
@@ -1023,7 +1023,7 @@ sent_id: 72
 *GRA:	不会大啦.
 ----------------------------------------
 sent_id: 73
-*** File "/Users/penny/Downloads/Erbaugh/Peng/22.cha": line 1023. Keyword: 以为 
+*** File "/Erbaugh/Peng/22.cha": line 1023. Keyword: 以为 
 *ADU:	这是不是坏掉了?
 *ADU:	上面应该有一个头吗?
 *MOT:	没有,就是这样.
@@ -1037,7 +1037,7 @@ sent_id: 73
 *ADU:	因为我家以前有一个是有头的.
 ----------------------------------------
 sent_id: 74
-*** File "/Users/penny/Downloads/Erbaugh/Peng/22.cha": line 1229. Keyword: 以为 
+*** File "/Erbaugh/Peng/22.cha": line 1229. Keyword: 以为 
 *CHI:	我会吃冰淇淋.
 *CHI:	我会做冰淇淋.
 *CHI:	要冰淇淋.
@@ -1051,7 +1051,7 @@ sent_id: 74
 *ADU:	可是吃不到.
 ----------------------------------------
 sent_id: 75
-*** File "/Users/penny/Downloads/Erbaugh/Peng/22.cha": line 1506. Keyword: 以为 
+*** File "/Erbaugh/Peng/22.cha": line 1506. Keyword: 以为 
 *CHI:	我姐姐.
 *ADU:	你那么喜欢关电视啊?
 *CHI:	对.
@@ -1065,7 +1065,7 @@ sent_id: 75
 *ADU:	这是什么?
 ----------------------------------------
 sent_id: 76
-*** File "/Users/penny/Downloads/Erbaugh/Peng/22.cha": line 3199. Keyword: 以为 
+*** File "/Erbaugh/Peng/22.cha": line 3199. Keyword: 以为 
 *CHI:	还有小虫子.
 *ADU:	嗯.
 *CHI:	带这个.
@@ -1080,7 +1080,7 @@ sent_id: 76
 *ADU:	为什么要光两只脚?
 ----------------------------------------
 sent_id: 77
-*** File "/Users/penny/Downloads/Erbaugh/Zhong/01.cha": line 2751. Keyword: 以为 
+*** File "/Erbaugh/Zhong/01.cha": line 2751. Keyword: 以为 
 *ADU:	哦,<对对>[/]对.
 *CHI1:	有xxx一刀.
 *ADU:	哦.
@@ -1094,7 +1094,7 @@ sent_id: 77
 *ADU:	讲.
 ----------------------------------------
 sent_id: 78
-*** File "/Users/penny/Downloads/Erbaugh/Zhong/01.cha": line 2757. Keyword: 以为 
+*** File "/Erbaugh/Zhong/01.cha": line 2757. Keyword: 以为 
 *ADU:	哦.
 *CHI1:	xxx什么刀?
 *CHI1:	还是小刀.
@@ -1108,7 +1108,7 @@ sent_id: 78
 *ADU:	嗯.
 ----------------------------------------
 sent_id: 79
-*** File "/Users/penny/Downloads/Erbaugh/Zhong/03.cha": line 1930. Keyword: 以为 
+*** File "/Erbaugh/Zhong/03.cha": line 1930. Keyword: 以为 
 *FAT:	Child.
 *ADU:	啊哈.
 *ADU:	[-eng]rightright.
@@ -1122,7 +1122,7 @@ sent_id: 79
 *CHI:	妈妈.
 ----------------------------------------
 sent_id: 80
-*** File "/Users/penny/Downloads/Erbaugh/Zhong/07.cha": line 497. Keyword: 以为 
+*** File "/Erbaugh/Zhong/07.cha": line 497. Keyword: 以为 
 about 12min into the audio (the time stamp is misaligned)
 *ADU:	嗯.
 *CHI:	妈妈[/]妈妈.
@@ -1137,7 +1137,7 @@ about 12min into the audio (the time stamp is misaligned)
 *CHI:	妈妈收起来了.
 ----------------------------------------
 sent_id: 81
-*** File "/Users/penny/Downloads/Erbaugh/Laohu/03.cha": line 2837. Keyword: 以为 
+*** File "/Erbaugh/Laohu/03.cha": line 2837. Keyword: 以为 
 *CHI:	抓[/]抓[/]抓.
 *CHI:	xxx.
 *ADU:	这个皱皱的是什么东西.
@@ -1151,7 +1151,7 @@ sent_id: 81
 *CHI:	<这是绿色的>[/]这是绿色的.
 ----------------------------------------
 sent_id: 82
-*** File "/Users/penny/Downloads/Erbaugh/Kang/09.cha": line 3626. Keyword: 以为 
+*** File "/Erbaugh/Kang/09.cha": line 3626. Keyword: 以为 
 *CHI:	你有吗?
 *MOT:	不能一次都吃了.
 *MOT:	留点明天吃.
@@ -1165,7 +1165,7 @@ sent_id: 82
 *CHI:	这个不要.
 ----------------------------------------
 sent_id: 83
-*** File "/Users/penny/Downloads/Erbaugh/Kang/13.cha": line 1074. Keyword: 以为 
+*** File "/Erbaugh/Kang/13.cha": line 1074. Keyword: 以为 
 *MOT:	她不一定都带枪.
 *MOT:	有的时候带有的时候不带.
 *MOT:	呵呵.
@@ -1179,7 +1179,7 @@ sent_id: 83
 *CHI:	好.
 ----------------------------------------
 sent_id: 84
-*** File "/Users/penny/Downloads/Erbaugh/Kang/13.cha": line 3414. Keyword: 以为 
+*** File "/Erbaugh/Kang/13.cha": line 3414. Keyword: 以为 
 *CHI:	嘿嘿嘿嘿.
 *MOT:	你说这个亮晶晶的好看吧?
 *CHI:	呵呵呵呵跳舞!
@@ -1193,7 +1193,7 @@ sent_id: 84
 *MOT:	好.
 ----------------------------------------
 sent_id: 85
-*** File "/Users/penny/Downloads/Erbaugh/Kang/13.cha": line 3417. Keyword: 以为 
+*** File "/Erbaugh/Kang/13.cha": line 3417. Keyword: 以为 
 *MOT:	你说这个亮晶晶的好看吧?
 *CHI:	呵呵呵呵跳舞!
 *MOT:	恩?
@@ -1207,7 +1207,7 @@ sent_id: 85
 *MOT:	你不要跳啊.
 ----------------------------------------
 sent_id: 86
-*** File "/Users/penny/Downloads/Erbaugh/Kang/15.cha": line 1245. Keyword: 以为 
+*** File "/Erbaugh/Kang/15.cha": line 1245. Keyword: 以为 
 about 23min into the audio (the time stamp is misaligned)
 *CHI:	我要放小豆豆在里头.
 *MOT:	小豆豆会掉会滚开.
@@ -1222,7 +1222,7 @@ about 23min into the audio (the time stamp is misaligned)
 *CHI:	这不是啊.
 ----------------------------------------
 sent_id: 87
-*** File "/Users/penny/Downloads/Erbaugh/Kang/15.cha": line 3200. Keyword: 以为 
+*** File "/Erbaugh/Kang/15.cha": line 3200. Keyword: 以为 
 *ADU1:	你知道它害怕时它怎么办嘛?
 *CHI:	跑.
 *ADU1:	他跑然后跑完以后呢.
@@ -1236,7 +1236,7 @@ sent_id: 87
 *CHI:	xxx.
 ----------------------------------------
 sent_id: 88
-*** File "/Users/penny/Downloads/Erbaugh/Kang/19.cha": line 3454. Keyword: 以为 
+*** File "/Erbaugh/Kang/19.cha": line 3454. Keyword: 以为 
 *MOT:	哎.
 *MOT:	你要下去吃五香乖乖的话你就存不下钱来.
 *MOT:	你就没有办法买很多很多的东西!
@@ -1250,7 +1250,7 @@ sent_id: 88
 *MOT:	等一下嘛.
 ----------------------------------------
 sent_id: 89
-*** File "/Users/penny/Downloads/Erbaugh/Kang/20.cha": line 167. Keyword: 以为 
+*** File "/Erbaugh/Kang/20.cha": line 167. Keyword: 以为 
 *MOT:	那么因为他们怕那些被赶走的坏人再来欺负他们.
 *MOT:	所以就在门上面贴了这两个人的像.
 *MOT:	贴着神荼跟郁垒的像.
@@ -1264,7 +1264,7 @@ sent_id: 89
 *MOT:	但是开门的神不能省.
 ----------------------------------------
 sent_id: 90
-*** File "/Users/penny/Downloads/Erbaugh/Kang/20.cha": line 3086. Keyword: 以为 
+*** File "/Erbaugh/Kang/20.cha": line 3086. Keyword: 以为 
 *CHI:	红灯亮了.
 *MOT:	红灯亮了不能走了.
 *MOT:	没什么.
@@ -1278,7 +1278,7 @@ sent_id: 90
 *MOT:	我仔细看看是不是她?
 ----------------------------------------
 sent_id: 91
-*** File "/Users/penny/Downloads/Erbaugh/Kang/21.cha": line 2531. Keyword: 以为 
+*** File "/Erbaugh/Kang/21.cha": line 2531. Keyword: 以为 
 *CHI:	嗯.
 *ADU:	我没笑啊.
 *CHI:	你刚哈哈哈.
@@ -1292,7 +1292,7 @@ sent_id: 91
 *MOT:	河马为什么怕牙呢?
 ----------------------------------------
 sent_id: 92
-*** File "/Users/penny/Downloads/Erbaugh/Kang/21.cha": line 2534. Keyword: 以为 
+*** File "/Erbaugh/Kang/21.cha": line 2534. Keyword: 以为 
 *ADU:	我没笑啊.
 *CHI:	你刚哈哈哈.
 *MOT:	阿琴不太好笑啊.
@@ -1306,7 +1306,7 @@ sent_id: 92
 *CHI:	故事啊.
 ----------------------------------------
 sent_id: 93
-*** File "/Users/penny/Downloads/Erbaugh/Kang/21.cha": line 2572. Keyword: 以为 
+*** File "/Erbaugh/Kang/21.cha": line 2572. Keyword: 以为 
 *MOT:	河马为什么怕牙呢?
 *CHI:	故事啊.
 *MOT:	这是一个好玩的东西 .
@@ -1323,7 +1323,7 @@ sent_id: 93
 *ADU:	这样你再讲一个好笑的给我听.
 ----------------------------------------
 sent_id: 94
-*** File "/Users/penny/Downloads/Erbaugh/Kang/21.cha": line 3352. Keyword: 以为 
+*** File "/Erbaugh/Kang/21.cha": line 3352. Keyword: 以为 
 *CHI:	我昨天回来的时候在车上发脾气.
 *MOT:	你啊?
 *MOT:	那就不应该对不对?
@@ -1337,7 +1337,7 @@ sent_id: 94
 *MOT:	以后记住不要在计程车上发脾气.
 ----------------------------------------
 sent_id: 95
-*** File "/Users/penny/Downloads/Erbaugh/Kang/22.cha": line 2240. Keyword: 以为 
+*** File "/Erbaugh/Kang/22.cha": line 2240. Keyword: 以为 
 *MOT:	不是庙里面拜拜的.
 *CHI:	对.
 *ADU:	哦,是算命.
@@ -1351,7 +1351,7 @@ sent_id: 95
 *MOT:	就像这样.
 ----------------------------------------
 sent_id: 96
-*** File "/Users/penny/Downloads/Erbaugh/Kang/23.cha": line 3125. Keyword: 以为 
+*** File "/Erbaugh/Kang/23.cha": line 3125. Keyword: 以为 
 *MOT:	我想着你一定很冷.
 *MOT:	中午出太阳.
 *MOT:	我想着你很热.
@@ -1365,7 +1365,7 @@ sent_id: 96
 *CHI:	没有啊?
 ----------------------------------------
 sent_id: 97
-*** File "/Users/penny/Downloads/Tong/020719.cha": line 5040. Keyword: 以为 
+*** File "/Tong/020719.cha": line 5040. Keyword: 以为 
 *FAT:	医院里不能把手放在嘴里.
 *MOT:	医院里面好多病菌哦.
 *MOT:	到时候吃了手就生病了像外婆一样.
@@ -1379,7 +1379,7 @@ sent_id: 97
 *MOT:	疼啊.
 ----------------------------------------
 sent_id: 98
-*** File "/Users/penny/Downloads/Tong/030306.cha": line 519. Keywords: 以为, 以为 
+*** File "/Tong/030306.cha": line 519. Keywords: 以为, 以为 
 *CHI:	小青蛙的鞋怎么放在这啊?
 *MOT:	哦,同同小时候那小青蛙的鞋.
 *MOT:	不知道现在还穿不穿得了了.
@@ -1393,7 +1393,7 @@ sent_id: 98
 *MOT:	那个姨外婆给你买了双新鞋.
 ----------------------------------------
 sent_id: 99
-*** File "/Users/penny/Downloads/Tong/030306.cha": line 1329. Keyword: 以为 
+*** File "/Tong/030306.cha": line 1329. Keyword: 以为 
 *MOT:	同同知道自己有三个名字.
 *CHI:	嗯.
 *CHI:	你忘了我有三个名字啊?
@@ -1407,7 +1407,7 @@ sent_id: 99
 *CHI:	本来.
 ----------------------------------------
 sent_id: 100
-*** File "/Users/penny/Downloads/Tong/030306.cha": line 1332. Keyword: 以为 
+*** File "/Tong/030306.cha": line 1332. Keyword: 以为 
 *CHI:	嗯.
 *CHI:	你忘了我有三个名字啊?
 *MOT:	嗯.
@@ -1421,7 +1421,7 @@ sent_id: 100
 *CHI:	电话怎么那么高啊?
 ----------------------------------------
 sent_id: 101
-*** File "/Users/penny/Downloads/Xinjiang/ENNI/201209/dez306.cha": line 105. Keyword: 以为 
+*** File "/Xinjiang/ENNI/201209/dez306.cha": line 105. Keyword: 以为 
 *CHI:	说了.
 *CHI:	就把他的爸爸.
 *CHI:	"嗯好吧,我要<把你们>[/]把水里的飞机给你们把[/]拿上来吧.
@@ -1435,7 +1435,7 @@ sent_id: 101
 *CHI:	妈妈就把鱼[/]钓鱼的东西带来.
 ----------------------------------------
 sent_id: 102
-*** File "/Users/penny/Downloads/Xinjiang/ENNI/201303/jgd101.cha": line 23. Keyword: 以为 
+*** File "/Xinjiang/ENNI/201303/jgd101.cha": line 23. Keyword: 以为 
 *CHI:	然后那只马就看到.
 *CHI:	然后直接游泳去抓那个球.
 *CHI:	然后给了大象.
@@ -1449,7 +1449,7 @@ sent_id: 102
 *CHI:	然后那个马就在她后面跑着.
 ----------------------------------------
 sent_id: 103
-*** File "/Users/penny/Downloads/Xinjiang/ENNI/201303/jgd101.cha": line 25. Keyword: 以为 
+*** File "/Xinjiang/ENNI/201303/jgd101.cha": line 25. Keyword: 以为 
 *CHI:	然后直接游泳去抓那个球.
 *CHI:	然后给了大象.
 *CHI:	然后那个大象就很喜欢那个马.
@@ -1463,7 +1463,7 @@ sent_id: 103
 *CHI:	然后大象摔了一跤.
 ----------------------------------------
 sent_id: 104
-*** File "/Users/penny/Downloads/Xinjiang/ENNI/201303/sdfyxb10.cha": line 50. Keyword: 以为 
+*** File "/Xinjiang/ENNI/201303/sdfyxb10.cha": line 50. Keyword: 以为 
 *CHI:	然后这边也拿了.
 *CHI:	拿掉了.
 *CHI:	然后扔掉了他.
@@ -1477,7 +1477,7 @@ sent_id: 104
 *CHI:	拿不到.
 ----------------------------------------
 sent_id: 105
-*** File "/Users/penny/Downloads/Xinjiang/ENNI/201303/tkxx109.cha": line 9. Keyword: 以为 
+*** File "/Xinjiang/ENNI/201303/tkxx109.cha": line 9. Keyword: 以为 
 @Options:	bullets
 @ID:	zho|Xinjiang|CHI|5;00.||||Target_Child|||
 @Media:	tkxx109,audio
@@ -1491,7 +1491,7 @@ sent_id: 105
 *CHI:	鸡蛋给我吧.
 ----------------------------------------
 sent_id: 106
-*** File "/Users/penny/Downloads/Xinjiang/ENNI/201204/jgdd203.cha": line 48. Keyword: 以为 
+*** File "/Xinjiang/ENNI/201204/jgdd203.cha": line 48. Keyword: 以为 
 *CHI:	长颈鹿盯着它的膝盖看.
 *CHI:	大象的爸爸给它膝盖贴了创可贴.
 *CHI:	大象宝宝也觉得我的腿已经好了.
@@ -1505,7 +1505,7 @@ sent_id: 106
 *CHI:	长颈鹿玩的时候,大象宝宝直接打它的手拿过来.
 ----------------------------------------
 sent_id: 107
-*** File "/Users/penny/Downloads/Xinjiang/ENNI/201204/jgdd203.cha": line 75. Keyword: 以为 
+*** File "/Xinjiang/ENNI/201204/jgdd203.cha": line 75. Keyword: 以为 
 *CHI:	"大象宝宝和我不是故意从它的手拿下来.
 *CHI:	大象宝宝承认了"/.
 *CHI:	它爸爸相信它说的.
@@ -1519,7 +1519,7 @@ sent_id: 107
 *CHI:	大象妈妈来<钓这个球>[//]钓这个飞机来了.
 ----------------------------------------
 sent_id: 108
-*** File "/Users/penny/Downloads/Xinjiang/ENNI/201204/sdfyxb04.cha": line 53. Keyword: 以为 
+*** File "/Xinjiang/ENNI/201204/sdfyxb04.cha": line 53. Keyword: 以为 
 *CHI:	它游泳走了.
 *CHI:	那个女孩子男孩.
 *CHI:	它已经xxx.
@@ -1533,7 +1533,7 @@ sent_id: 108
 *CHI:	这个人太热死了.
 ----------------------------------------
 sent_id: 109
-*** File "/Users/penny/Downloads/Xinjiang/AcadLang/201204/dez305.cha": line 19. Keyword: 以为 
+*** File "/Xinjiang/AcadLang/201204/dez305.cha": line 19. Keyword: 以为 
 @Date:	12-JAN-2012
 @Types:	cross,narrative,TD
 *CHI:	好了.
@@ -1547,7 +1547,7 @@ sent_id: 109
 *CHI:	因为它不知道东西.
 ----------------------------------------
 sent_id: 110
-*** File "/Users/penny/Downloads/Xinjiang/AcadLang/201204/dez305.cha": line 23. Keyword: 以为 
+*** File "/Xinjiang/AcadLang/201204/dez305.cha": line 23. Keyword: 以为 
 @Types:	cross,narrative,TD
 *CHI:	好了.
 *CHI:	苹果.
@@ -1561,7 +1561,7 @@ sent_id: 110
 *CHI:	它,它的手就把它这样开就可以两半了.
 ----------------------------------------
 sent_id: 111
-*** File "/Users/penny/Downloads/Zhou1/cs20b.cha": line 573. Keyword: 以为 
+*** File "/Zhou1/cs20b.cha": line 573. Keyword: 以为 
 *CHI:	是大灰狼的声音.
 *MOT:	是谁的声音啊?
 *CHI:	是大灰狼的声音.
@@ -1575,7 +1575,7 @@ sent_id: 111
 *MOT:	说我是你们的妈妈快开门吧!
 ----------------------------------------
 sent_id: 112
-*** File "/Users/penny/Downloads/Zhou1/cs32b.cha": line 202. Keyword: 以为 
+*** File "/Zhou1/cs32b.cha": line 202. Keyword: 以为 
 *MOT:	放起来.
 *MOT:	扔进去.
 *MOT:	好吗?
@@ -1589,7 +1589,7 @@ sent_id: 112
 *MOT:	你自己收吧.
 ----------------------------------------
 sent_id: 113
-*** File "/Users/penny/Downloads/Zhou2/48/fa05.cha": line 1814. Keyword: 以为 
+*** File "/Zhou2/48/fa05.cha": line 1814. Keyword: 以为 
 *MOT:	狗熊先生想这小家伙可能有点不舒服啊.
 *MOT:	就把自己的皮袄脱下来给小星星穿上.
 *MOT:	你看.
@@ -1603,7 +1603,7 @@ sent_id: 113
 *MOT:	还好看?
 ----------------------------------------
 sent_id: 114
-*** File "/Users/penny/Downloads/Zhou2/48/fa05.cha": line 2095. Keyword: 以为 
+*** File "/Zhou2/48/fa05.cha": line 2095. Keyword: 以为 
 *MOT:	对了.
 *MOT:	他把他的乌龟壳拿了下来.
 *MOT:	给小星星顶在脖子上.
@@ -1617,7 +1617,7 @@ sent_id: 114
 *CHI:	哼哼唧唧地哭着.
 ----------------------------------------
 sent_id: 115
-*** File "/Users/penny/Downloads/Zhou2/48/fa05.cha": line 2342. Keyword: 以为 
+*** File "/Zhou2/48/fa05.cha": line 2342. Keyword: 以为 
 *MOT:	通上电后会动,是吧?
 *MOT:	不是.
 *MOT:	他一通上电.
@@ -1631,7 +1631,7 @@ sent_id: 115
 *MOT:	嗯然后小星星又怎么啦?
 ----------------------------------------
 sent_id: 116
-*** File "/Users/penny/Downloads/Zhou2/72/mb12.cha": line 1268. Keyword: 以为 
+*** File "/Zhou2/72/mb12.cha": line 1268. Keyword: 以为 
 *MOT:	动物医院.
 *MOT:	爸爸一走,另外三只老鼠可是不听妈妈的话.
 *MOT:	喏又开始皮@d起来了.
@@ -1645,7 +1645,7 @@ sent_id: 116
 *MOT:	你看又一只老鼠摔伤了.
 ----------------------------------------
 sent_id: 117
-*** File "/Users/penny/Downloads/Zhou2/72/mb15.cha": line 579. Keyword: 以为 
+*** File "/Zhou2/72/mb15.cha": line 579. Keyword: 以为 
 *MOT:	噢.[Y]
 @Eg:	Reading
 *CHI:	经常画画.
@@ -1658,7 +1658,7 @@ sent_id: 117
 *CHI:	我要玩那种像玩具的.
 ----------------------------------------
 sent_id: 118
-*** File "/Users/penny/Downloads/Zhou2/60/fa06.cha": line 1006. Keyword: 以为 
+*** File "/Zhou2/60/fa06.cha": line 1006. Keyword: 以为 
 *MOT:	画个别的人在画的.
 *MOT:	你画的妈妈啊?
 *MOT:	你太阳?
@@ -1672,7 +1672,7 @@ sent_id: 118
 *CHI:	咦?[Y]
 ----------------------------------------
 sent_id: 119
-*** File "/Users/penny/Downloads/Zhou2/60/ma03.cha": line 781. Keyword: 以为 
+*** File "/Zhou2/60/ma03.cha": line 781. Keyword: 以为 
 *CHI:	因为[/]因为乌龟壳.
 *MOT:	好嘞.
 *MOT:	顶在它头上,还对呀?
@@ -1686,7 +1686,7 @@ sent_id: 119
 *MOT:	还是哼哼唧唧的哭.
 ----------------------------------------
 sent_id: 120
-*** File "/Users/penny/Downloads/Zhou2/60/ma03.cha": line 836. Keyword: 以为 
+*** File "/Zhou2/60/ma03.cha": line 836. Keyword: 以为 
 *MOT:	小星星眨了眨眼睛,一句话也说不出来.
 *MOT:	小企鹅觉得奇怪,赶紧上前去摸一下.
 *MOT:	哎呀,这是什么,太热了吧.
@@ -1700,7 +1700,7 @@ sent_id: 120
 *MOT:	这是什么呀?
 ----------------------------------------
 sent_id: 121
-*** File "/Users/penny/Downloads/Zhou2/54/fa07.cha": line 1399. Keyword: 以为 
+*** File "/Zhou2/54/fa07.cha": line 1399. Keyword: 以为 
 *MOT:	这是什么?
 *MOT:	这么热.
 *MOT:	太热了!
@@ -1716,7 +1716,7 @@ sent_id: 121
 *MOT:	这时候啊一个小朋友走了过来.
 ----------------------------------------
 sent_id: 122
-*** File "/Users/penny/Downloads/Zhou2/54/mb15.cha": line 563. Keyword: 以为 
+*** File "/Zhou2/54/mb15.cha": line 563. Keyword: 以为 
 *MOT:	他耳朵长得不行喽.
 *MOT:	这就画鼻子.
 *MOT:	嘴巴,眼睛,不画啊?
@@ -1730,7 +1730,7 @@ sent_id: 122
 *MOT:	哦.[Y]
 ----------------------------------------
 sent_id: 123
-*** File "/Users/penny/Downloads/Zhou2/42/ma05.cha": line 1614. Keyword: 以为 
+*** File "/Zhou2/42/ma05.cha": line 1614. Keyword: 以为 
 *MOT:	流着眼泪,还是说不出话来.
 *MOT:	白鹅妈妈一摸.
 *MOT:	这美丽的东西是什么呢?
@@ -1744,7 +1744,7 @@ sent_id: 123
 *MOT:	它捂在里面,会喘不过气来的.
 ----------------------------------------
 sent_id: 124
-*** File "/Users/penny/Downloads/Zhou3/000702.cha": line 754. Keyword: 以为 
+*** File "/Zhou3/000702.cha": line 754. Keyword: 以为 
 *CHI:	不知道.
 *MOT:	带她的人头.
 *CHI:	人头见我.
@@ -1758,7 +1758,7 @@ sent_id: 124
 *CHI:	她就睡觉.
 ----------------------------------------
 sent_id: 125
-*** File "/Users/penny/Downloads/ZhouAssessment/4-4.5/FJtangchenyouke.cha": line 728. Keyword: 以为 
+*** File "/ZhouAssessment/4-4.5/FJtangchenyouke.cha": line 728. Keyword: 以为 
 *TEA:	我想不到好办法.
 *TEA:	咦,这边有一张,这是什么?
 *CHI:	这是棉被啊!
@@ -1772,7 +1772,7 @@ sent_id: 125
 *CHI:	就是有一个东西.
 ----------------------------------------
 sent_id: 126
-*** File "/Users/penny/Downloads/ZhouAssessment/4-4.5/ZBcuijunzhe.cha": line 567. Keyword: 以为 
+*** File "/ZhouAssessment/4-4.5/ZBcuijunzhe.cha": line 567. Keyword: 以为 
 *TEA:	你用勺子干什么呢?
 *CHI:	我先数数几个红色的.
 *CHI:	一二三四,四个.
@@ -1786,7 +1786,7 @@ sent_id: 126
 *TEA:	开始炒菜吧!
 ----------------------------------------
 sent_id: 127
-*** File "/Users/penny/Downloads/ZhouAssessment/3.5-4/NJliuqinxuan.cha": line 358. Keyword: 以为 
+*** File "/ZhouAssessment/3.5-4/NJliuqinxuan.cha": line 358. Keyword: 以为 
 *CHI:	它看的是动画片.
 *TEA:	动画片啊!
 *TEA:	什么动画片啊?
@@ -1800,7 +1800,7 @@ sent_id: 127
 *TEA:	这是什么?
 ----------------------------------------
 sent_id: 128
-*** File "/Users/penny/Downloads/ZhouAssessment/4.5-5/XIANsongjunxi.cha": line 166. Keyword: 以为 
+*** File "/ZhouAssessment/4.5-5/XIANsongjunxi.cha": line 166. Keyword: 以为 
 *TEA:	对,这个是上完厕所洗手的.
 *TEA:	厨房是在这.
 *TEA:	这里有水龙头.
@@ -1814,7 +1814,7 @@ sent_id: 128
 *TEA:	可以,你看看这个牙刷应该放在哪?
 ----------------------------------------
 sent_id: 129
-*** File "/Users/penny/Downloads/ZhouDinner/middle/14.cha": line 904. Keyword: 以为 
+*** File "/ZhouDinner/middle/14.cha": line 904. Keyword: 以为 
 *FAT:	吃个青菜吧!
 *CHI:	不!
 *CHI:	我再吃个鱼嘛!
@@ -1828,7 +1828,7 @@ sent_id: 129
 *FAT:	慢慢吃哈.
 ----------------------------------------
 sent_id: 130
-*** File "/Users/penny/Downloads/ZhouDinner/middle/20.cha": line 938. Keyword: 以为 
+*** File "/ZhouDinner/middle/20.cha": line 938. Keyword: 以为 
 *CHI:	母的小.
 *CHI:	公的大.
 *GMO:	为什么啊?
@@ -1842,7 +1842,7 @@ sent_id: 130
 *CHI:	嗯.
 ----------------------------------------
 sent_id: 131
-*** File "/Users/penny/Downloads/ZhouDinner/middle/20.cha": line 1171. Keyword: 以为 
+*** File "/ZhouDinner/middle/20.cha": line 1171. Keyword: 以为 
 *GMO:	我看着这些都一样大.
 *CHI:	我吃的好像是母的.
 *MOT:	你咋知道?
@@ -1856,7 +1856,7 @@ sent_id: 131
 *CHI:	这是母的.
 ----------------------------------------
 sent_id: 132
-*** File "/Users/penny/Downloads/ZhouDinner/middle/20.cha": line 1176. Keyword: 以为 
+*** File "/ZhouDinner/middle/20.cha": line 1176. Keyword: 以为 
 *CHI:	我吃的好像是母的.
 *MOT:	你咋知道?
 *CHI:	我想吃公的.
@@ -1870,7 +1870,7 @@ sent_id: 132
 *CHI:	钳子小,是不是?
 ----------------------------------------
 sent_id: 133
-*** File "/Users/penny/Downloads/ZhouDinner/middle/28.cha": line 675. Keyword: 以为 
+*** File "/ZhouDinner/middle/28.cha": line 675. Keyword: 以为 
 *GMO:	放在旁边.
 *FAT:	先吃掉.
 *FAT:	要烂掉了.
@@ -1884,7 +1884,7 @@ sent_id: 133
 *FAT:	热水壶里!
 ----------------------------------------
 sent_id: 134
-*** File "/Users/penny/Downloads/ZhouDinner/middle/58.cha": line 730. Keyword: 以为 
+*** File "/ZhouDinner/middle/58.cha": line 730. Keyword: 以为 
 *GMO:	快点吃呀.
 *MOT:	给老师看你在家里吃的是不是快的!
 *GMO:	奶奶给你夹点肉!
@@ -1898,7 +1898,7 @@ sent_id: 134
 *MOT:	吃饭[//]你的饭.
 ----------------------------------------
 sent_id: 135
-*** File "/Users/penny/Downloads/ZhouDinner/middle/66.cha": line 1837. Keyword: 以为 
+*** File "/ZhouDinner/middle/66.cha": line 1837. Keyword: 以为 
 *MOT:	你看看你.
 *MOT:	你看看你吃的什么样子!
 *CHI:	妈妈吃!
@@ -1912,7 +1912,7 @@ sent_id: 135
 *CHI:	第几口了?
 ----------------------------------------
 sent_id: 136
-*** File "/Users/penny/Downloads/ZhouNarratives/Caterpillar/6/6ym15.cha": line 145. Keyword: 以为 
+*** File "/ZhouNarratives/Caterpillar/6/6ym15.cha": line 145. Keyword: 以为 
 *CHI:	然后[/]然后在[/]在树叶上连续钻了四个洞[^c].
 *CHI:	然后又从树叶枝上爬了[^c].
 *CHI:	它爬了过来.
@@ -1923,7 +1923,7 @@ sent_id: 136
 *CHI:	结果小小虫就变成蝴蝶了[^c].
 ----------------------------------------
 sent_id: 137
-*** File "/Users/penny/Downloads/ZhouNarratives/Caterpillar/6/6ym5.cha": line 186. Keyword: 以为 
+*** File "/ZhouNarratives/Caterpillar/6/6ym5.cha": line 186. Keyword: 以为 
 *CHI:	后来它跑到叶子上[^c].
 *CHI:	又要去吃[^c].
 *INV:	又要去吃[^c].
@@ -1936,7 +1936,7 @@ sent_id: 137
 *CHI:	"<这个是>[//]这个<是一个很>[//]不是东西[^c].
 ----------------------------------------
 sent_id: 138
-*** File "/Users/penny/Downloads/ZhouNarratives/Caterpillar/5/5yf11.cha": line 188. Keyword: 以为 
+*** File "/ZhouNarratives/Caterpillar/5/5yf11.cha": line 188. Keyword: 以为 
 @G:	13
 *CHI:	小虫虫吃树叶[^c].
 *CHI:	没变颜色[^c].
@@ -1949,7 +1949,7 @@ sent_id: 138
 *INV:	变成了一只蝴蝶[^c].
 ----------------------------------------
 sent_id: 139
-*** File "/Users/penny/Downloads/ZhouNarratives/Robber/4/4ym23.cha": line 528. Keyword: 以为 
+*** File "/ZhouNarratives/Robber/4/4ym23.cha": line 528. Keyword: 以为 
 *INV:	哦,猫头鹰.
 *INV:	这里发生了什么呀[^c]?
 *CHI:	<这发生了>[//]他拿着斧具[:斧头][^c].
@@ -1963,7 +1963,7 @@ sent_id: 139
 *CHI:	<这个>[/]这个这[//]是真的马[^c].
 ----------------------------------------
 sent_id: 140
-*** File "/Users/penny/Downloads/ZhouNarratives/Robber/4/4ym23.cha": line 532. Keyword: 以为 
+*** File "/ZhouNarratives/Robber/4/4ym23.cha": line 532. Keyword: 以为 
 *INV:	这里发生了什么呀[^c]?
 *CHI:	<这发生了>[//]他拿着斧具[:斧头][^c].
 *CHI:	这上面这[//]是一个那个[^c]...
@@ -1977,7 +1977,7 @@ sent_id: 140
 *CHI:	这也是真的马[^c].
 ----------------------------------------
 sent_id: 141
-*** File "/Users/penny/Downloads/ZhouNarratives/Robber/4/4ym23.cha": line 852. Keywords: 以为, 以为 
+*** File "/ZhouNarratives/Robber/4/4ym23.cha": line 852. Keywords: 以为, 以为 
 *CHI:	她是戴了一个帽子[//]黑的帽子.
 *CHI:	然后他下面恶魔披风就是一个坏人了.
 *INV:	那这里发生了什么[^c]?
@@ -1991,7 +1991,7 @@ sent_id: 141
 *CHI:	嘴巴没有.
 ----------------------------------------
 sent_id: 142
-*** File "/Users/penny/Downloads/ZhouNarratives/Robber/4/4ym23.cha": line 856. Keyword: 以为 
+*** File "/ZhouNarratives/Robber/4/4ym23.cha": line 856. Keyword: 以为 
 *CHI:	然后他下面恶魔披风就是一个坏人了.
 *INV:	那这里发生了什么[^c]?
 *CHI:	小女孩在这个坏人的床上睡觉[^c].
@@ -2005,7 +2005,7 @@ sent_id: 142
 *CHI:	眼睛有的[^c].
 ----------------------------------------
 sent_id: 143
-*** File "/Users/penny/Downloads/ZhouNarratives/Robber/6/6yf2.cha": line 201. Keyword: 以为 
+*** File "/ZhouNarratives/Robber/6/6yf2.cha": line 201. Keyword: 以为 
 *INV:	哦[^c].
 *CHI:	但是呢他们三个坏蛋把这个盒子给掀开来一看[^c].
 *CHI:	里面有好多[/]好多[/]好多的金黄金的宝石[^c].
@@ -2019,7 +2019,7 @@ sent_id: 143
 *CHI:	然后呢他们一看.
 ----------------------------------------
 sent_id: 144
-*** File "/Users/penny/Downloads/ZhouNarratives/Robber/6/6ym12.cha": line 235. Keyword: 以为 
+*** File "/ZhouNarratives/Robber/6/6ym12.cha": line 235. Keyword: 以为 
 *CHI:	把[:被]抓到车上了[^c].
 *INV:	哇,都被抓到车上了呀!
 *CHI:	嗯[^c].
@@ -2033,7 +2033,7 @@ sent_id: 144
 *CHI:	<这是>[/]这是谁呀?
 ----------------------------------------
 sent_id: 145
-*** File "/Users/penny/Downloads/LiReading/4/r4yfi10.cha": line 979. Keyword: 以为 
+*** File "/LiReading/4/r4yfi10.cha": line 979. Keyword: 以为 
 *MOT:	猫咪已经飞到很远很远的地方去了.
 *MOT:	主人非常想念他的猫咪.
 *MOT:	于是他贴了一张寻猫启事.
@@ -2047,7 +2047,7 @@ sent_id: 145
 *MOT:	他很想念它.
 ----------------------------------------
 sent_id: 146
-*** File "/Users/penny/Downloads/LiReading/4/r4yfi11.cha": line 554. Keyword: 以为 
+*** File "/LiReading/4/r4yfi11.cha": line 554. Keyword: 以为 
 *CHI:	他找呀找这里.
 *CHI:	xxx.
 *MOT:	他没看到嘛.
@@ -2061,7 +2061,7 @@ sent_id: 146
 *CHI:	我先看看怪兽.
 ----------------------------------------
 sent_id: 147
-*** File "/Users/penny/Downloads/LiReading/4/r4yfi12.cha": line 1176. Keyword: 以为 
+*** File "/LiReading/4/r4yfi12.cha": line 1176. Keyword: 以为 
 *MOT:	它走丢了,是不是?
 *CHI:	对.
 *MOT:	嗯.
@@ -2075,7 +2075,7 @@ sent_id: 147
 *MOT:	我想.
 ----------------------------------------
 sent_id: 148
-*** File "/Users/penny/Downloads/LiReading/4/r4yfi15.cha": line 805. Keyword: 以为 
+*** File "/LiReading/4/r4yfi15.cha": line 805. Keyword: 以为 
 *MOT:	他想找到他的小猫.
 *CHI:	为什么?
 *MOT:	如果你的小老鼠不见了.
@@ -2089,7 +2089,7 @@ sent_id: 148
 *MOT:	会去找老朋友叙旧.
 ----------------------------------------
 sent_id: 149
-*** File "/Users/penny/Downloads/LiReading/4/r4yfi4.cha": line 1182. Keyword: 以为 
+*** File "/LiReading/4/r4yfi4.cha": line 1182. Keyword: 以为 
 *MOT:	它走丢了,是不是?
 *CHI:	对.
 *MOT:	嗯.
@@ -2103,7 +2103,7 @@ sent_id: 149
 *MOT:	我想.
 ----------------------------------------
 sent_id: 150
-*** File "/Users/penny/Downloads/LiReading/4/r4yfi5.cha": line 708. Keyword: 以为 
+*** File "/LiReading/4/r4yfi5.cha": line 708. Keyword: 以为 
 *MOT:	他就贴了寻猫启事.
 *MOT:	上面有照片下面有电话.
 *MOT:	他希望好心的人看到猫咪打电话给他.
@@ -2117,7 +2117,7 @@ sent_id: 150
 *MOT:	可是已经五天了.
 ----------------------------------------
 sent_id: 151
-*** File "/Users/penny/Downloads/LiReading/4/r4yfi7.cha": line 978. Keyword: 以为 
+*** File "/LiReading/4/r4yfi7.cha": line 978. Keyword: 以为 
 *MOT:	因为他的小猫丢了呀.
 *MOT:	他就想说如果你们看到这只小猫了记得跟他联系.
 *MOT:	对不对?
@@ -2131,7 +2131,7 @@ sent_id: 151
 *MOT:	我们会再见面吗我很想你是谁想谁呢.
 ----------------------------------------
 sent_id: 152
-*** File "/Users/penny/Downloads/LiReading/4/r4yfl12.cha": line 405. Keyword: 以为 
+*** File "/LiReading/4/r4yfl12.cha": line 405. Keyword: 以为 
 *CHI:	xxx.
 *MOT:	他扛起了一袋垃圾.
 *MOT:	要去...
@@ -2145,7 +2145,7 @@ sent_id: 152
 *MOT:	他学了功夫了以后厉害吗?
 ----------------------------------------
 sent_id: 153
-*** File "/Users/penny/Downloads/LiReading/4/r4yfl12.cha": line 1406. Keyword: 以为 
+*** File "/LiReading/4/r4yfl12.cha": line 1406. Keyword: 以为 
 *CHI:	寻猫启事.
 *MOT:	嗯.
 *MOT:	当一个人或者一个小动物不见的时候.
@@ -2159,7 +2159,7 @@ sent_id: 153
 *CHI:	不会.
 ----------------------------------------
 sent_id: 154
-*** File "/Users/penny/Downloads/LiReading/4/r4yfl14.cha": line 1906. Keyword: 以为 
+*** File "/LiReading/4/r4yfl14.cha": line 1906. Keyword: 以为 
 *MOT:	对不对?
 *CHI:	对.
 *MOT:	他很想它.
@@ -2173,7 +2173,7 @@ sent_id: 154
 *MOT:	或者你有更重要的事情要去完成.
 ----------------------------------------
 sent_id: 155
-*** File "/Users/penny/Downloads/LiReading/4/r4yfl16.cha": line 201. Keyword: 以为 
+*** File "/LiReading/4/r4yfl16.cha": line 201. Keyword: 以为 
 *MOT:	可是小猫咪不见了.
 *MOT:	主人就在想它是不是在玩捉迷藏呀.
 *MOT:	小猫咪飞远啦.
@@ -2187,7 +2187,7 @@ sent_id: 155
 *MOT:	或者有更重要的事去完成呢.
 ----------------------------------------
 sent_id: 156
-*** File "/Users/penny/Downloads/LiReading/4/r4yfl2.cha": line 122. Keyword: 以为 
+*** File "/LiReading/4/r4yfl2.cha": line 122. Keyword: 以为 
 *MOT:	因为怎么样?
 *CHI:	她飞起来了.
 *MOT:	飞到很远很远的地方去了.
@@ -2201,7 +2201,7 @@ sent_id: 156
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 157
-*** File "/Users/penny/Downloads/LiReading/4/r4yfl5.cha": line 1156. Keyword: 以为 
+*** File "/LiReading/4/r4yfl5.cha": line 1156. Keyword: 以为 
 *MOT:	但是小猫咪想要自由.
 *MOT:	他喜欢他的同伴.
 *MOT:	所以他想把小猫咪找回来,是不是?
@@ -2215,7 +2215,7 @@ sent_id: 157
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 158
-*** File "/Users/penny/Downloads/LiReading/4/r4yfl7.cha": line 399. Keyword: 以为 
+*** File "/LiReading/4/r4yfl7.cha": line 399. Keyword: 以为 
 *CHI:	嗯.
 *MOT:	好了主人回来了买东西买好回来了.
 *MOT:	但是他不见猫咪不见天使猫对吧?
@@ -2229,7 +2229,7 @@ sent_id: 158
 *MOT:	我想你会不会只是回到你来的地方去找老朋友叙旧或者你有重要的事情去完成.
 ----------------------------------------
 sent_id: 159
-*** File "/Users/penny/Downloads/LiReading/4/r4yfl9.cha": line 986. Keyword: 以为 
+*** File "/LiReading/4/r4yfl9.cha": line 986. Keyword: 以为 
 *MOT:	如有好心人发现请致电对吧.
 *CHI:	嗯.
 *MOT:	看看它给它的猫写了一封信对吧.
@@ -2243,7 +2243,7 @@ sent_id: 159
 *MOT:	你不想看这封信了对吧.
 ----------------------------------------
 sent_id: 160
-*** File "/Users/penny/Downloads/LiReading/4/r4ymi11.cha": line 561. Keyword: 以为 
+*** File "/LiReading/4/r4ymi11.cha": line 561. Keyword: 以为 
 *CHI:	嗯.
 *MOT:	他找猫.
 *CHI:	他怎么/.
@@ -2257,7 +2257,7 @@ sent_id: 160
 *MOT:	我想你会不会只是回到你来的地方.
 ----------------------------------------
 sent_id: 161
-*** File "/Users/penny/Downloads/LiReading/4/r4ymi12.cha": line 799. Keyword: 以为 
+*** File "/LiReading/4/r4ymi12.cha": line 799. Keyword: 以为 
 *MOT:	说故事.
 *MOT:	我们看着图.
 *MOT:	说.
@@ -2271,7 +2271,7 @@ sent_id: 161
 *MOT:	去找老朋友叙旧.
 ----------------------------------------
 sent_id: 162
-*** File "/Users/penny/Downloads/LiReading/4/r4ymi15.cha": line 974. Keyword: 以为 
+*** File "/LiReading/4/r4ymi15.cha": line 974. Keyword: 以为 
 *MOT:	叔叔买了好多吃的回来了发现小猫咪不见了.
 *MOT:	它走了.
 *MOT:	它去它自己的世界去了.
@@ -2285,7 +2285,7 @@ sent_id: 162
 *MOT:	我们还会再见面吗?
 ----------------------------------------
 sent_id: 163
-*** File "/Users/penny/Downloads/LiReading/4/r4ymi16.cha": line 1304. Keyword: 以为 
+*** File "/LiReading/4/r4ymi16.cha": line 1304. Keyword: 以为 
 *CHI:	他喜欢小鸟吗?
 *MOT:	像外面的小鸟一样.
 *MOT:	飞来飞去.
@@ -2299,7 +2299,7 @@ sent_id: 163
 *MOT:	会去找老朋友叙旧.
 ----------------------------------------
 sent_id: 164
-*** File "/Users/penny/Downloads/LiReading/4/r4ymi19.cha": line 638. Keyword: 以为 
+*** File "/LiReading/4/r4ymi19.cha": line 638. Keyword: 以为 
 *MOT:	身材肥胖.
 *MOT:	如有好心人发现请致电.
 *MOT:	就是有好心人发现了就给他打电话.
@@ -2313,7 +2313,7 @@ sent_id: 164
 *MOT:	会去找老朋友叙旧.
 ----------------------------------------
 sent_id: 165
-*** File "/Users/penny/Downloads/LiReading/4/r4ymi8.cha": line 988. Keyword: 以为 
+*** File "/LiReading/4/r4ymi8.cha": line 988. Keyword: 以为 
 *MOT:	写了猫的特征公的身材肥胖.
 *MOT:	如果好心人看到了要打电话给他.
 *MOT:	然后这个主人很想念猫猫.
@@ -2327,7 +2327,7 @@ sent_id: 165
 *MOT:	我很想你.
 ----------------------------------------
 sent_id: 166
-*** File "/Users/penny/Downloads/LiReading/4/r4ymi9.cha": line 459. Keyword: 以为 
+*** File "/LiReading/4/r4ymi9.cha": line 459. Keyword: 以为 
 *MOT:	他说特征公身材肥胖.
 *MOT:	如有好心人发现请致电.
 *MOT:	他想把这个猫咪找回来对吧?
@@ -2341,7 +2341,7 @@ sent_id: 166
 *MOT:	我很想你.
 ----------------------------------------
 sent_id: 167
-*** File "/Users/penny/Downloads/LiReading/4/r4yml13.cha": line 1041. Keyword: 以为 
+*** File "/LiReading/4/r4yml13.cha": line 1041. Keyword: 以为 
 *MOT:	寻猫启事.
 *MOT:	有什么好心人发现的话打电话给这个主人.
 *MOT:	找到这只猫是吗?
@@ -2355,7 +2355,7 @@ sent_id: 167
 *MOT:	不是我很想你.
 ----------------------------------------
 sent_id: 168
-*** File "/Users/penny/Downloads/LiReading/4/r4yml15.cha": line 1168. Keyword: 以为 
+*** File "/LiReading/4/r4yml15.cha": line 1168. Keyword: 以为 
 *MOT:	然后他就去外面贴寻猫启事.
 *MOT:	他要找小猫咪.
 *MOT:	最后有没有找到小猫咪?
@@ -2369,7 +2369,7 @@ sent_id: 168
 *CHI:	不会了.
 ----------------------------------------
 sent_id: 169
-*** File "/Users/penny/Downloads/LiReading/4/r4yml5.cha": line 929. Keyword: 以为 
+*** File "/LiReading/4/r4yml5.cha": line 929. Keyword: 以为 
 *MOT:	你看主人找不到猫他也很伤心.
 *MOT:	他到处在电线杆上贴寻猫启事.
 *MOT:	希望好心人能够发现猫之后给他打电话.
@@ -2383,7 +2383,7 @@ sent_id: 169
 *MOT:	我很想你.
 ----------------------------------------
 sent_id: 170
-*** File "/Users/penny/Downloads/LiReading/4/r4yml6.cha": line 365. Keyword: 以为 
+*** File "/LiReading/4/r4yml6.cha": line 365. Keyword: 以为 
 *MOT:	猫咪飞去以前的家了,对不对?
 *MOT:	它到外面去了.
 *MOT:	然后主人这个叔叔就在外面贴那个什么寻猫启事.
@@ -2397,7 +2397,7 @@ sent_id: 170
 *MOT:	叔叔很想这个猫咪,对不对?
 ----------------------------------------
 sent_id: 171
-*** File "/Users/penny/Downloads/LiReading/4/r4yml7.cha": line 862. Keyword: 以为 
+*** File "/LiReading/4/r4yml7.cha": line 862. Keyword: 以为 
 *MOT:	嗯对它希望有好心人能够看到它小猫咪.
 *MOT:	把它送回家里.
 *CHI:	这.
@@ -2411,7 +2411,7 @@ sent_id: 171
 *MOT:	我想你会不会只是回到你来的地方去找老朋友叙旧了呢.
 ----------------------------------------
 sent_id: 172
-*** File "/Users/penny/Downloads/LiReading/4/r4yml8.cha": line 1198. Keyword: 以为 
+*** File "/LiReading/4/r4yml8.cha": line 1198. Keyword: 以为 
 *MOT:	飞到很远很远的地方了,对不对?
 *CHI:	他在后面追.
 *MOT:	他在后面追他到处寻找.
@@ -2425,7 +2425,7 @@ sent_id: 172
 *MOT:	我们会再见面吗.
 ----------------------------------------
 sent_id: 173
-*** File "/Users/penny/Downloads/LiReading/4/r4yml8.cha": line 1670. Keyword: 以为 
+*** File "/LiReading/4/r4yml8.cha": line 1670. Keyword: 以为 
 *CHI:	我看到一个小虫子.
 *CHI:	小虫子在里边呢.
 *MOT:	哦小虫子钻了一个洞出来了.
@@ -2439,7 +2439,7 @@ sent_id: 173
 *MOT:	樱桃也是果实果实里面的种子在哪?
 ----------------------------------------
 sent_id: 174
-*** File "/Users/penny/Downloads/LiReading/4/r4yml9.cha": line 342. Keyword: 以为 
+*** File "/LiReading/4/r4yml9.cha": line 342. Keyword: 以为 
 *MOT:	它可能到了很远很远的地方.
 *CHI:	在这里.
 *MOT:	在这里啊可是叔叔找不到它了啊.
@@ -2453,7 +2453,7 @@ sent_id: 174
 *CHI:	嗯.
 ----------------------------------------
 sent_id: 175
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi10.cha": line 192. Keyword: 以为 
+*** File "/LiReading/6/r6yfi10.cha": line 192. Keyword: 以为 
 *MOT:	主人.
 *CHI:	主人在外面贴了海报.
 *MOT:	写着?
@@ -2467,7 +2467,7 @@ sent_id: 175
 *CHI:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 176
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi13.cha": line 745. Keyword: 以为 
+*** File "/LiReading/6/r6yfi13.cha": line 745. Keyword: 以为 
 *MOT:	猫咪已经不在了.
 *MOT:	它的主人很伤心贴了一张寻猫启事.
 *MOT:	上面写着特征公身材肥胖爱撒娇.
@@ -2481,7 +2481,7 @@ sent_id: 176
 *MOT:	去找你老朋友叙旧.
 ----------------------------------------
 sent_id: 177
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi15.cha": line 962. Keyword: 以为 
+*** File "/LiReading/6/r6yfi15.cha": line 962. Keyword: 以为 
 *MOT:	他就是说如果别人发现了他家的猫可以打电话给他.
 *MOT:	主人很难受.
 *MOT:	你看主人伤心的背影.
@@ -2495,7 +2495,7 @@ sent_id: 177
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 178
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi17.cha": line 191. Keyword: 以为 
+*** File "/LiReading/6/r6yfi17.cha": line 191. Keyword: 以为 
 *MOT:	如有好心人发现请致电某某某.
 *MOT:	因为主人很爱它所以很着急,是不是?
 *CHI:	恩.
@@ -2509,7 +2509,7 @@ sent_id: 178
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 179
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi17.cha": line 391. Keyword: 以为 
+*** File "/LiReading/6/r6yfi17.cha": line 391. Keyword: 以为 
 *MOT:	到处都有大妖怪.
 *MOT:	小朋友在看什么呢?
 *MOT:	我的家里到处藏着大妖怪.
@@ -2523,7 +2523,7 @@ sent_id: 179
 *MOT:	我知道那些大妖怪马上就会跳出来.
 ----------------------------------------
 sent_id: 180
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi2.cha": line 216. Keyword: 以为 
+*** File "/LiReading/6/r6yfi2.cha": line 216. Keyword: 以为 
 *CHI:	我对怪兽说.
 *CHI:	我不怕你.
 *CHI:	你们出来吧.
@@ -2537,7 +2537,7 @@ sent_id: 180
 *CHI:	妈妈.
 ----------------------------------------
 sent_id: 181
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi3.cha": line 372. Keyword: 以为 
+*** File "/LiReading/6/r6yfi3.cha": line 372. Keyword: 以为 
 *MOT:	对跑走了.
 *MOT:	所以主人伤心了他就贴了一张寻猫启事.
 *MOT:	他说我家的小猫猫特征是身材肥胖爱撒娇.
@@ -2551,7 +2551,7 @@ sent_id: 181
 *MOT:	或者有更重要的事情去完成.
 ----------------------------------------
 sent_id: 182
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi5.cha": line 197. Keyword: 以为 
+*** File "/LiReading/6/r6yfi5.cha": line 197. Keyword: 以为 
 *MOT:	寻猫启事.
 *MOT:	特征公身材肥胖爱撒娇.
 *MOT:	如有好心人发现请致电.
@@ -2565,7 +2565,7 @@ sent_id: 182
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 183
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi6.cha": line 312. Keyword: 以为 
+*** File "/LiReading/6/r6yfi6.cha": line 312. Keyword: 以为 
 *MOT:	可是它的主人很想它回家呀.
 *MOT:	他在想什么时候可以把这只小猫寻找回来.
 *MOT:	你看寻猫启事.
@@ -2579,7 +2579,7 @@ sent_id: 183
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 184
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi8.cha": line 928. Keyword: 以为 
+*** File "/LiReading/6/r6yfi8.cha": line 928. Keyword: 以为 
 *MOT:	嗯.
 *MOT:	好像猫的饭也没有吃.
 *MOT:	到处找不到猫嘛.
@@ -2593,7 +2593,7 @@ sent_id: 184
 *MOT:	对吗?
 ----------------------------------------
 sent_id: 185
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi8.cha": line 934. Keyword: 以为 
+*** File "/LiReading/6/r6yfi8.cha": line 934. Keyword: 以为 
 *MOT:	到处找不到猫嘛.
 *MOT:	主人就到处找[/]到处找.
 *MOT:	可是还是没有找到猫.
@@ -2607,7 +2607,7 @@ sent_id: 185
 *MOT:	可是猫回来了没有啊?
 ----------------------------------------
 sent_id: 186
-*** File "/Users/penny/Downloads/LiReading/6/r6yfi8.cha": line 937. Keyword: 以为 
+*** File "/LiReading/6/r6yfi8.cha": line 937. Keyword: 以为 
 *MOT:	主人就到处找[/]到处找.
 *MOT:	可是还是没有找到猫.
 *CHI:	他以为猫在跟自己躲猫猫.
@@ -2621,7 +2621,7 @@ sent_id: 186
 *CHI:	没有.
 ----------------------------------------
 sent_id: 187
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl14.cha": line 263. Keyword: 以为 
+*** File "/LiReading/6/r6yfl14.cha": line 263. Keyword: 以为 
 *MOT:	上面写特征公身材肥胖爱撒娇.
 *MOT:	如果又好心人发现请致电.
 *MOT:	给他打电话.
@@ -2635,7 +2635,7 @@ sent_id: 187
 *MOT:	偷偷的笑我.
 ----------------------------------------
 sent_id: 188
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl15.cha": line 1458. Keyword: 以为 
+*** File "/LiReading/6/r6yfl15.cha": line 1458. Keyword: 以为 
 *MOT:	请打电话.
 *MOT:	这个下面就是主人留的电话.
 *MOT:	哇.
@@ -2649,7 +2649,7 @@ sent_id: 188
 *MOT:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 189
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl17.cha": line 264. Keyword: 以为 
+*** File "/LiReading/6/r6yfl17.cha": line 264. Keyword: 以为 
 *MOT:	小飞哥哥很生气了.
 *MOT:	他有没有吼啦?
 *CHI:	没有.
@@ -2663,7 +2663,7 @@ sent_id: 189
 *CHI:	于是来到了阳台上.
 ----------------------------------------
 sent_id: 190
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl18.cha": line 1245. Keyword: 以为 
+*** File "/LiReading/6/r6yfl18.cha": line 1245. Keyword: 以为 
 *MOT:	你回来之后我肯定不这样对待你了.
 *MOT:	我也不会把你放在阳台上面到了.
 *MOT:	对不对?
@@ -2677,7 +2677,7 @@ sent_id: 190
 *MOT:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 191
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl21.cha": line 946. Keyword: 以为 
+*** File "/LiReading/6/r6yfl21.cha": line 946. Keyword: 以为 
 *CHI:	是.
 *MOT:	他写了什么妈妈读给你听一下,好不好?
 *CHI:	好.
@@ -2691,7 +2691,7 @@ sent_id: 191
 *MOT:	去找你老朋友叙旧.
 ----------------------------------------
 sent_id: 192
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl22.cha": line 838. Keyword: 以为 
+*** File "/LiReading/6/r6yfl22.cha": line 838. Keyword: 以为 
 *MOT:	身材肥胖爱撒娇.
 *MOT:	如果有好心人看到就打这个电话号码.
 *MOT:	然后叔叔写了一段话.
@@ -2705,7 +2705,7 @@ sent_id: 192
 *MOT:	去找你老朋友叙旧.
 ----------------------------------------
 sent_id: 193
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl27.cha": line 272. Keyword: 以为 
+*** File "/LiReading/6/r6yfl27.cha": line 272. Keyword: 以为 
 *MOT:	因为它是一个很向往自由的猫嘛.
 *MOT:	然后他就贴了一个寻猫启事.
 *MOT:	每过一个路口就贴一张.
@@ -2719,7 +2719,7 @@ sent_id: 193
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 194
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl28.cha": line 397. Keyword: 以为 
+*** File "/LiReading/6/r6yfl28.cha": line 397. Keyword: 以为 
 *MOT:	但他发现小猫不见了.
 *MOT:	小猫实际上已经.
 *CHI:	飞走了.
@@ -2733,7 +2733,7 @@ sent_id: 194
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 195
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl4.cha": line 910. Keyword: 以为 
+*** File "/LiReading/6/r6yfl4.cha": line 910. Keyword: 以为 
 *CHI:	这是一张照片.
 *MOT:	对.
 *MOT:	啊他要贴着这个寻猫启事.
@@ -2747,7 +2747,7 @@ sent_id: 195
 *MOT:	我想你会不会只是回到你来的地方了.
 ----------------------------------------
 sent_id: 196
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl6.cha": line 1504. Keyword: 以为 
+*** File "/LiReading/6/r6yfl6.cha": line 1504. Keyword: 以为 
 *MOT:	就是刚才我们说的那张纸,对不对?
 *MOT:	贴了寻猫启事.
 *MOT:	他想要找这只猫.
@@ -2761,7 +2761,7 @@ sent_id: 196
 *MOT:	去找朋友叙.
 ----------------------------------------
 sent_id: 197
-*** File "/Users/penny/Downloads/LiReading/6/r6yfl9.cha": line 1074. Keyword: 以为 
+*** File "/LiReading/6/r6yfl9.cha": line 1074. Keyword: 以为 
 *CHI:	小猫也很想去外面玩.
 *MOT:	你看这个主人贴了一个寻猫启事.
 *MOT:	我给你念念啊.
@@ -2775,7 +2775,7 @@ sent_id: 197
 *MOT:	我们会再见面吗.
 ----------------------------------------
 sent_id: 198
-*** File "/Users/penny/Downloads/LiReading/6/r6ymi1.cha": line 270. Keyword: 以为 
+*** File "/LiReading/6/r6ymi1.cha": line 270. Keyword: 以为 
 *MOT:	嗯.
 *CHI:	寻猫启事.
 *MOT:	寻猫启事.
@@ -2789,7 +2789,7 @@ sent_id: 198
 *MOT:	去找老朋友叙旧或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 199
-*** File "/Users/penny/Downloads/LiReading/6/r6ymi10.cha": line 289. Keyword: 以为 
+*** File "/LiReading/6/r6ymi10.cha": line 289. Keyword: 以为 
 *MOT:	小男孩回到了家里.
 *MOT:	还带了很多事物给小猫咪.
 *MOT:	但是他再也找不到小猫咪.
@@ -2803,7 +2803,7 @@ sent_id: 199
 *MOT:	我们会再见面吗.
 ----------------------------------------
 sent_id: 200
-*** File "/Users/penny/Downloads/LiReading/6/r6ymi14.cha": line 677. Keyword: 以为 
+*** File "/LiReading/6/r6ymi14.cha": line 677. Keyword: 以为 
 *MOT:	贴在到处的电线杆上.
 *MOT:	他希望有人看到猫猫的话能够告诉他猫猫在哪.
 *MOT:	主人很想它对吗?
@@ -2817,7 +2817,7 @@ sent_id: 200
 *MOT:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 201
-*** File "/Users/penny/Downloads/LiReading/6/r6ymi16.cha": line 213. Keyword: 以为 
+*** File "/LiReading/6/r6ymi16.cha": line 213. Keyword: 以为 
 *MOT:	嗯.
 *MOT:	小猫为什么就不见了?
 *CHI:	然后呢[/]然后呢.
@@ -2831,7 +2831,7 @@ sent_id: 201
 *CHI:	然后主人就到处去贴寻猫启事.
 ----------------------------------------
 sent_id: 202
-*** File "/Users/penny/Downloads/LiReading/6/r6ymi20.cha": line 1480. Keyword: 以为 
+*** File "/LiReading/6/r6ymi20.cha": line 1480. Keyword: 以为 
 *MOT:	如有好心人发现请致电打电话的意思.
 *CHI:	恩.
 *MOT:	然后这里是一个诗啊.
@@ -2845,7 +2845,7 @@ sent_id: 202
 *MOT:	去找老朋友叙旧.
 ----------------------------------------
 sent_id: 203
-*** File "/Users/penny/Downloads/LiReading/6/r6ymi23.cha": line 348. Keyword: 以为 
+*** File "/LiReading/6/r6ymi23.cha": line 348. Keyword: 以为 
 *MOT:	如有好心人发现请致电几几几号码.
 *MOT:	这只猫的照片也在这.
 *MOT:	然后这是它写给猫的一封信你看.
@@ -2859,7 +2859,7 @@ sent_id: 203
 *MOT:	去找你老朋友叙旧.
 ----------------------------------------
 sent_id: 204
-*** File "/Users/penny/Downloads/LiReading/6/r6ymi6.cha": line 310. Keyword: 以为 
+*** File "/LiReading/6/r6ymi6.cha": line 310. Keyword: 以为 
 *CHI:	身材肥胖爱.
 *MOT:	撒娇.
 *CHI:	如果好心人发现.
@@ -2873,7 +2873,7 @@ sent_id: 204
 *CHI:	我很想你.
 ----------------------------------------
 sent_id: 205
-*** File "/Users/penny/Downloads/LiReading/6/r6ymi7.cha": line 132. Keyword: 以为 
+*** File "/LiReading/6/r6ymi7.cha": line 132. Keyword: 以为 
 *MOT:	它一个人在家.
 *CHI:	一个人在家等呀等嗯边看风景边等.
 *CHI:	然后小猫咪很想出去玩.
@@ -2887,7 +2887,7 @@ sent_id: 205
 *CHI:	它就贴寻猫启事寻猫启事.
 ----------------------------------------
 sent_id: 206
-*** File "/Users/penny/Downloads/LiReading/6/r6yml10.cha": line 541. Keyword: 以为 
+*** File "/LiReading/6/r6yml10.cha": line 541. Keyword: 以为 
 *CHI:	他很听话.
 *CHI:	真的好像小飞猫一样.
 *MOT:	他是不是很想出去.
@@ -2901,7 +2901,7 @@ sent_id: 206
 *MOT:	你会不会只是回到你来的地方.
 ----------------------------------------
 sent_id: 207
-*** File "/Users/penny/Downloads/LiReading/6/r6yml11.cha": line 438. Keyword: 以为 
+*** File "/LiReading/6/r6yml11.cha": line 438. Keyword: 以为 
 *CHI:	身材肥胖爱撒娇.
 *MOT:	如有好心人发现请致电.
 *CHI:	如有好心人发现请致电.
@@ -2915,7 +2915,7 @@ sent_id: 207
 *MOT:	你躲得太久了.
 ----------------------------------------
 sent_id: 208
-*** File "/Users/penny/Downloads/LiReading/6/r6yml12.cha": line 372. Keyword: 以为 
+*** File "/LiReading/6/r6yml12.cha": line 372. Keyword: 以为 
 *CHI:	这时候小猫已经不知道去哪儿了.
 *MOT:	主人写了一个寻猫启事.
 *MOT:	主人还写了一封信.
@@ -2929,7 +2929,7 @@ sent_id: 208
 *MOT:	给他写的信.
 ----------------------------------------
 sent_id: 209
-*** File "/Users/penny/Downloads/LiReading/6/r6yml14.cha": line 508. Keyword: 以为 
+*** File "/LiReading/6/r6yml14.cha": line 508. Keyword: 以为 
 *MOT:	他看到家里很干净也没有凌乱了是吧.
 *MOT:	猫走了他的猫飞走了.
 *MOT:	他就写了一个寻猫启事.
@@ -2943,7 +2943,7 @@ sent_id: 209
 *MOT:	去找你老朋友叙旧.
 ----------------------------------------
 sent_id: 210
-*** File "/Users/penny/Downloads/LiReading/6/r6yml16.cha": line 662. Keyword: 以为 
+*** File "/LiReading/6/r6yml16.cha": line 662. Keyword: 以为 
 *MOT:	他给猫写了一封信是吧.
 *CHI:	对.
 *MOT:	我给你念,好不好?
@@ -2957,7 +2957,7 @@ sent_id: 210
 *MOT:	去找你老朋友叙旧.
 ----------------------------------------
 sent_id: 211
-*** File "/Users/penny/Downloads/LiReading/6/r6yml19.cha": line 962. Keyword: 以为 
+*** File "/LiReading/6/r6yml19.cha": line 962. Keyword: 以为 
 *MOT:	他就是说如果别人发现了他家的猫可以打电话给他.
 *MOT:	主人很难受.
 *MOT:	你看主人伤心的背影.
@@ -2971,7 +2971,7 @@ sent_id: 211
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 212
-*** File "/Users/penny/Downloads/LiReading/6/r6yml20.cha": line 541. Keyword: 以为 
+*** File "/LiReading/6/r6yml20.cha": line 541. Keyword: 以为 
 *MOT:	他贴寻猫启事.
 *MOT:	特征公身材肥胖爱撒娇.
 *MOT:	如有好心人发现请致电.
@@ -2985,7 +2985,7 @@ sent_id: 212
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 213
-*** File "/Users/penny/Downloads/LiReading/6/r6yml21.cha": line 285. Keyword: 以为 
+*** File "/LiReading/6/r6yml21.cha": line 285. Keyword: 以为 
 *MOT:	是吧.
 *MOT:	那垃圾堆旁边啊什么地方有没有大妖怪呢.
 *CHI:	没有.
@@ -2998,7 +2998,7 @@ sent_id: 213
 *MOT:	我们看第二个需要什么.
 ----------------------------------------
 sent_id: 214
-*** File "/Users/penny/Downloads/LiReading/6/r6yml21.cha": line 863. Keyword: 以为 
+*** File "/LiReading/6/r6yml21.cha": line 863. Keyword: 以为 
 *MOT:	他那以前的生活.
 *MOT:	寻猫启事.
 *MOT:	特征公身材肥胖爱撒娇.
@@ -3012,7 +3012,7 @@ sent_id: 214
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 215
-*** File "/Users/penny/Downloads/LiReading/6/r6yml21.cha": line 902. Keyword: 以为 
+*** File "/LiReading/6/r6yml21.cha": line 902. Keyword: 以为 
 *MOT:	哦这里还有一个.
 *MOT:	我们读读这里会更有感触.
 *MOT:	一开始只是单位友人收养的流浪猫出走时的失落.
@@ -3026,7 +3026,7 @@ sent_id: 215
 *MOT:	映在公园街角寻找不告而别的猫.
 ----------------------------------------
 sent_id: 216
-*** File "/Users/penny/Downloads/LiReading/6/r6yml21.cha": line 929. Keyword: 以为 
+*** File "/LiReading/6/r6yml21.cha": line 929. Keyword: 以为 
 *MOT:	当有人拿到寻猫启事到处张贴.
 *MOT:	映在公园街角寻找不告而别的猫.
 *MOT:	绘本影像就在我脑海慢慢成型.
@@ -3040,7 +3040,7 @@ sent_id: 216
 *MOT:	请以认养代替购买.
 ----------------------------------------
 sent_id: 217
-*** File "/Users/penny/Downloads/LiReading/6/r6yml22.cha": line 829. Keyword: 以为 
+*** File "/LiReading/6/r6yml22.cha": line 829. Keyword: 以为 
 *CHI:	你消失了.
 *MOT:	你消失了.
 *MOT:	这段妈妈读给你听.
@@ -3054,7 +3054,7 @@ sent_id: 217
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 218
-*** File "/Users/penny/Downloads/LiReading/6/r6yml4.cha": line 242. Keyword: 以为 
+*** File "/LiReading/6/r6yml4.cha": line 242. Keyword: 以为 
 *MOT:	我下班回来就来陪你啊.
 *MOT:	然后小猫咪就躲在门背后等.
 *MOT:	后来呢大家都上班去了他又跳到窗台上.
@@ -3068,7 +3068,7 @@ sent_id: 218
 *MOT:	后来大哥没办法就只能踢着到处贴寻猫启事.
 ----------------------------------------
 sent_id: 219
-*** File "/Users/penny/Downloads/LiReading/6/r6yml4.cha": line 281. Keyword: 以为 
+*** File "/LiReading/6/r6yml4.cha": line 281. Keyword: 以为 
 *CHI:	嗯.
 *MOT:	然后就贴在到处贴讲话.
 *MOT:	一边贴也还小猫咪还是没回来.
@@ -3082,7 +3082,7 @@ sent_id: 219
 *MOT:	我们会在见面吗?
 ----------------------------------------
 sent_id: 220
-*** File "/Users/penny/Downloads/LiReading/6/r6yml5.cha": line 1288. Keyword: 以为 
+*** File "/LiReading/6/r6yml5.cha": line 1288. Keyword: 以为 
 *MOT:	还有他电话,是不是?
 *MOT:	你看他一个人背影是不是很怎么样?
 *MOT:	很寂寞吧一个人.
@@ -3096,7 +3096,7 @@ sent_id: 220
 *MOT:	我们会再见面吗?
 ----------------------------------------
 sent_id: 221
-*** File "/Users/penny/Downloads/LiReading/6/r6yml7.cha": line 564. Keyword: 以为 
+*** File "/LiReading/6/r6yml7.cha": line 564. Keyword: 以为 
 *MOT:	这个这样的猫咪没有这样有翅膀的.
 *MOT:	它的主人回来猫咪已经不在这里了.
 *MOT:	它飞走了.
@@ -3110,7 +3110,7 @@ sent_id: 221
 *MOT:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 222
-*** File "/Users/penny/Downloads/LiReading/6/r6yml8.cha": line 654. Keyword: 以为 
+*** File "/LiReading/6/r6yml8.cha": line 654. Keyword: 以为 
 *MOT:	它梦想自己有一双翅膀.
 *MOT:	能到外面的世界去好好地玩耍.
 *MOT:	看一看.
@@ -3124,7 +3124,7 @@ sent_id: 222
 *MOT:	走了.
 ----------------------------------------
 sent_id: 223
-*** File "/Users/penny/Downloads/LiReading/6/r6yml8.cha": line 675. Keyword: 以为 
+*** File "/LiReading/6/r6yml8.cha": line 675. Keyword: 以为 
 *MOT:	因为主人已经习惯了生活中有这只猫猫的陪伴.
 *MOT:	已经习惯了.
 *MOT:	然后突然有一天这个猫猫[/]猫猫不在.
@@ -3138,7 +3138,7 @@ sent_id: 223
 *CHI:	第五天.
 ----------------------------------------
 sent_id: 224
-*** File "/Users/penny/Downloads/LiReading/6/r6yml9.cha": line 543. Keyword: 以为 
+*** File "/LiReading/6/r6yml9.cha": line 543. Keyword: 以为 
 *MOT:	一步一步飞出去.
 *CHI:	主人给她买了好多好多吃的.
 *CHI:	可是他已经飞走了.
@@ -3152,7 +3152,7 @@ sent_id: 224
 *MOT:	你看.
 ----------------------------------------
 sent_id: 225
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi10.cha": line 404. Keyword: 以为 
+*** File "/LiReading/5/r5yfi10.cha": line 404. Keyword: 以为 
 *MOT:	有好心人发现.
 *MOT:	致电然后写了他的号码.
 *MOT:	是不是啊做了一个熊猫启事贴在路上的电线杆上.
@@ -3166,7 +3166,7 @@ sent_id: 225
 *MOT:	去找老朋友叙旧.
 ----------------------------------------
 sent_id: 226
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi12.cha": line 1650. Keyword: 以为 
+*** File "/LiReading/5/r5yfi12.cha": line 1650. Keyword: 以为 
 *CHI:	然后就没了.
 *MOT:	这个是人的照片.
 *MOT:	噢噢变成了变成.
@@ -3180,7 +3180,7 @@ sent_id: 226
 *MOT:	我们会在见面吗?
 ----------------------------------------
 sent_id: 227
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi12.cha": line 1917. Keyword: 以为 
+*** File "/LiReading/5/r5yfi12.cha": line 1917. Keyword: 以为 
 *MOT:	最后这个主人贴了一张寻猫启事.
 *MOT:	说特征是一只公猫身材肥胖爱撒娇.
 *MOT:	如有好心人发现请致电.
@@ -3194,7 +3194,7 @@ sent_id: 227
 *MOT:	我们会在见面吗?
 ----------------------------------------
 sent_id: 228
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi13.cha": line 767. Keyword: 以为 
+*** File "/LiReading/5/r5yfi13.cha": line 767. Keyword: 以为 
 *CHI:	还有点困.
 *MOT:	还有点困.
 *MOT:	是你有点困吧.
@@ -3208,7 +3208,7 @@ sent_id: 228
 *MOT:	这什么?
 ----------------------------------------
 sent_id: 229
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi13.cha": line 770. Keyword: 以为 
+*** File "/LiReading/5/r5yfi13.cha": line 770. Keyword: 以为 
 *MOT:	还有点困.
 *MOT:	是你有点困吧.
 *MOT:	然后呢你要不要读一下这个信啊.
@@ -3222,7 +3222,7 @@ sent_id: 229
 *MOT:	啊但这已是第几天?
 ----------------------------------------
 sent_id: 230
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi13.cha": line 824. Keyword: 以为 
+*** File "/LiReading/5/r5yfi13.cha": line 824. Keyword: 以为 
 *MOT:	老朋友老朋友.
 *MOT:	叙叙旧.
 *MOT:	或者你有更重要的事要去完成.
@@ -3236,7 +3236,7 @@ sent_id: 230
 *CHI:	他是谁?
 ----------------------------------------
 sent_id: 231
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi14.cha": line 798. Keyword: 以为 
+*** File "/LiReading/5/r5yfi14.cha": line 798. Keyword: 以为 
 *CHI:	走了.
 *MOT:	对呀小猫飞走了.
 *CHI:	xxx.
@@ -3250,7 +3250,7 @@ sent_id: 231
 *MOT:	我们会在见面吗?
 ----------------------------------------
 sent_id: 232
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi15.cha": line 897. Keyword: 以为 
+*** File "/LiReading/5/r5yfi15.cha": line 897. Keyword: 以为 
 *MOT:	知道吗?
 *MOT:	所以他就没有训他.
 *MOT:	然后你看猫猫藏在盒子里面.
@@ -3264,7 +3264,7 @@ sent_id: 232
 *MOT:	因为没人陪他玩.
 ----------------------------------------
 sent_id: 233
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi15.cha": line 1056. Keyword: 以为 
+*** File "/LiReading/5/r5yfi15.cha": line 1056. Keyword: 以为 
 *MOT:	身材肥胖爱撒娇.
 *MOT:	如有好心人发现请致电.
 *MOT:	然后他很伤心.
@@ -3278,7 +3278,7 @@ sent_id: 233
 *MOT:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 234
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi19.cha": line 399. Keyword: 以为 
+*** File "/LiReading/5/r5yfi19.cha": line 399. Keyword: 以为 
 *MOT:	特征.
 *MOT:	公.
 *MOT:	爱撒娇.
@@ -3292,7 +3292,7 @@ sent_id: 234
 *MOT:	会去找老朋友叙旧.
 ----------------------------------------
 sent_id: 235
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi20.cha": line 1536. Keyword: 以为 
+*** File "/LiReading/5/r5yfi20.cha": line 1536. Keyword: 以为 
 *MOT:	然后希望别人看到了就打电话给他.
 *MOT:	知道吗?
 *CHI:	知道啦.
@@ -3306,7 +3306,7 @@ sent_id: 235
 *MOT:	去找你老朋友叙旧.
 ----------------------------------------
 sent_id: 236
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi22.cha": line 667. Keyword: 以为 
+*** File "/LiReading/5/r5yfi22.cha": line 667. Keyword: 以为 
 *MOT:	他贴了一个寻猫启事.
 *MOT:	特征公身材肥胖爱撒娇.
 *MOT:	如有好心人发现请致电.
@@ -3320,7 +3320,7 @@ sent_id: 236
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 237
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi23.cha": line 193. Keyword: 以为 
+*** File "/LiReading/5/r5yfi23.cha": line 193. Keyword: 以为 
 *CHI:	这是什么?
 *MOT:	寻猫启事.
 *MOT:	他在找这个猫咪.
@@ -3334,7 +3334,7 @@ sent_id: 237
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 238
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi24.cha": line 143. Keyword: 以为 
+*** File "/LiReading/5/r5yfi24.cha": line 143. Keyword: 以为 
 *MOT:	他四处打听.
 *MOT:	张贴寻猫启事.
 *MOT:	可猫一只没回来.
@@ -3348,7 +3348,7 @@ sent_id: 238
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 239
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi25.cha": line 579. Keyword: 以为 
+*** File "/LiReading/5/r5yfi25.cha": line 579. Keyword: 以为 
 *MOT:	纸头上写寻猫启事.
 *MOT:	它的特征身材爱撒娇.
 *MOT:	如有好心人发现请致电.
@@ -3362,7 +3362,7 @@ sent_id: 239
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 240
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi3.cha": line 991. Keyword: 以为 
+*** File "/LiReading/5/r5yfi3.cha": line 991. Keyword: 以为 
 *MOT:	所以就写了一个寻猫启事.
 *MOT:	你看一只肥胖的猫.
 *MOT:	爱撒娇如有好心人发现.
@@ -3376,7 +3376,7 @@ sent_id: 240
 *MOT:	会去找老朋友叙旧.
 ----------------------------------------
 sent_id: 241
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi4.cha": line 1202. Keyword: 以为 
+*** File "/LiReading/5/r5yfi4.cha": line 1202. Keyword: 以为 
 *MOT:	你看一只肥胖的猫.
 *MOT:	爱撒娇如有好心人发现.
 *MOT:	请致电.
@@ -3390,7 +3390,7 @@ sent_id: 241
 *MOT:	会去找老朋友叙旧.
 ----------------------------------------
 sent_id: 242
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi8.cha": line 543. Keyword: 以为 
+*** File "/LiReading/5/r5yfi8.cha": line 543. Keyword: 以为 
 *CHI:	上面.
 *CHI:	跑到了地下室.
 *MOT:	跑到地下室去了?
@@ -3404,7 +3404,7 @@ sent_id: 242
 *CHI:	我不怕你们啦.
 ----------------------------------------
 sent_id: 243
-*** File "/Users/penny/Downloads/LiReading/5/r5yfi9.cha": line 381. Keyword: 以为 
+*** File "/LiReading/5/r5yfi9.cha": line 381. Keyword: 以为 
 *CHI:	要是有两个猫就好了.
 *MOT:	它就在想着飞出去.
 *MOT:	你看真的飞出去了.
@@ -3417,7 +3417,7 @@ sent_id: 243
 *MOT:	如果是花的话需要什么呢?
 ----------------------------------------
 sent_id: 244
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl1.cha": line 111. Keyword: 以为 
+*** File "/LiReading/5/r5yfl1.cha": line 111. Keyword: 以为 
 *CHI:	可是.
 *MOT:	这是小朋友想象出来的.
 *CHI:	啊?
@@ -3431,7 +3431,7 @@ sent_id: 244
 *MOT:	小朋友自己害怕了.
 ----------------------------------------
 sent_id: 245
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl1.cha": line 129. Keyword: 以为 
+*** File "/LiReading/5/r5yfl1.cha": line 129. Keyword: 以为 
 *CHI:	有吗?
 *MOT:	地下室里没有大妖怪呀.
 *CHI:	有.
@@ -3445,7 +3445,7 @@ sent_id: 245
 *CHI:	大妖怪吃骨头.
 ----------------------------------------
 sent_id: 246
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl14.cha": line 1079. Keyword: 以为 
+*** File "/LiReading/5/r5yfl14.cha": line 1079. Keyword: 以为 
 *MOT:	到现在还没有找到.
 *CHI:	小猫不是在这里面.
 *MOT:	他还没有找到.
@@ -3459,7 +3459,7 @@ sent_id: 246
 *MOT:	会去找老朋友叙旧.
 ----------------------------------------
 sent_id: 247
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl17.cha": line 660. Keyword: 以为 
+*** File "/LiReading/5/r5yfl17.cha": line 660. Keyword: 以为 
 *MOT:	这就是我们今天的故事.
 *MOT:	寻猫启事.
 *MOT:	主人的小猫咪丢了.
@@ -3473,7 +3473,7 @@ sent_id: 247
 *MOT:	都五天了.
 ----------------------------------------
 sent_id: 248
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl18.cha": line 404. Keyword: 以为 
+*** File "/LiReading/5/r5yfl18.cha": line 404. Keyword: 以为 
 *MOT:	猫的特征是:公的身材肥胖爱撒娇.
 *MOT:	他希望好心人能发现他找到他.
 *MOT:	然后把它带回到主人的身边.
@@ -3487,7 +3487,7 @@ sent_id: 248
 *MOT:	我们会再见面吗我很想你?
 ----------------------------------------
 sent_id: 249
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl19.cha": line 490. Keyword: 以为 
+*** File "/LiReading/5/r5yfl19.cha": line 490. Keyword: 以为 
 *MOT:	对吗.
 *CHI:	然后它贴了寻猫启事.
 *MOT:	对.
@@ -3501,7 +3501,7 @@ sent_id: 249
 *MOT:	我想你是不是只是回到你来的地方.
 ----------------------------------------
 sent_id: 250
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl20.cha": line 238. Keyword: 以为 
+*** File "/LiReading/5/r5yfl20.cha": line 238. Keyword: 以为 
 @G:	Xunmaoqishi
 *MOT:	第二本寻猫启事.
 *MOT:	我们先看一看这个图片.
@@ -3515,7 +3515,7 @@ sent_id: 250
 *MOT:	这个故事要从主人公收养一只流浪猫开始.
 ----------------------------------------
 sent_id: 251
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl21.cha": line 454. Keyword: 以为 
+*** File "/LiReading/5/r5yfl21.cha": line 454. Keyword: 以为 
 *MOT:	特征公.
 *MOT:	身材肥胖爱撒娇.
 *MOT:	如有好心人发现请致电什么什么.
@@ -3529,7 +3529,7 @@ sent_id: 251
 *CHI:	我想你会不会只是回到原来的地方去找老朋友.
 ----------------------------------------
 sent_id: 252
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl5.cha": line 176. Keyword: 以为 
+*** File "/LiReading/5/r5yfl5.cha": line 176. Keyword: 以为 
 *MOT:	可以看到美丽的风景.
 *MOT:	然后这个男生就要找到这只猫咪.
 *MOT:	就贴了寻猫启事.
@@ -3543,7 +3543,7 @@ sent_id: 252
 *MOT:	他很想猫咪,是不是?
 ----------------------------------------
 sent_id: 253
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl5.cha": line 348. Keyword: 以为 
+*** File "/LiReading/5/r5yfl5.cha": line 348. Keyword: 以为 
 *MOT:	有了只能各自它慢慢长大才能变成一颗参天大树是不是啊?
 *MOT:	所以想要大树需要种子.
 *MOT:	那想要种子需要什么?
@@ -3557,7 +3557,7 @@ sent_id: 253
 *MOT:	那么想要果实需要什么呢?
 ----------------------------------------
 sent_id: 254
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl6.cha": line 340. Keyword: 以为 
+*** File "/LiReading/5/r5yfl6.cha": line 340. Keyword: 以为 
 *MOT:	主人回来了给它买了很多的猫罐头.
 *MOT:	可是小猫却不见了.
 *MOT:	他在天空自由的飞翔.
@@ -3571,7 +3571,7 @@ sent_id: 254
 *MOT:	我想你.
 ----------------------------------------
 sent_id: 255
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl8.cha": line 257. Keyword: 以为 
+*** File "/LiReading/5/r5yfl8.cha": line 257. Keyword: 以为 
 *CHI:	身材肥胖爱撒娇.
 *CHI:	如有好心人发现请致电.
 *MOT:	后面是数字.
@@ -3585,7 +3585,7 @@ sent_id: 255
 *CHI:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 256
-*** File "/Users/penny/Downloads/LiReading/5/r5yfl9.cha": line 780. Keyword: 以为 
+*** File "/LiReading/5/r5yfl9.cha": line 780. Keyword: 以为 
 *MOT:	特征身材肥胖爱撒娇.
 *MOT:	如有好心人发现请给我打电话.
 *MOT:	主人还写了一段话.
@@ -3599,7 +3599,7 @@ sent_id: 256
 *MOT:	或者有更重要的事要去完成.
 ----------------------------------------
 sent_id: 257
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi1.cha": line 646. Keyword: 以为 
+*** File "/LiReading/5/r5ymi1.cha": line 646. Keyword: 以为 
 *MOT:	他怎么样了?
 *MOT:	当他回来他发现.
 *MOT:	猫咪丢了.
@@ -3613,7 +3613,7 @@ sent_id: 257
 *MOT:	去找老朋友叙旧了呢?
 ----------------------------------------
 sent_id: 258
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi11.cha": line 816. Keyword: 以为 
+*** File "/LiReading/5/r5ymi11.cha": line 816. Keyword: 以为 
 *MOT:	到处都是乱七八糟的.
 *CHI:	然后这箱子的眼睛.
 *MOT:	小猫[/]小猫不好意思了.
@@ -3627,7 +3627,7 @@ sent_id: 258
 *CHI:	嗯.
 ----------------------------------------
 sent_id: 259
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi11.cha": line 891. Keyword: 以为 
+*** File "/LiReading/5/r5ymi11.cha": line 891. Keyword: 以为 
 *MOT:	你看第二年的春天他们感情特别好.
 *MOT:	对不对?
 *MOT:	小猫咪都和快递叔叔睡在一起.
@@ -3641,7 +3641,7 @@ sent_id: 259
 *MOT:	小猫咪就特别的舍不得.
 ----------------------------------------
 sent_id: 260
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi11.cha": line 1053. Keyword: 以为 
+*** File "/LiReading/5/r5ymi11.cha": line 1053. Keyword: 以为 
 *MOT:	但是猫咪的主人快递叔叔等了好长时间都没有找到他.
 *MOT:	都没有等到他回来.
 *CHI:	他躲在某个地方.
@@ -3655,7 +3655,7 @@ sent_id: 260
 *MOT:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 261
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi12.cha": line 330. Keyword: 以为 
+*** File "/LiReading/5/r5ymi12.cha": line 330. Keyword: 以为 
 *CHI:	妖怪害怕了.
 *MOT:	嗯.
 *CHI:	他每次都[/]他每次都.
@@ -3669,7 +3669,7 @@ sent_id: 261
 *CHI:	这是干嘛?
 ----------------------------------------
 sent_id: 262
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi13.cha": line 1452. Keyword: 以为 
+*** File "/LiReading/5/r5ymi13.cha": line 1452. Keyword: 以为 
 *MOT:	它去它的世界去了.
 *MOT:	所以叔叔就写了一个寻猫启事要把这只猫找回来.
 *CHI:	他喜欢的.
@@ -3683,7 +3683,7 @@ sent_id: 262
 *MOT:	我想你会不会只是回到你来的地方去找老朋友叙旧.
 ----------------------------------------
 sent_id: 263
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi15.cha": line 325. Keyword: 以为 
+*** File "/LiReading/5/r5ymi15.cha": line 325. Keyword: 以为 
 *MOT:	有时候我能听到它的喘气声.
 *MOT:	只要我一伸头.
 *MOT:	它就不见了.
@@ -3697,7 +3697,7 @@ sent_id: 263
 *MOT:	爸爸说大妖怪们很讨厌上铺.
 ----------------------------------------
 sent_id: 264
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi15.cha": line 463. Keyword: 以为 
+*** File "/LiReading/5/r5ymi15.cha": line 463. Keyword: 以为 
 *MOT:	他就觉得他能打大妖怪了.
 *CHI:	恩.
 *MOT:	我知道大妖怪们就在外面等着我.
@@ -3711,7 +3711,7 @@ sent_id: 264
 *CHI:	因为一下子就能把它...
 ----------------------------------------
 sent_id: 265
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi15.cha": line 520. Keyword: 以为 
+*** File "/LiReading/5/r5ymi15.cha": line 520. Keyword: 以为 
 *MOT:	妖怪们吓得都跑了,是不是?
 *CHI:	恩.
 *MOT:	我现在都敢睡在上下铺的下面了.
@@ -3725,7 +3725,7 @@ sent_id: 265
 *MOT:	它害怕梯子.
 ----------------------------------------
 sent_id: 266
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi17.cha": line 841. Keyword: 以为 
+*** File "/LiReading/5/r5ymi17.cha": line 841. Keyword: 以为 
 *MOT:	终于有一天它从窗台上跳下去.
 *MOT:	然后离家出走.
 *MOT:	它的主人回家发现小猫咪不在了.
@@ -3739,7 +3739,7 @@ sent_id: 266
 *MOT:	去找你朋友叙旧.
 ----------------------------------------
 sent_id: 267
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi23.cha": line 437. Keyword: 以为 
+*** File "/LiReading/5/r5ymi23.cha": line 437. Keyword: 以为 
 *CHI:	他看不见这个猫了.
 *CHI:	他就到好多地方找这个猫.
 *MOT:	这个是主人写给猫的信.
@@ -3753,7 +3753,7 @@ sent_id: 267
 *MOT:	或者你有更重要的事要去完成.
 ----------------------------------------
 sent_id: 268
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi4.cha": line 922. Keywords: 以为, 以为 
+*** File "/LiReading/5/r5ymi4.cha": line 922. Keywords: 以为, 以为 
 *MOT:	没有,对不对?
 *CHI:	嗯.
 *MOT:	没有那既然没有妖怪还要不要胡思乱想啊?
@@ -3767,7 +3767,7 @@ sent_id: 268
 *CHI:	我以后晚上不敢在客厅玩了.
 ----------------------------------------
 sent_id: 269
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi5.cha": line 867. Keyword: 以为 
+*** File "/LiReading/5/r5ymi5.cha": line 867. Keyword: 以为 
 *MOT:	所以呢它的主人就非常的伤心.
 *MOT:	也非常的想念这只小猫他就写了一份寻猫启事.
 *MOT:	把这只猫的特征都写了出来,对不对?
@@ -3781,7 +3781,7 @@ sent_id: 269
 *MOT:	我们会再见面吗?
 ----------------------------------------
 sent_id: 270
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi6.cha": line 1669. Keyword: 以为 
+*** File "/LiReading/5/r5ymi6.cha": line 1669. Keyword: 以为 
 *MOT:	请致电.
 *CHI:	九三七对吧?
 *CHI:	小猫.
@@ -3795,7 +3795,7 @@ sent_id: 270
 *MOT:	我们会再见吗我很想念你.
 ----------------------------------------
 sent_id: 271
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi7.cha": line 668. Keyword: 以为 
+*** File "/LiReading/5/r5ymi7.cha": line 668. Keyword: 以为 
 *MOT:	你看它主人.
 *MOT:	张佳乐特别特别的心酸.
 *MOT:	他特别想念这只猫,对不对?
@@ -3809,7 +3809,7 @@ sent_id: 271
 *MOT:	或者你有更重要的事去完成.
 ----------------------------------------
 sent_id: 272
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi8.cha": line 964. Keyword: 以为 
+*** File "/LiReading/5/r5ymi8.cha": line 964. Keyword: 以为 
 *MOT:	对.
 *CHI:	所以它就长翅膀飞打翅膀飞走了,对不对?
 *MOT:	然后然后你看.
@@ -3823,7 +3823,7 @@ sent_id: 272
 *MOT:	我们会在见面吗?
 ----------------------------------------
 sent_id: 273
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi9.cha": line 1801. Keyword: 以为 
+*** File "/LiReading/5/r5ymi9.cha": line 1801. Keyword: 以为 
 *MOT:	到处在找,对不对呀?
 *MOT:	是不是这样子的?
 *CHI:	嗯.
@@ -3837,7 +3837,7 @@ sent_id: 273
 *CHI:	你躲的太久了.
 ----------------------------------------
 sent_id: 274
-*** File "/Users/penny/Downloads/LiReading/5/r5ymi9.cha": line 1852. Keyword: 以为 
+*** File "/LiReading/5/r5ymi9.cha": line 1852. Keyword: 以为 
 *MOT:	我很想你.
 *MOT:	他在猜小猫咪是躲到他们最开始相遇的地方了.
 *MOT:	他们相遇的地方是不是在城市的某一个角落呀?
@@ -3851,7 +3851,7 @@ sent_id: 274
 *MOT:	这个很正常的你看啊这个故事在讲什么.
 ----------------------------------------
 sent_id: 275
-*** File "/Users/penny/Downloads/LiReading/5/r5yml15.cha": line 987. Keyword: 以为 
+*** File "/LiReading/5/r5yml15.cha": line 987. Keyword: 以为 
 *MOT:	然后他就去什么呀?
 *MOT:	寻猫启事.
 *MOT:	然后主人就写了个寻猫启事.
@@ -3865,7 +3865,7 @@ sent_id: 275
 *MOT:	去找你老朋友叙旧.
 ----------------------------------------
 sent_id: 276
-*** File "/Users/penny/Downloads/LiReading/5/r5yml3.cha": line 1064. Keyword: 以为 
+*** File "/LiReading/5/r5yml3.cha": line 1064. Keyword: 以为 
 *CHI:	找到了.
 *MOT:	找到啦?
 *CHI:	对啊.
@@ -3879,7 +3879,7 @@ sent_id: 276
 *MOT:	好啦.
 ----------------------------------------
 sent_id: 277
-*** File "/Users/penny/Downloads/LiReading/5/r5yml4.cha": line 407. Keyword: 以为 
+*** File "/LiReading/5/r5yml4.cha": line 407. Keyword: 以为 
 *MOT:	对不对?
 *MOT:	然后就写个寻猫启事.
 *MOT:	他要找这个猫,是不是?
@@ -3893,7 +3893,7 @@ sent_id: 277
 *MOT:	或者你有更重要的事情要去完成我们会再见面吗?
 ----------------------------------------
 sent_id: 278
-*** File "/Users/penny/Downloads/LiReading/5/r5yml7.cha": line 433. Keyword: 以为 
+*** File "/LiReading/5/r5yml7.cha": line 433. Keyword: 以为 
 *MOT:	小猫已经长了翅膀飞走了.
 *MOT:	主人想念他的猫就在电线杆上贴上寻猫启事.
 *MOT:	特征公身材肥胖爱撒娇.

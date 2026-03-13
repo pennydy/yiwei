@@ -3,17 +3,17 @@ import sys
 from pathlib import Path
 import argparse
 
+FILE_HEADR = re.compile(r'^\*\*\*\s*File\s+"([^"]+)"\s*:\s*line\s*(\d+)', re.MULTILINE)
+
 def add_id(input_path: str, output_path: str):
     text = Path(input_path).read_text(encoding="utf-8")
     lines = text.splitlines(keepends=True)
-
-    re_header = re.compile(r'^\*\*\* File .+?(Keyword|Keywords):\s*.*$', re.M)
 
     out_lines = []
     block_id = 0
     for ln in lines:
         # Insert the sent_id line immediately before the header line
-        if re_header.match(ln):
+        if FILE_HEADR.match(ln):
             block_id += 1
             out_lines.append(f"sent_id: {block_id}\n")
         out_lines.append(ln)
