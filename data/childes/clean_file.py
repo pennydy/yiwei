@@ -7,13 +7,12 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="clean files")
     parser.add_argument("--input", "-i", type=str, default="renwei_clean.txt")
-    parser.add_argument("--output", "-o", type=str, default="renwei_clean_format.txt")
     args = parser.parse_args()
 
     input_file = args.input
-    output_file = args.output
+    file_name = re.sub(r"\.txt$", "", args.input)
 
-    with open(input_file, "r", encoding="utf-8") as f_in, open(output_file, "w", encoding="utf-8") as f_out:
+    with open(input_file, "r", encoding="utf-8") as f_in, open(f'{file_name}_clean.txt', "w", encoding="utf-8") as f_out:
         for line in f_in:
             if ':\t' in line:
                 head, sep, tail = line.partition(':\t')

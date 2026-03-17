@@ -5,12 +5,12 @@ import argparse
 
 FILE_HEADR = re.compile(r'^\*\*\*\s*File\s+"([^"]+)"\s*:\s*line\s*(\d+)', re.MULTILINE)
 
-def add_id(input_path: str, output_path: str):
+def add_id(input_path: str, output_path: str, start_number: int):
     text = Path(input_path).read_text(encoding="utf-8")
     lines = text.splitlines(keepends=True)
 
     out_lines = []
-    block_id = 0
+    block_id = start_number
     for ln in lines:
         # Insert the sent_id line immediately before the header line
         if FILE_HEADR.match(ln):
@@ -24,10 +24,12 @@ def add_id(input_path: str, output_path: str):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="clean files")
     parser.add_argument("--input", "-i", type=str, default="renwei_clean.txt")
-    parser.add_argument("--output", "-o", type=str, default="renwei_clean_format.txt")
+    parser.add_argument("--num", "-n", type=int, default=0)
     args = parser.parse_args()
 
     input_file = args.input
-    output_file = args.output
+    file_name = re.sub(r"\.txt$", "", args.input)
+    output_file = f"{file_name}_id.txt"
+    start_number = args.num
 
-    add_id(input_file, output_file)
+    add_id(input_file, output_file, start_number)

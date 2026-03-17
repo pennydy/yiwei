@@ -89,7 +89,6 @@ def extract_text(text):
     return rows
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="clean files")
     parser.add_argument("--input", "-i", type=str, default="renwei_clean.txt")
@@ -108,7 +107,7 @@ if __name__ == "__main__":
 
         with open(f"{file_name}.csv", "w", encoding="utf-8") as f:
             writer = csv.writer(f)
-            writer.writerow(["id","file_name", "speaker", "sentence", "special_construction"])
+            writer.writerow(["id","file_name", "speaker", "sentence"])
             writer.writerows(rows)
     
     # to check the generated csv file for duplicated ids and missing ids
