@@ -113,7 +113,7 @@ context_clean_data <- context.data %>%
                                    condition == "filler" ~ response),
          response_num = if_else(response_corr == "correct", 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
-  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unclear"))
+  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unsupported"))
   
 context_summary <- context_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 
@@ -182,7 +182,8 @@ context_plot_violin <- ggplot(data=context_item_accuracy %>%
            fill=verb,
            alpha=discourse_type)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
-  geom_point(aes(shape=discourse_type),
+  geom_point(shape=22,
+             size=2,
              position=position_dodge2(width=.8,preserve = "single")) +
   # geom_errorbar(aes(ymin=YMin,ymax=YMax), 
   #               width=.2,
@@ -199,7 +200,6 @@ context_plot_violin <- ggplot(data=context_item_accuracy %>%
   theme_bw() +
   scale_fill_manual(values=cbPalette, guide = NULL) +
   scale_color_manual(values=cbPalette, guide = NULL) +
-  scale_shape_manual(values=c("supported"=22, "unclear"=24), name="Discourse type") +
   ylim(0,1)+
   scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +
   theme(legend.position = "top",

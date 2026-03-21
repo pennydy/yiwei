@@ -4,6 +4,8 @@ library(emmeans)
 library(tidyverse)
 library(ggplot2)
 library(ggsignif)
+library(ggforce)
+library(ggh4x)
 library(tidytext)
 library(RColorBrewer)
 library(stringr)
@@ -123,19 +125,30 @@ ggsave(no_context_plot, file="graphs/exp2_no_context.pdf", width=7, height=4)
 
 # violin plots
 no_context_plot_violin <- ggplot(data=no_context_item_accuracy %>% 
-         mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+         mutate(verb = fct_relevel(verb, "yiwei", "juede"),
+                discourse_type = fct_relevel(discourse_type, "supported", "unsupported")),
        aes(x=verb,
            y=accuracy,
            fill=verb,
            alpha=discourse_type)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
-  geom_point(aes(shape=discourse_type),
+  geom_point(shape=24,
+             size=2,
              position=position_dodge2(width=.8,preserve = "single")) +
+  geom_errorbar(aes(group=discourse_type,
+                    ymin=YMin,
+                    ymax=YMax),
+                width=.1,
+                position=position_dodge(width=.8,preserve="single"),
+                show.legend = FALSE,
+                alpha=0.5) +
   geom_violin(data=no_context_participant_accuracy %>% 
-                mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+                mutate(verb = fct_relevel(verb, "yiwei", "juede"),
+                       discourse_type = fct_relevel(discourse_type, "supported", "unsupported")),
               position=position_dodge(width=.8)) +
   geom_boxplot(data=no_context_participant_accuracy %>% 
-                 mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+                 mutate(verb = fct_relevel(verb, "yiwei", "juede"),
+                        discourse_type = fct_relevel(discourse_type, "supported", "unsupported")),
                width=0.1,
                position=position_dodge(width=.8),
                show.legend = FALSE) +
@@ -143,7 +156,6 @@ no_context_plot_violin <- ggplot(data=no_context_item_accuracy %>%
   scale_fill_manual(values=cbPalette, guide = NULL) +
   ylim(0,1)+
   scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
-  scale_shape_manual(values=c("supported"=22, "unsupported"=24), name="Discourse type") +
   theme(legend.position = "top",
         axis.title.x = element_text(size = 14),
         axis.text.x = element_text(size = 12),
@@ -175,6 +187,7 @@ ggplot(data=no_context_participant_accuracy %>%
              alpha=0.6)+
   theme_bw() +
   scale_fill_manual(values=cbPalette, guide = NULL) +
+  scale_color_manual(values=cbPalette, guide = NULL) +
   ylim(0,1)+
   scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
   theme(legend.position = "top",
@@ -297,6 +310,7 @@ all_item_accuracy <- all_data %>%
          context = fct_relevel(context, "presence", "absence"))
 
 ## 4.2 plot ----
+# violin plot
 context_type <- list("presence"="Context Presence",
                      "absence"="Context Absence")
 context_labeller <- function(variable,value){
@@ -339,6 +353,89 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
        y="Accuracy")
 all_plot_violin
 ggsave(all_plot_violin, file="graphs/all_no_context-violin_1.pdf", width=8, height=4)
+
+# by-item plot
+all_item_accuracy$context <- factor(all_item_accuracy$context, levels=c("presence", "absence"))
+all_item_accuracy$verb <- factor(all_item_accuracy$verb, levels=c("yiwei", "juede"))
+all_item_accuracy$x <- interaction(all_item_accuracy$discourse_type,
+                                   all_item_accuracy$context,
+                                   sep="_")
+all_item_accuracy$x <- factor(all_item_accuracy$x,
+                              levels=c("supported_presence",
+                                       "supported_absence",
+                                       "unsupported_presence",
+                                       "unsupported_absence"))
+
+ggplot(data=all_item_accuracy,
+       aes(x=x,
+           y=accuracy,
+           fill=verb,
+           color=verb,
+           group=interaction(item_id, discourse_type))) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_line(aes(group=interaction(item_id,discourse_type)),
+            position=position_dodge(width=0.4),
+            color="black",
+            alpha=0.5)+
+  geom_point(aes(shape=context),
+             position=position_dodge(width=0.4),
+             alpha=0.6)+
+  theme_bw() +
+  scale_fill_manual(values=cbPalette, guide = NULL) +
+  scale_color_manual(values=cbPalette, guide = NULL) +
+  facet_grid(~verb)+
+  scale_shape_manual(values=c("presence"=22, "absence"=24), name="Context") +
+  ylim(0,1)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  scale_x_discrete(labels = c(
+    "supported_presence" = "presence",
+    "supported_absence" = "absence",
+    "unsupported_presence" = "presence",
+    "unsupported_absence" = "absence"
+  )) +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12))
+
+# using facet_nested
+all_by_items<-ggplot(data=all_item_accuracy,
+       aes(x=context,
+           alpha=discourse_type,
+           y=accuracy,
+           fill=verb,
+           group=interaction(item_id, discourse_type))) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_line(position=position_dodge(width=0.4),
+            color="black",
+            linetype="dashed")+
+  geom_point(aes(shape=context),
+             position=position_dodge(width=0.4),
+             size=2)+
+  theme_bw() +
+  scale_fill_manual(values=cbPalette, guide = NULL) +
+  scale_shape_manual(values=c("presence"=22, "absence"=24), name="Context") +
+  ylim(0,1)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  facet_nested(~ verb + discourse_type) +
+  scale_x_discrete(labels = c(
+    "supported_presence" = "presence",
+    "supported_absence" = "absence",
+    "unsupported_presence" = "presence",
+    "unsupported_absence" = "absence"
+  )) +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12))
+ggsave(all_by_items, file="graphs/all_by_items.pdf", width=8, height=4)
+
 
 ## 4.3 analysis ----
 all_data$verb <- as.factor(all_data$verb)
