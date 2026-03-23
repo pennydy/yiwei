@@ -175,6 +175,11 @@ context_plot
 ggsave(context_plot, file="graphs/exp1_with_context.pdf", width=7, height=4)
 
 # violin plot
+position_jd <- position_jitterdodge(
+  jitter.width = 0.6,
+  dodge.width = 0.8,
+  seed=1
+)
 context_plot_violin <- ggplot(data=context_item_accuracy %>% 
          mutate(verb = fct_relevel(verb, "yiwei", "juede")),
        aes(x=verb,
@@ -182,21 +187,24 @@ context_plot_violin <- ggplot(data=context_item_accuracy %>%
            fill=verb,
            alpha=discourse_type)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
-  geom_point(shape=22,
-             size=2,
-             position=position_dodge2(width=.8,preserve = "single")) +
-  # geom_errorbar(aes(ymin=YMin,ymax=YMax), 
-  #               width=.2,
-  #               position=position_dodge2(width=0.8, preserve = "single"),
-  #               show.legend = FALSE) +
   geom_violin(data=context_participant_accuracy %>% 
                 mutate(verb=fct_relevel(verb,"yiwei", "juede")),
               position=position_dodge(width=.8)) +
   geom_boxplot(data=context_participant_accuracy %>% 
                  mutate(verb=fct_relevel(verb,"yiwei", "juede")),
                width=0.1,
+               # staplewidth = 0,
                position=position_dodge(width=.8),
                show.legend = FALSE) +
+  geom_point(aes(group=discourse_type),
+             shape=22,
+             size=2,
+             position=position_jd) +
+  geom_linerange(aes(group=discourse_type,
+                     ymin=YMin, ymax=YMax),
+                 position=position_jd,
+                 alpha=0.5,
+                 show.legend = FALSE) +
   theme_bw() +
   scale_fill_manual(values=cbPalette, guide = NULL) +
   scale_color_manual(values=cbPalette, guide = NULL) +

@@ -124,34 +124,35 @@ no_context_plot
 ggsave(no_context_plot, file="graphs/exp2_no_context.pdf", width=7, height=4)
 
 # violin plots
+position_jd <- position_jitterdodge(
+  jitter.width = 0.6,
+  dodge.width = 0.8,
+  seed=1
+)
 no_context_plot_violin <- ggplot(data=no_context_item_accuracy %>% 
-         mutate(verb = fct_relevel(verb, "yiwei", "juede"),
-                discourse_type = fct_relevel(discourse_type, "supported", "unsupported")),
+         mutate(verb = fct_relevel(verb, "yiwei", "juede")),
        aes(x=verb,
            y=accuracy,
            fill=verb,
            alpha=discourse_type)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
-  geom_point(shape=24,
-             size=2,
-             position=position_dodge2(width=.8,preserve = "single")) +
-  geom_errorbar(aes(group=discourse_type,
-                    ymin=YMin,
-                    ymax=YMax),
-                width=.1,
-                position=position_dodge(width=.8,preserve="single"),
-                show.legend = FALSE,
-                alpha=0.5) +
   geom_violin(data=no_context_participant_accuracy %>% 
-                mutate(verb = fct_relevel(verb, "yiwei", "juede"),
-                       discourse_type = fct_relevel(discourse_type, "supported", "unsupported")),
+                mutate(verb = fct_relevel(verb, "yiwei", "juede")),
               position=position_dodge(width=.8)) +
   geom_boxplot(data=no_context_participant_accuracy %>% 
-                 mutate(verb = fct_relevel(verb, "yiwei", "juede"),
-                        discourse_type = fct_relevel(discourse_type, "supported", "unsupported")),
+                 mutate(verb = fct_relevel(verb, "yiwei", "juede")),
                width=0.1,
                position=position_dodge(width=.8),
                show.legend = FALSE) +
+  geom_point(aes(group=discourse_type),
+             shape=24,
+             size=2,
+             position=position_jd) +
+  geom_linerange(aes(group=discourse_type,
+                     ymin=YMin, ymax=YMax),
+                 position=position_jd,
+                 alpha=0.5,
+                 show.legend = FALSE) +
   theme_bw() +
   scale_fill_manual(values=cbPalette, guide = NULL) +
   ylim(0,1)+
