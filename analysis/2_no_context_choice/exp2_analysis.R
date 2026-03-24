@@ -276,6 +276,7 @@ context_clean_data <- context.data %>%
          response_num = if_else(response_corr == "correct", 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
   mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unsupported"))
+
 all_data <- bind_rows(lst(context_clean_data, no_context_clean_data), .id="context") %>% 
   mutate(context = if_else(context == "context_clean_data", "presence", "absence"),
          context = fct_relevel(context, "presence", "absence")) 

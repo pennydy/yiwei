@@ -24,6 +24,7 @@ data/childes/child/*
 data/childes/other_speakers/*
 
 # analysis
+analysis/power_analysis/*.rds
 
 # writing
 writings/*
