@@ -130,14 +130,26 @@ print(plot(context_pwrcurve_items))
 dev.off()
 
 # having both more participants and more items
-model_extended_both <- extend(context_model, along = "workerid", n = 80)
-model_extended_both <- extend(model_extended_both, along = "item_id", n = 100)
+model_extended_both <- extend(context_model, along = "workerid", n = 60)
+model_extended_both <- extend(model_extended_both, along = "item_id", n = 120)
 context_pwrcurve_both <- powerCurve(model_extended_both,
                                      test = fixed("verbyiwei:discourse_typeunsupported"),
-                                     along = "workerid",
-                                     breaks = c(42, 60, 80),
+                                     along = "item_id",
+                                     breaks = c(10, 30, 60, 90, 120),
                                      nsim = 500,
                                      fitOpts = list(control = glmerControl(
                                        optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))))
+# worker_id=60, incremental items
+saveRDS(context_pwrcurve_both, file= "power_analysis/context_pwrcurve_both_2.rds")
 plot(context_pwrcurve_both)
-print(context_pwrcurve_both)
+pdf("power_analysis/context_pwrcurve_both_2.pdf", width=8, height=6)
+print(plot(context_pwrcurve_both))
+dev.off()
+
+# item=120, incremental worker_id
+saveRDS(context_pwrcurve_both, file= "power_analysis/context_pwrcurve_both_1.rds")
+plot(context_pwrcurve_both)
+pdf("power_analysis/context_pwrcurve_both_1.pdf", width=8, height=6)
+print(plot(context_pwrcurve_both))
+dev.off()
+
