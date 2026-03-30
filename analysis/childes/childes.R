@@ -168,7 +168,7 @@ child_discourse <- child_discourse %>%
   filter(count != 0) %>% 
   mutate(major_sentence_type = if_else(sentence_type %in% c("polar", "wh_question", "how-wh_question", "rhetorical", "tag_question"), "interrogative", sentence_type)) %>% # two levels for now
   mutate(discourse_type = if_else(grepl("against", discourse_type, fixed=TRUE), "inferred", discourse_type)) %>% 
-  mutate(discourse_type = if_else(discourse_type %in% c("not_p", "p_alt", "disagreement", "pretend_play", "contrast_p", "uncertainty"), "contrast", discourse_type)) %>%
+  mutate(discourse_type = if_else(discourse_type %in% c("not_p", "p_alt", "pretend_play", "contrast_p", "uncertainty"), "contrast", discourse_type)) %>%
   mutate(discourse_type = if_else(grepl("answer", discourse_type,fixed=TRUE), "p", discourse_type))
 
 child_discourse <- child_discourse %>% 
@@ -287,7 +287,8 @@ adult_discourse <- adult_discourse %>%
   mutate(major_sentence_type = if_else(sentence_type %in% c("polar", "wh_question", "how-wh_question", "rhetorical", "tag_question"), "interrogative", sentence_type)) %>% # two levels for now
   mutate(discourse_type = if_else(grepl("against", discourse_type, fixed=TRUE), "inferred", discourse_type)) %>% 
   mutate(discourse_type = if_else(discourse_type=="direct_p?", "p?", discourse_type)) %>% 
-  mutate(discourse_type = if_else(discourse_type %in% c("not_p", "p_alt", "disagreement", "pretend_play", "contrast_p", "uncertainty"), "contrast", discourse_type)) %>%
+  mutate(discourse_type = if_else(discourse_type %in% c("not_p", "p_alt", "pretend_play", "contrast_p", "uncertainty"), "contrast", discourse_type)) %>%
+  mutate(discourse_type = if_else(discourse_type == "disagreement", "p", discourse_type)) %>% 
   mutate(discourse_type = if_else(grepl("answer",discourse_type,fixed=TRUE), "p", discourse_type))
 
 adult_discourse <- adult_discourse %>% 
