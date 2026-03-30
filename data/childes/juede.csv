@@ -1,139 +1,141 @@
-id,file_name,age,speaker,sentence,subject,embedded_subject,sentence_type,embedded_type,adverb,modal,embedded_modal,negation,aspect,embedded_aspect,tense,in_context,where_context,translation,contrast,where_contrast,belief_at_stake
+id,file_name,age,speaker,sentence,subject,embedded_subject,sentence_type,embedded_type,adverb,modal,embedded_modal,negation,embedded_negation,aspect,embedded_aspect,tense,in_context,where_context,translation,contrast,where_contrast,belief_at_stake
 1,ZhouDinner/middle/15,,father,"FAT: 你觉得今天的这几个菜哪个菜好吃一点呀?
-CHI: 黄瓜!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"father: among these dishes, which one do you think tastes better? 
+CHI: 黄瓜!",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"father: among these dishes, which one do you think tastes better? 
 son: cucumber!",no,no,
 2,ZhouDinner/middle/20,,child,"CHI: 你吃的公的还是母的?
 GMO: 公的吧.
 CHI: 我觉得是母的,因为我看着你那个小.
-GMO: 我看着大啊.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"child: did you eat the male (crabs) or the female (crabs)?
+GMO: 我看着大啊.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p_alt,before,"child: did you eat the male (crabs) or the female (crabs)?
 grandma: male (crabs) maybe.
 child: i think (you ate) female (crabs), because i see/think yours is/are small.
 grandma: i see/think (mine) is/are big.",no,no,
 3,ZhouDinner/middle/32,,child,"MOT: 所以我们要经常洗澡洗的身上香香的,对不对?
 CHI: 我觉得洗澡,身上湿湿的,都很舒服.
-MOT: 嗯呢.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,p_related,before,"mother: so we need to shower often to make ourselves smell nice, right?
+MOT: 嗯呢.",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,before,"mother: so we need to shower often to make ourselves smell nice, right?
 child: i think showing, when my body’s all wet, feels really nice.
 mother: yeah.",no,no,
-4,ZhouDinner/middle/32,,mother,"CHI: 他喜欢[/]喜欢吃鲨鱼?
-MOT: 鲨鱼啊?
-MOT: 不知道哎.
-MOT: 鲨鱼是不是太生猛了一点啊?
-MOT: 我觉得北极熊有可能追不上他.
-CHI: 北极熊是会成为鲨鱼的xxx.
-MOT: 但是北极还有一种动物.",first_person,NP,declarative,declarative,no,no,可能,no,no,no,no,no,no,"child: he (the polar bear?) likes to eat sharks?
-mother: sharks?
-mother: (i) don’t know.
-mother: isn’t the shar a bit too fierce/aggressive?
-mother: i think the polar bear might not be able to catch him (the shark).
-child: the polar bear might become the shark’s food(?)
-mother: there’s another type of animal in the north pole.",no,no,
+4,ZhouDinner/middle/32,,mother,"母亲: 它喜欢抓海里的鱼吃呗.
+孩子: 它喜欢...喜欢吃鲨鱼?
+母亲: 鲨鱼啊?
+母亲: 不知道哎.
+母亲: 鲨鱼是不是太生猛了一点啊?
+母亲: 我觉得北极熊有可能追不上它.
+孩子: 北极熊是会成为鲨鱼的晚餐.
+母亲: 但是北极还有一种动物.",first_person,NP,declarative,declarative,no,no,可能,no,,no,no,no,no,no,"mother: He likes to catch fish in the ocean to eat.
+child: He likes…likes to eat sharks?
+mother: Sharks?
+mother: (I) don’t know.
+mother: Isn’t the shar a bit too fierce/aggressive?
+mother: I think the polar bear might not be able to catch him (the shark).
+child: The polar bear might become the shark’s dinner.
+mother: There’s another type of animal in the North Pole.",no,no,
 5,ZhouDinner/middle/35,,mother,"MOT: 你要不吃,就不吃了. （should be FAT)
-MOT: 我觉得那个皮还香呢,脆脆的!",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,,no,no,
+MOT: 我觉得那个皮还香呢,脆脆的!",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,,no,no,
 6,ZhouDinner/middle/41,,child,"GMO: 嗯哝吃的好伐?
 GMO: 慢慢吃.
 GMO: 奶奶给你调羹.
 CHI: 这调羹了.
 GMO: xxx.
-CHI: 我觉得好吃.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p?,before,,no,no,
+CHI: 我觉得好吃.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p?,before,,no,no,
 7,ZhouDinner/middle/47,,mother,"MOT: 反正我是挺喜欢吃的.
 MOT 我觉得香香的.
-MOT: 嗯还不错.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: at least i like eating it.
+MOT: 嗯还不错.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: at least i like eating it.
 mother: i think (it) smells good.
 mother: mhm not bad.",no,no,
 8,ZhouDinner/middle/47,,child,"CHI: 姑姑[/]姑姑!
 AUT 嗯.
 CHI: 你是觉得是我包的好吃还是你包的好吃啊?
-AUT: 当然是你包的好吃啊.",second_person,NP,polar,declarative,no,是,no,no,no,no,no,p_answer,after,"child: aunt! Aunt!
+AUT: 当然是你包的好吃啊.",second_person,NP,polar,declarative,no,是,no,no,,no,no,no,p_answer,after,"child: aunt! Aunt!
 aunt: yeah
 child: do you think the ones that i made tasted better or the ones you made tasted better?
 aunt: of course it the ones that you made tasted better.",no,no,
 9,ZhouDinner/middle/47,,father,"FAT: 觉得那个蛋饺怎么样?
-AUN: 蛮好的.",dropped,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"father: what do (you) think about the egg dumplings/
+AUN: 蛮好的.",dropped,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"father: what do (you) think about the egg dumplings/
 aunt: pretty good.",no,no,
 10,ZhouDinner/middle/51,,mother,"FAT: 有点辣吧?
 MOT: 还好吧.
 MOT: 我觉得有点甜.
-CHI: 辣,哈哈哈.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_alt,"before, after","father: (is it) a little spicy?
+CHI: 辣,哈哈哈.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p_alt,"before, after","father: (is it) a little spicy?
 mother: (it is) okay.
 mother: i think (it is) a little sweet.
 child: spicy, hahaha",no,no,
 11,ZhouDinner/middle/58,,mother,"GFA: 要么你先吃.
 MOT: 不要,你先吃.
-MOT: 还是你觉得你比我吃得快?",second_person,second_person,polar,declarative,no,no,no,no,no,no,no,no,no,"grandpa: or you eat first.
+MOT: 还是你觉得你比我吃得快?",second_person,second_person,polar,declarative,no,no,no,no,,no,no,no,no,no,"grandpa: or you eat first.
 mother: no, you eat first.
 mother: or do you think you eat faster than i do?",no,no,
-12,ZhouDinner/middle/58,,mother,MOT: 你有没有觉得你的饭已经冷掉啦?,second_person,NP,polar,declarative,no,no,no,no,no,no,已经,no,no,mother: do you feel like/think your food is already cold?,no,no,
-13,ZhouDinner/middle/59,,grandma,GMO:  我觉得这个桌子太小.,first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,grandma: i think this table is too small.,no,no,
+12,ZhouDinner/middle/58,,mother,MOT: 你有没有觉得你的饭已经冷掉啦?,second_person,NP,polar,declarative,no,no,no,no,,no,no,已经,no,no,mother: do you feel like/think your food is already cold?,no,no,
+13,ZhouDinner/middle/59,,grandma,GMO:  我觉得这个桌子太小.,first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,grandma: i think this table is too small.,no,no,
 14,ZhouDinner/middle/65,,child,"CHI: 有个是大的.
 CHI: 爸爸,我觉得这个好大.
 FAT: 一样大的.
-FAT: 嗯这个大的",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,p,"before, after","child: there’s one that is big/there is a big one.
+FAT: 嗯这个大的",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,p,"before, after","child: there’s one that is big/there is a big one.
 child: dad, i think this is very big.
 father: (they are) the same size.
 father: yeah, this is big",no,no,
 15,ZhouDinner/middle/66,,mother,"MOT: <你觉得这个>[//]我觉得这个菠菜特别好吃.
-CHI: 不要啊.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"mother: i think this spinach is very delicious.
+CHI: 不要啊.",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: i think this spinach is very delicious.
 child: no (about the spinach)",no,no,
 16,ZhouDinner/middle/66,,mother,"MOT: 学校里边看牙齿啊?
 MOT: 你觉得你的牙齿蛀掉了吗?
-CHI: 蛀掉了.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: getting your teeth examined in school?
+CHI: 蛀掉了.",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,p_answer,after,"mother: getting your teeth examined in school?
 mother: do you think your teeth have decayed/have cavities?
 child: decayed.",no,no,
 17,ZhouDinner/middle/66,,child,"CHI: 爸爸,你最喜欢吃的是什么?
 FAT: 青菜!
 CHI: 我觉得你最喜欢吃的是巧克力.
-MOT: 巧克力啊?",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,p_alt,before,"child: dad, what is your favorite food?
+MOT: 巧克力啊?",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,p_alt,before,"child: dad, what is your favorite food?
 father: vegetables!
 child: i think your favorite food is chocolate.
 mother: chocolate?",no,no,
 18,ZhouDinner/middle/66,,child,"CHI: 我觉得我是想要说的.
-CHI: 但是我不能说.",first_person,first_person,declarative,declarative,no,no,是,no,no,no,no,p_alt,after,"child: i think i do want to say (something).
+CHI: 但是我不能说.",first_person,first_person,declarative,declarative,no,no,是,no,,no,no,no,p_alt,after,"child: i think i do want to say (something).
 chidl: but i cannot say (something).",no,no,
 19,ZhouDinner/middle/66,,mother,"MOT: 快点吃!
 MOT: 你也要去那边玩一玩.
 MOT: 然后你也会觉得啊这个菜真好吃!
-CHI: 不要你玩!",second_person,NP,declarative,declarative,也,会,no,no,no,no,no,no,no,"mother: eat faster!
+CHI: 不要你玩!",second_person,NP,declarative,declarative,也,会,no,no,,no,no,no,no,no,"mother: eat faster!
 mother: then you should go have some fun over there too.
 mother: then you’ll also think, wow, this food is really delicious!
 child: (i) don’t want you to play!",no,no,
 20,ZhouDinner/middle/70,,mother,"MOT: 你把菜倒是都吃完了.
 MOT: 但是妈妈觉得你菜和饭都要吃啊.
-MOT: 不能光吃菜的!",NP,second_person,declarative,declarative,no,no,no,no,no,no,no,p_related,"before, after","mother: you finished all the vegetables.
+MOT: 不能光吃菜的!",NP,second_person,declarative,declarative,no,no,no,no,,no,no,no,no,"before, after","mother: you finished all the vegetables.
 mother: but mom thinks you should eat both the rice and vegtables.
 mother: (you) shouldn’t only eat vegetables.",no,no,
 21,ZhouDinner/middle/70,,child,"CHI: 我觉得xxx认识xxx.
 FAT: 认识什么了?
-CHI: 认识xxx.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: i think xxx knows xxx.
+CHI: 认识xxx.",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"child: i think xxx knows xxx.
 father: knows what?
 child: knows xxx.",no,no,
 22,ZhouDinner/upper/02,,child,"CHI: 外婆,我觉得这个肯定很好吃.
-CHI: 可是我现在就想吃.",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: grandma, i think this is definitely very delicious.
+CHI: 可是我现在就想吃.",first_person,NP,declarative,declarative,,,,,,,no,no,no,no,"child: grandma, i think this is definitely very delicious.
 child: but i want eat (it) now.",no,no,
-23,ZhouDinner/upper/02,,,,,,,,,,,,,,,,,,,,
-24,ZhouDinner/upper/02,,,,,,,,,,,,,,,,,,,,
+23,ZhouDinner/upper/02,,mother,MOT: 今天上课觉得打瞌睡不?,dropped,dropped,polar,declarative,no,no,no,no,no,no,no,no,no,no,,,,
+24,ZhouDinner/upper/02,,mother,"MOT: 觉得很困,对吧?",dropped,dropped,tag_question,declarative,,,,,,,,,,,,,,
 25,ZhouDinner/upper/02,,mother,"MOT: 你觉得味道怎么样?
 CHI: 好!
-MOT: 很好啊?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: what do you think about the flavor?
+MOT: 很好啊?",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"mother: what do you think about the flavor?
 child: good!
 mother: good?",no,no,
 26,ZhouDinner/upper/02,,mother,"MOT: 今天画画课,你觉得怎么样?
 MOT: 我就觉得你的那个<大象呀>[//]大象身上的毯子没画好!
 CHI: 有点乱.
-MOT: 对[/]对[/]对!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,no,no,"mother: today’s drawing class, what do you think?/ what do you think about today’s drawing class?
+MOT: 对[/]对[/]对!",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,no,no,"mother: today’s drawing class, what do you think?/ what do you think about today’s drawing class?
 mother: i just think your elephant// the blanket on the elephant wasn’t drawn well.
 child: a bit messy.
 mother: yeah yeah yeah.",no,no,
 27,ZhouDinner/upper/02,,mother,"MOT: 今天画画课,你觉得怎么样?
 MOT: 我就觉得你的那个<大象呀>[//]大象身上的毯子没画好!
 CHI: 有点乱.
-MOT: 对[/]对[/]对!",first_person,NP,declarative,declarative,就,no,no,no,no,没,no,no,no,"mother: today’s drawing class, what do you think?/ what do you think about today’s drawing class?
+MOT: 对[/]对[/]对!",first_person,NP,declarative,declarative,就,no,no,no,,no,没,no,no,no,"mother: today’s drawing class, what do you think?/ what do you think about today’s drawing class?
 mother: i just think your elephant// the blanket on the elephant wasn’t drawn well.
 child: a bit messy.
 mother: yeah yeah yeah.",no,no,
 28,ZhouDinner/upper/07,,father,"FAT: 那个鸡蛋给谁吃啊?
 FAT: 嗯?
 FAT: 你觉得这个鸡蛋给谁吃啊?
-CHI: 要不给你吃?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,direct_p?,before,"father: who was that egg for?
+CHI: 要不给你吃?",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,direct_p?,before,"father: who was that egg for?
 father: yes?
 father: what do you think this egg is for?
 child? how about I give you it to eat? ",direct,before,
@@ -142,7 +144,7 @@ CHI: 嗯.
 CHI: 我最喜欢要这个!
 MOT: 那你这个,喜不喜欢?
 CHI: 不.
-MOT: 那你觉得汉堡包应该xxx?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,no,no,"mother: then shall we go home tomorrow and try making it ourselves?
+MOT: 那你觉得汉堡包应该xxx?",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,no,no,"mother: then shall we go home tomorrow and try making it ourselves?
 child: yeah.
 child: i like this one the most–i want this one!
 mother: then do you like this one?
@@ -151,30 +153,30 @@ mother: then what do you think the hamburgers should xxx?",no,no,
 30,ZhouDinner/upper/19,,mother,"MOT: 我就问你吗.
 MOT: 这个汉堡包,你觉得应该怎么做?
 MOT: 想一想!
-CHI: 应该放上一层皮,一层面包,再一层肉,再一层黄油,再一层肉串,还有肉!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: i just want to ask you.
+CHI: 应该放上一层皮,一层面包,再一层肉,再一层黄油,再一层肉串,还有肉!",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"mother: i just want to ask you.
 mother: this hamburger, how do you think it should be made?
 mother: think about it.
 child: (we) should put a layer of skin, then a layer of bread, then a layer of meat, then some butter, then a layer of meat skewers, and meat!",觉得,before,
 31,ZhouDinner/upper/19,,mother,"MOT: 那你觉得它为什么要把这些东西放在一起呢?
-CHI: 这样就更美味啊!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: then why do you think (we) should put these things together?
+CHI: 这样就更美味啊!",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"mother: then why do you think (we) should put these things together?
 child: this makes it more delicious!",no,no,
 32,ZhouDinner/upper/29,,child,"CHI: 妈妈,我觉得这个,我们学校也有.
 CHI: 像一个城堡.
-MOT: 哪个像城堡?",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: mom, i think this one, our school has this one too.
+MOT: 哪个像城堡?",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"child: mom, i think this one, our school has this one too.
 child: (it is) like a castle.
 mother: which one is like a castle?",no,no,
-33,ZhouDinner/upper/44,,child,CHI: 我觉得它很有弹性的. [the kid was playing with some food],first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,no,child: i think it (the food) is springy (chewy)!,no,no,
+33,ZhouDinner/upper/44,,child,CHI: 我觉得它很有弹性的. [the kid was playing with some food],first_person,third_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,child: i think it (the food) is springy (chewy)!,no,no,
 34,ZhouDinner/upper/44,,father,"FAT: 我觉得我们像外地人一样的.
-FAT: 这个视频都是说普通话.",first_person,first_person,declarative,declarative,no,no,no,no,no,no,no,no,no,"father: i think we are like non-locals.
+FAT: 这个视频都是说普通话.",first_person,first_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"father: i think we are like non-locals.
 father: (people in) this video/recording speak Mandarin.",no,no,no
 35,ZhouDinner/upper/45,,mother,"CHI: 妈妈,谁白?
 MOT: 你觉得谁白啦?
-CHI: 谁白?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,direct_p?,"before, after","child: mom, who (whose skin) is fair?
+CHI: 谁白?",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,direct_p?,"before, after","child: mom, who (whose skin) is fair?
 mother: who do you think looks fair?
 child: who is fair?",direct,before,yes
-36,ZhouDinner/upper/60,,,,,,,,,,,,,,,,,,,,
+36,ZhouDinner/upper/60,,child,CHI: 我还觉得很舒服.,,,,,,,,,,,,,,,,,,
 37,ZhouDinner/upper/62,,mother,"MOT: 其实我觉得鱼肉很好吃的.
-MOT: 你不要?",first_person,NP,declarative,declarative,其实,no,no,no,no,no,no,no,no,"mother: actually i think the fish is very delicious.
+MOT: 你不要?",first_person,NP,declarative,declarative,其实,no,no,no,,no,no,no,no,no,"mother: actually i think the fish is very delicious.
 mother: you don’t want?",no,no,
 38,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 你来帮我,好不好?
 CHI: 嗯.
@@ -182,7 +184,7 @@ TEA: 台灯你觉得可以放哪?
 TEA: 站起来没关系.
 TEA: 可以走动没关系.
 TEA: 哦,你想放哪里?
-TEA: 放阳台,是不是?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,no,no,"teacher: can you help me?
+TEA: 放阳台,是不是?",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,no,no,"teacher: can you help me?
 child: sure.
 teacher: the desk lamp, where do you think (we) can put (it)?
 teacher: it’s okay to stand up.
@@ -193,46 +195,46 @@ teacher: on the balcony, right?",想,after,
 CHI 这个我不知道.
 TEA: 你觉得这是什么?
 CHI: 被子吗?
-TEA: 哦,那这个呢?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,"direct_p?, p_answer","before, after","teacher: okay, what is this?
+TEA: 哦,那这个呢?",second_person,demonstrative,wh_question,declarative,no,no,no,no,,no,no,no,direct_p?,before,"teacher: okay, what is this?
 child: this, i don’t know.
 teacher: what do you think it is?
 child: a blanket?
 teacher: oh, what about this?",不知道,before,yes
 40,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 你觉得这个是房间还是更适合放浴缸呢?
 CHI: 浴缸.
-TEA: 为什么?",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: do you think this room is better as a bedroom or better for a bathtub? 
+TEA: 为什么?",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: do you think this room is better as a bedroom or better for a bathtub? 
 child: bathtub.
 teacher: why?",no,no,
 41,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 那这里你觉得应该是什么?
 TEA: 猜猜看.
-CHI: 卫生间那应该放这边.",second_person,NP,wh_question,declarative,no,no,应该,no,no,no,no,no,no,"teacher: then what do you think should be here?
+CHI: 卫生间那应该放这边.",second_person,NP,wh_question,declarative,no,no,应该,no,,no,no,no,no,no,"teacher: then what do you think should be here?
 teacher: take a guess.
 child: the bathroom should be on this side.",猜,after,yes
 42,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 那这里你觉得它是哪里?
 CHI: 房间.
 TEA: 房间,房间是卧室还是厨房呢?
-CHI: 厨房.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: then here, where do you think it is?
+CHI: 厨房.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: then here, where do you think it is?
 child: the room.
 teacher: room, is the room the bedroom or the kitchen?
 child: the kitchen.",no,no,
 43,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 那窗帘放哪里?
 CHI: 不知道.
 TEA: 你觉得窗帘可以放哪里?
-CHI: 仓库旁边.",second_person,NP,wh_question,declarative,no,no,可以,no,no,no,no,"direct_p?, p_answer","before, after","teacher: then where (should we) put the curtain?
+CHI: 仓库旁边.",second_person,NP,wh_question,declarative,no,no,可以,no,,no,no,no,direct_p?,before,"teacher: then where (should we) put the curtain?
 child: i don’t know.
 teacher: where do you think (we can) put the curtain?
 child: next to the storage.",不知道,before,yes
 44,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 可以呀那你自己决定吧!
 TEA: 你觉得哪里更适合?
 CHI: 我觉得...
-TEA: 那我们放卧室,好不好?",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,juede_answer,after,"teacher: sure! Then you can make the decision!
+TEA: 那我们放卧室,好不好?",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,juede_answer,after,"teacher: sure! Then you can make the decision!
 teacher: where do you think is better?
 child: i think…
 teacher: then shall we put (it) in the bedroom?",no,no,yes
 45,ZhouAssessment/4.5-5/FJHan_Shuheng,,child,"TEA: 可以呀那你自己决定吧!
 TEA: 你觉得哪里更适合?
 CHI: 我觉得...
-TEA: 那我们放卧室,好不好?",incomplete,incomplete,incomplete,incomplete,no,no,incomplete,incomplete,no,incomplete,incomplete,incomplete,incomplete,"teacher: sure! Then you can make the decision!
+TEA: 那我们放卧室,好不好?",incomplete,incomplete,incomplete,incomplete,no,no,incomplete,incomplete,,no,incomplete,incomplete,incomplete,incomplete,"teacher: sure! Then you can make the decision!
 teacher: where do you think is better?
 child: i think…
 teacher: then shall we put (it) in the bedroom?",觉得,before,
@@ -241,7 +243,7 @@ CHI: 装东西.
 TEA: 装东西.
 TEA: 那你觉得可以放哪里装东西?
 TEA: 买菜要不要装,要不要?
-CHI: 要.",second_person,dropped,wh_question,declarative,no,no,可以,no,no,no,no,no,no,"teacher: what can a basket be used for? 
+CHI: 要.",second_person,dropped,wh_question,declarative,no,no,可以,no,,no,no,no,no,no,"teacher: what can a basket be used for? 
 child: to carry/store stuff.
 teacher: to carry stuff.
 teacher: then where do you think (we) can put (it) to carry/store things?
@@ -250,7 +252,7 @@ child: yes.",no,no,
 47,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 这里还有一个.
 TEA: 你觉得可以放哪里?
 CHI: 这个应该拔出来.
-TEA: 嗯,这个应该拔出来然后呢?",second_person,dropped,wh_question,declarative,no,no,可以,no,no,no,no,p_answer,after,"teacher: here is another one.
+TEA: 嗯,这个应该拔出来然后呢?",second_person,dropped,wh_question,declarative,no,no,可以,no,,no,no,no,p_answer,after,"teacher: here is another one.
 teacher: where do you think (we can) put (it)?
 child: this should be pulled out.
 teacher: yeah, this should be pulled out. And then?",no,no,
@@ -260,7 +262,7 @@ TEA: 对了,可以放哪个房间?
 TEA: 红蓝你觉得可以可以放哪里?
 TEA: 客厅有的时候开舞会的时候可以有这种颜色会不会好?
 CHI: 很好.
-TEA: 那可以放哪里?",second_person,NP,wh_question,declarative,no,no,可以,no,no,no,no,direct_p?,before,"teacher: which color of the light?/which color is the light?
+TEA: 那可以放哪里?",second_person,NP,wh_question,declarative,no,no,可以,no,,no,no,no,direct_p?,before,"teacher: which color of the light?/which color is the light?
 child: yeah, red blue.
 teacher: that’s right.  Which room can (we) put it?
 teacher: red blue, where do you think (we) can can put it?
@@ -270,28 +272,28 @@ teacher: then where can (we) put it?",direct,before,yes
 49,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 这是谁?
 CHI: 妈妈.
 TEA: 妈妈你觉得她在干吗?
-CHI: 我觉得我...",second_person,second_person,wh_question,declarative,no,no,no,no,no,在,no,juede_answer,after,"teacher: who is this?
+CHI: 我觉得我...",second_person,second_person,wh_question,declarative,no,no,no,no,,no,在,no,juede_answer,after,"teacher: who is this?
 child: mom/mummy pig.
 teacher: mommoy pig, what do you think she’s doing?
 child: i think i…",no,no,
 50,ZhouAssessment/4.5-5/FJHan_Shuheng,,child,"TEA: 这是谁?
 CHI: 妈妈.
 TEA: 妈妈你觉得她在干吗?
-CHI: 我觉得我...",first_person,first_person,incomplete,incomplete,no,no,incomplete,incomplete,no,incomplete,incomplete,incomplete,incomplete,"teacher: who is this?
+CHI: 我觉得我...",first_person,first_person,incomplete,incomplete,no,no,incomplete,incomplete,,no,incomplete,incomplete,incomplete,incomplete,"teacher: who is this?
 child: mom/mummy pig.
 teacher: mom/mommy pig, what do you think she’s doing?
 child: i think i…",觉得,before for question,
 51,ZhouAssessment/4.5-5/FJHan_Shuheng,,teacher,"TEA: 我们先把这些东西摆进去.
 TEA: 你觉得这个放哪里?
 CHI: 妈妈我我觉得她应该在可能小猪佩奇睡觉.
-TEA: 哦,好的,可以就让她睡觉.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,no,no,"teacher: let’s first put these things in.
+TEA: 哦,好的,可以就让她睡觉.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,no,no,"teacher: let’s first put these things in.
 teacher: what do you think (we) should put this?
 child: mom/mummy pig, i i think she should be, maybe the peppa pig is sleeping.
 teacher: oh, okay, (we) can let her sleep.",no,no,
 52,ZhouAssessment/4.5-5/FJHan_Shuheng,,child,"TEA: 我们先把这些东西摆进去.
 TEA: 你觉得这个放哪里?
 CHI: 妈妈我我觉得她应该在可能小猪佩奇睡觉.
-TEA: 哦,好的,可以就让她睡觉.",first_person,third_person,declarative,declarative,no,no,应该，可能,no,no,no,no,no,no,"teacher: let’s first put these things in.
+TEA: 哦,好的,可以就让她睡觉.",first_person,third_person,declarative,declarative,no,no,应该，可能,no,,no,no,no,no,no,"teacher: let’s first put these things in.
 teacher: what do you think (we) should put this?
 child: mom/mummy pig, i i think she should be, maybe the peppa pig is sleeping.
 teacher: oh, okay, (we) can let her sleep.",觉得,before for question,
@@ -299,7 +301,7 @@ teacher: oh, okay, (we) can let her sleep.",觉得,before for question,
 TEA: 你觉得房子漂亮吗?
 TEA: 嘴巴说漂亮吗?
 TEA: 你觉得漂亮吗?
-CHI: 漂亮.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,no,no,"teacher: there’s a house.
+CHI: 漂亮.",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,no,no,"teacher: there’s a house.
 teacher: do you think the house is beautiful?
 teacher: does the mouth say beautiful? 
 teacher: do you think (it is) beautiful?
@@ -308,7 +310,7 @@ child: beautiful.",no,no,
 TEA: 你觉得房子漂亮吗?
 TEA: 嘴巴说漂亮吗?
 TEA: 你觉得漂亮吗?
-CHI: 漂亮.",second_person,dropped,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: there’s a house.
+CHI: 漂亮.",second_person,dropped,polar,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: there’s a house.
 teacher: do you think the house is beautiful?
 teacher: does the mouth say beautiful? 
 teacher: do you think (it is) beautiful?
@@ -316,23 +318,23 @@ child: beautiful.",no,no,
 55,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 他会在哪里呢?
 TEA: 你来摆吧?
 TEA: 你觉得他现在应该是在做什么猪爸爸?
-TEA: 站起来?",first_person,third_person,wh_question,declarative,no,no,应该,no,no,no,no,no,no,"teacher: where will he be?
+TEA: 站起来?",first_person,third_person,wh_question,declarative,no,no,应该,no,,no,no,no,no,no,"teacher: where will he be?
 teacher: do you want to set it up?
 teacher: what do you think he is doing, daddy pig?
 teacher: standing up?",no,no,
 56,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你把他摆过去.
 TEA: 你觉得猪爸爸会在哪里?
-TEA: 他是会在房间睡觉呢,还是会在客厅里面吃饭呢,还是会去干吗?",first_person,NP,wh_question,declarative,no,no,会,no,no,no,no,no,no,"teacher: you put him over there.
+TEA: 他是会在房间睡觉呢,还是会在客厅里面吃饭呢,还是会去干吗?",first_person,NP,wh_question,declarative,no,no,会,no,,no,no,no,no,no,"teacher: you put him over there.
 teacher: where do you think daddy pig will be?
 teacher? Will he be sleeping in the room, or eating in the living room, or doing something?",no,no,
 57,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你觉得这是哪里?
-CHI: 睡觉的地方.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: where do you think this is?
+CHI: 睡觉的地方.",second_person,demonstrative,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: where do you think this is?
 child: a place to sleep.",no,no,
 58,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 猪妈妈你觉得会在干吗?
 TEA: 这是什么意思?
 CHI: 饭厅.
 TEA: 妈妈在饭厅做什么?
-CHI: 嗯做菜.",second_person,NP,wh_question,declarative,no,no,会,no,no,no,no,p_answer,after,"teacher: mummy pig, what do you think (she) will be doing?
+CHI: 嗯做菜.",second_person,NP,wh_question,declarative,no,no,会,no,,no,no,no,p_answer,after,"teacher: mummy pig, what do you think (she) will be doing?
 teacher: what does this mean?
 child: the dining room.
 teacher: what is mom/mummy pig doing in the dining room?
@@ -342,7 +344,7 @@ TEA: 你来你走过这里来看一看看得更清楚.
 TEA: 乔治你觉得他是在干吗?
 TEA: 这是在哪呢?
 TEA: 这个地方是哪的你觉得?
-CHI: 这上面的餐桌.",second_person,third_person,wh_question,declarative,no,no,no,no,no,在,no,no,no,"teacher: george, what do you think he is doing?
+CHI: 这上面的餐桌.",second_person,third_person,wh_question,declarative,no,no,no,no,,no,在,no,no,no,"teacher: george, what do you think he is doing?
 teacher: you come and walk here to take a look, you’ll see it more clearly.
 teacher: george, what is he doing that you think / what do you think he is doing?
 teacher: where is this?
@@ -353,7 +355,7 @@ TEA: 你来你走过这里来看一看看得更清楚.
 TEA: 乔治你觉得他是在干吗?
 TEA: 这是在哪呢?
 TEA: 这个地方是哪的你觉得?
-CHI: 这上面的餐桌.",second_person,third_person,wh_question,declarative,no,no,是,no,no,在,no,no,no,"teacher: george, what do you think he is doing?
+CHI: 这上面的餐桌.",second_person,third_person,wh_question,declarative,no,no,是,no,,no,在,no,no,no,"teacher: george, what do you think he is doing?
 teacher: you come and walk here to take a look, you’ll see it more clearly.
 teacher: george, what is he doing that you think / what do you think he is doing?
 teacher: where is this?
@@ -364,7 +366,7 @@ TEA: 你来你走过这里来看一看看得更清楚.
 TEA: 乔治你觉得他是在干吗?
 TEA: 这是在哪呢?
 TEA: 这个地方是哪的你觉得?
-CHI: 这上面的餐桌.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: george, what do you think he is doing?
+CHI: 这上面的餐桌.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: george, what do you think he is doing?
 teacher: you come and walk here to take a look, you’ll see it more clearly.
 teacher: george, what is he doing that you think / what do you think he is doing?
 teacher: where is this?
@@ -373,7 +375,7 @@ child: the dining table above.",no,no,
 62,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 那乔治的妹妹佩奇这会儿你觉得她是在干吗?
 CHI: 嗯?
 TEA: 哦,她在干吗呀?
-CHI: 弹钢琴.",second_person,third_person,wh_question,declarative,no,no,no,no,no,在,no,direct_p?,after,"teacher: then george’s sister peppa, what do you think she is doing right now?
+CHI: 弹钢琴.",second_person,third_person,wh_question,declarative,no,no,no,no,,no,在,no,direct_p?,after,"teacher: then george’s sister peppa, what do you think she is doing right now?
 child: what?
 teacher: oh, what is she doing?
 child: playing the piano.",direct,after,
@@ -382,7 +384,7 @@ TEA: 你觉得她今天会弹什么一首曲子呢?
 TEA: <她会弹一首什么歌呢>[/]她会弹一首什么歌曲呢?
 TEA: 小星星?
 TEA: 点头是代表的什么意思?
-CHI: 是.",second_person,third_person,wh_question,declarative,no,no,会,no,no,no,no,direct_p?,after,"teacher: she is playing the piano.
+CHI: 是.",second_person,third_person,wh_question,declarative,no,no,会,no,,no,no,no,direct_p?,after,"teacher: she is playing the piano.
 teacher: which song do you think she will play today?
 teacher: which song she will play today?
 teacher: twinkle twinkle little star?
@@ -390,54 +392,54 @@ teacher: what does nodding mean?
 child: yes.",direct,after,
 64,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 好,你觉得那他到他们家门口之后他会做什么事情?
 TEA: 去别人家做客会做什么事情?
-CHI: 会(.)还这样走就到了.",second_person,third_person,wh_question,declarative,no,no,会,no,no,no,no,direct_p?,after,"teacher: okay, what do you think then after he is infront of their door, what will he do?
+CHI: 会(.)还这样走就到了.",second_person,third_person,wh_question,declarative,no,no,会,no,,no,no,no,direct_p?,after,"teacher: okay, what do you think then after he is infront of their door, what will he do?
 teacher: What do you do when you visit someone’s home?
 child: will (action) and also walk like this then we’ll get there.",direct,after,
 65,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 好,我们来敲敲门.
 TEA: 这个时候你觉得谁会回答?
 TEA: 里面的人听到了,他会怎么说.
-CHI: 里面有人.",second_person,third_person,wh_question,declarative,no,no,会,no,no,no,no,no,no,"teacher: okay, let’s knock on the door.
+CHI: 里面有人.",second_person,third_person,wh_question,declarative,no,no,会,no,,no,no,no,no,no,"teacher: okay, let’s knock on the door.
 teacher: Who do you think would answer at this moment?
 teacher: the person inside hear it, what will he/she say?
 child: there are people inside.",no,no,
 66,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你觉得猪妈妈会带他们去哪儿呢?
 TEA: 去客厅喝茶还是去饭厅吃吃早饭呢,去哪儿?
-CHI: 上面去",second_person,NP,wh_question,declarative,no,no,会,no,no,no,no,direct_p?,after,"teacher: where do you think mummy pig will take them?
+CHI: 上面去",second_person,NP,wh_question,declarative,no,no,会,no,,no,no,no,direct_p?,after,"teacher: where do you think mummy pig will take them?
 teacher: to the living room to drink tea, or to the dining room to eat breakfast? Where?
 child: to go up.",direct,after,
 67,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 好,那你觉得第二个上去的是谁?
-CHI: 妈妈.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: okay, then, who do you think is the second person to go up/upstairs?
+CHI: 妈妈.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: okay, then, who do you think is the second person to go up/upstairs?
 child: mom.",no,no,
 68,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: <我觉得>[//]<你觉得他们现在会发生什么事情>[//]你觉得他们会发生什么事情,你用语言来告诉我.
 CHI 啊,怎么回事?
 TEA: 嗯?
-TEA: 会发生什么事呢?",second_person,third_person,wh_question,declarative,no,no,no,no,no,no,no,direct_p?,after,"teacher: <i think>//<what do you think will happen to them now?> what do you think will happen to them now? Tell me in words.
+TEA: 会发生什么事呢?",second_person,third_person,wh_question,declarative,no,no,no,no,,no,no,no,direct_p?,after,"teacher: <i think>//<what do you think will happen to them now?> what do you think will happen to them now? Tell me in words.
 child: ah, what’s going on?
 teacher: yes?
 teacher: what will happen?",direct,after,
 69,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你觉得他们会发生什么事情呢,接下来?
 TEA: 作为主人的妈妈,她可能会说什么呢?
-CHI: 他不用吃了.",second_person,third_person,wh_question,declarative,no,no,no,no,no,no,no,direct_p?,after,"teacher: what do you think will happen to them next?
+CHI: 他不用吃了.",second_person,third_person,wh_question,declarative,no,no,no,no,,no,no,no,direct_p?,after,"teacher: what do you think will happen to them next?
 teacher: as the mom of the owner, what will she say?
 child: he doesn’t need to eat.",direct,after,
 70,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 哎,你看,<弟弟的表情是怎么样的>[//]弟弟的表情是什么样子.
 CHI: 把舌头伸出来了出来.
 TEA: 把舌头伸出来了是因为觉得这个食物太好吃了吗?
-TEA: 嗯,那我们再来看看妹妹.",dropped,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"teacher: ah look, <what is the little brother’s expression?> what expression is the little brother making?
+TEA: 嗯,那我们再来看看妹妹.",dropped,NP,polar,declarative,no,no,no,no,,no,no,no,no,no,"teacher: ah look, <what is the little brother’s expression?> what expression is the little brother making?
 child: he stuck out his tongue.
 teacher: is it because (he) thinks the food is so delicious that he stuck out his tongue?
 teacher: okay, then let’s look at the sister.",no,no,
 71,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 你觉得妹妹会先吃哪一盘啊?
-CHI: 这一盘.",second_person,NP,wh_question,declarative,no,no,会,no,no,no,no,p_answer,after,"teacher: which dish do you think the sister will have first?
+CHI: 这一盘.",second_person,NP,wh_question,declarative,no,no,会,no,,no,no,no,p_answer,after,"teacher: which dish do you think the sister will have first?
 child: this dish.",no,no,
 72,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 她可能会觉得怎么样?
 CHI: 很好吃.
-TEA: 这个蛋糕太好吃啦!",third_person,dropped,wh_question,declarative,no,可能，会,no,no,no,no,no,p_answer,after,"teacher: How might she feel?
+TEA: 这个蛋糕太好吃啦!",third_person,dropped,wh_question,declarative,no,可能，会,no,no,,no,no,no,p_answer,after,"teacher: How might she feel?
 child: very delicious.
 teacher:  this cake is so delicious!",no,no,
 73,ZhouAssessment/4.5-5/FJJiang_Mingze,,teacher,"TEA: 吃完了饭,吃完了点心,你觉得嗯,觉得作为乔治妈妈,还有乔治爸爸,还会邀请他们做什么?
 TEA: 这个时候,乔治爸爸,他<会不会也出来了>[/]会不会也出来了?
-CHI: 会.",second_person,NP,wh_question,declarative,no,no,会,no,no,no,no,direct_p?,after,"tacher: after finishing having the meal, finishing eating the dessert, what do you think, think as george’s mom and george’s dad, what will (they) invite them to do?
+CHI: 会.",second_person,NP,wh_question,declarative,no,no,会,no,,no,no,no,direct_p?,after,"tacher: after finishing having the meal, finishing eating the dessert, what do you think, think as george’s mom and george’s dad, what will (they) invite them to do?
 teacher: at this point, george’s dad, will he come out?
 child: yes.",no,no,
 74,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 还有什么吗?
@@ -445,7 +447,7 @@ CHI: 爸爸.
 TEA: 你觉得这个是他的爸爸是吗,噢那这个呢?
 CHI: 妈妈.
 TEA: 你怎么觉得这个是爸爸,哪里看出来呢?
-CHI: 因为他衣服是蓝色的啊.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p,before,"teacher: what else?
+CHI: 因为他衣服是蓝色的啊.",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,p,before,"teacher: what else?
 child: dad.
 teacher: you think this is his dad, right? Oh, what about this one?
 child: mom.
@@ -456,20 +458,20 @@ CHI: 爸爸.
 TEA: 你觉得这个是他的爸爸是吗,噢那这个呢?
 CHI: 妈妈.
 TEA: 你怎么觉得这个是爸爸,哪里看出来呢?
-CHI: 因为他衣服是蓝色的啊.",second_person,NP,how-wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: what else?
+CHI: 因为他衣服是蓝色的啊.",second_person,NP,how-wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: what else?
 child: dad.
 teacher: you think this is his dad, right? Oh, what about this one?
 child: mom.
 teacher: how/why do you think this is dad? Where can you tell?
 child: because his shirt is blue.",no,no,yes
 76,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 爸爸带着眼镜,你觉得像爸爸.
-TEA: 爸爸妈妈哪里呢?",second_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"teacher: dad wears glasses, you think (it/he) looks like dad.
+TEA: 爸爸妈妈哪里呢?",second_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,no,no,"teacher: dad wears glasses, you think (it/he) looks like dad.
 teacher: where are mom and dad?",no,no,
 77,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 怎么看出来它是男生还是女生?
 CHI: 因为它衣服蓝色.
 CHI 然后她的衣服是粉红色.
 TEA: 噢,你觉得女生喜欢刷(穿？)粉色的肯定是女生,那这男生喜欢蓝色得,对不对?
-CHI: 嗯.",second_person,NP,rhetorical,declarative,no,no,no,no,no,no,no,"p, p_answer","before, after","teacher: how to tell he is a boy or a gir?
+CHI: 嗯.",second_person,NP,tag_question,declarative,no,no,no,no,,no,no,no,p,before,"teacher: how to tell he is a boy or a gir?
 child: because its cloth is blue.
 child: and then its/her cloth is pink.
 teacher: oh, you think girls like to wear pink, (it) must be a girl, and then boys like blue things, right?
@@ -478,19 +480,19 @@ child: yeah.",no,no,
 CHI: 沙发.
 TEA: 嗯,这个有点像茶几,是不是啊?
 TEA: 那你觉得放在哪一边呢?
-CHI: 搬那边去.",second_person,dropped,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: okay, let’s see, what is this?
+CHI: 搬那边去.",second_person,dropped,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: okay, let’s see, what is this?
 child: a sofa.
 teacher: yeah, this looks like a coffes table, right?
 teacher: which side do you think (we should) put it/it should be placed?
 child: move to that side.",no,no,
 79,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 噢,那你觉得这张椅子长长木头做的更适合放在哪里呢?
-CHI: 那些放在外面.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: oh, then where do you think is better (a better place) to put this chair made from long wood?
+CHI: 那些放在外面.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: oh, then where do you think is better (a better place) to put this chair made from long wood?
 child: those should be put outside.",no,no,
 80,ZhouAssessment/4.5-5/FJfangzixi,,teacher,"TEA: 那这个是什么呢?
 CHI: 外面灯.
 TEA: 嗯,你觉得这是外面灯.
 TEA: 那这是什么?
-CHI: 桌子[//]小桌子.",second_person,NP,declarative,declarative,no,no,no,no,no,no,no,p,before,"teacher: then what is this?
+CHI: 桌子[//]小桌子.",second_person,demonstrative,declarative,declarative,no,no,no,no,,no,no,no,p,before,"teacher: then what is this?
 child: outside light.
 teacher. Oh, you think this is outside light.
 teacher: then what is this?
@@ -499,7 +501,7 @@ child: table. Small table.",no,no,
 CHI: 嗯,这个不是桌子.
 TEA: 嗯,那你觉得这像桌子放哪里?
 TEA: 嗯,那这边也行.
-TEA 噢,你想看到这边.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: then where to/we should put the small table?
+TEA 噢,你想看到这边.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: then where to/we should put the small table?
 chidl: emm, this is not a table.
 teacher: emm, then where do you think (we should) put this table-like thing?
 teacher: yeah, then this side is fine.
@@ -507,7 +509,7 @@ teacher: oh, you want to be able to see this side.",no,no,
 82,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: 嘉乐,你看这里有栋房子,对不对?
 TEA: 这个房子你觉得能玩嘛?
 TEA: 这是什么?
-CHI: 勺子.",second_person,NP,polar,declarative,no,no,能,no,no,no,no,no,no,"teacher: Jiale [kid’s name], you see there’s a house, right?
+CHI: 勺子.",second_person,NP,polar,declarative,no,no,能,no,,no,no,no,no,no,"teacher: Jiale [kid’s name], you see there’s a house, right?
 teacher: do you think (we) can play (in?) this house?
 teacher: what is this?
 child: a spoon.",no,no,
@@ -515,7 +517,7 @@ child: a spoon.",no,no,
 CHI: 厨房的冰箱.
 TEA: 你觉得她们家厨房在哪?
 TEA: 我们帮她盖个厨房,好不好?
-CHI: 厨房肯定在这啦!",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: <What part of their house is this?> what is this?
+CHI: 厨房肯定在这啦!",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: <What part of their house is this?> what is this?
 child: the fridge of (in?) the kitchen.
 teacher: where do you think is their kitchen?
 teacher: let’s help her to build a kitchen, okay?
@@ -524,7 +526,7 @@ child: the kitchen has to be here!",no,no,
 CHI: 我闻的不臭.
 TEA: 好吧,你觉得不臭就行了.
 CHI: 那你闻闻.
-TEA: 我也觉得不臭.",second_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p,before,"teacher: ah, so stinky don’t smell. Does it smell bad to you?
+TEA: 我也觉得不臭.",second_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p,before,"teacher: ah, so stinky don’t smell. Does it smell bad to you?
 child: it doesn’t smell bad to me.
 teacher: okay, as long as you think it’s not stinky.
 child: well you smell it.
@@ -533,17 +535,17 @@ teacher: i also think it’s not stinky.",no,no,
 CHI: 我闻的不臭.
 TEA: 好吧,你觉得不臭就行了.
 CHI: 那你闻闻.
-TEA: 我也觉得不臭.",second_person,dropped,declarative,declarative,也,no,no,no,no,no,no,no,no,"teacher: ah, so stinky don’t smell. Does it smell bad to you?
+TEA: 我也觉得不臭.",second_person,dropped,declarative,declarative,也,no,no,no,,no,no,no,no,no,"teacher: ah, so stinky don’t smell. Does it smell bad to you?
 child: it doesn’t smell bad to me.
 teacher: okay, as long as you think it’s not stinky.
 child: well you smell it.
 teacher: i also think it’s not stinky.",no,no,
 86,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: 你觉得<他是医生的什么>[//]他是医生的药吗?
-CHI: 可能是吧!",second_person,third_person,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: <what do you think it is> do you think it is the doctor’s medicine?
+CHI: 可能是吧!",second_person,third_person,polar,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: <what do you think it is> do you think it is the doctor’s medicine?
 child: maybe (it) is!",no,no,
 87,ZhouAssessment/4.5-5/FJlinjiale,,teacher,"TEA: 这个玩具好玩吗?
 CHI: 好玩.
-TEA: 我也觉得好好玩.",first_person,dropped,declarative,declarative,也,no,no,no,no,no,no,no,no,"teacher: is this toy fun to play with?
+TEA: 我也觉得好好玩.",first_person,dropped,declarative,declarative,也,no,no,no,,no,no,no,p,before,"teacher: is this toy fun to play with?
 child: (it is) fun to play with.
 teacher: i also think (it is) very fun to play with.",no,no,
 88,ZhouAssessment/4.5-5/FJlinmiaochen,,teacher,"CHI: 因为它们喜欢跟我一起玩.
@@ -551,7 +553,7 @@ CHI: 我也喜欢跟他们[/]他们在一起.
 TEA: 跟他们在一起你觉得?
 CHI: 很好玩.
 TEA: 心里觉得?
-CHI: 嗯,很开心,很热情.",second_person,dropped,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"child: because they like to play with me.
+CHI: 嗯,很开心,很热情.",second_person,dropped,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"child: because they like to play with me.
 child: because i also like to be with them.
 teacher: with them you feel?
 child: very fun.
@@ -562,24 +564,24 @@ CHI: 我也喜欢跟他们[/]他们在一起.
 TEA: 跟他们在一起你觉得?
 CHI: 很好玩.
 TEA: 心里觉得?
-CHI: 嗯,很开心,很热情.",dropped,dropped,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"child: because they like to play with me.
+CHI: 嗯,很开心,很热情.",dropped,dropped,polar,declarative,no,no,no,no,,no,no,no,p_answer,after,"child: because they like to play with me.
 child: because i also like to be with them.
 teacher: with them you feel?
 child: very fun.
 teacher: feel in your heart?
 child: yeah, very happy, very enthusiastic.",no,no,
 90,ZhouAssessment/4.5-5/FJlinsichen,,teacher,"TEA: 让他住到他的家去,你觉得他可以住到哪呢?
-CHI: 就住跟这个[:只]猫一起住.",second_person,third_person,wh_question,declarative,no,no,可以,no,no,no,no,p_answer,after,"teacher: let him stay at his place, where do you think he can stay?
+CHI: 就住跟这个[:只]猫一起住.",second_person,third_person,wh_question,declarative,no,no,可以,no,,no,no,no,p_answer,after,"teacher: let him stay at his place, where do you think he can stay?
 child: just stay, stay with this cat.",no,no,
 91,ZhouAssessment/4.5-5/FJlinsichen,,child,"TEA: 你看下可以放在哪?
 CHI: 我觉得可以放衣架.
-TEA: 行啊,你现在在拼什么?",first_person,dropped,declarative,declarative,no,no,可以,no,no,no,no,p?,before,"teacher: take a look and see where (it) can go?/where we can put it?
+TEA: 行啊,你现在在拼什么?",first_person,dropped,declarative,declarative,no,no,可以,no,,no,no,no,p?,before,"teacher: take a look and see where (it) can go?/where we can put it?
 child: I think we could put a clothes rack (there).
-teacher: okay, what are you assembling now?",no,no,no
+teacher: okay, what are you assembling now?",看下,no,no
 92,ZhouAssessment/4.5-5/FJlinsichen,,teacher,"TEA: 那你要找个东西给它稳定.
 CHI: 这样不是稳定了么?
 TEA: 这样你觉得猪爸爸上去会不会摔倒啊?
-CHI: 不会啊!",second_person,NP,polar,declarative,no,no,会,no,no,no,no,p_answer,after,"teacher: then you need to find something to make it stable.
+CHI: 不会啊!",second_person,NP,polar,declarative,no,no,会,no,,no,no,no,p_answer,after,"teacher: then you need to find something to make it stable.
 child: isn’t it stable like this?
 teacher: like this, do you think daddy pig will fall if he goes up like this?
 child: no!",no,no,
@@ -587,7 +589,7 @@ child: no!",no,no,
 CHI: 我觉得放在这.
 TEA: 这是哪?
 TEA: 你觉得全部放在二楼吗,一楼会不会有一些植物呢?
-CHI: 一楼很厉害.",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,p_answer,before,"teacher: Where would be more suitable to put it?
+CHI: 一楼很厉害.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p_answer,before,"teacher: Where would be more suitable to put it?
 child: i think (we should) put (it) here/it should be placed it.
 teacher: where is here?
 teacher: do you think (we should) put everything on the second floor, will there be some plants on the first floor?
@@ -596,105 +598,1555 @@ child: first floor is awesome.",no,no,
 CHI: 我觉得放在这.
 TEA: 这是哪?
 TEA: 你觉得全部放在二楼吗,一楼会不会有一些植物呢?
-CHI: 一楼很厉害.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,no,no,"teacher: Where would be more suitable to put it?
+CHI: 一楼很厉害.",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,no,no,"teacher: Where would be more suitable to put it?
 child: i think (we should) put (it) here/it should be placed it.
 teacher: where is here?
 teacher: do you think (we should) put everything on the second floor, will there be some plants on the first floor?
 child: first floor is awesome.",no,no,
 95,ZhouAssessment/4.5-5/FJlishuqi,,teacher,"TEA: 这两只小猫你觉得谁是女孩啊?
-CHI: 穿粉色衣服的是女孩.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: these two kittens, which one do you think is the girl?
+CHI: 穿粉色衣服的是女孩.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: these two kittens, which one do you think is the girl?
 child: the one in pink clothes is the girl.",no,no,
 96,ZhouAssessment/4.5-5/FJlishuqi,,child,"CHI: 猫妈妈一边<煮着>[/]煮着苦瓜汤.
 CHI: 加了盐.
 CHI: 觉得味道很好吃.
-CHI: 然后呢把勺子放在一边去.",third_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,"child: the mom cat is cooking the bitter melon soup
+CHI: 然后呢把勺子放在一边去.",third_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"child: the mom cat is cooking the bitter melon soup
 child: adds salt.
 child: thinks the flavor is/it tastes really good.
 child: and then (she) puts the spoon to the side.",no,no,
 97,ZhouAssessment/4.5-5/FJluguo,,teacher,"TEA: 这样自己拿,这是什么?
 CHI: 也是桌子.
 TEA: 那你觉得哪个桌子更适合吃饭呢?
-CHI: 这个大点.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: this way, you (can) take it yourself. Waht is this?
+CHI: 这个大点.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: this way, you (can) take it yourself. Waht is this?
 child: also a table.
 teacher: then which table do you think is more suitable for dining?
 child: this bigger one.",no,no,
 98,ZhouAssessment/4.5-5/FJluguo,,teacher,"TEA: 哦,你觉得这是化妆的椅子吗?
 TEA: 你看它和它这个[:把]椅子不一样是不是,一样不一样?
-CHI: 不一样.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,no,no,"teacher: oh, do you think this is the makeup chair?
+CHI: 不一样.",second_person,demonstrative,polar,declarative,no,no,no,no,,no,no,no,no,no,"teacher: oh, do you think this is the makeup chair?
 teacher: you see, this and this chair are not the same, right? Not the same right?
 child: not the same.",no,no,
 99,ZhouAssessment/4.5-5/FJluguo,,child,"TEA: 水杯哦,洗手间[/]洗手间[/]洗手间放哪里?
 CHI: 嗯嗯,我觉得洗手间可以放这边点.
-CHI: 一个房间一个洗手间.",first_person,NP,declarative,declarative,no,no,可以,no,no,no,no,p?,before,"teacher: water bottle. Bathroom/bathroom/where (should we) put the bathroom?
+CHI: 一个房间一个洗手间.",first_person,NP,declarative,declarative,no,no,可以,no,,no,no,no,p?,before,"teacher: water bottle. Bathroom/bathroom/where (should we) put the bathroom?
 child: yeah, i think the bathroom can be placed a little bit to this side.
 child: one bedroom, one bathroom (one bathroom in each room).",no,no,
 100,ZhouAssessment/4.5-5/FJluguo,,teacher,"TEA: 这个是什么?
 CHI: 勺子,厨房的.
 TEA: 厨房的勺子,你会不会觉得厨房有点大?
-CHI: 有点大,好了.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: what is this?
+CHI: 有点大,好了.",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: what is this?
 child: a spoon, for the kitchen.
 teacher: the kitchen spoon. Do you think the kitchen is a bit big?
 child: a bit big, that's enough.",no,no,
 101,ZhouAssessment/4.5-5/FJwangjunzhe,,teacher,"TEA: 嗯,你觉得哪些蔬菜有营养呢?
-CHI: 青菜.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: yeah, which vegetables do you think is nutritious?
+CHI: 青菜.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: yeah, which vegetables do you think is nutritious?
 child: green vegetables.",no,no,
 102,ZhouAssessment/4.5-5/FJwangjunzhe,,teacher,"TEA: 西红柿炒蛋啊,你觉得这道菜有营养吗?
-CHI: 有.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"teacher: Tomatoes and scrambled eggs, do you think this dish is nutritious?
+CHI: 有.",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,p_answer,after,"teacher: Tomatoes and scrambled eggs, do you think this dish is nutritious?
 child: yes.",no,no,
 103,ZhouAssessment/4.5-5/FJxiaoyutong,,teacher,"TEA: 嗯,告诉我觉得他们会怎么煮?
 CHI: 他们会用炒菜煮.
-TEA: 嗯,用这个平底锅炒吗?",dropped,third_person,wh_question,declarative,no,no,会,no,no,no,no,p_answer,after,,no,no,
+TEA: 嗯,用这个平底锅炒吗?",dropped,third_person,wh_question,declarative,no,no,会,no,,no,no,no,p_answer,after,,no,no,
 104,ZhouAssessment/4.5-5/FJxiaoyutong,,teacher,"TEA: 肚子好饿,他们躺在床上觉得.
-CHI: 嗯.",,,,,,,,,,,,,,,,,
+CHI: 嗯.",,,,,,,,,,,,,,,,,,
 105,ZhouAssessment/4.5-5/FJxiaoyutong,,teacher,"TEA: 乔治它觉得有点饿它可能会问妈妈什么?
-CHI: 妈妈饭煮好了没?",,,,,,,,,,,,,,,,,
+CHI: 妈妈饭煮好了没?",,,,,,,,,,,,,,,,,,
 106,ZhouAssessment/4.5-5/FJxiaoyutong,,teacher,"TEA: 那你觉得妈妈怎么回答他?
-CHI: 然后乔治下来找妈妈.",second_person,NP,wh_question,declarative,no,no,no,no,no,no,no,p_answer,after,,no,no,
+CHI: 然后乔治下来找妈妈.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,,no,no,
 107,ZhouAssessment/4.5-5/FJxujingyi,,teacher,"TEA: 我以前在阳台很爱玩捉迷藏,你觉得呢?
 CHI: 我觉得.
 TEA: 你觉得他们会玩这个游戏吗,会不会?
-CHI: 他们在这里房间玩一会.",second_person,omitted,polar,none,no,no,no,no,no,no,no,juede_answer,after,,no,no,
+CHI: 他们在这里房间玩一会.",second_person,none,tag_question,none,no,no,no,no,,no,no,no,juede_answer,after,,no,no,
 108,ZhouAssessment/4.5-5/FJxujingyi,,child,"TEA: 我以前在阳台很爱玩捉迷藏,你觉得呢?
 CHI: 我觉得.
 TEA: 你觉得他们会玩这个游戏吗,会不会?
-CHI: 他们在这里房间玩一会.",first_person,omitted,declarative,none,no,no,no,no,no,no,no,direct_p,before,,no,no,
+CHI: 他们在这里房间玩一会.",first_person,omitted,declarative,none,no,no,no,no,,no,no,no,direct_p?,before,,no,no,
 109,ZhouAssessment/4.5-5/FJxujingyi,,teacher,"TEA: 我以前在阳台很爱玩捉迷藏,你觉得呢?
 CHI: 我觉得.
 TEA: 你觉得他们会玩这个游戏吗,会不会?
-CHI: 他们在这里房间玩一会.",second_person,third_person,polar,declarative,no,no,会,no,no,no,no,no,no,,no,no,
+CHI: 他们在这里房间玩一会.",second_person,third_person,polar,declarative,no,no,会,no,,no,no,no,no,no,,no,no,
 466,ZhouAssessment/3-3.5/FJchenqingyang,,teacher,"TEA: 那妈妈现在要做饭.
 TEA: 要煮些什么东西给宝宝吃呢?
 TEA: 妈妈觉得好苦恼啊.
 TEA: 有怎么多的东西.
-TEA: 要做什么呢?",NP,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,"teacher: then mom needs to cook now.
+TEA: 要做什么呢?",NP,dropped,declarative,declarative,no,no,no,no,,no,no,no,no,no,"teacher: then mom needs to cook now.
 teacher: what should (she) for the baby to eat?
 teacher: Mom feels so troubled.
 teacher: there are so many things.
 teacher: what do make?",no,no,
 467,ZhouAssessment/3-3.5/FJchenqingyang,,teacher,"TEA: 哇,爸爸妈妈种了菜之后满身是汗,他们觉得身上很不舒服,那可以带他们去哪里呢?
 CHI: 带他们去...
-TEA: 带他们去哪里?",third_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,,,,
+TEA: 带他们去哪里?",third_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,,,,
 468,ZhouAssessment/3-3.5/FJchenyanxi,,teacher,"CHI: 这里这个是什么?
-TEA: 你觉得像什么?",second_person,dropped,wh_question,declarative,no,no,no,no,no,no,no,p?,before,,no,no,
+TEA: 你觉得像什么?",second_person,dropped,wh_question,declarative,no,no,no,no,,no,no,no,p?,before,,no,no,
 469,ZhouAssessment/3-3.5/FJhuangzhehan,,teacher,"TEA: 那今天我们要除了小熊在这里,你觉得还有谁可以邀请到面去呀?
 TEA: 或者你觉得这个家会不会太空了一些?
-CHI: 会.",second_person,NP,wh_question,declarative,no,no,可以,no,no,no,no,no,no,,no,no,
+CHI: 会.",second_person,NP,wh_question,declarative,no,no,可以,no,,no,no,no,no,no,,no,no,
 470,ZhouAssessment/3-3.5/FJhuangzhehan,,teacher,"TEA: 那今天我们要除了小熊在这里,你觉得还有谁可以邀请到面去呀?
 TEA: 或者你觉得这个家会不会太空了一些?
-CHI: 会.",second_person,NP,,,no,no,会,no,no,no,no,p_answer,after,,,,
+CHI: 会.",second_person,NP,polar,declarative,no,no,会,no,,no,no,no,p_answer,after,,,,
+619,ZhouAssessment/3.5-4/NJwangfangshimeng,,teacher,"TEA: 穿裙子的小娃娃.
+TEA: 那是小朋友呢,还是小动物呢?
+CHI: 小动物.
+TEA: 那是什么小动物?
+CHI: 小猫咪.
+TEA: 你觉得它是小猫咪.
+TEA: 哦,穿裙子的小猫咪,是吧?
+TEA: 哎,我发现你的院子里换了一样家具哎.",second_person,third_person,declarative,declarative,no,no,no,no,,no,no,no,p,both,"teacher: A little doll wearing a dress.
+teacher: Is it a little kid, or a little animal?
+child: A small animal.
+teacher: Then what animal is this?
+child: A little kitten.
+teacher: You think it is a little kitten.
+teacher: Oh, a little kitten wearing a dress, right?
+teacher: Ah, I realized one piece of furniture in your yard has changed.",,,
+620,ZhouAssessment/3.5-4/NJwangfangshimeng,,teacher,"TEA: 你猜猜看可能是什么?
+CHI: 洗澡用的.
+TEA: 洗澡用的什么?
+TEA: 淋蓬头啊?
+CHI: 对啊!
+TEA: 哦,你觉得是洗澡用的淋蓬头.
+TEA: 那应该放在什么地方呢?
+CHI: 放在洗澡的地方.",second_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p,before,"teacher: Take a guess what it might be.
+child: For showering.
+teacher: What exactly is it for showering?
+teacher: The shower head?
+child: Yeah!
+teacher: Oh, you think (it) is the shower head for showering.
+teacher: Then where should (we) put (it)?
+child: (We should) put (it) where we shower.",猜,,
+630,ZhouAssessment/3.5-4/XIANqiaojiarui,,teacher,"TEA: 你看他的这个家是什么样的?
+CHI: 这家很好.
+TEA: 很漂亮,是不是?
+CHI: 我挺喜欢这个家的.
+TEA: 我也很喜欢.
+TEA: 我觉得这个房子很漂亮.
+TEA: 你们家是什么样的?
+CHI: 我们家不漂亮.",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,p,before,"teacher: Look, what is his home like?
+child: This home is nice.
+teacher: Very pretty, isn’t it?
+child: I really like this home.
+teacher: I like it too.
+teacher: I think this house is pretty.
+teacher: What is your home like?
+child: Our home is not pretty.",,,
+634,ZhouAssessment/3.5-4/XIANqiaojiarui,,teacher,"CHI: 还比较好.
+TEA: 坐在这里吹吹风.
+TEA: 凉快一下.
+TEA: 好主意.
+CHI: 放这.
+TEA: 嗯,我觉得是个好主意.
+TEA: 可以直接从卧室出来.
+TEA: 坐在这里凉快一下.",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,no,p,before,"child: It also very good.
+teacher: Sit here and enjoy the breeze.
+teacher: To cool down.
+teacher: Good idea.
+child: Put it here.
+teacher: Yeah, I think it is a good idea.
+teacher: (You) can walk out directly from the bedroom.
+teacher: Sit here to cool down.",,,
+680,ZhouAssessment/3.5-4/ZBhuyihan,,teacher,"CHI: 哪有小盘子呐?
+TEA: 没有小盘子快想想办法吧!
+CHI: 嗯,我知道了.
+TEA: 嗯.
+CHI: 我看看这里边有没有.
+TEA: 你觉得在抽屉里啊!
+CHI: 把它放在这个.
+TEA: 哦,用这个来当盘子啊?",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,no,"child: Where are the small plates?
+teacher: There are no small plates. Think of something.
+child: Yeah, I know.
+teacher: Yeah.
+child: Let me see if there’s anything here.
+teacher: You think (they) are in the drawer!
+child: Put it here.
+teacher: Oh, use it as a plate?",看,before,
+744,ZhouAssessment/4-4.5/XIANxiexinyi,,teacher,"CHI: 佩奇就不梳了吧!
+TEA: 那你给乔治梳一下.
+CHI: 好了,这个梳子放哪里我不知道.
+TEA: 你自己想把它放在哪里?
+CHI: 你给我说说嘛!
+TEA: 我觉得它可以放在这里面.
+TEA: 然后你在这里面找一找.
+CHI: 这个里面有楼梯.",first_person,third_person,declarative,declarative,no,no,可以,no,no,no,no,no,p?,before,"child: Don’t need to brush Pepa.
+teacher: Then give George a brush.
+child: Okay, I don’t know where to put this comb.
+teacher: You decide–where do you want to put it?
+child: You tell me!
+teacher: I think it can be stored in here.
+teacher: And then look around in here.
+child: There’s a staircase.",想,before,
+763,ZhouAssessment/4-4.5/ZBsangchenke,,teacher,"CHI: 还有可以舀水的.
+TEA: 这么多呀!
+TEA: 太好玩了.
+TEA: 我们来看一看这么漂亮的房子是谁的呀?
+CHI: 小狐狸的家.
+TEA: 你觉得是小狐狸的家,我们看看.
+CHI: 小狐狸,小狐狸爸爸,小狐狸妈妈,小狐狸宝宝.
+TEA: 小动物的家有几口人呢?
+CHI: 四口人.",second_person,dropped,declarative,declarative,no,no,是,no,no,no,no,no,p,before,"child: There’s also one you can use to scoop water.
+teacher: That’s a lot!
+teacher: So fun.
+teacher: Let’s see, whose pretty house is this?
+teacher: The little fox’s home.
+teacher: You think it’s the little fox’s home, let’s see.
+child: The little fox, little fox’s dad, little fox’s mom, and little fox’s baby.
+mother: How many people are there in the little animal’s home?
+child: Four!",,,
+946,Tong/030409,,mother,"MOT: (山羊太太)右手拎了一个东西.
+MOT: 拎不动了.
+MOT: 他就帮山羊太太拎...拎这个水果篮子.
+MOT: 对不对啊?
+CHI: 对啊.
+MOT: 我觉得我好喜欢小狐狸.
+MOT: 他老是愿意帮助别人.
+MOT: 这一页画的是什么呀?",first_person,first_person,declarative,declarative,no,no,no,no,no,no,no,no,no,no,"mother: Mrs. Goat was carrying something in his right hand.
+mother: Too heavy to carry.
+mother: So he helped Mrs. Goat carry the fruit basket.
+mother: right?
+child: Right.
+mother: I think I really like the little fox.
+mother: He’s always willing to help people.
+mother: What’s drawn on this page?",,,
+1083,TCCM/chou/020100,,mother,"MOT: 那上一次cc的弟弟来.
+MOT: 他说""/.
+MOT: xxx.
+MOT: 我再跟cc说.
+MOT: 可是他讲话很清楚啊!
+MOT: 我一直觉得他讲的话很清楚.
+MOT: 原来别人都听不懂.
+MOT: 只有我听懂得!",first_person,NP,declarative,declarative,一直,no,no,no,no,no,no,no,p,"before, after","mother: Last time when CC’s brother is here
+mother: He said:
+mother: “xxx”
+mother: Then I told cc:
+mother: “But he speaks very clearly!”
+mother: I always thought he spoke very clearly.
+mother: It turns out other people couldn’t understand.
+mother: Only I can understand!",,,
+1107,TCCM-reading/b02_205,,mother,"MOT: 是蚊子吗?
+CHI: 不是.
+MOT: 那是什么?
+CHI: 瓢虫.
+MOT: 是瓢虫喔.
+MOT: 你觉得是瓢虫喔.
+MOT: 蜘蛛没有回答.
+MOT: 他正忙着织网呢.",second_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p,before,"mother: Is it a mosquito?
+child: No.
+mother: Then what is it?
+child: A ladybug.
+mother: Oh, it is a ladybug.
+child: You think it is a ladybug.
+mother: The spider didn’t respond.
+mother: He’s busy spinning the web.",,,
+1652,LiReading/5/r5yfl17,,mother,"CHI: 毛毛虫.
+CHI: 还有一个是蚯蚓.
+MOT: 对了.
+CHI: 蜘蛛.
+CHI: 毛毛虫.
+MOT: 可是我觉得这个好像不是蚂蚁.
+CHI: 这好像是蚊子.
+CHI: 它有翅膀.",first_person,demonstrative,declarative,declarative,no,no,no,no,yes,no,no,no,p_alt,both,"child: A caterpillar.
+child: And the other one is an earthworm.
+mother: Right.
+child: A spider.
+child: A caterpillar.
+mother: But I think this is probably not an ant.
+child: This may be a mosquito.
+child: It has wings.",,,
+1676,LiReading/5/r5yfl22,,mother,"MOT: 可当我一个人在家时.
+MOT: 屋子变得好安静.
+MOT: 我知道那些大妖怪马上就要跳出来.
+MOT: 爸爸说世上根本没有大妖怪.
+MOT: 可他说的不对.
+MOT: 我觉得就是有妖怪.
+MOT: 是不是啊.
+MOT: 这个妖怪藏在哪里?",first_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,p,before,"mother: But when I am alone at home.
+mother: The house becomes very quiet.
+mother: I know those monsters will jump out immediately.
+mother: Dad says there are no monsters in the world.
+mother: But he is wrong.
+mother: I think there are monsters.
+mother: right?
+mother: Where is this monster hiding?",知道,,
+1738,LiReading/5/r5ymi12,,mother,"CHI: 就这个字啊.
+MOT: 对.
+MOT: 地下室也有大妖怪.
+MOT: 你看.
+MOT: 地下室也有大妖怪.
+MOT: 他觉得地下室里也有大妖怪.
+MOT: 外面的垃圾桶也有大妖怪.
+MOT: 他都不敢去丢垃圾.",third_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,p,before,"child: This character.
+mother: Yeah.
+mother: There are monsters in the basement.
+mother: Look.
+mother: There are monsters in the basement.
+mother: He thinks there are monsters in the basement.
+mother: There are monsters in the trash can outside.
+mother: He is too scared to take out the trash.",,,
+1855,LiReading/5/r5yml18,,mother,"MOT: 主人把它关到哪里了?
+CHI: 阳台.
+MOT: 他在阳台上晒着太阳.
+MOT: 在想我如果有一个会飞的翅膀该有多好啊.
+MOT: 我就可以跟小鸟一样的飞起来了.
+MOT: 它觉得在家里太无聊了.
+MOT: 主人在看电视的时候他就蜷在沙发上打瞌睡.
+MOT: 主人睡觉的时候他就在主人的身上取暖.",third_person,dropped,declarative,declarative,no,no,no,no,no,no,no,no,no,no,"mother: Where did the owner lock it up?
+child: The balcony.
+mother: He is sunbathing on the balcony.
+mother: And thinks “It would be nice if I have wings for flying.
+mother: Then I can fly like birds.”
+mother: It thinks it’s so boring to stay at home.
+mother: When the owner is watching TV, it’s curled up on the sofa taking a nap.
+mother: When the owner is sleeping, it’s keeping warm on its owner.",,,
+1892,LiReading/4/r4yfi1,,mother,"​​MOT: 对.
+CHI: 因为他学了空手道.
+MOT: 对.
+MOT: 他变得勇敢了.
+MOT: 第二天我去了地下室.
+MOT: 我不想让那里的大妖怪觉得我原谅了他们.
+CHI: 对.
+CHI: 然后他没有让爸爸妈妈陪着他.",NP,first_person,declarative,declarative,no,no,no,no,no,no,no,no,no,no,"mother: Right.
+child: Because he learned karate.
+mother: Right.
+child: He became braver.
+mother: The next day, I went to the basement.
+mother: I didn’t want the monsters there to think that I forgave them.
+child: Right.
+child: And he didn’t let his parents accompany him.",,,
+1912,LiReading/4/r4yfi13,,mother,"CHI: 没[/]没有水啊.
+MOT: 马上就看完了.
+MOT: 我们过来看一下.
+CHI: 我还想多喝一点水.
+MOT: 好.
+MOT: 妈妈觉得这个猫咪它好幸福啊.
+MOT: 你看.
+MOT: 它和主人在一起.",NP,demonstrative_NP,declarative,declarative,no,no,no,no,no,no,no,no,no,no,"child: There’s no…no…water.
+mother: (We’re) almost done reading ot.
+mother: Let’s come over and take a look.
+child: I want to drink a little bit more water.
+mother: Okay.
+mother: Mom thinks this kitten is so happy.
+mother: Look
+mother: It is with its owner.",,,
+1925,LiReading/4/r4yfi2,,mother,"MOT: 他总是在想有没有怪兽,对吧?
+CHI: 嗯.
+MOT: 他把泡沫弄在头发上.
+CHI: 过一会儿他就去看看.
+MOT: 哦.
+MOT: 他总是觉得怪兽在旁边,对吧?
+CHI: 对.
+MOT: 洗完澡他回房间呢.",third_person,NP,tag_question,declarative,no,no,no,no,no,no,no,no,no,no,"mother: He’s always thinking whether there are monsters, right?
+child: Yeah.
+mother: He puts the foam on his hair.
+child: He’ll go take a look in a bit.
+mother: Oh.
+mother: He always thinks the monsters are around, right?
+child: Right.
+mother: After showering, he goes back to the room.",,,
+2159,LiReading/4/r4yml8,,mother,"MOT: 洗完澡我飞身跃进我的房间.
+MOT: 来了一个最威猛的空手道姿势.
+MOT: 大妖怪们吓得都不敢探头了.
+MOT: 你看都躲到上铺睡觉.
+MOT: 你看他小狗敢不敢.
+MOT: 我觉得小狗都害怕了.
+MOT: 它的眼睛里都充满了恐惧惊悚的表情,对不对?
+MOT: 但是他一点都不害怕",first_person,third_person,declarative,declarative,no,no,no,no,no,no,了,no,not_p,after,,,,
+2163,LiReading/4/r4yml8,,mother,"MOT: 为什么这是一个阿姨?
+CHI: 因为她叫阿姨.
+MOT: 那好吧这是一个阿姨.
+MOT: 这个阿姨戴着一个头盔对吧?
+MOT: 骑着摩托车斜挎着一个包.
+MOT: 我觉得她可能是一个邮递员阿姨.
+MOT: 她可能是送信呀送报纸对吧?
+MOT: 然后你看这阿姨笑眯眯地蹲下来,看到了一个什么?",first_person,third_person,declarative,declarative,no,no,可能,no,no,no,no,no,no,no,"mother: Why is this an auntie?
+child: Because she’s called Auntie.
+mother: Okay, this is an auntie.
+mother: This auntie is wearing a helmet, right?
+mother: Riding a motorcycle and wearing a crossbody bag.
+mother: I think she might be a mail carrier.
+mother: She might be deliverying mails and newspapers, right?
+mother: Then, look, this auntie crouched down with a smile. What did she see?",,,
+2507,LiReading/6/r6yml22,,mother,"MOT: 哇这些大树漂亮吗？
+CHI: 有果树和柳树.
+MOT: 这有点像我们那次去新加坡看到的树.
+CHI: 这种椰树.
+MOT: 对对对对对.
+MOT: 这种我觉得我也认不出来.
+CHI: 想要大树需要种子.
+MOT: 哇这么多啊.",first_person,first_person,declarative,declarative,no,no,no,no,no,no,no,no,no,no,"mother: Wow, are these trees pretty?
+child: There are fruit trees and willow trees.
+mother: This is like the tree we saw in Singapore.
+child: This kind of coconut tree.
+mother: Right, right, right, right.
+mother: This, I think I wouldn’t recognize this kind either.
+child: (If you) want big tree, (you) need seeds.
+mother: Wow, that’s a lot!",,,
+2607,Erbaugh/Laohu/06,,adult ,"ADU: 对.
+MOT: 那她比她还大.
+ADU: 对,比她大一点.
+ADU: 所以她的语言进步有一点.
+ADU: 所以这里我也要找到了一个年[//]年纪小一点的.
+ADU: 我觉得这两个孩子一样聪明.
+ADU: 他们都很聪明.
+CHI: 房子.",first_person,demonstrative_NP,declarative,declarative,no,no,no,no,no,no,no,no,p,after,"adult: Right.
+mother: Then she’s older than her.
+adult: Yes, a little bit older than her.
+adult: So she has some language improvement (weird word ordering).
+adult: So here, I also need to find one that’s a little younger. (weird tense)
+adult: I think these two kids are equally smart.
+adult: They are both very smart.
+child: House.",,,
+2741,AcadLang/lower/023,,adult,"ADU: 哦你蛮喜欢吃苹果的.
+CHI: 是呀哈哈.
+ADU: 好我们看看下一页是什么.
+CHI: 呵[/]呵足球.
+CHI: 哈[/]哈好圆呐.
+ADU: 哦你觉得这是足球好圆呀.
+CHI: 我家有的哈哈.
+ADU: 那你平时用它来做什么",second_person,demonstrative,declarative,declarative,no,no,no,no,no,no,no,no,p,before,"adult: Oh, you really like to eat apples.
+child: Yeah, haha
+adult: Okay, let’s see what’s on the next page.
+child: Hehe, a soccer ball!
+child: Haha, very round!
+adult: Oh, you think this is such a round soccer ball!
+child: I have it at home.
+adult: So what do you usually use it for?",,,
+2936,BJCMC/0300_WW,,investigator,"INV: 你最喜欢什么颜色?
+CHI: 最喜欢橘色 &=touches:puzzle . 
+INV: 哦为什么呀?
+INV: 你最喜欢橘色 &=points:puzzle.
+CHI: 橘色漂亮.
+INV: 哦.
+INV: 我也觉得它很漂亮.
+INV: 橘色很漂亮.
+INV: 橘子[//]那你喜欢吃橘子吗 &=laughs?
+CHI: 喜欢吃 .",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,p,both,"investigator: What’s your favorite color?
+child: I like orange the most.
+investigator: Why?
+investigator: You like orange the most.
+child: The orange color is pretty.
+investigator: Oh.
+investigator: I also think it is pretty.
+investigator: The orange color is pretty.
+investigator: Orange…then do you like eating oranges (laugh)?
+child: I like to eat.",,,
 779,Zhou2/60/fa07,,mother,"MOT: 然后呢?
 MOT: 你觉得自己搭的那个.
 MOT: 这个角,对不对呀?
-CHI: 对.",second_person,NP,polar,declarative,no,no,no,no,no,no,no,p_answer,after,"mother: and then?
+CHI: 对.",second_person,NP,polar,incomplete,no,no,no,no,,no,no,no,p_answer,after,"mother: and then?
 mother: you think that thing you make, the corner right/is it right?
 child: right.",no,no,
 780,Zhou2/60/fb16,,child,"MOT: 这一横应该横在这个地方.
 MOT: 不应该横在这里.
 CHI: 我就觉得横在这边.
-MOT: 你喜欢?",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,not_p,before,"mother: This horizontal stroke should go here.
+MOT: 你喜欢?",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,not_p,before,"mother: This horizontal stroke should go here.
 mother: it shouldn’t go here.
 child: i just think the horizontal stroke goes here.
 mother: do you like?",no,no,yes
 781,Zhou2/60/fb16,,mother,"MOT: 小乌龟觉得奇怪.
-MOT: 摸摸小星星.",NP,dropped,declarative,none,no,no,no,no,no,no,no,no,no,"mother: the little turtle feels strange.
+MOT: 摸摸小星星.",NP,dropped,declarative,none,no,no,no,no,,no,no,no,no,no,"mother: the little turtle feels strange.
 mother: and touches the little star.",no,no,no
+782,Zhou2/60/fb17,,mother,"MOT: 嗯我觉得这个像什么?
+MOT: 像个大恐龙啊.
+CHI: 嗯我感觉他像个小乌龟.
+MOT: 嗯你觉得像个小乌龟,就像个小乌龟.
+MOT: 我觉得是个恐龙.",first_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"mother: hmm, what do i think this is like?
+mother: (it) is like a big dinosaur.
+child: hmm, i think he/it’s like a small turtle.
+mother: hmm, you think (it) is like a small turtle, just like a small turtle.
+mother: i think (it) is a dinosaur.",感觉,after for answer,
+783,Zhou2/60/fb17,,mother,"MOT: 嗯我觉得这个像什么?
+MOT: 像个大恐龙啊.
+CHI: 嗯我感觉他像个小乌龟.
+MOT: 嗯你觉得像个小乌龟,就像个小乌龟.
+MOT: 我觉得是个恐龙.",second_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p,before,"mother: hmm, what do i think this is like?
+mother: (it) is like a big dinosaur.
+child: hmm, i think he/it’s like a small turtle.
+mother: hmm, you think (it) is like a small turtle, just like a small turtle.
+mother: i think (it) is a dinosaur.",感觉,before repeating,
+784,Zhou2/60/fb17,,mother,"MOT: 嗯我觉得这个像什么?
+MOT: 像个大恐龙啊.
+CHI: 嗯我感觉他像个小乌龟.
+MOT: 嗯你觉得像个小乌龟,就像个小乌龟.
+MOT: 我觉得是个恐龙.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: hmm, what do i think this is like?
+mother: (it) is like a big dinosaur.
+child: hmm, i think he/it’s like a small turtle.
+mother: hmm, you think (it) is like a small turtle, just like a small turtle.
+mother: i think (it) is a dinosaur.",no,no,yes
+785,Zhou2/60/fb17,,mother,"MOT: 这个鱼很漂亮.
+CHI: 为什么?
+MOT: 那我觉得这边好像还差个小鸟什么的.
+MOT: 你认为呢?
+CHI: 我认为画一个啄木鸟好.",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,p?,after,"mother: this fish is very pretty.
+child: why?
+mother: i think it’s missing like a bird or something here.
+mother: what do you think?
+child: i think it would be good to draw a woodpecker.",认为,after,
+786,Zhou2/60/fb17,,mother,"MOT: 我觉得他像个海豚.
+MOT: 光秃秃的像个鸡腿.",first_person,third_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: i think he/it is like a dolphin.
+mother: completely bare like a chilcken drumstick.",no,no,
+787,Zhou2/60/ma02,,mother,"MOT: 还是搭个火箭.
+MOT: 我觉得火箭也蛮好.
+MOT: 你自己选吧.
+CHI: 这个选...
+CHI: 还有两个.",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: go build a rocket.
+mother: i think the rocket is also good.
+mother: you choose (it’s up to you).
+child: choose … for this
+child: there are two more. ",no,,
+788,Zhou2/60/ma02,,mother,"MOT: 算了.
+MOT: 我觉得你画得不好.
+MOT: 再画一个,好不好啊?",first_person,second_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: never mind.
+mother: i think you didn’t paint well. (i think your painting was not good.)
+mother: paint another one, okay?",no,no,
+789,Zhou2/60/ma02,,mother,"MOT: 然后你再画一个,好不好?
+CHI: 哎呀[/]哎呀![Y]
+CHI: 我们俩去玩球去.
+MOT: 画个不倒娃娃怎么样?
+MOT: 那我不行!
+MOT: 我觉得你画得不好.
+MOT: 而且比例失调.
+MOT: 那树画得这么小.
+MOT: 这小鸟比树还大.",first_person,second_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: then you paint another one, okay?
+child: ah! Ah!
+child: let’s go play ball.
+mother: how about drawing a roly-poly doll?
+mother: then i can’t! (that won’t work!)
+mother: i think you didn’t paint well. (i think your painting was not good.)
+mother: also proportions are off.
+mother: that tree was painted too small.
+mother: this little bird is bigger than the tree.",no,no,
+790,Zhou2/60/ma02,,mother,"MOT: 现在只画了一棵树.
+MOT: 我觉得你应该在画上再加点东西.
+CHI: 加点什么?
+MOT: 你想呢?
+CHI: 加弯弯的月亮.",first_person,second_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: now there’s only a tree.
+mother: i think you should add more things to the painting.
+child: what to add?
+mother: what do you think?
+child: add a crescent moon.",no,no,
+791,Zhou2/60/ma02,,mother,"MOT: 爸爸,妈妈一走四只皮皮鼠忍不住吃了好多跳跳糖.
+MOT: 在床上兵嘭兵嘭地跳来跳去.
+MOT: 跳跳糖吃了后就会跳来跳去[/]跳来跳去是不是啊?
+MOT: 爸爸,妈妈觉得很奇怪嗯.
+MOT: 什么声音在响啊?
+MOT: 好奇怪哦.",dropped,omitted,declarative,none,no,no,no,no,,no,no,no,no,no,"mother: immediately after dad and mom, the four Pipi mice couldn’t help eating lots of popping candy.
+mother: jumping up and down on the bed with bang bang sounds.
+mother: after eating popping candy, (you/people) will jumping up and down, jumping up and down, right?
+mother: dad and mom feel very strange.
+mother: what is the noise?
+mother: so strange.",no,no,no
+792,Zhou2/60/ma03,,mother,"MOT: 这个地方长的不一样.
+MOT: 你还觉得?
+MOT: 这个地方长的还一样?
+MOT: 虽然都是蓝颜色长的还一样?
+MOT: 这个瘦这个肥.",second_person,NP,polar,declarative,还,no,no,no,,no,no,no,not_p,before,"mother: this part is shaped differently.
+mother: you still think this part is shaped still the same?
+mother: although (they) are all blue, the looked still the same?
+mother: this one is skinny, this one is fat.",no,no,
+793,Zhou2/60/ma03,,mother,"MOT: 这汽车不好看.
+MOT: 你觉得呢?
+CHI: 好看.
+MOT: 好看呀?",second_person,none,polar,none,no,no,no,no,,no,no,no,no,no,"mother: this car is not good looking/pretty.
+mother: what do you think?
+child: pretty.
+mother: pretty?",no,no,no
+794,Zhou2/60/ma03,,mother,"MOT: 小乌龟说,请问你是谁呀?
+MOT: 小星星眨了眨眼睛,一句话也说不出来.
+MOT: 小乌龟觉得奇怪,去摸小星星.
+MOT: 哎呀,什么东西这么软呀,太软了.",NP,omitted,declarative,none,no,no,no,no,,no,no,no,no,no,"mother: the little turtle said, may i ask who you are?
+mother: the little star blinked, couldn’t say a word.
+mother: the little turtle felt weird and went to touch the little star.
+mother: ah, what is this thing so soft, too soft.",no,no,no
+795,Zhou2/60/ma03,,mother,"MOT: 小企鹅说,请问尊姓大名?
+MOT: 小星星眨了眨眼睛,一句话也说不出来.
+MOT: 小企鹅觉得奇怪,赶紧上前去摸一下.
+MOT: 哎呀,这是什么,太热了吧.",NP,omitted,declarative,none,no,no,no,no,,no,no,no,no,no,"mother: the little penguin, may i ask what you name is?
+mother: the little star blinked, couldn’t say a word.
+mother: the little penguin felt weird and went to touch the little star.
+mother: ah, what is this, too hot.",no,no,no
+796,Zhou2/60/ma03,,mother,"CHI: 画星星怎么画?
+CHI: 可对呀?
+MOT: 对.
+MOT: 你觉得星星长的什么样就画什么样.
+MOT: 我喜欢看你想象中的星星的样子.",second_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"child: how to draw a star?
+child: right? (?)
+mother: right
+mother: draw the stars however you think they look.
+mother: i like to see the way starts look in your imagination. ",no,no,no
+797,Zhou2/60/ma03,,child,"MOT: 这什么变形金刚?
+CHI: 你觉得像不像光能使者上面的那个.
+MOT: 我觉得像那个超级光能里面<那个>[/]那个坏蛋叫什么.
+MOT: 那个坏蛋叫什么名字?
+CHI: xxx.",second_person,dropped,polar,declarative,no,no,no,no,,no,no,no,no,no,"mother: what is this transformer?
+child: Do you think (it) looks like the one from Mado King Granzort?
+mother: i think (it) looks like the villain from Super Granzort. What is the name of the villain?
+mother: what is the name of the villain?
+child: xxx.",no,no,yes
+798,Zhou2/60/ma03,,mother,"MOT: 这什么变形金刚?
+CHI: 你觉得像不像光能使者上面的那个.
+MOT: 我觉得像那个超级光能里面<那个>[/]那个坏蛋叫什么.
+MOT: 那个坏蛋叫什么名字?
+CHI: xxx.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: what is this transformer?
+child: Do you think (it) looks like the one from Mado King Granzort?
+mother: i think (it) looks like the villain from Super Granzort. What is the name of the villain?
+mother: what is the name of the villain?
+child: xxx.",no,no,yes
+799,Zhou2/60/ma05,,mother,"CHI: 嗯谁的尾巴啊?
+CHI: 老鼠.
+MOT: 老鼠的尾巴长吗?
+CHI: 长.
+MOT: 老鼠的尾巴妈妈觉得不长嘛.
+MOT: 再想想看.
+CHI: 嗯![Y]",NP,NP,declarative,declarative,no,no,no,no,yes,no,no,no,p?,before,"child: hmm, whose tail (is this)? -> should be mom?
+child: the mouse.
+mother: do mice have long tails?
+child: long.
+mother: mice’s tails mom thinks are not long (topicalized: mom thinks the mice’s tails are not long).
+mother: think about it again.
+child: yeah.",no,no,
+800,Zhou2/60/ma05,,mother,"MOT: 你好,小乌龟说,请问你是谁啊?
+MOT: 小星星眨了眼睛一句话也说不出来.
+MOT: 小乌龟觉得很奇怪.
+MOT: 它捏捏小星星.",NP,omitted,declarative,none,no,no,no,no,,no,no,no,no,no,"mother: hello, the little turtle said, who are you?
+mother: the little star blinked, couldn’t say a word.
+mother: the little turtle felt weird 
+mother: it squished the little star.",no,no,no
+801,Zhou2/60/ma05,,mother,"MOT: 尊姓大名就是说请问你姓什么.
+MOT: 小星星眨了眨眼睛一句话也说不出来.
+MOT: 企鹅觉得奇怪就伸手去摸了一下小星星.",NP,omitted,declarative,none,no,no,no,no,,no,no,no,no,no,"mother: what is your name? Which means what is your family name
+mother: the little star blinked and couldn’t say a word.
+mother: the penguin felt very strange so it reached to touch the little star.",no,no,no
+802,Zhou2/42/fa08,,mother,"MOT: 那怎么处理这粒种子呢?
+MOT: 蜘蛛问老蚯蚓.
+MOT: 老蚯蚓若有所思""/.
+MOT: ""把他种起来.
+MOT: ""说不定还能结出什么美味的果子来呢!
+MOT: 大家觉得这个注意不错.
+MOT: 然后就把这粒种子种到地里去.",NP,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: so what should we do with this seed?
+mother: the spider asked the old earthworm.
+mother: (we should) plant it.
+mother: the older earthworm looked deep in thought:
+mother: maybe (it) could even bear some delicious fruit.”
+mother: everyone thought it was a good idea.
+mother: then (they) planted this seed in the ground.",no,no,no
+803,Zhou2/42/fa10,,mother,"MOT: 你看你这么多工具.
+MOT: 你才用了一点点.
+CHI: 这样子搭.
+MOT: 这样子你觉得它坚固吗?
+MOT: 假如我一动呢?
+MOT: 坚固不坚固?
+MOT: 坚固,一定要把根基打好.",second_person,third_person,polar,declarative,no,no,no,no,,no,no,no,p?,after,"mother: you see, you (have) so many tools.
+mother: you only used so few.
+child: build it like this.
+mother: do you think it is stable this way?
+mother: what if i move it a little?
+mother: (is it) stable or not?
+mother: stable, you have to make sure the foundation is solid.",no,no,no
+804,Zhou2/42/fa10,,mother,"MOT: 妈妈对剩下的一只皮皮鼠说""/.
+MOT: ""你要好好睡觉,别再吵闹!
+MOT: 可是这只皮皮鼠呢?
+MOT: 你觉得它会不会听话?
+MOT: 妈妈一走呀,这只皮皮鼠还是忍不住吃跳跳糖.",second_person,third_person,polar,declarative,no,no,会,no,,no,no,no,no,no,"mother: the mom told the other Pipi mouse:
+mother: “you need to sleep nice and stop making noise!”
+mother: but this Pipi mouse
+mother: do you think would will listen?
+mother: as soon as the mom left, this Pipi mouse couldn’t resist eating the popping candy.",no,no,no
+805,Zhou2/42/ma04,,mother,"MOT: 爸爸,妈妈说""/.
+MOT: ""咦什么声音在响啊?
+MOT: ""真奇怪.
+MOT: 你看爸爸在这边看报纸,觉得真奇怪.",NP,omitted,declarative,none,,,,,,,,,,,,,,
+806,Zhou2/42/ma05,,mother,"MOT: 小乌龟说""/.
+MOT: ""你是谁啊?
+MOT: 小星星眨眨眼睛.
+MOT: 还是一句话也说不出来.
+MOT: 小乌龟觉得奇怪.
+MOT: 它问小星星.
+MOT: 什么东西这么软?",NP,omitted,declarative,none,,,,,,,,,,,"mother: the little turle said:
+mother: who are you?
+mother: the little star blinked,
+mother: still couldn’t say a word.
+mother: the little turtle felt weird 
+mother: he asked the little star
+mother: what’s so soft?",,,
+807,Zhou2/72/fa07,,mother,"MOT: 一只小乌龟走过来说你好请问你是谁啊?
+MOT: 小星星眨了眨眼睛一句话也不说.
+MOT: 小乌龟觉得很奇怪它摸了摸小星星.
+MOT: 哎呀什么东西这么软啊?",NP,omitted,declarative,none,,,,,,,,,,,"mother: the little turtle walked over and said, hello, who are you?
+mother: the little star blinked, couldn’t say a word.
+mother: the little turtle felt weird. It touched the little star
+mother: “wow, what’s so soft?”",,,
+808,Zhou2/72/fa07,,mother,"MOT: 你好小企鹅说请问尊姓大名?
+MOT: 小星星眨了眨眼睛一句话也不说.
+MOT: 小企鹅觉得奇怪伸手摸了摸.
+MOT: 哎呀这是什么呀?",NP,omitted,declarative,none,,,,,,,,,,,"mother: hello, the little penguin said, what is your name? 
+mother: the little star blinked and couldn’t say a word.
+mother: the penguin felt very strange so it reached to touch the little star.
+mother: “wow, what’s this?”",,,
+809,Zhou2/72/fa07,,mother,"MOT: 大狗熊怎么帮助它啦?
+CHI: 给它一层棉袄.
+MOT: 哦.[Y]
+MOT: 然后小乌龟呢?
+MOT: 小乌龟觉得它太软了要给它一个什么?
+CHI: 壳.",NP,third_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: how did the bear help it?
+child: (he) gave it a cotton jacket.
+mother: oh.
+mother: then (what about) the little turtle?
+mother: the little turtle thought it was too soft and what would (he) give it?
+child: a shield.",,,
+810,Zhou2/72/fa07,,mother,"MOT: 那白鹅妈妈呢?
+MOT: 给了它一个什么?
+CHI: 棉被.
+MOT: 嗯.[Y]
+MOT: 那小企鹅呢?
+MOT: 觉得它太冷了给它一个什么?
+CHI: 太冷了.
+MOT: 嗯它觉得.
+MOT: 小企鹅觉得它太热了给它一个冷的什么
+CHI: 冰.
+MOT: 冰袋.",dropped,third_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: what about Mama goose?
+mother: what did (she) give it?
+child: a cotton blanket.
+mother: yeah.
+mother: what about the little penguin?
+mother: (penguin) thought it was too cold, what did (he) give it?
+child: too cold.
+mother: yeah he thought.
+mother: the little penguin thought it was too hot and what did (he) give it?
+child: ice.
+mother: an ice pack.",,no,no
+811,Zhou2/72/fa07,,mother,"MOT: 那白鹅妈妈呢?
+MOT: 给了它一个什么?
+CHI: 棉被.
+MOT: 嗯.[Y]
+MOT: 那小企鹅呢?
+MOT: 觉得它太冷了给它一个什么?
+CHI: 太冷了.
+MOT: 嗯它觉得.
+MOT: 小企鹅觉得它太热了给它一个冷的什么
+CHI: 冰.
+MOT: 冰袋.",third_person,omitted,declarative,none,no,no,no,no,,no,no,no,no,no,"mother: what about Mama goose?
+mother: what did (she) give it?
+child: a cotton blanket.
+mother: yeah.
+mother: what about the little penguin?
+mother: (penguin) thought it was too cold, what did (he) give it?
+child: too cold.
+mother: yeah he thought.
+mother: the little penguin thought it was too hot and what did (he) give it?
+child: ice.
+mother: an ice pack.",,no,no
+812,Zhou2/72/fa07,,mother,"MOT: 那白鹅妈妈呢?
+MOT: 给了它一个什么?
+CHI: 棉被.
+MOT: 嗯.[Y]
+MOT: 那小企鹅呢?
+MOT: 觉得它太冷了给它一个什么?
+CHI: 太冷了.
+MOT: 嗯它觉得.
+MOT: 小企鹅觉得它太热了给它一个冷的什么
+CHI: 冰.
+MOT: 冰袋.",NP,third_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: what about Mama goose?
+mother: what did (she) give it?
+child: a cotton blanket.
+mother: yeah.
+mother: what about the little penguin?
+mother: (penguin) thought it was too cold, what did (he) give it?
+child: too cold.
+mother: yeah he thought.
+mother: the little penguin thought it was too hot and what did (he) give it?
+child: ice.
+mother: an ice pack.",no,no,no
+813,Zhou2/72/fa08,,mother,"CHI: 嗯我要做东西.
+CHI: 我身子做了.
+CHI: 啊.[Y]
+MOT: 嗯[/]嗯.[Y]
+CHI: 多多多@c.
+MOT: 你觉得...
+MOT: 嗯...[Y]
+MOT: 头上长了红红的什么?
+CHI: <没有>[/]没有.
+CHI: 我没有好呢.",second_person,dropped,wh_question,declarative,no,no,no,no,,no,了,no,no,no,"child: i want to make something.
+child: i’ve made the body.
+child: ah.
+mother: yeah, yeah
+child: more, more, more (?)
+mother: what do you think…
+mother: hmm…
+mother: what is the red thing that is growing on the head?
+child: no, no.
+child: i’m not done yet.",,,
+814,Zhou2/72/fa08,,mother,"MOT: 我们孩名最爱画画了.
+MOT: 我们孩名家里面呀画得来.
+MOT: 一有空就画画,对吧?
+MOT: 孩名你这个.
+MOT: 你觉得画画给你带来什么感觉?
+CHI: 感觉好处.
+MOT: 感觉什么?
+CHI: 有好处.",second_person,NP,wh_question,declarative,no,no,no,no,,no,no,no,no,no,"mother: our <kid’s name> likes drawing the most.
+mother: our <kid’s name> can draw well at home (?)
+mother: (the kid) draws whenever he gets a chance.
+mother: <kid’s name> you
+mother: what kind of feeling do you think drawing gives you? (how does drawing make you feel?)
+child: feeling advantages.
+mother: feeling what?",,,
+817,Zhou2/72/fa08,,mother,"MOT: 妈妈告诉你.
+MOT: 你看这些东西妈妈觉得很好.
+MOT: 但这个影片.
+MOT: 但这个卡通片的一些粗话啊什么的你千万不能学啊.",NP,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,,,,
+818,Zhou2/72/fa09,,mother,"MOT: 这边怎么了?
+MOT: 乖乖.
+MOT: 这边又怎么了?
+MOT: 然后它爸爸,妈妈又觉得奇怪了.",NP,omitted,declarative,none,又,,,,,,,,,,,,,
+819,Zhou2/72/fa10,,mother,"MOT: 爸爸,妈妈说""/.
+MOT: ""咦.
+MOT: 他们觉得怎么了?
+MOT: 很奇怪.
+MOT: 什么声音啊?",third_person,dropped,wh_question,declarative,no,no,no,no,,no,了,no,no,no,"mother: dad and mom said:
+mother: huh?
+mother: they thought what’s wrong
+mother: very strange.
+mother: what’s the sound?",,,
+821,Zhou2/72/fb16,,mother,"MOT: 怎么搞的?
+CHI: 不管了.
+MOT: <快了>[/]快了.
+CHI: 看我做的楼梯漂亮.
+MOT: 真的吗?
+MOT: 你觉得你做得快还是妈妈做得快?
+MOT: 看妈妈做的怎么样?
+MOT: 还行吧?",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,no,no,"mother: how did this happen?
+child: forget it.
+mother: almost done, almost done.
+child: look, the staircase i made is pretty.
+mother: really?
+mother: do you think you did it faster or mom did it faster?
+mother: look how did mom do?
+mother: not bad?",,,
+822,Zhou2/72/fb18,,mother,"MOT: 这个你觉得还有意思啊?
+CHI: 一点意思都没有.
+MOT: 没意思啊.",second_person,NP,rhetorical,declarative,no,no,no,no,,no,no,no,no,no,"mother: this, you still think is interesting? (you think this is still interesting?)
+child: not interesting at all
+mother: oh",,,
+823,Zhou2/72/ma03,,mother,"MOT: 小企鹅觉得很奇怪,就伸出手来摸了摸.
+MOT: 哎呀怎么这么热啊?
+MOT: 太热了!",NP,omitted,declarative,none,,,,,,,,,,,,,,
+824,Zhou2/72/ma05,,mother,"MOT: 他用手摸了摸什么东西这么冷?
+MOT: 他摸到冰袋上去了觉得好冷是不是啊?
+CHI: 嗯.[Y]
+MOT: 然后呢小朋友把小星星身上的东西都扒掉啦是不是啊?
+MOT: 原来他认出来啦.",dropped,omitted,declarative,none,,,,,,,,,,,,,,
+825,Zhou2/72/mb11,,mother,"MOT: 你以前有没有玩过这个?
+CHI: 没有.
+MOT: 没有啊?
+MOT: 你觉得好不好玩啊?
+CHI: 嗯.[Y]",second_person,dropped,polar,declarative,no,no,no,no,,no,no,no,no,no,"mother: have you played this before?
+child: no.
+mother: no?
+mother: do you think this is fun to play?
+child: yeah.",,,
+827,Zhou2/48/fa05,,child,"CHI: 这还有鞋子.
+MOT: 对啊?
+MOT: 哦对呀,给他穿上鞋子了.
+MOT: 小乌龟穿着鞋子,是不是?
+CHI: 我觉得他不像乌龟.
+MOT: 你觉得他不像乌龟.
+MOT: 那我们想他是什么呢?
+MOT: 你给他起名字,好不好?",first_person,third_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"child: there are shoes here.
+mother: right?
+mother: yeah right, put shoes on him.
+mother: the little turtle was wearing shoes, right?
+child: i think he’s not like a turtle.
+mother: you think he’s not like a turtle.
+mother: then what do you think he is?
+mother: you should name him, okay? (why don’t you give him a name?)",,,
+828,Zhou2/48/fa05,,mother,"CHI: 这还有鞋子.
+MOT: 对啊?
+MOT: 哦对呀,给他穿上鞋子了.
+MOT: 小乌龟穿着鞋子,是不是?
+CHI: 我觉得他不像乌龟.
+MOT: 你觉得他不像乌龟.
+MOT: 那我们想他是什么呢?
+MOT: 你给他起名字,好不好?",second_person,third_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"child: there are shoes here.
+mother: right?
+mother: yeah right, put shoes on him.
+mother: the little turtle was wearing shoes, right?
+child: i think he’s not like a turtle.
+mother: you think he’s not like a turtle.
+mother: then what do you think he is?
+mother: you should name him, okay? (why don’t you give him a name?)",,,
+829,Zhou2/48/fa05,,mother,"MOT: 好朋友问小星星.
+MOT: 小星星眨了眨眼睛.
+MOT: 还是一句话也说不出来.
+MOT: 小乌龟觉得很奇怪.
+MOT: 摸了摸觉得什么东西这么软啊?
+MOT: 怎么这么软的?
+MOT: 太软了.",NP,omitted,declarative,none,,,,,,,,,,,"mother: the friend asked the little star
+mother: the little star blinked
+mother: still couldn’t say a word.
+mother: the little turtle felt very strange.
+mother: (he) touched and thought, what thing is this that is so soft? (what do you think is so soft)?
+mother: why is this so soft?
+mother: so soft.",,,
+830,Zhou2/48/fa05,,mother,"MOT: 好朋友问小星星.
+MOT: 小星星眨了眨眼睛.
+MOT: 还是一句话也说不出来.
+MOT: 小乌龟觉得很奇怪.
+MOT: 摸了摸觉得什么东西这么软啊?
+MOT: 怎么这么软的?
+MOT: 太软了.",dropped,NP,wh_question,declarative,no,no,no,no,,no,no,no,no,no,"mother: the friend asked the little star
+mother: the little star blinked
+mother: still couldn’t say a word.
+mother: the little turtle felt very strange.
+mother: (he) touched and thought, what thing is this that is so soft? (what do you think is so soft)?
+mother: why is this so soft?
+mother: so soft.",,,
+831,Zhou2/48/fa06,,mother,"CHI: 这像是xxx.
+MOT: <等会儿>[/]等会儿.
+MOT: 你不觉得这像小白兔吗?
+CHI: 你看哪.
+CHI: 像萝卜吧?
+MOT: 像萝卜.",second_person,NP,polar,declarative,no,no,no,yes,,no,no,no,no,no,"child: this is like xxx.
+mother: wait wait
+mother: don’t you think this is like a little rabbit?
+child: look.
+child: like a radish right?
+mother: like a radish.",,,
+832,Zhou2/48/fa06,,mother,"MOT: 好.
+MOT 这就可以了.
+MOT: 你看.
+MOT: 我们一个还没搭起来.
+MOT: 看到了吧.
+MOT: 我觉得我们还是有问题哎.
+CHI: 我觉得不错了.
+MOT: 你觉得很不错吗?
+CHI: 当然了.",first_person,first_person,declarative,declarative,no,no,no,no,,no,no,no,contrast_p,after,"mother: okay.
+mother: this is fine.
+mother: you see.
+mother: you still have one left that is not built.
+mother: (you) see that.
+mother: i think we still have some problems.
+child: i think (it is) very good.
+mother: you think (it is very good)
+child: of course. ",,觉得,
+833,Zhou2/48/fa06,,child,"MOT: 好.
+MOT 这就可以了.
+MOT: 你看.
+MOT: 我们一个还没搭起来.
+MOT: 看到了吧.
+MOT: 我觉得我们还是有问题哎.
+CHI: 我觉得不错了.
+MOT: 你觉得很不错吗?
+CHI: 当然了.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p,both,"mother: okay.
+mother: this is fine.
+mother: you see.
+mother: you still have one left that is not built.
+mother: (you) see that.
+mother: i think we still have some problems.
+child: i think (it is) very good.
+mother: you think (it is very good)
+child: of course. ",,觉得,yes
+834,Zhou2/48/fa06,,mother,"MOT: 好.
+MOT 这就可以了.
+MOT: 你看.
+MOT: 我们一个还没搭起来.
+MOT: 看到了吧.
+MOT: 我觉得我们还是有问题哎.
+CHI: 我觉得不错了.
+MOT: 你觉得很不错吗?
+CHI: 当然了.",second_person,dropped,polar,declarative,no,no,no,no,,no,no,no,p,before,"mother: okay.
+mother: this is fine.
+mother: you see.
+mother: you still have one left that is not built.
+mother: (you) see that.
+mother: i think we still have some problems.
+child: i think (it is) very good.
+mother: you think (it is very good)
+child: of course. ",,觉得,
+835,Zhou2/48/fa06,,mother,"MOT: 等等[/]等等[/]等等.
+MOT: 再来一下.
+CHI: 哟.[Y]
+MOT: 我觉得你真会搞笑.
+MOT: 来,站起来.
+MOT: 我这样拍一下啊.
+MOT: 好.",first_person,second_person,declarative,declarative,no,no,会,no,,no,no,no,no,no,"mother: wait, wait, wait
+mother: do it again.
+child: yo
+mother: i think you are really funny.
+mother: come, get up.
+mother: i’ll bounce (it) once.
+mother: okay.",,,
+836,Zhou2/48/fa06,,mother,"CHI: 这这边也有头哎.
+CHI: 怎么玩啊?
+MOT: 嗯[/]嗯.[Y]
+MOT: 好.
+MOT: 这个怎么玩啊?
+MOT: 我觉得你这个不错.
+MOT: 你看.
+MOT: 这个.",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"child: There’s a head on this side.
+child: how to play?
+mother: yeah, yeah
+mother: okay
+mother: how to play this?
+mother: i think yours is pretty good.
+mother: you see.
+mother: this one.",,,
+837,Zhou2/48/fa06,,mother,"MOT: 它这个就是一个百变金刚.
+MOT: 懂吧?
+MOT: 这个也像一个人.
+MOT: 就是这样走路的.
+MOT: 然后你再把这个弄上去.
+MOT: 我觉得这个玩具蛮好的.
+MOT: 这也像一个人.
+MOT: 但是你要想想怎样才能把这个玩具装起来呢?",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: this is just a transformer (?).
+mother: you understand?
+mother: this is like a human.
+mother: (it) just walks like this.
+mother: and then you put this on it.
+mother: i think this toy is good.
+mother: it is also like a human.
+mother: but you should think about how to assemble this toy.",,,
+838,Zhou2/48/fa06,,mother,"MOT: 像红蜻蜓.
+MOT: 对.
+MOT: 它的手都是活动的.
+MOT: 两只手.
+MOT: 我觉得这个红蜻蜓是xxx的.
+MOT: 然后呢?",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: like a red dragonfly.
+mother: right.
+mother: it’s hands can all move around.
+mother: two hands.
+mother: i think this red dragonfly is xxx’s.
+mother: and then?",,,
+839,Zhou2/48/fa06,,mother,"MOT: 这个字认不得吧?
+CHI: 嗯.
+MOT: 但是这个图,看得懂.
+MOT: 这是什么动物?
+CHI: 蚂蚁.
+MOT: 我觉得像蚂蚁.
+MOT: 是不是啊?
+MOT: 蚂蚁[/]蚂蚁它有翅膀飞啊.
+MOT: 那蚂蚁在干什么?",first_person,dropped,tag_question,declarative,no,no,no,no,,no,no,no,p,before,"mother: this word, (you) don’t know right?
+child: yeah
+mother: but this image (you) understand.
+mother: what animal is this?
+child: ant.
+mother: i think (it) is like an ant.
+mother: right?
+mother: ant, ant, it has wings to fly.
+mother: then, what is the ant doing?",,,
+840,Zhou2/48/fa08,,mother,"MOT: 难做的事情要慢慢做.
+MOT: 不能急.
+MOT: 越急,就越做不好.
+MOT: 知道吧?
+MOT: 知道不知道?
+MOT: 你要是觉得太难,就叫妈妈帮你一起做啊.
+CHI: 我会做.
+MOT: 你会做?",second_person,dropped,declarative,declarative,no,要,no,no,,no,no,no,no,no,"mother: if the thing is hard to do, do it slowly.
+mother: (you) cannot rush.
+mother: the more you rush, the worse 
+mother: you know?
+mother: do you know or not?
+mother: if you think (it is) too hard, just ask mom to help you do (it) together.
+child: i can do (it). (i know how to do it)
+mother: you can do (it)?",,,
+842,Zhou2/48/fa08,,mother,"MOT: 他是男孩还是女孩?
+CHI: 男孩.
+MOT: 嗳男孩.
+MOT: 好的.
+MOT: 那我们你觉得画好嘞?
+MOT: 你觉得这个小朋友好不好看?
+CHI: 好看.",second_person,dropped,polar,declarative,no,no,no,no,,no,no,no,no,no,"mother: is he/she a boy or a girl?
+child: a boy.
+mother: a boy.
+mother: okay.
+mother: then we.. you think the drawing is done?
+mother: do you think this little kid is pretty?
+child: (he is) pretty.",,,
+843,Zhou2/48/fa08,,mother,"MOT: 他是男孩还是女孩?
+CHI: 男孩.
+MOT: 嗳男孩.
+MOT: 好的.
+MOT: 那我们你觉得画好嘞?
+MOT: 你觉得这个小朋友好不好看?
+CHI: 好看.",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,p_answer,after,"mother: is he/she a boy or a girl?
+child: a boy.
+mother: a boy.
+mother: okay.
+mother: then we.. you think the drawing is done?
+mother: do you think this little kid is pretty?
+child: (he is) pretty.",,,
+844,Zhou2/48/fa09,,mother,"MOT: 小乌龟说""/.
+MOT: ""请问你是谁啊?
+MOT: 小星星眨眨眼睛.
+MOT: 一句话也不说.
+MOT: 小乌龟觉得很奇怪.
+MOT: 它摸了摸小星星的头.",NP,omitted,declarative,none,,,,,,,,,,,"mother: the little turtle said, 
+mother: may i ask who you are?
+mother: the little star blinked,
+mother: couldn’t say a word.
+mother: the little turtle felt weird 
+mother: he patted the little star’s head.",,,
+845,Zhou2/48/fa09,,mother,"MOT: ""请问尊姓大名啊?
+MOT: 小星星眨眨眼睛.
+MOT: 一句话也说不出来.
+CHI: 它把冰淇淋摔掉了.
+MOT: 它把冰淇淋摔掉了啊?
+MOT: 小企鹅觉得很奇怪就伸手去摸.
+MOT: 哎呀这是什么呀?",NP,omitted,declarative,none,,,,,,,,,,,"mother: what is your name?
+mother: the little star blinked, 
+mother: couldn’t say a word.
+child: it dropped the ice cream.
+mother: it dropped the ice cream?
+mother: the little penguin felt weird and went to touch the little star.
+mother: ah, what is this?",,,
+846,Zhou2/48/fa10,,mother,"MOT: ""你好,请问你是谁啊?
+MOT: 小星星又眨了眨眼睛.
+MOT: 一句话也说不出来.
+MOT: 他觉得很奇怪.
+MOT: 就摸了摸小星星.",NP,omitted,declarative,none,,,,,,,,,,,"mother: hello, who are you?
+mother: the little star blinked, 
+mother: couldn’t say a word.
+mother: he felt really weird.
+mother: so (he) patted the little star.",,,
+847,Zhou2/48/ma03,,mother,"MOT: 你看看.
+MOT: 这是什么形状?
+MOT: 首先看是什么形状.
+MOT: 你觉得它是什么形状?
+CHI: 你看它是梯形.
+MOT: 也是梯形.",second_person,third_person,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"mother: you see.
+mother: what shape is this?
+mother: first, see what shape it is.
+mother: what do you think its shape is?
+child: you see it is a trapezoid.
+child: also a trapezoid.",,,
+848,Zhou2/48/mb11,,mother,"MOT: 老蚯蚓若有所思.
+MOT: 把它种起来说不定还能结出什么美味的果子呢.
+MOT: 是不是啊?
+CHI: 是.
+MOT: 能不能还能结出果子啊?
+MOT: 大家都觉得这个主意不错.
+MOT: 于是由蝼蛄小蚂蚁采集xxx.",NP,NP,declarative,declarative,都,no,no,no,,no,no,no,no,no,"mother: the old earthworm looked deep in thought
+mother: if (we) plant it, maybe it’ll even bear some delicious fruit.
+mother: right?
+child: right
+mother: can it still bear some fruit?
+mother: everything thinks this idea is good (this is a good idea).
+mother: so they let the little ant to gather xxx (the seed)?",no,no,
+849,Zhou2/48/mb12,,mother,"MOT: 乌龟说""/.
+MOT: ""请问你是谁啊?
+MOT: 小星星眨了眨眼睛.
+MOT: 一句话也说不出来.
+MOT: 小乌龟觉得奇怪.
+MOT: 他摸了摸小星星.
+MOT: 哎呀什么东西这么软啊!",NP,omitted,declarative,none,,,,,,,,,,,"mother: the little turtle said, 
+mother: may i ask who you are?
+mother: the little star blinked,
+mother: couldn’t say a word.
+mother: the little turtle felt weird 
+mother: he patted the little star.
+mother: ah, what’s so soft?",,,
+850,Zhou2/48/mb12,,mother,"MOT: 小企鹅觉得奇怪.
+MOT: 就伸手去摸了一下.
+MOT: 哎呀呀![Y]
+MOT: 这是什么呀.
+MOT: 这么热!",NP,omitted,declarative,none,,,,,,,,,,,"mother: the little penguin felt weird
+mother: and reached out to touch the little star.
+mother: “ah, 
+mother: what is this!
+mother: so hot!”",,,
+851,Zhou2/48/mb13,,mother,"MOT: 你看哪个是火箭?
+CHI: 这个.
+MOT: 好,那你搭一个火箭吧.
+MOT: 你还会按照这个图形搭?
+CHI: 我会.
+MOT: 你看看觉得这个图是怎么搭的?
+CHI: 这个是这样子的.
+MOT: 好.",dropped,NP,wh_question,declarative,no,no,no,no,,no,no,no,p_answer,after,"mother: you see which one is the rocket?
+child: this one.
+mother: great, then you go build a rocket.
+mother: are you still following this shape to build (the rocket)?
+child: i will.
+mother: take a look and think about how this diagram is built (how do you think this was built)?
+child: this is like this.
+mother: okay.",,,
+852,Zhou2/48/mb13,,mother,"MOT: 这个火箭还搭好啊?
+CHI: 搭好嘞.
+MOT: 啊?[Y]
+CHI: 搭好嘞.
+MOT: 哎呀.
+MOT: 我看好像觉得还有一点不像.
+CHI: 哪个?
+MOT: 你看看这个下面好像有一点点不像.",dropped,dropped,declarative,declarative,好像,no,no,no,,no,no,no,p,after,"mother: this rocket is finished? (is this rocket built)?
+child: it is built.
+mother: what?
+child: it is built.
+mother: oh!
+mother: from what i can see, i think it still doesn’t look quite similar.
+child: which one?
+mother: you see, this bottom one still doesn’t look quite similar.",,,
+853,Zhou2/66/fa08,,mother,"MOT: ""你好.
+MOT: 小乌龟说""/.
+MOT: ""请问你是谁?
+MOT: 小星星眨了眨眼睛一句话也说不上来.
+MOT: 小乌龟觉得很奇怪它摸了摸小星星.
+MOT: ""哎呀什么东西这么软呀太软了这不行小乌龟说不能这么软.
+MOT: 它拿来一个乌龟壳顶在小星星的头上.",NP,omitted,declarative,none,,,,,,,,,,,,,,
+854,Zhou2/66/fa08,,mother,"MOT: 小企鹅说""/.
+MOT: ""你好请问你是什么人啊?
+MOT: 小星星眨了眨眼睛一句话也说不出来.
+MOT: 小企鹅觉得很热.
+MOT: 觉得很奇怪.
+MOT: 它摸了摸哎呀怎么这么热呀.",NP,omitted,declarative,none,,,,,,,,,,,,,,
+855,Zhou2/66/fa08,,mother,"MOT: 小企鹅说""/.
+MOT: ""你好请问你是什么人啊?
+MOT: 小星星眨了眨眼睛一句话也说不出来.
+MOT: 小企鹅觉得很热.
+MOT: 觉得很奇怪.
+MOT: 它摸了摸哎呀怎么这么热呀.",NP,omitted,declarative,none,,,,,,,,,,,,,,
+856,Zhou2/66/fb19,,mother,"MOT: 它们在床上就跳起来.
+MOT: 它们很高兴,是不是?
+MOT: 它们爸爸,妈妈说""/.
+MOT: ""好像有什么声音觉得很奇怪,是不是?
+MOT: 一只皮皮鼠听到了.",dropped,omitted,declarative,none,,,,,,,,,,,,,,
+857,Zhou2/66/fb19,,mother,"MOT: 它们又想吃跳跳糖.
+MOT: 它们把衣柜里全部衣服都拿出来.
+MOT: 它们爸爸,妈妈又觉得好像又(有?)声音在响.
+MOT: 又一只皮皮鼠听见爸爸,妈妈在说话又掉下来.
+MOT: 你看.",NP,dropped,declarative,declarative,又,no,no,no,,no,no,no,no,no,"mother: they wanted to have the popping candy again.
+mother: they opened the closet and took all the clothes out.
+mother: their dad and mom thought they might have heard some noise.
+mother: another Pipi mouse heard his dad and mom were talking and fell off again.
+mother: you see.",no,no,no
+858,Zhou2/66/fb19,,mother,"MOT: 它躲在厕所里乒乒乓乓地跳.
+MOT: 它妈妈爸爸又好像听到什么声音了,是不是?
+MOT: 这只皮皮鼠又听到爸爸,妈妈在说话觉得好害怕.
+MOT: 掉进马桶里面.",dropped,omitted,declarative,none,,,,,,,,,,,,,,
+2621,ChangPlay/3/016,,investigator,"EXP: 是火车.
+EXP: 是不是?
+EXP: 是车车吗?
+EXP: 是不是?
+EXP: 是不是啦?
+EXP: 我觉得是车车耶.
+GRM: 呜七出七出七出区区区区@o[=火车的声音].
+EXP: 喔来了.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,no,no,"experimenter: It’s a train.
+experimenter: Is it?
+experimenter: Is it a choo-choo?
+experimenter: Is it?
+experimenter: Is it?
+experimenter: I think it is a choo-choo.
+grandma: wooo choo choo (making the train noise)
+experimenter: Here it comes!",,,
+2622,ChangPlay/3/019,,mother,"MOT: 你怎么这么厉害啊.
+MOT: 从哪里开的啊?
+MOT: 哦用力开.
+SIS: 打开.
+MOT: 是这样吗?
+MOT: 0n,我觉得你弄错了.
+MOT: 你确定是用力开吗[=!laughs]?
+MOT: 0n.
+MOT: 你喜欢玩什么?",first_person,second_person,declarative,declarative,no,no,no,no,,no,no,no,no,no,"mother: How are you so good at this?
+mother: Where did you open it?
+mother: Oh, open it with force.
+sister: Open.
+mother: Like this?
+mother: Oh(?), I think you did it wrong.
+mother: Are you sure you opened it with force? (laugh)
+mother: Oh(?)
+mother: Do you like to play?",,,
+2623,ChangPlay/4/003,,mother,"FAT: 妈妈忘了戴帽子.
+MOT: 诶妈妈戴哪一顶比较可爱?
+MOT: 这顶吼?
+FAT: 对呀.
+BRO: 0[=!soundeffects].
+MOT: 觉得这顶比较可爱.
+FAT: 妈妈要蹲着啦.
+MOT: 好.
+CHI: 不然太高了啦.",dropped,NP,declarative,declarative,no,no,no,no,,no,no,no,p,before,"mother: which one looks cuter on mom?
+mother: this one?
+father: yeah.
+brother: sound effect
+mother: (you) think this one is cuter.
+father: mom is going to squat down.
+mother: okay
+child: or else (you’re/she’s) too tall.",,,
+2624,ChangPlay/4/003,,mother,"FAT: <看不>[/]看不清楚.
+MOT: 欸0n呀.
+MOT: 你二十四号变装秀嘛ho.
+MOT: 啊你穿这样子.
+MOT: 你觉得怎么样?
+MOT: 呃.
+MOT: 我看看哪里买得到.",second_person,dropped,wh_question,declarative,no,no,no,no,,no,no,no,no,,,,,
+2625,ChangPlay/4/013,,mother,"MOT: 跟那个一样啊.
+MOT: 绑辫子啊.
+MOT: 好不好?
+MOT: 不然你想放哪里?
+MOT: 你觉得要放哪里?
+MOT: 你跟我讲.
+MOT: <妈妈帮你>[/]妈妈帮你打扮的(漂)漂亮亮的,好不好?",second_person,dropped,wh_question,declarative,no,no,no,no,,no,no,no,no,,,,,
+2626,ChangPlay/4/013,,mother,"MOT: 这个,你要把它翻开.
+MOT: 才看的清楚啊.
+MOT: 是吗?
+MOT: 你觉得这张是吗?
+MOT: 哈?
+MOT: 嗯?
+MOT: 妈妈教你,好不好?",second_person,NP,polar,declarative,no,no,no,no,,no,no,no,no,,,,,
+2627,ChangPlay/4/013,,mother,"MOT: 对,然后呢?
+CHI: 这张是这里吗?
+MOT: 嗯你好棒耶.
+MOT: 这个咧?
+MOT: 你觉得呢?
+MOT: mmm.
+MOT: 哦你好厉害喔.",second_person,none,polar,none,,no,no,no,,no,no,no,no,,,,,
+2638,ChangPlay/5/014,,mother,"CHI: 是狮子.
+MOT: 是狮子喔.
+CHI: 对,狮子.
+MOT: 狮子干嘛?
+MOT: 狮子要跑出来啰.
+MOT: 诶我觉得这一颗很好笑.
+MOT: 这一颗是什么?
+CHI: 是<蛋>[//]出奇蛋.",first_person,NP,declarative,declarative,no,no,no,no,,no,no,no,no,,,,,
+2639,ChangPlay/5/015,,mother,"MOT: 小心
+CHI: 这我来帮你放.
+MOT: 好吧.
+CHI: 这还真的难放.
+MOT: 难放我也觉得耶.
+MOT: 好像我也放不下去.
+MOT: 好,放好了.",first_person,dropped,declarative,declarative,也,no,no,no,,no,no,no,no,,,,,
+2640,ChangPlay/5/015,,mother,"CHI: 唉呦两眼.
+MOT: 那不是眼睛啦.
+CHI: 很像啦.
+MOT: 好,很像,对啦.
+MOT 很像.
+MOT: 刚刚我看的也觉得很像.
+CHI: 三眼怪.
+MOT: 嗯.",dropped,dropped,declarative,declarative,也,no,no,no,,no,no,no,no,,"child: Oh, two eyes.
+mother: That is not an eye.
+child: (It) looks similar.
+mother: Yeah, (it) looks similar, right.
+mother: very similar.
+mother: I looked just now and also thought it was similar.
+child: A three-eyed monster.
+mother: Yeah.",,,
+2645,ChangPlay/5/020,,mother,"CHI: <最喜>[//]因为它是狗狗嘛.
+MOT: 它是什么?
+CHI: 狗狗嘛.
+MOT: 狗狗?
+CHI: 对啦!
+MOT: 我觉得像北极熊耶.
+CHI: 熊.
+CHI: 它哪是北极熊.",first_person,dropped,declarative,declarative,no,no,no,no,,no,no,no,p_alt,before,,,,
+1123,NSCtoys/3-6/c09_1,,mother,"MOT: 那想要给什么车<走>[/]走的呢?
+MOT: 还是什么还是人走的呢?
+MOT: 你摆得好仔细喔!
+MOT: 那是桥吗?
+CHI: 这是嘟嘟火车.
+MOT: 喔&=laughs!
+MOT: 我就觉得好像比较不像桥一点.
+MOT: 你想要继续玩还是玩下一个玩具?
+CHI: 好.",first_person,dropped,declarative,declarative,就,no,no,no,yes,no,no,no,p_alt,before,"mother: So what kind of vehicles is it for?
+mother: Or is it…is it for people to walk on?
+mother: You arranged it so carefully!
+mother: Is that a bridge?
+child: This is Dudu train.
+mother: Oh (laughing)
+mother: I just feel like it doesn’t really look much like a bridge.
+mother: Do you want to continue playing or play the next toy?
+child: okay.",,,
+1145,NSCtoys/5/b03_3,,mother,"MOT: 对啊!
+MOT: 可是这个盒子不是这个的吧!
+MOT: 是这样吗?
+CHI: 压不下去啊!
+CHI: 为什么刚刚那里就可以这里就不行?
+MOT: 我觉得盒子好像不是这一个.
+MOT: 妈妈试一下喔!
+MOT: <先>[/]先这样子.",first_person,NP,declarative,declarative,no,no,no,no,yes,no,no,no,p,before,"mother: Right!
+mother: But this box is not this one!
+mother: Is it like this?
+child: Can’t push it down!
+child: Why does it work there but not here?
+mother: I think the box is not this one.
+mother: Let mom try it!
+mother: Do it like this first.",,,
+1162,NSCtoys/5/b07_3,,mother,"MOT: 没关系.
+CHI: 是哪一个弯哪?
+CHI: 搞[/]搞[/]搞不好这是这样子.
+MOT: 对,应该是.
+MOT: 好,开始.
+MOT: 我觉得差不多可以开始拼了.
+CHI: 然后这个是拼这里吗?
+MOT: 嗯好,原来另外一个弯在这里.",first_person,dropped,declarative,declarative,no,no,可以,no,no,no,no,no,p,before,"mother: It’s okay.
+child: Which curved part is it?
+child: Maybe it’s actually like this.
+mother: yes, it should be.
+mother: okay, let’s start.
+mother: I think it’s about time to start putting it together.
+child: and then does this piece go here?
+mother: yeah right, it turns out the other curved part is here.",,,
+1258,NSCtoys/2/d15_1,,mother,"MOT: 哦你在盖.
+MOT: 哦我看你盖,是不是?
+MOT: 好.
+MOT: 那我看你盖.
+MOT: 好了吗?
+MOT: <孩名>,我觉得它长得有点像小船欸.
+MOT: 有没有?
+MOT: 是不是有点像船?",first_person,third_person,tag_question,declarative,no,no,no,no,no,no,no,no,p?,after,"mother: Oh, you’re building (it).
+mother: Oh, I see you’re building it, right?
+mother: Okay.
+mother: Then I’ll watch you build.
+mother: Is it done?
+mother: <Kid’s name>, I think it also looks like a small boat.
+mother: Right?
+mother: Is it like a small boat?",,,
+1261,NSCtoys/2/d16_3,,mother,"MOT: 那这个咧.
+MOT: 这个在中间.
+MOT: 你对对看它要怎么拼.
+CHI: 妈妈,这个我不会拼.
+MOT: 你可以把它放在这里.
+MOT: 我觉得是在这里.
+MOT: 你要把它放进去看看吗?
+MOT: 对了吗?
+MOT: 哇!",first_person,dropped,declarative,declarative,no,no,是,no,no,no,no,no,no,no,"mother: Then what about this one?
+mother: This one is in the middle.
+mother: You should check and (or try to?) figure out how to put it together.
+child: Mom, I can’t/don’t know how to put it together.
+mother: You can put it here.
+mother: I think (it) is here.
+mother: Do you want to try to put it there to see?
+mother: Is it right?
+mother: Wow.",,,
+1262,NSCtoys/2/d16_3,,mother,"MOT: <鸭妈妈的>[/]鸭妈妈的身体在哪里?
+CHI: 不见.
+MOT: 鸭妈妈的身体在哪里?
+CHI: 不见.
+MOT: 不见了.
+MOT: 我觉得她在这里耶.
+MOT: 你要不要试试看?
+MOT: 对.",first_person,third_person,declarative,declarative,no,no,no,no,no,no,no,no,p_alt,before,"mother: Mama Duck…where’s Mama duck’s body?
+child: Disappeared.
+mother: Where’s Mama ducks’ body?
+child: Disappeared.
+mother: Disappeared.
+mother: I think she is over there.
+mother: Do you want to try?
+mother: Right.",,,
+1281,NSCtoys/4/a10_2,,mother,"MOT: 等一下就知道了.
+MOT: 欸<你要不要>[//]你看!
+MOT: 我盖得很高.
+MOT: 你要不要再帮我?
+CHI: 你看!
+MOT: 可是我觉得你的被风吹一下就倒了.
+CHI: 不会.
+MOT: 真的吗?",first_person,NP,declarative,declarative,no,no,no,no,no,no,no,no,no,no,"mother: You’ll know in a second.
+mother: Eh, do you want to… Look!
+mother: I built it really tall.
+mother: Do you want to help me again?
+child: Look!
+mother: But i think yours would fall over if the wind blew a little.
+child: No.
+mother: Really?",,,
+1288,NSCtoys/4/a12_3,,mother,"MOT: 你不要紧张.
+MOT: 我们慢慢来.
+CHI: 猫.
+MOT: 哇你看到猫咪了!
+CHI: xxx&=laughs.
+MOT: 妈妈觉得你比妈妈会拼耶.
+MOT: 妈妈到现在都还没有完成任何一个.
+CHI: 蝶.
+CHI: 蝴蝶的(.)xxx手.",NP,second_person,declarative,declarative,no,no,no,no,no,no,no,no,no,no,"mother: Don’t be nervous.
+mother: Let’s do it slowly.
+child: A cat.
+mother: Wow, you saw the cat!
+child: (laugh)
+mother: Mom thinks you are better at putting it together than mom.
+mother: Mom still hasn’t finished anything.
+child: (butter)fly.
+child: Butterfly’s hand.",,,
+1264,NSCtoys/2/d19_3,,mother,"MOT: 你看这个是不是像一个鸡蛋?
+MOT: 要怎么拼呢?
+CHI: 这样拼!
+MOT: 这样拼.
+MOT: 对啊.
+MOT: 我也觉得这个拼图有一点点难.
+MOT: 好.
+MOT: 啊我知道了.",first_person,demonstrative_NP,declarative,declarative,也,no,no,no,no,no,no,no,no,no,"mother: Look, doesn't it look like an egg?
+mother: How to put it together?
+child: Put it it together like this!
+mother: Put it together like this.
+mother: Right.
+mother: I also think this puzzle is a little hard.
+mother: Okay.
+mother: Ah, I know.",,,
+1317,NSCtoys/4/a29_3,,mother,"MOT: 这是狗狗啦.
+CHI: 喔.
+MOT: 对啊.
+MOT: 它其实是狗狗.
+MOT: 有点像鹿.
+MOT: 妈妈也觉得有点像鹿.
+MOT: 但它是狗狗.
+MOT: 狗狗跟一只蝴蝶,对吗?",NP,dropped,declarative,declarative,也,no,no,no,no,no,no,no,p,both,"mother: It is a dog.
+child: Oh.
+mother: Right.
+mother: It is actually a doog.
+mother: (It) looks like a deer.
+mother: Mom also thinks (it) looks like a deer.
+mother: But it is a dog.
+mother: A dog and a butterfly, right?",,,
+1348,NSCtoys/4/a32_3,,mother,"CHI: 啊!
+CHI: 这里要放远一点.
+CHI: <才能>[>]...
+MOT: <没有>[<].
+MOT: 好了,那你先找后面这个尾巴好了.
+MOT: 我觉得你要先找尾巴.
+MOT: 你有看到尾巴了吗?
+CHI: 有.",first_person,second_person,declarative,declarative,no,no,要,no,no,no,no,no,p,before,"child: Ah.
+child: It should be put a little bit farther away here.
+child: So that (it) can …
+mother: No.
+mother: Okay, then you can look for this back tail piece first
+mother: I think you should find the tail piece first.
+mother: Do you see the tail?
+child: Yeah.",,,
+1353,NSCtoys/4-6_1/f02_2,,mother,"MOT: 说说看你要做什么东西.
+CHI: 房子.
+MOT: 你要做什么?
+MOT: 你要做一个房子喔.
+MOT: 欸你要不要做一个兔兔房子.
+MOT: 我觉得这个可以做兔兔房子.
+CHI: 用这个做.
+MOT: 那颜色要换吗?",first_person,demonstrative,declarative,declarative,no,no,可以,no,no,no,no,no,p?,before,"mother: Go ahead and tell me what you’re going to make.
+child: Houses.
+mother: What are you going to make?
+mother: You’re going to make a house.
+mother: Eh, are you going to make a bunny house?
+mother: I think this can be made into a bunny house./I think this can be a bunny house.
+child: Use this to make (it).
+mother: Then should we change the color?",,,
+1354,NSCtoys/4-6_1/f02_2,,mother,"MOT: 哇.
+MOT: 哇这个房子好高喔!
+MOT: 请问他会不会摔下来?
+MOT: 确定?
+MOT: 真的吗?
+MOT: 我怎么觉得他会摔下来.
+MOT: 感觉快要摔下来了!
+MOT: 啊.
+CHI: 呵呵.",first_person,third_person,wh_question,declarative,no,no,会,no,no,no,no,no,no,no,"mother: Wow.
+mother: Wow, this house is really tall!
+mother: Is he going to fall?
+mother: Are you sure?
+mother: Really?
+mother: Why do I feel like he’s going to fall?/ I think he’s going to fall.
+mother: (I) feel like he’s going to fall!
+mother: Ah!
+child: Hehe",感觉,,
+1442,NSCtoys/3/e16_3,,mother,"CHI: <牛牛>[/]牛牛.
+MOT: 等一下再找牛牛好了.
+MOT: 因为这边都还好多不见.
+MOT: 你先找什么?
+MOT: 先找长颈鹿.
+MOT: 我觉得好像可以先找长颈鹿.
+MOT: 嗯.
+MOT: 那有个洞.",first_person,dropped,declarative,declarative,no,no,可以,no,no,no,no,no,p,before,"child: Cow cow.
+mother: Let’s wait a moment and then find the cow.
+mother: Because there are still a lot that are missing.
+mother: What are you looking for first?
+mother: Let’s look for the giraffe first.
+mother: I think maybe (you) can look for the giraffe first.
+mother: Yeah.
+mother: There’s a hole.",,,
