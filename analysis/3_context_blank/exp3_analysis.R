@@ -41,7 +41,8 @@ ggplot(data=hypothetical.data,
   scale_alpha_discrete(range = c(0.4, 0.9), name="context cue")
 
 # 1. Data ----
-context_blank.data <- read.csv("../../data/3_context_blank/3_context_blank-trials.csv", header=TRUE) %>% 
+# context_blank.data <- read.csv("../../data/3_context_blank/3_context_blank-trials.csv", header=TRUE) %>% 
+context_blank.data <- read.csv("../../data/3_context_blank-sandbox-trials.csv", header=TRUE) %>% 
   filter(!workerid %in% c("387")) # exclusion based on incomplete etc.
 
 # exclusion based on filler items # 3 participants

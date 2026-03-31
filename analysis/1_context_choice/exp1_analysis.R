@@ -34,7 +34,7 @@ hypothetical.data <- expand_grid(
       verb == "juede" & discourse_type == "unsupported" & context == "Context Presence"~ 0.60,
       verb == "yiwei" & discourse_type == "supported" & context == "Context Absence"  ~ 0.35,
       verb == "yiwei" & discourse_type == "unsupported" & context == "Context Absence" ~ 0.35,
-      verb == "juede" & discourse_type == "supported" & context == "Context Absence"  ~ 0.85,
+      verb == "juede" & discourse_type == "supported" & context == "Context Absence"  ~ 0.60,
       verb == "juede" & discourse_type == "unsupported" & context == "Context Absence" ~ 0.60,
     ),
     accuracy = rnorm(n(), mean_accuracy, sd),
@@ -72,7 +72,7 @@ hypothetical.plot <- ggplot(data=hypothetical.data %>%
   labs(x="Verb",
        y="Accuracy")
 hypothetical.plot
-ggsave(hypothetical.plot, file="graphs/hypothetical_plot_blank.pdf", width=7, height=4)
+ggsave(hypothetical.plot, file="hypothetical_plot_blank.pdf", width=7, height=4)
 
 ggplot(data=hypothetical.data,
        aes(x=verb,

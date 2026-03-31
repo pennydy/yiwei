@@ -74,6 +74,16 @@ no_context_clean_data$verb <- as.factor(no_context_clean_data$verb)
 no_context_clean_data$discourse_type <- as.factor(no_context_clean_data$discourse_type)
 
 # 2. Power analysis ----
+## 2.1 Exp1 ----
+context_model_full <- glmer(response_num ~ verb * discourse_type + (1|item_id) + (1+verb*discourse_type|workerid),
+                       data=context_clean_data,
+                       family=binomial,
+                       control = glmerControl(
+                         optimizer = "bobyqa",
+                         optCtrl = list(maxfun = 2e5)
+                       ))
+VarCorr(context_model_full)
+
 context_model <- glmer(response_num ~ verb * discourse_type + (1|item_id) + (1|workerid),
                        context_clean_data,
                        family=binomial,
@@ -91,6 +101,7 @@ ps_interaction <- powerSim(context_model,
                            fitOpts = list(control = glmerControl(
                              optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))))
 ps_interaction
+saveRDS(ps_interaction, file= "power_analysis/exp1_powersimunlation_interaction.rds")
 
 ps_discourse <- powerSim(context_model, 
                            test = fixed("discourse_typeunsupported"), 
@@ -115,15 +126,18 @@ print(plot(context_pwrcurve))
 dev.off()
 
 # having more items
-model_extended_items <- extend(context_model, along = "item_id", n = 80)
+model_extended_items <- extend(context_model, along = "item_id", n = 160)
 context_pwrcurve_items <- powerCurve(model_extended_items,
                        test = fixed("verbyiwei:discourse_typeunsupported"),
                        along = "item_id",
-                       breaks = c(10, 20, 30, 40, 60, 80),
+                       breaks = c(10, 20, 40, 60, 80, 100, 120, 160),
                        nsim = 500,
                        fitOpts = list(control = glmerControl(
                          optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))))
-saveRDS(model_extended_items, file= "power_analysis/context_pwrcurve_items.rds")
+saveRDS(context_pwrcurve_items, file= "power_analysis/context_pwrcurve_items.rds")
+context_pwrcurve_items <- readRDS("power_analysis/context_pwrcurve_items.rds")
+
+print(context_pwrcurve_items)
 plot(context_pwrcurve_items)
 pdf("power_analysis/context_pwrcurve_items.pdf", width=8, height=6)
 print(plot(context_pwrcurve_items))
@@ -141,6 +155,8 @@ context_pwrcurve_both <- powerCurve(model_extended_both,
                                        optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))))
 # worker_id=60, incremental items
 saveRDS(context_pwrcurve_both, file= "power_analysis/context_pwrcurve_both_2.rds")
+context_pwrcurve_items <- readRDS("power_analysis/context_pwrcurve_both_2.rds")
+
 plot(context_pwrcurve_both)
 pdf("power_analysis/context_pwrcurve_both_2.pdf", width=8, height=6)
 print(plot(context_pwrcurve_both))
@@ -153,3 +169,29 @@ pdf("power_analysis/context_pwrcurve_both_1.pdf", width=8, height=6)
 print(plot(context_pwrcurve_both))
 dev.off()
 
+## 2.2 Combined Exps ----
+all_model <- glmer(
+  response_num ~ verb * discourse_type * context + (1|item_id) + (1|workerid),
+  data = all_data,
+  family = binomial,
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))
+)
+summary(all_model)
+
+ps_all_interaction <- powerSim(all_model, 
+                           test = fixed("discourse_typeunsupported:contextpresence"), 
+                           nsim = 1000,
+                           fitOpts = list(control = glmerControl(
+                             optimizer = "bobyqa", 
+                             optCtrl = list(maxfun = 2e5))))
+ps_all_interaction
+saveRDS(ps_all_interaction, file= "power_analysis/combined_powersimunlation_discourse_context_interaction.rds")
+
+model_all_extended_participants <- extend(all_model, along = "workerid", n = 200)
+powerCurve(model_extended,
+           test = fixed("discourse_typeunsupported:contextpresence"),
+           along = "workerid",
+           breaks = c(84, 100, 120, 140, 160, 180, 200),
+           nsim = 200,
+           fitOpts = list(control = glmerControl(
+             optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))))
