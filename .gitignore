@@ -29,4 +29,5 @@ analysis/power_analysis/*.rds
 # writing
 writings/*
 writings/cogsci/*
+writings/updates/*
 

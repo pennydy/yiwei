@@ -697,6 +697,92 @@ child_matrix_clause_discourse_plot <- ggplot(child_discourse_clause_summary,
 child_matrix_clause_discourse_plot
 ggsave(child_matrix_clause_discourse_plot, file="graphs/child_matrix_type-discourse_plot.pdf", width=7, height=4)
 
+## adult matrix subject x embedded subject ----
+adult_subjects <- adult_summary %>% 
+  mutate(major_sentence_type = if_else(sentence_type %in% c("polar", "how-wh_question","tag_question", "wh_question"), "interrogative", sentence_type)) %>% # two major levels
+  group_by(verb, subject_type, embedded_subject_type) %>% 
+  summarize(count=n()) %>% 
+  ungroup()
+
+adult_subjects <- adult_subjects %>% 
+  filter(verb!="zhidao") %>% 
+  mutate(subject_type = fct_relevel(subject_type, "first_person", "second_person", "others","dropped"),
+         embedded_subject_type = fct_relevel(embedded_subject_type, "first_person","second_person", "others","dropped","none"),
+         verb = fct_relevel(verb, "yiwei", "juede"))
+
+adult_subject_plot<-ggplot(adult_subjects,
+                           aes(fill=embedded_subject_type, 
+                               y=count,
+                               x=subject_type)) + 
+  geom_bar(position=position_dodge2(preserve = "single"),
+           stat="identity")+
+  theme_bw()+
+  facet_grid(.~verb)+
+  scale_fill_brewer(palette = "Set2",
+                    name="Embedded subject type",
+                    labels = c("first_person"="1st person",
+                               "second_person"="2nd person",
+                               "others"="others",
+                               "dropped"="dropped",
+                               "none"="none")) +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  scale_x_discrete(labels = c("1st person", "2nd person", "others", "dropped")) +
+  labs(x="Matrix subject type",
+       y="Counts")
+adult_subject_plot
+ggsave(adult_subject_plot, file="graphs/matrix_embedded-subject_plot.pdf", width=7, height=4)
+
+## child matrix subject x embedded subject ----
+child_subjects <- child_summary %>% 
+  mutate(major_sentence_type = if_else(sentence_type %in% c("polar", "how-wh_question","tag_question", "wh_question"), "interrogative", sentence_type)) %>% # two major levels
+  group_by(verb, subject_type, embedded_subject_type) %>% 
+  summarize(count=n()) %>% 
+  ungroup()
+
+child_subjects <- child_subjects %>% 
+  filter(verb!="zhidao") %>% 
+  mutate(subject_type = fct_relevel(subject_type, "first_person", "second_person", "others","dropped","unclear"),
+         embedded_subject_type = fct_relevel(embedded_subject_type, "first_person","second_person", "others","dropped"),
+         verb = fct_relevel(verb, "yiwei", "juede"))
+
+child_subject_plot<-ggplot(child_subjects,
+                           aes(fill=embedded_subject_type, 
+                               y=count,
+                               x=subject_type)) + 
+  geom_bar(position=position_dodge2(preserve = "single"),
+           stat="identity")+
+  theme_bw()+
+  facet_grid(.~verb)+
+  scale_fill_brewer(palette = "Set2",
+                    name="Embedded subject type",
+                    labels = c("first_person"="1st person",
+                               "second_person"="2nd person",
+                               "others"="others",
+                               "dropped"="dropped",
+                               "none"="none")) +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  scale_x_discrete(labels = c("1st\nperson", "2nd\nperson", "others", "dropped", "unclear")) +
+  labs(x="Matrix subject type",
+       y="Counts")
+child_subject_plot
+ggsave(child_subject_plot, file="graphs/child_matrix_embedded-subject_plot.pdf", width=7, height=4)
+
 ## child and adult matrix subject type ----
 matrix_subject <- merge(child_matrix_subject, adult_matrix_subject, 
                  by=c("subject_type", "verb"),
