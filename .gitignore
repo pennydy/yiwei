@@ -27,7 +27,7 @@ data/childes/other_speakers/*
 analysis/power_analysis/*.rds
 
 # writing
-writings/*
+writings/*.key
 writings/cogsci/*
 writings/updates/*
 
