@@ -40,7 +40,7 @@ function make_slides(f) {
         present_handle : function(stim) {
           $(".forced_choice_err").hide();
           this.stim = stim;
-          var target = "村民们出门修补____大风破坏了的房屋。"
+          var target = "你临时说不去了，这不是____鸽子吗？"
           $(".target").html(target);
 
           exp.response = undefined;
@@ -86,7 +86,7 @@ function make_slides(f) {
       present_handle : function(stim) {
         $(".forced_choice_err").hide();
         this.stim = stim;
-        var target = "那你可以帮妈妈把小球拿____吗？"
+        var target = "你才刚试了一会儿，别这么快就____退堂鼓。"
         $(".target").html(target);
 
         exp.response = undefined;
@@ -134,7 +134,7 @@ function make_slides(f) {
       present_handle : function(stim) {
           $(".forced_choice_err").hide();
           this.stim = stim;
-          var target = "那要不要把小车推____装鸡蛋？"
+          var target = "先别____脾气呀，只是这里一点点沾到水了。"
           $(".target").html(target);
 
           exp.response = undefined;
@@ -178,7 +178,7 @@ function make_slides(f) {
       present_handle : function(stim) {
         $(".forced_choice_err").hide();
         this.stim = stim;
-        var target = "你可以____这个颜色涂在这里。"
+        var target = "你们两个别因为一个玩具就____别扭。"
         $(".target").html(target);
 
         exp.response = undefined;
@@ -432,7 +432,7 @@ function init() {
         "item": "104",
         "verb": "yiwei",
         "condition": "yiwei_unclear",
-        "target": "（母鸡）____小妹妹要抓小鸡哦！",
+        "target": "____小妹妹要抓小鸡哦！",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -464,7 +464,7 @@ function init() {
         "item": "108",
         "verb": "yiwei",
         "condition": "yiwei_unclear",
-        "target": "当你____是你的责任...",
+        "target": "当你____是你的责任。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -492,7 +492,7 @@ function init() {
         "item": "11",
         "verb": "juede",
         "condition": "juede_contrastive",
-        "target": "(你)____这顶(帽子)比较可爱。",
+        "target": "____这顶比较可爱。",
         "option_yiwei": "以为",
         "option_juede": "觉得"
       },
@@ -660,81 +660,81 @@ function init() {
         "item": "901",
         "verb": "filler",
         "condition": "filler",
-        "target": "那你这不是____蛇尾嘛。",
-        "option_yiwei": "虎头",
-        "option_juede": "猫头"
+        "target": "你刚才一直坐在那里抓耳____腮的。",
+        "option_yiwei": "挠",
+        "option_juede": "抓"
       },
       {
         "item": "902",
         "verb": "filler",
         "condition": "filler",
-        "target": "这不是有点掩耳____吗。",
-        "option_yiwei": "盗铃",
-        "option_juede": "偷鼓"
+        "target": "这不是有点掩耳____铃吗。",
+        "option_yiwei": "盗",
+        "option_juede": "偷"
       },
       {
         "item": "903",
         "verb": "filler",
         "condition": "filler",
-        "target": "光等着不动，守株____吗？",
-        "option_yiwei": "待兔",
-        "option_juede": "待免"
+        "target": "光等着不动，守株____兔吗？",
+        "option_yiwei": "待",
+        "option_juede": "等"
       },
       {
         "item": "904",
         "verb": "filler",
         "condition": "filler",
-        "target": "这样硬来，其实是拔苗____。",
-        "option_yiwei": "助长",
-        "option_juede": "帮忙"
+        "target": "这样硬来，其实是____苗助长。",
+        "option_yiwei": "拔",
+        "option_juede": "拽"
       },
       {
         "item": "905",
         "verb": "filler",
         "condition": "filler",
-        "target": "感觉像个世外____。",
-        "option_yiwei": "桃源",
-        "option_juede": "花园"
+        "target": "爷爷在干活的时候，你不要在旁边____手画脚哦。",
+        "option_yiwei": "指",
+        "option_juede": "画"
       },
       {
         "item": "906",
         "verb": "filler",
         "condition": "filler",
-        "target": "确实，这样一摆真有点画龙____。",
-        "option_yiwei": "点睛",
-        "option_juede": "加眼"
+        "target": "确实，这样一摆真有点画龙____睛。",
+        "option_yiwei": "点",
+        "option_juede": "加"
       },
       {
         "item": "907",
         "verb": "filler",
         "condition": "filler",
-        "target": "全是纸上____。",
-        "option_yiwei": "谈兵",
-        "option_juede": "说兵"
+        "target": "全是纸上____兵。",
+        "option_yiwei": "谈",
+        "option_juede": "说"
       },
       {
         "item": "908",
         "verb": "filler",
         "condition": "filler",
-        "target": "但是我们不能过河____呀。",
-        "option_yiwei": "拆桥",
-        "option_juede": "拆船"
+        "target": "但是我们不能过河____桥呀。",
+        "option_yiwei": "拆",
+        "option_juede": "破"
       },
       {
         "item": "909",
         "verb": "filler",
         "condition": "filler",
         "target": "加了反而有点____添足。",
-        "option_yiwei": "画蛇",
-        "option_juede": "画龙"
+        "option_yiwei": "画",
+        "option_juede": "添"
       },
       {
         "item": "910",
         "verb": "filler",
         "condition": "filler",
-        "target": "那我一鼓____先把药喝了。",
-        "option_yiwei": "作气",
-        "option_juede": "作力"
+        "target": "你一直在沙发旁边找，那不是____舟求剑吗？",
+        "option_yiwei": "刻",
+        "option_juede": "画"
       }
     ]);
 

@@ -40,9 +40,9 @@ function make_slides(f) {
       present_handle : function(stim) {
         $(".forced_choice_err").hide();
         this.stim = stim;
-        var context = "妈妈:\t小球滚到那里去了耶。\n孩子:\t哪里？\n妈妈:\t沙发底下。\n妈妈:\t好远哦。\n孩子:\t那怎么办？";
-        var target = "妈妈:\t你可以帮妈妈把小球拿____吗？"
-        var post_context = "孩子:\t不好。\n孩子:\t不要。";
+        var context = "姐姐:\t你今天下午不是约了同学吗？\n孩子:\t对啊，我们本来说好一起去公园。\n姐姐:\t那你怎么还在家里？\n孩子:\t太热了，我还是在家待着吧。\n姐姐:\t可是同学已经在等你了呀。";
+        var target = "姐姐:\t你临时说不去了，这不是____鸽子吗？"
+        var post_context = "孩子:\t可是今天真的太热了。\n姐姐:\t那你也要早点跟同学说一声呀。";
         var full_sent = context + "\n" + target + "\n" + post_context
         $(".target").html(full_sent);
 
@@ -90,9 +90,12 @@ function make_slides(f) {
         present_handle : function(stim) {
           $(".forced_choice_err").hide();
           this.stim = stim;
-          var context = "\n妈妈:\t妈妈给你讲个故事。\n孩子:\t好。\n妈妈:\t有一天夜里呢，刮了大风。\n妈妈:\t到天亮的时候，风才停下。\n妈妈:\t沼泽地的村民们纷纷从各自家里钻了出来。";
-          var target = "妈妈:\t修补被大风____了的房屋？"
-          var post_context = "妈妈:\t它们就修房子。\n妈妈:\t蜘蛛阿尔丁昨天刚结的几个新网也破了几个大窟窿。";
+          // var context = "妈妈:\t你刚刚在厨房做什么呀？\n孩子:\t我帮奶奶洗菜来着。\n妈妈:\t那怎么地上全是水？\n孩子:\t我不小心把盆子弄翻了。\n妈妈:\t奶奶后来是不是又重新收拾了一遍？";
+          // var target = "妈妈:\t你刚才忙了半天，差点儿给奶奶____倒忙了。"
+          // var post_context = "孩子:\t对不起，我不是故意的嘛。\n妈妈:\t没事，你下次小心一点就好了。";
+          var context = "爸爸:\t你不是说要自己学骑自行车吗？\n孩子:\t可是我刚刚差点摔倒。\n爸爸:\t你已经骑出去一点点了呀。\n孩子:\t可是前面那个坡有点高。\n爸爸:\t我可以在后面扶着你。";
+          var target = "爸爸:\t你才刚试了一会儿，别这么快就____退堂鼓。"
+          var post_context = "孩子:\t可是我还是有点害怕。\n爸爸:\t没关系，我们慢慢骑。";
           var full_sent = context + "\n" + target + "\n" + post_context
           $(".target").html(full_sent);
 
@@ -140,9 +143,9 @@ function make_slides(f) {
       present_handle : function(stim) {
         $(".forced_choice_err").hide();
         this.stim = stim;
-        var context = "妈妈:\t你画太阳吧。\n孩子:\t你帮我画房子。\n妈妈:\t我帮你画房子啊。\n孩子:\t因为我不会画嘛。\n妈妈:\t不会画没关系。";
-        var target = "妈妈:\t你可以____这个颜色涂在这里。"
-        var post_context = "孩子:\t不好。\n孩子:\t不要。";
+        var context = "妈妈:\t你怎么把蜡笔丢到地上了？\n孩子:\t弟弟把水洒到我的画上了。\n妈妈:\t他是不是不小心碰到了？\n孩子:\t可是这张画都不能要了，我都已经快画完了。\n妈妈:\t我们先试试能不能擦干净。";
+        var target = "妈妈:\t先别____脾气呀，只是这里一点点沾到水了。"
+        var post_context = "妈妈:\t弟弟也不是故意的，对吗？\n孩子:\t好吧。";
         var full_sent = context + "\n" + target + "\n" + post_context
         $(".target").html(full_sent);
 
@@ -190,9 +193,9 @@ function make_slides(f) {
       present_handle : function(stim) {
           $(".forced_choice_err").hide();
           this.stim = stim;
-          var context = "妈妈:\t我们有小推车了！\n妈妈:\t你看那边有什么?\n孩子:\t蛋蛋。\n妈妈:\t蛋蛋哦！\n妈妈:\t你很喜欢蛋蛋诶。";
-          var target = "妈妈:\t那要不要把小车推____装蛋蛋？"
-          var post_context = "妈妈:\t要不要装蛋？\n孩子:\t要！";
+          var context = "妈妈:\t你今天怎么不跟乐乐一起玩了？\n孩子:\t我不想跟他说话。\n妈妈:\t你们上午不是还一起搭积木吗？\n孩子:\t后来他把我的小汽车拿走了。\n妈妈:\t那你有没有跟他说清楚呀？";
+          var target = "妈妈:\t你们两个别因为一个玩具就____别扭。"
+          var post_context = "孩子:\t可是他一直不还给我。\n妈妈:\t那你们轮流玩，好不好？";
           var full_sent = context + "\n" + target + "\n" + post_context
           $(".target").html(full_sent);
 
@@ -757,11 +760,11 @@ function init() {
         "item": "901",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t你画了什么呀？\n孩子:\t小猫！\n妈妈:\t刚开始画得挺好的呀，还涂了颜色。\n妈妈:\t怎么后面就只画了一个圈？\n孩子:\t我不想画了。",
-        "post_context": "孩子:\t我画累了。\n妈妈:\t那我们休息一下，不要就这么放弃，好不好？",
-        "target": "妈妈:\t那你这不是____蛇尾嘛。",
-        "option_yiwei": "虎头",
-        "option_juede": "猫头"
+        "original_context": "老师:\t这道题你写完了吗？\n孩子:\t我还不会。\n老师:\t你已经坐在这里好一会儿了。\n孩子:\t可是这题太难了。\n老师:\t要不要我先给你一点提示？",
+        "post_context": "孩子:\t这题真的太难了。\n老师:\t那我们一步一步来。",
+        "target": "老师:\t你刚才一直坐在那里抓耳____腮的。",
+        "option_yiwei": "挠",
+        "option_juede": "抓"
       },
       {
         "item": "902",
@@ -769,9 +772,9 @@ function init() {
         "condition": "filler",
         "original_context": "妈妈:\t你刚刚是不是去拿饼干了？\n孩子:\t没有。\n妈妈:\t那你嘴上怎么全是饼干渣？\n孩子:\t（捂住嘴）我没有吃。\n妈妈:\t你捂住嘴不让我看，就当妈妈不知道了？",
         "post_context": "孩子:\t那我现在不能吃了吗？\n妈妈:\t可以，但先说实话。",
-        "target": "妈妈:\t这不是有点掩耳____吗。",
-        "option_yiwei": "盗铃",
-        "option_juede": "偷鼓"
+        "target": "妈妈:\t这不是有点掩耳____铃吗？",
+        "option_yiwei": "盗",
+        "option_juede": "偷"
       },
       {
         "item": "903",
@@ -779,9 +782,9 @@ function init() {
         "condition": "filler",
         "original_context": "孩子:\t我不收玩具了。\n妈妈:\t怎么啦？\n孩子:\t我等它自己回盒子。\n妈妈:\t玩具会自己走回去吗？\n孩子:\t不会，可是我在等。",
         "post_context": "孩子:\t那要怎么办？\n妈妈:\t我们一起收，很快就好了。",
-        "target": "妈妈:\t光等着不动，守株____吗？",
-        "option_yiwei": "待兔",
-        "option_juede": "待免"
+        "target": "妈妈:\t光等着不动，守株____兔吗？",
+        "option_yiwei": "待",
+        "option_juede": "等"
       },
       {
         "item": "904",
@@ -789,19 +792,19 @@ function init() {
         "condition": "filler",
         "original_context": "孩子:\t我给花多浇点水，它就会长得快。\n妈妈:\t水已经够了。\n孩子:\t那我再倒一点。\n妈妈:\t倒太多会烂根的。\n孩子:\t我想让它快点长大。",
         "post_context": "孩子:\t那怎么办？\n妈妈:\t每天一点点就好。",
-        "target": "妈妈:\t这样硬来，其实是拔苗____。",
-        "option_yiwei": "助长",
-        "option_juede": "帮忙"
+        "target": "妈妈:\t这样硬来，其实是____苗助长。",
+        "option_yiwei": "拔",
+        "option_juede": "拽"
       },
       {
         "item": "905",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t我们走了好久了。\n孩子:\t这里好远哦。\n妈妈:\t这里怎么这么安静？\n孩子:\t都没有车。\n妈妈:\t空气也很好。",
-        "post_context": "孩子:\t我们可以多待一会儿吗？\n妈妈:\t好。",
-        "target": "爸爸:\t感觉像个世外____。",
-        "option_yiwei": "桃源",
-        "option_juede": "花园"
+        "original_context": "爸爸:\t爷爷在修那个小柜子呢。\n爸爸:\t你要在旁边看吗？\n孩子:\t不好。\n孩子:\t我觉得爷爷应该先装下面那个。\n爸爸:\t你可以帮忙拿工具呀。",
+        "post_context": "孩子:\t我没有捣乱。\n爸爸:\t那你就在旁边安安静静地看就好了。",
+        "target": "爸爸:\t爷爷在干活的时候，你不要在旁边____手画脚哦。",
+        "option_yiwei": "指",
+        "option_juede": "画"
       },
       {
         "item": "906",
@@ -809,9 +812,9 @@ function init() {
         "condition": "filler",
         "original_context": "妈妈:\t阳台这边终于收拾干净了。\n爸爸:\t确实看着清爽多了。\n爸爸:\t不过看起来少了点生气。\n爸爸:\t要不要我把那盆绿萝挪过来？\n妈妈:\t放在窗边？",
         "post_context": "孩子:\t现在这里好漂亮。\n妈妈:\t嗯，就这样吧。",
-        "target": "妈妈:\t确实，这样一摆真有点画龙____。",
-        "option_yiwei": "点睛",
-        "option_juede": "加眼"
+        "target": "妈妈:\t确实，这样一摆真有点画龙____睛。",
+        "option_yiwei": "点",
+        "option_juede": "加"
       },
       {
         "item": "907",
@@ -819,9 +822,9 @@ function init() {
         "condition": "filler",
         "original_context": "妈妈:\t你看，\n妈妈:\t这个村长说得挺热闹的。\n妈妈:\t计划写了一大堆。\n妈妈:\t可事情始终没开始。\n妈妈:\t村民们都不乐意了。",
         "post_context": "孩子:\t嗯。\n孩子:\t然后呢？",
-        "target": "妈妈:\t全是纸上____。",
-        "option_yiwei": "谈兵",
-        "option_juede": "说兵"
+        "target": "妈妈:\t全是纸上____兵。",
+        "option_yiwei": "谈",
+        "option_juede": "说"
       },
       {
         "item": "908",
@@ -829,9 +832,9 @@ function init() {
         "condition": "filler",
         "original_context": "爸爸:\t小明刚才帮你把书搬过来，对吗？\n孩子:\t对。\n爸爸:\t那你为什么转身就走了？\n孩子:\t我想去玩积木。\n爸爸:\t我知道。",
         "post_context": "孩子:\t我不是故意的。\n爸爸:\t那我们回去一起帮他一下吧。",
-        "target": "爸爸:\t但是我们不能过河____呀。",
-        "option_yiwei": "拆桥",
-        "option_juede": "拆船"
+        "target": "爸爸:\t但是我们不能过河____桥呀。",
+        "option_yiwei": "拆",
+        "option_juede": "破"
       },
       {
         "item": "909",
@@ -839,19 +842,19 @@ function init() {
         "condition": "filler",
         "original_context": "实验员:\t这张画已经很好看了。\n孩子:\t我还想再加点。\n实验员:\t加什么？\n孩子:\t一些亮片。\n实验员:\t可不加挺好的呀。",
         "post_context": "孩子:\t可是我喜欢。\n孩子:\t亮亮的。",
-        "target": "实验员:\t加了反而有点____添足。",
-        "option_yiwei": "画蛇",
-        "option_juede": "画龙"
+        "target": "实验员:\t加了反而有点____蛇添足。",
+        "option_yiwei": "画",
+        "option_juede": "添"
       },
       {
         "item": "910",
         "verb": "filler",
         "condition": "filler",
-        "original_context": "妈妈:\t我们可以玩什么游戏？\n孩子:\t医生游戏，要生病吃药。\n妈妈:\t谁是病人？\n孩子:\t你。\n妈妈:\t我是病人啊，要吃药了哇。",
-        "post_context": "孩子:\t不行。\n孩子:\t我还没看呢。",
-        "target": "妈妈:\t那我一鼓____先把药喝了。",
-        "option_yiwei": "作气",
-        "option_juede": "作力"
+        "original_context": "妈妈:\t你刚刚不是在客厅玩小兔子吗？\n孩子:\t对啊，我还让它坐在沙发上。\n妈妈:\t后来你去哪儿了？\n孩子:\t我去阳台看小鸟了。\n妈妈:\t那小兔子有没有跟你一起去呀？",
+        "post_context": "孩子:\t啊，我想起来了。\n孩子:\t我把它带到阳台去了。",
+        "target": "妈妈:\t你一直在沙发旁边找，那不是____舟求剑吗？",
+        "option_yiwei": "刻",
+        "option_juede": "画"
       }
     ]);
 
