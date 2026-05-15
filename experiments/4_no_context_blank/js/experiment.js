@@ -724,7 +724,7 @@ function init() {
         "item": "909",
         "verb": "filler",
         "condition": "filler",
-        "target": "加了反而有点____添足。",
+        "target": "加了反而有点____蛇添足。",
         "option_yiwei": "画",
         "option_juede": "添"
       },
