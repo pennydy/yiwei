@@ -404,7 +404,8 @@ ggplot(data=all_item_accuracy,
         legend.title = element_text(size=12))
 
 # using facet_nested
-all_by_items<-ggplot(data=all_item_accuracy,
+all_by_items<-ggplot(data=all_item_accuracy %>% 
+                       mutate(discourse_type = if_else(discourse_type=="supported", "constrained", "unconstrained")),
        aes(x=context,
            alpha=discourse_type,
            y=accuracy,
@@ -436,7 +437,8 @@ all_by_items<-ggplot(data=all_item_accuracy,
         axis.text.y = element_text(size = 12),
         legend.text = element_text(size=10),
         legend.title = element_text(size=12))
-ggsave(all_by_items, file="graphs/all_by_items.pdf", width=8, height=4)
+all_by_items
+ggsave(all_by_items, file="graphs/all_by_items_new.pdf", width=8, height=4)
 
 
 ## 4.3 analysis ----
