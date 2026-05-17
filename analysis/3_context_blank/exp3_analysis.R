@@ -31,8 +31,7 @@ context_blank.data <- context_blank.data %>%
     str_detect(response, str_replace_all(answer, "/","|"))
   )
   
-  
-# exclusion based on filler items # 
+# exclusion based on filler items 
 context_blank_filler.data <- subset(context_blank.data, condition=="filler")
 context_blank_filler_summary <- context_blank_filler.data %>% 
   group_by(workerid) %>% 
@@ -51,6 +50,16 @@ context_blank_clean_data <- context_blank.data %>%
     str_detect(response, "觉得|覺得") ~ "juede",
     TRUE ~ "other"
   ),
+  response_type = case_when(
+    str_detect(response, "以为|以為|以爲|当|當|假装|假裝") ~ "contra",
+    str_detect(response, "觉得|覺得|认为|認為|認爲|感觉|感覺|相信|猜|赞成|贊成") ~ "non-belief", # 赞成(贊成) is not a belief verb but mental-state verb
+    str_detect(response, "知道") ~ "factive-belief",
+    str_detect(response, "看到|发现|發現|承认|确认") ~ "factive-other",
+    str_detect(response, "怕|擔心|担心") ~ "non-emotion",
+    str_detect(response, "说|説|說|講|讲|告訴|告诉|喊|叫|强调") ~ "non-say",
+    str_detect(response, "要|想") ~ "ambiguous want",
+    TRUE ~ "other"
+  ),
   response_num = if_else(response_clean == verb, 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
   mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
@@ -66,6 +75,35 @@ context_blank_summary <- context_blank_clean_data %>%
   ungroup() %>% 
   mutate(YMin = accuracy-CILow,
          YMax = accuracy+CIHigh)
+
+context_blank_yiwei_summary <- context_blank_clean_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "yiwei", 1, 0)) %>% 
+  group_by(condition, verb, discourse_type) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
+context_blank_type_summary <- context_blank_clean_data %>% 
+  group_by(condition, verb, discourse_type, response_type) %>% 
+  summarize(count = n(), .groups="drop") %>% 
+  group_by(condition, verb, discourse_type) %>% 
+  mutate(percent = count/sum(count),
+         verb = factor(verb, levels = c("yiwei", "juede")),
+         discourse_type = factor(discourse_type, levels = c("constrained", "unconstrained")),
+         verb_discourse = factor(
+           paste(verb, discourse_type, sep = "."),
+           levels = c(
+             "yiwei.constrained",
+             "yiwei.unconstrained",
+             "juede.constrained",
+             "juede.unconstrained"
+           )
+         )
+  )
+
 
 context_blank_participant_accuracy <- context_blank_clean_data %>% 
   group_by(workerid, condition, verb, discourse_type) %>% 
@@ -85,7 +123,28 @@ context_blank_item_accuracy <- context_blank_clean_data %>%
   mutate(YMin = accuracy-CILow,
          YMax = accuracy+CIHigh)
 
+context_blank_participant_prop_yiwei <- context_blank_clean_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "yiwei", 1, 0)) %>% 
+  group_by(workerid, condition, verb, discourse_type) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
+context_blank_item_prop_yiwei <- context_blank_clean_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "yiwei", 1, 0)) %>% 
+  group_by(item_id, condition, verb, discourse_type) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
 # 2. Plot ----
+## accuracy bar graph ----
 context_blank_plot <- ggplot(data=context_blank_summary %>% 
                                   mutate(verb = fct_relevel(verb, "yiwei", "juede")),
        aes(x=verb,
@@ -116,7 +175,7 @@ context_blank_plot <- ggplot(data=context_blank_summary %>%
 context_blank_plot
 ggsave(context_blank_plot, file="graphs/exp3_context_bar.pdf", width=7, height=4)
 
-# violin plots
+## accuracy violin graph ----
 context_blank_plot_violin <- ggplot(data=context_blank_item_accuracy %>% 
          mutate(verb = fct_relevel(verb, "yiwei", "juede")),
        aes(x=verb,
@@ -152,15 +211,92 @@ context_blank_plot_violin <- ggplot(data=context_blank_item_accuracy %>%
 context_blank_plot_violin
 ggsave(context_blank_plot_violin, file="graphs/exp3_context-violin.pdf", width=6, height=4)
 
+## proportion of yiwei bar graph ----
+context_blank_yiwei_plot <- ggplot(data=context_blank_yiwei_summary %>% 
+                                     mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+                                   aes(x=verb,
+                                       y=prop_yiwei,
+                                       fill=verb,
+                                       alpha=discourse_type)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_bar(stat="identity",
+           position=position_dodge(width=0.8),
+           width=0.8,
+           aes(color=verb)) +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax), 
+                width=.2,
+                position=position_dodge(width=0.8),
+                show.legend = FALSE) +
+  theme_bw() +
+  ylim(0,1)+
+  scale_fill_manual(values=cbPalette, guide = NULL) +
+  scale_color_manual(values=cbPalette, guide = NULL) +
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  labs(y="Proportion of yiwei") +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12))
+context_blank_yiwei_plot
+ggsave(context_blank_yiwei_plot, file="graphs/exp3_context_yiwei-bar.pdf", width=6, height=4)
+
+## proportion of yiwei violin graph ----
+context_blank_yiwei_plot_violin <- ggplot(data=context_blank_item_prop_yiwei %>% 
+                                            mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+                                          aes(x=verb,
+                                              y=prop_yiwei,
+                                              fill=verb,
+                                              alpha=discourse_type)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_point(aes(shape=discourse_type),
+             position=position_dodge2(width=.8,preserve = "single")) +
+  geom_violin(data=context_blank_participant_prop_yiwei %>% 
+                mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+              position=position_dodge(width=.8)) +
+  geom_boxplot(data=context_blank_participant_prop_yiwei %>% 
+                 mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+               width=0.1,
+               position=position_dodge(width=.8),
+               show.legend = FALSE) +
+  theme_bw() +
+  scale_fill_manual(values=cbPalette, guide = NULL) +
+  ylim(0,1)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  scale_shape_manual(values=c("constrained"=22, "unconstrained"=24), name="Discourse type") +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12)) +
+  guides(alpha = guide_legend(override.aes = list(fill = "grey40")))+
+  labs(x="Verb",
+       y="Proportion of yiwei")
+context_blank_yiwei_plot_violin
+ggsave(context_blank_yiwei_plot_violin, file="graphs/exp3_context_yiwei-violin.pdf", width=6, height=4)
+
+## proportion of each response type ----
+ggplot(context_blank_type_summary,
+       aes(x=verb_discourse,
+           y=percent,
+           fill=response_type)) +
+  geom_bar(stat="identity") +
+  scale_fill_brewer(palette = "Set2")
+
 # lines connecting dots for individual means
 ggplot(data=context_blank_participant_accuracy %>% 
          mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
                                         "yiwei_unclear",
                                         "juede_contrastive",
-                                        "juede_unclear")),
+                                        "juede_unclear"),
+                verb = fct_relevel(verb, "yiwei", "juede")),
        aes(x=condition,
            y=accuracy,
-           color=discourse_type)) +
+           color=verb)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
   geom_line(aes(group=interaction(workerid,verb)),
             position=position_dodge2(width=.8,preserve="single"),
@@ -169,7 +305,7 @@ ggplot(data=context_blank_participant_accuracy %>%
   geom_point(position=position_dodge2(width=.8,preserve = "single"),
              alpha=0.6)+
   theme_bw() +
-  scale_fill_manual(values=cbPalette, guide = NULL) +
+  scale_color_manual(values=cbPalette, guide = NULL) +
   ylim(0,1)+
   scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
   theme(legend.position = "top",
@@ -185,15 +321,16 @@ ggplot(data=context_blank_item_accuracy %>%
          mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
                                         "yiwei_unclear",
                                         "juede_contrastive",
-                                        "juede_unclear")),
+                                        "juede_unclear"),
+                verb = fct_relevel(verb, "yiwei", "juede")),
        aes(x=condition,
            y=accuracy,
-           color=discourse_type)) +
+           color=verb)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
   geom_point(position=position_dodge2(width=.8,preserve = "single"),
              alpha=0.6)+
   theme_bw() +
-  scale_fill_manual(values=cbPalette, guide = NULL) +
+  scale_color_manual(values=cbPalette, guide = NULL) +
   ylim(0,1)+
   scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
   theme(legend.position = "top",
@@ -251,7 +388,6 @@ length(context_eligible_subjects) # 42
 context.data = subset(context.data, workerid %in% context_eligible_subjects)
 
 context_clean_data <- context.data %>% 
-  # filter(item_id!=9) %>%
   filter(!grepl("practice", condition)) %>% 
   filter(condition!="filler") %>% 
   mutate(response_corr = case_when(condition !="filler" & verb==response ~ "correct",
