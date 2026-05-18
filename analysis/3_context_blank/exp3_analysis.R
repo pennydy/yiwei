@@ -87,6 +87,7 @@ context_blank_yiwei_summary <- context_blank_clean_data %>%
          YMax = prop_yiwei+CIHigh)
 
 context_blank_type_summary <- context_blank_clean_data %>% 
+  mutate(response_type = if_else(response_type == "non-emotion" | response_type == "non-say", "non-other", response_type )) %>% 
   group_by(condition, verb, discourse_type, response_type) %>% 
   summarize(count = n(), .groups="drop") %>% 
   group_by(condition, verb, discourse_type) %>% 
@@ -103,7 +104,6 @@ context_blank_type_summary <- context_blank_clean_data %>%
            )
          )
   )
-
 
 context_blank_participant_accuracy <- context_blank_clean_data %>% 
   group_by(workerid, condition, verb, discourse_type) %>% 
@@ -280,12 +280,19 @@ context_blank_yiwei_plot_violin
 ggsave(context_blank_yiwei_plot_violin, file="graphs/exp3_context_yiwei-violin.pdf", width=6, height=4)
 
 ## proportion of each response type ----
-ggplot(context_blank_type_summary,
-       aes(x=verb_discourse,
-           y=percent,
-           fill=response_type)) +
+context_blank_type_plot <- ggplot(context_blank_type_summary,
+                                  aes(x=discourse_type,
+                                      y=percent,
+                                      fill=response_type,
+                                      alpha=discourse_type)) +
   geom_bar(stat="identity") +
-  scale_fill_brewer(palette = "Set2")
+  facet_grid(.~verb) +
+  scale_fill_brewer(palette = "Set2", name="Response type") +
+  labs(x="Condition",
+       y="Proportion of response type") +
+  scale_alpha_discrete(range = c(0.4, 0.9), guide = NULL)
+context_blank_type_plot
+ggsave(context_blank_type_plot, file="graphs/exp3_context_type-bar.pdf", width=6, height=4)
 
 # lines connecting dots for individual means
 ggplot(data=context_blank_participant_accuracy %>% 
