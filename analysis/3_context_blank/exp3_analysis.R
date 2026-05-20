@@ -19,8 +19,8 @@ source("helpers.R")
 
 # 1. Data ----
 context_blank.data <- read.csv("../../data/3_context_blank/3_context_blank_main-trials.csv", header=TRUE) %>% 
-  filter(!workerid %in% c("455", "464", "428"), # exclusion based on language status.
-         !workerid %in% c("477")) # responded all in english
+  filter(!workerid %in% c("477"), # responded all in english
+         !workerid %in% c("455", "464", "428")) # exclusion based on language status
 
 filler_answer <- read.csv("../../data/3_context_blank/filler_answer.csv", header=TRUE) %>% 
   select(c("item_id", "answer"))
@@ -41,7 +41,6 @@ length(context_blank_eligible_subjects) # 44
 context_blank.data = subset(context_blank.data, workerid %in% context_blank_eligible_subjects)
 
 # data cleaning
-context_blank.data <- context_blank.data
 context_blank_clean_data <- context_blank.data %>% 
   filter(!grepl("practice", condition)) %>% 
   filter(condition!="filler") %>% 
@@ -51,12 +50,11 @@ context_blank_clean_data <- context_blank.data %>%
     TRUE ~ "other"
   ),
   response_type = case_when(
-    str_detect(response, "以为|以為|以爲|当|當|假装|假裝") ~ "contra",
+    str_detect(response, "以为|以為|以爲|当|當|假装|假裝|记成") ~ "contra",
     str_detect(response, "觉得|覺得|认为|認為|認爲|感觉|感覺|相信|猜|赞成|贊成") ~ "non-belief", # 赞成(贊成) is not a belief verb but mental-state verb
-    str_detect(response, "知道") ~ "factive-belief",
-    str_detect(response, "看到|发现|發現|承认|确认") ~ "factive-other",
-    str_detect(response, "怕|擔心|担心") ~ "non-emotion",
-    str_detect(response, "说|説|說|講|讲|告訴|告诉|喊|叫|强调") ~ "non-say",
+    str_detect(response, "知道|看到|发现|發現") ~ "factive-belief",
+    str_detect(response, "怕|擔心|担心") ~ "factive-emotion",
+    str_detect(response, "说|説|說|講|讲|喊|叫|强调|告訴|告诉|承认|确认") ~ "non-say",
     str_detect(response, "要|想") ~ "ambiguous want",
     TRUE ~ "other"
   ),
@@ -283,14 +281,13 @@ ggsave(context_blank_yiwei_plot_violin, file="graphs/exp3_context_yiwei-violin.p
 context_blank_type_plot <- ggplot(context_blank_type_summary,
                                   aes(x=discourse_type,
                                       y=percent,
-                                      fill=response_type,
-                                      alpha=discourse_type)) +
+                                      fill=response_type)) +
   geom_bar(stat="identity") +
   facet_grid(.~verb) +
   scale_fill_brewer(palette = "Set2", name="Response type") +
   labs(x="Condition",
-       y="Proportion of response type") +
-  scale_alpha_discrete(range = c(0.4, 0.9), guide = NULL)
+       y="Proportion of response type")
+  # scale_alpha_discrete(range = c(0.4, 0.9), guide = NULL)
 context_blank_type_plot
 ggsave(context_blank_type_plot, file="graphs/exp3_context_type-bar.pdf", width=6, height=4)
 

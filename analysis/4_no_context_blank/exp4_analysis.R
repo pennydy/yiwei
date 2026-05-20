@@ -49,12 +49,11 @@ no_context_blank_clean_data <- no_context_blank.data %>%
     TRUE ~ "other"
   ),
   response_type = case_when(
-    str_detect(response, "以为|以為|以爲|当|當|假装|假裝") ~ "contra",
+    str_detect(response, "以为|以為|以爲|当|當|假装|假裝|记成") ~ "contra",
     str_detect(response, "觉得|覺得|认为|認為|認爲|感觉|感覺|相信|猜|赞成|贊成") ~ "non-belief", # 赞成(贊成) is not a belief verb but mental-state verb
-    str_detect(response, "知道") ~ "factive-belief",
-    str_detect(response, "看到|发现|發現|承认|确认") ~ "factive-other",
-    str_detect(response, "怕|擔心|担心") ~ "non-emotion",
-    str_detect(response, "说|説|說|講|讲|告訴|告诉|喊|叫|表示|强调") ~ "non-say",
+    str_detect(response, "知道|看到|发现|發現") ~ "factive-belief",
+    str_detect(response, "怕|擔心|担心") ~ "factive-emotion",
+    str_detect(response, "说|説|說|講|讲|喊|叫|强调|告訴|告诉|承认|确认") ~ "non-say",
     str_detect(response, "要|想") ~ "ambiguous want",
     TRUE ~ "other"
   ),
@@ -281,14 +280,13 @@ ggsave(no_context_blank_yiwei_plot_violin, file="graphs/exp4_no_context_yiwei-vi
 no_context_blank_type_plot <- ggplot(no_context_blank_type_summary,
                                      aes(x=discourse_type,
                                          y=percent,
-                                         fill=response_type,
-                                         alpha=discourse_type)) +
+                                         fill=response_type)) +
   geom_bar(stat="identity") +
   facet_grid(.~verb) +
   scale_fill_brewer(palette = "Set2",name = "Response type") +
   labs(x="Condition",
-       y="Proportion of response type") +
-  scale_alpha_discrete(range = c(0.4, 0.9), guide = NULL)
+       y="Proportion of response type")
+  # scale_alpha_discrete(range = c(0.4, 0.9), guide = NULL)
 no_context_blank_type_plot
 ggsave(no_context_blank_type_plot, file="graphs/exp4_no_context_type-bar.pdf", width=6, height=4)
 
@@ -471,17 +469,15 @@ ggsave(all_plot_violin, file="graphs/all_blank-violin.pdf", width=8, height=4)
 all_type_plot <- ggplot(all_type_summary,
                         aes(x=discourse_type,
                             y=percent,
-                            fill=response_type,
-                            alpha=discourse_type)) +
+                            fill=response_type)) +
   geom_bar(stat="identity") +
   facet_grid(verb~context) +
   scale_fill_brewer(palette = "Set2", name="Response type") +
   labs(x="Condition",
-       y="Proportion of response type") +
-  scale_alpha_discrete(range = c(0.4, 0.9), guide = NULL)
+       y="Proportion of response type") 
+  # scale_alpha_discrete(range = c(0.4, 0.9), guide = NULL)
 all_type_plot
 ggsave(all_type_plot, file="graphs/all_blank_type-bar.pdf", width=6, height=4)
-
 
 ## 4.3 analysis ----
 all_data$verb <- as.factor(all_data$verb)
