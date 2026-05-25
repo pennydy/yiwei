@@ -43,8 +43,8 @@ ggplot(data=hypothetical.data,
   scale_alpha_discrete(range = c(0.4, 0.9), name="context cue")
 
 # 1. Data ----
-no_context.data <- read.csv("../../data/2_no_context_choice/2_no_context_choice_main-trials.csv", header=TRUE) %>% 
-  filter(!workerid %in% c("379", "371", "383", "357", "287", "369")) # exclusion based on incomplete etc.
+no_context.data <- read.csv("../../data/2_no_context_choice/2_no_context_choice_main-trials.csv", header=TRUE) # %>%
+  # filter(!workerid %in% c("379", "371", "383", "357", "287", "369")) # exclusion based on self-reported non-madarin native status
 
 # exclusion based on filler items # 3 participants
 no_context_filler_data <- subset(no_context.data, condition=="filler")
@@ -52,7 +52,7 @@ no_context_filler_summary <- no_context_filler_data %>%
   group_by(workerid) %>% 
   summarize(error_num = sum(response=="incorrect"))
 no_context_eligible_subjects = no_context_filler_summary$workerid[no_context_filler_summary$error_num < 2]
-length(no_context_eligible_subjects) # 40
+length(no_context_eligible_subjects) # 40 # 46 if not based on language status
 no_context.data = subset(no_context.data, workerid %in% no_context_eligible_subjects)
 
 # data cleaning
@@ -64,7 +64,7 @@ no_context_clean_data <- no_context.data %>%
                                    condition == "filler" ~ response),
          response_num = if_else(response_corr == "correct", 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
-  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unsupported"))
+  mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
 
 no_context_summary <- no_context_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 
@@ -199,6 +199,7 @@ ggplot(data=no_context_participant_accuracy %>%
         legend.text = element_text(size=10),
         legend.title = element_text(size=12))
 
+
 # lines connecting dots for individual means by item
 ggplot(data=no_context_item_accuracy %>% 
          mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
@@ -254,8 +255,8 @@ summary(simple_no_context_model)
 
 # 4. Combined with Exp1 ----
 ## 4.1 data ----
-context.data <- read.csv("../../data/1_context_choice/1_context_choice_main-trials.csv", header=TRUE) %>% 
-  filter(!workerid %in% c("319", "323", "360", "312", "321", "301", "298")) # exclusion based on language
+context.data <- read.csv("../../data/1_context_choice/1_context_choice_main-trials.csv", header=TRUE) # %>% 
+  # filter(!workerid %in% c("319", "323", "360", "312", "321", "301", "298")) # exclusion based on language
 
 # exclusion based on filler items: 1 participant
 context_filler_data <- subset(context.data, condition=="filler")
@@ -263,7 +264,7 @@ context_filler_summary <- context_filler_data %>%
   group_by(workerid) %>% 
   summarize(error_num = sum(response=="incorrect"))
 context_eligible_subjects = context_filler_summary$workerid[context_filler_summary$error_num < 2]
-length(context_eligible_subjects) # 42
+length(context_eligible_subjects) # 42 # 48 if not based on language status
 context.data = subset(context.data, workerid %in% context_eligible_subjects)
 
 context_clean_data <- context.data %>% 
@@ -275,7 +276,7 @@ context_clean_data <- context.data %>%
                                    condition == "filler" ~ response),
          response_num = if_else(response_corr == "correct", 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
-  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unsupported"))
+  mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
 
 all_data <- bind_rows(lst(context_clean_data, no_context_clean_data), .id="context") %>% 
   mutate(context = if_else(context == "context_clean_data", "presence", "absence"),
@@ -341,7 +342,7 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
   facet_grid(.~context,labeller=context_labeller) +
   scale_fill_manual(values=cbPalette, guide = NULL) +
   scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +
-  scale_shape_manual(values=c("supported"=22, "unsupported"=24), name="Discourse type") +
+  scale_shape_manual(values=c("constrained"=22, "unconstrained"=24), name="Discourse type") +
   theme(legend.position = "top",
         axis.title.x = element_text(size = 12),
         axis.text.x = element_text(size = 10),
@@ -354,7 +355,8 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
   labs(x="Verb",
        y="Accuracy")
 all_plot_violin
-ggsave(all_plot_violin, file="graphs/all_no_context-violin_1.pdf", width=8, height=4)
+# ggsave(all_plot_violin, file="graphs/all_no_context-violin_1.pdf", width=8, height=4)
+ggsave(all_plot_violin, file="graphs/all_no_context-violin_all-language.png", width=8, height=4)
 
 # by-item plot
 all_item_accuracy$context <- factor(all_item_accuracy$context, levels=c("presence", "absence"))

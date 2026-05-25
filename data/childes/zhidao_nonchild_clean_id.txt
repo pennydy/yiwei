@@ -68308,3 +68308,1888 @@ sent_id: 8648
 *CHI:	一脚踢飞了垃圾桶.
 *MOT:	一脚踢飞了垃圾桶.
 *CHI:	我终于让他们见识了我的厉害.
+----------------------------------------
+----------------------------------------
+sent_id: 8649
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0300_TB.cha": line 1670. Keyword: 知道 
+*INV:	哦花钱的.
+*MOT:	<花钱来的.
+*INV:	是吗.
+*MOT:	<对.
+*MOT:	你看幼儿园有跳蚤市场啊.
+*MOT:	你说我也知道花钱了.
+*MOT:	擤一下.
+*CHI:	<啊!
+*MOT:	好,鼻涕.
+*INV:	&=laughs.
+*MOT:	<好,去吧.
+----------------------------------------
+sent_id: 8650
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0300_TB.cha": line 2961. Keyword: 知道 
+*CHI:	这是爸爸&=puts:card.
+*INV:	哦.
+*INV:	它们都有什么能力呀?
+*CHI:	我不知道.
+*INV:	&=laughs.
+*INV:	你不知道啊.
+*CHI:	嗯.
+*INV:	这个你能找到吗&=shows:car?
+*INV:	我很喜欢这个粉色的&=shows:car.
+*CHI:	它还能变颜色呢.
+*INV:	嗯,这变颜色&=points.
+----------------------------------------
+sent_id: 8651
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0300_WW.cha": line 949. Keyword: 知道 
+*INV:	它<还是>[?]它的屁股&=touches:puzzle.
+*CHI:	<还有>[/]还有这个&=shows:puzzles.
+*INV:	哇.
+*INV:	这是什么?
+*CHI:	这是犀牛.
+*INV:	你怎么知道是犀牛?
+*INV:	哦&=points:puzzle.
+*INV:	&=laughs.
+*INV:	<这是>[/]这是这位姐姐最喜欢的动物[=!points:investigator2].
+*CHI:	小猴子.
+*INV:	对.
+----------------------------------------
+sent_id: 8652
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0300_WW.cha": line 2491. Keyword: 知道 
+*CHI:	是[/]是在地下爬的.
+*INV:	在地下爬的/.
+*GRA:	看看这些&=points:book.
+*INV:	这个好像在地下爬&=points:book.
+*CHI:	这个也在(.)地下爬&=points:book.
+*INV:	你知道这是什么吗?
+*CHI:	这&-呃这害怕的.
+*CHI:	我不知道.
+*INV:	我也很害怕.
+*INV:	应该是在地里面的蚯蚓吧&=points:book.
+*INV:	蚯蚓.
+----------------------------------------
+sent_id: 8653
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0300_WW.cha": line 2891. Keyword: 知道 
+*CHI:	这是[?]姐姐&=points:photo.
+*INV:	哪个是姐姐?
+*INV:	哪个是你?
+*CHI:	这个是我&=points:photo.
+*CHI:	这是[?]姐姐&=points:photo.
+*INV:	你怎么知道&=laughs?
+*INV:	你们俩长得还挺像的.
+*CHI:	姐姐笑&=points:photo.
+*INV:	哦&=laughs.
+*INV:	姐姐笑.
+*INV:	你不喜欢笑吗?
+----------------------------------------
+sent_id: 8654
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0300_YX.cha": line 2526. Keyword: 知道 
+*CHI:	考拉买拉罐拉拉小鸡/.
+*INV:	<谁教你的?
+*INV:	爸爸教的吧?
+*CHI:	嗯.
+*INV:	嗯.
+*INV:	你知道货拉拉是什么吗?
+*CHI:	嗯.
+*INV:	知道啊?
+*CHI:	货拉拉也是鸡呗.
+*INV:	也是鸡,哦.
+*INV:	姐姐都不知道.
+----------------------------------------
+sent_id: 8655
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0300_YX.cha": line 2533. Keyword: 知道 
+*INV:	爸爸教的吧?
+*CHI:	嗯.
+*INV:	嗯.
+*INV:	你知道货拉拉是什么吗?
+*CHI:	嗯.
+*INV:	知道啊?
+*CHI:	货拉拉也是鸡呗.
+*INV:	也是鸡,哦.
+*INV:	姐姐都不知道.
+*INV:	这还有狗呢&=points:book?
+*INV:	你不说你喜欢生活里的狗吗&=points:book?
+----------------------------------------
+sent_id: 8656
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0300_YX.cha": line 2544. Keyword: 知道 
+*INV:	你知道货拉拉是什么吗?
+*CHI:	嗯.
+*INV:	知道啊?
+*CHI:	货拉拉也是鸡呗.
+*INV:	也是鸡,哦.
+*INV:	姐姐都不知道.
+*INV:	这还有狗呢&=points:book?
+*INV:	你不说你喜欢生活里的狗吗&=points:book?
+*CHI:	嗯.
+*INV:	嗯.
+*CHI:	这一个还有好多好吃的.
+----------------------------------------
+sent_id: 8657
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0303_HH.cha": line 1182. Keyword: 知道 
+*CHI:	不是.
+*CHI:	它坐船了&=holds:toy.
+*INV:	坐船?
+*INV:	嗯.
+*CHI:	坐船,坐车[?].
+*INV:	嗯,我也不知道.
+*CHI:	反正就是坐船吧.
+*INV:	嗯.
+*INV:	<好像>[?]这里...
+*INV:	要再拿个什么吧.
+*INV:	这个人呢&=holds:toy?
+----------------------------------------
+sent_id: 8658
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0303_HH.cha": line 1324. Keyword: 知道 
+*INV:	帽子什么颜色的?
+*CHI:	灰色的带星星的!
+*INV:	啊,真漂亮.
+*INV:	哇,你看&=points:toy.
+*CHI:	这个狗怎么了?
+*INV:	不知道呀.
+*CHI:	它想xxx骨头吃吗?
+*INV:	&=laughs.
+*INV:	对.
+*INV:	小狗喜欢吃骨头.
+*CHI:	我把那个小狗赶到他的狗xxx里边去,弄一弄行吗?
+----------------------------------------
+sent_id: 8659
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0303_LG.cha": line 420. Keyword: 知道 
+*INV:	&-额,好,霸王龙又站起来了.
+*INV:	好,那这个霸王龙确实挺厉害.
+*INV:	嗯.
+*INV:	还有没有别的是比较厉害的呀?
+*CHI:	&-嗯,<可这个>[?]<我能打败>[/]我能打败它吗?
+*INV:	不知道诶,我们看一下.
+*INV:	嗯.
+*CHI:	我用这只.
+*INV:	好,来看看啊.
+*INV:	&=imit:bite.
+*CHI:	诶@o.
+----------------------------------------
+sent_id: 8660
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0303_LG.cha": line 537. Keyword: 知道 
+*CHI:	那这只龙呢[?].
+*INV:	这是什么呀?
+*INV:	它可以飞吗?
+*CHI:	<它.
+*CHI:	它确实有翅膀.
+*INV:	嗯,不知道能不能飞呀.
+*CHI:	它这样飞.
+*INV:	啊,它可以横着飞.
+*INV:	恐龙要回家了.
+*INV:	啊.
+*INV:	有点儿累了,今天打了太多架了.
+----------------------------------------
+sent_id: 8661
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0303_LG.cha": line 1394. Keyword: 知道 
+*CHI:	我咬到了它的眼(睛)/.
+*INV:	<它>[/]它也咬到了.
+*INV:	它咬到了它舌头了.
+*INV:	<啊啊啊>[/]啊.
+*CHI:	看看我(.)它舌头流血了吗?
+*INV:	不知道诶,我看一下.
+*INV:	好像流血了诶.
+*INV:	你看它红了,是不是?
+*CHI:	它打的时候,咬到了.
+*INV:	有可能.
+*CHI:	<我我>[/]我要<偷>[//]我要用大[:霸][/]霸王龙咬它的背.
+----------------------------------------
+sent_id: 8662
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0303_LG.cha": line 2181. Keyword: 知道 
+*INV:	哦.
+*CHI:	<它就去[/]去吃冰山了.
+*INV:	噢,吃冰山呀.
+*INV:	吃不吃肉啊!
+*CHI:	嗯.
+*INV:	嗯,不知道有没有肉吃,它在北极.
+*CHI:	我[/]<我想>[/]我想玩那个搭房子的游戏[?].
+*INV:	哪有房子呢?
+*CHI:	这就是用(.)这些呗!
+*INV:	用这个来搭房子呀!
+*INV:	这个搭不了吧,这小恐龙&=laughs.
+----------------------------------------
+sent_id: 8663
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0303_LG.cha": line 2631. Keyword: 知道 
+*CHI:	它是鼻涕虫.
+*CHI:	这是什么呀?
+*INV:	嗯,感觉像小蜗牛,背着小房子&=points:picture.
+*CHI:	它怎么在吃呀.
+*INV:	&=laughs.
+*INV:	不知道它在吃什么.
+*INV:	好多小蜗牛啊&=points:picture.
+----------------------------------------
+sent_id: 8664
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_MM.cha": line 913. Keyword: 知道 
+*CHI:	啊.
+*CHI:	降落了.
+*CHI:	这是降落的&=points:parachute.
+*CHI:	它就是给&=holds:parachute...
+*CHI:	家里玩不行!
+*INV:	你知道降落伞是拿来干嘛的吗?
+*CHI:	<我还有xxx.
+*CHI:	给我拿这个&=points.
+*CHI:	放得高.
+*CHI:	我拿不下来.
+*INV:	哦,我帮你拿.
+----------------------------------------
+sent_id: 8665
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_MM.cha": line 1849. Keyword: 知道 
+*INV:	我(.)不太会画.
+*INV:	你教我画呢?
+*INV:	你可以画一个.
+*INV:	我照着你的画.
+*CHI:	你知道xxx是怎么画的吗?
+*INV:	不知道.
+*INV:	这个是你的贴纸吗&=points:stickers?
+*CHI:	嗯,这老师送给我的.
+*INV:	哦.
+*CHI:	这xxx老师送给我的.
+*CHI:	你先把这个铅笔拿出来.
+----------------------------------------
+sent_id: 8666
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_MM.cha": line 2495. Keyword: 知道 
+*CHI:	还没画完呢&=draws.
+*INV:	你要画一个很大的花蕊吗?
+*INV:	这是什么花?
+*CHI:	这是(.)郁金香.
+*INV:	哦,郁金香.
+*INV:	你知道些什么花呀?
+*INV:	有郁金香.
+*CHI:	还有什么花?
+*CHI:	有郁金香...
+*INV:	郁金香是怎么画的.
+*CHI:	这样的.
+----------------------------------------
+sent_id: 8667
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_MM.cha": line 2598. Keywords: 知道, 知道 
+*INV:	我感觉蜘蛛挺可怕的.
+*CHI:	[-eng]binder[:spider].
+*CHI:	[-eng]binder[:spider].
+*CHI:	[-eng]binder[:spider].
+*CHI:	[-eng]binder[:spider].
+*INV:	<<你知道>[/]你知道蜘蛛侠吗?
+*CHI:	我不知道.
+*INV:	啊.
+*INV:	这个网越织越大.
+*CHI:	[-eng]binder[:spider].
+*INV:	你要不要换个这个颜色&=holds:pencil?
+----------------------------------------
+sent_id: 8668
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_NW.cha": line 571. Keyword: 知道 
+*INV:	这是第二层在哪&=points:bike_toy?
+*INV:	哦&=points:bike_toy.
+*INV:	<你你你>[/]你/.
+*CHI:	我们家只有一个这个盆.
+*INV:	哦.
+*INV:	你咋知道?
+*CHI:	因为那个借了&=points:pot.
+*INV:	那个什么?
+*CHI:	借人了.
+*INV:	哦,送给别人了.
+*CHI:	对.
+----------------------------------------
+sent_id: 8669
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_NW.cha": line 771. Keyword: 知道 
+*INV:	这个&=points:fruit?
+*CHI:	这个有点坏.
+*INV:	有点什么.
+*CHI:	坏[/]坏.
+*INV:	哦,为啥?
+*INV:	你咋知道有点坏?
+*INV:	看着挺好的呀.
+*CHI:	很多水果坏.
+*INV:	啊,那是啥水果啊,没见过&=points.
+*CHI:	蒜!
+*INV:	蒜,哦[/]哦啊,哦是蒜.
+----------------------------------------
+sent_id: 8670
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_NW.cha": line 812. Keyword: 知道 
+*INV:	蒜吃过吗?
+*CHI:	蒜没吃.
+*INV:	没吃过啊.
+*CHI:	蒜辣.
+*INV:	哎,你不是没吃过吗?
+*INV:	你没吃过,你怎么知道它辣?
+*CHI:	我之前尝过.
+*INV:	嗯.
+*INV:	生的辣熟的不辣.
+*INV:	就是炒菜炒过的不辣&=ges:saute.
+*INV:	&-嗯.
+----------------------------------------
+sent_id: 8671
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_NW.cha": line 1761. Keyword: 知道 
+*INV:	所以是爸爸在开.
+*CHI:	不,我不用.
+*CHI:	嘟嘟嘟@o.
+*CHI:	开[/]开.
+*INV:	来,我们进去看看吧,这还多呢.
+*INV:	这么多,那你不知道你吃什么好吃的.
+*FAT:	你要玩这个球啊.
+*CHI:	<赶快上的>[?].
+*FAT:	那姐姐拿着那个不一定接的住.
+*INV:	对,姐姐不能玩儿.
+*FAT:	<你给妈妈吧.
+----------------------------------------
+sent_id: 8672
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_NW.cha": line 1968. Keyword: 知道 
+*CHI:	xxx.
+*CHI:	&=laughs.
+*INV:	你还跟谁玩这个啊,平时.
+*INV:	来,我们继续玩球吧.
+*CHI:	谁开门了.
+*INV:	不知道门自己开了嗯.
+*CHI:	&=laughs.
+*CHI:	不是.
+*INV:	嗯,来给我&-嗯,给姐姐接不住啊.
+*CHI:	&=laughs.
+*CHI:	来.
+----------------------------------------
+sent_id: 8673
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_NW.cha": line 2347. Keyword: 知道 
+*INV:	咬的.
+*INV:	嗯,很可以.
+*CHI:	都成<四瓣>[?]了.
+*INV:	确实.
+*CHI:	四变二.
+*INV:	对,<这这这这>[/]这些图都是啥你<认(识)>[//]知道不?
+*CHI:	二变四.
+*INV:	二变四.
+*CHI:	二.
+*INV:	来看看.
+*INV:	这也是个小xxx,挺漂亮&=holds:ball.
+----------------------------------------
+sent_id: 8674
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0306_TT.cha": line 1009. Keywords: 知道, 知道 
+*CHI:	而且是老师给我们的.
+*INV:	哦.
+*INV:	哦.
+*INV:	班上的老师给的是不是?
+*CHI:	&-额,是www老师给的.
+*INV:	哦,知道了,我知道了&=laughs.
+*CHI:	上面还画着www的小猴.
+*INV:	嗯,这是小猴吗?
+*CHI:	嗯.
+*INV:	我最喜欢小猴了.
+*INV:	特别喜欢小猴,你喜欢什么动物?
+----------------------------------------
+sent_id: 8675
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0309_MD.cha": line 1965. Keyword: 知道 
+*CHI:	xxx.
+*CHI:	我想买椰子水,对吧.
+*INV:	什么.
+*CHI:	xxx就是想买椰子水.
+*INV:	想买椰子书[?]?
+*INV:	啊,<好好好>[/]好,我知道了.
+*INV:	&-嗯.
+*INV:	那&-呃你刚才说的那个三个颜色的电梯.
+*CHI:	嗯&=nods.
+*INV:	是在哪呀?
+*CHI:	芳草地.
+----------------------------------------
+sent_id: 8676
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0309_MD.cha": line 2438. Keyword: 知道 
+*CHI:	那个[/]那个全灯电梯[?].
+*INV:	什么全灯电梯?
+*CHI:	对,好多[/]好多颜色的电梯.
+*INV:	好的.
+*CHI:	但是[/]但是那颜色呀只能到l@lg@l二层.
+*INV:	好,我知道了.
+*CHI:	好,你得等电梯,xxx.
+*INV:	好复杂呀.
+*CHI:	对,l@lg@l二.
+*INV:	嗯.
+*CHI:	只能再往下,可以上l@lg@l一.
+----------------------------------------
+sent_id: 8677
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0309_XYE.cha": line 1360. Keyword: 知道 
+*CHI:	它只能印在衣服上或是被子上&=closes:seal.
+*INV:	哦.
+*CHI:	<我因为我在在>[//]因为我今天在幼儿园睡[/]睡觉了.
+*INV:	啊,是不是每个被子上都有名字.
+*CHI:	没错,有[/]有些被子上都没名字.
+*INV:	哦,那怎么知道是谁的呢?
+*CHI:	<对.
+*CHI:	因[/]因为老师给他的就[/]就是他的了.
+*INV:	哦&=nods.
+*CHI:	我得把这个给放回去.
+*INV:	好的.
+----------------------------------------
+sent_id: 8678
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0309_XYE.cha": line 2083. Keyword: 知道 
+*INV:	好.
+*CHI:	因为它也有我们的头发,非常的&=holds:legos...
+*INV:	<好的.
+*CHI:	被它给捡走了.
+*CHI:	然后它[/]它你知道这个公主,它名字叫什么呢?
+*INV:	这个叫,不知道.
+*CHI:	它一[?]男孩.
+*CHI:	&=nods.
+*INV:	真的假的?
+*CHI:	啊?
+*INV:	是男孩吗,它?
+----------------------------------------
+sent_id: 8679
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0309_XYE.cha": line 2207. Keywords: 知道, 知道 
+*CHI:	xxx.
+*CHI:	你看数字,数字又来了.
+*CHI:	大数字又来了.
+*CHI:	哎.
+*INV:	这怎么玩呀&=points:notebook?
+*INV:	不知道,我也不知道这怎么玩.
+*INV:	是不是你的,这个&=points:notebook.
+*CHI:	不是.
+*CHI:	大人一起玩,大家的.
+*INV:	嗯.
+*CHI:	<<这两是王(子)>[/]这两个是王子.
+----------------------------------------
+sent_id: 8680
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0309_YY.cha": line 1214. Keyword: 知道 
+*INV:	<他没有把你>[/]他没有和你一起去吗?
+*CHI:	&-嗯,没有.
+*CHI:	看看这个是在哪里的吧&=touches:toy.
+*INV:	这是写的英文&=touches:toy.
+*INV:	他说是(.)澳大利亚设计,然后中国生产的.
+*INV:	你知道澳大利亚吗?
+*CHI:	&-嗯.
+*CHI:	我爸爸去过.
+*INV:	哦.
+*CHI:	还有个这个&=holds:toy.
+*INV:	这是www&=points:toy.
+----------------------------------------
+sent_id: 8681
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0400_DD.cha": line 1252. Keyword: 知道 
+*CHI:	这样吧.
+*CHI:	这样?
+*INV:	嗯,好像是这样.
+*CHI:	嗯?
+*INV:	嗯,试一试看看能不能卡住?
+*INV:	哦,我知道好像[?]问题出在哪了.
+*INV:	你看看这个红色的钉子是什么颜色的?
+*CHI:	红色的钉子?
+*INV:	对,这个是绿色的,你看.
+*INV:	但是现在你这个钉子,钉红色轮子的钉子是黄色的.
+*INV:	钉子的颜色好像有点不对.
+----------------------------------------
+sent_id: 8682
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0400_DD.cha": line 1985. Keyword: 知道 
+*CHI:	四号卡片和十二号卡片.
+*INV:	嗯.
+*CHI:	然后呢...
+*CHI:	再来一个十七号.
+*INV:	十七号.
+*INV:	你知道它们都是干什么的吗,四号/.
+*CHI:	<不知道.
+*INV:	不知道.
+*CHI:	到头了.
+*INV:	嗯[?]这个&=points:book.
+*INV:	是不是得保存呢?
+----------------------------------------
+sent_id: 8683
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0400_DD.cha": line 1992. Keyword: 知道 
+*CHI:	然后呢...
+*CHI:	再来一个十七号.
+*INV:	十七号.
+*INV:	你知道它们都是干什么的吗,四号/.
+*CHI:	<不知道.
+*INV:	不知道.
+*CHI:	到头了.
+*INV:	嗯[?]这个&=points:book.
+*INV:	是不是得保存呢?
+*CHI:	对,保存.
+*INV:	嗯.
+----------------------------------------
+sent_id: 8684
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0400_DD.cha": line 2155. Keyword: 知道 
+*INV:	它都不亮了.
+*INV:	你看这个灯.
+*CHI:	应该是我们插错了.
+*INV:	嗯,那这个编程笔是不是没插对位置?
+*CHI:	是不是这块儿?
+*INV:	嗯,不知道呀.
+*CHI:	<L@lT@l>[/]<L@lT@l>[//],L@lD@l.
+*INV:	<好.
+*CHI:	好的,可以了.
+*CHI:	等它变了.
+*INV:	变色了?
+----------------------------------------
+sent_id: 8685
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0400_XL.cha": line 1524. Keyword: 知道 
+*INV:	好.
+*INV:	那,这是[/]这是一个小树,对吗?
+*CHI:	是圣诞树.
+*INV:	<哦.
+*CHI:	这[/]这个普通树.
+*INV:	哦,我知道这是什么了.
+*INV:	这是一只小鱼.
+*CHI:	对.
+*CHI:	那这个哩?
+*INV:	这个是一只小鹿.
+*CHI:	no,长颈鹿.
+----------------------------------------
+sent_id: 8686
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0400_XL.cha": line 1596. Keyword: 知道 
+*CHI:	<我我我>[/]我跟你说[/]跟你说,外面[?]xxx.
+*INV:	<好.
+*CHI:	我[/]我(们)<那那>[/]那样挖太麻烦,我们<没意思>[?].
+*CHI:	我们<敲敲敲>[/]敲&=ges:knock.
+*CHI:	等它碎了,我们一拿恐龙就行了.
+*INV:	哦,那你知道这里面是什么恐龙吗&=points:toy?
+*CHI:	不知道.
+*CHI:	<是是是>[/]是我们,把它这个,<都得>[/]都得挖它[/]它恐龙出来,我们才能[/]才能知道.
+*INV:	哦,还要等它出来.
+*CHI:	嗯.
+*INV:	好.
+----------------------------------------
+sent_id: 8687
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0400_XL.cha": line 1953. Keyword: 知道 
+*INV:	<哦行.
+*INV:	哦.
+*INV:	哦,我们看看这个里面是啥.
+*INV:	诶.
+*CHI:	是不是很期待呀?
+*INV:	是呀,不知道是什么呢?
+*CHI:	倒吧.
+*INV:	好.
+*CHI:	嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦&=sings.
+*CHI:	嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦嘿呦&=sings.
+*INV:	好,要不要我帮你?
+----------------------------------------
+sent_id: 8688
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0400_ZZ.cha": line 683. Keyword: 知道 
+*CHI:	嗯.
+*CHI:	爸爸也知道.
+*CHI:	爸爸每天哄我睡着就讲这个.
+*INV:	哇,这些知识都是爸爸讲给你的&=points:book.
+*CHI:	嗯.
+*INV:	啊,你还知道/.
+*CHI:	姥姥还不会.
+*CHI:	每天都说(.)这[/]这个星球都生气了.
+*INV:	&=laughs.
+*INV:	太阳最大是吗?
+*CHI:	嗯.
+----------------------------------------
+sent_id: 8689
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_AA.cha": line 1485. Keyword: 知道 
+*MOT:	嗯.
+*CHI:	这是谁给我买的?
+*MOT:	我给你买的呀.
+*CHI:	那我妈妈给我买的.
+*INV:	&=laughs.
+*INV:	那你的衣服谁买的你都不知道.
+*INV2:	&=laughs.
+*INV:	&=laughs.
+*CHI:	我家里还有一个新黑板,xxx.
+*INV:	<家里还有什么?
+*CHI:	家里还有黑板.
+----------------------------------------
+sent_id: 8690
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_AA.cha": line 1884. Keyword: 知道 
+*CHI:	还[?]储藏了各种东西.
+*INV:	啊.
+*CHI:	嗯.
+*INV:	这个皮球是哪来的?
+*CHI:	这个皮球是我们不知道从哪买的.
+*INV:	哦,不知道从哪买.
+*CHI:	我找到了一个东西.
+*CHI:	xxx找到躲藏[?]的地方了.
+*INV:	啊.
+*CHI:	&=points:ball.
+*CHI:	我直接给它送进去了&=points:ball.
+----------------------------------------
+sent_id: 8691
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_AA.cha": line 2167. Keyword: 知道 
+*CHI:	我就想让我的那个小狗狗和和我的那个粉兔子参观一下幼儿园.
+*CHI:	老师就让我带了两次.
+*CHI:	然后我慢慢我就不带了.
+*CHI:	我就参观了两次.
+*CHI:	它还记着呢.
+*INV:	<啊你怎么知道它还记着呢.
+*CHI:	因为它脑子里还记着.
+*INV:	啊,它跟你说了吗?
+*CHI:	<它跟你说>[//]它跟我说了几天.
+*CHI:	那是我跟爸爸拼搭的一个挖掘机&=points.
+*INV:	哦,拼出来的.
+----------------------------------------
+sent_id: 8692
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_AA.cha": line 2460. Keyword: 知道 
+*CHI:	"蜜蜂给电着了.
+*INV:	<嗯.
+*INV:	啊?
+*INV:	这样啊.
+*CHI:	差点.
+*INV:	哦,差点,你怎么知道.
+*CHI:	可是蜜蜂<一个劲儿>[/]一个劲儿地直接飞出顶上去了.
+*INV:	啊.
+*CHI:	没电着.
+*CHI:	电着了就麻烦了.
+*INV:	嗯.
+----------------------------------------
+sent_id: 8693
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_TT.cha": line 2527. Keyword: 知道 
+*INV:	好啊.
+*CHI:	马一撅[?]屁股吧&=holds:toy.
+*INV:	&=laughs.
+*CHI:	<可以可以可以可以>[/]可以像奔[?]...
+*CHI:	<有有有有>[/]有石头的时候,<它就>[/]它就会滚下去&=holds:toy.
+*INV:	我知道它为什么撅屁股了.
+*INV:	因为它觉得太重了.
+*CHI:	对.
+*CHI:	你看看这&=shows:toy.
+*CHI:	它就玩[?]这个.
+*INV:	&=laughs.
+----------------------------------------
+sent_id: 8694
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_WW.cha": line 234. Keyword: 知道 
+*INV:	好,让我们来看看这本书.
+*INV:	好.
+*INV:	嗯.
+*CHI:	嗯这都是立体书.
+*INV:	哇这个书里面好像有很多好玩的东西.
+*INV:	哇这里面的东西你都知道吗?
+*CHI:	你等会儿.
+*INV:	好.
+*CHI:	等会儿,我/.
+*INV:	要去干嘛?
+*CHI:	,&-呃,去拿个东西.
+----------------------------------------
+sent_id: 8695
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_WW.cha": line 535. Keyword: 知道 
+*CHI:	这个xxx.
+*CHI:	咱们别玩这个.
+*INV:	不玩这个呀.
+*CHI:	对.
+*INV:	好,来,我们[?]xxx.
+*INV:	啊,你知道这是什么恐龙吗&=holds:toy?
+*CHI:	&=head:no.
+*CHI:	&-嗯,不知道.
+*INV:	我感觉他有点像霸王龙.
+*INV:	害怕霸王龙吗?
+*INV:	啊@o.
+----------------------------------------
+sent_id: 8696
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_WW.cha": line 899. Keyword: 知道 
+*CHI:	这个&-呃.
+*CHI:	欧布.
+*INV:	哦,欧布奥特曼.
+*INV:	这些卡都是谁给你买的呀?
+*CHI:	不知道是谁&=laughs.
+*INV:	不知道&=laughs.
+*INV:	可能是爸爸妈妈买的.
+*CHI:	爸爸妈妈从来不会买.
+*INV:	哦,从来不会买.
+*INV:	那都是谁给你买玩具?
+*CHI:	那我也不知道.
+----------------------------------------
+sent_id: 8697
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0403_WW.cha": line 2266. Keyword: 知道 
+*CHI:	这个水晶.
+*INV:	哦,这儿还有一个.
+*CHI:	对,还有一个.
+*INV:	这是谁的水晶啊?
+*CHI:	我不知道.
+*INV:	我也不知道.
+*INV:	我不认识他&=laughs.
+*CHI:	我也不认识他.
+*CHI:	这是欧布,塞罗.
+*INV:	我感觉他长得好丑啊.
+*CHI:	哈.
+----------------------------------------
+sent_id: 8698
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_AA.cha": line 163. Keyword: 知道 
+*INV:	能给我讲一讲吗?
+*CHI:	还是我特意帮你拿过来.
+*INV:	嗯.
+*INV:	是故事书?
+*CHI:	嗯.
+*INV:	哦,这个故事你知道吗?
+*CHI:	你也可以给我讲一讲.
+*CHI:	冰雪奇缘.
+*INV:	哦我们来看一看?
+*INV:	&-嗯这是谁呀?
+*CHI:	爱莎公主的姐姐.
+----------------------------------------
+sent_id: 8699
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_AA.cha": line 307. Keyword: 知道 
+*CHI:	这还有长不大的公主,没有xxx.
+*CHI:	我的妈呀,这是什么东西?
+*INV:	这是很多礼物.
+*CHI:	这儿着火了.
+*INV:	对着火了.
+*INV:	这是什么,你知道吗?
+*CHI:	雪人.
+*INV:	雪人,它应该叫雪宝.
+*INV:	这里面的一个人物.
+*INV:	就是这个雪宝.
+*CHI:	我看.
+----------------------------------------
+sent_id: 8700
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_AA.cha": line 659. Keyword: 知道 
+*CHI:	小毛驴.
+*INV:	哦.
+*CHI:	<小毛驴>[/]小毛驴.
+*INV:	小毛驴是谁呀?
+*CHI:	小毛驴是小猫变成小驴,小驴变成小猫的驴.
+*INV:	哦那这个故事你知道吗?
+*INV:	可以给我讲讲吗?
+*CHI:	我不会讲这个.
+*INV:	哦不会讲这个.
+*INV:	哇这个好有意思.
+*CHI:	哥哥[/]哥哥你给我出去.
+----------------------------------------
+sent_id: 8701
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_AA.cha": line 718. Keyword: 知道 
+*INV:	<你平时上>[//]&-哦你会上幼儿园吗?
+*CHI:	但是我们班来了一个新的<朋友>[//]小朋友.
+*INV:	哦你们班来了一个新的小朋友.
+*INV:	你今天怎么没有上幼儿园呀?
+*CHI:	幼儿园[//]今天所有小朋友都不去幼儿园,休息.
+*INV:	你知道昨天是什么节日吗?
+*CHI:	端午节.
+*INV:	你知道端午节要干嘛么?
+*CHI:	捏粽子,划龙舟.
+*INV:	嗯,那你吃粽子了吗,昨天?
+*CHI:	吃了.
+----------------------------------------
+sent_id: 8702
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_AA.cha": line 725. Keyword: 知道 
+*INV:	哦你们班来了一个新的小朋友.
+*INV:	你今天怎么没有上幼儿园呀?
+*CHI:	幼儿园[//]今天所有小朋友都不去幼儿园,休息.
+*INV:	你知道昨天是什么节日吗?
+*CHI:	端午节.
+*INV:	你知道端午节要干嘛么?
+*CHI:	捏粽子,划龙舟.
+*INV:	嗯,那你吃粽子了吗,昨天?
+*CHI:	吃了.
+*INV:	你吃的什么粽子?
+*CHI:	豆沙.
+----------------------------------------
+sent_id: 8703
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_DD.cha": line 1580. Keyword: 知道 
+*INV:	<还有霸王龙.
+*CHI:	你还知道啥恐龙?
+*INV:	翼龙.
+*INV:	霸王龙.
+*INV:	三角龙.
+*INV:	不知道了.
+*INV:	我不懂恐龙.
+*CHI:	但是那个,那[/]那里有个放恐龙的化石.
+*INV:	啊,我们看看吧.
+*CHI:	这恐龙.
+*CHI:	恐龙还没打开化石.
+----------------------------------------
+sent_id: 8704
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_DD.cha": line 1828. Keyword: 知道 
+*INV:	哦.
+*INV:	我没去过长城,爬不动.
+*CHI:	我爬过.
+*INV:	嗯.
+*CHI:	你知道当时古代干嘛的吗?
+*INV:	不知道.
+*CHI:	打仗!
+*INV:	啊,你是不是喜欢看打仗?
+*CHI:	对啊.
+*CHI:	我喜欢看那种刺激的.
+*INV:	嗯.
+----------------------------------------
+sent_id: 8705
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_DD.cha": line 2483. Keyword: 知道 
+*INV:	xxx.
+*CHI:	这个我可以往后打.
+*CHI:	然后这个我可以往前滚,往陆地上或者往天上.
+*INV:	嗯.
+*CHI:	<你知道我一般就会给那个我的就是变形金刚上装啥吗?
+*INV:	不知道&=nods.
+*CHI:	左边一[/]一个空中枪.
+*CHI:	右边一个重型枪.
+*INV:	哦,两个枪.
+*INV:	&=ges:two.
+*CHI:	两把枪.
+----------------------------------------
+sent_id: 8706
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_DD.cha": line 2783. Keyword: 知道 
+*INV:	拼一个变形金刚.
+*CHI:	但我现在就已经不会了.
+*INV:	哦.
+*CHI:	xxx拼,你得先把[//]帮我把身体给拼好.
+*CHI:	要不然我直接忘了.
+*INV:	我也不知道.
+*INV:	晚上让爸爸拼.
+*CHI:	让我/.
+*INV:	我拼了两个三角形&=shows:lego.
+*CHI:	我不要这三角形xxx.
+*CHI:	现在要拼它的脚.
+----------------------------------------
+sent_id: 8707
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_DD.cha": line 3011. Keyword: 知道 
+*INV:	它拼出来有多大呀.
+*CHI:	小的.
+*INV:	小的.
+*INV:	有那个(.)图片吗?
+*CHI:	&-嗯[/]&-嗯,对称的.
+*INV:	我要看了图片才知道怎么拼.
+*INV:	这个这么长能用吗&=holds:lego?
+*INV:	我们把它拆开.
+*INV:	哎呦,好难弄,不会拼.
+----------------------------------------
+sent_id: 8708
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_XB.cha": line 1161. Keyword: 知道 
+*INV:	嗯.
+*INV:	他飞得很远.
+*INV:	哦,他又找了一个新的.
+*CHI:	他是谁啊?
+*INV:	嗯,看看[?].
+*INV:	我也不知道.
+*INV:	这个是谁啊&=points:book?
+*CHI:	不知道.
+*INV:	看他脑袋是像一个牛,是不是&=points:book?
+*CHI:	嗯.
+*INV:	<看看这是牛魔王.
+----------------------------------------
+sent_id: 8709
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0406_XB.cha": line 1664. Keyword: 知道 
+*INV:	孙悟空还能变三个脑袋?
+*CHI:	嗯.
+*INV:	哇.
+*INV:	哪吒也来帮孙悟空了&=points:book.
+*INV:	这个是谁&=points:book?
+*INV:	你知道吗&=points:book?
+*CHI:	这个也是好的&=points:book.
+*INV:	啊.
+*INV:	这边应该都是好的&=points:book.
+*INV:	是天上的神仙&=points:book.
+*CHI:	他们都来打(.)坏的&=points:book.
+----------------------------------------
+sent_id: 8710
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_HH.cha": line 124. Keyword: 知道 
+*INV:	你看这是什么好吗?
+*CHI:	嗯.
+*INV:	你看这是什么呀?
+*INV:	这是什么?
+*CHI:	小猪.
+*INV:	哦,你怎么知道它是小猪?
+*CHI:	因为看到它有两个小小的鼻孔&=points:nose.
+*INV:	哦,对.
+*INV:	小小的鼻孔.
+*INV:	很好,嗯.
+*CHI:	我[//]因为我看出来它的鼻子是大的&=points:nose.
+----------------------------------------
+sent_id: 8711
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_HH.cha": line 325. Keyword: 知道 
+*INV:	这个是什么动物[?]&=points:doll?
+*CHI:	冰墩墩.
+*INV:	哦,冰[/]冰墩墩.
+*INV:	<你在>[//]你什么时候买的呀?
+*CHI:	我不知道xxx.
+*INV:	你不知道什么时候.
+*INV:	那你<还喜欢哪一个>[/]还喜欢哪一个小/.
+*CHI:	最喜欢这个小熊猫&=points:doll.
+*INV:	那个小熊猫吗&=points:doll?
+*CHI:	这个&=touches:doll.
+*INV:	哦,为什么?
+----------------------------------------
+sent_id: 8712
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_HH.cha": line 580. Keyword: 知道 
+*INV:	好你来.
+*INV:	<你说>[/]你说.
+*CHI:	那你得说完.
+*INV:	要说几个?
+*CHI:	几个都行.
+*INV:	那你怎么知道我说没说完?
+*CHI:	因为只说了两个.
+*INV:	我要说几个?
+*CHI:	要说二十个.
+*INV:	&-嗯,但是<我想>[/]我想拍.
+*INV:	你能不能说?
+----------------------------------------
+sent_id: 8713
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_HH.cha": line 1155. Keyword: 知道 
+*CHI:	它有个超大xxx.
+*INV:	这是你的吗?
+*CHI:	&-呃,是的.
+*INV:	你喜欢奥特曼?
+*CHI:	不知道哪儿来的这么多玩具.
+*INV:	不知道哪儿来那么多玩具是吗&=laughs?
+*INV:	好,<你先涂>[/]你先涂.
+*INV:	涂上.
+*INV:	把那个皇冠涂完.
+*CHI:	老师,我知道了.
+*CHI:	<就是我>[//]就是人快准备睡觉的时候你就在路上.
+----------------------------------------
+sent_id: 8714
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_HH.cha": line 2454. Keyword: 知道 
+*INV:	啊那我也画一笔啊.
+*CHI:	<可别>[//]<小心别涂>[//]你干嘛呀?
+*CHI:	这又不是这样画的.
+*INV:	那怎么画?
+*CHI:	去拿xxx&=walks:closet.
+*INV:	我不知道怎么画.
+*INV:	你要和我说一说.
+*CHI:	不能画圆.
+*INV:	不能画圆?
+*INV:	那画什么?
+*INV:	你教教我好吗?
+----------------------------------------
+sent_id: 8715
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_HH.cha": line 2477. Keyword: 知道 
+*INV:	你要和我说一说.
+*CHI:	不能画圆.
+*INV:	不能画圆?
+*INV:	那画什么?
+*INV:	你教教我好吗?
+*INV:	我不知道怎么画.
+*CHI:	你也得把这些涂上颜色&=touches:painting.
+*INV:	哦.
+*CHI:	<然后别涂出边.
+*CHI:	我来涂.
+*INV:	嗯,好,那你涂.
+----------------------------------------
+sent_id: 8716
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_HH.cha": line 2553. Keyword: 知道 
+*INV:	&-呃这个是...
+*INV:	没有黑笔&=touches:pens.
+*CHI:	我说黑纸.
+*INV:	哦.
+*INV:	黑纸?
+*INV:	我不知道你[/]你哪有黑纸.
+*CHI:	在xxx.
+*INV:	<在这吗?
+*CHI:	找一下黑纸.
+*INV:	噢.
+*INV:	我有绿色的纸可以吗?
+----------------------------------------
+sent_id: 8717
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_KL.cha": line 1260. Keyword: 知道 
+*CHI:	它的眼睛&=draws.
+*INV:	是要给它眼睛瞄个边吗?
+*CHI:	不是&=draws.
+*CHI:	<它有一个>[/]它有一个,&-嗯,打斗过的伤疤&=draws.
+*INV:	哦.
+*INV:	我知道这本来流血了&=points:drawing.
+*CHI:	对.
+*CHI:	然后那血都干了&=draws.
+*INV:	嗯.
+*CHI:	然后呢,它还带着一个&=draws...
+*CHI:	然后呢,两边&=draws...
+----------------------------------------
+sent_id: 8718
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_KL.cha": line 1898. Keyword: 知道 
+*CHI:	我[/]我家是楼顶.
+*INV:	嗯.
+*CHI:	下面是警察.
+*CHI:	穿白衣服的下[/]下面穿黑裤子的那些是警察.
+*INV:	哦.
+*INV2:	你怎么知道?
+*CHI:	我看出来的呀.
+*INV:	&=laughs.
+*INV:	你进去过吗&=points:building?
+*CHI:	啊?
+*INV:	你进去过这吗&=points:building?
+----------------------------------------
+sent_id: 8719
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_SS.cha": line 1826. Keyword: 知道 
+*CHI:	水弹枪?
+*INV:	水弹枪是什么?
+*CHI:	就是水弹.
+*INV:	水弹是什么?
+*CHI:	水弹也xxx不都知道.
+*INV:	不知道,哪[/]哪两个字啊?
+*CHI:	水弹就是圆圆的.
+*INV:	嗯.
+*CHI:	蓝[/]蓝色的.
+*INV:	嗯.
+*CHI:	水(.)圆圆球球的,像个小足球,小小的比足球还要小.
+----------------------------------------
+sent_id: 8720
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_SS.cha": line 2714. Keyword: 知道 
+*CHI:	升上去.
+*INV:	啊.
+*INV:	没动啊.
+*INV:	它没动.
+*INV:	要不要给你拿下来&=holds:toy?
+*INV:	啊[/]啊,好,我知道了,看见了.
+*INV:	哦,它上来了.
+*INV:	来,我帮你转&=holds:toy.
+*CHI:	听话呀,你这个小玩意[?].
+*INV:	<上来了>[/]上来了.
+*CHI:	往下就这样.
+----------------------------------------
+sent_id: 8721
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0409_SS.cha": line 3216. Keyword: 知道 
+*CHI:	我们中班[?]就不是去xxx了.
+*INV:	啊.
+*INV:	哎呦.
+*INV:	中班[/]中班也是去这些区域吗,还是?
+*CHI:	你说啥?
+*INV:	中班[/]中班啊,中班干啥你也不知道是吧?
+*CHI:	我也不知道啊.
+*INV:	哦.
+*CHI:	我们有一次看了一下.
+*INV:	嗯.
+*CHI:	我看他们吃饭.
+----------------------------------------
+sent_id: 8722
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0500_BB.cha": line 1078. Keyword: 知道 
+*INV:	是有点像.
+*CHI:	嗯,打过呀.
+*CHI:	当然打过.
+*INV:	<你都打过麻将啊!
+*CHI:	<对.
+*INV:	那你知道麻将怎么赢吗?
+*CHI:	哎呀,胡牌!
+*CHI:	&=laughs.
+*INV:	&=laughs.
+*INV:	哇,那你太厉害了.
+*CHI:	胡牌了.
+----------------------------------------
+sent_id: 8723
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0500_TT.cha": line 2014. Keyword: 知道 
+*INV:	嗯,这个&=points:picture是什么?
+*CHI:	是在月球上发现的石头.
+*INV:	嗯,在月球上发现的石头.
+*CHI:	石头怎么和地球上的不太一样呢?
+*INV:	为什么呀?
+*INV:	我也不知道为什么.
+*CHI:	我觉得有点儿xxx.
+*CHI:	一个点儿.
+*INV:	嗯,是不是它含的成分跟地球上的石头不一样的?
+*CHI:	xxx.
+*INV:	这个是什么?
+----------------------------------------
+sent_id: 8724
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0500_TT.cha": line 2272. Keyword: 知道 
+*CHI:	都有线呢.
+*INV:	怎么都有线呢?
+*CHI:	这个黑色线是个什么.
+*INV:	你说是它们外面这一圈&=points,是不是?
+*CHI:	嗯.
+*INV:	嗯,我也不知道.
+*INV:	这是不是因为,画出来的.
+*INV:	本身它是没有的.
+*INV:	只不过...
+*INV:	&-嗯.
+*CHI:	这怎么有个白的圈?
+----------------------------------------
+sent_id: 8725
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0500_XY.cha": line 267. Keyword: 知道 
+*INV:	嗯.
+*INV:	那最后石头去哪了呀?
+*CHI:	石头还在她脖子上.
+*INV:	啊.
+*INV:	那这个电影叫天空之城.
+*INV:	你知道它为什么叫天空之城吗?
+*CHI:	&-嗯,因为天上有一个城堡.
+*INV:	哦,谁住在里面呢?
+*CHI:	&-嗯,啥?
+*INV:	谁住在里面呢,那个城堡?
+*CHI:	&-嗯,是一些坏蛋.
+----------------------------------------
+sent_id: 8726
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0500_XY.cha": line 957. Keyword: 知道 
+*INV:	就是,西游记的动画片.
+*CHI:	&-呃,好像(.)没有.
+*INV:	哦.
+*INV:	那电视剧呢?
+*CHI:	&-呃,电视剧,好像也没有.
+*INV:	哦,那这个故事是你就是看书知道的.
+*CHI:	对.
+*INV:	嗯.
+*INV:	这是什么呀&=holds:box?
+*CHI:	这是我的芭比娃娃盒.
+*INV:	哇,看看呢,给我们展示一下.
+----------------------------------------
+sent_id: 8727
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0500_YD.cha": line 843. Keyword: 知道 
+*INV:	那是什么呀.
+*INV:	你说呢我说不出来了我想让你给我一点提示.
+*CHI:	和.
+*CHI:	是什么英语单词啊.
+*CHI:	啊那.
+*INV:	我就知道了.
+*INV:	是你是不是是[/]是.
+*CHI:	你抱他所以抱他弯[/]弯的.
+*CHI:	像弓一样.
+*CHI:	抱是弓嗯.
+*CHI:	抱.
+----------------------------------------
+sent_id: 8728
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_DD.cha": line 168. Keyword: 知道 
+*CHI:	<我还>[/]我还可以也<跟>[/]跟我妈妈联系.
+*INV:	嗯.
+*CHI:	&-嗯.
+*INV:	你平时喜欢/.
+*CHI:	<这个是干嘛的呀&=shows:book?
+*INV:	不知道.
+*INV:	我们一起看看吧.
+*CHI:	&-嗯.
+*INV:	啊这个是...
+*CHI:	<这些>[/]这些都有,是吧?
+*INV:	<xxx.
+----------------------------------------
+sent_id: 8729
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_DD.cha": line 224. Keyword: 知道 
+*INV:	嗯.
+*INV:	<你这是>[//]这是蚯蚓.
+*INV:	嗯.
+*CHI:	这是啥耶&=points:picture?
+*INV:	这是小虫子.
+*INV:	但是我也不知道是什么虫子.
+*CHI:	七星瓢虫.
+*INV:	嗯有可能.
+*CHI:	就是.
+*INV:	嗯.
+*CHI:	我看着它背上它有xxx好像.
+----------------------------------------
+sent_id: 8730
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_DD.cha": line 512. Keyword: 知道 
+*CHI:	<<他>[/]他就是当了[?]个海盗&=points:picture.
+*INV:	<嗯.
+*INV:	嗯.
+*INV:	他为什么当海盗?
+*CHI:	&-呃不知道.
+*INV:	嗯那你知道什么[?]/.
+*CHI:	这是巴克队长&=points:picture.
+*CHI:	这是皮索&=points:picture.
+*CHI:	这是一个大章鱼&=points:picture.
+*INV:	啊.
+*CHI:	这是灯笼鱼艇&=points:picture.
+----------------------------------------
+sent_id: 8731
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_DD.cha": line 1715. Keyword: 知道 
+*CHI:	要不就看不见路了.
+*INV:	噢.
+*INV:	这飞机要<飞>[/]飞到哪里去?
+*CHI:	要...
+*CHI:	你猜.
+*INV:	嗯我不知道啊.
+*INV:	啊飞到这里吗&=points:screen?
+*CHI:	不要.
+*INV:	噢.
+*CHI:	<这是这是这是这是>[/]这是宇宙龙卷风.
+*INV:	嗯.
+----------------------------------------
+sent_id: 8732
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_DD.cha": line 1864. Keyword: 知道 
+*CHI:	这就到了.
+*INV:	啊可以啊.
+*CHI:	还有.
+*INV:	嗯.
+*INV:	换一个吧.
+*INV:	这个我知道怎么玩.
+*CHI:	&-诶.
+*INV:	或者我们看看这个.
+*INV:	这也是在/.
+*CHI:	这个.
+*INV:	嗯好吧.
+----------------------------------------
+sent_id: 8733
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_LL.cha": line 705. Keyword: 知道 
+*INV:	嗯那在哪捞的?
+*CHI:	嗯<在地上>[//]不对在[/]在娃娃机里捞的呀.
+*INV:	哦.
+*INV:	娃娃机里捞的.
+*CHI:	你都不知道啊?
+*INV:	我知道啊.
+*INV:	那你不是说在www嘛.
+*INV:	www不是有水嘛.
+*CHI:	有水.
+*CHI:	但[/]但也<有有>[/]有地呀.
+*INV2:	<&=laughs.
+----------------------------------------
+sent_id: 8734
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_LL.cha": line 1115. Keyword: 知道 
+*CHI:	你看还有几个.
+*CHI:	三个?
+*CHI:	我猜.
+*INV:	嗯.
+*INV:	是三个.
+*INV:	你咋知道还有三个?
+*CHI:	因为[/]因为我看了看就知道了.
+*INV:	哦.
+*INV:	你不是猜的吗?
+*INV:	猜还能看?
+*CHI:	&-嗯,因[/]因为<我刚才数了一>[//]我[/]我刚才数了[?]一下四个.
+----------------------------------------
+sent_id: 8735
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_LL.cha": line 1543. Keyword: 知道 
+*INV:	动物园你就和谁去的?
+*CHI:	爸爸妈妈一[?]和姐姐.
+*INV:	哦.
+*INV:	他们都喜欢啥动物啊?
+*CHI:	我不知道.
+*INV:	不知道?
+*CHI:	你问问[/]问姐姐.
+*INV:	哦.
+*CHI:	就知(道)[//]就好了.
+*INV:	嗯/.
+*CHI:	&-太阳起得早你是小懒猫快乐一起在&=sings.
+----------------------------------------
+sent_id: 8736
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_LL.cha": line 2665. Keyword: 知道 
+*CHI:	老虎在哪里呢?
+*INV:	这是狮子&=points.
+*CHI:	哦狮子在哪里呢?
+*CHI:	都没有看见呢.
+*INV:	狮子你想想狮子在哪里?
+*INV:	我知道.
+*INV:	你猜猜.
+*CHI:	我看了就知道.
+*INV:	你不用看.
+*INV:	这上面没有.
+*INV:	有老虎的那个两个地方你丢了.
+----------------------------------------
+sent_id: 8737
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0503_LL.cha": line 2743. Keyword: 知道 
+*INV:	这[/]这在哪儿啊&=points:toy?
+*CHI:	&-嗯这个不[//]没有这个在哪里啊.
+*INV:	那这个在这上面可以.
+*CHI:	这也不在这上面.
+*INV:	这个<应该在应该在应该在>[/]应该在这儿&=points:map.
+*INV:	为啥知道不?
+*CHI:	不知道.
+*INV:	因为<这这>[/]这个东西是这个地方的&-嗯生产的.
+*INV:	这个地方有这个东西.
+*INV:	这是外国东西&=holds:toy.
+*INV:	你看你[/]<你像>[/]你像这猴子这飞机这不都是中国的吗?
+----------------------------------------
+sent_id: 8738
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0506_DD.cha": line 438. Keyword: 知道 
+*INV:	我以为是一样的.
+*INV:	为什么要少一点?
+*CHI:	因为这个事儿我也不太知道呀.
+*INV:	<<哦哦>[/]哦.
+*CHI:	以后才会学到.
+*INV:	哦确实我也不知道.
+*CHI:	只不过我家里有围棋书.
+*INV:	<哦.
+*CHI:	家里有我们班级老师发的围棋书.
+*INV:	啊.
+*CHI:	我还报了围棋延时课呢.
+----------------------------------------
+sent_id: 8739
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0506_DD.cha": line 1244. Keyword: 知道 
+*CHI:	这条线往往都是成功线.
+*CHI:	三线往往都是成功线.
+*INV:	嗯,为什么叫成功线?
+*CHI:	嗯这个问题只能以后我去解答了.
+*CHI:	因为现在我还没有学到.
+*INV:	<哦你,就是说你只是知道这个线叫这个.
+*INV:	那你觉得它为什么叫成功线?
+*CHI:	嗯.
+*INV:	以你自己的经验.
+*CHI:	我也没有/.
+*INV:	啊好吧.
+----------------------------------------
+sent_id: 8740
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0506_DD.cha": line 2035. Keyword: 知道 
+*INV:	那我走这儿.
+*CHI:	嗯?
+*INV:	你为什么走这儿啊?
+*CHI:	你[/]你没发现我不慌不忙的吗?
+*INV:	<我发现你不慌不忙的了.
+*INV:	但我不知道为什么.
+*CHI:	因为我发现我的棋特别的强.
+*CHI:	所以<我又>[/]我又不用慌.
+*INV:	哦.
+*CHI:	<你没发现你这一颗棋特别弱吗?
+*CHI:	还有这一颗棋.
+----------------------------------------
+sent_id: 8741
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0506_HH.cha": line 2618. Keyword: 知道 
+*INV:	没见过它们结果的样子?
+*CHI:	没见过.
+*INV:	会开花吗?
+*CHI:	不会开花.
+*CHI:	我也不知道.
+*INV:	你也不知道.
+*INV:	好.
+*INV:	那个是[?]名字.
+*INV:	你们中午在幼儿园会睡觉吗?
+*CHI:	会睡觉.
+*INV:	会睡觉.
+----------------------------------------
+sent_id: 8742
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0506_XZZ.cha": line 1963. Keyword: 知道 
+*INV:	是你吗?
+*CHI:	<这我>[//]这是我小时候.
+*INV:	你自己画的自己小时候?
+*CHI:	&=nods.
+*INV:	嗯.
+*INV:	你知道自己小时候长什么样子吗?
+*CHI:	我给忘了.
+*INV:	&=laughs.
+*CHI:	但是我看我那个卡就知道了.
+*INV:	什么卡?
+*INV:	照片吗?
+----------------------------------------
+sent_id: 8743
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0506_XZZ.cha": line 2327. Keyword: 知道 
+*INV:	嗯.
+*INV:	&-嗯<你们两个可以就是>[//]&-呃你们还换过别的什么吗?
+*CHI:	嗯,哥哥想换一个自动笔.
+*INV:	自动笔.
+*INV:	你想换啥?
+*INV:	还不知道?
+*CHI:	我<想换一个>[/]想换一个(.)竹蜻蜓.
+*INV:	竹蜻蜓是啥?
+*CHI:	就是[/]就是两边可以飞的.
+*CHI:	然后有一个棍棍.
+*CHI:	这么一弄你就可以飞上天了.
+----------------------------------------
+sent_id: 8744
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0509_SQ.cha": line 1587. Keyword: 知道 
+*CHI:	这个.
+*INV:	哎这是..?
+*CHI:	这[/]这叫什么?
+*CHI:	"我连我的脑袋都要,快要被想[?]掉了.
+*INV:	啊,可能不认识字啊.
+*INV:	不知道他在说什么.
+*CHI:	他说他知道.
+*INV:	<小布朗.
+*CHI:	然后他说...
+*CHI:	"布朗刚才说脑袋都要掉了.
+*INV:	嗯.
+----------------------------------------
+sent_id: 8745
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0509_SQ.cha": line 2144. Keyword: 知道 
+*INV:	&=laughs.
+*CHI:	然后他说的.
+*INV:	"我才不管有什么怪盗U@l呢.
+*INV:	<嗯,那他可能就想结婚.
+*CHI:	<然后他说的.
+*INV:	呃,这个人好像还不知道发生了什么.
+*CHI:	<谁是怪盗U@l呀.
+*INV:	嗯.
+*CHI:	"然后他说的我这一身肌肉.
+*CHI:	"说没有人能[/]能乔装改变了吧.
+*INV:	<那确实啊.
+----------------------------------------
+sent_id: 8746
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0509_SQ.cha": line 2868. Keyword: 知道 
+*INV:	&=laughs.
+*CHI:	"咦门怎么打不开了?
+*INV:	xxx.
+*CHI:	"这里有一件东西是从[/]从里面开[?],从外面看是没有的,<但在>[/]但在,这里面没有.
+*INV:	嗯,从外面看是怎么样的?
+*INV:	我怎么知道的?
+*CHI:	请翻到那一页去.
+*INV:	哦,那我们看看从外面...
+*CHI:	<<我不知道是我>[//]你不知道,我知道的.
+*INV:	嗯.
+*CHI:	对了,就是<二楼的这个窗户>[//]就是三楼的窗户.
+----------------------------------------
+sent_id: 8747
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0509_YY.cha": line 2428. Keyword: 知道 
+*CHI:	<这是那个>[//]这是[/]这是沙龙[?].
+*CHI:	然后呢,这个[/]这个黑龙成功地打败了白龙.
+*INV:	<哦.
+*CHI:	<然后呢,那个>[//]然后呢,这[/]这个眼睛说明不听好人,听&=points:book...
+*CHI:	你知道<为什么这>[//]就是这个黑龙怎么控制他们这些龙的吗&=points:book?
+*INV:	我不知道啊.
+*INV:	他怎么控制的?
+*CHI:	是因为用眼睛控制的?
+*INV:	用他的眼睛吗?
+*CHI:	不是,用这黑龙的眼睛.
+*INV:	<哦.
+----------------------------------------
+sent_id: 8748
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0509_ZC.cha": line 556. Keyword: 知道 
+*INV:	<这个.
+*INV:	噢.
+*INV:	那你在学校玩儿什么?
+*CHI:	学校就上课啊,玩.
+*CHI:	还有那个,你知道马桶人和监控人吗?
+*INV:	&-呃,不知道.
+*CHI:	我知道.
+*CHI:	<你猜>[/]你猜马桶人好还是监控人好?
+*INV:	那是什么啊?
+*CHI:	马桶人,监控人啊.
+*INV:	那是一个什么东西?
+----------------------------------------
+sent_id: 8749
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0509_ZC.cha": line 717. Keyword: 知道 
+*INV:	啊,噢&=laughs.
+*INV:	那,那个/.
+*CHI:	<你知道怎么弄到上面那个吗?
+*INV:	&-呃,弄到上面那个?
+*CHI:	嗯.
+*INV:	不知道.
+*CHI:	我知道.
+*INV:	你说的是哪个?
+*CHI:	上面这个.
+*INV:	啊[/]啊,噢.
+*CHI:	xxx我知道.
+----------------------------------------
+sent_id: 8750
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0509_ZC.cha": line 906. Keyword: 知道 
+*CHI:	这...
+*INV:	这是什么?
+*CHI:	蛋(仔)...
+*CHI:	诶?
+*CHI:	嘶.
+*INV:	这什么东西你知道吗?
+*CHI:	小蛋仔啊.
+*INV:	&-嗯它是干吗的?
+*CHI:	玩儿的.
+*INV:	怎么玩儿?
+*CHI:	瞎走走.
+----------------------------------------
+sent_id: 8751
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0509_ZC.cha": line 2797. Keyword: 知道 
+*INV:	啊.
+*CHI:	所有的这[/]这<画画画画画>[/]画.
+*CHI:	等到最底下画小兔子.
+*INV:	噢&=laughs.
+*CHI:	就可以多画很多[?]小兔子了.
+*INV:	噢,知道了.
+*INV:	那你想要小兔子很久了.
+*CHI:	嗯,好久了.
+*INV:	&-呃,你去干吗了?
+*CHI:	我带[?]东西就来.
+*INV:	啊,好.
+----------------------------------------
+sent_id: 8752
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MD.cha": line 239. Keyword: 知道 
+*INV2:	嗯.
+*INV:	是不是有很多[/]很多个奥特曼?
+*INV:	他是其中的一个?
+*CHI:	&=nods.
+*CHI:	嗯.
+*INV:	还有迪迦,你知道迪迦吗?
+*CHI:	&=nods.
+*INV:	你看过奥特曼的动画片吗?
+*CHI:	看过一小段.
+*INV:	那你喜欢吗?
+*CHI:	还可以.
+----------------------------------------
+sent_id: 8753
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MD.cha": line 481. Keyword: 知道 
+*INV:	嗯.
+*CHI:	我和妈妈姥姥打车回家的时候,后来[?]今天过那个生日的时候,<司(机)>[//]那个<司(机)>[//]xxx,然后那个司机送我的&=holds:kaychain.
+*INV:	噢,是司机师傅送给你的.
+*INV:	还挺好看的呢.
+*CHI:	上面有一个铃铛&=holds:kaychain.
+*INV:	这个是什么,这是谁,你知道吗?
+*CHI:	冰墩墩/.
+*INV:	对,冰墩墩.
+*CHI:	,的手掌.
+*INV2:	噢.
+*INV:	冰墩墩的手掌.
+----------------------------------------
+sent_id: 8754
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MD.cha": line 762. Keyword: 知道 
+*CHI:	然后这个是我在那块捡到的.
+*INV:	哦.
+*CHI:	xxx,可以装在小灯笼里.
+*CHI:	这个是我送给爸爸的.
+*CHI:	我画在这里了&=holds:keychain.
+*INV:	哦,这是小猪佩奇,你知道吧?
+*INV:	还有一个老鼠.
+*CHI:	我爸爸属鼠.
+*CHI:	这个是贝利亚.
+*CHI:	还有一个杰德欧布的.
+*CHI:	不知道去哪.
+----------------------------------------
+sent_id: 8755
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MD.cha": line 1868. Keyword: 知道 
+*CHI:	好像是牛顿龙.
+*INV:	噢,牛顿龙.
+*CHI:	你可以选一个猜.
+*INV:	我猜啊,我看看啊<我我>[/]我有没有认识的.
+*CHI:	这个我不知道.
+*INV:	这个我知道,这是不是霸王龙&=holds:toy!
+*CHI:	这个好像是,我忘记它是叫什么龙了.
+*INV:	哦.
+*CHI:	反正它就,原本还有一个小图纸知道它都是什么龙&=holds:toy.
+*INV:	哦.
+*CHI:	这个原本不是在这里&=holds:toy.
+----------------------------------------
+sent_id: 8756
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MM.cha": line 41. Keyword: 知道 
+*INV:	看过啦.
+*INV:	好.
+*INV:	这是大灰狼&=points:book.
+*CHI:	嗯.
+*INV:	它叫什么呀?
+*INV:	我不知道诶.
+*INV:	能不能给我讲讲这个故事.
+*INV:	&=laughs.
+*INV:	好,我们一起看看吧.
+*CHI:	嗯.
+*INV:	啊这个[/]这个是猪爸爸,对不对?
+----------------------------------------
+sent_id: 8757
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MM.cha": line 63. Keyword: 知道 
+*INV:	&=laughs.
+*INV:	好,我们一起看看吧.
+*CHI:	嗯.
+*INV:	啊这个[/]这个是猪爸爸,对不对?
+*CHI:	嗯.
+*INV:	你知道它叫什么吗?
+*CHI:	嗯.
+*INV:	它[/]它是谁啊?
+*CHI:	猪爸爸.
+*INV:	啊,就叫猪爸爸.
+*INV:	啊那这个肯定是&=points...
+----------------------------------------
+sent_id: 8758
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MM.cha": line 174. Keyword: 知道 
+*CHI:	<要开始>[/]要开始建房子喽.
+*CHI:	这么多砖头&=points:book.
+*INV:	哦这个是砖头.
+*INV:	然后这个呢?
+*CHI:	搅拌机.
+*INV:	哦我知道了这个是里面可以放水泥,是不是?
+*INV:	那这个是谁呀&=points:book?
+*CHI:	公牛先生.
+*INV:	啊,公牛先生哦.
+*INV:	看看后边儿.
+*INV:	&-诶这是刚才那个公牛先生是吗?
+----------------------------------------
+sent_id: 8759
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MM.cha": line 294. Keyword: 知道 
+*INV:	乔治这是在干嘛呢?
+*CHI:	<挖[?]它xxx铲.
+*INV:	铲子是[/]是想把这个地下挖一个坑,是不是?
+*CHI:	嗯.
+*INV:	哦感觉这个公牛先生好像是在<教它们>[/]教它们怎么做.
+*INV:	&-诶你知道怎么搭房子吗这个?
+*INV:	嗯有没有积木?
+*INV:	要不要我们搭一下[?]房子试试.
+*INV:	没有啊好那我们就看一看吧.
+*INV:	那我们就学一学.
+*CHI:	<我有积木不想搭.
+----------------------------------------
+sent_id: 8760
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MM.cha": line 1381. Keyword: 知道 
+*INV:	买的这里边有吗,书上?
+*CHI:	<那那>[/]那个屋里头.
+*INV:	<&-哦你有乔治的恐龙车啊?
+*INV:	可以拿过来借我看一下吗?
+*CHI:	我不知道在哪.
+*MOT:	你不知道在哪里呀?
+*MOT:	我看看.
+*CHI:	嗯.
+*MOT:	这个吧.
+*MOT:	这个吗?
+*CHI:	嗯&=holds:toy.
+----------------------------------------
+sent_id: 8761
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MM.cha": line 1562. Keyword: 知道 
+*INV:	可能挡住了,看不到.
+*INV:	嗯这是它妈妈.
+*CHI:	<它走了.
+*CHI:	它就想去配眼镜&=turns:book.
+*INV:	那我们看看最后有没有配成功.
+*INV:	哦这个[/]这个我知道.
+*INV:	是它爸爸对不对&=points:book?
+*CHI:	嗯.
+*INV:	它爸爸是验光师.
+*INV:	就是专门配眼镜儿的.
+*CHI:	xxx.
+----------------------------------------
+sent_id: 8762
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_MM.cha": line 2046. Keyword: 知道 
+*INV:	我们来看看.
+*CHI:	它xxx.
+*INV:	它们俩一人戴了一个帽子.
+*INV:	下雨了.
+*CHI:	它不戴/.
+*INV:	<&-哦我知道为什么了.
+*CHI:	嗯.
+*INV:	因为它想玩泥巴.
+*INV:	玩泥巴戴帽子不舒服.
+*INV:	所以它把帽[/]帽子扔了.
+*INV:	扔到坑里边了.
+----------------------------------------
+sent_id: 8763
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0600_YY.cha": line 1154. Keyword: 知道 
+*INV:	&-噢.
+*CHI:	然后[/]然后拿那头骨一下拿手[?]一下一捏就把那个头骨给捏碎了.
+*CHI:	<然后然后然后>[/]然后他就...
+*CHI:	我只知道[?]这一点了.
+*CHI:	然后后来那个还/.
+*INV:	<知道的很多了.
+*CHI:	<<海洋阿凡达>[/]海洋阿凡达然后<还有>[/]还有那个&-嗯叫那个像金鱼[?]一样的东西叫...
+*INV:	金鱼一样的东西?
+*INV:	叫什么?
+*CHI:	叫那个&-嗯...
+*CHI:	我有点忘了.
+----------------------------------------
+sent_id: 8764
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0603_XX.cha": line 1379. Keyword: 知道 
+*INV:	我们看不见.
+*INV:	&-诶你手表哪去了?
+*CHI:	&-嗯?
+*INV:	手表哪去了?
+*CHI:	我不告诉你.
+*INV:	&-噢你知道在哪,是吧?
+*CHI:	对啊.
+*CHI:	那不是吗&=points:watch?
+*INV:	&-噢[/]&-噢[/]&-噢在那.
+*CHI:	&-诶我手还是很粘.
+*INV:	&-啊那你再洗一下.
+----------------------------------------
+sent_id: 8765
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0603_XX.cha": line 1655. Keyword: 知道 
+*INV:	&-嗯.
+*CHI:	我就不信二十二你[/]你也通过.
+*INV:	&-嗯好.
+*CHI:	二十二次未通关一次.
+*CHI:	你知道这是什么意思吗&=points:toy?
+*INV:	&-嗯不知道.
+*CHI:	就是让你摆在这里.
+*INV:	&-噢.
+*CHI:	这两个就这样.
+*CHI:	<这个不>[/]这跟这个对称,对吧?
+*INV:	&-嗯哼.
+----------------------------------------
+sent_id: 8766
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0603_XX.cha": line 1862. Keyword: 知道 
+*CHI:	那个[?]其实我喜欢这么玩.
+*INV:	&-嗯.
+*INV:	怎么玩?
+*INV:	&-噢我懂了.
+*INV:	就模拟那个它落下来的效果,是吧?
+*INV:	<你还在哪>[//]你怎么知道俄罗斯方块这个游戏?
+*CHI:	我玩过.
+*INV:	在[/]在什么时候玩?
+*CHI:	&-噢不对,我看过.
+*INV:	&-啊你看过.
+*CHI:	在iPad上刷过.
+----------------------------------------
+sent_id: 8767
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0603_XX.cha": line 2402. Keyword: 知道 
+*INV:	&-嗯就只有这一个吗?
+*CHI:	对呀.
+*INV:	&-噢我看你刚才拿了一包东西.
+*CHI:	<那一包>[/]那一包是那个...
+*CHI:	那个不好玩的这个.
+*INV:	&-噢知道了.
+*INV:	&-诶小心.
+*CHI:	我xxx自己拼这一块.
+*CHI:	&-诶.
+*CHI:	我又找到了一个.
+*CHI:	&-啵[/]&-啵[/]&-啵[/]&-啵&-啊.
+----------------------------------------
+sent_id: 8768
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_AA.cha": line 394. Keyword: 知道 
+*CHI:	<转转>[/]转&=ges:spin.
+*CHI:	下来.
+*CHI:	接着下来以后不再往前游了&=ges:swim.
+*CHI:	就直接下来爬上来&=ges:up.
+*INV:	<啊.
+*INV:	我知道你啥/.
+*CHI:	嗯.
+*CHI:	接着.
+*INV:	<在想>[?]什么&=laughs?
+*INV:	好吧.
+*CHI:	&-嗯,还看过那的就是不知道那东西叫啥.
+----------------------------------------
+sent_id: 8769
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_AA.cha": line 506. Keyword: 知道 
+*CHI:	<对对>[/]对&=nods.
+*INV:	啊.
+*INV:	叫啥呀?
+*CHI:	我忘了.
+*CHI:	但是你/.
+*INV:	我也不知道叫啥&=laughs.
+*CHI:	<但是你>[/]但是你知道那的比赛吧?
+*INV:	嗯.
+*CHI:	昨天它那&=points.
+*INV:	&-呃在哪里?
+*CHI:	昨天在家里探的.
+----------------------------------------
+sent_id: 8770
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_AA.cha": line 1021. Keyword: 知道 
+*INV:	嗯.
+*CHI:	她不喜欢洗澡.
+*CHI:	所以啊她最讨厌就是洗头了.
+*INV:	啊.
+*CHI:	所以呢/.
+*INV:	你咋知道?
+*CHI:	因为[/]因为<她做>[//]我做题的时候她老是抱怨.
+*CHI:	都被我听见了.
+*INV:	嗯.
+*CHI:	<我怎么样>[//]我什么时候都.
+*CHI:	&-嗯我只要一寻思只要妈妈一提[//]给姐姐提洗澡这建议我就能听见这[/]这声了.
+----------------------------------------
+sent_id: 8771
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_AA.cha": line 1055. Keyword: 知道 
+*INV:	&=laughs.
+*CHI:	而且呢<她说啥>[//]<她她>[/]她经常<不洗给我她去哪>[?].
+*CHI:	不知道&=touches:ear.
+*INV:	&=laughs.
+*CHI:	而且/.
+*INV:	<你怎么知道?
+*CHI:	因为[/]因为有一次我在屋里.
+*CHI:	结果听见妈妈在姐姐屋.
+*CHI:	我打开门了.
+*CHI:	看[/]往外看发现妈妈在姐姐屋说"/.
+*CHI:	"诶呀你这儿.
+----------------------------------------
+sent_id: 8772
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_AA.cha": line 1794. Keyword: 知道 
+*CHI:	因为呢因为那三个是我在学前班最常看的那几个.
+*INV:	啊.
+*CHI:	嗯.
+*INV:	三[/]三借芭蕉扇是啥故事啊?
+*CHI:	就是&-啊你知道孙悟空大战红孩儿吧.
+*INV:	嗯[/]嗯知道.
+*CHI:	知道&=nods.
+*CHI:	就是三借芭蕉扇里面有一个是.
+*CHI:	接着呢就是唐僧&-嗯猪八戒和孙悟空他们去爬山.
+*CHI:	xxx都秋天了.
+*CHI:	越刮风就越热.
+----------------------------------------
+sent_id: 8773
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_AA.cha": line 2326. Keyword: 知道 
+*CHI:	我也不知道是咋了.
+*INV:	哦.
+*CHI:	嗯.
+*INV:	好吧.
+*CHI:	<但是呢<猜为什么>[/]猜为什么孙悟空大战红孩儿取[/]取胜了?
+*INV:	&-嗯不知道.
+*CHI:	<<就是因为>[?]<观音菩萨观音菩>[//]孙悟空打破[?].
+*CHI:	<就这>[?]观音菩萨&=points.
+*INV:	嗯.
+*CHI:	他咋了?
+*CHI:	是因为这样的.
+----------------------------------------
+sent_id: 8774
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_LL.cha": line 431. Keyword: 知道 
+*INV:	乒乓球,为[/]为什么?
+*INV:	不用换衣服是吧?
+*CHI:	不是.
+*INV:	为什么?
+*CHI:	忘了&=laughs.
+*INV:	不知道,就是喜欢.
+*CHI:	嗯.
+*INV:	我觉得是因为不用换衣服,比较方便&=laughs.
+*INV:	那你,这个,就是周末去学吗?
+*CHI:	周六.
+*INV:	&-啊,周六[/]周六去学.
+----------------------------------------
+sent_id: 8775
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_LL.cha": line 827. Keyword: 知道 
+*INV:	你觉得哪种你更喜欢.
+*INV:	哪种更好一点?
+*CHI:	音乐课.
+*INV:	<为什么?
+*INV:	因为我没上过这种课.
+*INV:	我很想知道为什么.
+*CHI:	因为是一排一排的.
+*CHI:	因为就是/.
+*INV:	<哦你说音乐课吗?
+*CHI:	,就是,额,就是.
+*INV:	<<你你>[/]你拿玩具给我摆一下&=laughs.
+----------------------------------------
+sent_id: 8776
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_LL.cha": line 1887. Keyword: 知道 
+*INV:	哪里有沙滩?
+*INV:	这儿附近吗?
+*CHI:	就是[/]就是.
+*CHI:	你讲那个[?]/.
+*MOT:	xxx.
+*MOT:	他们不知道你说哪个地儿.
+*MOT:	小区里有.
+*CHI:	就,小区里有一个.
+*INV:	哦,小区里面有,哦.
+*INV:	哦,就[/]就是他们也在这儿住?
+*CHI:	嗯.
+----------------------------------------
+sent_id: 8777
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_LL.cha": line 2025. Keyword: 知道 
+*CHI:	嗯.
+*INV:	哦.
+*INV:	那&-这个,你有什么书或者是你在哪儿看的车?
+*INV:	电视上?
+*INV:	手机上?
+*INV:	<哦,我知道什么意思了&=laughs.
+*INV:	那你&-这个车会看节目吗?
+*INV:	还是...
+*INV:	对.
+*INV:	你看什么电视吗?
+*INV:	或者动画片.
+----------------------------------------
+sent_id: 8778
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0606_YY.cha": line 877. Keyword: 知道 
+*CHI:	<乱七八糟.
+*CHI:	你看这个国.
+*CHI:	他已经改旗子了&=points:book.
+*INV:	是吗?
+*CHI:	你知道吗?
+*INV:	我不知道.
+*CHI:	他[/]他改成的是[/]是这里全是白色.
+*CHI:	然后这里全是黑色.
+*CHI:	然后底下没有刀[?]&=holds:book.
+*INV:	哦,就这个国家嘛,阿富汗.
+*CHI:	嗯[/]嗯,他改旗子.
+----------------------------------------
+sent_id: 8779
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0609_GG.cha": line 441. Keyword: 知道 
+*INV:	&-哇,彩泥是怎么玩的?
+*CHI:	你没见过彩泥吗?
+*CHI:	就那种软软的&=makes:gesture.
+*INV:	<橡皮泥吗&=makes:gesture?
+*CHI:	对就那种橡皮泥的xxx.
+*INV:	<啊我知道小时候玩儿过.
+*CHI:	我小时候也玩儿过.
+*CHI:	应该就在他的脚底下&=points.
+*CHI:	这个就是.
+*CHI:	我看看这个.
+*CHI:	这个应该就是这个彩泥.
+----------------------------------------
+sent_id: 8780
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0609_GG.cha": line 1907. Keyword: 知道 
+*CHI:	我妈妈小时候我喜欢xxx.
+*CHI:	我画的两个小[/]小xxx&=points.
+*CHI:	在这个练...
+*CHI:	它们打架么,一个拿着枪,一个拿着剑.
+*INV:	<啊这个好像小马宝莉.
+*INV:	你知道小马宝莉吗?
+*CHI:	知道,我这儿还有小马宝莉的一套书呢.
+*CHI:	那儿呢&=points.
+*INV:	<&-哦还有小马宝莉的书?
+*CHI:	对.
+*INV:	让我看看小马宝莉.
+----------------------------------------
+sent_id: 8781
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0609_GG.cha": line 1981. Keyword: 知道 
+*CHI:	xxx.
+*CHI:	佩奇.
+*CHI:	我看看佩奇.
+*CHI:	<您看>[//]您猜猜佩奇在[//]还在一个动画片里.
+*CHI:	你看过小猪佩奇吗?
+*INV:	<啊我知道,小猪佩奇&=laughs.
+*CHI:	嗯.
+*CHI:	xxx,苹果,丽丽.
+*CHI:	我看看这个.
+*CHI:	您认识这个字儿吗?
+*INV:	<嗯甜.
+----------------------------------------
+sent_id: 8782
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0609_YE.cha": line 2776. Keyword: 知道 
+*INV:	有味吗?
+*INV:	没味了.
+*CHI:	味都被散光了.
+*INV:	是不是驱蚊的这个是&=holds:toy?
+*CHI:	对.
+*INV:	哦,我知道.
+*INV:	是这样.
+*INV:	这样.
+*INV:	哎呦.
+*INV:	不好意思&=laughs.
+*MOT:	没事,它那个是一弹力的.
+----------------------------------------
+sent_id: 8783
+*** File "/Users/penny/Documents/UCSD/SPRING2025/LIGN279/CHILDES/BJCMC/0609_YE.cha": line 3165. Keyword: 知道 
+*CHI:	对,手表里就是这样子.
+*CHI:	是个四位数的&=holds:notebook.
+*INV:	嗯.
+*INV:	嗯.
+*INV:	那真不好意思.
+*INV:	我知道你手表密码了.
+*INV:	&=laughs.
+*INV:	这样&=points:notebookxxx这个&=points:notebook.
+*CHI:	对.
+*INV:	我看你好像很喜欢它&=points:notebook.
+*CHI:	是.

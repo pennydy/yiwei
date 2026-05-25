@@ -374,7 +374,7 @@ summary(simple_no_context_blank_model)
 
 # 4. Combined with Exp3 ----
 ## 4.1 data ----
-context_blank_clean_data <- read.csv("../../data/3_context_blank/3_context_blank_main-trials_clean.csv", header=TRUE) %>% 
+context_blank_clean_data <- read.csv("../../data/3_context_blank/3_context_blank_main-trials_clean_all-language.csv", header=TRUE) %>% 
   mutate(block_id = str(block_id))
 
 all_data <- bind_rows(lst(context_blank_clean_data, no_context_blank_clean_data), .id="context") %>% 
@@ -463,7 +463,8 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
   labs(x="Verb",
        y="Accuracy")
 all_plot_violin
-ggsave(all_plot_violin, file="graphs/all_blank-violin.pdf", width=8, height=4)
+# ggsave(all_plot_violin, file="graphs/all_blank-violin.pdf", width=8, height=4)
+ggsave(all_plot_violin, file="graphs/all_blank-violin_all-language.png", width=8, height=4)
 
 ### proportion of each response type ----
 all_type_plot <- ggplot(all_type_summary,

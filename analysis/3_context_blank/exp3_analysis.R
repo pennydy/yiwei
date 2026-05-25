@@ -19,8 +19,8 @@ source("helpers.R")
 
 # 1. Data ----
 context_blank.data <- read.csv("../../data/3_context_blank/3_context_blank_main-trials.csv", header=TRUE) %>% 
-  filter(!workerid %in% c("477"), # responded all in english
-         !workerid %in% c("455", "464", "428")) # exclusion based on language status
+  filter(!workerid %in% c("477")) #, # responded all in english
+         # !workerid %in% c("455", "464", "428")) # exclusion based on language status
 
 filler_answer <- read.csv("../../data/3_context_blank/filler_answer.csv", header=TRUE) %>% 
   select(c("item_id", "answer"))
@@ -37,7 +37,7 @@ context_blank_filler_summary <- context_blank_filler.data %>%
   group_by(workerid) %>% 
   summarize(error_num = sum(!response_correct)) # 510 and 480 excluded
 context_blank_eligible_subjects = context_blank_filler_summary$workerid[context_blank_filler_summary$error_num < 2]
-length(context_blank_eligible_subjects) # 44
+length(context_blank_eligible_subjects) # 44 # 46 if not based on language status
 context_blank.data = subset(context_blank.data, workerid %in% context_blank_eligible_subjects)
 
 # data cleaning
@@ -63,7 +63,7 @@ context_blank_clean_data <- context_blank.data %>%
   mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
 
 # save the clean dataset
-write.csv(context_blank_clean_data, "../../data/3_context_blank/3_context_blank_main-trials_clean.csv", row.names=FALSE)
+write.csv(context_blank_clean_data, "../../data/3_context_blank/3_context_blank_main-trials_clean_all-language.csv", row.names=FALSE)
 
 context_blank_summary <- context_blank_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 

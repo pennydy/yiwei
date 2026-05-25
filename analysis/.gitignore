@@ -1,0 +1,7 @@
+.DS_Store
+.*.exps
+
+# analysis
+3_context_blank/*.png
+4_no_context_blank/*.png
+
