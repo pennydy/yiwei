@@ -29,6 +29,7 @@ data/childes/old_annotations/*
 
 # analysis
 analysis/power_analysis/*.rds
+analysis/childes/graphs/old_annotations/*
 
 # writing
 writings/*.key
