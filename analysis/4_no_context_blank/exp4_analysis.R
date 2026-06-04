@@ -428,6 +428,11 @@ context_labeller <- function(variable,value){
   return(context_type[value])
 }
 
+num <- data.frame(
+  context=c("presence","absence"),
+  label=c("N=46", "N=49")
+)
+
 all_plot_violin <- ggplot(data=all_item_accuracy %>% 
                             mutate(verb = fct_relevel(verb, "yiwei", "juede")),
                                  aes(x=verb,
@@ -447,6 +452,13 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
                show.legend = FALSE) +
   theme_bw() +
   ylim(0,1) +
+  geom_text(
+    data = num,
+    aes(x = Inf, y = -Inf, label = label),
+    hjust = 1.1,
+    vjust = -0.5,
+    inherit.aes = FALSE
+  ) +
   facet_grid(.~context,labeller=context_labeller) +
   scale_fill_manual(values=cbPalette, guide = NULL) +
   scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +

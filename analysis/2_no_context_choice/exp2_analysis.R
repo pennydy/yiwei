@@ -320,6 +320,11 @@ context_labeller <- function(variable,value){
   return(context_type[value])
 }
 
+num <- data.frame(
+  context=c("presence","absence"),
+  label=c("N=48", "N=46")
+)
+
 all_plot_violin <- ggplot(data=all_item_accuracy %>% 
                             mutate(verb = fct_relevel(verb, "yiwei", "juede")),
                                  aes(x=verb,
@@ -339,11 +344,18 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
                show.legend = FALSE) +
   theme_bw() +
   ylim(0,1) +
+  geom_text(
+    data = num,
+    aes(x = Inf, y = -Inf, label = label),
+    hjust = 1.1,
+    vjust = -0.5,
+    inherit.aes = FALSE
+  ) +
   facet_grid(.~context,labeller=context_labeller) +
   scale_fill_manual(values=cbPalette, guide = NULL) +
   scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +
   scale_shape_manual(values=c("constrained"=22, "unconstrained"=24), name="Discourse type") +
-  theme(legend.position = "top",
+  theme(legend.position = c(0.1, 0.15),
         axis.title.x = element_text(size = 12),
         axis.text.x = element_text(size = 10),
         axis.title.y = element_text(size = 12),
@@ -356,7 +368,7 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
        y="Accuracy")
 all_plot_violin
 # ggsave(all_plot_violin, file="graphs/all_no_context-violin_1.pdf", width=8, height=4)
-ggsave(all_plot_violin, file="graphs/all_no_context-violin_all-language.png", width=8, height=4)
+ggsave(all_plot_violin, file="graphs/all-violin_all-language.png", width=8, height=4)
 
 # by-item plot
 all_item_accuracy$context <- factor(all_item_accuracy$context, levels=c("presence", "absence"))
