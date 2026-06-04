@@ -12,7 +12,7 @@ data/1_context_choice/*-sandbox-trials.csv
 data/2_no_context_choice/*-sandbox-trials.csv
 
 # childes data
-data/childes/yiwei.xlsx
+data/childes/*.xlsx
 data/childes/yiwei.txt
 data/childes/renwei.txt
 data/childes/juede.txt
@@ -22,7 +22,6 @@ data/childes/*_traditional_clean_id.txt
 data/childes/zhidao_BJCMC_clean_id.txt
 data/childes/zhidao_BJCMC_clean.txt
 data/childes/zhidao_BJCMC.txt
-data/childes/*.csv
 data/childes/child/*
 data/childes/other_speakers/*
 data/childes/old_annotations/*
