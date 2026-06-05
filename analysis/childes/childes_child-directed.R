@@ -549,7 +549,8 @@ subject_sentence.data <- clean_data %>%
   filter(matrix_agreement == "same" & embedded_agreement == "same" & negation_agreement == "same") %>% 
   select(!c(matrix_n_filled, matrix_agreement,sentence_type_e, sentence_type_g, sentence_type_c, sentence_type_j3,
             embedded_agreement, embedded_sentence_type_e, embedded_sentence_type_g, embedded_sentence_type_c, embedded_sentence_type_j3,
-            matrix_negation_e, matrix_negation_j1, matrix_negation_g)) %>% 
+            matrix_negation_e, matrix_negation_j1, matrix_negation_g,
+            negation_agreement)) %>% 
   rename(subject_type = subject_j2,
          matrix_sentence_type = agreed_sentence_type,
          embedded_sentence_type = agreed_embedded_sentence_type,
@@ -640,13 +641,18 @@ ggplot(speech_acts_summary,
 
 # simple
 speech_acts.data <- subject_sentence.data %>% 
+  mutate(negation = if_else(negation_type == "0 no negation", "0 no negation", "1 yes negation")) %>% 
   mutate(speech_act = case_when(
-    subject_type %in% c("1 first_person", "0 dropped") & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" & negation_type == "2 不" ~ "i don't know/think",
-    subject_type == "1 first_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "0 declarative" ~ "i think/know P",
-    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "2 wh_question" ~ "do you know WH",
-    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "0 declarative" ~ "do you know/think P",
-    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "3 base_position" ~ "do you think P: base",
-    subject_type == "2 second_person" & matrix_sentence_type == "2 wh_question" & embedded_sentence_type == "3 base_position" ~ "do you think WH: base",
+    subject_type %in% c("1 first_person", "0 dropped") & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" & negation == "1 yes negation" ~ "(i) don't know/think",
+    subject_type %in% c("1 first_person") & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "0 declarative" ~ "i think/know P",
+    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "2 wh_question" & negation == "0 no negation" ~ "do you know WH",
+    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "0 declarative" & negation == "0 no negation" ~ "do you know/think P",
+    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "3 base_position" & negation == "0 no negation" ~ "do you think/know P: base",
+    subject_type == "2 second_person" & matrix_sentence_type == "2 wh_question" & embedded_sentence_type == "3 base_position" & negation == "0 no negation" ~ "do you think/know WH: base",
+    subject_type %in% c("0 dropped", "2 second_person") & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "NONE" & negation == "0 no negation" ~ "(you) know/think?",
+    matrix_sentence_type == "4 tag_question" ~ "tag question",
+    subject_type %in% c("1 first_person", "0 dropped") & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" & negation == "0 no negation" ~ "(i) know/think",
+    
     TRUE ~ "others"))
 
 speech_acts_summary <- speech_acts.data %>% 
@@ -658,10 +664,14 @@ speech_acts_summary <- speech_acts.data %>%
   ungroup() %>% 
   mutate(speech_act=fct_relevel(speech_act,
                                 "do you know WH",
-                                "do you think WH: base",
-                                "do you think P: base",
+                                "do you think/know WH: base",
+                                "do you think/know P: base",
                                 "do you know/think P",
-                                "i don't know/think",
+                                "(i) don't know/think",
+                                "(i) know/think",
+                                "i think/know P",
+                                "(you) know/think?",
+                                "tag question",
                                 "others"))
 
 ggplot(speech_acts_summary, 
@@ -682,11 +692,14 @@ ggplot(speech_acts_summary,
     values = c(
       "do you know WH" = "none",
       "WH do you know/think P" = "none",
-      "WH do you think: base" = "circle",
+      "do you think/know WH: base" = "circle",
       "do you know/think P" = "none",
-      "do you think P: base" = "circle",
+      "do you think/know P: base" = "circle",
       "i think/know P" = "none",
-      "i don't know/think" = "none",
+      "(i) don't know/think" = "none",
+      "(i) know/think" = "none",
+      "(you) know/think?" = "none",
+      "tag question" = "none",
       "others" = "none"),
     name="Speech acts type"
   )+
@@ -698,11 +711,14 @@ ggplot(speech_acts_summary,
   scale_fill_manual(
     values = c(
       "do you know WH" = "#CC79A7", # purple
-      "do you think WH: base" = "#CC79A7",
+      "do you think/know WH: base" = "#CC79A7",
       "do you know/think P" = "#56B4E9",  # blue
-      "do you think P: base" = "#56B4E9",
+      "do you think/know P: base" = "#56B4E9",
       "i think/know P" = "#E69F00", # orange
-      "i don't know/think" = "#009E73", # green
+      "(i) don't know/think" = "#009E73", # green
+      "(i) know/think" = "#B4CEB3",
+      "(you) know/think?" = "#F0E442",
+      "tag question" = "#D55E00",
       "others" = "grey80"
     ),
     name="Speech acts type"
@@ -719,3 +735,24 @@ ggplot(speech_acts_summary,
   labs(x="Verb",
        y="Percentage")
 
+other_speech_acts.data <- speech_acts.data %>% 
+  filter(speech_act=="others") %>% 
+  mutate(speech_act = case_when(
+    subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_qustion", "2 wh_question") & negation == "1 yes negation" ~ "you don't think/know P/WH",
+    subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_qustion", "2 wh_question") & negation == "0 no negation" ~ "you think/know P/WH",
+    subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" & negation == "1 yes negation" ~ "you don't think/know",
+    subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & negation == "0 no negation" ~ "you think/know P/WH",
+    subject_type == "2 second_person" & matrix_sentence_type %in% c("1 polar_qustion", "2 wh_question") ~ "do/WH you (not) think/know (P/WH)",
+    subject_type == "0 dropped" & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "2 wh_question" ~ "(don't) think/know WH",
+    subject_type == "1 first_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_question","2 wh_question") ~ "i (don't) think/know (P/WH)",
+    subject_type == "3 third/NP" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_qustion", "2 wh_question", "NONE") ~ "she/he/NP (don't) think/know (P/WH)",
+    subject_type == "3 third/NP" & matrix_sentence_type %in% c("1 polar_qustion", "2 wh_question") & embedded_sentence_type %in% c("0 declarative", "NONE") ~ "does/WH she//NP (don't) think/know (P)",
+    TRUE ~ "others"))
+
+other_speech_acts_summary <- other_speech_acts.data %>% 
+  group_by(verb, speech_act) %>%
+  summarize(count = n()) %>% 
+  ungroup() %>% 
+  group_by(verb) %>% 
+  mutate(percent = count/sum(count) * 100) %>% 
+  ungroup()
