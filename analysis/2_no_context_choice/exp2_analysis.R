@@ -314,8 +314,8 @@ all_item_accuracy <- all_data %>%
 
 ## 4.2 plot ----
 # violin plot
-context_type <- list("presence"="Context Presence",
-                     "absence"="Context Absence")
+context_type <- list("presence"="Context-Presence",
+                     "absence"="Context-Absence")
 context_labeller <- function(variable,value){
   return(context_type[value])
 }
@@ -329,18 +329,21 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
                             mutate(verb = fct_relevel(verb, "yiwei", "juede")),
                                  aes(x=verb,
                                      y=accuracy,
-                                     fill=verb,
+                                     # fill=verb,
                                      alpha=discourse_type)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
   geom_point(aes(shape=discourse_type),
-             position=position_dodge2(width=.8,preserve = "single")) +
+             position=position_dodge2(width=.8,preserve = "single"),
+             fill="#779CAB") + #C191A1
   geom_violin(data=all_participant_accuracy %>% 
                 mutate(verb = fct_relevel(verb, "yiwei", "juede")),
-              position=position_dodge(width=.8)) +
+              position=position_dodge(width=.8),
+              fill="#779CAB") +
   geom_boxplot(data=all_participant_accuracy %>% 
                  mutate(verb = fct_relevel(verb, "yiwei", "juede")),
                width=0.1,
                position=position_dodge(width=.8),
+               fill="#779CAB",
                show.legend = FALSE) +
   theme_bw() +
   ylim(0,1) +
@@ -351,9 +354,9 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
     vjust = -0.5,
     inherit.aes = FALSE
   ) +
-  facet_grid(.~context,labeller=context_labeller) +
-  scale_fill_manual(values=cbPalette, guide = NULL) +
-  scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +
+  facet_grid(.~factor(context, levels=c("presence", "absence")),labeller=context_labeller) +
+  # scale_fill_manual(values=cbPalette, guide = NULL) +
+  scale_alpha_discrete(range = c(0.2, 0.95), name="Discourse type") +
   scale_shape_manual(values=c("constrained"=22, "unconstrained"=24), name="Discourse type") +
   theme(legend.position = c(0.1, 0.15),
         axis.title.x = element_text(size = 12),
@@ -368,7 +371,7 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
        y="Accuracy")
 all_plot_violin
 # ggsave(all_plot_violin, file="graphs/all_no_context-violin_1.pdf", width=8, height=4)
-ggsave(all_plot_violin, file="graphs/all-violin_all-language.png", width=8, height=4)
+ggsave(all_plot_violin, file="graphs/all-violin_all-language_grey.png", width=8, height=4)
 
 # by-item plot
 all_item_accuracy$context <- factor(all_item_accuracy$context, levels=c("presence", "absence"))

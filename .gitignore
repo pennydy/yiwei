@@ -33,5 +33,6 @@ analysis/childes/graphs/old_annotations/*
 # writing
 writings/*.key
 writings/cogsci/*
+writings/bucld/*
 writings/updates/*
 

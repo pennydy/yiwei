@@ -422,8 +422,8 @@ all_type_summary <- all_data %>%
 
 ## 4.2 plot ----
 ### accuracy violin graph ----
-context_type <- list("presence"="Context Presence",
-                     "absence"="Context Absence")
+context_type <- list("presence"="Context-Presence",
+                     "absence"="Context-Absence")
 context_labeller <- function(variable,value){
   return(context_type[value])
 }
@@ -437,18 +437,21 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
                             mutate(verb = fct_relevel(verb, "yiwei", "juede")),
                                  aes(x=verb,
                                      y=accuracy,
-                                     fill=verb,
+                                     # fill=verb,
                                      alpha=discourse_type)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
   geom_point(aes(shape=discourse_type),
-             position=position_dodge2(width=.8,preserve = "single")) +
+             position=position_dodge2(width=.8,preserve = "single"),
+             fill="#779CAB") +
   geom_violin(data=all_participant_accuracy %>% 
                 mutate(verb = fct_relevel(verb, "yiwei", "juede")),
-              position=position_dodge(width=.8)) +
+              position=position_dodge(width=.8),
+              fill="#779CAB") +
   geom_boxplot(data=all_participant_accuracy %>% 
                  mutate(verb = fct_relevel(verb, "yiwei", "juede")),
                width=0.1,
                position=position_dodge(width=.8),
+               fill="#779CAB",
                show.legend = FALSE) +
   theme_bw() +
   ylim(0,1) +
@@ -459,8 +462,8 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
     vjust = -0.5,
     inherit.aes = FALSE
   ) +
-  facet_grid(.~context,labeller=context_labeller) +
-  scale_fill_manual(values=cbPalette, guide = NULL) +
+  facet_grid(.~factor(context, levels=c("presence", "absence")),labeller=context_labeller) +
+  # scale_fill_manual(values=cbPalette, guide = NULL) +
   scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +
   scale_shape_manual(values=c("constrained"=22, "unconstrained"=24), name="Discourse type") +
   theme(legend.position = "top",
@@ -476,7 +479,7 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
        y="Accuracy")
 all_plot_violin
 # ggsave(all_plot_violin, file="graphs/all_blank-violin.pdf", width=8, height=4)
-ggsave(all_plot_violin, file="graphs/all_blank-violin_all-language.png", width=8, height=4)
+ggsave(all_plot_violin, file="graphs/all_blank-violin_all-language_grey.png", width=8, height=4)
 
 ### proportion of each response type ----
 all_type_plot <- ggplot(all_type_summary,
@@ -515,6 +518,11 @@ summary(all_model)
 VarCorr(all_model)
 
 emmeans(all_model, ~ verb, type = "response")
+emmeans(all_model, ~ verb * discourse_type * context, type = "response")
+contrast(
+  emmeans(all_model, ~ verb * discourse_type | context),
+  interaction = "pairwise"
+)
 pairs(emmeans(all_model, ~context|discourse_type))
 pairs(emmeans(all_model, ~discourse_type|context))
 pairs(emmeans(all_model, ~context|verb))
