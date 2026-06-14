@@ -130,7 +130,7 @@ When the embedded content is not a CP, the two annotators further coded whether 
 ```{r warning=FALSE}
 embedded_content_reliability.data <- clean_data %>%
   mutate(embedded_content_j1 = if_else(embedded_CP_j1 == "2 CP", "2 CP", embedded_content_j1),
-        embedded_content_j2 = if_else(embedded_CP_j2 == "2 CP", "2 CP", embedded_content_j2)) %>% 
+        embedded_content_j2 = if_else(embedded_CP_j2 == "2 CP", "2 CP", embedded_content_j2)) %>%
   select(c(embedded_content_j1, embedded_content_j2, id)) %>% 
   pivot_longer(cols = c(embedded_content_j1, embedded_content_j2),
                names_to = "coder_id",
@@ -147,18 +147,22 @@ Given that there is inconsistency when the embedded content is only an adjective
 
 Another category that the two annotators disagree is whether the verb is used in a relative clause (RC). Combining the RC cases into "0 No" slightly increases the reliability score (krippendorff's alpha increases from 0.923 to 0.929).
 
+Since there are not a lot of cases where the embedded content is an NP, incomplete or part of a relative clause, we can group them into a category "others", and the realiability score increases slightly (krippendorff's alpha increases from 0.923 to 0.929).
+
 ```{r warning=FALSE}
 embedded_content_reliability_alt.data <- clean_data %>%
-  mutate(embedded_content_j1 = if_else(embedded_CP_j1 == "2 CP", "2 CP", embedded_content_j1),
-        embedded_content_j2 = if_else(embedded_CP_j2 == "2 CP", "2 CP", embedded_content_j2)) %>% 
   mutate(embedded_CP_j1 = if_else(embedded_CP_j1 == "0 No" & embedded_content_j1 == "1 Adj", "2 CP", embedded_CP_j1),
          embedded_CP_j2 = if_else(embedded_CP_j2 == "0 No" & embedded_content_j2 == "1 Adj", "2 CP", embedded_CP_j2)) %>% 
-  mutate(embedded_content_j1 = case_when(embedded_CP_j1 == "2 CP" ~ "2 CP",
-                                         embedded_CP_j1 == "0 No" & embedded_content_j1 == "4 RC的" ~ "0 CP",
-                                         TRUE ~ embedded_content_j1),
-         embedded_content_j2 = case_when(embedded_CP_j2 == "2 CP" ~ "2 CP",
-                                         embedded_CP_j2 == "0 No" & embedded_content_j2 == "4 RC的" ~ "0 CP",
-                                         TRUE ~ embedded_content_j2)) %>%
+  mutate(embedded_content_j1 = if_else(embedded_CP_j1 == "2 CP", "2 CP", embedded_content_j1),
+        embedded_content_j2 = if_else(embedded_CP_j2 == "2 CP", "2 CP", embedded_content_j2)) %>%
+  # mutate(embedded_content_j1 = case_when(embedded_CP_j1 == "2 CP" ~ "2 CP",
+  #                                        embedded_CP_j1 == "0 No" & embedded_content_j1 == "4 RC的" ~ "0 CP",
+  #                                        TRUE ~ embedded_content_j1),
+  #        embedded_content_j2 = case_when(embedded_CP_j2 == "2 CP" ~ "2 CP",
+  #                                        embedded_CP_j2 == "0 No" & embedded_content_j2 == "4 RC的" ~ "0 CP",
+  #                                        TRUE ~ embedded_content_j2)) %>%
+  mutate(embedded_content_j1 = if_else(embedded_content_j1 %in% c("2 NP", "3 Incomplete", "4 RC的"), "others", embedded_content_j1),
+         embedded_content_j2 = if_else(embedded_content_j2 %in% c("2 NP", "3 Incomplete", "4 RC的"), "others", embedded_content_j2)) %>% 
   select(c(embedded_content_j1, embedded_content_j2, id)) %>%
   pivot_longer(cols = c(embedded_content_j1, embedded_content_j2),
                names_to = "coder_id",
@@ -335,7 +339,60 @@ ggplot(matrix_sentence_summary,
        y="Percentage")
 ```
 
-## 3.3 embedded sentence
+## 3.3 type of embedded content
+```{r embedded content type, message=FALSE}
+embedded_content.data <- clean_data %>% 
+  mutate(embedded_CP_j1 = if_else(embedded_CP_j1 == "0 No" & embedded_content_j1 == "1 Adj", "2 CP", embedded_CP_j1),
+         embedded_CP_j2 = if_else(embedded_CP_j2 == "0 No" & embedded_content_j2 == "1 Adj", "2 CP", embedded_CP_j2)) %>% 
+   mutate(embedded_content_j1 = if_else(embedded_CP_j1 == "2 CP", "1 CP", embedded_content_j1),
+        embedded_content_j2 = if_else(embedded_CP_j2 == "2 CP", "1 CP", embedded_content_j2)) %>%
+  mutate(embedded_content_j1 = if_else(embedded_content_j1 %in% c("2 NP", "3 Incomplete", "4 RC的"), "others", embedded_content_j1),
+         embedded_content_j2 = if_else(embedded_content_j2 %in% c("2 NP", "3 Incomplete", "4 RC的"), "others", embedded_content_j2)) %>%  # grouping NP, incomplete and RC together because they are rare
+  select(c(id, verb, embedded_content_j1, embedded_content_j2)) %>% 
+  mutate(agreement = if_else(embedded_content_j1 == embedded_content_j2, "same", "diff")) %>%
+  filter(agreement == "same") %>% 
+  select(!c(agreement, embedded_content_j1)) %>% 
+  rename(embedded_content_type = embedded_content_j2)
+
+embedded_content_summary <- embedded_content.data %>% 
+  group_by(verb, embedded_content_type) %>% 
+  summarize(count = n()) %>% 
+  ungroup() %>% 
+  group_by(verb) %>% 
+  mutate(percent = count/sum(count) * 100) %>% 
+  ungroup()
+```
+
+```{r embedded content type plot}
+ggplot(embedded_content_summary, 
+       aes(x=verb,
+           y=percent,
+           fill=embedded_content_type)) + 
+  geom_col()+
+  geom_text(aes(label=paste0(count, " (", round(percent, 1), "%)")),
+            position = position_stack(vjust = 0.5),
+            color = "black",
+            size = 3)+
+  theme_bw()+
+  scale_fill_manual(values = c("0 No" = "#80B1D3",
+                               "1 CP" = "#C2F9BB",
+                               "others" = "#62C370"),
+                    name="Type of embedded content") +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  labs(x="Verb",
+       y="Percentage")
+```
+
+
+## 3.4 embedded sentence
 "3 base position" includes cases where the a matrix sentence is superifically declarative but contains a polar-construction/wh-phrase in the embedded clause that takes a matrix scope (which is sometimes referred to as "potentially interrogatives").
 
 ```{r embedded sentence type summary, message=FALSE}
@@ -398,7 +455,7 @@ ggplot(embedded_sentence_summary,
        y="Percentage")
 ```
 
-### 3.3.1 matrix and embedded sentence combined
+### 3.4.1 matrix and embedded sentence combined
 Here we combined the annotations for matrix sentence type and embedded sentence type to analyze cases that are "potentially interrogative," i.e., the matrix clause type is in either 1 polar_question or 2 wh_question category AND the embedded clause is labeled as 3 base_position.
 
 ```{r matrix and embedded sentence type combined, message=FALSE}
@@ -584,7 +641,94 @@ ggplot(embedded_combined_summary %>%
        y="Percentage")
 ```
 
-## 3.4 matrix negation
+### 3.4.2 matrix and embedded clause types combined with the type of embedded content
+```{r combined with embedded content type, message=FALSE}
+matrix_embedded_combined.data <- embedded_content.data %>% 
+  left_join(matrix_embedded_sentence_combined.data, by=c("verb", "id")) %>% 
+  drop_na()
+
+matrix_embedded_combined_summary <- matrix_embedded_combined.data %>% 
+  # mutate(mismatch = if_else(embedded_sentence_surface_type != "NONE" & embedded_content_type %in% c("0 No", "others"), "mismatch", "yes")) %>% 
+  # filter(mismatch == "mismatch")
+  mutate(embedded_content_type = if_else(embedded_content_type == "0 No", "NONE", embedded_content_type),
+         embedded_sentence_surface_type = if_else(embedded_sentence_surface_type =="NONE" & embedded_content_type %in% c("NONE", "others"), embedded_content_type, embedded_sentence_surface_type)) %>% 
+  group_by(verb, embedded_sentence_surface_type) %>%
+  summarize(count = n()) %>%
+  ungroup() %>%
+  group_by(verb) %>%
+  mutate(percent = count/sum(count) * 100) %>%
+  ungroup()
+```
+
+```{r embedded sentence type plot in combined w. embedded content summary}
+ggplot(matrix_embedded_combined_summary %>% 
+         mutate(embedded_sentence_surface_type = fct_relevel(
+           embedded_sentence_surface_type,
+           "0 declarative",
+           "1 polar_question",
+           "3 base_position: polar",
+           "2 wh_question",
+           "3 base_position: wh",
+           "others",
+           "NONE"
+         )), 
+       aes(x=verb,
+           y=percent,
+           fill=embedded_sentence_surface_type,
+           pattern=embedded_sentence_surface_type)) + 
+  geom_col_pattern(
+    color = "black",
+    linewidth = 0.2,
+    pattern_fill = "lightgrey",
+    pattern_density = 0.1,
+    pattern_size = 0.2,
+    pattern_spacing = 0.03,
+    pattern_alpha = 0.4
+  )+
+  scale_pattern_manual(
+    values = c(
+      "0 declarative" = "none",
+      "1 polar_question" = "none",
+      "2 wh_question" = "none",
+      "3 base_position: polar" = "circle",
+      "3 base_position: wh" = "circle",
+      "others" = "none",
+      "NONE" = "none"),
+    name="Embedded CP type",
+    guide=guide_legend(nrow=3)
+  )+
+  geom_text(aes(label=paste0(count, " (", round(percent, 1), "%)")),
+            position = position_stack(vjust = 0.5),
+            color = "black",
+            size = 3)+
+  theme_bw()+
+  scale_fill_manual(
+    values = c(
+      "0 declarative" = "#8DD3C7",  # 1
+      "1 polar_question" = "#FFFFB3",  # 2
+      "3 base_position: polar" = "#FFFFB3",
+      "2 wh_question" = "#BEBADA", # 3
+      "3 base_position: wh" = "#BEBADA",
+      "others" = "#62C370", 
+      "NONE" = "#80B1D3" # 5
+    ),
+    name = "Embedded CP type",
+    guide=guide_legend(nrow=3)
+  )+
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  labs(x="Verb",
+       y="Percentage")
+```
+
+## 3.5 matrix negation
 ```{r matrix negation summary, message=FALSE}
 matrix_negation.data <- clean_data %>% 
   select(c(id, verb, matrix_negation_e, matrix_negation_j1, matrix_negation_g)) %>% 
@@ -643,7 +787,7 @@ ggplot(matrix_negation_summary,
 
 ```
 
-## 3.5 sentence-final particle
+## 3.6 sentence-final particle
 
 ```{r sentence-final particle summary, message=FALSE}
 particle.data <- clean_data %>% 
@@ -667,7 +811,7 @@ particle.data <- clean_data %>%
   rename(particle_ma = agreed_particle)
 ```
 
-### 3.5.1 sentence-final particle and matrix sentence type combined
+### 3.6.1 sentence-final particle and matrix sentence type combined
 Here, we are looking at the proportion of matrix polar questions that have a sentence-final particle *ma*.
 ```{r sentence-final particle and matrix sentence type summary, message=FALSE}
 particle_matrix_sentence.data <- matrix_sentence.data %>% 
@@ -710,7 +854,7 @@ ggplot(particle_matrix_sentence_summary,
        y="Percentage")
 ```
 
-### 3.5.2 sentence-final particle and embedded sentence type combined
+### 3.6.2 sentence-final particle and embedded sentence type combined
 When the embedded clause contains a polar construction (e.g., A-not-A or *haishi*) or a wh-phrase, it can either take a matrix scope or an local scope in the embedded clause. Therefore, these sentences are potentially interrogative. As argued in Huang et al. (2022), the sentence-final particle *ma* for polar questions are incompatible with wh-questions and polar questions with A-not-A or *haishi*, and thus if these potentially interrogative sentences have a sentence-final *ma*, it indicates that the wh-phrase or the polar question is interpreted locally in the embedded clause, and the verb is responsive (or regative). Thus, here, we are looking at the proportion of potentially interrogative embedded clauses that have a sentence-final particle *ma*.
 
 ```{r sentence-final particle and embedded sentence type summary, message=FALSE}
@@ -756,8 +900,9 @@ ggplot(particle_embedded_sentence_summary,
 ```
 
 
-## 3.6 speech acts
+## 3.7 speech acts
 We are using syntactic structures as proxies for different speech acts. Only data that annotators agreed on all categories (i.e., matrix subject type, matrix and embedded sentence types, and negation) are included.
+
 ```{r speech acts data}
 subject_sentence.data <- clean_data %>% 
   select(c(id, verb,
@@ -816,6 +961,27 @@ subject_sentence.data <- clean_data %>%
          negation_type = agreed_negation_type)
 ```
 
+Here, we are combining the type of embedded content and then exclude sentences where the verb is followed by an NP, part of a relative clause, or is incomplete. There are 108 sentences being dropped due to the disagreement between the type of embedded content. 72 sentences are further filtered out with an embedded content in the "others" category.
+```{r combined with embbedded content}
+subject_sentence_content.data <- embedded_content.data %>% 
+  left_join(subject_sentence.data, by=c("id", "verb")) %>% 
+  drop_na() %>% 
+  filter(embedded_content_type != "others")
+```
+
+
+Here is the summary table with all combinations of matrix subject type, matrix sentence type, embedded sentence type, and negation.
+```{r all combinations, message=FALSE}
+subject_sentence_summary <- subject_sentence_content.data %>% 
+  mutate(negation = if_else(negation_type == "0 no negation", "0 no negation", "1 yes negation")) %>% 
+  group_by(verb, subject_type, matrix_sentence_type, embedded_sentence_type, negation) %>% 
+  summarize(count=n()) %>% 
+  ungroup() %>% 
+  arrange(desc(count))
+
+subject_sentence_summary
+```
+
 Here are the syntactic combinations that we are considering:
 
 - **(I) don't know/think**: first person or dropped subject, matrix declarative, no embedded, negation
@@ -852,7 +1018,7 @@ Here are the syntactic combinations that we are considering:
   - e.g., 他觉得今天下雨了 He thought it rained today 他不知道今天下雨了吗？ Did he not know it rained today?
 
 ```{r speech act summary, message=FALSE}
-speech_acts.data <- subject_sentence.data %>% 
+speech_acts.data <- subject_sentence_content.data %>% 
   mutate(negation = if_else(negation_type == "0 no negation", "0 no negation", "1 yes negation")) %>% 
   mutate(speech_act = case_when(
     subject_type %in% c("1 first_person", "0 dropped") & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" & negation == "1 yes negation" ~ "(i) don't know/think",
@@ -990,16 +1156,5 @@ other_speech_acts_summary <- other_speech_acts.data %>%
   ungroup()
 
 other_speech_acts_summary
-```
-
-```{r all combinations, message=FALSE}
-subject_sentence_summary <- subject_sentence.data %>% 
-  mutate(negation = if_else(negation_type == "0 no negation", "0 no negation", "1 yes negation")) %>% 
-  group_by(verb, subject_type, matrix_sentence_type, embedded_sentence_type, negation) %>% 
-  summarize(count=n()) %>% 
-  ungroup() %>% 
-  arrange(desc(count))
-
-subject_sentence_summary
 ```
 
