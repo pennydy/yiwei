@@ -30,6 +30,7 @@ data/childes/old_annotations/*
 analysis/power_analysis/*.rds
 analysis/childes/graphs/old_annotations/*
 analysis/childes/childes_child-directed.R
+analysis/childes/*.nb.html
 
 # writing
 writings/*.key

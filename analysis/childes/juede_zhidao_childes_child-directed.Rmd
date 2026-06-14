@@ -607,7 +607,7 @@ matrix_negation.data <- clean_data %>%
   rename(negation_type = agreed_negation_type)
 
 matrix_negation_summary <- matrix_negation.data %>% 
-  mutate(negation = if_else(negation_type == "0 no negation", negation_type, "1 negation")) %>% 
+  mutate(negation = if_else(negation_type == "0 no negation", "No", "Yes")) %>% 
   group_by(verb, negation) %>% 
   summarize(count = n()) %>% 
   ungroup() %>% 
@@ -627,8 +627,8 @@ ggplot(matrix_negation_summary,
             color = "black",
             size = 3)+
   theme_bw()+
-  scale_fill_brewer(palette = "Set3",
-                    name="Matrix negation type") +
+  scale_fill_manual(values = c("No"="#D496A7", "Yes"="#A1CDF1"),
+                    name="Matrix negation") +
   theme(legend.position = "top",
         axis.title.x = element_text(size = 14),
         axis.text.x = element_text(size = 12),
@@ -642,7 +642,9 @@ ggplot(matrix_negation_summary,
        y="Percentage")
 
 ```
+
 ## 3.5 sentence-final particle
+
 ```{r sentence-final particle summary, message=FALSE}
 particle.data <- clean_data %>% 
   select(c(id, verb,
