@@ -366,7 +366,7 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
         legend.text = element_text(size=10),
         legend.title = element_text(size=12),
         strip.text.x = element_text(size = 10)) +
-  guides(alpha = guide_legend(override.aes = list(fill = "grey40")))+
+  guides(alpha = guide_legend(override.aes = list(fill = "#779CAB")))+
   labs(x="Verb",
        y="Accuracy")
 all_plot_violin
