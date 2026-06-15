@@ -296,7 +296,7 @@ ggplot(matrix_subject_summary,
 ```
 
 ## 3.2 matrix sentence 
-This is based on the interpretation of the sentence. Thus, 1 polar_question and 2 wh_question categories include cases where it is a matrix polar/wh_question based on its sentence structure (e.g., A-not-A at the matrix level as in 觉不觉得 jue-bu-juede or 知不知道 zhi-bu-zhidao, or wh-phrases at the matrix level as in 怎么/为什么觉得/知道 zenme/weishenm juede/zhidao "how/why does [someone] think/know) and cases where the sentence has a declarative sentence structure ("superficially declarative") but contains a polar-construction/wh-phrase in the embedded clause that takes a matrix scope (which is sometimes referred to as "potentially interrogatives").
+This is based on the interpretation of the sentence. Thus, 1 polar_question and 2 wh_question categories include cases where it is a matrix polar/wh_question based on its sentence structure (e.g., A-not-A at the matrix level as in 觉不觉得 jue-bu-juede or 知不知道 zhi-bu-zhidao, or wh-phrases at the matrix level as in 怎么/为什么觉得/知道 zenme/weishenme juede/zhidao "how/why does [someone] think/know) and cases where the sentence has a declarative sentence structure ("superficially declarative") but contains a polar-construction/wh-phrase in the embedded clause that takes a matrix scope (which is sometimes referred to as "potentially interrogatives").
 
 ```{r matrix sentence type summary, message=FALSE}
 matrix_sentence.data <- clean_data %>% 
@@ -1143,7 +1143,6 @@ subject_sentence_content.data <- embedded_content.data %>%
   filter(embedded_content_type != "others")
 ```
 
-
 Here is the summary table with all combinations of matrix subject type, matrix sentence type, embedded sentence type, and negation.
 ```{r all combinations, message=FALSE}
 subject_sentence_summary <- subject_sentence_content.data %>% 
@@ -1156,69 +1155,80 @@ subject_sentence_summary <- subject_sentence_content.data %>%
 subject_sentence_summary
 ```
 
-Here are the syntactic combinations that we are considering:
+Below are the syntactic combinations that we are considering:
 
 - **(I) don't know/think**: first person or dropped subject, matrix declarative, no embedded, negation
   - e.g., 我不知道 I don't know. 不知道 Don't know
+  - possibly direct assertion
   
 - **I know/think P**: first person subject, matrix declarative, embedded declarative, no negation
   - e.g., 我觉得该睡觉了 I think it is time for bed. 我知道它是一只猫 I know it is a cat.
+  - possibly indirect assertion
   
 - **You (don't) know/think P**: second person subject, matrix declarative, embedded declarative, no/yes negation
   - e.g., 你觉得该睡觉了 You think it is time for bed. 你知道它是一只猫 You know it is a cat.
+  - possibly direct assertion
   
-- **do you know/think WH**: second person subject, matrix polar, embedded wh, no negation
+- **do you know/think WH/Q**: second person subject, matrix polar, embedded wh, no negation
   - e.g., 你知道他是谁吗？Do you know who he is? (structurally: You know he is who?)
+  - possibly direct (or indirect) question, depending on the answer
   
-- **WH do you know/think: base**: second person subject, matrix wh, embedded base position, no negation
+- **WH/Q you know/think: base**: second person subject, matrix wh, embedded base position, no negation
   - e.g., 你觉得他是谁？Who do you think he is? (structurally: You think he is who?)
+  - e.g., 你觉得是不是该睡觉了？Do you think it is time for bed or not? (structurally: You think it is or it is not time for bed)
+  - possibly indirect question, depending on the question
+  
+- **WH do you think/know P**: second person subject, matrix wh, embedded declarative, no negation
+  - e.g., 你为什么觉得今天会下雨？Why do you think it will rain today? 你怎么知道今天会下雨？How do you know it will rain today?
+  - direct question
   
 - **do you know/think P**: second person subject, matrix polar, embedded declarative, no negation
   - e.g., 你觉得该睡觉了吗？Do you think it is time for bed? 你知道它是一只猫吗？Do you know it is a cat? 
+  - possibly direct (or indirect) question, depending on the answer
   
-- **do you know/think P: base**: second person subject, matrix polar, embedded base position, no negation
-  - e.g., 你觉得是不是该睡觉了？Do you think it is time for bed or not? (structurally: You think it is or it is not time for bed)
-  
-- **(you) know/think**: second person or dropped subject, matrix polar, no embedded, no negation
+- **(you) know/think?**: second person or dropped subject, matrix polar, no embedded, no negation
   - e.g., 你觉得吗？Do you think? 知不知道？Do (you) know?
+  - direct question
   
 - **(I) know/think**: first person or dropped subject, matrix declarative, no embedded, no negation
   - e.g., 我知道 I know. 知道 Know
+  - direct assertion
   
 - **tag question**: matrix tag question
   - e.g., 今天下雨了，知道吗？It rained today, you know? 你知道今天下雨了，对吧？You knew it rained today, right?
+  - direct question
   
 - **third person**: matrix subject is a third person pronoun or an NP (regardless of sentence type and negation)
   - e.g., 他觉得今天下雨了 He thought it rained today 他不知道今天下雨了吗？ Did he not know it rained today?
 
-```{r speech act summary, message=FALSE}
-speech_acts.data <- subject_sentence_content.data %>% 
-  mutate(negation = if_else(negation_type == "0 no negation", "0 no negation", "1 yes negation")) %>% 
-  mutate(speech_act = case_when(
+```{r syntactic frame summary, message=FALSE}
+syntactic_frames.data <- subject_sentence_content.data %>% 
+  mutate(negation = if_else(negation_type == "0 no negation", "0 no negation", "1 yes negation")) %>%
+  mutate(syntactic_frame = case_when(
     subject_type %in% c("1 first_person", "0 dropped") & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" & negation == "1 yes negation" ~ "(i) don't know/think",
     subject_type %in% c("1 first_person") & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "0 declarative" & negation == "0 no negation" ~ "i think/know P",
     subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "0 declarative" ~ "you (don't) think/know P",
-    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "2 wh_question" & negation == "0 no negation" ~ "do you know WH",
-    subject_type == "2 second_person" & matrix_sentence_type == "2 wh_question" & embedded_sentence_type == "3 base_position" & negation == "0 no negation" ~ "WH do you think/know: base",
+    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type %in% c("1 polar_question", "2 wh_question") & negation == "0 no negation" ~ "do you know/think WH/Q",
+    subject_type == "2 second_person" & matrix_sentence_type %in% c("1 polar_question", "2 wh_question") & embedded_sentence_type == "3 base_position" & negation == "0 no negation" ~ "WH/Q you think/know: base",
+    subject_type == "2 second_person" & matrix_sentence_type == "2 wh_question" & embedded_sentence_type == "0 declarative" & negation == "0 no negation" ~ "WH do you think/know P",
     subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "0 declarative" & negation == "0 no negation" ~ "do you know/think P",
-    subject_type == "2 second_person" & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "3 base_position" & negation == "0 no negation" ~ "do you think/know P: base",
     subject_type %in% c("0 dropped", "2 second_person") & matrix_sentence_type == "1 polar_question" & embedded_sentence_type == "NONE" & negation == "0 no negation" ~ "(you) know/think?",
     subject_type %in% c("1 first_person", "0 dropped") & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" & negation == "0 no negation" ~ "(i) know/think",
     matrix_sentence_type == "4 tag_question" ~ "tag question",
     subject_type == "3 third/NP" ~ "third person",
     TRUE ~ "others"))
 
-speech_acts_summary <- speech_acts.data %>% 
-  group_by(verb, speech_act) %>%
+syntactic_frames_summary <- syntactic_frames.data %>% 
+  group_by(verb, syntactic_frame) %>%
   summarize(count = n()) %>% 
   ungroup() %>% 
   group_by(verb) %>% 
   mutate(percent = count/sum(count) * 100) %>% 
   ungroup() %>% 
-  mutate(speech_act=fct_relevel(speech_act,
-                                "do you know WH",
-                                "WH do you think/know: base",
-                                "do you think/know P: base",
+  mutate(syntactic_frame=fct_relevel(syntactic_frame,
+                                "do you know/think WH/Q",
+                                "WH/Q you think/know: base",
+                                "WH do you think/know P",
                                 "do you know/think P",
                                 "i think/know P",
                                 "you (don't) think/know P",
@@ -1230,12 +1240,12 @@ speech_acts_summary <- speech_acts.data %>%
                                 "others"))
 ```
 
-```{r speech act plot}
-ggplot(speech_acts_summary, 
+```{r syntactic frame plot}
+ggplot(syntactic_frames_summary, 
        aes(x=verb,
            y=percent,
-           fill=speech_act,
-           pattern=speech_act)) + 
+           fill=syntactic_frame,
+           pattern=syntactic_frame)) + 
   geom_col_pattern(
     color = "black",
     linewidth = 0.2,
@@ -1247,10 +1257,10 @@ ggplot(speech_acts_summary,
   )+
   scale_pattern_manual(
     values = c(
-      "do you know WH" = "none",
-      "WH do you think/know: base" = "circle",
+      "do you know/think WH/Q" = "none",
+      "WH/Q you think/know: base" = "circle",
+      "WH do you think/know P" = "none",
       "do you know/think P" = "none",
-      "do you think/know P: base" = "stripe",
       "you (don't) think/know P" = "none",
       "i think/know P" = "none",
       "(i) don't know/think" = "none",
@@ -1260,7 +1270,7 @@ ggplot(speech_acts_summary,
       "third person" = "none",
       "others" = "none"),
     name="Speech acts type",
-    guide=guide_legend(nrow=4)
+    guide=guide_legend(nrow=5)
   )+
   geom_text(aes(label=paste0(count, " (", round(percent, 1), "%)")),
             position = position_stack(vjust = 0.5),
@@ -1269,10 +1279,10 @@ ggplot(speech_acts_summary,
   theme_bw()+
   scale_fill_manual(
     values = c(
-      "do you know WH" = "#CC79A7", # purple
-      "WH do you think/know: base" = "#CC79A7",
+      "do you know/think WH/Q" = "#CC79A7", # purple
+      "WH/Q you think/know: base" = "#CC79A7",
+      "WH do you think/know P" = "#F2B7C6",
       "do you know/think P" = "#56B4E9",  # blue # light blue #6E8894
-      "do you think/know P: base" = "#56B4E9",
       "i think/know P" = "#E69F00", # orange
       "you (don't) think/know P"= "#E2C391",
       "(i) don't know/think" = "#009E73", # green
@@ -1283,7 +1293,7 @@ ggplot(speech_acts_summary,
       "others" = "grey80"
     ),
     name="Speech acts type",
-    guide=guide_legend(nrow=4)
+    guide=guide_legend(nrow=5)
   ) +
   theme(legend.position = "top",
         axis.title.x = element_text(size = 14),
@@ -1302,33 +1312,127 @@ Here are some exploratory analysis in terms what could be in the "others" catego
 
 - **you (don't) think/know Q/WH**: second person subject, matrix declarative, embedded polar or wh questions, no/yes negation
   - e.g., 你(不)知道什么时候会下雨 You (don't) know when it will rain.
+  - possibly direct assertion 
   
 - **you (don't) think/know**: second person subject, matrix declarative, embedded NONE, no/yes negation
-  - e.g., 你不知道 You don't know 你觉得 You think
+  - e.g., 你(不)知道 You don't know 你觉得 You think
+  - possibly direct assertion
   
-- **i (don't) think/know Q/WH**: first person subject, atrix declarative, embedded polar or wh questions, no/yes negation
+- **i (don't) think/know Q/WH**: first person subject, matrix declarative, embedded polar or wh questions, no/yes negation
   - e.g., 我(不)知道什么时候会下雨 I (don't) know when it will rain.
+  - possibly direct assertion
   
-- **(don't) think/know Q/WH**: dropped subject, matrix declarative, embedded polar or wh questions, no/yes negation 
+- **(don't) think/know Q/WH**: dropped subject, matrix declarative, embedded polar or wh questions, no/yes negation
+  - e.g., (不)知道怎么做 (Don't) know what to do.
+  - possibly direct assertion
 
 ```{r other speech acts, message=FALSE}
-other_speech_acts.data <- speech_acts.data %>% 
-  filter(speech_act=="others") %>% 
-  mutate(speech_act = case_when(
+other_syntactic_frames.data <- syntactic_frames.data %>% 
+  filter(syntactic_frame=="others") %>% 
+  mutate(syntactic_frame = case_when(
     subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_qustion", "2 wh_question") ~ "you (don't) think/know Q/WH",
     subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" ~ "you (don't) think/know",
     subject_type == "1 first_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_question","2 wh_question") ~ "i (don't) think/know Q/WH",
-    subject_type == "0 dropped" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_question","2 wh_question") ~ "(don't) think/know WH",
+    subject_type == "0 dropped" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_question","2 wh_question") ~ "(don't) think/know Q/WH",
     TRUE ~ "others"))
 
-other_speech_acts_summary <- other_speech_acts.data %>% 
-  group_by(verb, speech_act) %>%
+other_syntactic_frames_summary <- other_syntactic_frames.data %>% 
+  group_by(verb, syntactic_frame) %>%
   summarize(count = n()) %>% 
   ungroup() %>% 
   group_by(verb) %>% 
   mutate(percent = count/sum(count) * 100) %>% 
   ungroup()
 
-other_speech_acts_summary
+other_syntactic_frames_summary
 ```
 
+Similar to before, we are group polar and wh questions into a single "interrogative" category.
+```{r all combinations interrogative, message=FALSE}
+subject_sentence_alt_summary <- subject_sentence_content.data %>% 
+  mutate(negation = if_else(negation_type == "0 no negation", "0 no negation", "1 yes negation"),
+         matrix_sentence_type = if_else(matrix_sentence_type %in% c("1 polar_question", "2 wh_question"), "interrogative", matrix_sentence_type),
+         embedded_sentence_type = if_else(embedded_sentence_type %in% c("1 polar_question", "2 wh_question"), "interrogative", embedded_sentence_type)) %>%
+  group_by(verb, subject_type, matrix_sentence_type, embedded_sentence_type, negation) %>% 
+  summarize(count=n()) %>% 
+  ungroup() %>% 
+  arrange(desc(count))
+
+subject_sentence_alt_summary
+```
+
+```{r combine sub-other categories, include=FALSE}
+syntactic_frames.data <- syntactic_frames.data %>% 
+  mutate(syntactic_frame = case_when(
+    subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_qustion", "2 wh_question") ~ "you (don't) think/know Q/WH",
+    subject_type == "2 second_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type == "NONE" ~ "you (don't) think/know",
+    subject_type == "1 first_person" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_question","2 wh_question") ~ "i (don't) think/know Q/WH",
+    subject_type == "0 dropped" & matrix_sentence_type == "0 declarative" & embedded_sentence_type %in% c("1 polar_question","2 wh_question") ~ "(don't) think/know Q/WH",
+    TRUE ~ syntactic_frame))
+```
+
+
+```{r speech act summary, message=FALSE}
+speech_acts.data <- syntactic_frames.data %>% 
+  mutate(speech_act = case_when(syntactic_frame == "(i) don't know/think" ~ "idk",
+                                syntactic_frame == "i think/know P" ~ "indirect assertion",
+                                syntactic_frame %in% c("you (don't) think/know", "you (don't) think/know P", "you (don't) think/know Q/WH","(i) know/think", "(don't) think/know Q/WH","i (don't) think/know Q/WH","i (don't) think/know Q/WH") ~ "direct assertion",
+                                syntactic_frame == "WH/Q you think/know: base" ~ "indirect question",
+                                syntactic_frame %in% c("do you know/think WH/Q", "do you know/think P", "tag question", "(you) know/think?", "WH do you think/know P") ~ "direct question",
+                                TRUE ~ syntactic_frame))
+
+
+speech_acts_summary <- speech_acts.data %>% 
+  group_by(verb, speech_act) %>%
+  summarize(count = n()) %>% 
+  ungroup() %>% 
+  group_by(verb) %>% 
+  mutate(percent = count/sum(count) * 100) %>% 
+  ungroup() %>% 
+  mutate(speech_act=fct_relevel(speech_act,
+                                "direct assertion",
+                                "indirect assertion",
+                                "direct question",
+                                "indirect question",
+                                "idk",
+                                "third person",
+                                "others"))
+```
+
+```{r speech act plot}
+ggplot(speech_acts_summary, 
+       aes(x=verb,
+           y=percent,
+           fill=speech_act,
+           pattern=speech_act)) + 
+  geom_col()+
+  geom_text(aes(label=paste0(count, " (", round(percent, 1), "%)")),
+            position = position_stack(vjust = 0.5),
+            color = "black",
+            size = 3)+
+  theme_bw()+
+  scale_fill_manual(
+    values = c(
+      "idk" = "#009E73", # green
+      "direct assertion" = "#BD9391",
+      "indirect assertion" = "#FAC8CD",
+      "direct question" = "#6290C8",
+      "indirect question" = "#91B7C7",
+      "third person" = "#F0E442", # yellow
+      "others" = "grey80"
+    ),
+    name="Speech acts type",
+    guide=guide_legend(nrow=2)
+  ) +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        strip.text = element_text(size = 12),
+        strip.text.x = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12),
+        axis.title.y = element_text(size = 14))+
+  labs(x="Verb",
+       y="Percentage")
+```
