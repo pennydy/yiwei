@@ -58,7 +58,7 @@ no_context_clean_data <- no_context.data %>%
          discourse_type = sub(".*_", "",condition)) %>% 
   mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unsupported"))
 
-## 1.3 Combined Exps ----
+## 1.3 Exps 1 and 2 combined ----
 all_data <- bind_rows(lst(context_clean_data, no_context_clean_data), .id="context") %>% 
   mutate(context = if_else(context == "context_clean_data", "presence", "absence"),
          context = fct_relevel(context, "presence", "absence")) 
@@ -72,6 +72,18 @@ context_clean_data$verb <- as.factor(context_clean_data$verb)
 context_clean_data$discourse_type <- as.factor(context_clean_data$discourse_type)
 no_context_clean_data$verb <- as.factor(no_context_clean_data$verb)
 no_context_clean_data$discourse_type <- as.factor(no_context_clean_data$discourse_type)
+
+
+## 1.4 Exp 3 ----
+context_clean_blank.data <- read.csv("../data/3_context_blank/3_context_blank_main-trials_clean_all-language.csv", header=TRUE)
+
+## 1.5 Exp 4 ----
+no_context_clean_blank.data <- read.csv("../data/4_no_context_blank/4_no_context_blank_main-trials_clean.csv", header=TRUE)
+
+## 1.6 Exps 3 and 4 combined ----
+all_data_blank <- bind_rows(lst(context_clean_blank.data, no_context_clean_blank.data), .id="context") %>% 
+  mutate(context = if_else(context == "context_clean_blank.data", "presence", "absence"),
+         context = fct_relevel(context, "presence", "absence")) 
 
 # 2. Power analysis ----
 ## 2.1 Exp1 ----
@@ -169,7 +181,7 @@ pdf("power_analysis/context_pwrcurve_both_1.pdf", width=8, height=6)
 print(plot(context_pwrcurve_both))
 dev.off()
 
-## 2.2 Combined Exps ----
+## 2.2 Exps 1 and 2 combined ----
 all_model <- glmer(
   response_num ~ verb * discourse_type * context + (1|item_id) + (1|workerid),
   data = all_data,
@@ -195,3 +207,44 @@ powerCurve(model_extended,
            nsim = 200,
            fitOpts = list(control = glmerControl(
              optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))))
+
+
+## 2.3 Exps 3 and 4 combined ----
+all_data_blank$verb <- as.factor(all_data_blank$verb)
+contrasts(all_data_blank$verb) <- contr.sum(2)
+contrasts(all_data_blank$verb)
+all_data_blank$discourse_type <- as.factor(all_data_blank$discourse_type)
+contrasts(all_data_blank$discourse_type) <- contr.sum(2)
+contrasts(all_data_blank$discourse_type)
+all_data_blank$context <- as.factor(all_data_blank$context)
+all_data_blank$context <- relevel(all_data_blank$context, ref="absence")
+contrasts(all_data_blank$context) <- contr.sum(2)
+contrasts(all_data_blank$context)
+
+
+all_model_blank <- glmer(response_num ~ verb * discourse_type * context + (1 + context|item_id) + (1+verb+discourse_type+context|workerid),
+                         data=all_data_blank,
+                         family=binomial,
+                         control = glmerControl(
+                           optimizer = "bobyqa",
+                           optCtrl = list(maxfun = 2e5)
+                         ))
+summary(all_model_blank)
+
+ps_all_blank_discourse_context_interaction <- powerSim(all_model_blank, 
+                                     test = fixed("discourse_type1:context1"), 
+                                     nsim = 1000,
+                                     fitOpts = list(control = glmerControl(
+                                       optimizer = "bobyqa", 
+                                       optCtrl = list(maxfun = 2e5))))
+ps_all_blank_discourse_context_interaction
+saveRDS(ps_all_blank_discourse_context_interaction, file= "power_analysis/combined_powersimunlation_blank_discourse_context_interaction.rds")
+
+ps_all_blank_verb_context_interaction <- powerSim(all_model_blank, 
+                                                       test = fixed("verb1:context1"), 
+                                                       nsim = 1000,
+                                                       fitOpts = list(control = glmerControl(
+                                                         optimizer = "bobyqa", 
+                                                         optCtrl = list(maxfun = 2e5))))
+ps_all_blank_verb_context_interaction
+saveRDS(ps_all_blank_verb_context_interaction, file= "power_analysis/combined_powersimunlation_blank_verb_context_interaction.rds")
