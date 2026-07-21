@@ -4,7 +4,7 @@ import argparse
 from collections import Counter
 
 # Regex to capture sent_id and the file info line
-SENT_ID = re.compile(r'^\s*sent_id:\s*(\d+)', re.MULTILINE)
+SENT_ID = re.compile(r'^\s*sent_id:\s*(\d+(?:_[A-Za-z0-9]+)?)', re.MULTILINE)
 KEYWORD = re.compile(r'Keywords?:\s*([^,\s]+)')
 FILE_HEADR = re.compile(r'^\*\*\*\s*File\s+"([^"]+)"\s*:\s*line\s*(\d+)', re.MULTILINE)
 UTTERANCES_RE = re.compile(r'^\*([^:]+):\s*(.*)', re.MULTILINE)
@@ -16,6 +16,7 @@ speaker_mapping = {
     "SIS": "sister",
     "BRO": "brother",
     "GMO": "grandma",
+    "GFA": "grandfather",
     "ADU": "adult",
     "ADU1": "adult",
     "ADU2": "adult",
@@ -89,20 +90,67 @@ def extract_text(text):
     return rows
 
 
+def extract_full_dialogue(text, id_needed):
+    rows = []
+    block_id = 0
+    # Find each block in the file
+    blocks = re.split(r'-{20,}', text)
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+        block_id += 1
+        m_header = FILE_HEADR.search(block)
+        m_id = SENT_ID.search(block)
+        if m_id and m_header:
+            sent_id = m_id.group(1)
+            sent_header = m_header.group(1)
+        else:
+            if m_id is None:
+                print(f"Warning: Could not find sent_id in block {block_id}:\n{block}")
+            if m_header is None:
+                print(f"Warning: Could not find file header in block {block_id}:\n{block}")
+            raise ValueError(f"Error: Could not find sent_id or file header in block {block_id}:\n{block}")
+        
+        # skip blocks whose ids are not in the id_needed list
+        if sent_id not in id_needed:
+            continue
+        else:
+            id_needed.remove(sent_id)
+            print(f"Processing block with ID: {sent_id}")
+        
+        lines = block.splitlines()
+
+        # remove the first two lines (sent_id and file header)
+        lines = lines[2:]
+        # get the full text
+        full_text = "\n".join(lines)
+        rows.append([sent_id, sent_header,full_text])
+    return rows, id_needed
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="clean files")
     parser.add_argument("--input", "-i", type=str, default="renwei_clean.txt")
-    parser.add_argument("--check", "-c", type=str, default=None)
+    parser.add_argument("--task", "-t", type=str, default="extract_sentence")
+    parser.add_argument("--check_file", "-c", type=str, default=None)
 
     args = parser.parse_args()
+    task = args.task
+    if task != "extract_sentence" and args.check_file == None:
+        raise ValueError("need another input file")
+    elif task in ["extract_full_dialogue", "check_duplicates"]:
+        additional_file = args.check_file
+        additional_file_name = re.sub(r"\.txt$", "", additional_file)
     
     file_name = re.sub(r"\.txt$", "", args.input)
+    
     
     with open(args.input, "r", encoding="utf-8") as f:
         text = f.read()
     
     # to get the csv file for single sentencs
-    if not args.check:
+    if task == "extract_sentence":
         rows = extract_text(text)
 
         with open(f"{file_name}.csv", "w", encoding="utf-8") as f:
@@ -111,10 +159,10 @@ if __name__ == "__main__":
             writer.writerows(rows)
     
     # to check the generated csv file for duplicated ids and missing ids
-    else:
+    elif task == "check_duplicates":
         # 1. get the duplicated ids
         csv_ids = []
-        csv_file = args.check
+        csv_file = additional_file
         with open(csv_file,"r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
@@ -130,6 +178,24 @@ if __name__ == "__main__":
 
         missing_ids = text_ids - csv_ids
         print("Missing IDs in CSV:", missing_ids)
+    
+    # to get the csv file for full dialogues
+    elif task == "extract_full_dialogue":
+        csv_ids = []
+        csv_file = additional_file
+        with open(csv_file,"r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                csv_ids.append(str(row["id"]))
+        rows,id_needed = extract_full_dialogue(text, csv_ids)
+        if id_needed:
+            print("IDs needed for full dialogue extraction:", id_needed)
+
+
+        with open(f"{additional_file_name}_full.csv", "w", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(["id", "file_name", "dialogue"])
+            writer.writerows(rows)
 
         
 
