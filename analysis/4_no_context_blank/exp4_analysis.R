@@ -290,7 +290,7 @@ no_context_blank_type_plot <- ggplot(no_context_blank_type_summary,
 no_context_blank_type_plot
 ggsave(no_context_blank_type_plot, file="graphs/exp4_no_context_type-bar.pdf", width=6, height=4)
 
-# lines connecting dots for individual means
+# lines connecting dots for individual means by participant
 ggplot(data=no_context_blank_participant_accuracy %>% 
          mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
                                         "yiwei_unclear",
@@ -495,6 +495,34 @@ all_type_plot <- ggplot(all_type_summary,
 all_type_plot
 ggsave(all_type_plot, file="graphs/all_blank_type-bar.pdf", width=6, height=4)
 
+# lines connecting dots for individual means by item
+ggplot(data=all_item_accuracy %>% 
+         mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
+                                                        "yiwei_unclear",
+                                                        "juede_contrastive",
+                                                        "juede_unclear"),
+                verb = fct_relevel(verb, "yiwei", "juede")),
+       aes(x=context,
+           y=accuracy,
+           color=verb)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_line(aes(group=item_id),
+            color="black",
+            alpha=0.5)+
+  geom_point(alpha=0.6)+
+  theme_bw() +
+  scale_color_manual(values=cbPalette, guide = NULL) +
+  ylim(0,1)+
+  facet_grid(.~condition)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  theme(legend.position = "none",
+        # legend.text = element_text(size=10),
+        # legend.title = element_text(size=12),
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12))
+
 ## 4.3 analysis ----
 all_data$verb <- as.factor(all_data$verb)
 contrasts(all_data$verb) <- contr.sum(2)
@@ -527,3 +555,122 @@ pairs(emmeans(all_model, ~context|discourse_type))
 pairs(emmeans(all_model, ~discourse_type|context))
 pairs(emmeans(all_model, ~context|verb))
 pairs(emmeans(all_model, ~verb|context))
+
+# 5. Combined with Exp2 ----
+## 5.1 data ----
+# Exp2
+no_context_2afc_clean_data <- read.csv("../../data/2_no_context_choice/2_no_context_choice_main-trials_clean_all-language.csv", header=TRUE) # no exclusion based on languages, only based on filler accuracy
+
+no_context_blank_2afc_item_accuracy <- no_context_2afc_clean_data %>% 
+  group_by(item_id, condition, verb, discourse_type) %>% 
+  summarize(accuracy = mean(response_num),
+            CILow = ci.low(response_num),
+            CIHigh = ci.high(response_num)) %>% 
+  ungroup() %>% 
+  mutate(YMin = accuracy-CILow,
+         YMax = accuracy+CIHigh)
+
+all_no_context_summary <- bind_rows(lst(no_context_blank_item_accuracy, no_context_blank_2afc_item_accuracy), .id="task") %>% 
+  mutate(task = if_else(task == "no_context_blank_2afc_item_accuracy", "2AFC", "Open-ended")) 
+
+## 5.2 plot ----
+item_by_task <- ggplot(data=all_no_context_summary %>% 
+         mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
+                                        "yiwei_unclear",
+                                        "juede_contrastive",
+                                        "juede_unclear"),
+                verb = fct_relevel(verb, "yiwei", "juede")),
+       aes(x=task,
+           y=accuracy,
+           color=verb)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_line(aes(group=item_id),
+            color="black",
+            alpha=0.5)+
+  geom_point(alpha=0.6)+
+  theme_bw() +
+  scale_color_manual(values=cbPalette, guide = NULL) +
+  ylim(0,1)+
+  facet_grid(.~condition)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  theme(legend.position = "none",
+        # legend.text = element_text(size=10),
+        # legend.title = element_text(size=12),
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12))
+item_by_task
+ggsave(item_by_task, file="graphs/item_by_task.pdf", width=8, height=4)
+
+# 6. Combined with Exps 1 and 2 ----
+## 6.1 data ----
+# Exp1
+context_2afc_clean_data <- read.csv("../../data/1_context_choice/1_context_choice_main-trials_clean_all-language.csv", header=TRUE) # no exclusion based on languages, only based on filler accuracy
+
+all_2afc_data <- bind_rows(lst(context_2afc_clean_data, no_context_2afc_clean_data), .id="context") %>% 
+  mutate(context = if_else(context == "context_2afc_clean_data", "presence", "absence"),
+         context = fct_relevel(context, "presence", "absence")) 
+
+all_2afc_summary <- all_2afc_data %>% 
+  group_by(condition, verb, discourse_type, context) %>% 
+  summarize(accuracy = mean(response_num),
+            CILow = ci.low(response_num),
+            CIHigh = ci.high(response_num)) %>% 
+  ungroup() %>% 
+  mutate(YMin = accuracy-CILow,
+         YMax = accuracy+CIHigh,
+         context = fct_relevel(context, "presence", "absence"))
+
+all_participant_2afc_accuracy <- all_2afc_data %>% 
+  group_by(workerid, condition, verb, discourse_type, context) %>% 
+  summarize(accuracy = mean(response_num),
+            CILow = ci.low(response_num),
+            CIHigh = ci.high(response_num)) %>% 
+  ungroup() %>% 
+  mutate(YMin = accuracy-CILow,
+         YMax = accuracy+CIHigh,
+         context = fct_relevel(context, "presence", "absence"))
+
+all_item_2afc_accuracy <- all_2afc_data %>% 
+  group_by(item_id, condition, verb, discourse_type, context) %>% 
+  summarize(accuracy = mean(response_num),
+            CILow = ci.low(response_num),
+            CIHigh = ci.high(response_num)) %>% 
+  ungroup() %>% 
+  mutate(YMin = accuracy-CILow,
+         YMax = accuracy+CIHigh,
+         context = fct_relevel(context, "presence", "absence"))
+
+all_item_combined_accuracy <- bind_rows(lst(all_item_2afc_accuracy, all_item_accuracy), .id="task") %>% 
+  mutate(task = if_else(task == "all_item_2afc_accuracy", "2AFC", "Open-ended"))
+
+## 6.2 plot ----
+all_item_by_task <- ggplot(data=all_item_combined_accuracy %>% 
+                         mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
+                                                        "yiwei_unclear",
+                                                        "juede_contrastive",
+                                                        "juede_unclear"),
+                                verb = fct_relevel(verb, "yiwei", "juede")),
+                       aes(x=task,
+                           y=accuracy,
+                           color=verb)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_line(aes(group=item_id),
+            color="black",
+            alpha=0.5)+
+  geom_point(alpha=0.6)+
+  theme_bw() +
+  scale_color_manual(values=cbPalette, guide = NULL) +
+  ylim(0,1)+
+  facet_grid(context~condition)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  theme(legend.position = "none",
+        # legend.text = element_text(size=10),
+        # legend.title = element_text(size=12),
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12))
+all_item_by_task
+ggsave(all_item_by_task, file="graphs/all_item_by_task_and_context.pdf", width=8, height=6)

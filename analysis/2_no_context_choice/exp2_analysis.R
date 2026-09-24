@@ -44,7 +44,7 @@ ggplot(data=hypothetical.data,
 
 # 1. Data ----
 no_context.data <- read.csv("../../data/2_no_context_choice/2_no_context_choice_main-trials.csv", header=TRUE) # %>%
-  # filter(!workerid %in% c("379", "371", "383", "357", "287", "369")) # exclusion based on self-reported non-madarin native status
+  # filter(!workerid %in% c("379", "371", "383", "357", "287", "369")) # exclusion based on self-reported non-mandarin native status
 
 # exclusion based on filler items # 3 participants
 no_context_filler_data <- subset(no_context.data, condition=="filler")
@@ -65,6 +65,9 @@ no_context_clean_data <- no_context.data %>%
          response_num = if_else(response_corr == "correct", 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
   mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
+
+# # save the clean dataset
+# write.csv(no_context_clean_data, "../../data/2_no_context_choice/2_no_context_choice_main-trials_clean_all-language.csv", row.names=FALSE)
 
 no_context_summary <- no_context_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 

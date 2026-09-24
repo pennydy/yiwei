@@ -113,7 +113,10 @@ context_clean_data <- context.data %>%
                                    condition == "filler" ~ response),
          response_num = if_else(response_corr == "correct", 1, 0),
          discourse_type = sub(".*_", "",condition)) %>% 
-  mutate(discourse_type = if_else(discourse_type == "contrastive", "supported", "unsupported"))
+  mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
+
+# # save the clean dataset
+# write.csv(context_clean_data, "../../data/1_context_choice/1_context_choice_main-trials_clean_all-language.csv", row.names=FALSE)
   
 context_summary <- context_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 

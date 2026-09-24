@@ -132,7 +132,7 @@ def extract_full_dialogue(text, id_needed):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="clean files")
     parser.add_argument("--input", "-i", type=str, default="renwei_clean.txt")
-    parser.add_argument("--task", "-t", type=str, default="extract_sentence")
+    parser.add_argument("--task", "-t", type=str, default="extract_sentence") # extract_full_dialogue, check_duplicates
     parser.add_argument("--check_file", "-c", type=str, default=None)
 
     args = parser.parse_args()
@@ -185,6 +185,8 @@ if __name__ == "__main__":
         csv_file = additional_file
         with open(csv_file,"r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
+            header = reader.fieldnames
+            print("CSV Header:", header)
             for row in reader:
                 csv_ids.append(str(row["id"]))
         rows,id_needed = extract_full_dialogue(text, csv_ids)

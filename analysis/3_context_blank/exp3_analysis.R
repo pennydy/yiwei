@@ -62,8 +62,8 @@ context_blank_clean_data <- context_blank.data %>%
          discourse_type = sub(".*_", "",condition)) %>% 
   mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
 
-# save the clean dataset
-write.csv(context_blank_clean_data, "../../data/3_context_blank/3_context_blank_main-trials_clean_all-language.csv", row.names=FALSE)
+# # save the clean dataset
+# write.csv(context_blank_clean_data, "../../data/3_context_blank/3_context_blank_main-trials_clean_all-language.csv", row.names=FALSE)
 
 context_blank_summary <- context_blank_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 
@@ -291,7 +291,7 @@ context_blank_type_plot <- ggplot(context_blank_type_summary,
 context_blank_type_plot
 ggsave(context_blank_type_plot, file="graphs/exp3_context_type-bar.pdf", width=6, height=4)
 
-# lines connecting dots for individual means
+# lines connecting dots for individual means by participant
 ggplot(data=context_blank_participant_accuracy %>% 
          mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
                                         "yiwei_unclear",
@@ -302,12 +302,16 @@ ggplot(data=context_blank_participant_accuracy %>%
            y=accuracy,
            color=verb)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  # geom_line(aes(group=interaction(workerid,verb)),
+  #           position=position_dodge2(width=.8,preserve="single"),
+  #           color="black",
+  #           alpha=0.5)+
+  # geom_point(position=position_dodge2(width=.8,preserve = "single"),
+  #            alpha=0.6)+
   geom_line(aes(group=interaction(workerid,verb)),
-            position=position_dodge2(width=.8,preserve="single"),
             color="black",
             alpha=0.5)+
-  geom_point(position=position_dodge2(width=.8,preserve = "single"),
-             alpha=0.6)+
+  geom_point(alpha=0.6)+
   theme_bw() +
   scale_color_manual(values=cbPalette, guide = NULL) +
   ylim(0,1)+
@@ -379,27 +383,33 @@ summary(simple_context_blank_model)
 
 # 4. Combined with Exp1 ----
 ## 4.1 data ----
-context.data <- read.csv("../../data/1_context_choice/1_context_choice_main-trials.csv", header=TRUE) %>% 
-  filter(!workerid %in% c("319", "323", "360", "312", "321", "301", "298")) # exclusion based on language
+context_clean_data <- read.csv("../../data/1_context_choice/1_context_choice_main-trials_clean_all-language.csv", header=TRUE)
 
-# exclusion based on filler items: 1 participant
-context_filler_data <- subset(context.data, condition=="filler")
-context_filler_summary <- context_filler_data %>% 
-  group_by(workerid) %>% 
-  summarize(error_num = sum(response=="incorrect"))
-context_eligible_subjects = context_filler_summary$workerid[context_filler_summary$error_num < 2]
-length(context_eligible_subjects) # 42
-context.data = subset(context.data, workerid %in% context_eligible_subjects)
+# context.data <- read.csv("../../data/1_context_choice/1_context_choice_main-trials.csv", header=TRUE) # %>%
+#   # filter(!workerid %in% c("319", "323", "360", "312", "321", "301", "298")) # exclusion based on language
+# 
+# # exclusion based on filler items: 1 participant
+# context_filler_data <- subset(context.data, condition=="filler")
+# context_filler_summary <- context_filler_data %>%
+#   group_by(workerid) %>%
+#   summarize(error_num = sum(response=="incorrect"))
+# context_eligible_subjects = context_filler_summary$workerid[context_filler_summary$error_num < 2]
+# length(context_eligible_subjects) # 42
+# context.data = subset(context.data, workerid %in% context_eligible_subjects)
+# 
+# context_clean_data <- context.data %>%
+#   filter(!grepl("practice", condition)) %>%
+#   filter(condition!="filler") %>%
+#   mutate(response_corr = case_when(condition !="filler" & verb==response ~ "correct",
+#                                    condition !="filler" & verb!=response ~ "incorrect",
+#                                    condition == "filler" ~ response),
+#          response_num = if_else(response_corr == "correct", 1, 0),
+#          discourse_type = sub(".*_", "",condition)) %>%
+#   mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
+# 
+# # save the clean dataset
+# write.csv(context_clean_data, "../../data/1_context_choice/1_context_choice_main-trials_clean_all-language.csv", row.names=FALSE)
 
-context_clean_data <- context.data %>% 
-  filter(!grepl("practice", condition)) %>% 
-  filter(condition!="filler") %>% 
-  mutate(response_corr = case_when(condition !="filler" & verb==response ~ "correct",
-                                   condition !="filler" & verb!=response ~ "incorrect",
-                                   condition == "filler" ~ response),
-         response_num = if_else(response_corr == "correct", 1, 0),
-         discourse_type = sub(".*_", "",condition)) %>% 
-  mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
 all_data <- bind_rows(lst(context_clean_data, context_blank_clean_data), .id="task") %>% 
   mutate(task = if_else(task == "context_clean_data", "2AFC", "Open-ended"),
          task = fct_relevel(task, "2AFC", "Open-ended")) 
@@ -471,3 +481,33 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
        y="Accuracy")
 all_plot_violin
 ggsave(all_plot_violin, file="graphs/all_context-violin.pdf", width=8, height=4)
+
+# lines connecting dots for individual means by item
+item_by_task <- ggplot(data=all_item_accuracy %>% 
+         mutate(condition = fct_relevel(condition, "yiwei_contrastive", 
+                                        "yiwei_unclear",
+                                        "juede_contrastive",
+                                        "juede_unclear"),
+                verb = fct_relevel(verb, "yiwei", "juede")),
+       aes(x=task,
+           y=accuracy,
+           color=verb)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_line(aes(group=item_id),
+            color="black",
+            alpha=0.5)+
+  geom_point(alpha=0.6)+
+  theme_bw() +
+  scale_color_manual(values=cbPalette, guide = NULL) +
+  ylim(0,1)+
+  facet_grid(.~condition)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  theme(legend.position = "none",
+        # legend.text = element_text(size=10),
+        # legend.title = element_text(size=12),
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12))
+item_by_task
+ggsave(item_by_task, file="graphs/item_by_task.pdf", width=8, height=4)
