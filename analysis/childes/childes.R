@@ -21,11 +21,11 @@ embedfullPalette <- c("#E41A1C","#4DAF4A","#FFFF33")
 # head(d_chi)
 
 # 0. load the data ----
-# 16, 99: repeated for correction; 2, 20, 23, 63, 79, 81: incomplete; 
-# 131: question no CP; 
+# 16, 99: repeated for correction; 2, 23, 63, 79, 81: incomplete; 
+# 131: question no CP;  20, not sure if should be incomplete
 # 284, 292, 300: incomplete, speech error
-yiwei <- read.csv("../../data/childes/yiwei.csv", header=TRUE) %>% 
-  filter(!(id %in% c("2", "16", "20", "23", "63", "79", "81", "99", 
+yiwei <- read.csv("../../data/childes/old_annotations/yiwei.csv", header=TRUE) %>% 
+  filter(!(id %in% c("2", "16", "23", "63", "79", "81", "99", 
                      "284", "292", "300")))
 # 38, 39: book reading
 yiwei <- yiwei %>% 
