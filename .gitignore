@@ -12,6 +12,7 @@ data/1_context_choice/*-sandbox-trials.csv
 data/2_no_context_choice/*-sandbox-trials.csv
 
 # childes data
+data/childes/annotation_diff/*
 data/childes/*.xlsx
 data/childes/yiwei.txt
 data/childes/renwei.txt
@@ -29,7 +30,6 @@ data/childes/old_annotations/*
 # analysis
 analysis/power_analysis/*.rds
 analysis/childes/graphs/old_annotations/*
-analysis/childes/childes_child-directed.R
 analysis/childes/*.nb.html
 
 # writing

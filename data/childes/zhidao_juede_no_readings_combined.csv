@@ -1811,7 +1811,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 4351,zhidao,/NSCtoys/4-6_1/f11_3.cha,mother,MOT: 那你現在知道他他是不是貓咪尾巴?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,1 polar_question,NA,NA,1 polar_question,0 declarative,0 no negation,0 no negation,NA,No,NA,No
 4352,zhidao,/NSCtoys/4-6_1/f13_1.cha,mother,MOT: 我才知道.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,0 no negation,NA,No,NA,No
 4353,zhidao,/NSCtoys/4-6_1/f13_3.cha,mother,MOT: <我知道>[/]我知道.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,0 no negation,NA,No,NA,No
-4353_b,zhidao,/NSCtoys/4-6_1/f13_3.cha,mother,MOT: <我知道>[/]我知道.,0 No,0 No,1 first_person,0 No,0 No,,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,0 no negation,NA,No,NA,No
+4353_b,zhidao,/NSCtoys/4-6_1/f13_3.cha,mother,MOT: <我知道>[/]我知道.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,0 no negation,NA,No,NA,No
 4354,zhidao,/NSCtoys/4-6_1/f13_3.cha,mother,MOT: 我知道了啦.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,0 no negation,NA,No,NA,No
 4355,zhidao,/NSCtoys/4-6_1/f13_3.cha,mother,MOT: <啊这[//]我知道了这样>[=Taiwanese].,2 CP,,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,0 no negation,0 no negation,NA,No,NA,No
 4356,zhidao,/NSCtoys/4-6_1/f13_3.cha,mother,MOT: 我知道了啦.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,0 no negation,NA,No,NA,No
@@ -2981,8 +2981,8 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 6157,zhidao,/Chang1/04.cha,investigator,EXP: 然后牠们听到一个很大的声音踫踫踫踫你知道是什么吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,2 wh_question,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
 6160,zhidao,/Chang1/04.cha,investigator,EXP: 你知道啊怎么样?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,2 wh_question,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 6161,zhidao,/Chang1/05.cha,investigator,EXP: 你知道是什么东西来了吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,2 wh_question,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
-6163,zhidao,/Chang1/05.cha,investigator,EXP: 你要讲出来阿姨才知道知道吗?,0 No,0 No,3 third/NP,0 No,0 No,0 dropped,NA,NA,4 tag_question,0 declarative,4 tag_question,0 declarative,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
-6163_b,zhidao,/Chang1/05.cha,investigator,EXP: 你要讲出来阿姨才知道知道吗?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,0 declarative,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
+6163,zhidao,/Chang1/05.cha,investigator,EXP: 你要讲出来阿姨才知道知道吗?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,4 tag_question,0 declarative,4 tag_question,0 declarative,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
+6163_b,zhidao,/Chang1/05.cha,investigator,EXP: 你要讲出来阿姨才知道知道吗?,0 No,0 No,3 third/NP,0 No,0 No,0 dropped,NA,NA,0 declarative,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 6164,zhidao,/Chang1/05.cha,investigator,EXP: 你知道阿姨的意思吗?,2 CP,,2 second_person,0 No,2 NP,2 second_person,NA,NA,1 polar_question,0 declarative,1 polar_question,,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
 6167,zhidao,/Chang1/05.cha,investigator,EXP: 讲得好好兰欣阿姨都不知道你这么会讲故事.,2 CP,,3 third/NP,2 CP,,3 third/NP,NA,NA,0 declarative,0 declarative,0 declarative,0 declarative,NA,NA,2 不,NA,2 不,No,NA,No
 6168,zhidao,/Chang1/06.cha,investigator,EXP: 所以喔你知道怎么样吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,2 wh_question,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
