@@ -61,8 +61,8 @@ no_context_blank_clean_data <- no_context_blank.data %>%
          discourse_type = sub(".*_", "",condition)) %>% 
   mutate(discourse_type = if_else(discourse_type == "contrastive", "constrained", "unconstrained"))
 
-# save the clean dataset
-write.csv(no_context_blank_clean_data, "../../data/4_no_context_blank/4_no_context_blank_main-trials_clean.csv", row.names=FALSE)
+# # save the clean dataset
+# write.csv(no_context_blank_clean_data, "../../data/4_no_context_blank/4_no_context_blank_main-trials_clean.csv", row.names=FALSE)
 
 no_context_blank_summary <- no_context_blank_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 
@@ -437,22 +437,23 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
                             mutate(verb = fct_relevel(verb, "yiwei", "juede")),
                                  aes(x=verb,
                                      y=accuracy,
-                                     # fill=verb,
+                                     fill=verb,
                                      alpha=discourse_type)) +
   geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
   geom_point(aes(shape=discourse_type),
-             position=position_dodge2(width=.8,preserve = "single"),
-             fill="#779CAB") +
+             # fill="#779CAB" # for grey-scale
+             position=position_dodge2(width=.8,preserve = "single")) +
   geom_violin(data=all_participant_accuracy %>% 
                 mutate(verb = fct_relevel(verb, "yiwei", "juede")),
-              position=position_dodge(width=.8),
-              fill="#779CAB") +
+              # fill="#779CAB", # for grey-scale
+              position=position_dodge(width=.8)) +
   geom_boxplot(data=all_participant_accuracy %>% 
                  mutate(verb = fct_relevel(verb, "yiwei", "juede")),
-               width=0.1,
+               width=0.1, 
                position=position_dodge(width=.8),
-               fill="#779CAB",
+               # fill="#779CAB", # for grey-scale
                show.legend = FALSE) +
+  scale_fill_manual(values=cbPalette, guide = NULL) +
   theme_bw() +
   ylim(0,1) +
   geom_text(
@@ -466,7 +467,7 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
   # scale_fill_manual(values=cbPalette, guide = NULL) +
   scale_alpha_discrete(range = c(0.3, 0.9), name="Discourse type") +
   scale_shape_manual(values=c("constrained"=22, "unconstrained"=24), name="Discourse type") +
-  theme(legend.position = "top",
+  theme(legend.position = "none",
         axis.title.x = element_text(size = 12),
         axis.text.x = element_text(size = 10),
         axis.title.y = element_text(size = 12),
@@ -478,8 +479,8 @@ all_plot_violin <- ggplot(data=all_item_accuracy %>%
   labs(x="Verb",
        y="Accuracy")
 all_plot_violin
-# ggsave(all_plot_violin, file="graphs/all_blank-violin.pdf", width=8, height=4)
-ggsave(all_plot_violin, file="graphs/all_blank-violin_all-language_grey.png", width=8, height=4)
+ggsave(all_plot_violin, file="graphs/all_blank-violin_no_legend.png", width=8, height=4)
+# ggsave(all_plot_violin, file="graphs/all_blank-violin_all-language_grey.png", width=8, height=4)
 
 ### proportion of each response type ----
 all_type_plot <- ggplot(all_type_summary,
