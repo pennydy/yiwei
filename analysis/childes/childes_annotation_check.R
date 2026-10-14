@@ -29,7 +29,11 @@ matrix_subject_diff.data <- data %>%
   mutate(difference = if_else(subject_j1 == subject_j2, "same", "diff")) %>% 
   filter(difference == "diff") %>% 
   select(!difference)
-write.csv(matrix_subject_diff.data, "../../data/childes/annotation_diff/matrix_subject_diff.csv", row.names = FALSE)
+# write.csv(matrix_subject_diff.data, "../../data/childes/annotation_diff/matrix_subject_diff.csv", row.names = FALSE)
+nrow(matrix_subject_diff.data) / nrow(data) # overall: 0.02
+matrix_subject_diff.data %>% 
+  group_by(verb) %>% 
+  summarize(percentage = n()/nrow(data)) # juede: 0.004, zhidao: 0.016
 
 ## 2.2 matrix sentence type ----
 matrix_sentence_diff.data <- data %>% 
@@ -49,7 +53,11 @@ matrix_sentence_diff.data <- data %>%
   )) %>% 
   filter(difference == "diff") %>% 
   select(!difference)
-write.csv(matrix_sentence_diff.data, "../../data/childes/annotation_diff/matrix_sentence_diff.csv", row.names = FALSE)
+# write.csv(matrix_sentence_diff.data, "../../data/childes/annotation_diff/matrix_sentence_diff.csv", row.names = FALSE)
+nrow(matrix_sentence_diff.data) / nrow(data) # overall: 0.063
+matrix_sentence_diff.data %>% 
+  group_by(verb) %>% 
+  summarize(percentage = n()/nrow(data)) # juede: 0.0156, zhidao: 0.0474
 
 ## 2.3 embedded sentence type ----
 embedded_sentence_diff.data <- data %>% 
@@ -68,7 +76,11 @@ embedded_sentence_diff.data <- data %>%
   )) %>% 
   filter(difference == "diff") %>% 
   select(!difference)
-write.csv(embedded_sentence_diff.data, "../../data/childes/annotation_diff/embedded_sentence_diff.csv", row.names = FALSE)
+# write.csv(embedded_sentence_diff.data, "../../data/childes/annotation_diff/embedded_sentence_diff.csv", row.names = FALSE)
+nrow(embedded_sentence_diff.data) / nrow(data) # overall: 0.051
+embedded_sentence_diff.data %>% 
+  group_by(verb) %>% 
+  summarize(percentage = n()/nrow(data)) # juede: 0.0186, zhidao: 0.0323
 
 ## 2.4 matrix negation ----
 matrix_negation_diff.data <- data %>% 
@@ -83,9 +95,13 @@ matrix_negation_diff.data <- data %>%
   )) %>% 
   filter(difference == "diff") %>% 
   select(!difference)
-write.csv(matrix_negation_diff.data, "../../data/childes/annotation_diff/matrix_negation_diff.csv", row.names = FALSE)
+# write.csv(matrix_negation_diff.data, "../../data/childes/annotation_diff/matrix_negation_diff.csv", row.names = FALSE)
+nrow(matrix_negation_diff.data) / nrow(data) # overall: 0.001
+matrix_negation_diff.data %>% 
+  group_by(verb) %>% 
+  summarize(percentage = n()/nrow(data)) # juede: 0.0186, zhidao: 0.0323
 
-## 2.5 matrix negation ----
+## 2.5 ma sentence final particle ----
 ma_particle_diff.data <- data %>% 
   select(c("id", "verb", "file_name", "speaker", "sentence", starts_with("ma_particle_"))) %>% 
   mutate(difference = apply(

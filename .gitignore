@@ -26,6 +26,8 @@ data/childes/zhidao_BJCMC.txt
 data/childes/child/*
 data/childes/other_speakers/*
 data/childes/old_annotations/*
+data/childes/zhouAssessment_null_CP_full.csv
+data/childes/zhouAssessment_null_CP.csv
 
 # analysis
 analysis/power_analysis/*.rds

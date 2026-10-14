@@ -313,7 +313,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 1083,zhidao,/Zhou2/66/ma05.cha,mother,MOT: 知道了闭上眼睛睡觉了.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,0 declarative,0 declarative,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1086,zhidao,/Zhou2/66/mb11.cha,mother,MOT: 哦我知道了!,0 No,0 No,1 first_person,0 No,0 No,1 first_person,0 declarative,,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1088,zhidao,/Zhou2/66/mb11.cha,mother,MOT: 不知道啊?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,1 polar_question,,1 polar_question,,NA,NA,NA,NA,2 不,2 不,NA,No,NA,No
-1092,zhidao,/Zhou2/66/mb13.cha,mother,MOT: 知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,4 tag_question,0 declarative,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
+1092,zhidao,/Zhou2/66/mb13.cha,mother,MOT: 知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,0 declarative,,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1096,zhidao,/Zhou2/66/mb13.cha,mother,MOT: 你知道是这样子搞的啊?,2 CP,,2 second_person,2 CP,,2 second_person,1 polar_question,0 declarative,1 polar_question,0 declarative,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1097,zhidao,/Zhou2/66/mb13.cha,mother,MOT: 妈妈也不知道.,0 No,0 No,4 self_reference,0 No,0 No,4 self_reference,0 declarative,,0 declarative,,NA,NA,NA,NA,2 不,2 不,NA,No,NA,No
 1100,zhidao,/Zhou2/66/mb14.cha,mother,MOT: 红色怎么说你知道吗?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,4 tag_question,2 wh_question,4 tag_question,2 wh_question,NA,NA,NA,NA,0 no negation,0 no negation,NA,Yes,NA,No
@@ -369,7 +369,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 1206,zhidao,/Zhou3/000108.cha,mother,MOT: 还知道啊?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,1 polar_question,,1 polar_question,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1207,zhidao,/Zhou3/000108.cha,mother,MOT: 嗯中间要细啊知道啦?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,4 tag_question,0 declarative,4 tag_question,0 declarative,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1208,zhidao,/Zhou3/000108.cha,mother,MOT: 知道啊?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,1 polar_question,,1 polar_question,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
-1209,zhidao,/Zhou3/000108.cha,mother,"MOT: <我知道>[//]你知道这几个字不对,是吧?",0 No,0 No,1 first_person,2 CP,,1 first_person,,,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
+1209,zhidao,/Zhou3/000108.cha,mother,"MOT: <我知道>[//]你知道这几个字不对,是吧?",0 No,0 No,1 first_person,2 CP,,1 first_person,0 declarative,,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1209_b,zhidao,/Zhou3/000108.cha,mother,"MOT: <我知道>[//]你知道这几个字不对,是吧?",2 CP,,2 second_person,2 CP,,2 second_person,4 tag_question,0 declarative,4 tag_question,0 declarative,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1210,zhidao,/Zhou3/000108.cha,mother,MOT: 你还知道啊?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,1 polar_question,,1 polar_question,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 1211,zhidao,/Zhou3/000108.cha,mother,MOT: 嗯知道就好.,1 Adj,1 Adj,0 dropped,0 No,1 Adj,0 dropped,0 declarative,,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
@@ -1799,7 +1799,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 4334,zhidao,/NSCtoys/4-6_1/f09_3.cha,mother,MOT: 喔你也不知道喔.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,0 declarative,,NA,NA,0 declarative,,2 不,2 不,NA,No,NA,No
 4336,zhidao,/NSCtoys/4-6_1/f09_3.cha,mother,MOT: 你不知道你覺得呢?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,1 polar_question,,NA,NA,0 declarative,2 wh_question,2 不,2 不,NA,No,NA,No
 4337,zhidao,/NSCtoys/4-6_1/f09_3.cha,mother,MOT: 可是我不知道他想做什麼我以為你知道你可以告訴我.,2 CP,,1 first_person,2 CP,,1 first_person,NA,NA,0 declarative,2 wh_question,NA,NA,0 declarative,2 wh_question,2 不,2 不,NA,No,NA,No
-4337_b,zhidao,/NSCtoys/4-6_1/f09_3.cha,mother,MOT: 可是我不知道他想做什麼我以為你知道你可以告訴我.,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,,,NA,NA,0 declarative,,2 不,2 不,NA,No,NA,No
+4337_b,zhidao,/NSCtoys/4-6_1/f09_3.cha,mother,MOT: 可是我不知道他想做什麼我以為你知道你可以告訴我.,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,0 declarative,,NA,NA,0 declarative,,2 不,2 不,NA,No,NA,No
 4341,zhidao,/NSCtoys/4-6_1/f10_1.cha,mother,MOT: 喔這樣子喔我知道了謝謝醫生叔叔.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,0 no negation,NA,No,NA,No
 4342,zhidao,/NSCtoys/4-6_1/f10_1.cha,mother,MOT: 啊原來是這樣啊好我知道了.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,0 no negation,NA,No,NA,No
 4343,zhidao,/NSCtoys/4-6_1/f10_1.cha,mother,MOT: 你怎麼知道他沒有發燒呢?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,3 how/why,0 declarative,NA,NA,3 how/why,0 declarative,0 no negation,0 no negation,NA,No,NA,No
@@ -2774,8 +2774,8 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 5877,zhidao,/ChangPN/grade2/171.cha,investigator,EXP: 那我想要知道.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 5878,zhidao,/ChangPN/grade2/171.cha,investigator,EXP: 那我想要知道.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 5879,zhidao,/ChangPN/grade2/171.cha,investigator,EXP: <那你记>[//]那我想要知道.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
-5880,zhidao,/ChangPN/grade2/172.cha,investigator,"EXP: 来,<你知道吗>[//]你知道这是什么?",0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,,,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,No,NA,Yes
-5880_b,zhidao,/ChangPN/grade2/172.cha,investigator,"EXP: 来,<你知道吗>[//]你知道这是什么?",2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,2 wh_question,,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
+5880,zhidao,/ChangPN/grade2/172.cha,investigator,"EXP: 来,<你知道吗>[//]你知道这是什么?",0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,1 polar_question,,1 polar_question,,NA,NA,0 no negation,NA,0 no negation,No,NA,Yes
+5880_b,zhidao,/ChangPN/grade2/172.cha,investigator,"EXP: 来,<你知道吗>[//]你知道这是什么?",2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,2 wh_question,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 5881,zhidao,/ChangPN/grade2/172.cha,investigator,EXP: 你知道吗.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,1 polar_question,,1 polar_question,,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
 5882,zhidao,/ChangPN/grade2/172.cha,investigator,EXP: 那你知道吗.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,1 polar_question,,1 polar_question,,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
 5883,zhidao,/ChangPN/grade2/173.cha,investigator,EXP: 你知道吗?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,1 polar_question,,1 polar_question,,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
@@ -2814,7 +2814,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 5923,zhidao,/ChangPN/grade2/181.cha,investigator,EXP: 好那我想要知道啊.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 5924,zhidao,/ChangPN/grade2/181.cha,investigator,EXP: 那我想要<知>[//]知道.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 5925,zhidao,/ChangPN/grade2/181.cha,investigator,EXP: 那我想要知道你有没有把东西打翻过?,2 CP,,1 first_person,2 CP,,1 first_person,NA,NA,0 declarative,1 polar_question,1 polar_question,1 polar_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
-5926,zhidao,/ChangPN/grade2/181.cha,investigator,EXP: 那你有没有知道谁(.)爸爸妈妈还是同学啊还有哥哥...,2 CP,,2 second_person,0 No,2 NP,2 second_person,,,0 declarative,1 polar_question,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
+5926,zhidao,/ChangPN/grade2/181.cha,investigator,EXP: 那你有没有知道谁(.)爸爸妈妈还是同学啊还有哥哥...,2 CP,,2 second_person,0 No,2 NP,2 second_person,NA,NA,0 declarative,1 polar_question,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 5927,zhidao,/ChangPN/grade2/181.cha,investigator,EXP: 那我想要知道你记不记得他们打翻东西的事情.,2 CP,,1 first_person,2 CP,,1 first_person,NA,NA,0 declarative,1 polar_question,0 declarative,1 polar_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 5928,zhidao,/ChangPN/grade2/181.cha,investigator,EXP: 那我想要知道.,0 No,0 No,1 first_person,0 No,0 No,1 first_person,NA,NA,0 declarative,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 5929,zhidao,/ChangPN/grade2/182.cha,investigator,EXP: <你>[//]我想知道啊你有没有看过医生?,2 CP,,1 first_person,2 CP,,1 first_person,NA,NA,0 declarative,1 polar_question,1 polar_question,1 polar_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
@@ -3061,19 +3061,19 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 6283,zhidao,/Chang1/23.cha,investigator,EXP: 不知道啊.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,0 declarative,,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
 6285,zhidao,/Chang1/24.cha,investigator,EXP: 所以你知道吗?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,1 polar_question,,0 declarative,,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
 6286,zhidao,/Chang1/24.cha,investigator,EXP: 然后你知道这龙怎样吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,2 wh_question,1 polar_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
-6291,zhidao,/Chang2/Anecdote/05.cha,mother,MOT: 怎么会不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,3 how/why,,NA,NA,2 不,NA,2 不,No,NA,No
-6293,zhidao,/Chang2/Anecdote/05.cha,mother,MOT: 嗯又不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
-6295,zhidao,/Chang2/Anecdote/05.cha,mother,MOT: 又不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
-6298,zhidao,/Chang2/Anecdote/06.cha,mother,MOT: 怎么会不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,3 how/why,,NA,NA,2 不,NA,2 不,No,NA,No
-6300,zhidao,/Chang2/Anecdote/06.cha,mother,MOT: 嗯又不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
-6302,zhidao,/Chang2/Anecdote/06.cha,mother,MOT: 又不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
-6311,zhidao,/Chang2/Anecdote/08.cha,mother,"MOT: 不知道叫什么名字,是不是?",2 CP,,0 dropped,2 CP,,0 dropped,NA,NA,NA,NA,4 tag_question,0 declarative,NA,NA,2 不,NA,2 不,No,NA,No
-6313,zhidao,/Chang2/Anecdote/09.cha,mother,"MOT: 都不知道被你放哪里去了,是不是?",2 CP,,0 dropped,2 CP,,0 dropped,NA,NA,NA,NA,4 tag_question,0 declarative,NA,NA,2 不,NA,2 不,No,NA,No
-6318,zhidao,/Chang2/Anecdote/12.cha,mother,MOT: 什么不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
-6321,zhidao,/Chang2/Anecdote/12.cha,mother,MOT: 你只会讲不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
-6323,zhidao,/Chang2/Anecdote/12.cha,mother,MOT: 你怎么会不知道.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,NA,NA,3 how/why,,NA,NA,2 不,NA,2 不,No,NA,No
-6324,zhidao,/Chang2/Anecdote/12.cha,mother,MOT: 你怎么会不知道.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,NA,NA,3 how/why,,NA,NA,2 不,NA,2 不,No,NA,No
-6327,zhidao,/Chang2/Anecdote/13.cha,mother,MOT: 你怎么知道啊?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,NA,NA,3 how/why,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
+6291,zhidao,/Chang2/Anecdote/05.cha,mother,MOT: 怎么会不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,3 how/why,,3 how/why,,2 不,NA,2 不,No,NA,No
+6293,zhidao,/Chang2/Anecdote/05.cha,mother,MOT: 嗯又不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,0 declarative,,2 不,NA,2 不,No,NA,No
+6295,zhidao,/Chang2/Anecdote/05.cha,mother,MOT: 又不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,0 declarative,,2 不,NA,2 不,No,NA,No
+6298,zhidao,/Chang2/Anecdote/06.cha,mother,MOT: 怎么会不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,3 how/why,,3 how/why,,2 不,NA,2 不,No,NA,No
+6300,zhidao,/Chang2/Anecdote/06.cha,mother,MOT: 嗯又不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,0 declarative,,2 不,NA,2 不,No,NA,No
+6302,zhidao,/Chang2/Anecdote/06.cha,mother,MOT: 又不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,0 declarative,,2 不,NA,2 不,No,NA,No
+6311,zhidao,/Chang2/Anecdote/08.cha,mother,"MOT: 不知道叫什么名字,是不是?",2 CP,,0 dropped,2 CP,,0 dropped,NA,NA,NA,NA,4 tag_question,0 declarative,4 tag_question,0 declarative,2 不,NA,2 不,No,NA,No
+6313,zhidao,/Chang2/Anecdote/09.cha,mother,"MOT: 都不知道被你放哪里去了,是不是?",2 CP,,0 dropped,2 CP,,0 dropped,NA,NA,NA,NA,4 tag_question,0 declarative,4 tag_question,0 declarative,2 不,NA,2 不,No,NA,No
+6318,zhidao,/Chang2/Anecdote/12.cha,mother,MOT: 什么不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,2 wh_question,,2 不,NA,2 不,No,NA,No
+6321,zhidao,/Chang2/Anecdote/12.cha,mother,MOT: 你只会讲不知道.,0 No,0 No,0 dropped,0 No,0 No,0 dropped,NA,NA,NA,NA,0 declarative,,0 declarative,,2 不,NA,2 不,No,NA,No
+6323,zhidao,/Chang2/Anecdote/12.cha,mother,MOT: 你怎么会不知道.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,NA,NA,3 how/why,,3 how/why,,2 不,NA,2 不,No,NA,No
+6324,zhidao,/Chang2/Anecdote/12.cha,mother,MOT: 你怎么会不知道.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,NA,NA,3 how/why,,3 how/why,,2 不,NA,2 不,No,NA,No
+6327,zhidao,/Chang2/Anecdote/13.cha,mother,MOT: 你怎么知道啊?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,NA,NA,3 how/why,,3 how/why,,0 no negation,NA,0 no negation,No,NA,No
 8649,zhidao,/BJCMC/0300_TB.cha,mother,MOT: 你说我也知道花钱了.,2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 8650,zhidao,/BJCMC/0300_TB.cha,investigator,INV: 你不知道啊.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,0 declarative,,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
 8651,zhidao,/BJCMC/0300_WW.cha,investigator,INV: 你怎么知道是犀牛?,2 CP,,2 second_person,2 CP,,2 second_person,3 how/why,0 declarative,NA,NA,3 how/why,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,NA,No
@@ -3101,12 +3101,12 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 8672,zhidao,/BJCMC/0306_NW.cha,investigator,INV: 不知道门自己开了嗯.,2 CP,,0 dropped,2 CP,,0 dropped,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,2 不,NA,2 不,No,NA,No
 8673,zhidao,/BJCMC/0306_NW.cha,investigator,"INV: 对,<这这这这>[/]这些图都是啥你<认(识)>[//]知道不?",0 No,0 No,0 dropped,0 No,0 No,0 dropped,4 tag_question,2 wh_question,NA,NA,4 tag_question,2 wh_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 8674,zhidao,/BJCMC/0306_TT.cha,investigator,"INV: 哦,知道了,我知道了&=laughs.",0 No,0 No,0 dropped,0 No,0 No,0 dropped,0 declarative,,NA,NA,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
-8674_b,zhidao,/BJCMC/0306_TT.cha,investigator,"INV: 哦,知道了,我知道了&=laughs.",0 No,0 No,1 first_person,0 No,0 No,1 first_person,0 declarative,,NA,NA,,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
+8674_b,zhidao,/BJCMC/0306_TT.cha,investigator,"INV: 哦,知道了,我知道了&=laughs.",0 No,0 No,1 first_person,0 No,0 No,1 first_person,0 declarative,,NA,NA,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 8675,zhidao,/BJCMC/0309_MD.cha,investigator,"INV: 啊,<好好好>[/]好,我知道了.",0 No,0 No,1 first_person,0 No,0 No,1 first_person,0 declarative,,NA,NA,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 8676,zhidao,/BJCMC/0309_MD.cha,investigator,"INV: 好,我知道了.",0 No,0 No,1 first_person,0 No,0 No,1 first_person,0 declarative,,NA,NA,0 declarative,,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 8677,zhidao,/BJCMC/0309_XYE.cha,investigator,"INV: 哦,那怎么知道是谁的呢?",2 CP,,0 dropped,2 CP,,0 dropped,3 how/why,2 wh_question,NA,NA,3 how/why,2 wh_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
 8678,zhidao,/BJCMC/0309_XYE.cha,investigator,"INV: 这个叫,不知道.",0 No,0 No,0 dropped,0 No,0 No,0 dropped,0 declarative,,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
-8679,zhidao,/BJCMC/0309_XYE.cha,investigator,"INV: 不知道,我也不知道这怎么玩.",0 No,0 No,0 dropped,0 No,0 No,0 dropped,0 declarative,,NA,NA,,,NA,NA,2 不,NA,2 不,No,NA,No
+8679,zhidao,/BJCMC/0309_XYE.cha,investigator,"INV: 不知道,我也不知道这怎么玩.",0 No,0 No,0 dropped,0 No,0 No,0 dropped,0 declarative,,NA,NA,0 declarative,,NA,NA,2 不,NA,2 不,No,NA,No
 8679_b,zhidao,/BJCMC/0309_XYE.cha,investigator,"INV: 不知道,我也不知道这怎么玩.",2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,2 wh_question,NA,NA,0 declarative,2 wh_question,NA,NA,2 不,NA,2 不,No,NA,No
 8680,zhidao,/BJCMC/0309_YY.cha,investigator,INV: 你知道澳大利亚吗?,2 CP,,2 second_person,0 No,2 NP,2 second_person,1 polar_question,,NA,NA,1 polar_question,,NA,NA,0 no negation,NA,0 no negation,Yes,NA,Yes
 8681,zhidao,/BJCMC/0400_DD.cha,investigator,"INV: 哦,我知道好像[?]问题出在哪了.",2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,2 wh_question,NA,NA,0 declarative,2 wh_question,NA,NA,0 no negation,NA,0 no negation,No,NA,No
@@ -3463,13 +3463,13 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 1104,juede,/TCCM/xu/010600.cha,mother,MOT: 那就自己觉得好就好了.,2 CP,,5 自己,2 CP,,5 自己,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 1105,juede,/TCCM/xu/010600.cha,mother,MOT: 我觉得这盒子好可爱.,2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 1106,juede,/TCCM/xu/020400.cha,investigator,INV: 你觉得呢?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,1 polar_question,,NA,NA,1 polar_question,,NA,NA,0 no negation,NA,0 no negation,No,No,NA
-1109,juede,/NSCtoys/3-6/c01_2.cha,father,FAT: 你觉得他敢吃中药吗?,2 CP,,2 second_person,2 CP,,2 second_person,0 declarative,0 declarative,NA,NA,1 polar_question,0 declarative,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
-1110,juede,/NSCtoys/3-6/c01_2.cha,father,FAT: <你觉得嘞>[<]?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,0 declarative,0 declarative,NA,NA,1 polar_question,,1 polar_question,,0 no negation,NA,0 no negation,No,No,NA
-1111,juede,/NSCtoys/3-6/c01_2.cha,father,FAT: 你觉得流血要怎么处理?,2 CP,,2 second_person,2 CP,,2 second_person,3 how/why,0 declarative,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
-1112,juede,/NSCtoys/3-6/c01_3.cha,father,FAT: 你觉得这是哪里?,2 CP,,2 second_person,2 CP,,2 second_person,0 declarative,0 declarative,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
-1113,juede,/NSCtoys/3-6/c01_3.cha,father,FAT: 你觉得这只像什么动物?,2 CP,,2 second_person,2 CP,,2 second_person,0 declarative,0 declarative,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
-1115,juede,/NSCtoys/3-6/c03_1.cha,father,FAT: 你觉得他会不会倒?,2 CP,,2 second_person,2 CP,,2 second_person,0 declarative,0 declarative,NA,NA,1 polar_question,3 base-generated wh/polar,1 polar_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
-1116,juede,/NSCtoys/3-6/c03_1.cha,father,FAT: 你觉得会倒吗?,2 CP,,2 second_person,2 CP,,2 second_person,0 declarative,0 declarative,NA,NA,1 polar_question,0 declarative,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
+1109,juede,/NSCtoys/3-6/c01_2.cha,father,FAT: 你觉得他敢吃中药吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,1 polar_question,0 declarative,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
+1110,juede,/NSCtoys/3-6/c01_2.cha,father,FAT: <你觉得嘞>[<]?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,NA,NA,1 polar_question,,1 polar_question,,0 no negation,NA,0 no negation,No,No,NA
+1111,juede,/NSCtoys/3-6/c01_2.cha,father,FAT: 你觉得流血要怎么处理?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
+1112,juede,/NSCtoys/3-6/c01_3.cha,father,FAT: 你觉得这是哪里?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
+1113,juede,/NSCtoys/3-6/c01_3.cha,father,FAT: 你觉得这只像什么动物?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
+1115,juede,/NSCtoys/3-6/c03_1.cha,father,FAT: 你觉得他会不会倒?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,1 polar_question,3 base-generated wh/polar,1 polar_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
+1116,juede,/NSCtoys/3-6/c03_1.cha,father,FAT: 你觉得会倒吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,1 polar_question,0 declarative,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
 1118,juede,/NSCtoys/3-6/c03_3.cha,father,FAT: 你觉得是吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,1 polar_question,,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
 1119,juede,/NSCtoys/3-6/c04_1.cha,mother,MOT: 你觉得他是放什么的?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
 1120,juede,/NSCtoys/3-6/c06_3.cha,mother,MOT: 你觉得在哪.,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
@@ -3533,7 +3533,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 1184,juede,/NSCtoys/5/b18_2.cha,father,FAT: 爸爸觉得是不是要开一点.,2 CP,,4 self_reference,2 CP,,4 self_reference,NA,NA,NA,NA,1 polar_question,3 base-generated wh/polar,1 polar_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
 1185,juede,/NSCtoys/5/b18_2.cha,father,FAT: 还是你觉得城堡里有什么?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
 1186,juede,/NSCtoys/5/b18_3.cha,father,FAT: 新拼图会不会觉得比较难?,0 No,1 Adj,0 dropped,0 No,1 Adj,0 dropped,NA,NA,NA,NA,1 polar_question,0 declarative,1 polar_question,0 declarative,0 no negation,NA,0 no negation,No,No,NA
-1187,juede,/NSCtoys/5/b18_3.cha,father,FAT: 那你觉得这只蛇很凶吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,1 polar_question,0 declarative,1 polar_question,0 declarative,,NA,0 no negation,Yes,Yes,NA
+1187,juede,/NSCtoys/5/b18_3.cha,father,FAT: 那你觉得这只蛇很凶吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,1 polar_question,0 declarative,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
 1188,juede,/NSCtoys/5/b20_1.cha,father,FAT: 你觉得要可以怎么玩?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
 1189,juede,/NSCtoys/5/b20_1.cha,father,FAT: <你觉得怎样比较好>[>]?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,NA,NA,2 wh_question,3 base-generated wh/polar,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
 1190,juede,/NSCtoys/5/b20_1.cha,father,"FAT: 又觉得好羡慕,好想要去玩喔!",0 No,1 Adj,0 dropped,0 No,1 Adj,0 dropped,NA,NA,NA,NA,0 declarative,0 declarative,0 declarative,0 declarative,0 no negation,NA,0 no negation,No,No,NA
@@ -3807,7 +3807,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 1483,juede,/NSCtoys/3/e25_2.cha,mother,MOT: 请问小猪你有觉得好一点吗?,2 CP,,2 second_person,0 No,1 Adj,2 second_person,1 polar_question,0 declarative,NA,NA,1 polar_question,0 declarative,NA,NA,0 no negation,NA,0 no negation,Yes,Yes,NA
 1484,juede,/NSCtoys/3/e25_3.cha,mother,MOT: 你觉得图案对吗?,2 CP,,2 second_person,2 CP,,2 second_person,1 polar_question,0 declarative,NA,NA,1 polar_question,0 declarative,NA,NA,0 no negation,NA,0 no negation,Yes,Yes,NA
 1487,juede,/LiZhou/5/07.cha,other_child,CH2: 她今天好像觉得肚子痛.,2 CP,,3 third/NP,2 CP,,3 third/NP,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
-1488,juede,/LiZhou/5/07.cha,other_child,CH2: <她觉得>[/]肚子痛她觉得.,0 No,0 No,3 third/NP,2 CP,,3 third/NP,NA,NA,NA,NA,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
+1488,juede,/LiZhou/5/07.cha,other_child,CH2: <她觉得>[/]肚子痛她觉得.,0 No,0 No,3 third/NP,2 CP,,3 third/NP,0 declarative,NA,NA,NA,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 1488_b,juede,/LiZhou/5/07.cha,other_child,CH2: <她觉得>[/]肚子痛她觉得.,0 No,0 No,3 third/NP,2 CP,,3 third/NP,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 1489,juede,/LiZhou/5/10.cha,other_child,CH2: 嗯我怎么觉得不太棒.,0 No,1 Adj,1 first_person,0 No,1 Adj,1 first_person,3 how/why,0 declarative,NA,NA,3 how/why,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 1491,juede,/LiZhou/6/04.cha,other_child,CH2: 我觉得不够吃.,2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
@@ -3844,7 +3844,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 2564,juede,/Erbaugh/Kang/13.cha,mother,MOT: 我怎么觉得你出了一身汗呢.,2 CP,,1 first_person,2 CP,,1 first_person,3 how/why,0 declarative,NA,NA,3 how/why,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2565,juede,/Erbaugh/Kang/14.cha,mother,MOT: 因为看的人比较多我我问你那个唱戏的穿的衣服你觉得怎么样.,2 CP,,2 second_person,2 CP,,2 second_person,2 wh_question,3 base-generated wh/polar,NA,NA,2 wh_question,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2566,juede,/Erbaugh/Kang/14.cha,mother,MOT: 就是让它带着这样他会觉得比较不累觉得比较舒服.,0 No,1 Adj,3 third/NP,0 No,1 Adj,3 third/NP,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
-2566_b,juede,/Erbaugh/Kang/14.cha,mother,MOT: 就是让它带着这样他会觉得比较不累觉得比较舒服.,0 No,1 Adj,0 dropped,0 No,1 Adj,0 dropped,NA,NA,NA,NA,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
+2566_b,juede,/Erbaugh/Kang/14.cha,mother,MOT: 就是让它带着这样他会觉得比较不累觉得比较舒服.,0 No,1 Adj,0 dropped,0 No,1 Adj,0 dropped,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2567,juede,/Erbaugh/Kang/14.cha,mother,MOT: 啊你为啥不怕呢我很怕哎我觉得那些人.,0 No,2 NP,1 first_person,0 No,2 NP,1 first_person,0 declarative,,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2568,juede,/Erbaugh/Kang/14.cha,mother,MOT: 哦你觉得你好一点没啊?,2 CP,,2 second_person,2 CP,,2 second_person,1 polar_question,3 base-generated wh/polar,NA,NA,1 polar_question,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2569,juede,/Erbaugh/Kang/15.cha,mother,MOT: 这样你手不觉得很烫嘛.,0 No,1 Adj,3 third/NP,0 No,1 Adj,3 third/NP,1 polar_question,0 declarative,NA,NA,1 polar_question,0 declarative,NA,NA,2 不,NA,2 不,No,No,NA
@@ -3858,7 +3858,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 2577,juede,/Erbaugh/Kang/17.cha,adult,ADU: 我觉得姜正康你把你的袍子脱下来好不好你.,2 CP,,1 first_person,2 CP,,1 first_person,1 polar_question,3 base-generated wh/polar,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2578,juede,/Erbaugh/Kang/18.cha,mother,MOT: 他还觉得很好吃.,0 No,1 Adj,3 third/NP,0 No,1 Adj,3 third/NP,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2579,juede,/Erbaugh/Kang/18.cha,mother,MOT: 你不觉得这个比较好看吗?,2 CP,,2 second_person,2 CP,,2 second_person,1 polar_question,0 declarative,NA,NA,1 polar_question,0 declarative,NA,NA,2 不,NA,2 不,Yes,Yes,NA
-2580,juede,/Erbaugh/Kang/18.cha,mother,MOT: 你咳嗽我就觉得这个xxx.,0 No,2 NP,1 first_person,0 No,3 Incomplete,1 first_person,NA,,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
+2580,juede,/Erbaugh/Kang/18.cha,mother,MOT: 你咳嗽我就觉得这个xxx.,0 No,2 NP,1 first_person,0 No,3 Incomplete,1 first_person,0 declarative,,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2581,juede,/Erbaugh/Kang/18.cha,father,FAT: 我突然间觉得我会画画了.,2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2582,juede,/Erbaugh/Kang/19.cha,mother,MOT: 可是那时候我觉得粉蜡笔是大人或者是专家的专利.,2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2583,juede,/Erbaugh/Kang/19.cha,mother,MOT: 我小时候觉得粉蜡笔是很贵很不得了的东西.,2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
@@ -3868,7 +3868,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 2587,juede,/Erbaugh/Kang/20.cha,mother,MOT: 那么大家觉得这么凶的人做国王不可以.,2 CP,,3 third/NP,2 CP,,3 third/NP,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2588,juede,/Erbaugh/Kang/20.cha,mother,MOT: 他觉得他一看橘子里面外面的皮这么好看.,2 CP,,3 third/NP,2 CP,,3 third/NP,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2589,juede,/Erbaugh/Kang/20.cha,mother,MOT: 可是你觉得骆驼好不好看?,2 CP,,2 second_person,2 CP,,2 second_person,1 polar_question,3 base-generated wh/polar,NA,NA,1 polar_question,3 base-generated wh/polar,NA,NA,0 no negation,NA,0 no negation,No,No,NA
-2590,juede,/Erbaugh/Kang/20.cha,mother,MOT: 我觉得不太好看?,0 No,1 Adj,1 first_person,0 No,1 Adj,2 second_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
+2590,juede,/Erbaugh/Kang/20.cha,mother,MOT: 我觉得不太好看?,0 No,1 Adj,1 first_person,0 No,1 Adj,1 first_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2591,juede,/Erbaugh/Kang/20.cha,mother,MOT: 我就觉得它设计不好.,2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2592,juede,/Erbaugh/Kang/21.cha,mother,MOT: 如果老师觉得要洗一洗.,2 CP,,3 third/NP,2 CP,,3 third/NP,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2593,juede,/Erbaugh/Kang/21.cha,mother,MOT: 要是回来以后觉得眼睛还是痛呢就跟妈妈讲.,2 CP,,0 dropped,2 CP,,0 dropped,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,NA,NA,0 no negation,NA,0 no negation,No,No,NA
@@ -3929,7 +3929,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 2684,juede,/ChangPN/grade1/141.cha,investigator,EXP: 结果突然觉得脚痒痒的然后就往下看.,2 CP,,0 dropped,2 CP,,0 dropped,0 declarative,0 declarative,0 declarative,0 declarative,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2685,juede,/ChangPN/grade1/142.cha,investigator,EXP: 忽然我觉得脚好痒.,2 CP,,1 first_person,2 CP,,1 first_person,0 declarative,0 declarative,0 declarative,0 declarative,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2688,juede,/ChangPN/grade1/145.cha,investigator,"EXP: 好,你一想到那个就觉得很恐怖喔.",0 No,1 Adj,0 dropped,0 No,1 Adj,0 dropped,0 declarative,0 declarative,0 declarative,0 declarative,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
-2689,juede,/ChangPN/grade1/147.cha,investigator,EXP: 突然觉得脚怎么痒痒的.,2 CP,,0 dropped,2 CP,,1 first_person,0 declarative,0 declarative,0 declarative,2 wh_question,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
+2689,juede,/ChangPN/grade1/147.cha,investigator,EXP: 突然觉得脚怎么痒痒的.,2 CP,,0 dropped,2 CP,,0 dropped,0 declarative,0 declarative,0 declarative,2 wh_question,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2690,juede,/ChangPN/grade1/147.cha,investigator,EXP: 嚯我觉得好恶心喔!,0 No,1 Adj,1 first_person,0 No,1 Adj,1 first_person,0 declarative,0 declarative,0 declarative,0 declarative,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2691,juede,/ChangPN/grade1/149.cha,investigator,EXP: 昨天啊姊姊啊吃完饭以后就觉得肚子好痛好痛喔.,2 CP,,0 dropped,2 CP,,0 dropped,0 declarative,0 declarative,0 declarative,0 declarative,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
 2692,juede,/ChangPN/grade1/150.cha,investigator,EXP: 扫一扫[/]扫一扫突然觉得诶脚怎么痒痒的.,2 CP,,0 dropped,2 CP,,0 dropped,0 declarative,0 declarative,0 declarative,2 wh_question,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
@@ -4045,7 +4045,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 2975,juede,/BJCMC/0503_LL.cha,investigator,INV: 我觉得你拼的是对的.,2 CP,,1 first_person,2 CP,,1 first_person,NA,NA,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,0 no negation,NA,0 no negation,No,No,NA
 2976,juede,/BJCMC/0506_DD.cha,investigator,INV: 那你觉得它为什么叫成功线?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,3 how/why,3 base-generated wh/polar,NA,NA,3 how/why,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
 2977,juede,/BJCMC/0506_HH.cha,investigator,"INV: 上午还觉得有什么好玩的吗,你觉得?",2 CP,,0 dropped,2 CP,,0 dropped,NA,NA,1 polar_question,0 declarative,NA,NA,1 polar_question,2 wh_question,0 no negation,NA,0 no negation,Yes,Yes,NA
-2977_b,juede,/BJCMC/0506_HH.cha,investigator,"INV: 上午还觉得有什么好玩的吗,你觉得?",0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,4 tag_question,1 polar_question,NA,NA,NA,NA,0 no negation,NA,0 no negation,No,No,NA
+2977_b,juede,/BJCMC/0506_HH.cha,investigator,"INV: 上午还觉得有什么好玩的吗,你觉得?",0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,4 tag_question,1 polar_question,NA,NA,1 polar_question,NA,0 no negation,NA,0 no negation,No,No,NA
 2978,juede,/BJCMC/0506_HH.cha,investigator,INV: 不用动的你觉得好听吗?,0 No,1 Adj,2 second_person,0 No,1 Adj,2 second_person,NA,NA,1 polar_question,0 declarative,NA,NA,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
 2979,juede,/BJCMC/0506_HH.cha,investigator,INV: 那你觉得&-嗯钢琴老师喜欢吗?,0 No,0 No,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,0 declarative,NA,NA,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
 2980,juede,/BJCMC/0506_HH.cha,investigator,INV: 你觉得是菜吗?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,1 polar_question,0 declarative,NA,NA,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
@@ -4094,7 +4094,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 3104,juede,/NSCtoys/3-6/c18_2.cha,mother,MOT: 那你覺得/.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,NA,NA,0 declarative,,NA,NA,0 declarative,,0 no negation,NA,0 no negation,No,No,NA
 3105,juede,/NSCtoys/3-6/c18_2.cha,mother,MOT: 為什麼你覺得他很好?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,3 how/why,0 declarative,NA,NA,3 how/why,0 declarative,0 no negation,NA,0 no negation,No,No,NA
 3106,juede,/NSCtoys/3-6/c18_2.cha,mother,MOT: 喔你覺得你自己排得很整齊是不是?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,4 tag_question,0 declarative,NA,NA,4 tag_question,0 declarative,0 no negation,NA,0 no negation,No,No,NA
-3107,juede,/NSCtoys/3-6/c18_2.cha,mother,MOT: 可是我覺得還好沒有很整齊耶.,2 CP,,1 first_person,0 No,1 Adj,2 second_person,NA,NA,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,0 no negation,NA,0 no negation,No,No,NA
+3107,juede,/NSCtoys/3-6/c18_2.cha,mother,MOT: 可是我覺得還好沒有很整齊耶.,2 CP,,1 first_person,0 No,1 Adj,1 first_person,NA,NA,0 declarative,0 declarative,NA,NA,0 declarative,0 declarative,0 no negation,NA,0 no negation,No,No,NA
 3108,juede,/NSCtoys/3-6/c18_3.cha,mother,MOT: 你覺得那樣對嗎?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,4 tag_question,0 declarative,NA,NA,1 polar_question,0 declarative,0 no negation,NA,0 no negation,Yes,Yes,NA
 3109,juede,/NSCtoys/3-6/c18_3.cha,mother,MOT: 那你覺得這邊像哪裡?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,2 wh_question,3 base-generated wh/polar,NA,NA,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA
 3110,juede,/NSCtoys/3-6/c18_3.cha,mother,MOT: 這平平的你覺得應該在哪?,2 CP,,2 second_person,2 CP,,2 second_person,NA,NA,2 wh_question,3 base-generated wh/polar,NA,NA,2 wh_question,3 base-generated wh/polar,0 no negation,NA,0 no negation,No,No,NA

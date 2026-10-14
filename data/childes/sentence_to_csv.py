@@ -138,13 +138,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
     task = args.task
     if task != "extract_sentence" and args.check_file == None:
-        raise ValueError("need another input file")
+        raise ValueError("need another input file in .csv format")
     elif task in ["extract_full_dialogue", "check_duplicates"]:
         additional_file = args.check_file
-        additional_file_name = re.sub(r"\.txt$", "", additional_file)
+        additional_file_name = re.sub(r"\.csv$", "", additional_file)
     
     file_name = re.sub(r"\.txt$", "", args.input)
-    
     
     with open(args.input, "r", encoding="utf-8") as f:
         text = f.read()
