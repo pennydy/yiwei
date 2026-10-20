@@ -18,6 +18,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source("helpers.R")
 
 # 1. Data ----
+## 1.1 data loading ----
 no_context_blank.data <- read.csv("../../data/4_no_context_blank/4_no_context_blank_main-trials.csv", header=TRUE) %>% 
   filter(!workerid %in% c("476")) # responded all in English
 
@@ -64,6 +65,7 @@ no_context_blank_clean_data <- no_context_blank.data %>%
 # # save the clean dataset
 # write.csv(no_context_blank_clean_data, "../../data/4_no_context_blank/4_no_context_blank_main-trials_clean.csv", row.names=FALSE)
 
+## 1.2 summary ----
 no_context_blank_summary <- no_context_blank_clean_data %>% 
   group_by(condition, verb, discourse_type) %>% 
   summarize(accuracy = mean(response_num),
@@ -391,6 +393,69 @@ all_summary <- all_data %>%
          YMax = accuracy+CIHigh,
          context = fct_relevel(context, "presence", "absence"))
 
+### yiwei ----
+all_blank_yiwei_summary <- all_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "yiwei", 1, 0)) %>% 
+  group_by(condition, verb, discourse_type, context) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
+all_blank_participant_prop_yiwei <- all_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "yiwei", 1, 0)) %>% 
+  group_by(workerid, condition, verb, discourse_type, context) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
+all_blank_item_prop_yiwei <- all_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "yiwei", 1, 0)) %>% 
+  group_by(item_id, condition, verb, discourse_type, context) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
+### juede ----
+all_blank_juede_summary <- all_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "juede", 1, 0)) %>% 
+  group_by(condition, verb, discourse_type, context) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
+all_blank_participant_prop_juede <- all_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "juede", 1, 0)) %>% 
+  group_by(workerid, condition, verb, discourse_type, context) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
+all_blank_item_prop_juede <- all_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "juede", 1, 0)) %>% 
+  group_by(item_id, condition, verb, discourse_type, context) %>% 
+  summarize(prop_yiwei = mean(response_yiwei),
+            CILow = ci.low(response_yiwei),
+            CIHigh = ci.high(response_yiwei)) %>% 
+  ungroup() %>% 
+  mutate(YMin = prop_yiwei-CILow,
+         YMax = prop_yiwei+CIHigh)
+
+### by participant ----
 all_participant_accuracy <- all_data %>% 
   group_by(workerid, condition, verb, discourse_type, context) %>% 
   summarize(accuracy = mean(response_num),
@@ -482,6 +547,80 @@ all_plot_violin
 ggsave(all_plot_violin, file="graphs/all_blank-violin_no_legend.png", width=8, height=4)
 # ggsave(all_plot_violin, file="graphs/all_blank-violin_all-language_grey.png", width=8, height=4)
 
+### proportion of yiwei violin graph ----
+all_blank_yiwei_plot_violin <- ggplot(data=all_blank_item_prop_yiwei %>% 
+                                               mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+                                             aes(x=verb,
+                                                 y=prop_yiwei,
+                                                 fill=verb,
+                                                 alpha=discourse_type)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_point(aes(shape=discourse_type),
+             position=position_dodge2(width=.8,preserve = "single")) +
+  geom_violin(data=all_blank_participant_prop_yiwei %>% 
+                mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+              position=position_dodge(width=.8)) +
+  geom_boxplot(data=all_blank_participant_prop_yiwei %>% 
+                 mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+               width=0.1,
+               position=position_dodge(width=.8),
+               show.legend = FALSE) +
+  theme_bw() +
+  facet_grid(.~factor(context, levels=c("presence", "absence")),labeller=context_labeller) +
+  scale_fill_manual(values=cbPalette, guide = NULL) +
+  ylim(0,1)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  scale_shape_manual(values=c("constrained"=22, "unconstrained"=24), name="Discourse type") +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12)) +
+  guides(alpha = guide_legend(override.aes = list(fill = "grey40")))+
+  labs(x="Verb",
+       y="Proportion of yiwei")
+all_blank_yiwei_plot_violin
+ggsave(all_blank_yiwei_plot_violin, file="graphs/all_blank-violin_yiwei-violin.pdf", width=8, height=4)
+
+### proportion of yiwei violin graph ----
+all_blank_juede_plot_violin <- ggplot(data=all_blank_item_prop_juede %>% 
+                                        mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+                                      aes(x=verb,
+                                          y=prop_yiwei,
+                                          fill=verb,
+                                          alpha=discourse_type)) +
+  geom_hline(yintercept=0.5,linetype = "dashed", color="lightgrey")+
+  geom_point(aes(shape=discourse_type),
+             position=position_dodge2(width=.8,preserve = "single")) +
+  geom_violin(data=all_blank_participant_prop_juede %>% 
+                mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+              position=position_dodge(width=.8)) +
+  geom_boxplot(data=all_blank_participant_prop_juede %>% 
+                 mutate(verb = fct_relevel(verb, "yiwei", "juede")),
+               width=0.1,
+               position=position_dodge(width=.8),
+               show.legend = FALSE) +
+  theme_bw() +
+  facet_grid(.~factor(context, levels=c("presence", "absence")),labeller=context_labeller) +
+  scale_fill_manual(values=cbPalette, guide = NULL) +
+  ylim(0,1)+
+  scale_alpha_discrete(range = c(0.4, 0.9), name="Discourse type") +
+  scale_shape_manual(values=c("constrained"=22, "unconstrained"=24), name="Discourse type") +
+  theme(legend.position = "top",
+        axis.title.x = element_text(size = 14),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 14),
+        axis.text.y = element_text(size = 12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12)) +
+  guides(alpha = guide_legend(override.aes = list(fill = "grey40")))+
+  labs(x="Verb",
+       y="Proportion of yiwei")
+all_blank_juede_plot_violin
+ggsave(all_blank_juede_plot_violin, file="graphs/all_blank-violin_juede-violin.pdf", width=8, height=4)
+
 ### proportion of each response type ----
 all_type_plot <- ggplot(all_type_summary,
                         aes(x=discourse_type,
@@ -556,6 +695,25 @@ pairs(emmeans(all_model, ~context|discourse_type))
 pairs(emmeans(all_model, ~discourse_type|context))
 pairs(emmeans(all_model, ~context|verb))
 pairs(emmeans(all_model, ~verb|context))
+
+all_data_yiwei <- all_data %>% 
+  mutate(response_yiwei = if_else(response_clean == "yiwei", 1, 0))
+
+all_yiwei_model <- glmer(response_yiwei ~ verb * discourse_type * context + (1 + context|item_id) + (1+verb+discourse_type+context|workerid),
+                   data=all_data_yiwei,
+                   family=binomial,
+                   control = glmerControl(
+                     optimizer = "bobyqa",
+                     optCtrl = list(maxfun = 2e5)
+                   ))
+summary(all_yiwei_model)
+
+emmeans(all_yiwei_model, ~ verb * discourse_type * context, type = "response")
+pairs(emmeans(all_yiwei_model, ~context|discourse_type))
+pairs(emmeans(all_yiwei_model, ~discourse_type|context))
+pairs(emmeans(all_yiwei_model, ~context|verb))
+pairs(emmeans(all_yiwei_model, ~verb|context))
+
 
 # 5. Combined with Exp2 ----
 ## 5.1 data ----
