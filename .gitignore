@@ -28,6 +28,7 @@ data/childes/other_speakers/*
 data/childes/old_annotations/*
 data/childes/zhouAssessment_null_CP_full.csv
 data/childes/zhouAssessment_null_CP.csv
+data/childes/yiwei_clean_id.csv
 
 # analysis
 analysis/power_analysis/*.rds
@@ -39,4 +40,3 @@ writings/*.key
 writings/cogsci/*
 writings/bucld/*
 writings/updates/*
-

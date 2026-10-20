@@ -214,7 +214,7 @@ id,verb,file_name,speaker,sentence,embedded_CP_j1,embedded_content_j1,subject_j1
 894,zhidao,/Zhou2/72/fa07.cha,mother,MOT: 有了这个门字就是问你还知道?,0 No,0 No,2 second_person,0 No,0 No,2 second_person,4 tag_question,0 declarative,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 895,zhidao,/Zhou2/72/fa08.cha,mother,MOT: 你这个肯定知道.,0 No,0 No,2 second_person,0 No,0 No,2 second_person,0 declarative,,0 declarative,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 896,zhidao,/Zhou2/72/fa08.cha,mother,MOT: 知道吧?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,1 polar_question,,1 polar_question,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
-897,zhidao,/Zhou2/72/fa08.cha,mother,MOT: 知道吗?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,1 polar_question,,1 polar_question,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,Yes
+897,zhidao,/Zhou2/72/fa08.cha,mother,MOT: 知道吗?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,1 polar_question,,1 polar_question,,NA,NA,NA,NA,0 no negation,0 no negation,NA,Yes,NA,Yes
 898,zhidao,/Zhou2/72/fa08.cha,mother,MOT: 还知道啊?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,1 polar_question,,1 polar_question,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 899,zhidao,/Zhou2/72/fa08.cha,mother,MOT: 知道啊?,0 No,0 No,0 dropped,0 No,0 No,0 dropped,1 polar_question,,1 polar_question,,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No
 900,zhidao,/Zhou2/72/fa08.cha,mother,MOT: 你知道不足在哪里?,2 CP,,2 second_person,2 CP,,2 second_person,1 polar_question,2 wh_question,1 polar_question,2 wh_question,NA,NA,NA,NA,0 no negation,0 no negation,NA,No,NA,No

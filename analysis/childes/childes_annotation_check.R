@@ -115,7 +115,29 @@ ma_particle_diff.data <- data %>%
   filter(difference == "diff") %>% 
   select(!difference)
 write.csv(ma_particle_diff.data, "../../data/childes/annotation_diff/ma_particle_diff.csv", row.names = FALSE)
+nrow(ma_particle_diff.data) / nrow(data) # overall: 0.02
+ma_particle_diff.data %>% 
+  group_by(verb) %>% 
+  summarize(percentage = n()/nrow(data)) # juede: 0.0009, zhidao: 0.0233
 
+## 2.6 embedded CP ----
+embedded_CP_diff.data <- data %>% 
+  select(c("id", "verb", "file_name", "speaker", "sentence", starts_with("embedded_CP_"))) %>% 
+  mutate(difference = apply(
+    select(., starts_with("embedded_CP_")),
+    1,
+    function(x) {
+      values <- x[!is.na(x)] 
+      if_else(values[1] == values[2], "same", "diff")
+    }
+  )) %>% 
+  filter(difference == "diff") %>% 
+  select(!difference)
+write.csv(embedded_CP_diff.data, "../../data/childes/annotation_diff/embedded_CP_diff.csv", row.names = FALSE)
+nrow(embedded_CP_diff.data) / nrow(data) # overall: 0.04
+embedded_CP_diff.data %>% 
+  group_by(verb) %>% 
+  summarize(percentage = n()/nrow(data)) # juede: 0.013, zhidao: 0.033
 
 # 3 Reliability ----
 clean_data <- data %>% 
