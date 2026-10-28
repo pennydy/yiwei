@@ -10,7 +10,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="clean files")
     parser.add_argument("--input_id", "-id", type=str, default="juede_clean.txt")
     parser.add_argument("--input", "-i", type=str, default="juede_child_clean.txt")
-    parser.add_argument("--output", "-o", type=str, default="juede_child_clean_id.txt")
+    # parser.add_argument("--output", "-o", type=str, default="juede_child_clean_id.txt")
     args = parser.parse_args()
 
     # input_id: file that contains the ids to be matched
@@ -35,6 +35,8 @@ if __name__ == "__main__":
 
     # Step 2: Go through file B and annotate blocks with recovered sent_id
     output = []
+    output_file_name = re.sub(r"\.txt$", "", args.input)
+    print(f"Output file: {output_file_name}_id.txt")
     with open(args.input, "r") as f:
         current_id = None
         for line in f:
@@ -50,6 +52,6 @@ if __name__ == "__main__":
                 output.append(f"sent_id: {current_id if current_id else 'UNKNOWN'}\n")
             output.append(line)
 
-    with open(args.output, "w") as f:
+    with open(output_file_name + "_id.txt", "w") as f:
         f.writelines(output)
 
