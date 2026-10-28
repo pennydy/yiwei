@@ -1,5 +1,8 @@
 # load the library
 library(childesr)
+library(redivis)
+# install.packages("redivis", repos = "https://langcog.r-universe.dev")
+# remotes::install_github("langcog/childesr")
 library(dplyr)
 library(lme4)
 library(emmeans)
@@ -16,9 +19,56 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 sentencePalette <- c("#BEBADA", "#80B1D3") 
 embedPalette <- c("#BEBADA", "#8DD3C7") 
 embedfullPalette <- c("#E41A1C","#4DAF4A","#FFFF33")
+
 # access childes 
+
 # d_chi <- get_transcripts(collection = "Chinese")
 # head(d_chi)
+verbs <- c("以为", "认为", "觉得", "知道", "覺得", "以為")
+excluded_corpora <- c("ZhouAssessment", "LiReading")
+mandarin_corpora <- c(
+  "AcadLang",
+  "BJCMC",
+  "Chang1",
+  "Chang2",
+  "ChangPlay",
+  "ChangPN",
+  "Erbaugh",
+  # "LiReading",
+  "LiZhou",
+  "NSCtoys",
+  # "TCCM-Reading",
+  "TCCM",
+  "Tong",
+  "Xinjiang",
+  "Zhou1",
+  "Zhou2",
+  "Zhou3",
+  # "ZhouAssessment",
+  "ZhouDinner"
+  # "ZhouNarratives"
+)
+
+child_directed_tokens <- childesr::get_tokens(
+  language = "zho",
+  token = verbs,
+  role_exclude = "target_child",
+  db_version = "2026.1"
+)
+
+child_directed_tokens %>%
+  count(gloss, sort = TRUE)
+
+child_directed_utts <- childesr::get_utterances(
+  language = "zho",
+  corpus = mandarin_corpora,
+  role_exclude = "target_child",
+  db_version = "2026.1"
+) 
+unique(child_directed_utts$corpus_name)
+
+# Total number of utterances
+nrow(child_directed_utts) # 213336
 
 # 0. load the data ----
 # 16, 99: repeated for correction; 2, 23, 63, 79, 81: incomplete; 
