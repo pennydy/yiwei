@@ -777,7 +777,7 @@ yiwei_discourse <- yiwei_clean.data %>%
          matrix_sentence_type = if_else(sentence_type=="0 declarative", "declarative", "interrogative")) %>% 
   mutate(discourse_type = if_else(grepl("against", discourse_type, fixed=TRUE), "inferred", discourse_type)) %>% 
   mutate(discourse_type = if_else(discourse_type=="direct_p?", "p?", discourse_type)) %>% 
-  mutate(discourse_type = if_else(discourse_type %in% c("not_p", "p_alt", "pretend_play", "contrast_p", "uncertainty"), "contrast", discourse_type)) %>%
+  mutate(discourse_type = if_else(discourse_type %in% c("not_p", "p_alt", "pretend_play", "contrast_p", "uncertainty", "inferred"), "contrast", discourse_type)) %>% # inferred added as contrast because of the content, should use "inferred" for ways to identify the type of discourse info, not the actual type
   mutate(discourse_type = if_else(discourse_type == "disagreement", "p", discourse_type)) %>% 
   mutate(discourse_type = if_else(grepl("answer",discourse_type,fixed=TRUE), "p", discourse_type))
 
@@ -791,7 +791,8 @@ yiwei_discourse_sentence_summary <- yiwei_discourse %>%
   group_by(matrix_sentence_type, discourse_type) %>% 
   summarize(count = n(),
             percent = count/102 * 100) %>% 
-  ungroup()
+  ungroup() %>% 
+  mutate(verb = "yiwei")
 
 yiwei_matrix_clause_discourse_plot <- ggplot(yiwei_discourse_sentence_summary, 
                                              aes(fill=matrix_sentence_type, 
@@ -814,4 +815,4 @@ yiwei_matrix_clause_discourse_plot <- ggplot(yiwei_discourse_sentence_summary,
   labs(x="Matrix discourse type",
        y="Percentage of utterances")
 yiwei_matrix_clause_discourse_plot
-ggsave(yiwei_matrix_clause_discourse_plot, file="graphs/yiwei_matrix_type-discourse_plot.pdf", width=5, height=4)
+ggsave(yiwei_matrix_clause_discourse_plot, file="graphs/yiwei_matrix_type-discourse_plot_large.pdf", width=5, height=4)

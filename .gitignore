@@ -32,8 +32,13 @@ data/childes/yiwei_clean_id.csv
 data/childes/ZhouAssessment_juede_more_context_clean_id.txt
 data/childes/ZhouAssessment_juede_more_context_clean.txt
 data/childes/ZhouAssessment_juede_more_context.txt
-data/childes/practice_file_sentence_type_context-ZhouAssessment_full.csv
-data/childes/practice_file_sentence_type_context-ZhouAssessment.csv
+data/childes/ZhouAssessment_zhidao_more_context_clean_id.txt
+data/childes/ZhouAssessment_zhidao_more_context_clean.txt
+data/childes/ZhouAssessment_zhidao_more_context.txt
+data/childes/sentence_type_context-ZhouAssessment-juede_full.csv
+data/childes/sentence_type_context-ZhouAssessment-juede.csv
+data/childes/sentence_type_context-ZhouAssessment-zhidao_full.csv
+data/childes/sentence_type_context-ZhouAssessment-zhidao.csv
 
 # analysis
 analysis/power_analysis/*.rds
