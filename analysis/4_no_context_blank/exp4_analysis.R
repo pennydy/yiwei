@@ -51,10 +51,10 @@ no_context_blank_clean_data <- no_context_blank.data %>%
   ),
   response_type = case_when(
     str_detect(response, "以为|以為|以爲|当|當|假装|假裝|记成") ~ "contra",
-    str_detect(response, "觉得|覺得|认为|認為|認爲|感觉|感覺|相信|猜|赞成|贊成") ~ "non-belief", # 赞成(贊成) is not a belief verb but mental-state verb
+    str_detect(response, "觉得|覺得|认为|認為|認爲|感觉|感覺|相信|猜|赞成|贊成") ~ "nonfact-belief", # 赞成(贊成) is not a belief verb but mental-state verb
     str_detect(response, "知道|看到|发现|發現") ~ "factive-belief",
     str_detect(response, "怕|擔心|担心") ~ "factive-emotion",
-    str_detect(response, "说|説|說|講|讲|喊|叫|强调|告訴|告诉|承认|确认") ~ "non-say",
+    str_detect(response, "说|説|說|講|讲|喊|叫|强调|告訴|告诉|承认|确认") ~ "nonfact-say",
     str_detect(response, "要|想") ~ "ambiguous want",
     TRUE ~ "other"
   ),
