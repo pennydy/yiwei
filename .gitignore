@@ -35,7 +35,6 @@ data/childes/ZhouAssessment_juede_more_context.txt
 data/childes/practice_file_sentence_type_context-ZhouAssessment_full.csv
 data/childes/practice_file_sentence_type_context-ZhouAssessment.csv
 
-
 # analysis
 analysis/power_analysis/*.rds
 analysis/childes/graphs/old_annotations/*
@@ -46,4 +45,3 @@ writings/*.key
 writings/cogsci/*
 writings/bucld/*
 writings/updates/*
-writings/BUCLD_poster.pdf
